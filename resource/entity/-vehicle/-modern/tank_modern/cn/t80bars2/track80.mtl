@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "$/model/t80u/track"}
+	{blend test}
+}

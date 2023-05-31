@@ -1,0 +1,5 @@
+{material simple
+	{diffuse "pz4g"}
+	{emitsheat}
+{blend test}
+}

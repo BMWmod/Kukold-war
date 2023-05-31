@@ -1,0 +1,8 @@
+{material bump
+	{diffuse "$/model/t64/body"}
+	{bump "$/model/t64/body_bp"}
+	{specular "$/model/t64/body_sp"}
+	{color "255 255 255 25"}
+	{emitsheat}
+{blend none}
+}

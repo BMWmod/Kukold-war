@@ -1,0 +1,225 @@
+;Expotr,DEF by Pheonix
+;Pheonix game 2010 (c)
+;ASS edition by Pheonix
+
+{Entity
+	(include "/properties/tank.ext")
+	(include "/properties/shadow/tank.inc"  scale(1.4))
+	(include "/properties/selection/vehicle.inc"  scale(1.2))
+	{props "heavy_M" "turret_rotator" "vision_lev03" "KAZ" "kaz_arena" "has_apu" "remote_mgun" "has_autoloader"}		;менее заметен из-за сетки. KAZ - имеет активную защиту.
+	{targetSelector "tank"}
+
+	{extender "enumerator"}
+
+	{volume "body"
+		{tags "body"}
+		{component "body"}
+	}
+	{volume "turret"
+		{tags "turret"}
+		{component "turret"}
+	}
+	{volume "turret1"
+		{tags "turret"}
+		{component "turret"}
+	}
+
+        ("armor_heavy" turret(695 387 80 75) body(264 85 40 100))
+	("comp_armor_increment" turret(33) body(7))
+
+	("armor_mantlet" t(15))
+	("armor_engine"  t(50))
+
+	("d_a_Kontakt5") 
+
+	{extender "shield"
+		{on}
+	}
+
+	{component "shieldl1" {tags "shield"}}
+	{component "shieldl2" {tags "shield"}}
+	{component "shieldl3" {tags "shield"}}
+	{component "shieldl4" {tags "shield"}}
+	{component "shieldl6" {tags "shield"}}
+	{component "shieldr1" {tags "shield"}}
+	{component "shieldr2" {tags "shield"}}
+	{component "shieldr3" {tags "shield"}}
+	{component "shieldr4" {tags "shield"}}
+	{component "shieldr6" {tags "shield"}}
+
+	("shield_t-64a_1981")
+
+{volume "kaz_radar" {thickness 10} {component "kaz_radar"}}
+{component "kaz_radar"   {RepairTime 20}}
+("kaz_arena_armor")
+
+	("crew_3_human") 
+	{boarder
+		{anm "driver"
+			{forward	{begin	"board_pz4_driver"} {end "seat_gunner_stand"} {base "open_driver"}}
+			{reverse 	{end	"board_pz4_driver" -1} {base "open_driver" -1}}
+		}
+		{anm "left"
+			{forward	{begin	"board_tank_right"} {end "seat_gunner_stand"}}
+			{reverse 	{end	"emit_tank_2_hold"}}
+		}
+		{anm "right"
+			{forward	{begin	"board_tank_left"} {end "seat_gunner_stand"}}
+			{reverse 	{end	"emit_tank_2_hold"}}
+		}
+		{anm "armor"
+			{forward	{begin	"board_highArmor"} 	{end "pose_seat_armor_1"}}
+			{reverse 	{end	"emit_tank_2"}}
+		}
+		{anm "armor1"
+			{forward	{begin	"board_lowArmor"} {end "pose_seat_armor_2"}}
+			{reverse 	{end	"emit_body"}}
+		}
+		{anm "armor2"
+			{forward	{begin	"board_lowArmor"} {end "pose_seat_armor_1"}}
+			{reverse 	{end	"emit_body"}}
+		}
+	}
+	{sensor		;Прицелы искать!
+		{visor "driver"
+			{bone "Visor2"}
+		}
+		{visor "main"
+			{vision "tank_gunner_optic_IR_2g"}
+			{bone "Visor1"}
+		}
+		{visor "commander"				;соответствие визора и экипажа проверить!
+			{vision "vehicle_top_mgun"}
+			{bone "Visor3"}
+		}
+	}
+
+	(define "define_place"
+	{placer
+		{place "%place" {LinkBone "%bone"}{openForCrush} {turnoff {shadow}}{attach squat_lie}}
+	}
+	{boarder
+		{door "%door"}
+		{link "%door" "%place" {anm "%animation"} }
+	}
+	{Volume "%place"
+		{tags "attach" "attach_%place"}
+		{able clear {bullet 0} {touch 1}}
+	}
+)
+	("define_place" place(seat1) bone(seat01) door(emit3)  animation(armor1))
+	("define_place" place(seat2) bone(seat02) door(emit3)  animation(armor))
+	("define_place" place(seat3) bone(seat03) door(emit6)  animation(armor))
+	("define_place" place(seat4) bone(seat04) door(emit6)  animation(armor1))
+
+	{extender "inventory"
+		{weapon "mgun"
+			{mask "weapon mgun"}
+		}
+		{box
+			{item "ammo Hcb_ammo" 350}
+			{item "ammo 762Nato" 2400}
+			{item "ammo bullet125_RUS apcr_h" 17}
+			{item "ammo bullet125_RUS cm" 9}
+			{item "ammo bullet125_RUS cm_e" 2}
+			{item "ammo bullet125_RUS fg" 11}
+			{item "ammo bullet125_h_rus rok" 5}		
+			{item "Dshk_m" filled {user "mgun"}}
+			{item "ammo arena" 24}
+		
+		}
+	}
+
+	{Weaponry		
+		("restore_ik_time")
+		{place "gun"
+			{RestoreIKAfterAim}
+			{weapon "125mm_2A46M_4" filling "ammo bullet125_RUS apcr_h" 1}
+			{gunner "gunner"}
+			{charger "gunner"}			
+			("CW_stab_abm" abm(0.46))
+			("CW_stab_ldwind_suo")
+		}
+		{place "mgun"	
+			("abm_mgun_auto")
+			{type "mgun_aa"}
+			{gunner "charger"}
+			{charger "charger"}                 
+			{LinkBone "dshkm"}
+			{LinkAnimation "off"}
+			("abm_mgun2")
+			{basic}
+			("CW_stab_abm" abm(0.86))
+			("CW_stab_ldwind_suo")
+		}
+		{place "mgun1"
+			{type "mgun_coaxial"}
+			{weapon "M240" filled}
+			{foresight "foresight5"}
+			{gunner "gunner"}
+			{charger "gunner"}
+			("abm_mgun2")
+			{basic}
+			("CW_stab_abm" abm(0.87))
+			("CW_stab_ldwind_suo")
+		}
+
+		{place "mgun20"			;дым гранатометы
+			{type "mgun_right"}
+			{weapon "4xsmokegun_bredly" filled}
+			{gunner "gunner"}
+			{charger "gunner"}
+			{foresight "foresight20"}
+		}
+		{place "mgun21"			;дым гранатометы
+			{type "mgun_left"}
+			{weapon "4xsmokegun_bredly" filled}
+			{gunner "gunner"}
+			{charger "gunner"}
+			{foresight "foresight21"}
+		}
+	}
+
+	{mass 46000}
+	{Chassis
+		("tank_trace" fx("tracks_big") step(0.47) len(1.2))
+		("CW_tracks"		;http://bastion-karpenko.ru/t-80um1/
+			Mass(46)
+			Width(3.67)
+			Power(1250)
+			Realspeed(80)
+			Gamespeed(46) 
+			Range(562)
+			Fuelvolume(1840)
+		)
+	}
+
+ 
+	("two_headlights")
+	("cw_headlightt1")
+	{Extension "t80ym1.mdl"}
+	("cwts_buksir")
+
+	{bone "turret_mgun"
+		{speed 0.02}
+	}	
+	{bone "gun_rot"
+		{limits -5 14}
+             	{speed 0.005}
+	}
+	{bone "gun_rot1"
+		{limits -0 0}
+	}
+	{bone "foresight5"		
+		{limits -5 14}
+	}
+	{bone "turret_mgun"
+		{limits -75 75} 
+	}
+	{bone "mgun_rot"
+		{limits -5 75} 
+	}
+	;http://military.tomsk.ru/blog/topic-308.html
+	("CW_turr_speed" deg_per_s(35))
+	{texmod "kamo"}
+}
