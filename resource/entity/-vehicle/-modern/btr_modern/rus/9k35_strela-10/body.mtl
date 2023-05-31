@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "$/model/9k35_strela-10/strela10_body"}
+	{blend none}
+}

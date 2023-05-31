@@ -162,7 +162,8 @@
 		{box
 			{item "ammo bullet120_GER apcr" 21}
 			{item "ammo bullet120_GER cm" 20}
-			{item "ammo 762Nato" 4750}
+			{item "ammo Hcb_ammo" 300} 
+			{item "ammo PKM_ammo" 1250}
 			;{item "ammo smoke_shtora" 16}	
 		}
 	}
@@ -180,7 +181,7 @@
 		{place "mgun1"
 			("abm_mgun_auto")
 			{type "mgun_aa"}
-			{weapon "mg3_tank" filled}
+			{weapon "hcb" filled}
 			{linkbone "mgun2"}
 			{foresight "foresight6"}
 			{gunner "gunner2"}
@@ -190,7 +191,7 @@
 		}
 		{place "mgun"
 			{type "mgun_coaxial"}
-			{weapon "MG3" filled}
+			{weapon  "PKM" filled}
 			{foresight "foresight5"}
 			{gunner "gunner"}
 			{charger "gunner"} 

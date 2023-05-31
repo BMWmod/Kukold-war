@@ -1,0 +1,5 @@
+{material envmap
+	{diffuse "$/model/9k35_strela-10/strela10_glass"}
+	{mask "$/model/bumerang/mirror"}
+ 	{emitsheat}
+}

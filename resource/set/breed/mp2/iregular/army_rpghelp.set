@@ -1,0 +1,60 @@
+{breed
+	{skin "cw_syr_inf1"}
+	{portrait "_new/arb/inf"}
+	{icon "bazookers"}
+	{icon_priority 2}
+	{nationality arb}
+	{armors
+		{head pasgt_helmet_syr}
+	}
+
+	{perks
+		{"vision" mp_soldier
+		}
+		{"smg" lvl_2
+		}
+		{"mgun" lvl_2
+		}
+		{"rifle" lvl_2
+		}
+		{"rocketlauncher" lvl_3
+		}
+		{"pistol" lvl_1
+		}
+		{"gra_launch" lvl_3
+		}
+		{"melee" lvl_3
+		}
+		{"avoidance" lvl_3
+		}
+		{"health" "110%"
+		}
+		{"stamina" "110%"
+		}
+		{"stamina_regeneration" "110%"
+		}
+		{"speed" 0.8
+		}
+		{"stealth"}
+		{"field_glass"}
+		{"skill_tankgun" lev_1
+		}
+		{"skill_atgm_launcher" lev_2
+		}
+		{"skill_airgun" lev_1
+		}
+		{"skill_airgm_launcher" lev_1
+		}
+	}
+	{inventory
+		{item "tarzan_rpg"}
+		{item "Aks47" filling "ammo 762" 30}
+		{item "pg-7vl rpg7 ammo" 4}
+		{item "ammo 762" 150}
+		{item "rpg7_og-7v rpg7 ammo"}
+		{item "bandage" 10}
+		{item "sandbag_kit"}
+		{item "rkg3" 3}
+		{in_hands 1}
+	}
+}

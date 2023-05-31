@@ -1,0 +1,6 @@
+﻿{army
+	{id 2}
+	{title "mp/army/iregular"}
+	{icon "/interface/pages/multi/flag_isis"}
+	{flag "/interface/scene/common/flag-rus"}
+}

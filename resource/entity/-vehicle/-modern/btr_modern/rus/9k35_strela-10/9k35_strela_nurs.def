@@ -1,0 +1,81 @@
+{ArmoredCar 
+	(include "/properties/tank_amph.ext")
+	(include "/properties/shadow/tank.inc"  scale(1.2))
+	(include "/properties/selection/vehicle.inc"  scale(1.2))
+
+	{collider "tank.light"}
+	{props "strela10m3" "light_M" "turret_rotator" "truck" "tractor" "vision_lev04" "amphibia" "strela10" "sam"}
+        	{targetClass "light_tank"}
+			{targetSelector "missile"}
+	{PatherID "amphibia"}
+
+	{extension "crew.ext"}
+	{extender "enumerator"}
+
+	{volume "body"
+		{tags "body"}
+		{component "body"}
+	}
+	{volume "body1"
+		{tags "body"}
+		{component "body"}
+	}
+
+;	("armor_light" turret(7 7 7 1) body(14 7 1 5))	;точные данные есть только про лоб, но машина легкая, не более 7мм броня.
+	("armor_light" turret(5 5 0 5) body(10 8 7 7))	;должно быт ькак у МТЛБ
+	("armor_engine"  t(20))	
+
+	{extender "inventory"
+		{box
+			{Size 10 11}
+			{item "ammo C5 fg" 96}
+			{item "repair_kit" 1}
+			{item "netting_kit" 1}
+		}
+	}
+	{Weaponry
+		{place "gun2"
+			{weapon "57mm_uv_32_57x2_mtlb" filling "C5 cm ammo" 64}
+			{foresight "foresight2"}
+			{gunner "gunner"}
+			{charger "gunner"}	
+			{basic}
+			{Barrels 2}
+			{shooter "none"}
+		}
+		
+	}	
+	{sensor
+		{visor "main"
+			{vision "vehicle_main"}	;вообще нет приборов наблюдения, просто стекло.
+		}
+		{visor "pelengator"
+			{vision "pelengator_strela10_side"}
+			{bone "visor3"}
+		}
+	}
+	{mass 12300}
+	{Chassis					
+                ("tank_trace" fx("tracks_sm") step(0.15) len(0.15))
+		("CW_tracks"
+			Mass(12.3)
+			Width(3.15)
+			Power(230)
+			Realspeed(55)
+			Gamespeed(35) 
+			Range(600)
+			Fuelvolume(462)
+		)
+	}
+	{props "cwfs_fuel_400"}
+
+	("CW_amphibia" Waterline(1.1) )
+	("two_headlights")
+	{Extension "9k35_strela-10m3.mdl"}
+	("missile_aimpoint_wieselsize")
+
+	("cwts_buksir")
+
+	("cw_suspension_6tracks_alt" downmax(-0.1) upmax(0.2))
+}
+

@@ -771,7 +771,30 @@
 ("elite2_cn" side(cn) brig(cnmed))
 
 
-;Колабы
+;=========изис==========
+
+(define "common_troops"
+;Танкисты и водители
+("soldier"   breed(tankman)		side(%side) brig(%brig)	sc(10)	cp(-1)	cw(0)	c(0)	tags())
+("soldier"   breed(tankman2)		side(%side) brig(%brig)	sc(10)	cp(-1)	cw(0)	c(0)	tags())
+("soldier"   breed(tankman3)		side(%side) brig(%brig)	sc(10)	cp(-1)	cw(0)	c(0)	tags())
+("soldier"   breed(vehicle_supporter)	side(%side) brig(%brig)	sc(10)	cp(0)	cw(1)	c(0)	tags())
+("soldier"   breed(bazooker2)	side(%side) brig(%brig)	sc(10)	cp(0)	cw(1)	c(0)	tags())
+
+("soldier"   breed(army_com)		side(%side) brig(%brig)	sc(10)	cp(3)	cw(2)	c(3)	tags())
+("soldier"   breed(army_mgun)		side(%side) brig(%brig)	sc(10)	cp(3)	cw(2)	c(3)	tags())
+("soldier"   breed(army_mgunhelp)	side(%side) brig(%brig)	sc(10)	cp(3)	cw(2)	c(3)	tags())
+("soldier"   breed(army_radio)	side(%side) brig(%brig)	sc(10)	cp(3)	cw(2)	c(3)	tags())
+("soldier"   breed(army_rpg)	side(%side) brig(%brig)	sc(10)	cp(3)	cw(2)	c(3)	tags())
+("soldier"   breed(army_rpghelp)	side(%side) brig(%brig)	sc(10)	cp(3)	cw(2)	c(3)	tags())
+("soldier"   breed(army_smg)	side(%side) brig(%brig)	sc(10)	cp(3)	cw(2)	c(3)	tags())
+("soldier"   breed(army_smg2)	side(%side) brig(%brig)	sc(10)	cp(3)	cw(2)	c(3)	tags())
+("soldier"   breed(army_sniper)	side(%side) brig(%brig)	sc(10)	cp(3)	cw(2)	c(3)	tags())
+)
+
+
+("common_troops" side(iregular) brig(common))
+
 
 
 (define "geo_squad"

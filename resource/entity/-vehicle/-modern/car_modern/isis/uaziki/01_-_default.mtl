@@ -1,0 +1,5 @@
+{material simple
+	{diffuse "$/model/UAZ/166ece7e"}
+	{emitsheat}
+{blend blend}
+}

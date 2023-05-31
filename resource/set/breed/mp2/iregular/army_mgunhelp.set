@@ -1,0 +1,61 @@
+{breed
+	{skin "cw_syr_inf1"}
+	{portrait "_new/arb/inf"}
+	{icon "smgs"}
+	{icon_priority 0}
+	{nationality arb}
+	{armors
+		{head pasgt_helmet_syr}
+	}
+
+	{perks
+		{"vision" mp_mgunner
+		}
+		{"smg" lvl_3
+		}
+		{"mgun" lvl_3
+		}
+		{"rifle" lvl_2
+		}
+		{"rocketlauncher" lvl_1
+		}
+		{"pistol" lvl_1
+		}
+		{"gra_launch" lvl_3
+		}
+		{"melee" lvl_3
+		}
+		{"avoidance" lvl_3
+		}
+		{"health" "110%"
+		}
+		{"stamina" "110%"
+		}
+		{"stamina_regeneration" "110%"
+		}
+		{"speed" 0.8
+		}
+		{"stealth"}
+		{"field_glass"}
+		{"skill_tankgun" lev_1
+		}
+		{"skill_atgm_launcher" lev_2
+		}
+		{"skill_airgun" lev_1
+		}
+		{"skill_airgm_launcher" lev_1
+		}
+	}
+	{inventory
+		{item "tat_ba_7_assault"}
+		{item "bandage" 10}
+		{item "knife_rus"}
+		{item "rgd grenade" 3}
+		{item "pkm_ammo ammo" 400}
+		{item "AKMS" filling "ammo 762" 30}
+		{item "ammo 762" 180}
+		{item "sandbag_kit"}
+		{item "rkg3" 3}
+		{in_hands 5}
+	}
+}

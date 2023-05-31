@@ -1,7 +1,7 @@
 {from "pattern proj_weapon"
 	{tag "gun" "AA_missile" "prepare"}
     {Special
-		{Mode aim}
+		
 		{PrepareTime 0}
 		{PrepareCursor "aimed_shot_aa"}
 	}
@@ -9,7 +9,7 @@
 	{fillingVisible "Missile"}
 	{fireSound "bazooka/Javelin_shot"}	
 	{mass 50}
-	{recoveryTime 2.5}
+	{recoveryTime 2.3}
 	{rechargeTime 180}
 	{inventory {noView}}
 ;	{cursor "zenite_on"}

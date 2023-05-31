@@ -1,0 +1,134 @@
+;Created by Pheonix
+{entity
+	(include "/properties/car.ext")
+	(include "/properties/shadow/tank.inc"  scale(0.9))
+	(include "/properties/selection/vehicle.inc"  scale(1.1))
+	{mass 1410}
+	{props "vehicle" "car" "wheeled" "4_wheels" "turn_over" "vision_lev02" "-tractor" "with_open_zpu"}
+	{PatherId "vehicle.small"}
+	("armor_car_civilian")
+
+	{Volume "Body"
+		{tags "body"}
+		{component "body"}
+;		{thickness 7}
+	}
+	{Volume "Engine"
+		{tags "engine"}
+		{component "engine"}
+;		{thickness 5}
+	}
+
+	("wheel" args "wheelright1")
+	("wheel" args "wheelleft1")
+	("wheel" args "wheelright2")
+	("wheel" args "wheelleft2")
+
+	("crew_2_human")
+
+	{extender "enumerator"}
+
+	("board_animation"
+		place(driver)
+		board_begin(board_willis_driver)
+		board_end(seat_Willis_driver)
+		base(doorleft)
+	)
+	("board_animation"
+		place(commander)
+		board_begin(board_willis)
+		board_end(seat_Willis_passenger)
+		base(doorright)
+	)
+	
+	("board_animation"
+		place(passenger1)
+		board_begin(board_willis)
+		board_end(seat_Willis_passenger)
+		base(doorleft)
+	)
+	("board_animation"
+		place(passenger2)
+		board_begin(board_willis)
+		board_end(seat_Willis_passenger)
+		base(doorleft)
+	)
+
+	{boarder
+		{anm "gunner"
+			{forward	{begin	"board_LowTank_stand"} {end "seat_gunner_stand"}}
+			{reverse 	{end	"emit_tank_1_hold" 1}}
+		}
+	}
+	
+	{texmod "1"}
+	
+	("crew_human"		place(gunner)	bone(gunner)	door(emit3)		animation(gunner))
+	("crew_human" place(seat1)	bone(seat01)	door(emit1)	animation(passenger1))
+	("crew_human" place(seat2)	bone(seat02)	door(emit2)	animation(passenger2))
+;	("crew_human" place(gunner)	bone(gunner)	door(emit3)	animation(gunner))
+	
+	{placer
+		{place "driver"		{group "crew"} {visor "driver"}}
+		{place "commander"	{group "crew"} {visor "main"}}
+		{place "gunner"		{group "crew"} {turnoff {targetable 0}}}
+	}
+	
+	{sensor
+		{visor "driver"
+			{bone "visor1"}
+			{vision "moto_crew"}
+		}		
+		{visor "mgun"
+			{bone "gun_rot"}
+			{vision "vehicle_top_mgun"}
+		}	
+	}
+
+	{extender "inventory"
+		{weapon "mgun"
+			{mask "weapon mgun"}
+		}
+		{Box
+			{Size 10 10}
+			{weight 700}
+			{item "ammo 50Nato" 1000}
+			{item "browning_m2hb" filled {user "mgun"}}
+		}
+	}
+	{Weaponry
+		{place "mgun"
+			{LinkBone "mgun"}
+			{LinkAnimation "off"}
+			{charger "gunner"}
+			("abm_mgun")
+
+		}
+	}
+	{Chassis
+		("CW_wheels"
+			Mass(1.5)
+			Turnradius(7)
+			Power(75)
+			Realspeed(155)
+			Gamespeed(69) 
+			Range(500)
+			Fuelvolume(78)
+		)
+		("car_trace" fx("tracewheel04") step(0.08) wheell("wlf") wheelr("wrf") bonel("FXtraceL1") boner("FXtraceR1"))
+		("car_trace" fx("tracewheel04") step(0.08) wheell("wlr") wheelr("wrr") bonel("FXtraceL2") boner("FXtraceR2"))
+	}
+	{props "cwfs_fuel_70"}
+
+	("two_headlights")
+	{Extension "UAZ2.mdl"}
+	("missile_aimpoint_tanksize")
+
+
+	
+	{bone "mgun"
+		{limits -20 15}
+	}
+}
+
+

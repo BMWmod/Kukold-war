@@ -95,7 +95,7 @@
 			{Barrels 40}
 			{charger "commander"}
 			{gunner "commander"}
-			{StationaryFiring}
+			
 			{basic}
 			("CW_stab_no_stabiliser_grad")
 		}

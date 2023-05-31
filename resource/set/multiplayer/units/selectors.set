@@ -48,12 +48,18 @@
 {"persistent_marker_usa"           ("hqcar" c(1) brig(none) t(all all_nz marker) s(usa) n(2) g(marker)   sc(1) b(hqcar) i(7) cw(0) cp(0)) {cost 0.1}}
 {"persistent_marker_nato"           ("hqcar" c(1) brig(none) t(all all_nz marker) s(nato) n(2) g(marker)   sc(1) b(hqcar) i(7) cw(0) cp(0)) {cost 0.1}}
 {"persistent_marker_cn"           ("hqcar" c(1) brig(none) t(all all_nz marker) s(cn) n(2) g(marker)   sc(1) b(hqcar) i(7) cw(0) cp(0)) {cost 0.1}}
+{"persistent_marker_iregular"           ("hqcar" c(1) brig(none) t(all all_nz marker) s(iregular) n(2) g(marker)   sc(1) b(hqcar) i(7) cw(0) cp(0)) {cost 0.1}}
 
 
 
+{"iregular_vvs_mp_flag"           ("hqcar" c(1800) brig(iregular_vvs) t(all all_nz hqcar no_frontline_hqcar) s(iregular) n(2) g(hqcar_support)   sc(1) b(hqcar) i(1) cw(0) cp(-200)) {cost 70}}
+{"iregular_artbr_mp_flag"           ("hqcar" c(1800) brig(iregular_artbr) t(all all_nz hqcar) s(iregular) n(2) g(hqcar_support)   sc(1) b(hqcar) i(3) cw(0) cp(-200)) {cost 70}}
+{"iregular_mot_mp_flag"           ("hqcar" c(120) brig(iregular_mot) t(all all_nz hqcar) s(iregular) n(2) g(hqcar)   sc(1) b(hqcar) i(5) cw(0) cp(-200)) {cost 100}}
+{"iregular_specbr_mp_flag"           ("hqcar" c(120) brig(iregular_specbr) t(all all_nz hqcar) s(iregular) n(2) g(hqcar)   sc(1) b(hqcar) i(7) cw(0) cp(-200)) {cost 100}}
 
 ;------------------dummies for no-brigade mode to deal with button bug
 {"rus_dummy_flag"           ("hqcar" c(120) brig(mot) t(all all_nz hqcardummy) s(rus) n(2) g(hqcardummy)   sc(1) b(hqcardummy) i(8) cw(0) cp(-200)) {cost 100}}
 {"usa_dummy_flag"           ("hqcar" c(120) brig(usarmy) t(all all_nz hqcardummy) s(usa) n(2) g(hqcardummy)   sc(1) b(hqcardummy) i(8) cw(0) cp(-200)) {cost 100}}
 {"nato_dummy_flag"           ("hqcar" c(120) brig(abn) t(all all_nz hqcardummy) s(nato) n(2) g(hqcardummy)   sc(1) b(hqcardummy) i(8) cw(0) cp(-200)) {cost 100}}
 {"chi_dummy_flag"           ("hqcar" c(120) brig(abn) t(all all_nz hqcardummy) s(chi) n(2) g(hqcardummy)   sc(1) b(hqcardummy) i(8) cw(0) cp(-200)) {cost 100}}
+;{"iregular_dummy_flag"           ("hqcar" c(120) brig(abn) t(all all_nz hqcardummy) s(iregular) n(2) g(hqcardummy)   sc(1) b(hqcardummy) i(8) cw(0) cp(-200)) {cost 100}}

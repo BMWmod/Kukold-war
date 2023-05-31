@@ -1,0 +1,58 @@
+{breed
+	{skin "cw_syr_inf2"}
+	{portrait "_new/arb/inf"}
+	{icon "smgs"}
+	{icon_priority 0}
+	{nationality arb}
+	{armors
+		{head cap_wool}
+	}
+
+	{perks
+		{"vision" mp_soldier
+		}
+		{"smg" lvl_2
+		}
+		{"mgun" lvl_2
+		}
+		{"rifle" lvl_2
+		}
+		{"rocketlauncher" lvl_2
+		}
+		{"pistol" lvl_1
+		}
+		{"gra_launch" lvl_3
+		}
+		{"melee" lvl_3
+		}
+		{"avoidance" lvl_3
+		}
+		{"health" "110%"
+		}
+		{"stamina" "110%"
+		}
+		{"stamina_regeneration" "110%"
+		}
+		{"speed" 0.8
+		}
+		{"stealth"}
+		{"field_glass"}
+		{"skill_tankgun" lev_1
+		}
+		{"skill_atgm_launcher" lev_2
+		}
+		{"skill_airgun" lev_1
+		}
+		{"skill_airgm_launcher" lev_1
+		}
+	}
+	{inventory
+		{item "tarzan"}
+		{item "bandage" 10}
+		{item "AKM" filling "ammo 762" 30}
+		{item "knife_rus"}
+		{item "ammo 762" 240}
+		{item "rkg3" 3}
+		{in_hands 2}
+	}
+}

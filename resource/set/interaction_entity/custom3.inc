@@ -240,6 +240,8 @@
 	}
 	("abrams_sound")
 }
+
+
 {"begleitpanzer_57"
 	{on spawn
 		{add_view	"exhaust_dark_small"	"exhaust"		"FXsmoke"}

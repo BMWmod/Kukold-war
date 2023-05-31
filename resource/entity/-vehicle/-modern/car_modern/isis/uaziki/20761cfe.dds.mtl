@@ -1,0 +1,8 @@
+{material bump
+	{diffuse "$/model/UAZ/20761cfe"}
+	{bump "$/model/UAZ/20761cfe_bp"}
+	{specular "$/model/UAZ/20761cfe_sp"}
+	{color "255 255 255 25"}
+	{emitsheat}
+{blend none}
+}
