@@ -1,0 +1,15 @@
+;Created by Pheonix 
+{from "weapon pg_nato"
+	{entity "m79"}
+	{inventory
+		{size 5 1}
+		{fsm "belt"}
+		{link_bone "gun_back"}
+	}
+	{reloadSound "m79_reload"}
+	{aimRange 76}
+	{maxRange 76}
+	{spreading 
+		{SpreadRadius 0.9}
+	}
+}

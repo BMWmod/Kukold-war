@@ -1,0 +1,44 @@
+;Addon
+{from "pattern sniper_rifle"
+("scope")
+
+	{tag "reliability_medium"}
+	{filling "ammo 556Nato" 30} ;556
+	{curve "556_100"}
+	{mass 3.5} 
+	{entity "star21"}
+	{special
+		{mode aim}
+		{PrepareTime 6.0}
+		{PrepareCursor "aimed_shot"}
+		;{damage 1} ; damage *= x
+		{accuracy 1.2} ; aim_range *= x
+		;{throw_off}
+	}
+
+	{fireSound	"smg/tar21_fire"}
+	{reloadSound "tar21_reload"}
+	{speed 280}
+	{inventory
+		{size 4 2}
+	}
+	
+
+	{recoveryTime 0.07}
+	{rechargeTime 2.5}
+
+	("marksman_range")
+        
+        {Automatic}
+
+	{burst
+		{short 4 2}
+		{long 12 4}
+	}
+	{healthDamage 73}
+        ("accuracy_optic_sight"  moa(2.0))	;http://www.calguns.net/calgunforum/showthread.php?t=762488
+        ("accuracy_optic_sight_77"  moa(2.0))	;http://www.calguns.net/calgunforum/showthread.php?t=762488
+	{cursor "sniper"}
+	{cursorReloading "cannon_reload_all"}
+              
+}

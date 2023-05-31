@@ -1,0 +1,8 @@
+;Cold War
+{from "ak74b"
+	{entity "ak74m_1p29"}
+	("smg_range")
+	
+	("accuracy_collimator"  moa(3.2))
+	{mass 4.2}      
+}

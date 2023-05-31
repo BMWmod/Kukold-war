@@ -1,0 +1,170 @@
+;Exported by: Timosh
+;Date:        Mon Mar 30 07:56:01 2020
+;File:        G:\?????? ? Pheonix\??????????????\??? ??????\??????\????\???\??? ??\RUS_laser_designator_D-26 final.max
+{Skeleton
+	{animation
+		{sequence "close"}
+	}
+	{bone "basis"
+		{parameters "Wheelradius=0.4;"}
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "body"
+			{parameters "ID=body;"}
+			{Position 1.11256	-0.823153	6.64122}
+			{VolumeView "body.ply"}
+			{bone revolute "gun"
+				{parameters "ID=gun;"}
+				{limits -30 30}
+				{speed 0.02}
+				{Position 0.323113	0.28899	2.13049}
+				{VolumeView "gun.ply"}
+				{bone "visor"
+					{Matrix34
+						0.999942	0.010744	0
+						-0.0101938	0.999948	0
+						0	0	1
+						-0.773086	2.84535	2.14216
+					}
+				}
+				{bone revolute "foresight1"
+					{limits -30 30}
+					{speed 0.02}
+					{Matrix34
+						0.999942	0.0107442	0
+						0	0	1
+						0.0101939	-0.999948	0
+						3.93496	-0.900701	2.55224
+					}
+				}
+				{bone "handle"
+					{Matrix34
+						1	0	0
+						0	0	-1
+						0	1	0
+						-0.290539	3.46046	-0.748144
+					}
+				}
+			}
+			{bone "part2"
+				{parameters "ID=body;"}
+				{Matrix34
+					0.866025	0.5	0
+					-0.5	0.866025	0
+					0	0	1
+					-1.05952	1.63096	1.50394
+				}
+				{VolumeView "part2.ply"}
+			}
+			{bone "part3"
+				{parameters "ID=body;"}
+				{Matrix34
+					0.866025	-0.5	0
+					0.5	0.866025	0
+					0	0	1
+					-0.868732	-1.47639	1.50394
+				}
+				{VolumeView "part3.ply"}
+			}
+			{bone "part1"
+				{parameters "ID=body;"}
+				{Position 1.87568	-1.64778	1.50394}
+				{VolumeView "part1.ply"}
+			}
+		}
+		{bone "gunner"
+			{Position -14.8222	-0.171182	0}
+		}
+		{bone "emit1"
+			{Position -10.025	1.07702	0}
+		}
+		{bone "driver"
+			{Position 10.1609	-5.06593	0}
+		}
+		{bone "support1"
+			{Position 13.1329	-0.950964	0}
+		}
+		{bone "support2"
+			{Position -4.75935	9.31999	0}
+		}
+		{bone "suppor3"
+			{Position -4.71345	-11.4759	0}
+		}
+	}
+}
+{Volume "body"
+	{Box 4.94282 3.87012 4.18646}
+	{Bone "body"}
+	{Position 0.126354	-0.0212232	-0.255565}
+}
+{Volume "gun"
+	{Box 10.7688 7.76231 6.31095}
+	{Bone "gun"}
+	{Matrix34
+		0.746199	0.00780972	0
+		-0.00788864	0.753739	0
+		0	0	0.75
+		0.220283	0.992619	1.95116
+	}
+}
+{Volume "part1"
+	{Box 0.949554 1.62563 11.8791}
+	{Bone "part1"}
+	{Matrix34
+		-0.707107	0	-0.707107
+		0	1	0
+		0.707107	0	-0.707107
+		4.46099	1.44281	-3.66739
+	}
+}
+{Volume "part2"
+	{Box 0.949554 1.62563 11.8791}
+	{Bone "part2"}
+	{Matrix34
+		0	-0.707107	-0.707107
+		-1	0	0
+		0	0.707107	-0.707107
+		0.0211864	4.76403	-3.66739
+	}
+}
+{Volume "part3"
+	{Box 0.949554 1.62563 11.8791}
+	{Bone "part3"}
+	{Matrix34
+		0	0.707107	-0.707107
+		1	0	0
+		0	-0.707107	-0.707107
+		0.0600066	-5.0879	-3.66739
+	}
+}
+{Volume "select"
+	{Box 23.5372 21.8775 1.42883}
+	{Bone "basis"}
+	{Position 2.34993	-0.299805	0.714413}
+}
+{Extender "preview"
+	{"Stuff"
+		{camera
+			{origin -28.1446	37.9812	16.1779}
+			{lookat -6.65987	8.5225	7.35665}
+			{fov 45}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position -4.67926	9.4326	9.71079}
+			}
+			{"1"
+				{type directional}
+				{direction -0.308663	-0.34005	-0.197721}
+			}
+			{"2"
+				{type point}
+				{position -6.61492	10.4345	9.63851}
+			}
+		}
+	}
+}

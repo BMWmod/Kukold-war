@@ -1,0 +1,183 @@
+{tags
+	{"00" "Yeah, a conversation... They will raise the alarm soon."}
+	{"01" "He is done, alive."}
+	{"02" "Got him, alive."}
+	{"03" "Commander, we have a captive!"}
+	{"04" "Ha, a lieutenant. He will burn all in the farm."}
+	{"05" "Says - a sergeant. Good enough, but he shouldn't know all positions in the farm."}
+	{"06" "Just a private. He knows some positions, but not very useful."}
+	{"07" "Who's stamping over there? Look where you're stepping! We must go away, yankees will comb everything around there."}
+	{"08" "Hush!"}
+	{"09" "Looks like we're lucky. But only till next time."}
+	{"10" "Hey, a lieutenant. I'll ask him about patrols in the forest."}
+	{"11" "Says - a sergeant. Good enough, but he shouldn't know all patrols through the forest."}
+	{"12" "What a rascal! We've got an officer. He knows all positions in the villiage."}
+	{"127" "Got him!"}
+	{"128" "Burn!"}
+	{"129" "Blown him up!"}
+	{"13" "He is SAM operator. He knows nothing about patrols and ground forces, but he'd burned all SAMs' locations."}
+	{"130" "Burst, skunk!"}
+	{"131" "Minus one."}
+	{"132" "Yes!"}
+	{"133" "Hit him!"}
+	{"134" "One less!"}
+	{"14" "Ha, a lieutenant. He has told about patrols in the villiage."}
+	{"15" "He's a sergeant. He has told about several patrols in the villiage."}
+	{"16" "Exellent trophy. He is the comendant of station Abazovka. He knows every patrol on the station's territory."}
+	{"17" "We've got a lieutenant. He knew every patrol on the station's territory."}
+	{"18" "Commander, we have a sergeant. At least something. He will definitely burn somebody at the station."}
+	{"19" "Commander! We've managed to capture helicopters' guards commander. Now we know enemy dislocation in that zone."}
+	{"20" "He's a pilot. He can tell about helicopter patrols."}
+	{"21" "Commander, we've got an HQ major. All enemy positions are in our pocket."}
+	{"22" "Commander, we have general Palmer!"}
+	{"23" "Lads, no way to land, prepare chutes."}
+	{"24" "Ok, heading to jump-up site. Good luck!"}
+	{"25" "So, I'll remind again: our target is US 1st tank division HQ, located on station Abazovka. The HQ is well protected from both land and air. Also, yankees can use several Apaches from nearby helipad, and in this case our mission will become almost impossible."}
+	{"26" "We need plan of operation against our 10'th tank division. The assault will start this morning. This documents should be in HQ, but we can also interrogate one of staff officers, or even the division commander himself."}
+	{"27" "If possible, we shall to assist our troops by any means. May be, blowing up bridges and vehicles, derailing trains, killing manpower. It would be great to capture the division commander alive. Alright, we don't have much time before dawn - let's go."}
+	{"28" "After completing the task we should transport documents or captive to the helicopter. Grishenko will call it, and we will secure the landing zone at the field on the north-west, near the barn."}
+	{"29" "Steal the notebook with plan of the operation from the HQ or capture one of the staff officers and deliver him to the extraction point."}
+	{"30" "Listen,Semyon, I've never taken a captive. What does it look like after all?"}
+	{"31" "Just a piece of cake: if you just don't need a patrol member - simply cut his throat by knife. But things become more complicated if you need a captive. Crowl to hib from behind, or else he will start to scream or call reinforcements, yankees have one soldier with good radio in each patrol. When you're close, don't use knife or firearms, use only bare hands. Somebody likes sambo or judo, I prefer AK's butt. That's done, just tie him up, drag to safe place and he will sing as nightingale."}
+	{"32" "So, crawl from the back, no shooting, no knifes, bare hands only. When he is senseless - tie up and interrogate. Got it."}
+	{"33" "To take captive, you should kill enemy soldier in melee. He will be considered as stunned and tied up. If your soldier is close to captive and there is no enemies nearby, he will be interrogated and several enemies will be revealed."}
+	{"34" "I shall remind: each patrol and each vehicle has long-range encrypted radio. Grishenko can use our radio to transmit and receive messages on enemy's frequency, but we need codes. Codes can be found in any enemy radiostation."}
+	{"35" "I shall also remind that enemy patrols will periodically make control sessions with HQ, and codephrases can be found only from patrol commander, typically he is platoon commander.  We possibly could recognize him by plastic glasses and night sight on helmet. He must be taken alive."}
+	{"36" "We've reached HQ. Search the notebook with operation plan inside the building."}
+	{"37" "Alright, we have the notebook with data about the operation. Now we can leave."}
+	{"38" "Evacuate with operation plan by helicopter."}
+	{"39" "We have a captive, he kniws plan of the operation. We must get him to the extraction point alive."}
+	{"40" "Fomin on Ka-50Sh will provide air support. We were supplied by laser targeting device, we can use it to light any target, and fomin will launch air-to-ground missile. But the station is covered by SAMs, it must be taken into account."}
+	{"41" "Call Ka-50Sh and use laser targeting device to guide Kh-25ML"}
+	{"42" "Call Ka-50Sh"}
+	{"43" "Ground, light the target! I'll launch after lockon!"}
+	{"44" "Missile away! Have one more, performing evasive maneuver, waiting for second target."}
+	{"45" "Ready for the second launch."}
+	{"46" "I'm empty, heading back to base. Good luck, lads!"}
+	{"47" "I see the railway bridge. It's railroad Kiev-Poltava, yankees use it to deliver reinforcements. If this bridge will be destroyed, it will be problematic for them to reinforce theirs troops after yesterday battle. We can also blow up trains."}
+	{"48" "Destroy the railway bridge."}
+	{"49" "Destroy or damage trains carrying tanks."}
+	{"50" "Wow, great kaboom! That's what we call railroad war."}
+	{"51" "That's the railroad. To make an IED could be a good idea. Do yankees know about old fashist trick - to push an empty platform before locomotive, like mine trawl?"}
+	{"52" "Well done, this train has been destroyed."}
+	{"53" "Both trains are junk, well done."}
+	{"54" "It seems that trains have passed station. One more problem for our troops."}
+	{"55" "Well, one train has passed, but at least we've bothered them. Let's proceed."}
+	{"56" "Well, at least we've jammed them. It could be better, but some enemy troops will be late."}
+	{"57" "USA division commander is somewhere here. Recon says he is general Dana Pittard. He is negro, wears officer's beret."}
+	{"58" "Kill 1st tank division commander general Pittard."}
+	{"59" "Capture general Pittard alive and take him to the evaq helicopter."}
+	{"60" "Yankee's division commander is dead."}
+	{"61" "It looks like MLRS with tactical missiles. They are very dangerous for our radars and SAMs, it'll be better to blow them up right here."}
+	{"62" "Good work. MLRS are destroyed."}
+	{"63" "Destroy MLRS ATACMS"}
+	{"64" "Call Mi-17"}
+	{"65" "Call Mi-17 for evaquation"}
+	{"66" "Prevent high losses. Deliver heavily wounded or dead to the evaq helicopter. Grishenko must survive."}
+	{"67" "Radioman Grishenko is dead."}
+	{"68" "You've lost too many diversants."}
+	{"69" "USA 1st Armoured Division losses percentage: %1%"}
+	{"70" "Lads, Fomin is down! We must find him and get away from here, if he still alive."}
+	{"71" "Hey, capitain, are you alive?"}
+	{"72" "Find Ka-50 pilot Fomin and escort him to the evaq helicopter."}
+	{"73" "Oh, damn... Looks like I'm fine. Oh, who was so smart to take me down?"}
+	{"74" "Capitain, let's go with us. we are going to evaq bu heli, you'll be on your base at the dawn."}
+	{"75" "He is dead. What a pity, he was a real ace. He was even called to \"Bercuts\" - but he stayed in regular troops..."}
+	{"76" "Go here, all of you, help wounded, take dead! Specnaz leaves nobody behind!"}
+	{"77" "Get wounded and dead here! We can't leave them here!"}
+	{"78" "That's all, we're leaving!"}
+	{"79" "Hush! Looks like there is somebody in the barn."}
+	{"80" "He is civilian. Why he is here, I thought they had already been evaquated?"}
+	{"81" "Hey, friend, why are you here?"}
+	{"82" "Huh? You... You are soldiers, right? Not NATO ones?"}
+	{"83" "Yeah, we're Russians. Why hasn't you evaquated?"}
+	{"84" "My wife was ill... Sent children, stayed myself. Thought they won't harm... They came, americans, killed my wife, killed one more guy, tractor-driver, shot me. I... was unconcious, didn't killed..."}
+	{"85" "Don't warry, we won't leave you here. Paramedic!"}
+	{"86" "No need in paramedic. That's all, I'm leaving... But listen' I'm local... Americans are on the station, right? There is a passage... through the swamp... with stakes... map in the pocket..."}
+	{"87" "Thank you. They will pay."}
+	{"88" "Passage through the swamp."}
+	{"89" "Did you listen? They are moving the HQ! It's our last chance. We can intercept them between station and helipad. At the worst we can just take the helicopter down - somebody can survive or we'll found documents on the corpse. But if the heli will leave our sector - all is lost."}
+	{"90" "Notebook with plans is unreachable, all HQ officers are dead or left the sector."}
+	{"91" "Diversion complete."}
+	{"92" "Mi-17 destroyed, the group was not able to evaq in time."}
+	{"93" "Lads, this is Mi-17. The base reports that our bombers have just smashed central railway station in Kiev, but they are being pursued by whole airwing. If we're going to evaq, we must do it now! I'm going to land in LZ and wait for you until I can, but if my hely will be seen by yankees - I'm dead man. Hurry, they will find evaq zone soon!"}
+	{"94" "Yankees have installed barbwires and I don't have wirecutters. But locals can have it, we could examine tractors."}
+	{"95" "Barbwire can be cut by soldier with wirecutters in hand. Select this soldier and left-click on the barbwire."}
+	{"96" "2 june 2016, 22:00. A group of diversants is arriving near railway station \"Abazovka\", dislocation of 1st USA tank division."}
+	{"97" "Faster, faster. now or never!"}
+	{"detected" "Here they are! Alert!"}
+	{"detected_body" "Damn, he is dead! There are enemy somewhere nearby. Alert!"}
+	{"general1" "Major, we will rebase at field HQ. Wake them up, they are short in time, and HQ equipment must be deployed immediately after our arrival. Gentlemen, let's go."}
+	{"has_radio" "Ha, he has given up! We've investigated a captive and know passwords of this patrol. We can trick theirs HQ for some time, but not very long. We must hurry."}
+	{"has_radio1" "Commander, he had radio! We can listen their radio frequency, but we don't know passwords for this patrol. They will rise alert at first check!"}
+	{"has_radio2" "Commander, we have a vehicle without crew. I've written frequencies and passwords. Now we can listen theirs radio transmissions and they won't notice it."}
+	{"has_radio_secret" "Commander, this yankee was in ambush, in the forest. We're lucky - they don't check like other patrols, yankees won't notice he is missing."}
+	{"sq00" "This is patrol SQF1. It's quiet here."}
+	{"sq00_" "We've lost patrol member, I repeat, we've lost patrol member!"}
+	{"sq01" "This is patrol SQF2. Just a forest, nothing more."}
+	{"sq02" "This is SQF3. Nothing at all."}
+	{"sq03" "It's SQH1. It's calm and quiet."}
+	{"sq04" "This is SQH2. Nothing unusual."}
+	{"sq05" "Patrol SQH3, nothing too."}
+	{"sq06" "Patrol SQH4, no hostiles detected."}
+	{"sq07" "It's SQV1, just a meadow."}
+	{"sq08" "It's SQV2. Corporal Cook mumbles something, but he is sleeping. Nothing important, I think."}
+	{"sq09" "It's SQV3. Kick corporal Cook, and he'll stop mumbling."}
+	{"sq10" "This is SQV4. All is normal."}
+	{"sq11" "This is SQB1. It's calm and quiet."}
+	{"sq12" "It's  SQB2. The swamp is chilling..."}
+	{"sq13" "This is SQB3. Main entrance is under control."}
+	{"sq14" "This is SQB4. North-east, nothing detected."}
+	{"sq15" "It's SQB5. Nothing at minefield."}
+	{"sq16" "It's SQB6. It's quiet here."}
+	{"sq17" "It's SQB7. West post, no enemy presence."}
+	{"sq18" "This is SQB8, reporting from the helipad. People are working hard."}
+	{"sq19" "It's SQB9. Nothing unusual."}
+	{"sq20" "It's SQB11. Railroad patrol goes well."}
+	{"sq21" "It's SQB12. Just a frog, proceeding to the next waypoint."}
+	{"sq22" "This is SQS1, the river is calm."}
+	{"sq23" "This is SQS3. The station is ready to deploy the reinforcements."}
+	{"sq24" "It's SQS4. Warehouse seems to be empty, nothing unusual."}
+	{"sq25" "This is SQB10. No enemy detected."}
+	{"sq26" "It's SQS2. Nothing to worry about."}
+	{"sq_cont00" "What? Who is it? Damn, we have a situation here."}
+	{"sq_cont01" "To all patrols. This is patrol control officer. Make control reports."}
+	{"sq_cont02" "Ok, girls, now do what you were trained for. The designated zone should be so clean and secure, that I could go on it in full uniform. Do you copy?"}
+	{"sq_cont03" "Reaper 3, take off when you'll be ready."}
+	{"sq_cont04" "Patrol control, this is team Bravo. We're ready to recon."}
+	{"sq_cont05" "Negative, patrol control, we can't search them in the swamp. I will  surround it. Ok, team, make unpasable line along the railroad."}
+	{"sq_cont06" "General Sir, I think it's not safe here. Russian saboteurs are already inside the perimeter."}
+	{"sq_cont07" "Agreed. Major, we will rebase at field HQ. Wake them up, they are short in time, and HQ equipment must be deployed immediately after our arrival. Jentlemen, let's go."}
+	{"task1" "Paradrop in the landing zone"}
+	{"tr00" "Reporting: troops that have been successfully retreated from Poltava"}
+	{"tr01" "All 4 Grad MLRS reached theirs destination"}
+	{"tr02" "3 Grad MLRS reached theirs destination"}
+	{"tr03" "2 Grad MLRS reached theirs destination"}
+	{"tr04" "1 Grad MLRS reached theirs destination"}
+	{"tr05" "Ka-50 reached field helipad"}
+	{"tr06" "Ka-50 was destroyed near Poltava"}
+	{"tr07" "Ka-50 pilot Fomin is alive"}
+	{"tr08" "Ka-50 pilot Fomin is missing"}
+	{"tr09" "Captain Doronin has sucessfully retreated to 10 tank division dislocation"}
+	{"tr10" "Error during save load - Doronin not found. 5 mission can be impassable."}
+	{"tr11" "All Grad MLRS have been destroyed"}
+	{"tr12" "No tanks have reached dislocation"}
+	{"tr13" "1-2 tanks have reached dislocation"}
+	{"tr14" "3-4 tanks have reached dislocation"}
+	{"tr15" "5 or more tanks have reached dislocation"}
+	{"tr16" "No APCs or IFVs have reached dislocation"}
+	{"tr17" "1-3 APCs or IFVs have reached dislocation"}
+	{"tr18" "4-7 APCs or IFVs have reached dislocation"}
+	{"tr19" "8 or more APCs or IFVs have reached dislocation"}
+	{"tr20" "No infantry have reached dislocation. Error during save load is possible."}
+	{"tr21" "Doronin group includes less than 20 soldiers."}
+	{"tr22" "Doronin group includes 21-50 soldiers."}
+	{"tr23" "Doronin group includes 51-100 soldiers."}
+	{"tr24" "Doronin group includes more than 100 soldiers."}
+	{"date" "2 june 2016, 22:00"}
+	{"name" "Snake head"}
+	{"name_big" "Snake head"}
+	{"outro_completed" "Diversants have succesfully found plan of operation against our 10'th tank division. According it, 1 USA tank division would attack to the east, heading Davydovka. 170 infantry brigade had arrived that night and would attack our 448 brigade near Zaturino. It was only a few hours until strike..."}
+	{"outro_failed" "Diversants have failed their mission, and enemy actions were unexpected and energetic. 10 tank division was surrounded and after 4 days was completely destroyed by airstrikes. Enemy troops were rushing to the east."}
+	{"place" "\"Abazovka\" station, to the west from Poltava"}
+}

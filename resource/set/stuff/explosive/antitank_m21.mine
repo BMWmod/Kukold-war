@@ -1,0 +1,13 @@
+{item
+	{tag "smallitemin1hand dropboxed antitank mine fx_90_110"}
+	{entity "mine_antitank_m21"}
+	{inventory
+		{weight 100}
+		{fsm "stuff"}
+	}
+	{mass 7.82}
+;5кг взрывчатки Composition H6 (расчетная масса 1,92кг коэфф 0.5/1,3).
+;Для подземных ПТ мин надо убирать первые две фугасные волны, т. к. грунт мешает распространению удара в стороны.
+	{damage add blastwave {energy 2.5} {area 2.3 2.6}}
+	{damage cumulative {damage 150} {distance 3}}
+}

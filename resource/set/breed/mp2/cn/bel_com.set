@@ -1,0 +1,29 @@
+{breed
+	{skin "cw_bel_com"}
+	{portrait "_new/bel/inf"}
+	{icon "officer"}
+	{icon_priority 1}
+	{tags "officer"}
+	{nationality rus}
+	{armors
+		{head "6b47_valken_bel"}
+	}
+
+	(include "perks_generic.inc")
+	("traits_army_com")
+	{inventory
+		{item "bel_vest_smg"}
+		{item "545 ammo" 210}
+		{item "smoke rdg2b grenade"}
+		{item "smoke rdg2b grenade"}
+		{item "binocular"}
+		{item "smoke rdg2b grenade"}
+		{item "bandage" 5}
+		{item "rgd grenade" 2}
+		{item "f1 grenade" 2}
+		{item "ak74m_1p78" filling "545 ammo" 30}
+		{item "smoke rdg2b grenade" 2}
+		{item "sandbag_kit"}
+		{in_hands 9} 
+	}
+}

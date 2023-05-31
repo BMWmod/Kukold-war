@@ -1,0 +1,9 @@
+{actor
+	(include "/properties/projectile.ext")
+	{Extension "sam_carrier_offset_far_forward.mdl"}
+	("missile_placer" missile("krasnopol_impactor") country(rus) type(laser_spot) calibre(152)
+	speed(fast) guidance(prop))
+	("maneuvrability_SAM_cwps3" deg_per_s(23))
+	("arc_attack" country(rus) type(laser_spot) weapon(missilets_arc_160))
+	{targetSelector "laser_guided_shell"}
+}

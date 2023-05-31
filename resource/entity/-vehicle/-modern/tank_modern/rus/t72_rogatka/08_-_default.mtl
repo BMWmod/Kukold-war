@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "dz2_df"}
+	{bump "dz2_bp"}
+	{specular "dz2_sp"}
+	{color "229 229 229 25"}
+	{blend none}
+}

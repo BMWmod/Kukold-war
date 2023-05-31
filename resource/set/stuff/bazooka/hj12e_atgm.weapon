@@ -1,0 +1,19 @@
+{from "pattern proj_weapon_ground"
+	{tag "rocketlauncher" "to_hand ap" "cannot_lie" "nokeep"}
+	{filling "ammo red_arrow12_rock" 1}
+	{rechargeTime 20}
+	{inventory
+		{size 6 2}
+	}
+	{aimRange 150}	;daylight_only
+	{maxRange 150}
+	{entity "hj12e_atgm"}
+	{mass 5}
+	{fireSound "bazooka/Javelin_shot"}
+	{reloadSound "chn/Metis_reload"}
+	;{cursor "JAV"}
+	;{cursorReloading "JAV_reload"}
+	{cursor "cannon_on_heat_2"}
+	{cursorReloading "cannon_reload_heat"}
+	;{cursorReloading "cannon_reload_heat_timer_20"}
+}

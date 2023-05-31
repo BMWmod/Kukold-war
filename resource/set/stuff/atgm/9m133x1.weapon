@@ -1,0 +1,32 @@
+{from "pattern proj_weapon_ground"
+	{tag "gun"}
+	{filling "ammo 9m133" 1}
+	{fillingVisible "rocket"}
+              {fireSound "bazooka/konkurs_launch"}
+			  {reloadSound "atgm_reload/kornet_reload"}
+	{mass 7}
+	{recoveryTime 3}
+	{rechargeTime 30}
+	{inventory {noView}}
+	;{cursor "zenite_on"}
+	;{cursorReloading "zenite_reload"}
+	{cursor "cannon_on_heat_2"}
+	{cursorReloading "cannon_reload_heat"}
+	;{cursorReloading "cannon_reload_heat_timer_30"}
+	("damage" a(1) b(1) c(1) d(1) e(1))
+	{projectileDamage 0}
+              {maxRange 180}	
+	{aimRange 180}
+	{parameters "fg"
+                          {maxRange 190}
+		{aimRange 190}
+		{cursor "cannon_on_fg_7"}
+	             {cursorReloading "cannon_reload_fg"}
+	            ;{cursorReloading "cannon_reload_fg_timer_30"}
+	}
+	{parameters "tb"
+		{cursor "therm_on"}
+	             {cursorReloading "cannon_reload_fg"}
+		;{cursorReloading "cannon_reload_fg_timer_30"}
+	}
+}

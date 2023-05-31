@@ -1,0 +1,22 @@
+{from "pattern proj_weapon_air"
+	
+	{tag "gun"}
+	{filling "ammo germes" 4}
+	{fillingVisible "rocketH"}	
+	{foresight "Foresight3"}
+        {fireSound "bazooka/Ka50_tr"}
+	{mass 25}
+	{recoveryTime 5}
+	{rechargeTime 160}
+	{inventory {noView}}
+	{maxRange 280}
+	{aimRange 280}
+	{calibre 5}
+	;{cursor "Ka52"}
+	;{cursorReloading "zenite_reload"}
+	{cursor "cannon_on_heat_2"}	
+	{cursorReloading "cannon_reload_heat"}
+	;{cursorReloading "cannon_reload_heat_timer_160"}
+;	("damage" a(1000) b(1000) c(1000) d(1000) e(1000))
+;	("accuracy_9k121") 
+}

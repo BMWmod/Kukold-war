@@ -1,0 +1,14 @@
+{breed
+	{behaviour civilian}
+	{skin "cw_civilian4_cu"}
+	{portrait "_new/civilian/civilian3"}
+	{icon "civilian"}
+	{icon_priority 0}
+	{nationality rus}
+
+	(include "perks_generic.inc")
+	("traits_civilian")
+	{inventory
+		{item "medkit"}
+	}
+}

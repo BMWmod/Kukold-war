@@ -1,0 +1,16 @@
+{game_entity
+	(include "/properties/building.inc")
+	{Extension "usa_cottage1st_1w3.mdl"}
+	{props "cornered" "wood" "parts" "construction" "wall" "burning" "no_destroyed_stamp"}
+	("armor_heavy" args 0.8)
+	{Volume "body1"
+		{Tags  "body"}
+		{Thickness 2}
+		{able {visible 0}}
+	}
+	{Volume "body2"
+		{Tags  "body"}
+		{Thickness 2}
+		{able {visible 0}}
+	}
+}

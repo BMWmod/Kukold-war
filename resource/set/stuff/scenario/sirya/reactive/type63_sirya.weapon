@@ -1,0 +1,8 @@
+{from "type63 weapon"
+		{aimRange 600}
+		{maxRange 600}
+		{gravity 0.4}
+		{speed 50}
+}	
+
+

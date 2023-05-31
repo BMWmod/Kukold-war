@@ -1,0 +1,32 @@
+;Cold War
+{from "pattern pistol"
+	{tag "reliability_medium"}
+	{filling "ammo 9mm" 30}
+	{curve "9x19_40"}
+	{inventory
+		{size 2 2}
+		{weight 100 }
+		{fsm "pistol"}
+	}
+	{mass 1.4}         
+	{entity "tmp"}
+	{fireSound	"smg/tmp/"}
+	{reloadSound "M16_reload"}
+	{speed 260}	
+	{cursor "tmp"}
+	{cursorReloading "cannon_reload_all"}
+	{recoveryTime 0.06}
+	{Automatic}
+        {rechargeTime 3.0}
+
+	("smg_range_custom"  k(0.5))
+	
+	{burst
+		{short 2 1}
+		{long 6 2}
+{rangeKoef 0.444}
+	}
+	{healthDamage 39}
+	("accuracy_open_sight"  moa(5))
+	("accuracy_open_sight_40"  moa(5))
+}

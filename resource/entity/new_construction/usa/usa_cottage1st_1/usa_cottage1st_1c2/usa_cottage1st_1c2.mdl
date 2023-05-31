@@ -1,0 +1,191 @@
+;Exported by: Timosh
+;Date:        Tue Jun 21 18:29:56 2022
+;File:        G:\?????? ? Pheonix\??????????????\??????\?????? ? ???????\???\???????????? ??????????? ???????\cottage1 final.max
+{Skeleton
+	{bone "usa_cottage1st_1c2"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "usa_cottage1st_1c2.ply"}
+		{bone "exterior"
+			{Position -1.62141	-4.34878	72.4537}
+			{VolumeView "exterior.ply"}
+		}
+		{bone "window3"
+			{Matrix34
+				0	1	0
+				-1	0	0
+				0	0	1
+				-1.66149	25.7626	26.3132
+			}
+			{VolumeView "window3.ply"}
+		}
+		{bone "window4"
+			{Position 27.0899	-0.166153	26.2942}
+			{VolumeView "window4.ply"}
+		}
+		{bone "window3_x"
+			{Matrix34
+				0	1	0
+				-1	0	0
+				0	0	1
+				-1.66149	25.7626	26.3132
+			}
+			{visibility 0}
+			{VolumeView "window3_x.ply"}
+		}
+		{bone "window4_x"
+			{Position 27.0899	-0.166153	26.2942}
+			{visibility 0}
+			{VolumeView "window4_x.ply"}
+		}
+		{bone "attach3"
+			{Matrix34
+				0	1	0
+				-1	0	0
+				0	0	1
+				-0.629875	12.1761	0
+			}
+		}
+		{bone "attach4"
+			{Position 13.067	0.481766	0}
+		}
+	}
+}
+{Obstacle "body1"
+	{Obb2
+		{Center 2.75242 -23.1353}
+		{Extent 22.7941 2.6569}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body" "fire"}
+}
+{Obstacle "body2"
+	{Obb2
+		{Center -30.3022 -23.1353}
+		{Extent 12.9926 2.6569}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body" "fire"}
+}
+{Obstacle "body6"
+	{Obb2
+		{Center 24.6683 -0.843658}
+		{Extent 2.6569 24.3897}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body" "fire"}
+}
+{Area "interior"
+	{Obb2
+		{Center -20.6906 7.71132}
+		{Extent 44.7587 31.074}
+		{Axis -1 0}
+	}
+	{Rotate}
+}
+{Volume "body1"
+	{Box 5.31379 45.5882 56.6138}
+	{Bone "usa_cottage1st_1c2"}
+	{Matrix34
+		0	1	0
+		-1	0	0
+		0	0	1
+		2.75242	23.1353	28.3069
+	}
+}
+{Volume "body2"
+	{Box 5.31379 25.9853 32.2699}
+	{Bone "usa_cottage1st_1c2"}
+	{Matrix34
+		0	1	0
+		-1	0	0
+		0	0	1
+		-30.3022	23.1353	16.1349
+	}
+}
+{Volume "body3"
+	{Box 5.31379 43.1356 19.6846}
+	{Bone "usa_cottage1st_1c2"}
+	{Matrix34
+		0	1	0
+		-0.866025	0	0.425858
+		0.58705	0	0.866025
+		0.587555	23.1353	58.8831
+	}
+}
+{Volume "body4"
+	{Box 5.31379 15.0974 17.7752}
+	{Bone "usa_cottage1st_1c2"}
+	{Matrix34
+		0	1	0
+		-0.866025	0	0.425858
+		0.58705	0	0.866025
+		-22.266	23.1353	73.7869
+	}
+}
+{Volume "body5"
+	{Box 5.31379 15.0974 11.1984}
+	{Bone "usa_cottage1st_1c2"}
+	{Matrix34
+		0	1	0
+		-0.866025	0	0.425858
+		0.58705	0	0.866025
+		-31.394	23.1353	81.5136
+	}
+}
+{Volume "body6"
+	{Box 5.31379 48.7794 56.6138}
+	{Bone "usa_cottage1st_1c2"}
+	{Position 24.6683	0.843658	28.3069}
+}
+{Volume "body7"
+	{Box 5.31379 14.6338 18.6826}
+	{Bone "usa_cottage1st_1c2"}
+	{Position 24.6683	-29.9428	47.179}
+}
+{Volume "hole3"
+	{Box 12.3051 24.872 26.1811}
+	{Bone "usa_cottage1st_1c2"}
+	{Matrix34
+		0	1	0
+		-1	0	0
+		0	0	1
+		-1.40696	24.8919	26.2071
+	}
+}
+{Volume "hole4"
+	{Box 12.3051 24.872 26.1811}
+	{Bone "usa_cottage1st_1c2"}
+	{Position 27.058	-0.610748	26.2007}
+}
+{Volume "roof1"
+	{Box 67.2739 63.0828 6.59106}
+	{Bone "exterior"}
+	{Matrix34
+		0.8552	0	-0.441443
+		0	1	0
+		0.608534	0	0.8552
+		5.24924	4.77575	-3.52624
+	}
+}
+{Volume "window3"
+	{Box 2.28656 24.6726 26.403}
+	{Bone "window3"}
+	{Position -0.193176	-0.111	0.159916}
+}
+{Volume "window4"
+	{Box 2.28656 24.6726 26.403}
+	{Bone "window4"}
+	{Matrix34
+		-1	0	0
+		0	-1	0
+		0	0	1
+		-0.00494385	-0.0497437	0.178898
+	}
+}

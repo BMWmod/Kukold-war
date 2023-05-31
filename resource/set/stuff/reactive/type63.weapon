@@ -1,0 +1,27 @@
+{weapon_bullet
+	{tag "gun" "weapon" "skill_tankgun" "bullet"}	;"bullet" is needed for work of levelling and skills
+	("heavy_artillery")
+	{filling "ammo type63_rocket" 12}
+	{fireSound "reactive/type63"}
+	{burst {short 0} {long 1} {noaiming}} ;noaiming мешает стрельбе по триггеру в СтА
+;	{burst {min 20} {short 20} {long 20}} ;нужно для стрельбы по триггеру
+	{Automatic} ;нужно для стрельбы по триггеру
+	{recoveryTime 0.5}
+
+		{range 187 187}  
+		{aimRange 182}
+		{maxRange 182}
+		{rechargeTime 90}
+		("CW_acc_artillery" mils(5))	;неизвестна
+		{Spreading	
+        {SpreadPower	1.70}
+	    }
+		
+		{gravity 2.25}
+		("speed_mrls")
+;		{aimtype adaptive}
+		{cursor "cannon_on_fg_l"}
+		{cursorReloading "cannon_reload_fg"}
+}	
+
+

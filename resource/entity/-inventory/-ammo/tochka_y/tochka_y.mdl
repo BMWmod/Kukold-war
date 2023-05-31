@@ -1,0 +1,65 @@
+;Exported by: Администратор
+;Date:        Thu Mar 12 04:34:56 2015
+;File:        C:\Documents and Settings\Администратор\Мои документы\3dsMax\scenes\WIC\tochka_rock.max
+{Skeleton
+	{bone "obj0001"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "obj0001.ply"}
+		{bone "tail"
+			{Matrix34
+				1	0	0
+				0	0	1
+				0	-1	0
+				-63.1955	-0.00637017	0.223073
+			}
+		}
+	}
+}
+{Volume "body"
+	{Box 124.248 12.5727 13.3123}
+	{Bone "obj0001"}
+	{Matrix34
+		1	0	0
+		0	0	1
+		0	-1	0
+		-0.955837	0.210019	1.37409
+	}
+}
+{Volume "select"
+	{Box 124.248 12.5727 13.3123}
+	{Bone "obj0001"}
+	{Matrix34
+		1	0	0
+		0	0	1
+		0	-1	0
+		-0.955837	0.210019	1.37409
+	}
+}
+{Extender "preview"
+	{"Stuff"
+		{camera
+			{origin -24.0281	238.463	70.2631}
+			{lookat -8.15285	13.9908	3.60554}
+			{fov 31.7555}
+			{horizon -0.170174}
+		}
+		{lights
+			{"0"
+				{type directional}
+				{direction -0.0617883	-0.242933	0.432626}
+			}
+			{"1"
+				{type point}
+				{position 2.75503	1.20945	-1.87906}
+			}
+			{"2"
+				{type point}
+				{position -0.660342	1.2078	-1.43493}
+			}
+		}
+	}
+}

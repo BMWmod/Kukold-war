@@ -1,0 +1,17 @@
+{game_entity
+	{Extension "usa_cottage1st_2c6_x.mdl"}
+	{Volume "piece1"
+	}
+	{Volume "piece2"
+	}
+	{Volume "piece3"
+	}
+	{Volume "piece4"
+	}
+	{Volume "piece5"
+	}
+	{Volume "piece6"
+	}
+	{Volume "piece7"
+	}
+}

@@ -1,0 +1,64 @@
+﻿;Created by Pheonix 
+{from "pattern tank_gun"    ; "BMP3"
+   	
+	{filling "2a70ammo"}
+	{fireSound "gun/2A70"}
+	{reloadSound "bmp3_reload"}
+	{rechargeTime 6} ;https://www.npovk.ru/produktsiya/artilleriyskoe-vooruzhenie/2a70/
+	{range 140 140}
+	;{cursor "1PZ10"}
+	;{cursorReloading "1PZ10_reload"}
+	{cursor "cannon_on_fg_4"}
+	{cursorReloading "cannon_reload_fg"}
+	("speed" s(330)) ;по баллистике
+	;для 3УОФ17 при скорости 250 м/с угол возвышения пушки 18,6 градусов
+	{gravity 2}
+	{ZeroingAccuracy 1}
+	("100-128caliber")
+	{calibre 5}
+;              ("accuracy_4" r1(2.4) r2(3.3) r3(4.7) r4(6.3))
+	("CW_acc_common" mils(1.0))	;http://otvaga2004.mybb.ru/viewtopic.php?id=1371&p=4#p692813
+	("CW_acc_common_140" mils(1.0))	;http://otvaga2004.mybb.ru/viewtopic.php?id=1371&p=4#p692813
+	{Spreading	
+	    ;{SpreadPower	1.7}
+		{SpreadXYRatio	0.7}
+	}
+	("damage4" a(0.3) b(0.3) c(0.3) d(0.3) e(0.3))   ; 
+;	{projectileDamage 0}
+	; a - 20, b - 50, c - 80, d -100, e - 120 
+	{parameters "bullet100a_RUS rok"             ; 9m117m1 Аркан 5500м http://btvt.narod.ru/4/bmp3mod.htm
+		{range 140 140}                      ; 4000м ограничение по СУО.
+		("CW_acc_common" mils(0))
+		("CW_acc_common_170" mils(0))
+		;{cursor "1K13"}
+		;{cursorReloading "1K13_reload"}
+		{cursor "cannon_on_heat_2"}
+		{cursorReloading "cannon_reload_heat"}
+		{speed 1000}
+	}
+	{parameters "cm"
+	("CW_acc_common" mils(0.4))	;http://otvaga2004.mybb.ru/viewtopic.php?id=1371&p=4#p692813
+	("CW_acc_common_140" mils(0.4))	;http://otvaga2004.mybb.ru/viewtopic.php?id=1371&p=4#p692813
+	}
+        {parameters "bullet100a_RUS_h fg"
+		("CW_acc_common" mils(0.66))
+		("CW_acc_common_170" mils(0.66))
+		;{cursor "1PZ10"}
+		;{cursorReloading "1PZ10_reload"}
+		{cursor "cannon_on_fg_4"}
+		{cursorReloading "cannon_reload_fg"}
+		("speed" s(355))
+		{range 140 140}
+		
+        }		
+        {parameters "bullet100a_RUS_h rok"             ; 9m117m Кан 4000м 
+		{range 140 140}
+		("CW_acc_common" mils(0))
+		("CW_acc_common_140" mils(0))
+		;{cursor "1K13"}
+		;{cursorReloading "1K13_reload"}
+		{cursor "cannon_on_heat_2"}
+		{cursorReloading "cannon_reload_heat"}
+	        {speed 1000}
+	}			
+}

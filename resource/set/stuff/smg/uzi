@@ -1,0 +1,33 @@
+;Addon
+{from "pattern smg"
+	{tag "reliability_medium"}
+	{filling "ammo 9mm" 32} ;9 μμ
+	{curve "9x19_40"}
+	{mass 3.7} 
+	{entity "uzi"}
+	{fireSound	"smg/Uzi"}
+	{reloadSound "chn/Uzi_reload"}
+	{speed 260}
+        {inventory
+		{size 3 2}
+	}
+	
+	{cursor "uzi"}
+	{cursorReloading "cannon_reload_all"}
+	{recoveryTime 0.10}
+        {rechargeTime 2}
+
+	("smg_range_custom" k(0.5))
+	
+
+	{burst
+		{short 2 1}
+		{long 6 2}
+{rangeKoef 0.444}
+	}
+	{healthDamage 42}
+        
+        ("accuracy_open_sight"  moa(6)) ;http://www.uzitalk.com/forums/showthread.php?50546-UZI-Accuracy
+        ("accuracy_open_sight_40"  moa(6)) ;http://www.uzitalk.com/forums/showthread.php?50546-UZI-Accuracy
+              
+}

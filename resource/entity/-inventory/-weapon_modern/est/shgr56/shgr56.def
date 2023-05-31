@@ -1,0 +1,15 @@
+;Model by Pheonix
+{actor
+	(include "/properties/stuff_grenade.ext")
+	(include "/properties/shadow/round.inc")
+	{extension "shgr56.mdl"}
+	("camera_handgrenade" scale(1))
+	{extender "stuff"
+		{item "shgr56"}
+	}
+	{nogroupmesh 1}
+	{props "grenade"}
+	{volume "body"
+		{able {contact}}
+	}
+}

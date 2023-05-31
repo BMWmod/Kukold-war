@@ -1,0 +1,29 @@
+{breed
+	{skin "cw_ukr_smg"}
+	{portrait "_new/ukr/inf"}
+	{icon "officer"}
+	{icon_priority 1}
+	{tags "officer"}
+	{nationality ukr}
+	{armors
+		{head "1m_helmet_ua"}
+	}
+
+	(include "perks_generic.inc")
+	("traits_army_com")
+	{inventory
+		{item "korsar3m"}
+		{item "545 ammo" 210}
+		{item "standart ammo" 24}
+		{item "knife_union"}
+		{item "binocular"}
+		{item "makarov" filling "standart ammo" 8}
+		{item "bandage" 5}
+		{item "rgd grenade" 2}
+		{item "f1 grenade" 2}
+		{item "ak74m_1p78" filling "545 ammo" 30}
+		{item "smoke grenade" 2}
+		{item "sandbag_kit"}
+		{in_hands 9} 
+	}
+}

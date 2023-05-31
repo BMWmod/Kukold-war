@@ -1,0 +1,25 @@
+{breed
+	{skin "cw_rus_vkpo_marines"}
+	{portrait "_new/rus/marine"}
+	{icon "bazookers"}
+	{icon_priority 2}
+	{nationality rus}
+	{armors
+		{head "6b47che1_headphones"}
+	}
+
+	(include "perks_generic.inc")
+	("traits_specnaz_bazooker")
+	{inventory
+		{item "6b45-1_rpg7"}
+		{item "ak12_1p87_tactical" filling "545 ammo" 30}
+		{item "545 ammo" 120}
+		{item "rpg7 weapon" filling "pg-7vl rpg7 ammo" 1}
+		{item "pg-7vl rpg7 ammo" 2}
+		{item "pg-7vl rpg7 ammo"}
+		{item "bandage" 10}
+		{item "smoke rdg2b grenade"}
+		{item "sandbag_kit"}
+		{in_hands 1}
+	}
+}

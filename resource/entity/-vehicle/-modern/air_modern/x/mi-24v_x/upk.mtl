@@ -1,0 +1,5 @@
+{material simple
+	{diffuse "$/model/mi-24v/upk-23-250"}
+	{emitsheat}
+{blend none}
+}

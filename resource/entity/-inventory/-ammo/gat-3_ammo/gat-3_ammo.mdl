@@ -1,0 +1,56 @@
+;Exported by: Kasutaja
+;Date:        Fri Sep  9 14:26:37 2022
+;File:        C:\Users\Kasutaja\Desktop\DZG-141\GAT-3 rocket.max
+{Skeleton
+	{bone "gat-3"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "gat-3.ply"}
+		{bone "tail"
+			{parameters "Voxels=0;"}
+			{Matrix34
+				1	0	0
+				0	0	-1
+				0	1	0
+				-2.00471	-0.0302727	0.0055953
+			}
+		}
+	}
+}
+{Volume "body"
+	{Polyhedron "body.vol"}
+	{Bone "gat-3"}
+	{Position 6.69448	-0.162196	-2.56321}
+}
+{Volume "select"
+	{Box 18.7402 4.72441 4.72441}
+	{Bone "gat-3"}
+	{Position 6.62762	-0.0643283	-0.105358}
+}
+{Extender "preview"
+	{"Stuff"
+		{camera
+			{origin 1.34608	1.90932	-31.5177}
+			{lookat 3.3823	0.00437951	7.89371}
+			{fov 31.7555}
+			{horizon 46.8091}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 6.41742	-11.6314	5.96407}
+			}
+			{"1"
+				{type directional}
+				{direction -0.0725231	0.317994	0.378972}
+			}
+			{"2"
+				{type point}
+				{position -3.6397	-8.40204	7.06496}
+			}
+		}
+	}
+}

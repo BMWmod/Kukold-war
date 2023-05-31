@@ -1,0 +1,17 @@
+{from "pattern proj_impactor"
+	{entity "adats_impactor"}
+                {inventory
+		{weight 100}
+		{size 6 1}
+	}
+	{tag "no_ricochet" "cm" "big" "size4" "88to105" "pierce" "ptrk" "fx_111_145" "fx_cm"} 
+	;БЧ аналогична Вихрю, масса БЧ 12.5 кг, ВВ около 4-5,5 кг, взял 5
+	{tag "he_4_5to8"}
+{damage blastwave {energy 0.7} {area 9.5 11}}
+{damage add blastwave {energy 1.2} {area 8.2 9.4}}
+{damage add blastwave {energy 2.5} {area 5.4 6.2}}
+{damage add blastwave {energy 6.5} {area 3.1 3.5}}
+{damage add blastwave {energy 11} {area 1.5 1.7}}
+{damage cumulative {damage 900} {distance 3}}
+
+}

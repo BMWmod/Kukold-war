@@ -1,0 +1,49 @@
+;Created by Pheonix 
+{from "pattern tank_gun"    ; "Т34"
+   	
+	{filling "bullet85_RUS" 3}
+	{fireSound "gun/85mm_zis-s53"}
+	{reloadSound "t34_reload"}
+	{RecoveryTime 10}
+	{rechargeTime 12}
+	{range 130 130}
+	("speed" s(792)) 
+	("75-76caliber")
+	{calibre 85}
+	("CW_acc_common" mils(0.32))
+	("CW_acc_common_130" mils(0.32))
+	;{cursor "T62_HE"}
+	;{cursorReloading "T62_HE_reload"}
+	{cursor "cannon_on_fg_2"}
+	{cursorReloading "cannon_reload_fg"}
+
+	{projectileDamageTable ; БР-365А
+		{10 135} {50 125} {70 115}
+		{85 106} {100 97} {120 70} {140 50} {160 10}
+	}
+	{parameters "apcr"             ; БР-365П
+		{projectileDamageTable 
+			{20 167} {30 118} {50 109} {70 100}
+			{85 82} {100 73} {120 40} {140 20}	;данные из вики
+		}
+		{range 110 110}
+		{cursor "cannon_on_apcr"}
+		{cursorReloading "cannon_reload_apcr"}
+		("speed" s(1050)) 
+	}
+	{parameters "boobs"             ; 
+		{projectileDamageTable 
+			{20 367} {30 318} {50 309} {70 300}
+			{85 282} {100 273} {120 240} {140 220}	;данные из вики
+		}
+		{range 110 110}
+		{cursor "cannon_on_apcr"}
+		{cursorReloading "cannon_reload_apcr"}
+		("speed" s(1050)) 
+	}
+	{parameters "ap"             ; БР-365А
+		{cursor "cannon_on_ap_3"}
+		{cursorReloading "cannon_reload_ap"}
+	}
+                    
+}	           

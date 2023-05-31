@@ -1,0 +1,42 @@
+;Exported by: Admin
+;Date:        Mon Dec 28 22:00:22 2015
+;File:        D:\Documents and Settings\Admin\Мои документы\3dsMax\scenes\Moderna\vehicle\aiva\su24_xx.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "pivot_front"
+			{Matrix34
+				1	0	0
+				0	0	1
+				0	-1	0
+				87.8032	2.71337	1.582
+			}
+			{bone "support1"
+				{Position 0.00973511	1.31131	0}
+			}
+		}
+		{bone "pivot_back"
+			{Matrix34
+				1	0	0
+				0	0	1
+				0	-1	0
+				-16.6563	3.29994	1.56682
+			}
+			{bone "support2"
+				{Position 13.7517	0.735504	-19.1313}
+			}
+			{bone "support3"
+				{Position 13.7608	0.776415	22.5531}
+			}
+		}
+		{bone "body"
+			{parameters "ID=body;"}
+			{Position -33.5276	-1.06571	74.3602}
+			{VolumeView "body.ply"}
+		}
+	}
+}

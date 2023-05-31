@@ -1,0 +1,40 @@
+;Addon
+{from "pattern sniper_rifle"
+("scope")
+
+	{tag "reliability_medium"}
+	{filling "ammo 556Nato" 20} ;556
+	{curve "556_100"}
+	{mass 4.5} 
+	{entity "mk12srp"}
+	{special
+		{mode aim}
+		{PrepareTime 6.0}
+		{PrepareCursor "aimed_shot"}
+		;{damage 1} ; damage *= x
+		{accuracy 1.2} ; aim_range *= x
+		;{throw_off}
+	}
+
+	{fireSound	"rifle/SPR/"}
+	{reloadSound "M16_reload"}
+	{speed 280}
+	{inventory
+		{size 4 2}
+	}
+	
+	{automatic}
+	{recoveryTime 0.09}
+	;{cursor "optic_mildots"}
+	;{cursorReloading "optic_mildots_reload"}
+	{cursor "sniper"}
+	{cursorReloading "cannon_reload_all"}
+	{rechargeTime 2.5}
+
+	("marksman_range")
+        
+	{healthDamage 64}
+        ("accuracy_optic_sight"  moa(1.25))
+        ("accuracy_optic_sight_77"  moa(1.25))
+              
+}

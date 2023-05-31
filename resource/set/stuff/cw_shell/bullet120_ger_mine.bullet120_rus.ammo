@@ -1,0 +1,21 @@
+{from "pattern fg"
+	{tag "big" "size4" "122to128fg" "bullet120_USA_mine" "bullet120_2b11_mine" "bullet120_NATO_mine" "120mm_nona" "fx_111_145"}
+	{tag "fg_120_shell"} ; только для ammo.set
+	{mass 14}
+	
+	{inventory
+		{size 4 1}
+		{weight 70}
+	}	
+	{entity "bullet120_GER_mine"}
+	{view "bullet120_GER_mine"
+		{tail "tail"}
+	}
+	;DM-91 точных данных нет. 2.99 кг ВВ Comp.B , масса мины 31.2 фунта 14,06 кг.
+	{tag "he_2to4_5"}
+{damage blastwave {energy 0.7} {area 9.1 10.5}}
+{damage add blastwave {energy 1.2} {area 7.6 8.8}}
+{damage add blastwave {energy 2.5} {area 4 4.6}}
+{damage add blastwave {energy 6.5} {area 1.2 1.4}}
+}
+;

@@ -1,0 +1,66 @@
+;Exported by: Kasutaja
+;Date:        Sat Jul 30 06:22:04 2022
+;File:        D:\??????? ????\??? GEM2\????????? 3? ??????? Cold War ?????????\Cold War 2010\?????? ? Pheonix\??????????????\??????\?????????\TL-4 ???? ?????\TL-4 Ten_Lei ????????\rocket Ten_Lei TL4.max
+{Skeleton
+	{bone "body"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "body.ply"}
+		{bone "tail"
+			{parameters "Voxels=0;"}
+			{Matrix34
+				-1	0	0
+				0	-1	0
+				0	0	1
+				-8.15666	-0.0573849	-0.755135
+			}
+		}
+	}
+}
+{Volume "body"
+	{Box 2.75591 21.4567 2.75591}
+	{Bone "body"}
+	{Matrix34
+		0	1	0
+		1	0	0
+		0	0	-1
+		0.308721	-0.0347185	-0.945002
+	}
+}
+{Volume "select"
+	{Box 2.75591 21.4567 2.75591}
+	{Bone "body"}
+	{Matrix34
+		0	1.06772	0
+		1.06772	0	0
+		0	0	-1.06772
+		0.951952	-0.0347185	-0.758596
+	}
+}
+{Extender "preview"
+	{"Stuff"
+		{camera
+			{origin 0.457911	43.7094	-1.03506}
+			{lookat 0.446252	9.92074	-1.00761}
+			{fov 31.7555}
+			{horizon 179.83}
+		}
+		{lights
+			{"0"
+				{type directional}
+				{direction -0.0532643	-0.438886	0.233544}
+			}
+			{"1"
+				{type point}
+				{position -4.56804	-4.60123	-1.3618}
+			}
+			{"2"
+				{type point}
+				{position 24.731	-4.53161	7.57696}
+			}
+		}
+	}
+}

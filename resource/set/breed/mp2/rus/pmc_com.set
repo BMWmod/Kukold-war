@@ -1,0 +1,72 @@
+{breed
+	{skin "cw_rus_sso_atacs"}
+	{portrait "_new/rus/sso"}
+	{icon officer}
+	{icon_priority 3}
+	{tags "officer"}
+	{nationality rus}
+	{armors
+		{head sphera}
+	}
+	{perks
+		{"vision" mp_elite_officer
+		}
+		{"smg" lvl_4
+		}
+		{"mgun" lvl_4
+		}
+		{"rifle" lvl_4
+		}
+		{"rocketlauncher" lvl_4
+		}
+		{"pistol" lvl_4
+		}
+		{"gra_launch" lvl_4
+		}
+		{"melee" lvl_5
+		}
+		{"avoidance" lvl_3
+		}
+		{"health" "250%"
+		}
+		{"stamina" "250%"
+		}
+		{"stamina_regeneration" "100%"
+		}
+		{"speed" 1.1
+		}
+		{"stealth"}
+		{"field_glass"}
+		{"skill_tankgun" lev_3
+		}
+		{"skill_atgm_launcher" lev_4
+		}
+		{"skill_airgun" lev_1
+		}
+		{"skill_airgm_launcher" lev_1
+		}
+	}
+	{veterancy
+		{"specnaz_lvl_1" 2
+		}
+		{"specnaz_lvl_2" 3
+		}
+		{"specnaz_lvl_3" 5
+		}
+		{"specnaz_lvl_4" 7
+		}
+		{"specnaz_lvl_5" 9
+		}
+	}
+	{inventory
+		{item "ak12_1p87_tactical" filling "545 ammo" 30}
+		{item "6b2_gp"}
+		{item "rgn grenade" 2}
+		{item "rgo grenade" 2}
+		{item "545 ammo" 200}
+		{item "rpg-30 weapon" filling "rpg30 ammo" 1}
+		{item "bandage" 10}
+		{item "sandbag_kit"}
+		{in_hands 0}
+	}
+}

@@ -1,0 +1,48 @@
+;Миномет М252
+{weapon_bullet
+	{tag "weapon skill_tankgun bullet"}	;"bullet" is needed for work of levelling and skills
+	{tag "mrl gun"}
+	{filling "ammo 81mm" 1}
+	{fillingVisible "rocket"}
+
+	{fireSound "reactive/81mm_m252"}
+	{reloadSound "reactive_reload/mortar_reload"}
+	{foresight "foresight"}
+	
+	("CW_acc_artillery" mils(10.92))
+
+	{aimRange 166}
+	{maxRange 153}
+	{rechargeTime 3}
+
+	{gravity 4}
+	{ZeroingAccuracy 0.8 0.6 0.5}
+
+	{projectileDamage 15}
+	{speed 100}
+	{AimingTolerance 0.1}
+;	{projectileDamageTable {130 15}}
+	
+	{aimtype curved}
+;	{cursor "cannon_on"}
+;	{cursorReloading "cannon_reload"}
+	;{cursor "cannon_on_fg"}
+	{cursor "mortar"}
+	{cursorReloading "cannon_reload_fg"}			; s
+
+    {parameters "81mm of"     ; M821 - 5608 метров       
+		{range 170 170}
+	}	
+    {parameters "81mm sm"     ; M819 - 4875 метров      
+		{range 160 160}
+		{cursor "cannon_on_sm"}
+		{cursorReloading "cannon_reload_sm"}			; s
+
+	}	
+    {parameters "81mm l"      ; M853 - 5100 метров     
+		{range 166 166}
+		{cursor "signal"}
+		{cursorReloading "cannon_reload_all"}			; s
+	}	
+}						
+;http://www.inetres.com/gp/military/infantry/mortar/81mm.html	

@@ -1,0 +1,12 @@
+;Cold War
+{from "pattern pistol"
+	{mass 1.12} 
+	{filling "ammo standart" 16}
+	{curve "9x19_40"}
+	{entity "cz75"}
+	{fireSound	"pistol/glock19/"}
+	{reloadSound "tt"}
+	{rechargeTime 2.8}
+	{aimRange 35}
+	{maxRange 40}
+}

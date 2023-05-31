@@ -1,0 +1,15 @@
+;Created by Pheonix 
+{from "122mm_2A18 gun"    ; "Ä30À"
+	{fireSound "gun/122mm_PLZ-07_1"}
+	{reloadSound "plz07b_reload"}
+	{rechargeTime 8}
+	{ZeroingAccuracy 0.75 0.5}
+	;("CW_acc_artillery" mils(1.83))
+	("CW_acc_artillery" mils(3.66))
+	{parameters "bullet122_cn rok"	;BB-RA/HE BFF2
+		{range 333 333}	
+		{gravity 2.0}
+		;("CW_acc_artillery" mils(3.6))
+		("CW_acc_artillery" mils(7.2))
+	}
+}

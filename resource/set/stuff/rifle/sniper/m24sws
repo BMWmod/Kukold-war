@@ -1,0 +1,35 @@
+{from "pattern sniper_rifle"
+("scope")
+
+	{tag "sniper reliability_high"}
+	{filling "ammo 762x51_x20" 5} 
+	{curve "762x51nato_100"}
+	{mass 5.5} 
+	{entity "m24sws"}
+	{special
+		{mode aim}
+		{PrepareTime 10.0}
+		{PrepareCursor "aimed_shot"}
+		;{damage 3} ; damage *= x
+		{accuracy 1.2} ; aim_range *= x
+		;{throw_off}
+	}
+
+	{fireSound	"rifle/M24_fire"}
+	{reloadSound "M24_Reload"}
+	{inventory
+		{size 5 2}
+	}
+	{recoveryTime 1.8}
+	;{cursor "optic_mildots"}
+	;{cursorReloading "optic_mildots_reload"}
+	{cursor "sniper"}
+	{cursorReloading "cannon_reload_all"}
+	{rechargeTime 2.5}
+	("bolt_range")
+	{speed 290}
+	{healthDamage 101}
+        ("accuracy_optic_sight"  moa(1.2))
+        ("accuracy_optic_sight_85"  moa(1.2))
+              
+}

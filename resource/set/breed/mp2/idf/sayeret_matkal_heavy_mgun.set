@@ -1,0 +1,22 @@
+{breed
+	{skin "cw_idf_sayeret"}
+	{portrait "_new/idf/sayeret"}
+	{icon "mgs"}
+	{icon_priority 0}
+	{nationality idf}
+	{armors
+		{head idf_or201_spec}
+	}
+
+	(include "perks_generic.inc")
+	("traits_elite_mgun")
+	{inventory
+		{item "lbt6094_idf_mgun"}
+		{item "bandage" 10}
+		{item "fn_mag" filling "762nato ammo" 100}
+		{item "762nato ammo" 300}
+		{item "m61 grenade" 4}
+                {item "smoke grenade" 2}
+		{in_hands 2}
+	}
+}

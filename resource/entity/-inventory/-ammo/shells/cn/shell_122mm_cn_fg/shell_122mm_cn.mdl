@@ -1,0 +1,55 @@
+;Exported by: Timosh
+;Date:        Thu Jul 21 20:57:36 2022
+;File:        G:\?????? ? Pheonix\??????????????\??????\??????????\122mm shell CN\shell.max
+{Skeleton
+	{bone "body"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "body.ply"}
+		{bone "tail"
+			{Matrix34
+				-1	0	0
+				0	-1	0
+				0	0	1
+				-5.15364	0	0
+			}
+		}
+	}
+}
+{Volume "body"
+	{Box 13.1102 2.3622 2.3622}
+	{Bone "body"}
+	{Position 1.6025	0.12874	-0.269444}
+}
+{Volume "select"
+	{Box 19.8876 3.44063 3.45789}
+	{Bone "body"}
+	{Position 1.6025	0.12874	-0.218305}
+}
+{Extender "preview"
+	{"Stuff"
+		{camera
+			{origin 0.309264	-33.3605	-0.374277}
+			{lookat 1.24952	-16.6106	-0.243634}
+			{fov 25}
+			{horizon 178.956}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position -15.0786	-8.57069	0.620658}
+			}
+			{"1"
+				{type directional}
+				{direction 0.111952	0.473837	-0.113777}
+			}
+			{"2"
+				{type point}
+				{position 8.80458	-6.93538	1.17978}
+			}
+		}
+	}
+}

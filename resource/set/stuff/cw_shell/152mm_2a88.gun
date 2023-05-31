@@ -1,0 +1,32 @@
+{from "pattern gun"     ; "МСТА"
+   	
+	{filling "bullet152_RUS"}
+;	{filling "2a64_ammo"}
+	{fireSound "gun/2A64"}
+	{reloadSound "tankgun_r04"}
+	{rechargeTime 4.5}
+	{range 360 360}         ;ОФ-45 - 24.7км
+	{gravity 25}
+	("speed" s(1472)) 
+	("100-128caliber")
+	{ZeroingAccuracy 0.8 0.6}
+	{calibre 5}
+	{healthDamage 500}
+	("CW_acc_artillery" mils(2.75))
+        {parameters "bullet152_RUS rok"     ;ЗО-23  26км.
+			{range 360 360}
+	}
+        {parameters "korr"
+			{range 360 360}
+			("CW_acc_guided" kvo_meters(2))	;примерно
+			{ZeroingAccuracy 0.3 0.3}
+	}
+        {parameters "bullet152_RUS_a"       ;ОФ-25  17км - 255 им.
+			{range 360 360}
+			("CW_acc_artillery" mils(2.1))
+	}
+        {parameters "bullet152_RUS_h"       ;Активно реактивный 28.9 км.
+			{range 360 360}
+			("CW_acc_artillery" mils(2.1))
+	}
+}

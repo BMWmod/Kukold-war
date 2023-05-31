@@ -1,0 +1,27 @@
+{game_entity
+	{extension "/properties/piece.ext"}
+	{simulation {able 1} {state 1}}
+	{constrain none}
+	{obstacleID "nothing"}
+	{collider "particle.small"}
+	{volume "body"
+		{thickness 10.1}
+		{box 400 400 400}
+		{Position 0 0 0}
+		{able clear}
+		{bone "basis"}
+		{material "dummy"}
+	}
+	{volume "body_contact"
+		{thickness 10.1}
+		{box 600 1 600}
+		{Position 0 0 0}
+		{able clear {contact}}
+		{bone "basis"}
+		{material "dummy"}
+	}
+	{body
+		{proper body}
+		{permit body}
+	}
+}

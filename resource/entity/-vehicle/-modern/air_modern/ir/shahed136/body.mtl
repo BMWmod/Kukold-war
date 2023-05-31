@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/model/shahed136/shahed_body"}
+	{bump "$/model/shahed136/shahed_body_bp"}
+	{specular "$/model/shahed136/shahed_body_sp"}
+	{color "230 230 230 25"}
+	{blend none}
+}

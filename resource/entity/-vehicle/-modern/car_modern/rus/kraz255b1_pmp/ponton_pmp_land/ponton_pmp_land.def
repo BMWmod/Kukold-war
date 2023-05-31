@@ -1,0 +1,57 @@
+{game_entity
+	(include "/properties/building.inc")
+	("armor_heavy" args 1.5)
+	{mass 5000}
+	{props "cornered" "steel" "parts" "construction" "wall" "bridge_with_land"}
+	{simulation {able 1}}
+	{simulatorID "water"}
+	{collider "grenade"}
+	{constrain ground}
+	{Volume "blast" 
+		{able clear {blast 1} {obstacle 0}}
+		{Thickness 5}
+	}
+	{Volume "piece1"
+		{Thickness 5}
+		{Tags  "body"}
+		{able {obstacle 0}}
+	}
+	{Volume "piece2"
+		{Thickness 5}
+		{Tags  "body"}
+		{able {obstacle 0}}
+	}
+	{Volume "piece3"
+		{Thickness 5}
+		{Tags  "body"}
+		{able {obstacle 0}}
+	}
+	{Volume "piece4"
+		{Thickness 5}
+		{Tags  "body"}
+		{able {obstacle 0}}
+	}
+	{Volume "float1" {able clear {float 1}}}
+	{Volume "floata1" {able clear {float 1}}}
+	{Volume "floatb1" {able clear {float 1}}}
+	{Volume "floatc1" {able clear {float 1}}}
+	{Volume "float2" {able clear {float 1}}}
+	{Volume "floata2" {able clear {float 1}}}
+	{Volume "floatb2" {able clear {float 1}}}
+	{Volume "floatc2" {able clear {float 1}}}
+	{Volume "float3" {able clear {float 1}}}
+	{Volume "floata3" {able clear {float 1}}}
+	{Volume "floatb3" {able clear {float 1}}}
+	{Volume "floatc3" {able clear {float 1}}}
+	{Volume "float4" {able clear {float 1}}}
+	{Volume "floata4" {able clear {float 1}}}
+	{Volume "floatb4" {able clear {float 1}}}
+	{Volume "floatc4" {able clear {float 1}}}
+	{Extender "land_patch"
+		{on 0}
+		{updateEntities 0}
+		{noNormals}
+		{TerrainType "road" "bridge"}
+	}
+	{Extension "ponton_pmp_land.mdl"}
+}

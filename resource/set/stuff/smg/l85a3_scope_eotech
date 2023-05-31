@@ -1,0 +1,6 @@
+;Cold War
+{from "l85a2"
+	{entity "l85a3_scope_eotech"}
+	("smg_range")
+	("accuracy_collimator"  moa(2.0))
+}

@@ -1,0 +1,5 @@
+{material simple
+	{diffuse "$/model/sprutsd/tracks_df"}
+	{emitsheat}
+{blend none}
+}

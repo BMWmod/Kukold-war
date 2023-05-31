@@ -1,0 +1,18 @@
+{from "pattern fg"
+	{tag "big" "size4" "fg" "122to128fg" "fragmentary" "d30ammo" "fx_111_145"}
+	{tag "fg_120_shell"} ; только для ammo.set
+    {detonationThickness 40}
+	{inventory
+		{size 6 1}
+	}	
+	{mass 21.4}
+	{entity "shell_122mm_cn_rok"}
+{view "fg_fly"{tail "rocket_smoke_short" "tail"}}
+	;2,41 кг ВВ A-IX-2 гексал, АРС
+	{tag "he_2to4_5"}
+	{damage blastwave {energy 0.7} {area 8.3 9.6}}
+	{damage add blastwave {energy 1.2} {area 6.7 7.7}}
+	{damage add blastwave {energy 2.5} {area 3.2 3.7}}
+	{damage add blastwave {energy 6.5} {area 0.2 0.2}}
+	{damage add blastwave {energy 11} {area 0.1 0.1}}; HE, kinetic, direct hit
+}

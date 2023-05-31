@@ -1,0 +1,23 @@
+;Created by Pheonix 
+{from "weapon pg"
+	{filling "ammo gm94ammo" 3}
+	
+	{entity "gm-94"}
+	{inventory
+		{size 3 2}
+		{fsm "belt"}
+		{link_bone "gun_back"}
+	}
+	{recoveryTime 1.5}
+	{rechargeTime 10}
+	{aimRange 90}
+	{maxRange 90}
+	{healthDamage 5}
+	{ProjectileDamage 1}
+	{ProjectileDamageClip 1}
+	{special
+		{throw_off_always}
+	}
+	("CW_acc_grlaunch" mils(3)) ;оценка - ствол длиннее ГП-25, должен быть точнее.
+	;0,3м Вб/Вв на 100м
+}

@@ -1,0 +1,14 @@
+{actor
+	(include "/properties/stuff_small.ext")
+	{extension "l85a3_scope_bipod.mdl"}
+	{extender "stuff"
+		{item "l85a3_scope_bipod"}
+	}
+	{nogroupmesh 1}
+}
+
+
+
+
+
+

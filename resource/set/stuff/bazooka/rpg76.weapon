@@ -1,0 +1,39 @@
+{from "pattern rpg_weapon"
+	
+	{filling "ammo rpg76_heat" 1}
+	{FillingVisible "roket"}
+	{preloaded}
+	{ammoLocked}
+	{inventory
+		{size 5 1}
+	}
+        {maxRange 55}
+	{aimRange 55}
+	{entity "rpg76"}
+;	("damage" a(330) b(330) c(330) d(330) e(330))
+	{mass 3.2}
+	{speed 35} ; speed гранаты x1.5 (25.02.21)	
+	{gravity 0.4}
+	{reactive 0}
+	{calibre 5}
+	;{cursor "RPG18"}
+	{cursor "cannon_on_heat_7"}
+	{fireSound "bazooka/RPG18_shot"}
+	("accuracy_open_rpg"  moa(20))	;неизвестно
+}
+;https://udachnyj-enot.com.ua/granatomet-rrg-76-komar-polsha/	
+;Основные модификации	
+;RPG75 HEAT - кумулятив,бронебойность 330мм,вес 0.8 кг,начальная скорость 189/с.	47/300x290= 46
+;	
+
+;	
+;	
+;		
+;		
+;	
+;	
+;		
+;	
+;	
+;	
+;

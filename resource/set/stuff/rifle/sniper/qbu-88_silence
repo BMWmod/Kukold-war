@@ -1,0 +1,7 @@
+;Cold War
+{from "qbu-88"
+	{tag "sd"}
+	{entity "qbu-88_silence"}
+	("marksman_range")
+	{fireSound "rifle/vintorez/"}
+}

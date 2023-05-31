@@ -1,0 +1,29 @@
+;Cold War
+{from "pattern smg"
+	{tag "sd reliability_medium"}
+	{filling "ammo 556Nato" 30} ;556
+	{curve "556_70"}
+	{mass 3.4}      
+	{entity "hk416A5_Silenced"}
+	{fireSound	"smg/HK416_silent"}
+	{reloadSound "HK416_reload"}
+	{speed 280}	
+
+	{recoveryTime 0.07}
+        {rechargeTime 3}
+
+	{cursor "m16a4"}
+	{cursorReloading "cannon_reload_all"}
+	("smg_range")
+	
+	{burst
+		{short 2 1}
+		{long 6 2}
+{rangeKoef 0.444}
+	}
+	{healthDamage 72}
+	("holo")
+("accuracy_collimator"  moa(1.5))
+	("accuracy_collimator_70"  moa(1.5))
+	;Правка от 20.08.2016 TOMCAT M.D. https://www.youtube.com/watch?v=cC_iPEAu7KE (Редакция Timosh)
+}

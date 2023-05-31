@@ -1,0 +1,51 @@
+;Exported by: Timosh
+;Date:        Fri Jun 24 12:13:07 2022
+;File:        G:\?????? ? Pheonix\??????????????\??????\?????? ? ???????\???\usa_cottage_1st_2 final 1.max
+{Skeleton
+	{bone "oven"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "oven.ply"}
+	}
+}
+{Obstacle "body1"
+	{Obb2
+		{Center -10.1565 -4.11376}
+		{Extent 19.7892 6.82824}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body2"
+	{Obb2
+		{Center 0.423679 -4.11376}
+		{Extent 9.10304 6.82823}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body1"
+	{Box 13.6564 39.5785 57.0531}
+	{Bone "oven"}
+	{Matrix34
+		0	1	0
+		-0.999999	0	0
+		0	0	1.1741
+		-10.1565	4.11376	4.21937
+	}
+}
+{Volume "body2"
+	{Box 13.6564 18.2061 65.3729}
+	{Bone "oven"}
+	{Matrix34
+		0	1	0
+		-0.999999	0	0
+		0	0	1.1741
+		0.423679	4.11376	75.9596
+	}
+}

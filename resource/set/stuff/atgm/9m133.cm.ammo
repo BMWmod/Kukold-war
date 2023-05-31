@@ -1,0 +1,11 @@
+{from "pattern proj_pointer"
+	
+	{entity "9m133_1_cm"}
+                {mass 31}
+	        {inventory
+		{weight 100}
+		{size 6 1}
+	}
+	{tag "no_ricochet" "cm" "big" "size3" "88to105" "pierce" "ptrk" "laser_using_missile" "semiactive" "aa_cm" "ground_laser_rus"}
+{tag "atgm_cw" "atgm_ground"} ; только для ammo.set	
+}

@@ -1,0 +1,69 @@
+;Exported by: Timosh
+;Date:        Mon Aug 29 15:38:47 2022
+;File:        G:\?????? ? Pheonix\??????????????\??????\?????? ??????\???????? ????\???????? ?? ??????? 2\???-72\OZM-72.max
+{Skeleton
+	{bone "body"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{LODView
+			{VolumeView "body.ply"}
+			{VolumeView "body_lod1.ply"}
+		}
+		{bone "handle"
+			{Matrix34
+				-0.34202	-0.939693	0
+				0	0	1
+				-0.939693	0.34202	0
+				-0.0210115	2.41059	1.26065
+			}
+		}
+		{bone "string"
+			{Matrix34
+				0.707107	0.707107	0
+				0	0	1
+				0.707107	-0.707107	0
+				0.0150684	0.600486	3.98466
+			}
+			{visibility 0}
+			{VolumeView "string.ply"}
+		}
+	}
+}
+{Volume "body1"
+	{Cylinder 1.03951 3.16375}
+	{Bone "body"}
+	{Position 0	-0.0198403	1.58187}
+}
+{Volume "body"
+	{Cylinder 1.03951 3.16375}
+	{Bone "body"}
+	{Position 0	-0.0198403	1.58187}
+}
+{Volume "detector1"
+	{Box 0.295276 295.276 0.295276}
+	{Bone "body"}
+	{Matrix34
+		0.707107	0.707107	0
+		-0.707107	0.707107	0
+		0	0	1
+		0.00969914	0.620858	3.97823
+	}
+}
+{Volume "detector"
+	{Box 0.295276 295.276 0.295276}
+	{Bone "body"}
+	{Matrix34
+		0.707107	-0.707107	0
+		0.707107	0.707107	0
+		0	0	1
+		0.00969914	0.620858	3.97823
+	}
+}
+{Volume "select"
+	{Cylinder 9.89283 3.16375}
+	{Bone "body"}
+	{Position 0	0.290648	1.58187}
+}

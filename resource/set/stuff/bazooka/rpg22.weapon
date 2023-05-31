@@ -1,0 +1,23 @@
+{from "pattern rpg_weapon"
+	
+	{filling "ammo RPG22" 1}
+	{preloaded}
+	{ammoLocked}
+	{inventory
+		{size 4 1}
+	}
+        {maxRange 55}
+	{aimRange 55}
+	{entity "RPG22"}
+;	("damage" a(400) b(400) c(400) d(400) e(400))
+	{mass 2.7}
+	{speed 35} ; speed гранаты x1.5 (25.02.21)	
+	{gravity 0.4}
+	{reactive 0}
+	{calibre 5}
+	;{cursor "RPG22"}
+	{cursor "cannon_on_heat_7"}
+	{fireSound "bazooka/RPG22fire"}
+	("accuracy_open_rpg"  moa(15.6))
+	("accuracy_open_rpg_50"  moa(15.6))
+}

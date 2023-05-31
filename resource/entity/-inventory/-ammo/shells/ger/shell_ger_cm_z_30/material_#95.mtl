@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "cylinder003completemap"}
+	{blend none}
+}

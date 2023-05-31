@@ -1,0 +1,18 @@
+{game_entity
+	{Extension "usa_cottage1st_1.mdl"}
+	{placer}
+	{extender "structure"
+		{place "1" "usa_cottage1st_1c1"}
+		{place "2" "usa_cottage1st_1c2"}
+		{place "4" "usa_cottage1st_1c4"}
+		{place "3" "usa_cottage1st_1c3"}
+		{place "6" "usa_cottage1st_1c6"}
+		{place "5" "usa_cottage1st_1c5"}
+		{place "7" "usa_cottage1st_1w3"}
+		{place "8" "usa_cottage1st_1w2"}
+		{place "9" "usa_cottage1st_1w1"}
+		{place "10" "usa_cottage1st_1oven"}
+		{place "11" "usa_cottage1st_1door"}
+		{place "land" "usa_cottage1st_1land"}
+	}
+}

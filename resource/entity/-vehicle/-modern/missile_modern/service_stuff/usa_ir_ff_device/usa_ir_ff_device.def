@@ -1,0 +1,7 @@
+{actor
+	(include "/properties/stuff_small.ext")
+	{Extension "IR_ff_device.mdl"}
+	{extender "stuff"
+		{item "usa_IR_ff_device"}
+	}
+}

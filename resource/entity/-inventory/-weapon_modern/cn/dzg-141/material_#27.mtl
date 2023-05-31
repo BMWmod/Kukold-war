@@ -1,0 +1,5 @@
+{material simple
+	{diffuse "$/model/DZG141/dzg141"}
+	{blend none}
+}
+

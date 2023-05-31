@@ -1,0 +1,145 @@
+{entity
+	(include "/properties/tank.ext")
+        (include "/properties/tank_crew.ext")
+	(include "/properties/selection/vehicle.inc"  scale(1.2))
+	;{props "light" "turret_rotator" "vision_lev06" "amphibia" "muzzle_zenite"}
+     {props "light_M" "turret_rotator" "amphibia" "vision_lev04" "can_paradrop_il-76td" "can_paradrop_an-12" "2_barrels_smoke"}
+	 {PatherID "amphibia"}
+	
+	{extender "enumerator"}
+
+	{sensor
+		{visor "optic_bmp"
+			{bone "visor2"}
+			{vision "tank_main-m"}
+		}
+	        {visor "commander"
+		         {vision "cannon_crew"}
+		         {bone "commander"}
+	        }
+	        {visor "gunner"
+		         {vision "cannon_crew"}
+		         {bone "gunner"}
+	        }
+	}
+	{volume "body1"
+		{component "body"}
+		{tags "body"}
+	}
+	
+	("armor_light" turret(2 2 2 2) body(18 17 17 10))
+
+        ("crew_4_human")
+	{boarder
+		{anm "driver"
+			{forward	{begin	"board_pz4_driver"} {end "seat_sd222_gunner2"} {base "open_driver"}}
+			{reverse 	{end	"board_pz4_driver" -1} {base "open_driver" -1}}
+		}
+		{anm "left"
+			{forward	{begin	"board_tank_left"} {end "seat_passenger"}}
+			{reverse 	{end	"emit_tank_2_hold"}}
+		}
+		{anm "right"
+			{forward	{begin	"board_tank_right"} {end "seat_passenger"}}
+			{reverse 	{end	"emit_tank_2_hold"}}
+		}
+		{anm "armor"
+			{forward	{begin	"board_HighArmor"} 	{end "seat_armor"}}
+			{reverse 	{end	"emit_tank_2"}}
+		}
+		{anm "armor1"
+			{forward	{begin	"board_HighArmor"} {end "seat_armor"}}
+			{reverse 	{end	"emit_body"}}
+		}
+		{anm "gunner"
+			{forward	{begin	"board_Kubel_commander"} {end "seat_passenger"} {base "doorright"}}
+			{reverse 	{end	"board_Kubel_commander" -1} {base "doorright" -1}}
+		}
+		{anm "commander"
+			{forward	{begin	"board_Kubel_commander"} {end "seat_passenger"} {base "doorright"}}
+			{reverse 	{end	"board_Kubel_commander" -1} {base "doorright" -1}}
+		}
+	}
+
+	("crew_human_visible" place(gunner)	door1(emit1) door2(emit2)  animation(armor))
+	("crew_human_visible" place(commander2) 	door1(emit1) door2(emit2)  animation(armor))
+
+	{extender "inventory"
+		{box
+			{item "bullet23 bzt zenite" 200}	
+			{item "bullet23 ofzt zenite" 400}
+			{item "repair_kit" 1}
+		}
+	}	
+	{Weaponry
+		{place "gun"
+			{weapon "23mm_zu232" filled}               
+			{Barrels 2}
+			{gunner "gunner"}
+			{charger "gunner"}
+			("abm_zenite")
+		}
+	}	
+	{mass 14000}
+	{Chassis
+                ("tank_trace" fx("tracks_sm") step(0.15) len(0.45))
+		{Locomotion ("locomotion")
+            		{maxspeed   50}
+            		{maxSpeedAtMaxTurn 21}
+            		{StartTime  12}
+            		{TurnTime   7}
+            		{TurnStart  1}
+            		{TurnRadius 7}
+            		{TurnStop   0.6}
+            		{BrakeTime  1.6}
+            		{StopTime   2.2}
+            		{Gears  0.2 0.5 1}
+            		{RearGears  0.3}
+        	}
+
+		{FuelBag
+			 {volume 500 }
+                	 {rate   140 }
+                	 {remain 500 }
+                	 {fuel "fuel"}
+		}
+		{speed
+                	{Normal  25}
+            	}
+		{switch
+			{exitFromWater}
+			{terrain not "water" "deep_water"}
+		}
+	}
+	{Extension "mtlb_zu.mdl"}
+	("missile_aimpoint_wieselsize")
+	("cwts_buksir")
+	
+	{component "engine"
+		{RepairTime 15}
+	}
+	{component "trackright"
+		{RepairTime 10}
+	}
+	{component "trackleft"
+		{RepairTime 10}
+	}
+	{component "turret"
+		{RepairTime 15}
+	}
+	{component "body"
+		{RepairTime 50}
+	}
+
+	{chassis "water"
+		("chassis_defaults")
+		{ignorePatherBounds}
+		{waterline 1.4}
+		{switch
+			{terrain "water" "deep_water"}
+		}	
+	}
+}
+
+
+

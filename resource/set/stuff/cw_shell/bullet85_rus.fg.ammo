@@ -1,0 +1,19 @@
+{from "pattern fg"
+	{tag "big" "size2" "88to105" "fx_45_89"}
+	{tag "fg_100_shell"} ; только для ammo.set
+	{mass 16.3}
+	{inventory
+		{size 4 1}
+	}	
+	{entity "shell_rus_fg_85"}
+	{view "fg_fly"}
+	{trace
+		{view "/texture/fx/trace" {ScaleY 0.2}}
+		{length 2}
+	}
+	;О-365К 0,66 кг ВВ тротил (экв 1, 0,507 к расчету)
+	{tag "he_07to2"}
+	{damage blastwave {energy 0.7} {area 6.7 7.7}}
+	{damage add blastwave {energy 1.2} {area 3.1 3.5}}
+	{damage add blastwave {energy 2.5} {area 0.1 0.2}}
+}

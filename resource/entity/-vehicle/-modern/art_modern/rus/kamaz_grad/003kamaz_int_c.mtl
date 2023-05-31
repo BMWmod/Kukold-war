@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "kamaz_int_co"}
+	{blend none}
+}

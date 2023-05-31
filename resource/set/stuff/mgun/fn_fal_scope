@@ -1,0 +1,5 @@
+{from "fn_fal"
+	{entity "fn_fal_scope"}
+	("mg_range")
+	("accuracy_collimator"  moa(2))
+}

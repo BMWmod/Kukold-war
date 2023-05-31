@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/model/j-10c/hull3"}
+	{bump "$/model/j-10c/hull3_bp"}
+	{specular "$/model/j-10c/hull3_sp"}
+	{color "255 255 255 25"}
+	{blend none}
+}

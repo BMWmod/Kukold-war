@@ -1,0 +1,22 @@
+{breed
+	{skin "cw_ger_ksk"}
+	{portrait "_new/ger/ksk"}
+	{icon mgun_ksk}
+	{icon_priority 2}
+	{nationality ger}
+	{armors
+		{head opscore_ksk}
+	}
+	
+	(include "perks_generic.inc")
+	("traits_elite_mgun")
+	{inventory
+		{item "lbt6094_ksk_mgun_a"}
+		{item "bandage" 10}
+		{item "mg5a1_elcan" filling "762nato ammo" 100}
+		{item "762nato ammo" 300}
+		{item "dm51gr grenade" 4}
+		{item "smoke_ger grenade" 2}
+		{in_hands 2}
+	}
+}

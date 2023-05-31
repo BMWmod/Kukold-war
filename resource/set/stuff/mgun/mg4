@@ -1,0 +1,21 @@
+;Cold War
+{from "pattern mgun"
+	{tag "reliability_medium link_lmg"}
+	{filling "ammo 556Natomb" 100}
+	{curve "556_70"}
+	{entity "mg4"}
+	{fireSound	"mgun/mg4/"}
+	{reloadSound "mg4_reload"}
+	{inventory
+		{size 5 2 }
+	}
+	{mass 8.1}	
+	{recoveryTime 0.07}	
+	{rechargeTime 4.5}
+	{healthDamage 69}	
+	{projectileDamage 7}
+	{speed 290}
+	("mg_range_optic_custom" k(0.8))
+	("accuracy_optic_sight"  moa(2))
+	("accuracy_optic_sight_70"  moa(2))
+}

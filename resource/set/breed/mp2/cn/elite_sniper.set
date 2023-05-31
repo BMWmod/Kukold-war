@@ -1,0 +1,23 @@
+{breed
+	{skin "cw_cn_spec"}
+	{portrait "_new/cn/specnaz"}
+	{icon snipers}
+	{icon_priority 3}
+	{tags "sniper2"}
+	{nationality cn}
+	{armors
+		{head "opscore_cn"}
+	}
+	(include "perks_generic.inc")
+	("traits_elite_sniper")
+	{inventory
+		{item "type15h_sniper"}
+		{item "bandage" 10}
+		{item "smoke_cn grenade"}
+		{item "type73 grenade" 4}
+		{item "smoke_cn grenade"}
+		{item "QBU-191" filling "58ammo 58ammo_sn ammo" 30}
+		{item "58ammo 58ammo_sn ammo" 180}
+		{in_hands 5}
+	}
+}

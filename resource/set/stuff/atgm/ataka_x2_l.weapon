@@ -1,0 +1,19 @@
+{from "pattern proj_weapon_ground"
+	{tag "gun"}
+	{fillingVisible "AtakaL_"}
+	{filling "9m120 ammo" 2}
+	{fireSound "bazooka/shturm_shot"}
+	{mass 7}
+	{recoveryTime 3}
+	{rechargeTime 60}
+	{inventory {noView}}
+	;{cursor "zenite_on"}
+	;{cursorReloading "zenite_reload"}
+	{cursor "cannon_on_heat_2"}
+	{cursorReloading "cannon_reload_heat"}
+	;{cursorReloading "cannon_reload_heat_timer_60"}
+	("damage" a(1) b(1) c(1) d(1) e(1))
+	{projectileDamage 0}
+              {maxRange 175}	;6 ךל הכÿ 9ל120
+	{aimRange 175}
+}

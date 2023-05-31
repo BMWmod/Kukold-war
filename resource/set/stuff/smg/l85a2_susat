@@ -1,0 +1,31 @@
+;Cold War
+{from "pattern smg"
+	{tag "reliability_low"}	;https://www.kalashnikov.ru/i-snova-zdravstvujte-ocherednaya-modernizatsiya-bulpapa-sa80-a3-l85a3/
+	{filling "ammo 556Nato" 30} ;556
+	{curve "556_85"}
+	{inventory
+		{size 4 2}
+	}
+	{mass 3.82}       
+	{entity "l85a2_susat"}
+	{fireSound	"smg/l85a2"}
+	{reloadSound "L85A2_Reload"}
+	{speed 280}	
+
+	{cursor "s80"}
+	{cursorReloading "cannon_reload_all"}
+	{recoveryTime 0.09}
+        {rechargeTime 3}
+
+	("smg_range_optic")
+	
+
+	{burst
+		{short 2 1}
+		{long 6 2}
+{rangeKoef 0.444}
+	}
+	{healthDamage 68}
+	("accuracy_optic_sight"  moa(2.0))
+	("accuracy_optic_sight_77"  moa(2.0))
+}

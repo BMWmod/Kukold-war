@@ -1,0 +1,45 @@
+;Cold War
+{from "pattern sniper_rifle"
+("scope")
+
+	{tag "sniper reliability_medium"}
+	{filling "ammo 58ammo" 30}
+	{curve "58x42_100"}
+	{preloaded}
+	{mass 4}
+	{inventory
+		{size 5 2}
+	}
+	{entity "QBU-191"}
+	{special
+		{mode aim}
+		{PrepareTime 6.0}
+		{PrepareCursor "aimed_shot"}
+		;{damage 1} ; damage *= x
+		{accuracy 1.2} ; aim_range *= x
+		;{throw_off}
+	}
+	("marksman_range")
+	{speed 290}
+	{fireSound	"smg/qbz191_shot"}
+	{reloadSound "chn/qbz191_reload"}
+	{healthDamage 75}
+	{recoveryTime 0.09}
+    {rechargeTime 3}
+	{Automatic}
+	{cursor "optic_pso"}
+	{cursorReloading "optic_pso_reload"}
+	("accuracy_optic_sight"  moa(2.5))	;нет данных, но ствол длиннее, и "accuratized"
+    {parameters "DPB88"                                                 ;Патрон DPB88 снайперский
+		{healthDamage     75}
+		("accuracy_open_sight"  moa(2.5))
+	} 
+    {parameters "DBP10"                                                 ;Патрон DPB10 автоматный
+		{healthDamage     76}
+		("accuracy_open_sight"  moa(3.2))	;штраф к точности за несоответствие шага нареза
+	} 
+    {parameters "DVC12"                                                 ;Патрон DVC12 ББ
+		{healthDamage     78}
+		("accuracy_open_sight"  moa(3))
+	}
+}

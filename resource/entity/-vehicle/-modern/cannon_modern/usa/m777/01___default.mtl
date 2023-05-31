@@ -1,0 +1,5 @@
+{material bump
+	{diffuse "t_m777body_01_01_m1"}
+	{bump "t_m777body_01_01_n#2"}
+	{blend none}
+}

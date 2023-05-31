@@ -1,0 +1,42 @@
+;Cold War
+{from "pattern smg"
+	{tag "reliability_medium"}
+	{filling "ammo 58ammo_basic" 30} ;58
+	{curve "58x42_70"}
+	{inventory
+		{size 4 2}
+	}
+	{mass 3.25}       
+	{entity "qbz95"}
+	{fireSound	"smg/qbz95"}
+	{reloadSound "chn/qbz95_reload"}
+	{speed 280}	
+
+	{recoveryTime 0.09}
+        {rechargeTime 4}	;булл-пап
+
+	("smg_range")
+	
+
+	{burst
+		{short 2 1}
+		{long 6 2}
+        {rangeKoef 0.444}
+	}
+	{healthDamage 84}
+	("accuracy_open_sight"  moa(3))	;нет данных, примерно 3 для автомата и 1,5 для снайперки
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

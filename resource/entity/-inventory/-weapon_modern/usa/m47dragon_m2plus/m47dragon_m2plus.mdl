@@ -1,0 +1,90 @@
+;Exported by: Kasutaja
+;Date:        Thu Apr  7 18:55:38 2022
+;File:        C:\Users\Kasutaja\Desktop\M47 Dragon M2+\????????? ??? CW\M47 Dragon M2 Plus.max
+{Skeleton
+	{bone "box02"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "box02.ply"}
+		{bone "foresight3"
+			{Matrix34
+				0.998244	0.00545165	-0.0589772
+				-0.00544216	0.999985	0.000321498
+				0.058978	0	0.998259
+				13.8502	0.38441	1.40808
+			}
+		}
+		{bone "shooter1"
+			{Matrix34
+				0.989306	0.00543102	-0.145757
+				-0.00544228	0.999985	0.000321505
+				0.145756	0.000475184	0.98932
+				12.5953	0.466738	1.32685
+			}
+		}
+		{bone "fxshot"
+			{Matrix34
+				-0.998259	0	0.0589782
+				0	-1	0
+				0.0589782	0	0.998259
+				-10.966	0.427108	2.1485
+			}
+		}
+		{bone "rocket"
+			{Matrix34
+				0	-1	0
+				1	0	0
+				0	0	1
+				0.84823	1.0723	2.19837
+			}
+			{VolumeView "rocket.ply"}
+		}
+	}
+}
+{Volume "body"
+	{Polyhedron "body.vol"}
+	{Bone "box02"}
+	{Matrix34
+		0	-1	0
+		0.998549	0	-0.053857
+		0.053857	0	0.998549
+		0.897332	0.453795	-1.03056
+	}
+}
+{Volume "select"
+	{Box 11.2152 23.5971 5.67187}
+	{Bone "box02"}
+	{Matrix34
+		0	-1	0
+		0.998549	0	-0.053857
+		0.053857	0	0.998549
+		1.10672	0.675247	1.79791
+	}
+}
+{Extender "preview"
+	{"Stuff"
+		{camera
+			{origin 1.27063	-45.1549	3.06559}
+			{lookat 1.25734	-11.3661	3.03888}
+			{fov 31.7555}
+			{horizon -3.55121}
+		}
+		{lights
+			{"0"
+				{type directional}
+				{direction -0.0669459	0.438886	-0.229996}
+			}
+			{"1"
+				{type point}
+				{position -10.0745	3.15224	2.41851}
+			}
+			{"2"
+				{type point}
+				{position 18.6464	3.08265	-8.23268}
+			}
+		}
+	}
+}

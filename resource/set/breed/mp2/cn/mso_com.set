@@ -1,0 +1,28 @@
+{breed
+	{skin "cw_cn_inf"}
+	{portrait "_new/cn/inf"}
+	{icon "officer"}
+	{icon_priority 1}
+	{tags "officer"}
+	{nationality cn}
+	{armors
+		{head "qgf03_glasses"}
+	}
+
+	(include "perks_generic.inc")
+	("traits_army_com")
+	{inventory
+		{item "type06h_com"}
+		{item "58ammo 58ammo_basic ammo" 210}
+		{item "smoke_cn grenade"}
+		{item "smoke_cn grenade"}
+		{item "binocular"}
+		{item "smoke_cn grenade"}
+		{item "bandage" 5}
+		{item "type86p grenade" 4}
+		{item "qbz95_scope" filling "58ammo 58ammo_basic ammo" 30}
+		{item "smoke_cn grenade" 2}
+		{item "sandbag_kit"}
+		{in_hands 8} 
+	}
+}

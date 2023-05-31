@@ -1,0 +1,28 @@
+{breed
+	{behaviour soldier}
+	{hero}
+	{skin "cw_rus_sso_multicam"}
+	{portrait "_new/spec_smgrpg_Aleksandrov"}
+	{icon "smgs"}
+	{icon_priority 0}
+	{nationality rus}
+	{armors
+		{head lshz1plus_sso}
+	}
+
+	(include "perks_generic.inc")
+	("traits_elite_bazooker")
+	{perks
+		{"field_glass"}
+		{"stealth"}
+	}
+	{inventory
+		{item "lbt6094_rus_smg_a"}
+		{item "bandage" 10}
+		{item "aek_973_2"}
+		{item "rpg26 weapon" 3 filling "rpg26 ammo" 1}
+		{item "knife_rus"}
+		{item "762 ammo" 180}
+		{in_hands 2}
+	}
+}

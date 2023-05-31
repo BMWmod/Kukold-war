@@ -1,0 +1,6 @@
+{material bump
+	{diffuse "2s7_pion"}
+	{specular "2s7_pion_s"}
+	{color "230 230 230 25"}
+	{blend none}
+}

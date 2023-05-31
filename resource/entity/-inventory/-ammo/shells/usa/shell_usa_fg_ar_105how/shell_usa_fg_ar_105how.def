@@ -1,0 +1,14 @@
+{Actor
+        (include "/properties/stuff_small.ext")
+	{collider "ammo"}
+	{Volume "body"
+		{thickness 4}
+		{able {touch} {bullet} {blast}}
+	}
+	{extender "stuff"
+		{item "bullet105how_usa_ar fg"}
+	}
+	{props "steel" "explosive_stuff"}
+	{Extension "shell_usa_fg_ar_105how.mdl"}
+	
+}

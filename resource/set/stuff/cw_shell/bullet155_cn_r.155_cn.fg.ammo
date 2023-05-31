@@ -1,0 +1,22 @@
+{from "pattern fg"
+	{tag "big" "size4" "150to152fg" "fx_146_299"}
+	{tag "fg_150_shell"} ; только для ammo.set
+	
+	{mass 60} ; 48кг снаряд, около 12кг заряд
+	{inventory
+		{size 6 1}
+	}	
+	{entity "shell_155mm_cn_fg"}
+	{view "shell_155mm_cn_fg" {tail "shell_r_tail" "tail"}}
+	;около 7,4 кг ВВ , предп. TNT тротил Т.э. 1 , 7.4 x 0.8 = 5.9кг к расчету.оск-фугас. 
+	{tag "he_4_5to8"}
+{damage blastwave {energy 0.7} {area 12.4 14.3}}
+{damage add blastwave {energy 1.2} {area 10.7 12.3}}
+{damage add blastwave {energy 2.5} {area 7 8.1}}
+{damage add blastwave {energy 6.5} {area 4.2 4.8}}
+{damage add blastwave {energy 11} {area 2.1 2.4}}
+	{damage add blastwave	 ; HE, kinetic, direct hit
+		{energy 22}
+		{area 0.1 0.1}
+	}
+}

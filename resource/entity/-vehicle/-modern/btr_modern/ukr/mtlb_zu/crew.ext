@@ -1,0 +1,30 @@
+;SDL
+
+{boarder
+	{anm "driver"
+		{forward	{begin	"board_pz4_driver"} {end "seat_gunner_stand"} {base "open_driver"}}
+		{reverse 	{end	"board_pz4_driver" -1} {base "open_driver" -1}}
+	}
+	{anm "commander"
+		{forward	{begin	"board_LowTank_stand"} {end "seat_armor"}}
+		{reverse 	{end	"emit_tank_1"}}
+	}
+
+	{anm "gunner"
+		{forward	{begin	"board_LowTank_stand_1"} {end "seat_armor"}}
+		{reverse 	{end	"emit_tank_1"}}
+	}
+	{anm "commander2"
+		{forward	{begin	"board_LowTank_stand"} {end "seat_armor"}}
+		{reverse 	{end	"emit_tank_1"}}
+	}
+}
+
+{placer
+	{place "driver" {group "crew"} {visor "driver"}}
+}
+{boarder
+	{door "emit0"}
+	{link "emit0" "driver" {anm "driver"} {forward putoff} {reverse puton}}
+}
+

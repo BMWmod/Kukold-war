@@ -1,0 +1,34 @@
+;Cold War
+{from "pattern sniper_rifle"
+
+	{tag "sniper reliability_medium"}
+	{filling "ammo 762x51_x20" 20}
+	{curve "762x51nato_100"}
+	{preloaded}
+	{Automatic}
+	{mass 4.6}
+	{inventory
+		{size 5 2}
+	}
+	{entity "m14_scope"}
+	{special
+		{mode aim}
+		{PrepareTime 6.0}
+		{PrepareCursor "aimed_shot"}
+		;{damage 1} ; damage *= x
+		{accuracy 1.2} ; aim_range *= x
+		;{throw_off}
+	}
+	("marksman_range")
+	{speed 290}        
+	{fireSound "rifle/M14/"}
+	{reloadSound "chn/M21_Reload"}
+	{healthDamage 104}
+	{reloadSound "enfield"}
+	{recoveryTime 0.13}
+	("holo")
+              ("accuracy_collimator"  moa(2.5))
+	("accuracy_collimator_77"  moa(2.5))
+	{cursor "sniper"}
+	{cursorReloading "cannon_reload_all"}
+}

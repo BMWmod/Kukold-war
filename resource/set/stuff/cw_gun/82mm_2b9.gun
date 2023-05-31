@@ -1,0 +1,22 @@
+{from "pattern gun"    
+	("75-76caliber")
+	{ZeroingAccuracy 0.8 0.7 0.6 0.5}
+	{DisableRicochet}
+	{aimtype curved}
+	{traceFreq 0}
+   	
+	{filling "ammo 82mm" 4}
+	("CW_acc_artillery" mils(10))
+	{fireSound "reactive/Mortar_82-60mm"}
+	{reloadSound "tankgun_r03"}
+	{recoveryTime 0.5}	;практическая скорострельность 120, техническая 170 ; 4 выстрела за 2с, перезарядка кассеты за 3с https://t.me/istorijaoruzijaZ/13847
+	{rechargeTime 3}
+	{range 150 150}
+	{gravity 1}
+	("speed" s(270)) 
+	{calibre 82}
+	{automatic}
+	;{cursor "cannon_on_fg"}
+	{cursor "target_fg"}
+	{cursorReloading "cannon_reload_fg"}
+}

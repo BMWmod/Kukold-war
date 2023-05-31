@@ -1,0 +1,5 @@
+{material bump
+	{diffuse "$/model/toyhota/grad_p"}
+	{color "255 255 255 25"}
+	{blend test}
+}

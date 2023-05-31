@@ -1,0 +1,165 @@
+;Exported by: Timosh
+;Date:        Thu Apr 18 18:09:11 2019
+;File:        G:\?????? ? Pheonix\??????????????\??? ??????\???\????????? ???????\Projectile_bis\cwps_3\cwps3_proj_point\cwps3_proj_point_spawner_unitary.max
+{Skeleton
+	{animation
+		{sequence "rand1" {speed 0.2} {resume}}
+		{sequence "rand2" {speed 0.2} {resume}}
+		{sequence "forward1" {speed 1} {resume}}
+		{sequence "forward2" {speed 1} {resume}}
+		{sequence "forward3" {speed 1} {resume}}
+		{sequence "forward4" {speed 1} {resume}}
+		{sequence "forward5" {speed 1} {resume}}
+		{sequence "forward6" {speed 1} {resume}}
+		{sequence "forward7" {speed 1} {resume}}
+		{sequence "forward8" {speed 1} {resume}}
+		{sequence "forward9" {speed 1} {resume}}
+		{sequence "forward10" {speed 1} {resume}}
+		{sequence "hide" {speed 1} {resume}}
+	}
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "point_carrier"
+			{bone "point_carrier1"
+				{bone "marker_point"
+				}
+			}
+		}
+	}
+}
+{Volume "rus_active"
+	{Box 1.1 1.1 1.1}
+	{Bone "marker_point"}
+	{Position 0	0	4.92126}
+}
+{Volume "rus_antiship"
+	{Box 1.1 1.1 1.1}
+	{Bone "marker_point"}
+	{Position 0	0	4.92126}
+}
+{Volume "rus_ir"
+	{Box 1.1 1.1 1.1}
+	{Bone "marker_point"}
+	{Position 0	0	4.92126}
+}
+{Volume "rus_laser"
+	{Box 1.1 1.1 1.1}
+	{Bone "marker_point"}
+	{Position 0	0	4.92126}
+}
+{Volume "rus_laser_spot"
+	{Box 1.1 1.1 1.1}
+	{Bone "marker_point"}
+	{Position 0	0	4.92126}
+}
+{Volume "rus_other"
+	{Box 1.1 1.1 1.1}
+	{Bone "marker_point"}
+	{Position 0	0	4.92126}
+}
+{Volume "rus_radpassive"
+	{Box 1.1 1.1 1.1}
+	{Bone "marker_point"}
+	{Position 0	0	4.92126}
+}
+
+{Volume "usa_active"
+	{Box 1.1 1.1 1.1}
+	{Bone "marker_point"}
+	{Position 0	0	4.92126}
+}
+{Volume "usa_antiship"
+	{Box 1.1 1.1 1.1}
+	{Bone "marker_point"}
+	{Position 0	0	4.92126}
+}
+{Volume "usa_ir"
+	{Box 1.1 1.1 1.1}
+	{Bone "marker_point"}
+	{Position 0	0	4.92126}
+}
+{Volume "usa_laser"
+	{Box 1.1 1.1 1.1}
+	{Bone "marker_point"}
+	{Position 0	0	4.92126}
+}
+{Volume "usa_other"
+	{Box 1.1 1.1 1.1}
+	{Bone "marker_point"}
+	{Position 0	0	4.92126}
+}
+{Volume "usa_radpassive"
+	{Box 1.1 1.1 1.1}
+	{Bone "marker_point"}
+	{Position 0	0	4.92126}
+}
+
+{Volume "target_rus_active"
+	{Box 80.1 80.1 80.1}
+	{Bone "marker_point"}
+	{Position 0	0	10.0527}
+}
+{Volume "target_rus_antiship"
+	{Box 80.1 80.1 80.1}
+	{Bone "marker_point"}
+	{Position 0	0	10.0527}
+}
+{Volume "target_rus_ir"
+	{Box 80.1 80.1 80.1}
+	{Bone "marker_point"}
+	{Position 0	0	10.0527}
+}
+{Volume "target_rus_laser"
+	{Box 80.1 80.1 80.1}
+	{Bone "marker_point"}
+	{Position 0	0	10.0527}
+}
+{Volume "target_rus_laser_spot"
+	{Box 80.1 80.1 80.1}
+	{Bone "marker_point"}
+	{Position 0	0	10.0527}
+}
+{Volume "target_rus_other"
+	{Box 80.1 80.1 80.1}
+	{Bone "marker_point"}
+	{Position 0	0	10.0527}
+}
+{Volume "target_rus_radpassive"
+	{Box 80.1 80.1 80.1}
+	{Bone "marker_point"}
+	{Position 0	0	10.0527}
+}
+{Volume "target_usa_active"
+	{Box 80.1 80.1 80.1}
+	{Bone "marker_point"}
+	{Position 0	0	10.0527}
+}
+{Volume "target_usa_antiship"
+	{Box 80.1 80.1 80.1}
+	{Bone "marker_point"}
+	{Position 0	0	10.0527}
+}
+{Volume "target_usa_ir"
+	{Box 80.1 80.1 80.1}
+	{Bone "marker_point"}
+	{Position 0	0	10.0527}
+}
+{Volume "target_usa_laser"
+	{Box 80.1 80.1 80.1}
+	{Bone "marker_point"}
+	{Position 0	0	10.0527}
+}
+{Volume "target_usa_other"
+	{Box 80.1 80.1 80.1}
+	{Bone "marker_point"}
+	{Position 0	0	10.0527}
+}
+{Volume "target_usa_radpassive"
+	{Box 80.1 80.1 80.1}
+	{Bone "marker_point"}
+	{Position 0	0	10.0527}
+}

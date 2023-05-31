@@ -1,0 +1,200 @@
+﻿{tags
+	{"00" "Infantry"}
+	{"01" "Infantry squad"}
+	{"02" "Cannon"}
+	{"03" "Stationary cannon"}
+	{"04" "IFV"}
+	{"05" "Air Defense"}
+	{"06" "Tank"}
+	{"07" "Helicopter"}
+	{"08" "Attack helicopter"}
+	{"09" "Engineers"}
+	{"10" "Supply"}
+	{"11" "Truck with ammunition."}
+	{"12" "Crew"}
+	{"13" "Crew for vehicles"}
+	{"14" "Saboteurs"}
+	{"15" "Spetsnaz squad can make a diversion behind enemy lines."}
+	{"16" "Aviation strike"}
+	{"17" "Aviation strike at a given point."}
+	{"18" "Volley of artillery"}
+	{"19" "Strikes a selected area."}
+	{"20" "CC vehicle"}
+	{"21" "Calling the command and control car."}
+	{"22" "Radar P-37"}
+	{"23" "Detecting and informing about the appearance of air targets."}
+	{"24" "T-14"}
+	{"25" "Experimental tank"}
+	{"26" "UAV"}
+	{"27" "UAV \" Aileron \""}
+	{"28" "Guard position"}
+	{"29" "Infantry squad in the zone"}
+	{"30" "Grenade Launchers"}
+	{"31" "Detachment of grenade launchers in the zone"}
+	{"32" "MANPADS"}
+	{"33" "Separation of MANPADS into a zone"}
+	{"Active_diversia" "Sabotage behind enemy lines."}
+	{"Active_diversiah" "Saboteurs arrange a sabotage and can disrupt an enemy offensive."}
+	{"Active_zabros_diver" "Sending saboteurs to the rear."}
+	{"Add_score_for_teh_01" "Enemy tank destroyed!"}
+	{"Add_score_for_teh_02" "Enemy IFV destroyed!"}
+	{"Add_score_for_teh_03" "Enemy APC is destroyed!"}
+	{"Add_score_for_teh_04" "Enemy armored car destroyed."}
+	{"Add_score_for_teh_05" "Enemy attack helicopter shot down!"}
+	{"Add_score_for_teh_06" "The enemy's transport helicopter is shot down!"}
+	{"Add_score_for_teh_07" "Enemy attack aircraft downed!"}
+	{"Add_score_for_teh_08" "The enemy missile system is destroyed!"}
+	{"Add_score_for_teh_09" "We destroyed the enemy CC vehicle!"}
+	{"Add_score_for_teh_10" "The enemy truck is destroyed!"}
+	{"Add_score_for_teh_11" "Received reinforcement points for the trophy."}
+	{"Add_score_for_teh_12" "You managed to capture the enemy CC vehicle! This is a very valuable trophy, it will come in handy! It's a great job!"}
+	{"Add_score_for_zone_00" "Received reinforcement points for control of the territory."}
+	{"Armata" "Save Armata, do not allow it to be captured."}
+	{"Armata_00" "We are sending a new prospective tank to your district for testing in combat conditions."}
+	{"Armata_01" "Use the tank at your discretion.It is important to save it, as well as: the tank must never fall into the hands of the enemy!"}
+	{"Armata_02" "Armata is destroyed! The command is depriving you of part of the reserves!"}
+	{"Armata_03" "Armata was captured by the enemy and sent to the rear."}
+	{"Armata_04" "The newest secret tank has fallen into the hands of the enemy. For such a monstrous failure you were removed from command. "}
+	{"Armata_05" "Armata in the hands of the enemy! It is necessary to repel it as soon as possible!"}
+	{"Armata_06" "The enemies have seized our secret tank! Do not let them lead Armata back to their rear!"}
+	{"Armata_07" "Secret development has got to the enemy! Kill or destroy it as soon as possible!"}
+	{"Army_power" "Army strength %1%"}
+	{"Art_attack_00" "Coordinates received."}
+	{"Art_attack_01" "Fire!"}
+	{"Attack_interval_00" "Average delay"}
+	{"Attack_interval_01" "Small delay"}
+	{"Attack_interval_02" "Long delay"}
+	{"Back" "BACK"}
+	{"Date" "Autumn 2017"}
+	{"Diver" "Deliver the saboteurs to the rear of the enemy."}
+	{"Diversia_00" "The diversion failed. We could only detain the enemy column for a bit. "}
+	{"Diversia_01" "The saboteurs ambushed and destroyed the enemy column that was heading to your area."}
+	{"Diversia_02" "The sabotage team went into the designated area, waiting for the order to advance into the rear!"}
+	{"En_art_fire_01" "The enemy artillery fired upon our positions!"}
+	{"En_kshm" "Destroy or capture enemy CC vehicle."}
+	{"En_kshm_00" "Intelligence has spotted an enemy KSHM in your area!"}
+	{"En_kshm_01" "CC vehicle will coordinate the enemy's actions, and allow them to attack more often. We need to find it and neutralize it!"}
+	{"En_kshm_02" "An enemy CC vehicle was detected!"}
+	{"En_kshm_03" "Enemy CC vehicle changes position!"}
+	{"En_kshm_04" "The enemy's CC vehicle has found us! She's trying to hide!"}
+	{"En_kshm_05" "We need to neutralize the enemy CC vehicle. While it's active, the enemy will be more likely to strike!"}
+	{"En_kshm_06" "Enemy CC vehicle coordinates the enemy's actions! Destroy or capture it as soon as possible!"}
+	{"En_retreat_00" "The enemy is retreating!"}
+	{"En_retreat_defender_00" "Under our onslaught the enemy left his position and retreats!"}
+	{"En_retreat_defender_01" "Our attack caused the enemy to retreat!"}
+	{"En_retreat_defender_02" "We succeeded in dislodging the enemy! They are retreating!"}
+	{"Kamaz_kshm_info_00" "The command and staff machine allows you to get intelligence quickly, you will be informed of the large movement of enemy forces."}
+	{"Kshm_00" "CC vehicle: A column of enemy equipment is seen heading toward your positions."}
+	{"Kshm_01" "Direction of movement - right flank."}
+	{"Kshm_02" "Direction of movement is the center."}
+	{"Kshm_03" "Direction of movement - left flank."}
+	{"Menu_podkrep" "Support"}
+	{"Menu_spec" "Reinforcements"}
+	{"Menu_zone" "Zones"}
+	{"Name" "Losha"}
+	{"Name_big" "Losha"}
+	{"Obl_blokpost1_take" "Move to the residential sector centered."}
+	{"Obl_blokpost2_take" "Occupy the square and the surrounding territory."}
+	{"Obl_blokpost3_take" "Knock out the enemy from the positions on the outskirts of Losha in the center."}
+	{"Obl_blokpost4_take" "Grab the checkpoint beyond the river on the left flank."}
+	{"Obl_defline1_def" "Hold the line of defense on the right flank."}
+	{"Obl_defline1_take" "Grab the positions on the hill on the right flank."}
+	{"Obl_dobrino_centr_take" "Grab the positions after the ford on the right flank."}
+	{"Obl_dobrino_end_take" "Get the enemy out of the warehouses on the outskirts."}
+	{"Obl_korovniki_take" "Seize positions on the left flank."}
+	{"Obl_lesopilka_take" "Clean out the private sector on the right flank."}
+	{"Obl_sanatoriy_take" "Take the industrial zone on the left flank."}
+	{"Obl_skladi_take" "Grab the old bridge."}
+	{"Obl_stavka_def" "Defending positions on the highway, loss will lead to a failure operation."}
+	{"Obl_stavka_take" "Urgently restore control of the reference zone."}
+	{"Obl_visota_def" "Control the height on the left flank."}
+	{"Obl_visota_take" "Take control of the intersection on the highway"}
+	{"Outro_completed" ""}
+	{"Outro_failed" ""}
+	{"P37_00" "Radar: Object detected! Attack plane is approaching!"}
+	{"P37_01" "Radar: Object detected! Attack helicopter approaching!"}
+	{"P37_02" "Radar: Object detected! Transport helicopter is approaching!"}
+	{"Pilot_need_help_00" "I'm down! I managed to catapult, I'm requesting evacuation."}
+	{"Pilot_need_help_01" "We hear you. To evacuate, get to the headquarters, there you will be sent a transport. "}
+	{"Pilot_need_help_02" "I understand, I'm starting to move. End of communication. "}
+	{"Pilot_need_help_03" "Our attack aircraft was shot down, the pilot was killed!"}
+	{"Pilot_need_help_04" "The pilot is dead!"}
+	{"Pilot_need_help_05" "You got there! They sent you a car, do not go far!"}
+	{"Pilot_need_help_06" "For successful evacuation of the pilot, the command allocates additional reserves for you. (+10 reinforcement points)"}
+	{"Place" "Belarus. Western Front."}
+	{"Player_take_00" "Enemy tank captured!"}
+	{"Player_take_01" "We managed to capture Bradley!"}
+	{"Player_take_02" "We have captured an enemy APC!"}
+	{"Player_take_03" "We captured an enemy wheeled tank!"}
+	{"Player_take_04" "Enemy self-propelled mortar seized!"}
+	{"Player_take_05" "We captured an enemy supply truck!"}
+	{"Player_take_06" "We captured an enemy armored car!"}
+	{"Player_take_07" "We managed to capture the enemy's CC vehicle!"}
+	{"Player_take_08" "We captured the enemy AA unit!"}
+	{"Player_take_09" "We captured the enemy SAM!"}
+	{"Player_take_10" "You can send captured equipment to the rear as trophies! For this you will get extra reserves!"}
+	{"Player_take_11" "To do this, drive the trophy to the specified area."}
+	{"Player_take_12" "Now we'll send tank crews for the trophy!"}
+	{"Player_take_13" "Get out! Next, let us go!"}
+	{"Player_take_14" "We'll drive the tech back, and you'll go back to the front."}
+	{"Player_take_15" "Pass the trophy to us, we will deliver it."}
+	{"Prior1" "Priority direction: advance on the left flank."}
+	{"Prior2" "Priority direction: move up the center."}
+	{"Prior3" "Priority direction: advance on the right flank."}
+	{"Prior_01" "For advancement in the priority area, the command allocates additional reinforcements for you."}
+	{"Prior_02" "For the loss of initiative in the priority direction, the command is depriving you of part of the reinforcements."}
+	{"Save_pilot" "Evacuate the pilot from the war zone."}
+	{"Shtraf_score_00" "No penalty"}
+	{"Shtraf_score_01" "A small penalty"}
+	{"Shtraf_score_02" "Big penalty"}
+	{"Stavka_take_00" "We managed to beat off the strong point! It remains to wait until the command will restore the flow of reserves!"}
+	{"Stavka_take_01" "Front supply has been restored!"}
+	{"Stavka_take_02" "Damn, the enemy has captured the base zone, now we can not get reinforcements! We need to fight off it at any cost or the offensive will fail!"}
+	{"Su25_attack_00" "The goal was accepted. I'm going to attack."}
+	{"Take_00" "We threw the enemy over the river!"}
+	{"Talk_ally_retreat_00" "Forced to retreat! The enemy is far superior to us!"}
+	{"Talk_ally_retreat_01" "Retreat!"}
+	{"Talk_ally_retreat_02" "We are under strong fire! We must retreat!"}
+	{"Talk_warning_air_00" "Air, take cover !!"}
+	{"Teh_hunt" "Drive the captured equipment east of the sanatorium, for sending to the rear."}
+	{"Vert_low_fuel" "The helicopter is running out of fuel!"}
+	{"Zone1" "C1 Road."}
+	{"Zone10" "R4 The Outcrops of the Louse"}
+	{"Zone10h" "Outskirts on the right flank."}
+	{"Zone11" "C5 Positions on the Outskirts."}
+	{"Zone11h" "Positions on the edge of the center."}
+	{"Zone12" "L4 Wasteland."}
+	{"Zone12h" "Positions on the left flank."}
+	{"Zone13" "L3 Block"}
+	{"Zone13h" "The roadblock on the highway on the left flank."}
+	{"Zone1h" "The transfer of troops is carried out through this area."}
+	{"Zone2" "L1 Industrial zone."}
+	{"Zone2h" "The complex of buildings of agricultural infrastructure on the left flank."}
+	{"Zone3" "R1 Hill"}
+	{"Zone3h" "Positions on the hill on the right flank."}
+	{"Zone4" "L2 Intersection."}
+	{"Zone4h" "Crossroads in front of the river on the left flank."}
+	{"Zone5" "C2 Residential Quarter."}
+	{"Zone5h" "Positions in the residential quarter in the center."}
+	{"Zone6" "C3 Old Bridge."}
+	{"Zone6h" "Bridge in the central direction."}
+	{"Zone7" "R2 Private sector."}
+	{"Zone7h" "Positions in front of the river on the right flank."}
+	{"Zone8" "C4 Area"}
+	{"Zone8h" "The central part of the settlement on that shore."}
+	{"Zone9" "R3 ford"}
+	{"Zone9h" "Shallow water on the right flank."}
+	{"Zone_title_01" "HQ"}
+	{"Zone_title_02" "Sanatorium"}
+	{"Zone_title_03" "Fortified area"}
+	{"Zone_title_04" "Height"}
+	{"Zone_title_05" "Checkpoint"}
+	{"Zone_title_06" "Warehouses"}
+	{"Zone_title_07" "MLC"}
+	{"Zone_title_08" "Dobrino checkpoint"}
+	{"Zone_title_09" "Dobrino Center"}
+	{"Zone_title_10" "Outskirts of Dobrino"}
+	{"Zone_title_11" "Bridge"}
+	{"Zone_title_12" "Cowsheds"}
+	{"Zone_title_13" "Field"}
+}

@@ -1,0 +1,91 @@
+{tags
+	{"00" "This is for guys!"}
+	{"01" "They are working on you! Evade! Pull up, pull up! Evade!"}
+	{"02" "I see!"}
+	{"03" "I'm hit... Hardly hit.. Right engine fire..."}
+	{"04" "The left one has stopped... Call SAR and pull up."}
+	{"05" "Damn, they noticed me!"}
+	{"06" "Idlib province, Syrian Arab Republic"}
+	{"07" "Gotta get out of here..."}
+	{"08" "It is necessary to give a signal until tangos will find me."}
+	{"09" "Take it!"}
+	{"10" "Like it?"}
+	{"11" "For Russia!"}
+	{"12" "Great, the radio beacon works... now I need to hold on"}
+	{"13" "Drake, we are on the spot. Getting started. What about the pilot?"}
+	{"14" "Herald, according to the latest data, the pilot was killed. Your task is to evacuate the body of the pilot, find MANPADS and inspect the place where the attack aircraft fell. If possible, find the shooters and turn them inside out. Our ships are ready to fire  \"Calibers\" on your designation."}
+	{"15" "Affirmative."}
+	{"16" "We went to the flyer's landing zone. There are traces of the battle, burnt cars. Pilot, dead or alive, is not found, continuing to search."}
+	{"17" "We are in crash zone. Everything is burned down, the wreckage is still smoking. The plane is completely destroyed. I'll take pictures of the debris."}
+	{"18" "Found the flyer, dead. Apparently the tangos dragged the corpse into the house, there are visible injuries to the arm, body, it seems like grenade explosion."}
+	{"19" "Accepted, evacuate the body ASAP - enemy reinforcements are on the way."}
+	{"20" "Received, Herald, wait for a gift."}
+	{"21" "Sunset, three missiles on a point, coordinates ....."}
+	{"22" "Received, Herald, missiles away."}
+	{"23" "Drake, this is Herald, arrived to the search area, looking for the pilot."}
+	{"24" "Herald, find and evacuate the pilot, a search and rescue squad will now arrive at the escape point, clear the path for them if possible."}
+	{"25" "Hey, flyer! Do not shoot, we are Specops!"}
+	{"26" "Glad to see you. They've almost got me... Let's get out of here."}
+	{"27" "This is SAR. We are in the sector."}
+	{"28" "Drake, this is the Herald. The pilot is on the point, passed him to SAR."}
+	{"29" "Received, Herald, well done. Now proceed to the next task - inspect the crash site. Find the MANPADS from the militants, either take the sample or write down the numbers and destroy the complexes. If possible, destroy shooters."}
+	{"30" "I detect visible traces of small arms fire on the ejection site, several tangos."}
+	{"31" "Attention Herald. Our ships are ready to support you with \"Caliber\" launches at the specified points. But try not to use them in the village before you find a warehouse of MANPADS - otherwise it will be too difficult to confirm their presence and state ownership. Call sign for communication with ships is Sunset"}
+	{"32" "I get you, Drake, we will do our best."}
+	{"33" "Mortars! Take cover!"}
+	{"34" "The tangos hold the road under fire, we should think how to remove them."}
+	{"35" "And here is the sought. Stingers, more then one. Cover me, I'll rewrite the numbers."}
+	{"36" "Done, now we'll destroy the warehouse. Belov, prepare charges."}
+	{"37" "That's it, nothing survived there."}
+	{"38" "Drake is the Messenger, the main work is done, the MANPADS warehouse has been destroyed, the pilot has been evacuated, the aircraft has been inspected. What are our orders?"}
+	{"39" "Herald, leave the area - a large gang is moving into the sector, they will be here in a couple of minutes. Su-34 will worked on them, but you need to get out of there ASAP."}
+	{"40" "Understood, Drake, we leave now."}
+	{"41" "Great, we have a sample of MANPADS."}
+	{"42" "Got those bastards! Perhaps it was them who shot down the plane. We ought to take away their MANPADS."}
+	{"43" "Drake, this is Herald, my group has left the sector."}
+	{"44" "Damn it! We have KIA! The body must be taken away, we can't leave it to the militants!"}
+	{"45" "Oh shit! We have KIA!"}
+	{"46" "The body must be taken away,we can't leave it to tangos!"}
+	{"47" "Heck! Damn, damn it! We lost the flyer!"}
+	{"48" "Oh, wow. Major James Sterh, US special forces. It is clear where these gifts to militants have come from."}
+	{"49" "How interesting... He doesn't look like Arab, and has US token..."}
+	{"50" "An interesting laptop, I'll take it, it can contain something valuable inside."}
+	{"51" "Drake, a black box was found at the crash site."}
+	{"52" "Herald, take it away if possible, it can be useful to our aviation specialists."}
+	{"53" "Oh shit! Now we can't identify MANPADS even if we will find the remains of a warehouse!"}
+	{"54" "VKS base \"Khmeynim\", Syrian Arab Republic."}
+	{"caliber" "Cruise missile"}
+	{"caliber1" "Launch a cruise missile \"Caliber-NK\""}
+	{"calibermany" "3 cruise missiles"}
+	{"calibermany1" "Launch 3 cruise missiles \"Caliber-NK\""}
+	{"calobr1" "Sunset, I have target designation, coordinates ....."}
+	{"date" " 3 February, 2018"}
+	{"loose" "Roman Filipov was killed during the rescue operation by the Specops and Russian marines."}
+	{"loose2" "The commander of the SSO group died during the operation, the group was unable to fulfill the key tasks of the headquarters."}
+	{"loose3" "The ships hit the settlement before the SSO group was able to find the warehouse of MANPADS."}
+	{"minomet2" "Mortars disabled."}
+	{"name" "Dedication"}
+	{"name_big" "Dedication"}
+	{"outro_completed" "Eternal memory to the hero!"}
+	{"outro_failed" "..."}
+	{"place" "Syria, Serakib neighbourhood, province Idlib"}
+	{"timer" "Hold on!"}
+	{"timerpzrk" "Protect MANPADS warehouse"}
+	{"win1" "Special Forces and Marines were able to save the pilot and destroy the warehouse with MANPADS.\n The mission is dedicated to major Roman Filipov, Hero of the Russian Federation, who has heroically died in a battle with terrorists on February 3, 2018 in the Syrian Arab Republic. "}
+	{"win2" "Roman Filipov blew himself up with a grenade in order not to surrender. Later, the Specops evacuated the body of the pilot and destroyed the warehouse with MANPADS.\n The mission is dedicated to major Roman Filipov, Hero of the Russian Federation, who has heroically died in a battle with terrorists on February 3, 2018 in the Syrian Arab Republic."}
+	{"zad" "Fight off terrorists"}
+	{"zad1dop" "Take weapons from survival kit."}
+	{"zad2" "Report to SAR from hill nearby."}
+	{"zad2dop" "Take a sample of MANPADS"}
+	{"zad3" "Wait for the SAR team"}
+	{"zad3dop" "Do not incur losses"}
+	{"zad4a" "Take the pilot to a safe area"}
+	{"zad4b" "Evacuate the body of the pilot"}
+	{"zad5" "Inspect the crash site"}
+	{"zad6" "Find MANPADS"}
+	{"zad7" "Destroy MANPADS"}
+	{"zad8" "Blow up a warehouse with MANPADS"}
+	{"zad9" "Leave the sector before the air strike "}
+	{"zadsekret" "Foreign advisors destroyed"}
+	{"zadsekret2" "A laptop with valuable data relating to the circumstances of the incident with the Su-25 has taken"}
+}

@@ -1,0 +1,7 @@
+;Cold War
+{from "sako_trg42_fs"
+	{entity "sako_trg42_fs_suppressor"}
+	{fireSound "rifle/silent/sako_silencer"}
+	("bolt_range_custom" k(1.1))
+	{tag "sd"}
+}

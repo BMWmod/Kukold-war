@@ -1,0 +1,5 @@
+;Created by Pheonix 
+{from "weapon pg_nato"
+	{entity "r-20_rahe_m203gp"}
+	{reloadSound "M203_reload"}
+}

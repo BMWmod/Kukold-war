@@ -1,0 +1,117 @@
+{game_entity
+	(include "/properties/tank.ext")
+	(include "/properties/selection/vehicle.inc"  scale(1.2))
+	{props "Light_M" "vision_lev06" "turret_rotator" "with_open_zpu" "has_apu" "has_autoloader" "cw_artillery"}
+	{extender "enumerator"}
+	{PatherID "amphibia"}
+	{volume "body1"
+		{tags "body"}
+		{component "body"}
+		{thickness 30}
+	}
+	{volume "body2"
+		{tags "body"}
+		{component "body"}
+		{thickness 30}
+	}
+	("armor_medium" turret(10 10 5 5) body(10 10 5 5))
+	("armor_engine"  t(10 10 10 12))
+	("armor_mantlet" t(10))
+
+	{boarder
+		{anm "driver"
+			{forward	{begin	"board_tank_right"} {end "seat_driver_car"} {base"open_left"}}
+			{reverse 	{end	"emit_tank_2_hold"} {base"open_left"}}
+		}
+		{anm "gunner"
+			{forward	{begin	"board_tank_left"} {end "seat_passenger"}}
+			{reverse 	{end	"emit_tank_2_hold"}}
+		}
+		{anm "commander"
+			{forward	{begin	"board_tank_left"} {end "pose_pak40_charger"} {base"open_right"}}
+			{reverse 	{end	"emit_tank_2_hold"} {base"open_right"}}
+		}
+	}
+{Placer
+	{place "gunner"		{LinkBone "gunner"}	{Group "crew"}	{turnoff {sensor} {shadow}} {visor "main"}}
+}
+(define "crew_human"
+	{placer
+		{place "%place" {group "%group"} {visor "%visor"}}
+	}
+	{boarder
+		{door "%door"}
+		{link "%door" "%place" {anm "%animation"} {forward putoff} {reverse puton}}
+	}
+)
+("crew_human" place(driver)		animation(driver)	door(emit1))
+("crew_human" place(commander)		animation(commander)	door(emit2))
+("crew_human" place(gunner)		animation(gunner)	door(emit3))
+	{extender "inventory"
+		{box
+			{Size 8 7}
+			{weight 3000}
+			{item "ammo bullet203_RUS" 20}                 
+		}
+	}
+
+	{Weaponry
+		("restore_ik_time")
+		{place "gun"
+			{RestoreIKAfterAim}
+			{weapon "2a44" filled}
+			{gunner "gunner"}
+			{charger "gunner"}        	
+
+			("CW_stab_artillery_rt" rechargetime(30))
+		}
+	}
+
+	{mass 46500}
+	{Chassis
+		("tank_trace" fx("tracks_big") step(0.52) len(1.45))
+		{Locomotion ("locomotion")
+			{MaxSpeed	 50}
+			{maxSpeedAtMaxTurn 12}
+			{StartTime	  14}
+			{TurnTime  	  8}
+    		{TurnStart  1.7} 
+    		{BrakeTime    1} 
+    		{StopTime     2} 
+    		{TurnRadius   9} 
+    		{TurnStop   0.9}
+     		{Gears  0.2 0.5 1} 
+    		{RearGears 0.38}
+		}
+		{FuelBag
+			{volume 1280 }	
+			{rate	136 }   
+			{remain 1280 }
+			{fuel "fuel"}
+		}
+		{speed
+		{Fast  30}
+        	{Normal  15}
+        	{Slow  7}
+    		}
+		{DisableMoveWhileFiring}
+	}
+
+	{Extension "2s7_pion.mdl"}
+	
+	{bone "gun_rot"
+		{limits -60 0}
+		{speed 0.002}
+	}
+	{bone "turret"
+		{limits -15 15}
+		{speed 0.002}
+	}
+	(mod "mp"
+		{brain
+			{properties
+				{fire_mode hold}
+			}
+		}
+	)
+}

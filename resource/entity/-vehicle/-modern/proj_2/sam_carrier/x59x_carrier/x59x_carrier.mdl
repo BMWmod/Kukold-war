@@ -1,0 +1,191 @@
+;Exported by: Timosh
+;Date:        Tue Dec 13 20:54:07 2016
+;File:        G:\Работа с Pheonix\Редактирование\Мои модели\Авиация\Навесняк\РФ\Х-59М\X-59m 2.max
+{Skeleton
+	{animation
+		{sequence "on_start" {speed 0.35}}
+	}
+	{bone "basis"
+	    {Orientation
+    		1	0	0
+    		0	1	0
+    		0	0	-1
+    	}
+		{bone revolute "gun_rot"
+		    {Matrix34
+				1	0	0
+				0	1	0
+				0	0	1
+				0	0	0
+			}
+			{bone revolute "gun"
+			    {Matrix34
+		       		1	0	0
+		       		0	0	1
+		       		0	-1	0
+		       		0	0	0
+		       	}
+				{bone "missle_foresight"
+		            {Position 57	0	0}
+		        }
+				{bone "cont_vol"
+		            {Position -150	0	0}
+		        }
+	            {bone "x59m"
+	            	{VolumeView "x59m.ply"}
+	            	{bone "glass"
+	            		{Matrix34
+	            			1	0	0
+	            			0	0	1
+	            			0	-1	0
+	            			56.4522	-0.10902	0.0892528
+	            		}
+	            		{VolumeView "glass.ply"}
+	            	}
+					{bone "tail2"
+	            		{Matrix34
+	            			-1	0	0
+	            			0	-1	0
+	            			0	0	1
+	            			-46	0	0
+	            		}
+	            	}
+	            	{bone "part1"
+	            		{Matrix34
+	            			1	0	0
+	            			0	0	1
+	            			0	-1	0
+	            			-48.7104	0.333489	0.089451
+	            		}
+	            		{VolumeView "part1.ply"}
+	            		{bone "tail"
+	            			{Matrix34
+	            				-1	0	0
+	            				0	-1	0
+	            				0	0	1
+	            				-7.57613	-0.0894509	0.333489
+	            			}
+	            		}
+	            	}
+	            	{bone "rul1"
+	            		{Matrix34
+	            			1	0	0
+	            			0	0.707107	0.707107
+	            			0	-0.707107	0.707107
+	            			50.7648	-4.143	4.08672
+	            		}
+	            		{VolumeView "rul1.ply"}
+	            	}
+	            	{bone "part2"
+	            		{Position 3.15186	9.31066	0.114047}
+	            		{VolumeView "part2.ply"}
+	            	}
+	            	{bone "rul3"
+	            		{Matrix34
+	            			1	0	0
+	            			0	-0.707107	-0.707107
+	            			0	0.707107	-0.707107
+	            			50.7648	3.93097	-3.90955
+	            		}
+	            		{VolumeView "rul3.ply"}
+	            	}
+	            	{bone "rul4"
+	            		{Matrix34
+	            			1	0	0
+	            			0	0.707107	-0.707107
+	            			0	0.707107	0.707107
+	            			50.7648	3.89212	4.12557
+	            		}
+	            		{VolumeView "rul4.ply"}
+	            	}
+	            	{bone "rul2"
+	            		{Matrix34
+	            			1	0	0
+	            			0	-0.707107	0.707107
+	            			0	-0.707107	-0.707107
+	            			50.7648	-4.10415	-3.9484
+	            		}
+	            		{VolumeView "rul2.ply"}
+	            	}
+	            	{bone "tail1"
+	            		{Matrix34
+	            			-1	0	0
+	            			0	0	1
+	            			0	1	0
+	            			-15.4041	9.03253	0
+	            		}
+	            	}
+	            }
+			}
+		}
+	}
+}
+{Volume "body"
+	{Box 125.4101 10.75377 12.12173}
+	{Bone "x59m"}
+	{Matrix34
+		1	0	0
+		0	0	1
+		0	-1	0
+		7.20049	0.290118	0
+	}
+}
+{Volume "ground"
+	{Box 125.4101 20.75377 22.12173}
+	{Bone "x59m"}
+	{Matrix34
+		1	0	0
+		0	0	1
+		0	-1	0
+		7.20049	0.290118	0
+	}
+}
+{Volume "part1"
+	{Box 12.0047 6.75377 8.12173}
+	{Bone "part1"}
+	{Position 1.91853	-0.0894509	0.0433707}
+}
+{Volume "part2"
+	{Box 2.16535 5.47056 5.68521}
+	{Bone "part2"}
+	{Matrix34
+		1	0	0
+		0	0	1
+		0	-1	0
+		0.538857	-0.0367155	-0.0449834
+	}
+}
+{Volume "select"
+	{Box 95.4101 6.75377 8.12173}
+	{Bone "x59m"}
+	{Matrix34
+		1	0	0
+		0	0	1
+		0	-1	0
+		7.20049	0.290118	0
+	}
+}
+{Extender "preview"
+	{"Stuff"
+		{camera
+			{origin 0.970748	-3.86531	-217.387}
+			{lookat 1.01845	-0.523233	-107.167}
+			{fov 31.7555}
+			{horizon 173.404}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position -0.21757	2.74553	-106.657}
+			}
+			{"1"
+				{type directional}
+				{direction -0.0725231	-0.318001	-0.378966}
+			}
+			{"2"
+				{type point}
+				{position -2.77756	1.92351	-106.937}
+			}
+		}
+	}
+}

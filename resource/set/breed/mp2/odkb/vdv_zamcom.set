@@ -1,0 +1,27 @@
+{breed
+	{skin "cw_bel_odkb_gorka_hood"}
+	{portrait "_new/bel/vdv"}
+	{icon "officer"}
+	{icon_priority 2}
+	{tags "officer"}
+	{nationality rus}
+	{armors
+		{head "6b47_valken_belvdv"}
+	}
+
+	(include "perks_generic.inc")
+	("traits_advanced_com")
+	{inventory
+		{item "rubin_gp"}
+		{item "545 ammo" 180}
+		{item "smoke rdg2b grenade"}
+		{item "smoke rdg2b grenade" 2}
+		{item "bandage" 25}
+		{item "mortar pd a ammo" 5}
+		{item "ak74m_gp25_1p78" filling "545 ammo" 30}
+		{item "gp25_ak74m_1p78" filling "mortar pd a ammo" 1}
+		{item "mortar pd p ammo" 5}
+		{item "sandbag_kit"}
+		{in_hands 6}
+	}
+}

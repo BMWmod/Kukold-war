@@ -1,0 +1,30 @@
+;Cold War
+{from "pattern pistol"
+	{filling "ammo standart" 30}
+	{curve "9x18_25"}
+	{mass 1.82}  
+	{entity "kedr"}
+	{fireSound	"pistol/tt"}
+	{reloadSound "tt"}
+	{speed 800}
+	{recoveryTime 0.10} ;800-1000
+	{rechargeTime 2.5}
+	{Automatic}
+	{cursor "kedr"}
+	{cursorReloading "cannon_reload_all"}
+	{aimRange 25}
+	{maxRange 30}
+	{spreading
+		{BurstAccuracy 100 90 86 75 69 62}
+	}
+	{inventory
+		{size 2 2 }
+	}
+	{burst
+		{short 8 4}
+		{long 12 6}
+	}
+	{healthDamage 50}
+	{healthDamageClip 50}
+	("accuracy_smg_scar")	
+}

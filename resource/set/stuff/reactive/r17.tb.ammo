@@ -1,0 +1,57 @@
+{bullet
+	{tag "shell size5 fg no_ricochet fragmentary big itemin2hands fx_tos odab"}
+	{tag "fg_150_shell"} ; только для ammo.set
+	{inventory
+		{size 9 2}
+		{weight 3000}
+	}	
+	{mass 5860}
+	{entity "R17"}
+	{view "R17"
+		{tail "rocket_smokebig_short" "tail"}
+	}
+	{detonationThickness 1}
+	{applyProjectile}
+	{damage blastwave	 ; fragmentary
+		{energy 1.4}
+		{area 80 84}
+	}
+	{damage add blastwave	 ; HE antipersonnel
+		{energy 2.4}
+		{area 62 65}
+	}
+	{damage add blastwave	 ; HE, FG anti-APC
+		{energy 5}
+		{area 46 48}
+	}
+	{damage add blastwave	 ; HE, FG anti-IFV
+		{energy 18}
+		{area 24 28}
+	}
+	;Не менялось
+	{damage add blastwave	 ; HE, FG antitank
+		{energy 27}
+		{area 11 15}
+	}
+	{damage add blastwave	 ; HE, kinetic, direct hit
+		{energy 50}
+		{area 8 9}
+	}
+	{damage blastwave	 ; fragmentary
+		{energy 0.7}
+		{area 4 5}
+	}
+	{damage add blastwave	 ; HE antipersonnel
+		{energy 1.2}
+		{area 2 3}
+	}
+	{damage add blastwave	 ; HE, FG anti-APC
+		{energy 2.5}
+		{area 0.1 0.1}
+	}
+	{damage add fire
+			{radius 45}
+			{heating 45.2}
+			{time 6}
+	}
+}

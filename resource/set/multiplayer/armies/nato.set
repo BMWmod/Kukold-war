@@ -1,0 +1,6 @@
+﻿{army
+	{id 3}
+	{title "mp/army/nato"}
+	{icon "/interface/pages/multi/flag_nato"}
+	{flag "/interface/scene/common/flag-nato"}
+}

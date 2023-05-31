@@ -1,0 +1,44 @@
+;Exported by: Timosh
+;Date:        Sun Jan  1 13:31:48 2023
+;File:        G:\?????? ? Pheonix\??????????????\??????\?????? ??????\???????? ????\??????????????? ???? ??\tm89.max
+{Skeleton
+	{bone "body"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{LODView
+			{VolumeView "body.ply"}
+			{VolumeView "body_lod1.ply"}
+		}
+		{bone "handle"
+			{Matrix34
+				-1	0	0
+				0	-1	0
+				0	0	1
+				3.02317	0.57068	0.00523422
+			}
+		}
+	}
+}
+{Volume "body1"
+	{Cylinder 3.14961 2.51969}
+	{Bone "body"}
+	{Position 0	0	0.444696}
+}
+{Volume "body"
+	{Cylinder 3.14961 2.51969}
+	{Bone "body"}
+	{Position 0	0	0.444696}
+}
+{Volume "detector"
+	{Box 1.9685 1.9685 13.7795}
+	{Bone "body"}
+	{Position 0	0	6.88976}
+}
+{Volume "select"
+	{Cylinder 8.46615 2.65748}
+	{Bone "body"}
+	{Position 0	0	0.513593}
+}

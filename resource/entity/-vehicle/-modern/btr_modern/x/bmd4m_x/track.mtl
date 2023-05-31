@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "$/model/bmp3/bmp3_track"}
+	{blend test}
+}

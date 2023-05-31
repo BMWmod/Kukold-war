@@ -1,0 +1,27 @@
+{game_entity
+	(include "/properties/stuff.ext")
+	{Skeleton
+		{bone "body"
+			{Orientation
+				1	0	0
+				0	-1	0
+				0	0	1
+			}
+		}
+	}
+	{Volume "body"
+		{Polyhedron "body.vol"}
+		{Bone "body"}
+		{Position 0.630753	-0.0105414	-1.21504}
+	}
+	{Volume "select"
+		{Polyhedron "select.vol"}
+		{Bone "body"}
+		{Position 0.78823	-0.0105414	-1.21504}
+	}
+	(include "/properties/shadow/round.inc")
+	{extender "stuff"
+		{item "mk30abm_fg_exp"}
+	}
+	{collider "grenade"}
+}

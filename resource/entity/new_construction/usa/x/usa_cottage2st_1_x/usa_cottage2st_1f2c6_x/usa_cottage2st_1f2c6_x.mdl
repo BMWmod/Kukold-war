@@ -1,0 +1,101 @@
+;Exported by: Timosh
+;Date:        Tue Jul 12 20:08:43 2022
+;File:        G:\?????? ? Pheonix\??????????????\??????\?????? ? ???????\???\???????????? ??????????? ???????\x 10.max
+{Skeleton
+	{bone "f2c6"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "piece1"
+			{Position -26.8474	25.1661	27.9985}
+			{VolumeView "piece1.ply"}
+		}
+		{bone "piece2"
+			{Position 19.4482	-21.2745	23.0395}
+			{VolumeView "piece2.ply"}
+		}
+		{bone "piece3"
+			{Matrix34
+				0.707107	0.707107	0
+				-0.707107	0.707107	0
+				0	0	1
+				27.7354	17.8098	24.5882
+			}
+			{VolumeView "piece3.ply"}
+		}
+		{bone "piece4"
+			{Position 38.2357	-5.41679	4.37095}
+			{VolumeView "piece4.ply"}
+		}
+		{bone "piece5"
+			{Matrix34
+				0.866025	-0.5	0
+				0.5	0.866025	0
+				0	0	1
+				-37.1879	12.3021	24.4898
+			}
+			{VolumeView "piece5.ply"}
+		}
+		{bone "piece6"
+			{Position 18.714	3.03774	48.9606}
+			{VolumeView "piece6.ply"}
+		}
+		{bone "piece7"
+			{Position -5.46552	-22.0428	14.0675}
+			{VolumeView "piece7.ply"}
+		}
+		{bone "piece8"
+			{Position 0.9386	-0.804394	3.60579}
+			{VolumeView "piece8.ply"}
+		}
+		{bone "piece9"
+			{Position -49.4754	14.1024	3.60736}
+			{VolumeView "piece9.ply"}
+		}
+	}
+}
+{Volume "piece1"
+	{Box 3.94423 24.5834 23.4484}
+	{Bone "piece1"}
+}
+{Volume "piece2"
+	{Box 23.4484 10.2869 27.2403}
+	{Bone "piece2"}
+	{Position 0	0	0}
+}
+{Volume "piece3"
+	{Box 19.6794 0.793179 39.373}
+	{Bone "piece3"}
+	{Position 0	0	0}
+}
+{Volume "piece4"
+	{Box 23.8221 31.9017 5.47253}
+	{Bone "piece4"}
+	{Position 0	0	0}
+}
+{Volume "piece5"
+	{Box 19.6796 0.791746 39.3731}
+	{Bone "piece5"}
+	{Position -1.33514e-05	2.28882e-05	0}
+}
+{Volume "piece6"
+	{Box 3.94349 24.8642 21.8916}
+	{Bone "piece6"}
+}
+{Volume "piece7"
+	{Box 23.4484 11.8171 26.2377}
+	{Bone "piece7"}
+	{Position 0	0	-1.71661e-05}
+}
+{Volume "piece8"
+	{Box 23.4484 27.2387 3.94329}
+	{Bone "piece8"}
+	{Position 0	0	0}
+}
+{Volume "piece9"
+	{Box 23.4484 25.498 3.95294}
+	{Bone "piece9"}
+	{Position 0	0	0}
+}

@@ -1,0 +1,117 @@
+;Exported by: Timosh
+;Date:        Fri Jun 24 12:13:07 2022
+;File:        G:\?????? ? Pheonix\??????????????\??????\?????? ? ???????\???\usa_cottage_1st_2 final 1.max
+{Skeleton
+	{bone "usa_cottage1st_2c13"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "usa_cottage1st_2c13.ply"}
+	}
+}
+{Obstacle "body2"
+	{Obb2
+		{Center -21.9713 -6.88845}
+		{Extent 36.0591 2.65693}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body" "fire"}
+}
+{Obstacle "body3"
+	{Obb2
+		{Center -17.8651 3.62326}
+		{Extent 2.6569 9.73595}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body" "fire"}
+}
+{Obstacle "body4"
+	{Obb2
+		{Center -8.37325 7.78779}
+		{Extent 1.09293 9.08666}
+		{Axis 0.707388 0.706825}
+	}
+	{Rotate}
+	{Tags  "body" "fire"}
+}
+{Obstacle "body5"
+	{Obb2
+		{Center 9.80894 -16.9954}
+		{Extent 9.0868 1.09414}
+		{Axis 0.50046 0.86576}
+	}
+	{Rotate}
+	{Tags  "body" "fire"}
+}
+{Area "interior"
+	{Obb2
+		{Center -5.17813 3.14481}
+		{Extent 51.2442 39.6505}
+		{Axis -1 0}
+	}
+	{Rotate}
+}
+{Volume "body1"
+	{Box 5.31379 18.9938 13.358}
+	{Bone "usa_cottage1st_2c13"}
+	{Matrix34
+		0	1	0
+		-0.999999	0	0
+		0	0	1.1741
+		23.8493	6.88095	44.6615
+	}
+}
+{Volume "body2"
+	{Box 5.31379 72.1182 44.1588}
+	{Bone "usa_cottage1st_2c13"}
+	{Matrix34
+		0	1	0
+		-0.999999	0	0
+		0	0	1.1741
+		-21.9713	6.88845	25.9234
+	}
+}
+{Volume "body3"
+	{Box 5.31379 19.4719 44.1588}
+	{Bone "usa_cottage1st_2c13"}
+	{Matrix34
+		-1	0	0
+		0	-0.999999	0
+		0	0	1.1741
+		-17.8651	-3.62326	25.9234
+	}
+}
+{Volume "body4"
+	{Box 2.17865 18.1725 30.028}
+	{Bone "usa_cottage1st_2c13"}
+	{Matrix34
+		0.707107	-0.707107	0
+		0.707105	0.707107	0
+		0	0	1.1741
+		-8.37325	-7.78779	17.6279
+	}
+}
+{Volume "body5"
+	{Box 2.17865 18.1725 30.028}
+	{Bone "usa_cottage1st_2c13"}
+	{Matrix34
+		0.866025	0.500001	0
+		-0.5	0.866025	0
+		0	0	1.1741
+		9.80894	16.9954	17.6279
+	}
+}
+{Volume "body6"
+	{Box 5.31379 18.9938 13.358}
+	{Bone "usa_cottage1st_2c13"}
+	{Matrix34
+		1	0	0
+		0	1	0
+		0	0	1.1741
+		-18.0841	-21.9961	44.6615
+	}
+}

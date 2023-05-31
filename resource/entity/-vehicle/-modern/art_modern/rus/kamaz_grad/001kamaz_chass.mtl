@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "kamaz_chassis_co"}
+	{blend none}
+}

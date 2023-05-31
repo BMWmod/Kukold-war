@@ -1,0 +1,129 @@
+;Exported by: Timosh
+;Date:        Fri Jun 24 12:13:12 2022
+;File:        G:\?????? ? Pheonix\??????????????\??????\?????? ? ???????\???\usa_cottage_1st_2 final 1.max
+{Skeleton
+	{bone "usa_cottage1st_2c4"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "usa_cottage1st_2c4.ply"}
+		{bone "window1"
+			{Matrix34
+				-1	0	0
+				0	-1	0
+				0	0	1
+				-14.7896	-10.6053	30.2168
+			}
+			{VolumeView "window1.ply"}
+		}
+		{bone "exterior"
+			{Position -10.7514	4.64432	62.0159}
+			{VolumeView "exterior.ply"}
+		}
+		{bone "attach1"
+			{Matrix34
+				-1	0	0
+				0	-1	0
+				0	0	1
+				-2.46458	-10.3701	0
+			}
+		}
+		{bone "window1_x"
+			{Matrix34
+				-1	0	0
+				0	-1	0
+				0	0	1
+				-14.7896	-10.6053	30.2168
+			}
+			{VolumeView "window1_x.ply"}
+		}
+	}
+}
+{Obstacle "body1"
+	{Obb2
+		{Center -14.8361 1.17257}
+		{Extent 2.65691 26.3353}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body" "fire"}
+}
+{Obstacle "body2"
+	{Obb2
+		{Center -7.37589 -19.0058}
+		{Extent 8.72804 2.6569}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body" "fire"}
+}
+{Area "interior"
+	{Obb2
+		{Center -1.87103 -0.527606}
+		{Extent 10.7421 32.317}
+		{Axis -1 0}
+	}
+	{Rotate}
+}
+{Volume "body1"
+	{Box 5.31379 52.6707 44.1588}
+	{Bone "usa_cottage1st_2c4"}
+	{Matrix34
+		-1	0	0
+		0	-1	0
+		0	0	1.1741
+		-14.8361	-1.17257	25.9234
+	}
+}
+{Volume "body2"
+	{Box 5.31379 17.4561 44.1588}
+	{Bone "usa_cottage1st_2c4"}
+	{Matrix34
+		0	1	0
+		-0.999999	0	0
+		0	0	1.1741
+		-7.37589	19.0058	25.9234
+	}
+}
+{Volume "hole1"
+	{Box 13.7795 15.8189 16.1035}
+	{Bone "window1"}
+	{Matrix34
+		-1	0	0
+		0	-1	0
+		0	0	1
+		0.000267029	0	-1.33514e-05
+	}
+}
+{Volume "roof1"
+	{Box 30.4072 71.6396 6.59449}
+	{Bone "exterior"}
+	{Matrix34
+		0.834925	-0.0117303	0.550239
+		0.00876201	0.999929	0.00802166
+		-0.550294	-0.00187628	0.834969
+		-1.0804	-2.8465	-3.22024
+	}
+}
+{Volume "roof2"
+	{Polyhedron "roof2.vol"}
+	{Bone "exterior"}
+	{Matrix34
+		0.834925	-0.0117303	0.550239
+		0.00876201	0.999929	0.00802166
+		-0.550294	-0.00187628	0.834969
+		43.7973	-34.0558	22.3378
+	}
+}
+{Volume "window1"
+	{Box 1.37097 15.8189 16.1035}
+	{Bone "window1"}
+	{Matrix34
+		-1	0	0
+		0	-1	0
+		0	0	1
+		0.000267029	0	-1.33514e-05
+	}
+}

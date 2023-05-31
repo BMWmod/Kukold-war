@@ -1,0 +1,130 @@
+{tags
+	{"00" "Careful guys! The Hungarians are in the houses, you can't get into the park without cover!"}
+	{"01" "Lieutenant Bogdanov, right? Well, tell me, what have you got here?"}
+	{"02" "The depot is ours, Comrade Lieutenant Colonel, but the enemy infantry has settled down in houses near the park. There are many of them, and the captives say that the platoons were given two RPG-7s, and not the usual one. You can't get into the streets on armor - they will burn you."}
+	{"03" "It's OK, I also have a couple of surprises for them. Bogdanov, show me where the station and the Aba-Novak cultural center are?"}
+	{"04" "Aba-novak is further along the road, the second block from here. And the station is over there, behind the park and the embankment. The Germans are sitting there."}
+	{"05" "It's clear. Bogdanov, sit here and wait for the second group, cover their approach. And the guys and I will see who is there in the houses. We'll have to clean them up for further progress."}
+	{"06" "It is done. Group two - move!"}
+	{"07" "The second group is ready, meet us."}
+	{"08" "Yudin, move further down the street and occupy residential areas and a cultural center. The tenth tank attacks in parallel with us, and the Hungarians are deploying reinforcements along the railway. You need to stop this."}
+	{"09" "The Hungarians need to be on our side of the railway, so they will most likely use the only bridge. Close it, and the neighbors on the left will feel better."}
+	{"10" "And our third task is to rescue the downed pilot. Major Shcherbakov was hit by Roland missile just a couple of hours ago."}
+	{"10td_diversants" "Squad in the rear"}
+	{"10td_diversants_hint" "Send infiltrated recon squad."}
+	{"10td_tanks" "Armor group"}
+	{"10td_tanks_hint" "Send armored group along the alley on the left flank."}
+	{"11" "He managed to get in touch and report a successful ejection, but then the connection was lost. It is not known where to look for him, and whether he is still alive is also unclear. We need to find the pilot and deliver to the tram depot."}
+	{"12" "Commander, I see the Hungarian motorized infantry, goes to the rear!"}
+	{"13" "Yes, these must be the reinforcements we're waiting for. It is necessary to destroy as many vehicles as possible, and do not forget about the crew."}
+	{"14" "Commander, 10th tank div is ready to attack the flank! At your command, they will send an armored group down the alley. And the vanguard of the infantry, they have already advanced far and left the rear of the Hungarians."}
+	{"15" "Commander, 10th tank div is ready to attack the flank! At your command, they will send an armored group down the alley."}
+	{"16" "Understood, Comrade Lieutenant Colonel !, It's time, guys!"}
+	{"17" "The armor is moving out!"}
+	{"18" "Doronin, you are disrupting the timing of the offensive. Hurry, the 10th tank div has already gone to the center of the city, and it does not need a flank attack."}
+	{"19" "Comrade commander, the artillery is ready to work in the city. As we advance, the command will provide us with artillery support."}
+	{"20" "Here is the plane. The parachute is nearby, which means that the pilot is not far away."}
+	{"21" "Take your time, Vasily Semyonovich. Look, it's a drag parachute, not from a catapult. The pilot jumped earlier, he should not be looked for here, but in the direction from which the plane arrived. And if the Hungarians are still looking here, he may be alive."}
+	{"22" "Hey! Here! Are you guys from the tenth tank?"}
+	{"23" "No, 448 brigade. Major, we will now escort you to the unit's location. Comrade commander, this is the sixth, found the pilot."}
+	{"24" "I think I found a pilot. Looks like he's dead."}
+	{"25" "Thanks, infantry, you've dragged me out! "}
+	{"26" "I see a howitzer!"}
+	{"27" "Now it is necessary to deal with them, an offensive under artillery fire threatens to result in heavy losses. Grishchenko, tell the colonel about the find."}
+	{"28" "Doronin, good work. Now shut them up. HQ asked to capture one SPG more or less intact, they want to dig deeper into the artillery radar, but don't risk your men for this."}
+	{"29" "Well, of course, it is better to allow collecting trophies in advance ..."}
+	{"30" "All jokes aside, gentlemen officers - who has any suggestions?"}
+	{"31" "Maybe if you drive the tank under the cover of buildings, the self-propelled gun will not have time to leave?"}
+	{"32" "Better not a tank, but a spotter, and then cover with artillery. Think, Doronin, and hurry up."}
+	{"33" "Comrade Colonel, Doronin reports. The designated residential quarters are occupied, a tenth tank can advance deep into the city without fear of a flank attack."}
+	{"34" "Understand you. Keep up the good work, deal with the anti-aircraft guns, take the station, and we will finally roll them out. Take the third group, and go."}
+	{"35" "Damn, the self-propelled gun is gone. Now the aircraft will have to catch it."}
+	{"36" "Well, well, it looks like PzH is ours. Doronin, do you hear?"}
+	{"37" "Grishchenko, duplicate to Rudzinsky - ask him to send a tractor."}
+	{"38" "Doronin, I won't send you a tractor, we have one bridge for the whole brigade. Drive it away, we'll take it out by nightfall."}
+	{"39" "Accepted. So, until the end of the battle, it is at my disposal ..."}
+	{"40" "Finally we shut them up. Yudin, Arkhipov, the artillery threat has been eliminated."}
+	{"41" "Oh you ... Missed, Roland is gone! Now to start all over again, and again without aviation ..."}
+	{"42" "Comrade lieutenant colonel, I see an enemy SAM!"}
+	{"43" "Good, but you need to act quickly and quietly. As soon as the Germans realize that the complex is located near our positions, they will withdraw it to the rear. We need a quick blow."}
+	{"44" "There is! Comrade Colonel, the SAMs have been destroyed."}
+	{"45" "Just in time, 10th tank div meets resistance. But now we will bomb out their near rear and targets on the line of contact. Finish in the designated area, I'll be waiting for you at the headquarters."}
+	{"46" "Comrade Colonel, all tasks have been completed, the enemy is retreating."}
+	{"47" "The tenth tank and air force will be engaged in pursuit. Finish the operation and go to the headquarters. Good job! Yes, Doronin, do not forget: there may still be mines in the city, be careful yourself and instruct the soldiers."}
+	{"48" "Rain, damn it ... Pouring like from a bucket."}
+	{"49" "We approach the station, the enemy is resisting."}
+	{"50" "The station building is badly damaged, but it still represents an excellent fortified position. If we capture it, the Hungarians will lose their left flank."}
+	{"51" "Comrade lieutenant colonel, from the destroyed metro bridge there is an excellent view of the entire western part of the city. I think after seizing the station, you can place a spotter there and cover the rest of the city."}
+	{"52" "Good idea, it will greatly help in the further assault."}
+	{"53" "The station is ours! Immediately organize a perimeter defense, they will probably try to repulse it."}
+	{"54" "Arkhipov, retreat, you will no longer hold the station building. Damn, now start all over again ..."}
+	{"55" "I think they are already exhausted. Well done, Arkhipov, he held the station!"}
+	{"56" "Doronin, there are many of them! The train station needs support, and fast!"}
+	{"art" "Artillery strike"}
+	{"art_close_enough" "Understood, I give the coordinates to the battery. We are waiting for the presents - three volleys."}
+	{"art_too_far" "Comrade Lieutenant Colonel, it's too far, impossible to pinpoint the coordinates. A scout or a drone is needed to go over at least three kilometers ..."}
+	{"bmp_equal" "Affirmative, enough space for IFVs, but without excess."}
+	{"bmp_not_enough" "These IFVs can fit, comrade commander, we even have more space."}
+	{"bmp_too_much" "Comrade commander, the number of IFVs is too large. Pankratov doesn't have enough parking space to place them."}
+	{"btg1" "BTG-2"}
+	{"btg1_hint" "Call the second battalion tactical group"}
+	{"btr_equal" "Affirmative, enough space for APCs, but without excess."}
+	{"btr_not_enough" "These APCs can fit, comrade commander, we even have more space."}
+	{"btr_too_much" "Comrade commander, the number of APCs is too large. Pankratov doesn't have enough parking space to place them."}
+	{"cannon_equal" "Affirmative, enough space for mounted guns, but without excess."}
+	{"cannon_not_enough" "These mounted guns can fit, comrade commander, we even have more space."}
+	{"cannon_too_much" "Comrade commander, the number of mounted guns is too large. We don't have enough parking space to place them."}
+	{"car_equal" "Affirmative, enough space for cars, but without excess."}
+	{"car_not_enough" "These cars can fit, comrade commander, we even have more space."}
+	{"car_too_much" "Comrade commander, the number of cars is too large. Pankratov doesn't have enough parking space to place them."}
+	{"date" "12 November, 2017, 10:40"}
+	{"heli_equal" "Affirmative, enough pads for helicopters, but without excess."}
+	{"heli_not_enough" "These helicopters can fit, comrade commander, we even have spare pad."}
+	{"heli_too_much" "Comrade commander, the number of helicopters is too large. Fomin doesn't have enough helipads to land them."}
+	{"mission_end" "End mission"}
+	{"name" "Solnok"}
+	{"name_big" "Solnok"}
+	{"no_forces" "448 brigade was broken and could not complete the task."}
+	{"outro_completed" "After the destruction of SAMs and artillery, and - earlier -  heavy armored vehicles, further holding the city of Szolnok became impossible, but the retreat had to be carried out under continuous attacks of the Aerospace Forces. The few surviving NATO troops hastily retreated to the towns of Cegled and Yasbereny, while the 10th Tank Division and the 448th Motorized Rifle Brigade began preparations for the attack on Budapest. Mission accomplished."}
+	{"outro_failed" "The SAM batery was never destroyed during the battles in the city. Szolnok was taken, but under the cover of air defense, the retreating NATO units successfully overcame the path to the city of Cegled and blocked the way to Budapest. Mission failed."}
+	{"place" "Solnok, 90 km to the east from Budapest, Hungary."}
+	{"tanks_equal" "Affirmative, enough space for tanks, but without excess"}
+	{"tanks_not_enough" "These tanks can fit, comrade commander, we even have more space."}
+	{"tanks_too_much" "Comrade commander, the number of tanks is too large. We don't have enough parking space to place them."}
+	{"task_hun_reinf" "Do not allow enemy reinforcements to pass (+30CP +1UP)"}
+	{"task_hun_reinf2" "Do not allow at least half of enemy reinforcements to pass (+20CP)"}
+	{"task_hun_reinf2_failed" "What have you got there, Doronin, a doorway? There was a clear order - to stop the approach of reinforcements, and now the tenth tank div has disrupted the timing of the offensive."}
+	{"task_hun_reinf_complete" "Doronin, the 10th tank unit sends greetings and thanks for the cover. They will strike a flank attack on the Hungarians in your offensive zone, watch out for the fire."}
+	{"task_hun_reinf_complete2" "Doronin, the 10th tank unit sends greetings and thanks for the cover. They will linger a little, but nevertheless they will inflict a flank attack on the Hungarians in your zone of advance, watch out for the fire."}
+	{"task_hun_reinf_failed" "Doronin, enemy reinforcements continue to go through your zone of responsibility. I order you to stop immediately, they are slowing down the advance of your neighbors on the left."}
+	{"task_ph2" "Attack along the railway lines to the south, occupy residential areas (+30CP +2UP)."}
+	{"task_ph2_time" "Occupy residential areas in the allotted time (+20CP +1UP)."}
+	{"task_ph2_timer" "Secure residential areas in: "}
+	{"task_phase1" "Secure buildings and trenches adjacent to the park (+15CP +1UP)."}
+	{"task_pilot" "Find the pilot and deliver him to HQ (+20CP +1UP)."}
+	{"task_sam_failed" "Roland air defense system has left the combat zone. Mission failed."}
+	{"task_sams" "Destroy two air defense systems Roland, prevent them from withdrawing to the rear (+30CP +1UP)."}
+	{"task_sph" "Disable two SPGs, if possible - capture at least one (+30CP +2UP)."}
+	{"task_station" "Take and hold the train station building (+20CP, +1 UP)."}
+	{"task_sttion_fail" "With a powerful counterattack, the Germans managed to knock out the motorized riflemen from the station building. The pace of the offensive was thwarted, and this allowed many dozens of NATO soldiers to get out of the trap that was nearly slammed..."}
+	{"timer_station" "Hold station:"}
+	{"transfer_bmp" "IFV amount"}
+	{"transfer_bmp_hint" "Check IFV amount"}
+	{"transfer_btr" "APC amount"}
+	{"transfer_btr_hint" "Check APC amount"}
+	{"transfer_cannon" "Mounted weapons amount"}
+	{"transfer_cannon_hint" "Check mounted weapons amount"}
+	{"transfer_car" "Cars amount"}
+	{"transfer_car_hint" "Check cars amount"}
+	{"transfer_heli" "Helicopters amount"}
+	{"transfer_heli_hint" "Check helicopters amount"}
+	{"transfer_tank" "Tanks amount"}
+	{"transfer_tank_hint" "Check tanks amount"}	
+	{"trap1" "Commander, I've intercepted a signal for remote detonation! Looks like there are radio controlled booby traps in the city."}
+	{"trap2" "So ... Can you pelengate them somehow?"}
+	{"trap3" "No, it won't work. Sensors are unreliable in urban areas, there is too much debris and scrap metal, and they do not distinguish friend and foe. There should only be a receiver, detonating on command."}
+	{"trap4" "It's clear. All attention, sappers are working in the area. When moving, inspect the upper floors of buildings and other places with a good view."}
+	{"trap_expl" "Well, well, we have problems. Yudin, Arkhipov, opponents are using improvised explosive devices. It seems that they no longer have enough real mines. Soldiers, keep an eye out, there may be traps in the building - several shells around the mine as a detonator."}
+	{"trap_fab250" "Damn, they use aerial bombs as booby traps!"}
+	{"win" "From Doronin's diary: \"November 12, 2017. We crossed the Tisza, took Szolnok. The city is badly destroyed, a stark contrast to Sayel. The Hungarians, with the help of improvised means, turned it into one continuous fortified area, but there is already a lack of forces. The Germans in general can only put up wheeled vehicles, and the remnants of the first tank did not even enter the battle. Tomorrow or the day after tomorrow they will try to stop us again, but they cannot oppose the tanks. Soon we'll see Budapest.\"."}
+}

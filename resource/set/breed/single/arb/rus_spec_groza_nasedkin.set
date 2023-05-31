@@ -1,0 +1,28 @@
+{breed
+	{behaviour soldier}
+	{hero}
+	{skin "cw_ssoarb_arb"}
+	{portrait "_new/spec_groza_Nasedkin"}
+	{icon "smgs"}
+	{icon_priority 0}
+	{nationality rus}
+	{armors
+		{head lshz1plus_sso}
+	}
+
+	(include "perks_generic.inc")
+	("traits_elite_smg")
+	{perks
+		{"field_glass"}
+		{"stealth"}
+	}
+	{inventory
+		{item "lbt6094_rus_smg_a"}
+		{item "bandage" 10}
+		{item "knife_rus"}
+		{item "AKM" filling "762 ammo" 30}
+		{item "762 ammo" 240}
+		{item "rgd grenade" 3}
+		{in_hands 3}
+	}
+}

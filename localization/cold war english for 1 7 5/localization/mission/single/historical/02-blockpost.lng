@@ -1,0 +1,30 @@
+{tags
+   {"date" " Keep secure this part of the road to allow federal convoys to pass."}
+   {"name" "Road guard"}
+   {"name_big" "Road guard"}
+   {"place" "  "}
+   {"outro_completed" "  "}
+   {"outro_failed" " "}
+   {"win" "   "}
+   {"loose" "  "}
+        {"00" "Mission \"Road guard\""}
+	{"01" "They are running!"}
+	{"02" "Don't relax! Our convoy will pass soon!"}
+	{"03" "Misha, call for helicopters, tell them to check the road!"}
+	{"04" "Affirmative!"}
+	{"05" "Bastion, this is Hawk, entering your zone. Hawk out."}
+	{"06" "We see you, Hawk! You're weapons free."}
+	{"07" "Convoy arrives in"}
+	{"08" "Attention!! I see the convoy! Be prepared!"}
+	{"09" "What the hell !? Ambush !!! Convoy is under attack !"}
+	{"10" "What are you doing?? Call for reinforcements ASAP !!!!"}
+	{"11" "HQ transmits that recon teamm will be here in 20 minutes!"}
+	{"12" "There is more of them! Everybodu pull back to the hill!"}
+	{"13" "More tangos!"}
+	{"14" "There is a car over there."}
+	{"15" "They are insurgents !!"}
+	{"16" "Enemy detected!"}
+        {"17" "Repel enemy attacks before reinfircements will arrive."}
+        {"18" "Fortify the hill, lay mines in the ravine."}
+        {"19" "Hold the position until reinforcements will arrive"}
+}

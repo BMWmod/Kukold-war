@@ -1,0 +1,5 @@
+{material simple
+	{diffuse "$/model/t80u/setka"}
+	{emitsheat}
+{blend test}
+}

@@ -1,0 +1,28 @@
+{breed
+	{behaviour soldier}
+	{hero}
+	{skin "cw_ssoarb_arb3"}
+	{portrait "_new/spec_mgun_Nasonov"}
+	{icon "mgs"}
+	{icon_priority 0}
+	{nationality rus}
+	{armors
+		{head kufia_head}
+	}
+
+	(include "perks_generic.inc")
+	("traits_elite_mgun")
+	{perks
+		{"field_glass"}
+		{"stealth"}
+	}
+	{inventory
+		{item "lbt6094_rus_mgun_a"}
+		{item "rgd grenade" 3}
+		{item "bandage" 15}
+		{item "knife_rus"}
+		{item "ak47_rp"}
+		{item "762 ammo" 350}
+		{in_hands 4}
+	}
+}

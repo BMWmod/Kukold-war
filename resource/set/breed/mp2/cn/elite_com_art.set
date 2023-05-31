@@ -1,0 +1,27 @@
+{breed
+	{skin "cw_cn_spec"}
+	{portrait "_new/cn/specnaz"}
+	{icon officer}
+	{icon_priority 3}
+	{tags "officer"}
+	{nationality cn}
+	{armors
+		{head "opscore_com_cn"}
+	}
+	(include "perks_generic.inc")
+	("traits_scout")
+	{inventory
+		{item "type15h_com"}
+		{item "smoke_cn grenade"}
+		{item "binocular"}
+		{item "bandage" 5}
+		{item "type73 grenade" 4}
+		{item "smoke_cn grenade"}
+		{item "smoke_cn grenade"}
+		{item "pf89b weapon" filling "pf89b_ammo ammo" 1}
+		{item "smoke_cn grenade" 2}
+		{item "qbz_191_silence" filling "58ammo 58ammo_basic ammo" 30}
+		{item "58ammo 58ammo_basic ammo" 240}
+		{in_hands 9}
+	}
+}

@@ -1,0 +1,23 @@
+{breed
+	{skin "cw_est_sniper"}
+	{portrait "_new/balt/est"}
+	{icon fra_at_rifle}
+	{icon_priority 2}
+	{nationality est}
+	{armors
+		{head cap_est}
+	}
+
+	(include "perks_generic.inc")
+	("traits_advanced_spotter")
+	{inventory
+		{item "est_vest"}
+		{item "plant" 2}
+		{item "bandage" 10}
+		{item "galil_ar_556" filling "556nato ammo" 25}
+		{item "binocular"}
+		{item "556nato ammo" 240}
+		{item "shgr56" 4}
+		{in_hands 3}
+	}
+}

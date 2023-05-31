@@ -1,0 +1,48 @@
+{from "pattern gun"     
+	{filling "bullet20_139" 25}
+        	
+	{fireSound "gun/20mm_rh202"}
+	{reloadSound "61k_reload"}
+;=====================
+	{AimingTolerance 3}
+	{Automatic}
+	{recoveryTime 0.16}			
+	{rechargeTime 0.16}
+	{burst
+		{min 0}
+		{short 3 1}
+		{long 5 2}
+	}
+	{spreading
+		{BurstAccuracy 100 90 80 70} 
+	}
+	{RelaxationTime 1}
+;	{cursor "Marder_ap"}
+;	{cursorReloading "Marder_ap_reload"}
+;=====================
+	{SpreadTolerance 0.5}
+	{range 120 120}
+	("speed" s(1100))
+	("14-20caliber")
+	{calibre 20}
+	;http://forum.worldoftanks.eu/index.php?/topic/128208-modern-gun-penetration-values/
+	;http://waronline.org/fora/index.php?threads/%D0%94%D0%BE%D0%BB%D0%B8%D0%BD%D0%B0-%D1%81%D0%BB%D1%91%D0%B7-%D0%B8%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%BD%D0%B0%D1%8F-%D0%BF%D0%BE%D0%B4%D0%B4%D0%B5%D1%80%D0%B6%D0%BA%D0%B0.8025/page-5
+	;т. е. 32-34 ББ DM43 и 40-44 подкалиберным DM63 на 1 км
+	("CW_small_APCR_damage_WC" penetr_1000m(42))
+;	("CW_small_AP_damage" penetr_1000m(33))	;это для БС
+    ("CW_acc_common" mils(0.4))	;нет данных
+    ("CW_acc_common_100" mils(0.4))
+	;{cursor "cannon_on_ap"}
+	;{cursorReloading "cannon_reload_ap"}
+		{cursor "cannon_on_apcr_3"}
+		{cursorReloading "cannon_reload_apcr"}
+	{parameters "fg"
+		("CW_acc_common" mils(0.6))
+		("CW_acc_common_100" mils(0.6))
+		;{cursor "Marder_he"}
+		;{cursorReloading "Marder_he_reload"}
+		;{cursor "cannon_on_fg"}
+		{cursor "cannon_on_fg_13"}
+		{cursorReloading "cannon_reload_fg"}
+	}          
+}

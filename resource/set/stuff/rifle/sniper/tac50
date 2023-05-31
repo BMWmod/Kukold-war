@@ -1,0 +1,50 @@
+;Cold War
+{from "pattern sniper_rifle"
+("scope")
+
+	{tag "sniper weapon at_rifle to_hand nokeep cannot_stand hrifle reliability_medium"}	
+	{special
+		{mode aim}
+		{PrepareTime 10}
+		{PrepareCursor "aimed_shot"}
+		;{damage 3} ; damage *= x
+		{accuracy 1.2} ; aim_range *= x
+		;{throw_off}
+	}
+	{filling "ammo nato_ptr" 5}
+	{curve "_50nato_120"}
+	{inventory
+		{size 6 2}
+	}
+	{mass 11.8}
+	{entity "tac50"}
+	("hrifle_range")
+	{speed 300}
+	{healthDamage 274}
+	{RelaxationTime 1}
+	{projectileDamageTable {20 40} {75 31} {100 16} {120 9} {140 5}}	;http://guns.wikia.com/wiki/Raufoss_Mk_211
+	{projectileDamageThreshold 1}
+	{fireSound	"rifle/svt1"}
+	{reloadSound "M82_Reload"}
+	{recoveryTime 1.5}
+	;{cursor "optic_mildots 3"}
+	;{cursorReloading "optic_mildots 3_reload"}
+	{cursor "sniper_ap"}
+	{cursorReloading "cannon_reload_ap"}
+	{rechargeTime 4}
+	{calibre 12}
+	{curve "gun_light"}
+	("accuracy_optic_sight"  moa(1.0))
+	("accuracy_optic_sight_100"  moa(1.0))
+    {parameters "M2"
+		("accuracy_optic_sight"  moa(2.5))
+		("accuracy_optic_sight_100"  moa(2.5))
+		{projectileDamageTable {10 26} {20 25} {75 20} {105 11} {120 5} {140 3}}	;http://www.inetres.com/gp/military/infantry/mg/50_ammo.html
+	}
+	{parameters "AMAX"
+		("accuracy_optic_sight"  moa(0.6))
+		("accuracy_optic_sight_100"  moa(0.6))
+		{projectileDamageTable {10 8} {20 7} {75 6} {105 5} {120 3} {140 1}}	
+	}
+}	
+

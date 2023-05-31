@@ -1,0 +1,23 @@
+{from "pattern rpg_weapon"
+	
+	{filling "ammo Shmel_ammo" 1}
+        {fireSound "bazooka/shmel_shot"}
+	{mass 11}
+	{inventory
+		{size 5 1}
+	}
+        {entity "shmel"}
+	{preloaded}
+	{ammoLocked}
+	{maxRange 80}
+	{aimRange 80}
+	{speed 25}	;реально 13, но это медленно ; speed гранаты x1.5 (25.02.21)	
+	{gravity 0.5}
+	{calibre 93}
+	("damage" a(30) b(30) c(30) d(30) e(30));оценочно. ≈сли не задать - по€вл€етс€ больша€ бронебойность, чего быть не должно
+	("accuracy_open_rpg"  moa(13.5))	;http://rbase.new-factoria.ru/gallery/reaktivnyy-pehotnyy-ognemet-shmel
+	("accuracy_optic_rpg_60"  moa(13.5))	
+	{cursor "shmel_on"}
+	;{cursorReloading "cannon_reload_heat"}
+	{cursorReloading "cannon_reload_fg"}
+}

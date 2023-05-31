@@ -1,0 +1,19 @@
+;Exported by: ubrashaev
+;Date:        Fri Mar 17 14:41:37 2006
+;File:        D:\-Projects1_5-\-work-\3d\-entourage\gate1.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+	}
+}
+{Obstacle "circle01"
+	{Circle2
+		{Radius 60}
+		{Center 0 0}
+	}
+	{Rotate}
+}

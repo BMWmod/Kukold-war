@@ -1,0 +1,13 @@
+{actor
+	{Extension "m47_tubus.mdl"}
+	{Volume "body"
+		{tags "body"}
+		{thickness 5}
+		{able clear {contact} {bullet} {blast} {contact_ground}}
+		{density 0.5}
+	}
+	{collider "stuff"}
+	{props "dummy" "steel" "gilza" "big" "nocover"}
+	{simulation {able 1}}
+	{constrain none}
+}

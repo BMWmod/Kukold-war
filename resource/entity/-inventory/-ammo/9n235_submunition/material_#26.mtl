@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "9n235"}
+	{blend none}
+}

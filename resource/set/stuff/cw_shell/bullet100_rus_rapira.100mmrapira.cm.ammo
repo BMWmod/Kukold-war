@@ -1,0 +1,29 @@
+{from "pattern cm"
+	{tag "ammo shell itemin2hands cm no_ricochet cumulative size2 -fragmentary -antiinf -low_speed" "fx_90_110" "fx_cm"}
+
+	{inventory
+		{size 5 1}
+	}	
+	{mass 23.16}
+	{entity "shell_rus_cm_100_rapira"}
+	{view "cm_fly"}
+	{trace
+		{view "/texture/fx/trace" {ScaleY 0.2}}
+		{length 2}
+	}
+	;Примерно 0,8 кг ВВ - масса снаряда ЗБК16М  9,5 кг (в 100мм КС 3УБК4М массой 12,38 кг - 1,038 кг ВВ)
+	{tag "he_07to2"}
+	{damage add blastwave	 ; HE antipersonnel
+		{energy 1.2}
+		{area 1.8 2.1}
+	}
+	{damage add blastwave	 ; HE, FG anti-APC
+		{energy 2.5}
+		{area 0.4 0.4}
+	}
+	{damage cumulative
+		{damage 432}     ; 400 x 1.08 = 432мм
+		{distance 3}
+	}
+}
+;2 волна бонус

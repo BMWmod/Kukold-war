@@ -1,0 +1,89 @@
+;Exported by: Timosh
+;Date:        Sat Jul 16 08:49:25 2022
+;File:        G:\?????? ? Pheonix\??????????????\??????\?????? ? ???????\???\???????????? ??????????? ???????\final.max
+{Skeleton
+	{bone "usa_cottage2st_1f2c5"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "usa_cottage2st_1f2c5.ply"}
+		{bone "window1"
+			{Position -2.07074	-22.5538	35.4697}
+			{VolumeView "window1.ply"}
+		}
+		{bone "window2"
+			{Position 31.3537	7.13592	35.3544}
+			{VolumeView "window2.ply"}
+		}
+		{bone "attach1"
+			{Matrix34
+				0	-1	0
+				1	0	0
+				0	0	1
+				-2.01534	-10.7427	5.55899
+			}
+		}
+		{bone "attach2"
+			{Position 19.5293	7.21687	5.55899}
+		}
+		{bone "window1_x"
+			{Position -2.07074	-22.5538	35.4697}
+			{VolumeView "window1_x.ply"}
+		}
+		{bone "fix7"
+			{Position 33.7975	-7.2799	-10.0216}
+		}
+	}
+}
+{Volume "body1"
+	{Box 5.31379 63.9678 49.8994}
+	{Bone "usa_cottage2st_1f2c5"}
+	{Matrix34
+		1	0	0
+		0	1	0
+		0	0	1.1741
+		33.9424	5.39031	32.3734
+	}
+}
+{Volume "body2"
+	{Box 5.31379 56.9313 44.4105}
+	{Bone "usa_cottage2st_1f2c5"}
+	{Matrix34
+		0	-1	0
+		1	0	0
+		0	0	1.1741
+		6.527	-24.6697	35.2317
+	}
+}
+{Volume "floor1"
+	{Box 16.8328 28.3644 3.69682}
+	{Bone "usa_cottage2st_1f2c5"}
+	{Matrix34
+		0	-1	0
+		1	0	0
+		0	0	1.1741
+		18.6079	29.2291	4.14358
+	}
+}
+{Volume "hole1"
+	{Box 28.4199 13.7795 21.9481}
+	{Bone "window1"}
+	{Position 1.52588e-05	0	0}
+}
+{Volume "hole2"
+	{Box 13.7795 8.38444 21.9302}
+	{Bone "window2"}
+	{Position 0	0	0}
+}
+{Volume "window1"
+	{Box 28.4199 1.10793 21.9481}
+	{Bone "window1"}
+	{Position 1.52588e-05	0	0}
+}
+{Volume "window2"
+	{Box 1.10516 8.38444 21.9302}
+	{Bone "window2"}
+	{Position 0	0	0}
+}

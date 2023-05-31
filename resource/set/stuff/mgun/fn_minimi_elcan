@@ -1,0 +1,5 @@
+{from "fn_minimi"
+	{entity "fn_minimi_elcan"}
+	("accuracy_collimator"  moa(2))
+	("accuracy_collimator_70"  moa(2))
+}

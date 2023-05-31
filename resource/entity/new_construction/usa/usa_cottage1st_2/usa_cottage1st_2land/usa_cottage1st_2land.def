@@ -1,0 +1,9 @@
+{game_entity
+	(include "/properties/building.inc")
+	{props "concrete"}
+	{obstacleid "unbreakable"}
+	{Extension "usa_cottage1st_2land.mdl"}
+	{Extender "land_patch"
+		{TerrainType "road" "bridge"}	
+	}
+}

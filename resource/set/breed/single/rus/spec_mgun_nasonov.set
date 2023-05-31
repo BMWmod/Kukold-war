@@ -1,0 +1,29 @@
+{breed
+	{behaviour soldier}
+	{hero}
+	{skin "cw_rus_sso_multicam"}
+	{portrait "_new/spec_mgun_Nasonov"}
+	{icon "mgs"}
+	{icon_priority 0}
+	{nationality rus}
+	{armors
+		{head lshz1plus_sso}
+	}
+
+	(include "perks_generic.inc")
+	("traits_elite_mgun")
+	{perks
+		{"field_glass"}
+		{"stealth"}
+	}
+	{inventory
+		{item "lbt6094_rus_mgun"}
+		{item "rgd grenade" 3}
+		{item "bandage" 15}
+		{item "knife_rus"}
+		{item "rpk_74_1"}
+		{item "rpk_ammo ammo" 210}
+		{item "rpg26 weapon" filling "rpg26 ammo" 1}
+		{in_hands 4}
+	}
+}

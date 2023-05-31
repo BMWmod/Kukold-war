@@ -1,0 +1,437 @@
+;By maaa - DTTGOC
+
+============================================= Acronyms & terms ===========================================
+	;Air Units
+		ASF - Air Superiority Fighter
+		AVN - Aviation
+		AWACS - Airborne Warning and Control System
+		Airlifter - Military Transport Aircraft, Military Cargo Aircraft
+		Attack aircraft
+		CAS - Close Air Support
+		CAS attack aircraft
+		Fighter-bomber aircraft
+		Fighter-interceptor aircraft
+		ISR - Weapon Systems Operators (UK only)
+		ISR - Intelligence, Surveillance, Reconnaissance
+		ISR operator
+		LGB - Laser-guided Bomb
+		LOAL- Lock-on after launch
+		LOH - Light Observation Helicopter
+		MRCA - Multirole Combat Aircraft
+		Stealth ASF
+		Stealth MRCA
+		Strategic and tactical airlifter
+		Tactical airlifter
+		VTOL - Vertical Take-off and Landing
+		SRAAM - Short-range Air-to-air Missile
+		WVRAAM - Within Visual Range Air-to-air Missile
+		AGM - Air-to-ground Missile
+		SEAD - Suppression of Enemy Air Defence
+		ACM – Air combat maneuvering (A general term for training for close-in air-to-air combat with enemy fighters)
+		JDAM - Joint Direct Attack Munition
+		Glide Bomb
+		CM - Cruise Missile
+		AAM - Air-to-air Missile
+		SLCM - Submarine-launched Cruise Missile
+----------------------------------------------------------------------------------------------------------
+	;Armor Classification
+		ERA - Explosive Reactive Armor
+----------------------------------------------------------------------------------------------------------
+	;Factions/Units designation
+		;China
+			PLA - People's Liberation Army
+			PLAAF - People's Liberation Army Air Force
+			PRC - People's Republic of China
+		;France
+			Forces Armées Françaises - The French Armed Forces
+		;Germany
+			Bundeswehr - Federal Defence Forces of Germany
+		;Israel
+			IDF - Israel Defense Forces
+			Tzahal - Israel Defense Forces /  צְבָא הַהֲגָנָה לְיִשְׂרָאֵל aka צה״ל‎
+		;NATO
+			MNC NE - Multinational Corps Northeast
+			NATINADS - NATO Integrated Air Defence System
+			NATO - The North Atlantic Treaty Organization
+			NATO Allied Air Command
+			NATO Field Artillery
+			NATO GBAD - NATO Ground Based Air Defence
+			NATO IAMD - NATO Integrated Air and Missile Defence
+		;Russia
+			BV(БВ) - The Coastal Troops (СТs) of Russian Navy / Береговые войска
+			BV Naval Infantry Brigade
+			IA-PVO - Interceptor Aircraft of the National Air Defence
+			PVO - Troops of National Air Defense
+			PVO Voysk - Ground Force Troops of the Anti-Aircraft Defence
+			RU - Russian Federation
+			RU Airborne Forces(VDV)
+			RU Air Force(VVS)
+			SOBR(СОБР) - The Special Rapid Response Unit / Специальный Отряд Быстрого Реагирования
+			SVR - Ground Forces of the Russian Federation / Сухопутные войска Российской Федерации
+			SVR Artillery Brigade
+			SVR Motorized Rifle Brigade
+			SVR Tank Brigade
+			VDV(ВДВ) - Russian Airborne Troops / Воздушно-десантные войска России
+			VKS(ВКС) -  Russian Aerospace Forces / Воздушно-космические силы
+			VVS(ВВС) - The Russian Air Force / Военно-воздушные силы России
+		;UK
+			Her Majesty's Armed Forces
+			UK - United Kingdom
+		;UK & France
+			CJEF - Combined Joint Expeditionary Force
+		;US
+			1st SFOD-D - 1st Special Forces Operational Detachment–Delta
+			CAG - Combat Applications Group
+			National Guard of the U.S.
+			SOF - Special Forces and Special Operations Forces
+			U.S. - United States
+			U.S. Army
+			U.S. Army Field Artillery Branch
+			USAF - U.S. Air Force
+			USMC - U.S. Marine Corps
+----------------------------------------------------------------------------------------------------------
+	;General Terms
+		AT - Anti-tank
+		AP - Anti-personnel
+		CBRN - Chemical, Biological, Radiological and Nuclear
+		Chain gun
+		F&F - Fire and Forget
+		GLTD - Ground Laser Target Designator
+		GLTD/Range finder
+		HB - Heavy Barrel
+		Honeycomb launcher
+		KIA - Killed in action (US only)
+		Laser designator
+		MCU - Mobile Control Unit
+		MEDEVAC - Medical Evacuation
+		MICLIC - Mine-clearing Line Charge
+		MLS	- Missile Launching System
+		NBC - Nuclear, Biological, Chemical
+		NLOS - Non-Line-of-Sight
+		SACLOS  - Semi-active Command Line of Sight
+		SF - Special Forces
+		Strat - Strategic
+		TD - Tank Destroyer / Tank Hunter
+		UAV - Unmanned aerial vehicle
+		UCGV - Unmanned Combat Ground Vehicle
+		UGV - Unmanned Ground Vehicle
+		VLS - Vertical Launching System
+----------------------------------------------------------------------------------------------------------
+	;Ground/Amphibious/Airborne
+		;AA/SAM
+			AD - Air Defense
+			ADMS - Air Defence Missile System
+			Air Defense Artillery capability (US only)
+			Gun/Missile Air Defense System
+			SPAAA - Self-propelled Anti-Aircraft Artillery
+			SPAAG - Self-propelled Anti-aircraft Gun
+			SPAAW - Self-propelled Anti-aircraft Weapon
+			SPAD - Self-propelled Air Defense System
+		__________________________________________________________________________________________________
+		;Artillery
+			Heavy flamethrower system
+			Howitzer
+			MLRS - Multiple Launch Rocket System
+			MRL - Multiple Rocket Launcher
+			SPG - Self-Propelled Gun / Self-Propelled Artillery
+			SPM - Self-loaded Mortar
+			SPMRL - Self-propelled Multiple Rocket Launcher
+			TBM - Tactical Ballistic Missile
+			TBM TEL
+			TML - Tactical Missile Launcher
+		__________________________________________________________________________________________________
+		;Armored/Non-armored Vehicles/Cars
+			LUV - Light utility vehicle
+			EAAK - Enhanced Applique Armor Kits (US only)
+			AAVP - Assault Amphibian Vehicle Personnel (US only)
+			ABV - Assault Breacher Vehicle
+			AEV – Armoured Engineer Vehicle
+			AFV - Armored Fighting Vehicle
+			APC - Armored Personnel Carrier
+			ARV - Armored Reconnaissance Vehicle
+			ATMC - Anti-tank Missile Carrier
+			AWC - Armored Weapon Carrier
+			Airborne amphibious IFV
+			Amphibious ARV
+			Amphibious Vehicle
+			Armored Car
+			BPM(БПМ) - Battle Vehicle of the Border Guard / Боевая Пограничная Машина (Russia only)
+			BPM(БПМ) - Combat Recon Vehicle / Боевая Разведывательная Машина (Russia only)
+			CC vehicle - Command and Control vehicle
+			CEV - Combat Engineer Vehicle
+			Engineering truck
+			FSV - Fire Support Vehicle
+			HIFV - Heavy Infantry Fighting Vehicle
+			Heavy semi-trailer
+			Heavy High Mobility Truck
+			High Mobility Truck
+			ICV - Infantry Carrier Vehicle
+			IFV - Infantry Fighting Vehicle
+			IMV - Infantry Mobility Vehicle
+			Logistic truck
+			MC - Mortar Carrier
+			MCBS - Mine Clearing Blade System
+			MGS - Mobile Gun System (US only)
+			MICV - Infantry Combat Vehicle
+			MRAP - Mine Resistant Ambush Protected
+			MRAP vehicle
+			MWMIK - Mobility Weapon-Mounted Installation Kit (UK only)
+			Military engineering vehicle
+			Mine plow (Plough in British English)
+			Mineclearing system
+			Minelaying truck
+			Missile Carrier
+			Mortar Carrier
+			MSL - Mobile SHORAD Launcher
+			M-SHORAD - Maneuver Short-Range Air Defense
+			NSTV - Non-standard Tactical Vehicle
+			OMFV - Optionally Manned Fighting Vehicle (US only)
+			SHORAD - Short range air defense (US only)
+			Recon vehicle
+			Tactical utility truck
+			Tractor
+			Tractor unit
+			Trailer
+			Utility MRAP
+			Utility helicopter
+			Utility truck
+			Utility vehicle
+		__________________________________________________________________________________________________
+		;Infantry
+			AG - Assistant Gunner (US only)
+			AH - Ammunition Handler (US only)
+			AMR - Anti-materiel Rifle
+			AR - Automatic Rifleman (US only)
+			Anti-Armor Team
+			Anti-materiel sniper team
+			Armor crewman
+			CAAT - Combined Arms Assault Teams / Combined Anti-armor Team (US only - Marines)
+			CBT ENGR - Combat Engineer
+			CBT ENGR - Combat Engineer aka field engineer, pioneer or sapper
+			CCM Fire team - Close Combat Missile Fire Team (US only)
+			CCM Team - Close Combat Missile Team (US only)
+			DM - Designated Marksman (US only - Marines)
+			FACs - Forward Air Controllers
+			FO - Forward Observer (US only)
+			GRN - Grenadier (US only)
+			Gunner (US only)
+			INF. - Infantry
+			OPR. - Operator
+			PzGren - Panzergrenadier (Germany only)
+			RFLM - Rifleman (US only)
+			RMAT - Squad Anti-armor Specialist
+			SDM - Squad Designated Marksman (US only - Army)
+			SDM - Squad Designated Marksman (US only)
+			SL - Squad leader (US only)
+			SSO(ССО) - Special Operations Forces / Силы специальных операций (Russia only)
+			SSO/ССО - Special Operations Forces / Силы специальных операций (Russia only)
+			Sapper
+			Sniper team
+			TL - Team Leader (US only)
+			Weapon operator/Driver
+
+		__________________________________________________________________________________________________	
+		;Personal Weapons/Equipment
+			Ballistic shield/Tactical shield
+			MANPADS/MPADS - Man-portable Air-defense Systems
+			MAAWS - Multi-role Anti-armor Anti-personnel Weapon System (US only)
+			SASR - Special Applications Scoped Rifle (US only)
+			SOFLAM/SOF-LAM - Special Operations Forces Laser Acquisition Marker (US only)
+			GLTD II = SOFLAM
+			GLTD - Ground Laser Target Designator (US only)
+			CCWS - Close Combat Weapon Systems (US only)
+			SDM-R - United States Army Squad Designated Marksman Rifle
+		__________________________________________________________________________________________________
+		;Radars
+			3D search radar
+			CW radar - Continuous-wave radar
+			CWAR - Continuous-Wave Acquisition Radar
+			FCR - Fire-control Radar
+			GSR - Ground Surveillance Radar
+			ICWAR - Improved Continuous-Wave Acquisition Radar
+			IPAR - Improved Precision Approach Radar
+			MSTAR - Man-portable Surveillance and Target Acquisition Radar
+			PAR - Precision Approach Radar
+			RLS - Radar Line of Sight
+			RLS - Radio-location Station / Radar Station
+			SAR - Synthetic Aperture Radar
+			SOC - Station Detection and Target Designation
+			TAR - Target Acquisition Radar
+			MMW - Millimeter-wave
+		__________________________________________________________________________________________________
+		;Stationary weapons/assets
+			AGL - Automatic Grenade Launcher
+			ALTDS - Army Laser Target Designator System (US only)
+			AT gun
+			GPMG - General-purpose Machine Gun
+			Gun-mortar
+			HMG - Heavy Machine Gun
+			LMG Light Machine Gun
+			MMG - Medium Machin Gun
+			MTR - Mortar
+			RCL - Recoilless launcher, recoilless rifle, or recoilless gun
+			RR - Recoilless rifle, recoilless launcher or recoilless gun
+			TOW - Tube-launched, Optically-tracked, Wireless-guided (US only)
+				;Weapon stations
+					CROWS - Common Remotely Operated Weapon Station
+		__________________________________________________________________________________________________
+		;Tanks
+			MBT - Main Battle Tank
+			Medium tank
+		__________________________________________________________________________________________________
+		;Trains
+			Diesel-electric locomotive
+----------------------------------------------------------------------------------------------------------
+	;Operations
+		CSAR - Combat Search and Rescue
+----------------------------------------------------------------------------------------------------------
+	;Missiles/Weapon systems
+		ASM - Air-to-surface Missile
+		SSM - Surface-to-surface Missile
+		AGM - Air-to-ground missile
+		ARM - Anti-radiation Missile
+		ASM Air-to-surface missile
+		AShM - Anti-ship Missile
+		ATGM - Anti-tank Guided Missile
+		ATGW - Anti-tank Guided Weapon
+		B - Ballistic Missile
+		BRBM - Battlefield Range Ballistic Missile
+		DEW - Directed-energy Weapon
+		GGM - Ground-to-ground Missile
+		GTAM - Ground-to-air Missile
+		LaWS - Laser Weapon System (US only)
+		SAGW - Surface-to-air Guided Weapon
+		SAM - Surface-to-air Missile
+		SRBM - Short-range Ballistic Missile
+		SSM - Surface-to-surface Missile
+		TBM - Tactical Ballistic Missile
+			;Missile launcher
+				TEL - Transporter, Erector, Launcher
+				TELAR Transporter, Erector Launcher and Radar
+				TLAR - Transporter, Launcher and Radar
+----------------------------------------------------------------------------------------------------------
+	;Navy
+		ASW - Anti-submarine Warfare
+		ASW - Anti-submarine Weapon
+		DDG - Destroyer, Guided Missile	/ Guided Missile Destroyer (NATO & US only)
+		DPL/DEPL(ДПЛ/ДЭПЛ) - Дизель-электрическая подводная лодка / Diesel-electric Propelled (Russia only)
+		FBM - Fleet Ballistic Missile Submarines
+		LCAC - Landing Craft Air Cushion
+		LCVP - Landing Craft Vehicle Personnel
+		Landing craft
+		N - Nuclear Powered
+		NSW RIB - Naval Special Warfare Rigid Inflatable Boat
+		RIB - Rigid Inflatable Boat
+		RHIB - Rigid-hulled Inflatable Boat
+		SS - Submarine/Submersible
+		SSBN - Nuclear-powered, Ballistic Missile-carrying Submarine (NATO & US only)
+		SSGN - Cruise missile submarine (NATO & US only)
+		SSN - Nuclear-powered Fast Attack Submarines (NATO & US only)
+		СТs - The Coastal Troops (Russia only)
+			;Weapon stations
+				ASW/Torpedo defence system
+				CIWS - Close-in Weapon System
+				Deck-mounted torpedo launchers
+				Naval SAM
+				RAM - Rolling Airframe Missile (US only)
+				Rescue/guard boat
+				SLBM - Submarine-launched Ballistic Missiles
+				SLCM - Submarine-launched Cruise Missile
+				SVTT - Surface Vessel Torpedo Tubes
+				Shipborne flame-throwing system
+				Underdeck drum-type launcher
+-------------------------------------
+	;ammo
+		MAC - Metal Augmented Charge
+		IM - Insensitive Munitions
+		Blast Frag - Blast-fragmentation
+		HEAT - High-explosive Anti-tank
+		Thermobaric
+		HEI – High-explosive Incendiary
+		MPWH - Multi-Purpose Warhead
+		CBU - Cluster Bomb Unit
+		IB - Incendiary Bomb
+		ACM - Anti-Armour Cluster Munition
+		HEI - High Explosive Incendiary
+		FAE - Fuel-Air Explosive / Thermobaric
+		
+		LAM - Land Attack Missile (Naval SSM)
+		GGM - Ground-to-ground Missile
+		SSM - Surface-to-surface Missile
+		AGM - Air-to-ground Missile
+		ASM - Air-to-surface Missile
+		ALCM - Air-launched Cruise Missile
+		CM - Cruise Missile
+		
+		AMDWS - Air and Missile Defense Workstation
+		RAM Warn - Rocket Artillery Mortar Warning
+		GTAM - Ground-to-air missile
+		SAGW - Surface-to-air Guided Weapon
+		SAM - Surface-to-air Missile
+		ARM - Anti-radiation Missile
+		ALCM - Air-launched Cruise Missile
+		Long-range ACLM
+		AAM - Air-to-air Missile
+		Gun-launched ATGM
+		CLGP - Cannon-launched Guided Projectiles
+		Guided artillery shell
+		PGM - Precision-guided Munition
+		GLATGM - Gun Launched Anti-Tank Guided Missile
+		ARH - Active Radar Homing
+		TVM - Track-via-missile (SARH + Radio Command Guidance)
+		SARH - Semi-active Radar Homing
+		Radio Command Guidance
+		
+		
+		HEIAP - High-explosive Incendiary/Armor-piercing Ammunition
+		SAPHEI - Semi-armor-piercing High-explosive Incendiary
+		
+		HEI-T High-explosive Incendiary-Tracer
+		AP - Armor-piercing
+		AP-T - Armor-piercing-Tracer
+		API - Armor-piercing Incendiary
+		API-T - Armor-piercing incendiary-Tracer
+		APFSDS - Armor-piercing Fin-stabilized Discarding Sabot
+		SMK - Smoke
+		
+		
+		Detonators:
+		Contact:	When the warhead makes physical contact with the target, the explosive is detonated. Sometimes combined with a delay, to detonate a specific amount of time after contact.
+		Proximity:	Using radar, sound waves, a magnetic sensor, or a laser the warhead is detonated when the target is within a specified distance. It is often coupled with directional explosion control system that ensures that the explosion sends the fragmentation primarily towards the target that triggered it.
+		Remote:		Remotely detonated via signal from operator (Not normally used for warheads except for self-destruction).
+		Timed:		Warhead is detonated after a specific amount of time.
+		Altitude:	Warhead is detonated once it falls to a specified altitude.
+		Combined:	Any combination of the above.
+		
+		TLAM - Tomahawk Land Attack Missile
+		
+	Missile guidance:
+		INS - Inertial Navigation System
+		IBN - Image Based Navigation
+		TFN - Terrain Referenced Navigation
+		GPN - Global Positioning System
+		GLONASS - Global Navigation Satellite System (Глобальная навигационная спутниковая система)
+		TVM - Track-via-missile
+		Retransmission homing or TVM
+		TGM - Television Guided Missile
+	Sensor/seeker:
+		IIR - Imaging Infrared
+		SAL - Semi-active Laser Homing
+		
+		
+		A2/AD - Anti-access/Area Denial
+		A2/AD weapon system
+		Area Denial weapon
+		FAE - Fuel Air Explosive
+		BVR - Beyond-visual-range
+		MRAAM - Medium-range Air-to-air Missile
+		BVRAAM - Beyond-visual-range Air-to-air Missile
+		SRAAM - Short-range Air-to-air Missile
+		WVRAAM - Within Visual Range Air-to-air Missile
+		
+		MEPHISTO - Multi-Effect Penetrator HIghly Sophisticated and Target Optimised
+		HDBT - Hard and Deeply Buried Targets
+		Annular blast-fragmentation warhead (Continuous-rod warhead)
+		Continuous-rod warhead
+		
+		Autonomous Targeting Acquisition (ATA)

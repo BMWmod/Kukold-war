@@ -1,0 +1,85 @@
+{from "pattern gun_air"     ; Ka50
+	{filling "bullet30_rus" 30}
+        	
+	{fireSound "gun/2a42"}
+	{reloadSound "61k_reload"}
+;=====================
+	{AimingTolerance 3}
+	{Automatic}
+	{recoveryTime 0.1}			
+	{rechargeTime 1}
+	{spreading
+		;{spreadradius 	1}
+		;{SpreadXYRatio	1.1}
+		;{SpreadPower	1.7}
+		{BurstAccuracy 100 90 80 70 60 50}
+	}
+	{burst
+		{min 0}
+		{short 3 1}
+		{long 5 2}
+	}
+	{RelaxationTime 1}
+
+;=====================
+	{SpreadTolerance 0.5}
+	{range 120 120}
+	("speed" s(960))
+	("37-57caliber")
+	{calibre 30}
+	{speed 210}
+ ;                          ("accuracy_2a42")
+	; a - 20, b - 50, c - 80, d -100, e - 120 
+;	("damage4" a(90) b(66) c(55) d(44) e(20))   ; ¡¡ 
+	("CW_small_APCR_damage_WC" penetr_1000m(56))
+    ("CW_acc_common" mils(0.37))
+	;{cursor "Ka50"}
+	;{cursorReloading "autocannon_ap_reload"}
+	;{cursor "cannon_on_ap_2"}
+	{cursor "cannon_on_ap_5"}
+	{cursorReloading "cannon_reload_ap"}
+
+	{parameters "fg"
+	("damage4" a(0) b(0) c(4) d(4) e(4))
+		("CW_acc_common" mils(0.67))
+		("CW_acc_common_100" mils(0.67))
+		;{cursor "Ka50"}
+		;{cursorReloading "autocannon_he_reload"}
+		;{cursor "cannon_on_fg_2"}
+		{cursor "cannon_on_fg_13"}
+		{cursorReloading "cannon_reload_fg"}
+	}          
+    {parameters "bullet30_RUS apcr_cn ap"
+		("CW_small_APCR_damage_WC" penetr_1000m(100))     ; unknown, DTC10
+        ("CW_acc_common" mils(0.43))
+		{cursor "cannon_on_ap_5"}
+		{cursorReloading "cannon_reload_ap"}
+	} 
+    {parameters "bullet30_RUS ap_cn ap"
+		("CW_small_AP_damage" penetr_1000m(56))     ; unknown, assuming DTC04 as AP, not APCR
+        ("CW_acc_common" mils(0.43))
+		{cursor "cannon_on_ap_5"}
+		{cursorReloading "cannon_reload_ap"}
+	} 
+	{parameters "Bullet30_RUS_aph ap"
+		("CW_small_AP_damage" penetr_1000m(38))     ; «”¡–6
+		("CW_acc_common" mils(0.43))
+		("CW_acc_common_100" mils(0.43))
+		;{cursor "Ka50"}
+		;{cursorReloading "autocannon_ap_reload"}
+		;{cursor "cannon_on_ap_2"}
+		{cursor "cannon_on_ap_5"}
+		{cursorReloading "cannon_reload_ap"}
+	}           
+	{parameters "Bullet30_RUS_apg ap"
+		("CW_small_APCR_damage_WC" penetr_1000m(100))   ; Mecar M929 
+		("CW_acc_common" mils(0.43))
+		("CW_acc_common_100" mils(0.43))
+		;{cursor "Ka50"}
+		;{cursorReloading "autocannon_ap_reload"}
+		;{cursor "cannon_on_apcr_2"}
+		{cursor "cannon_on_apcr_3"}
+		{cursorReloading "cannon_reload_apcr"}
+	}           
+}
+

@@ -1,0 +1,18 @@
+{breed
+	{skin "cw_us_acu"}
+	{portrait "_new/usa/inf"}
+	{icon "us_army_operator_bpla"}
+	{icon_priority 0}
+	{nationality usa}
+	{armors
+		{head ech_helmet}
+	}
+	(include "perks_generic.inc")
+	("traits_vehicle_supporter")
+	{inventory
+		{item "iotv_smg"}
+		{item "bandage" 5}
+		{item "rq11_control"}
+		{in_hands 3}
+	}
+}

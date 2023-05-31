@@ -1,0 +1,22 @@
+{from "pattern proj_weapon"
+	{tag "gun" "to_hand ap" "cannot_lie" "nokeep"}
+	{tag "AA_missile_2gen" "-low_speed"}
+	
+	{filling "ammo igla_S" 4}	
+	{FillingVisible "igla_"}
+        {fireSound "bazooka/IGLA_shot"}	
+		{reloadSound "chn/Metis_reload"}
+        {mass 6};http://rbase.new-factoria.ru/missile/wobb/igla_c/igla_c.shtml	
+	{inventory
+		{size 6 2}
+	}
+	{recoveryTime 3}
+	{rechargeTime 40}	
+	{maxRange 175}   ;6000 примерно	
+	{aimRange 220}	;дальность предварительного наведения
+	;{cursor "zenite_on"}
+	;{cursorReloading "zenite_reload"}
+	{cursor "cannon_on_aa"}
+	{cursorReloading "cannon_reload_fg"}
+	;{cursorReloading "cannon_reload_fg_timer_40"}
+}

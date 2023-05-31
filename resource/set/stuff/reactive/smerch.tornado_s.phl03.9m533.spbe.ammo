@@ -1,0 +1,29 @@
+{bullet
+	
+	{tag "big" "shell" "fg" "size2" "no_ricochet" "fragmentary" "antiinf" "fx_45_89"}
+	{tag "cluster_shell"} ; только дл€ ammo.set
+	{inventory
+		{size 7 2}
+		{weight 100}
+	}	
+	{mass 810}
+	{entity "9m533"}
+	{view "9m533"
+		{tail "rocket_smokebig_short_cl" "tail"}
+	}
+	{detonationThickness 1}
+	{applyProjectile}
+	;5 —ѕЅЁ
+	{damage blastwave	 ; fragmentary
+		{energy 0.7}
+		{area 4 5}
+	}
+	{damage add blastwave	 ; HE antipersonnel
+		{energy 1.2}
+		{area 2 3}
+	}
+	{damage add blastwave	 ; HE, FG anti-APC
+		{energy 2.5}
+		{area 0.1 0.1}
+	}
+}

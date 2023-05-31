@@ -1,0 +1,317 @@
+{tags
+	{"ammo_100mm_sh" "100mm HE for BMP-3 - 15"}
+	{"ammo_100mm_sheksna" "100mm ATGM «Arkan» - 3"}
+	{"ammo_125mm_invar" "125mm ATGM «Invar» - 3"}
+	{"ammo_125mm_kobra" "125mm ATGM «Cobra» - 3"}
+	{"ammo_125mm_kombat" "125mm ATGM «Kombat» - 3"}
+	{"ammo_125mm_ks" "125mm HEAT - 10"}
+	{"ammo_125mm_lekalo" "125mm APFSDS «Lecalo» - 10"}
+	{"ammo_125mm_mango" "125mm APFSDS «Mango» - 10"}
+	{"ammo_125mm_ofs" "125mm HE - 10"}
+	{"ammo_125mm_refleks" "125mm ATGM «Reflex» - 3"}
+	{"ammo_125mm_svinec" "125mm APFSDS «Svinets» - 10"}
+	{"ammo_125mm_svinec1" "125mm APFSDS «Svinets-1» - 10"}
+	{"ammo_125mm_vant" "125mm APFSDS «Vant» - 10"}
+	{"ammo_23mm_avia" "23mm shells for aviation - 400"}
+	{"ammo_57mm_deriv" "57mm shells - 40 HE and 20 AP"}
+	{"ammo_23mm_shilka" "23mm shells for Shilka and Zu-23-2 - 400"}
+	{"ammo_30mm_sh" "30mm shells - 70 HE and 30 AP"}
+	{"ammo_73mm_sh" "73mm grenades for BMP-1 (10 HE 3 HEAT.)"}
+	{"ammo_ap_mine" "AP mines - 30"}
+	{"ammo_at_mine" "AT mines - 10"}
+	{"ammo_ataka" "ATGM «Ataka» - 4"}
+	{"ammo_buy" "Good, it's inside this Kamaz nearby."}
+	{"ammo_engineering" "Engineering tools and smoke grenades"}
+	{"ammo_fuel" "Barrel with fuel - 200l"}
+	{"ammo_konkurs" "Missiles for ATGM «Konkurs» - 5"}
+	{"ammo_nar_s13" "UM S-13 - 10"}
+	{"ammo_shmelm" "Grenades for Shmel-M - 12"}
+	{"ammo_kornet_ammo" "ATGM «Kornet» - 2 HEAT, 1 TB, 1 HE"}
+	{"ammo_kpvt_sh" "14,7mm ammo for KPVT - 500"}
+	{"ammo_nar" "UM S-8 - 20"}
+	{"ammo_repair" "Repair kit"}
+	{"ammo_shturm" "ATGM «Shturm» - 4"}
+	{"ammo_smoke" "Smoke grenades for vehicles, active defence."}
+	{"ammo_strela" "Missiles of SAM «Strela» - 4"}
+	{"ammo_talk" "Hello, comrade lieutenant colonel. Are you for ammo?"}
+	{"ammo_talk1" "Yes, Efimov, I need to refill my vehicles. Prepare papers, I'll write a request. Put everything in your Kamaz, my men will take it."}
+	{"ammo_tung_ammo" "SAM for «Tunguska» - 4"}
+	{"ammo_u_missile" "Access to more advanced missiles."}
+	{"ammo_u_shell" "Access to more advanced shells."}
+	{"ammo_u_spec" "Access to mines and repair kits."}
+	{"ammo_vihr" "ATGM «Vikhr» - 4"}
+	{"ammo_germes" "ATGM «Hermes» - 4"}
+	{"aviation_ka50" "Ka-50"}
+	{"aviation_ka52" "Ka-52"}
+	{"aviation_ka52_germes" "Ka-52 with Hermes ATGM"}
+	{"aviation_mi-24v" "Mi-24V"}
+	{"aviation_mi-24vm" "Mi-24VM"}
+	{"aviation_mi17" "Mi-17 (unarmed)"}
+	{"aviation_mi28n" "Mi-28N"}
+	{"aviation_talk" "Hello, Vasiliy! Are you on business, or just checking?"}
+	{"aviation_talk1" "In the case, now there is no time to cool off. Went to talk about air support."}
+	{"back" "Back"}
+	{"briefing1" "Orders have already been delivered to batallion commander's modules. Good luck, comrade lieutenant colonel!"}
+	{"briefing2" "Oh yeah, your radio operator, Gryshchenko, took a base plan before the briefing. I think if you have questions about the placement of objects, he will tell you everything. Have you just arrived? Talk to him, he is in the radio operator module, it is two steps away, next to the main antenna."}
+	{"briefing_repeat" "Good morning, Comrade Lieutenant Colonel. Do you want to review your orders again?"}
+	{"briefing_repeat1" "Repeat task"}
+	{"briefing_repeat2" "Review orders again."}
+	{"bupgr_bmppl1" "Additional place for IFV"}
+	{"bupgr_bmppl1a" "Another place for armour? Will be."}
+	{"bupgr_bmppl2a" "Well, we'll find a place for another IFV."}
+	{"bupgr_btrpl1" "Additional place for APC"}
+	{"bupgr_btrpl1a" "Okay, I will allocate space for another APC."}
+	{"bupgr_btrpl2a" "Well, one more APC will fit."}
+	{"bupgr_cannonpl1a" "Put it next to the arsenal, you can place there two more mounted guns. And leave the rest in the trucks, then it  will not occupy place on the base."}
+	{"bupgr_cannonpl2" "Two additional places for mounted weapons"}
+	{"bupgr_carpl1" "Two additional places for cars"}
+	{"bupgr_carpl1a" "Okay, there will be another pair of truck stops."}
+	{"bupgr_carpl2a" "we will find a place for two more trucks, but no more."}
+	{"bupgr_helipl1" "Additional heliport"}
+	{"bupgr_helipl1a" "Okay, let him land on the second heliport."}
+	{"bupgr_humanpl1" "Additional tent for 25 soldiers"}
+	{"bupgr_humanpl1a" "Understood, the engineering team is already in place. You will have the second tent."}
+	{"bupgr_humanpl2a" "Clear, the third tent will be deployed immediately."}
+	{"bupgr_humanpl3a" "Accepted, the engineers will unfold the fourth tent."}
+	{"bupgr_humanpl4a" "I will, the fifth tent will be deployed ASAP."}
+	{"bupgr_humanpl5a" "Understood, the engineering team unfolds the sixth and final tent."}
+	{"bupgr_tankpl1" "Additional place for tank"}
+	{"bupgr_tankpl1a" "There is always a place for another tank."}
+	{"bupgr_tankpl2a" "The fourth tank will fit, but not more."}
+	{"crush" "Doronin, what are you doing there? Be more careful with the base, or else I'll fine you!"}
+	{"date" "29 August 2019, 08:00"}
+	{"find_doronin" "Show Doronin"}
+	{"greet00" "We are preparing, comrade lieutenant colonel!"}
+	{"greet01" "Good morning, comrade lieutenant colonel!"}
+	{"greet03" "Good morning, comrade lieutenant colonel! Will we depart soon?"}
+	{"greet04" "There is some time. Check the equipment while you can."}
+	{"greet_jeep" "Vasily Semenovich, everything is ready, you can use the Uaz. It is not fit for battle, but is indispensable for quickly moving around the camp."}
+	{"hint_btg" "You must assemble and equip three battalion tactical groups (BTGs) under the command of the Doronin, Yudin and Arkhipov battalion commanders. All three BTGs will obey you directly, they will carry out the mission. The first to enter into battle is the BTG-1, then the BTG-2, and the last - the BTG-3."}
+	{"hint_btg1" "You can learn restrictions on the number and type of troops from the battalion commanders, the subordination of a combat unit or a fighter to a BTG is carried out in accordance with its position on the parade ground. "}
+	{"hint_resources" "Reinforcement points are used to replenish and equip your troops, upgrade points are used to access more advanced military vehicles, personnel and equipment, as well as to expand the base - to increase the limit on the number of personnel and vehicles. Not all improvements are available immediately. For example, to gain access to the T-90A, you need to unlock not only it, but also T-72B3 first."}
+	{"hint_resources1" "The number of upgrade points required to unlock a combat unit is equal to the number of the subgroup it is inside (by the number of yellow marks on the subgroup icon). A more advanced vehicles requires more points to unlock. Upgrades do not spend reinforcement points. Increasing the limit of troops of each type also costs more and more."}
+	{"hint_transfer" "The troops comprising the three BTGs will take part in the execution of the mission. Troops, that are not included in any BTG, will stay at the base and will be available while prepare for the next mission along with the personnel of the BTGs. After completing the task, you will be able to collect the captured vehicles and equipment and use it further, but taking into account the maximum number of vehicles of each type."}
+	{"kombat1_talk" "Well, now I need to form a battalion tactical group."}
+	{"kombat1_talk1" "I can deploy to this task: 20 soldiers, 2 cars and 1 APC. My task is recon and preparing positions for futher defence."}
+	{"kombat2_talk" "Yudin, did you set up a group? How will you support us?"}
+	{"kombat2_talk1" "I can bring up to 40 soldiers, 2 trucks, 2 APC, 2 IFV. I'll be in Camarioca as mobile reserve."}
+	{"kombat3_talk" "Arkhipov, how about you?"}
+	{"kombat3_talk1" "I will have in reserve up to 50 soldiers, 1 APC, 1 IFV, 2 tanks. I can fall behind because of tanks, the roads are crowded."}
+	{"kombat_ex_bmp" "Too many IFVs."}
+	{"kombat_ex_btr" "Too many APCs."}
+	{"kombat_ex_cannon" "Too many mounted weapons."}
+	{"kombat_ex_car" "Too many cars."}
+	{"kombat_ex_heli" "Too many helicopters."}
+	{"kombat_ex_inf" "Too many infantry."}
+	{"kombat_ex_tank" "Too many tanks."}
+	{"local_daily_report" "And here came the latest reports from the fronts, do you want to listen?"}
+	{"local_daily_report1" "«Now the eyes of the whole world are riveted to Cuba. During these hours, the grandiose amphibious operation «Dawn» is underway, the purpose of which is to protect the Cubans from occupation, as well as to create a bridgehead for further operations against the US mainland»"}
+	{"local_daily_report2" "«In the port of Santiago and Guantanamo Bay, parts of the ground forces of Russia and China are unloaded from transport ships, paratroopers are deployed at airfields in Cuba, and the water area is reliably protected by warships.»"}
+	{"local_daily_report3" "«In the near future, these forces, in cooperation with the revolutionary armed forces, will throw the US occupation units into the sea and unblock Havana. The head of Cuba, Raul Castro, remains in the capital and expresses confidence in the imminent end of hostilities on the territory of the state»."}	{"master_confirm" "Okay, I'll arrange it now. Semyonitch! Get the trailer here! As the crew comes out - take the vehicle away."}
+	{"master_confirm" "Okay, I'll arrange it now. Semyonitch! Get the trailer here! As the crew comes out - take the vehicle away."}
+	{"master_talk" "Hello, comrade lieutenant colonel. Need to send something to the rear?"}
+	{"master_talk_no_target" "I do not understand, what vehicle should I take? Can you clarify?"}
+	{"master_talk_reject" "Okay, so not this one."}
+	{"master_talk_select" "Oh, this one to the rear, right?"}
+	{"medpunkt_bandages" "20 individual medpackages"}
+	{"medpunkt_talk" "Hello, comrade lieutenant colonel. Somebody is injured, or you are for medical packages?"}
+	{"medpunkt_talk1" "Yes, for medpacks. The battle will be soon,  need need to replenish stock."}
+	{"medpunkt_tband_buy" "Well, medpacks in the car at the entrance."}
+	{"misc_runners" "Do not fall behind, another four kilometers left!"}
+	{"misc_steal_fuel" "Damn it! In the morning there was a full fuel tank, but someone had already leaked it! Nothing can be left, Doronin-style of action!"}
+	{"mission_start" "Battalion tactical groups advanced to the area of operation..."}
+	{"name" "Operation \"Dawn\" - base"}
+	{"name_big" "Operation \"Dawn\" - base"}
+	{"outro_completed" "Tactical groups are moving."}
+	{"outro_failed" "Mission failed."}
+	{"personnel_at_miners(rus)" "Miners"}
+	{"personnel_at_rifle(rus)" "Antisniper"}
+	{"personnel_bazookers2(rus)" "RPG team"}
+	{"personnel_elite(rus)" "GRU squad"}
+	{"personnel_engineer(rus)" "Engineers"}
+	{"personnel_flamers2(rus)" "Flamethrower team"}
+	{"personnel_pzrk(rus)" "MANPADS team"}
+	{"personnel_smgs(rus)" "Motorrifles squad"}
+	{"personnel_snipers(rus)" "Sniper team"}
+	{"personnel_spec(rus)" "Specnaz squad"}
+	{"personnel_talk" "Good morning, Comrade Colonel. I am for the replenishment."}
+	{"personnel_talk1" "Good. Newbies are in tents. What specialities do you need?"}
+	{"personnel_tankman(rus)" "Tank crew"}
+	{"personnel_vehicle_supporter(rus)" "Drivers"}
+	{"personnel_vertpilot(rus)" "Helicopter pilot"}
+	{"place" "Location of 448 motorized rifle brigade, near Santiago, Cuba."}
+	{"radio_artillery" "Artillery strike"}
+	{"radio_artillery1" "Artillery confirms that there will be a barrage for us. I'll transmit the coordinates immediately when it'll be needed"}
+	{"radio_eleron3sv" "UAV «Eleron-3SV»"}
+	{"radio_help" "Help"}
+	{"radio_help1" "Tell about the base"}
+	{"radio_helpbase1" "Gryshchenko, are you already familiar with the base? Tell me about the placement of key objectse."}
+	{"radio_helpbase10" "There is a parking lot behind the fence, you can drive there through two checkpoints. There is the module of the vehicle master, and you need to contact him for receiving vehicles from the replenishment. Our armour is on the parking lot. Yes, ask tankmen to be more careful while driving - the brigade commander threatened to force the loser to wash all the brigade's equipment for breaking a single netting."}
+	{"radio_helpbase11" "And your old friend, captain Fomin, settled behind the parking lot. True, he is unhappy that he was put on flight management. Well, in the sense of - completely unhappy ... So, we need to talk with him about helicopters attached to the brigade. There is also a helipad."}
+	{"radio_helpbase12" "So, now the rest of the camp. The internal fence separates the storage areas for mounted weapons, there is also a weapon room, it contains small arms and some equipment and ammunition. However, there is no exotic, and if you need something better AK-74M - there is chief technician in arms next to the module. You can order there rare guns and portable weapons."}
+	{"radio_helpbase13" "Well, closer to the fence there is a warehouse area - food, clothing and so on. Sanitary modules too."}
+	{"radio_helpbase14" "And the last is the staff tents, big ones. Our guys are now resting there before the fight. In the center of the base is the dining room."}
+	{"radio_helpbase15" "Outside, next to the main road - the shooting range. Well, here you can hear everything, just go to the sound, you will not be mistaken. To target the barrel, especially if the new one, is a necessary thing, even lifting targets are already there. Well, it is also possible to shoot with equipment, we are not supposed to have a separate range for it."}
+	{"radio_helpbase16" "And finally - parade ground, on the other side of the shooting range, across the road. There you will break the allocated forces into three tactical groups and declare the combat mission of each. The engineering team placed road cones there - they will help to divide the tactical groups on the parade ground. And after doing that you'll be ready to fight."}
+	{"radio_helpbase2" "Of course, Vasily Semenovich."}
+	{"radio_helpbase3" "We are now in the radio room, at the main entrance. From here I can contact the gunners, aviation. And we, radio operators, manage the unmanned vehicles."}
+	{"radio_helpbase4" "Next to us is the headquarters and the brigade commander module. At headquarters, you can get current orders, and also to convince staff to finally allocate more space for vehicles in the parking lot. The brigade commander should be contacted for replenishment. Of course, he will give rookies only... Well, they will learn."}
+	{"radio_helpbase5" "Further along the road there are three modules of the battalion commanders - commanders of tactical groups. Yours is near the fence, the middle one is Yudin, BTG-2, along the road is the Arkhipov module, BTG-3. If you are interested in the composition of forces for each tactical group - you should go there."}
+	{"radio_helpbase6" "At the turn - officers' tents, fuel tanks and ammunition depot."}
+	{"radio_helpbase7" "At the warehouse, closer to the main entrance, there is a repair service module. Repairmen taks damaged, unnecessary or trophy equipment. A new one will not be given in return, you know them, they’ll take the whole soul out of a lost bayonet. But something in return can be bargained for. It is possible to use trophies in combat, but as far as there is ammunition and a parking space."}
+	{"radio_helpbase8" "And after the turn - the module of the ammo master, we can get heavy ammunition from him. We can reload tanks directly from truck near to the module."}
+	{"radio_helpbase9" "At the end of the main road, in front of the checkpoint, there are various auxiliary installations for servicing the base - water purification and so on. And there is a medical center with quarantine tents. Get individual medpackets there."}
+	{"radio_su-25sm_strike" "Airstrike"}
+	{"radio_su-25sm_strike1" "Well, the attack aircraft is already equipped, it will fly out on demand."}
+	{"radio_talk" "Hello, Vasily Semenovich. Are you interested in artillery, air support or drones?"}
+	{"radio_talk1" ""}
+	{"radio_uran9" "Access to UGV «Uran-9»"}
+	{"radio_uran9_assault" "UGV «Uran-9» with flamethrowers"}
+	{"radio_uran9_assault2" "UGV «Uran-9» assault"}
+	{"radio_uran9_support" "UGV «Uran-9» support"}
+	{"rep_veh_bmp21" "А двери кто помял? Если заклинит - десанту что, через верх лезть?"}
+	{"rep_veh_bmp22" "Да Назаров помял, товарищ капитан. Я ему уже всыпал, не будет за рычагами спать."}
+	{"rep_veh_bmp23" "Ладно, двери поправить, еще что?"}
+	{"rep_veh_bmp24" "Подогреватель барахлит, долго масло греет, но пока терпит. На боевое можно."}
+	{"rep_veh_bmr1" "Ну да, а он взял и полез, там его и обработали. Вон, видал?"}
+	{"rep_veh_bmr2" "Гусеницу-то? А что?"}
+	{"rep_veh_bmr3" "Один разрыв он на месте сделал, но пока ехал - еще палец лопнул. Смотровые мехвода тоже ни к черту, и коробки на лбу проверь, там точно менять надо."}
+	{"rep_veh_bradley1" "Вот там она на меня и выскочила, да только там в лощинке мотострелки удачно коробочку поставили."}
+	{"rep_veh_bradley2" "Я уже снаружи ее осмотрел - похоже, башню она ей серьезно нашпиговала. А на корпусе только гусеница и кое-где динамическая защита."}
+	{"rep_veh_bradley3" "Слушай, а помнишь, в сводке упоминалось, что артиллерия раздолбала в пятом квадрате прорывавшихся пехотинцев янки? По-моему, там было что-то про Бредли. Оттуда башню не снять?"}
+	{"rep_veh_bradley4" "Ну а больше взять негде. Можно попробовать, я к Грищенко зайду, он координаты даст. Ты саперов возьми, там и мины, и снаряды, все что хочешь может быть."}
+	{"rep_veh_bradley5" ""}
+	{"rep_veh_kurganec1" "Опорный узел заклинен, но крыша корпуса вроде бы не деформирована. Снимем модуль, там увидим."}
+	{"rep_veh_kurganec2" "А что двигатель?"}
+	{"rep_veh_kurganec3" "Тоже под замену. И борт придется заваривать."}
+	{"rep_veh_lav251" "Да, изначально швейцарское. Но они внесли ряд изменений. Вроде бы, баки и выхлоп, уже не помню. Ну, и новая башня, конечно."}
+	{"rep_veh_lav252" "То есть броню они не поднимали, все не больше десятки на корпус и полутора на башню. Да ты сам видишь."}
+	{"rep_veh_lav253" "Я только в скуле башни вижу. Там и в корпусе тоже?"}
+	{"rep_veh_lav254" "Да, вон там. Это второй батальон постарался, но один БТР  они потеряли."}
+	{"rep_veh_leclerc1" "...И во лбу дыра горит. Не такая уж плохая башня, но им все же стоило хоть вставку какую для стодвадцатки сделать."}
+	{"rep_veh_leclerc2" "Нда. А в остальном ничего машинка, не тяжелая, плотненькая, оптика. Только с БИУС без документов мы разобраться не сможем."}
+	{"rep_veh_leclerc3" "Ага... Ну хорошо, пусть в Кубинке думают. Закрывай люки, сливай топливо и масло, будем готовить к отправке."}
+	{"rep_veh_leo1" "RH - стрелок наводит пушку через EMES или FERO. Так, это основной."}
+	{"rep_veh_leo2" "KH - командир наводит пушку через PERI, их оптические оси жестко связаны. Ага, это передача управления, если EMES выбит."}
+	{"rep_veh_leo3" "KW - командир наводит через EMES, в его окуляры подается оттуда изображение. Что-то не уловил."}
+	{"rep_veh_leo4" "Может, это режим обзора для командира, если выбит PERI, или если его не хватает?"}
+	{"rep_veh_leo5" "Не исключено. Дальше, KP, командир управляет только PERI, что есть нормальная ситуация... Так, не понял, а KP и RH что, вместе можно? Надо проверить."}
+	{"rep_veh_leo6" "ZU - линия прицеливания PERI совмещается с EMES, но не жестко. Похоже, для наблюдения цели, обнаруженной стрелком, или для контроля стрельбы."}
+	{"rep_veh_leo7" "ZZU - командир получает картинку с EMES, причем PERI не двигается. Тоже для контроля стрельбы, очевидно."}
+	{"rep_veh_leo8" "ZZ - целеуказание. Командир переключается на KH, пушка идет на линию визирования PERI, потом отдается стрелку. А индикации направления без жесткой перекидки башни, похоже, и нет."}
+	{"rep_veh_m1a11" "Ну а ты?"}
+	{"rep_veh_m1a12" "Ну а я вылез осторожно, и начал его долбить. Ну а толку? Два в скулу, а он знай садит."}
+	{"rep_veh_m1a13" "Хорошо, третьим в борт по касательной попал, он хотя бы встал. Я и свалил, от греха. Ну и до ночи он стоял, пока сбоку не обошли. Там уже экипаж побежал, мы ег ои вытащили."}
+	{"rep_veh_m1a14" "Только там все сгорело, они не только гранат накидали, но и канистру солярки вылили."}
+	{"rep_veh_m1a21" "А потому что верно говорят: как корабль назовешь, так он и ходить будет. Нет, ну надо было додуматься назвать свой танк Cojone Eh, и попытаться на нем воевать!"}
+	{"rep_veh_m1a22" "Да ты нормально скажи, что не так-то? Ну, назвали танк как-то, что такого? Или это что-то значит?"}
+	{"rep_veh_m1a23" "Если честно, я не знаю, что это значит, но само название-то как ты не слышал? Ну, в общем, был такой танк во вторую Иракскую, когда янки шли по шоссе на полном ходу - прямо на Багдад."}
+	{"rep_veh_m1a24" "Сначала его подстрелили из безоткатки, пробили бак по борту, и он загорелся. Вся колонна встала на 20 минут, но танк пришлось бросить."}
+	{"rep_veh_m1a25" "Внутрь закинул гранаты, в корму башни дали снаряд из другого танка - ему панели и выбило, вот прямо как у этого."}
+	{"rep_veh_m1a26" "Когда полураздолбанный танк стали крутить в качестве пропаганды, авиация попробовала его добить, но два маверика и JDAM рядом не смогли окончательно добить его."}
+	{"rep_veh_m1a27" "Потом иракцы еще раз его отсняли, попыталсись вывезти, но не смогли, и подошедшие янки оттянули ег она обочину, где и бросили. Так что не знаю как ты, а я бы на месте янки про это название забыл. Несчастливое оно."}
+	{"rep_veh_marder1" "Нет, у меня только на А1 и А2."}
+	{"rep_veh_marder2" "Ну пусть хоть так, что пишут?"}
+	{"rep_veh_marder3" "Лоб - 32 под 66, крышка двигателя - 11 под 12..."}
+	{"rep_veh_marder4" "Это приведенной... полсотни где-то. Да и отрикошетит. Дальше?"}
+	{"rep_veh_marder5" "Это для А2, а тут еще десять на крышке и где-то 25 на лбу. то есть - только Кернером, и то не факт."}
+	{"rep_veh_mgs1" "Да, считай - легкий танк, как ПТ-76. Но тут полноценная длинностволка, пусть и 105мм."}
+	{"rep_veh_mgs2" "Силуэт высоковат. У него корпус почти как целый Абрамс."}
+	{"rep_veh_mgs3" "Согласен, но зато боевой модуль очень узкий. При известной сноровке можно попробовать выставлять только его."}
+	{"rep_veh_t721" "И мощность падает. Нужно продуть воздушные фильтры."}
+	{"rep_veh_t722" "В остальном замечаний нет?"}
+	{"rep_veh_t723" "Нет, только бандажи и фильтры."}
+	{"rep_veh_t801" "Пушку полностью под замену, надо поднимать башню и снимать с цапф. Плюс привод."}
+	{"rep_veh_t802" "Так, а с прицелами что?"}
+	{"rep_veh_t803" "Основной в утиль, снимем с сорок шестого. Приборы мехвода тоже под замену, запасной и командирский целы."}
+	{"rep_veh_wiesel1" "А почему? Да где ты еще такую штуку изнутри посмотришь?"}
+	{"rep_veh_wiesel10" "Тогда решено - заканчивай с ним, и отдай разведке, я Рудзинскому скажу."}
+	{"rep_veh_wiesel2" "А потому, что залезть-то я сам смогу, а вот вылезти - только с автогеном. Да ты посмотри, он же ниже меня ростом! Куда там вообще можно лезть?"}
+	{"rep_veh_wiesel3" "Что, Сергеич, нравится?"}
+	{"rep_veh_wiesel4" "Здорово, Доронин. Да, трофей смотрим."}
+	{"rep_veh_wiesel5" "Снаружи."}
+	{"rep_veh_wiesel6" "Ладно, ладно, сам туда полезу. Нет, серьезно, машинка может сработать как разведчик. Немцы используют ее как огневую поддержку, но ты сам видишь - брони никакой, стаба нет, пушка двадцатка всего. "}
+	{"rep_veh_wiesel7" "Но мелкая, легкая и довольно тихая для гусеничной, а прицел со старшей модели, Мардера. БРДМки списали, вот - будет за них."}
+	{"rep_veh_wiesel8" "Вообще-то можно попробовать, но как быть со снабжением?"}
+	{"rep_veh_wiesel9" "Движок Фольксвагена, вроде бы ни с чем не унифицирован - моноблок. Гусли резинометаллические, но вроде бы надежные. Да не, я думаю побегает еще, если движок не слишком гонять, а там уже китайцы возьмут этих моноблоков по месту производства."}
+	{"sell_confirm" "Confirm sale"}
+	{"sell_select" "Sale"}
+	{"sell_select1" "Send away and receive reinforcements instead"}
+	{"start_mission" "Start mission."}
+	{"task_btg1" "Assemble BTG-1 befor start mission."}
+	{"task_btg2" "Assemble BTG-2 befor start mission."}
+	{"task_btg3" "Assemble BTG-3 befor start mission."}
+	{"task_doronin" "Give necessary orders to prepare for next mission."}
+	{"upgr_points_rest" "Remaining upgrades: %1%"}
+	{"upgrade" "Upgrade"}
+	{"vehicles_bm_oplot" "BM «Oplot»"}
+	{"vehicles_bmp1_kliver" "BMP-1 with «Kliver»"}
+	{"vehicles_bmp1_new" "BMP-1"}
+	{"vehicles_bmp2_new" "BMP-2"}
+	{"vehicles_bmp2m_new" "BMP-2M"}
+	{"vehicles_bmp3" "BMP-3"}
+	{"vehicles_bmp3_dz" "BMP-3 with ERA «Kaktus»"}
+	{"vehicles_bmp3_derivation" "BMP-3 «Derivation»"}
+	{"vehicles_bmpt" "BMPT"}
+	{"vehicles_bmr-3" "BMR-3"}
+	{"vehicles_brdm2" "BRDM-2"}
+	{"vehicles_brdm2_atgm" "BRDM-2R"}
+	{"vehicles_brdm2_strela" "SAM «Strela-1»"}
+	{"vehicles_btr80_new" "BTR-80"}
+	{"vehicles_btr82a" "BTR-82A"}
+	{"vehicles_btr90" "BTR-90"}
+	{"vehicles_bumerang_k-16" "«Boomerang» K-16"}
+	{"vehicles_bumerang_k-17" "«Boomerang» K-17"}
+	{"vehicles_gaz_tigr" "GAZ «Tiger»"}
+	{"vehicles_kamaz" "KamAZ-4326"}
+	{"vehicles_kamaz_43269" "KamAZ-43269 «Vistrel»"}
+	{"vehicles_kamaz_taifun" "KamAZ-63968 «Typhoon-K»"}
+	{"vehicles_kornet-d" "Kornet-D"}
+	{"vehicles_kurganec_b-10" "«Kurganec» B-10"}
+	{"vehicles_kurganec_b-11" "«Kurganec» B-11"}
+	{"vehicles_master_talk" "Good morning! Need a vehicle from the reserve?"}
+	{"vehicles_mtlb" "MT-LB"}
+	{"vehicles_shilka" "ZSU-23-4 «Shilka»"}
+	{"vehicles_t-14" "T-14"}
+	{"vehicles_t-15" "T-15"}
+	{"vehicles_t-15_au220" "T-15 AU-220"}
+	{"vehicles_t-64b" "T-64B"}
+	{"vehicles_t-64bm1" "T-64BM1"}
+	{"vehicles_t-64bv" "T-64BV"}
+	{"vehicles_t-90a" "T-90A"}
+	{"vehicles_t72b" "T-72B"}
+	{"vehicles_t72b3" "T-72B3"}
+	{"vehicles_t72b3_gorod_komplect" "T-72B3 «Gorod»"}
+	{"vehicles_t80bv_2" "T-80BV"}
+	{"vehicles_t80y" "T-80U"}
+	{"vehicles_t80ym1" "T-80UM1"}
+	{"vehicles_t90sm" "T-90SM"}
+	{"vehicles_tunguska" "2K22 «Tunguska»"}
+	{"vehicles_ural375_zu" "Ural with Zu-23-2"}
+	{"weapon_master_talk" "Come in, comrade lieutenant colonel. What do you wish? Weapons, ammunition?"}
+	{"weapons_127_ammo" "Ammo 12,7mm mgun"}
+	{"weapons_2b14_podnos" "Mortar 2B14"}
+	{"weapons_762_ammo" "Ammo 7,62mm mgun"}
+	{"weapons_ags30_stan" "AGS-30"}
+	{"weapons_ags_ammo" "Grenades for AGS"}
+	{"weapons_kord_stan" "Mounted «Kord»"}
+	{"weapons_kornet_stan" "ATGM «Kornet-D»"}
+	{"weapons_metis_ammo" "Missiles for ATGM «Metis»"}
+	{"weapons_metis_m" "ATGM «Metis-M»"}
+	{"weapons_mortar_ammo" "Ammo for 82mm mortar"}
+	{"weapons_mso_ammo" "Basic motorrifles ammo"}
+	{"weapons_mso_ammo2" "Improved motorrifles ammo"}
+	{"weapons_mso_ammo3" "Specnaz ammo"}
+	{"weapons_mso_ammo4" "Specnaz GRU ammo"}
+	{"weapons_mso_weapon2" "Improved motorrifles weapons"}
+	{"weapons_mso_weapon3" "Specnaz weapons"}
+	{"weapons_mso_weapon4" "Specnaz GRU weapons"}
+	{"weapons_ptur_konkurs" "ATGM «Konkurs»"}
+	{"weapons_pzrk_ammo" "Missiles for MANPADS «Igla-S»"}
+	{"weapons_rpg29_ammo" "Grenades for RPG-29"}
+	{"weapons_shmel" "Flamethrowers «Shmel»"}
+	{"weapons_sniper_ammo" "Sniper ammo"}
+	{"weapons_sniper_rifle" "Improved sniper rifle"}
+	{"weapons_spec_weapon" "AGL Bulldog"}
+	{"weapons_zu23-2" "Zu-23-2"}
+}

@@ -1,0 +1,163 @@
+{Entity
+	
+	(include "/properties/tank.ext")
+	(include "/properties/shadow/tank.inc"  scale(1.4))
+	(include "/properties/selection/vehicle.inc"  scale(1.2))
+
+	{extender "enumerator" {digit_folder "pla"}}
+	{collider "tank.heavy"}
+	{props "Light_M" "turret_rotator" "vision_lev06" "auto_dig_in" "has_autoloader" "cw_artillery"  "cw_panorama" "with_open_zpu"}
+
+	{volume "body1"
+		{tags "body"}
+		{component "body"}
+	}
+	{volume "body2"
+		{tags "body"}
+		{component "body"}
+	}
+	("armor_IFV_multivolume" turret(35 9 9 6) body1(15 15 15 15)  body2(35 9 9 6))
+	{boarder
+		{anm "driver"
+			{forward	{begin	"board_tank_left"} {base "open_driver"}}
+			{reverse 	{end	"emit_tank_2_hold"} {base "open_driver" -1}}
+		}
+		{anm "left"
+			{forward	{begin	"board_Kv-85"} {end "seat_gunner_stand"}{base "open_left"}}
+			{reverse 	{end	"emit_tank_2_hold"}{base "open_left" -1}}
+		}
+		{anm "right"
+			{forward	{begin	"board_Kv-85"} {end "seat_gunner_stand"}{base "open_right"}}
+			{reverse 	{end	"emit_tank_2_hold"}{base "open_right" -1}}
+		}
+		{anm "back"
+			{forward	{begin	"board_sd232_driver"} {end "seat_gunner_stand"}{base "open_back"}}
+			{reverse 	{end	"board_sd232_driver" -1}{base "open_back" -1}}
+		}
+	}
+(define "crew_human"
+	{placer
+		{place "%place"
+			{group "crew"}
+			{visor "%visor"}
+		}
+	}
+	{boarder
+		{door "%door1"}
+		{link "%door1" "%place" {anm "%anm"} {forward putoff} {reverse puton}}
+	}
+)
+	("crew_inside")
+	("crew_human" place(driver)		door1(emit0) anm(driver) visor(driver))
+	("crew_human" place(gunner)		door1(emit2) anm(right) visor(main))
+	("crew_human" place(charger)	door1(emit3) anm(back) visor(none))
+	("crew_human" place(commander)	door1(emit1) anm(right) visor(panorama))
+	
+	{placer
+		{place "gunner2"
+			{group "crew"}
+			{linkbone "gunner2"}
+			{turnoff {sensor} {shadow}}
+			{visor "top"}
+			{openForCrush}
+		}
+	}
+	{boarder
+		{link "emit3" "gunner2" {anm "back"} {forward putoff} {reverse puton}}
+	}
+	{sensor
+		{visor "main"
+			{vision "tank_gunner_optic_1g"}
+		}
+		{visor "panorama"
+			{vision "tank_gunner_optic_2g"}
+			{bone "Visor3"}
+		}
+		{visor "top"
+			{vision "vehicle_top_mgun"} 
+			{bone "Mgun"}
+		}
+	}
+	{extender "inventory"
+		{box
+			{Size 8 7}
+			{weight 6000}	
+			{item "bullet155_cn 155_cn fg ammo" 10}
+			{item "bullet155_cn_r 155_cn fg ammo" 5}
+			{item "bullet155_cn_rok 155_cn fg ammo" 6}
+			{item "bullet155_cn 155_cn cl ammo" 5}
+			{item "bullet155_cn 155_cn satt ammo" 3}
+			;{item "bullet155_cn 155_cn sm ammo" 4}	
+			{item "ammo hcb_ammo" 400}			
+			;{item "ammo smoke_shtora" 8}			
+		}
+	}
+	{Weaponry
+		("restore_ik_time")
+		{place "gun"
+			{RestoreIKAfterAim}
+			{weapon "155mm_L54cn" filling "ammo bullet155_cn fg" 1}
+			{gunner "gunner"}
+			{charger "gunner"}        	
+			("CW_stab_artillery_rt" rechargetime(8))
+		}
+		{place "mgun"
+			{weapon "qjz-89" filled}
+			{foresight "foresight3"}
+			{gunner "gunner2"}
+			{charger "gunner2"}
+			{basic}
+			("CW_stab_no_stabiliser")
+		}
+		;{place "mgun18"			;дым гранатометы
+		;	{type "mgun_left"}
+		;	{weapon "4xsmokegun_bredly" filling "smoke_shtora ammo" 4}
+		;	{gunner "gunner"}
+		;	{charger "gunner"} 
+		;	{foresight "foresight21"}
+		;	{barrels 4}
+		;	{basic}
+		;}
+		;{place "mgun19"			;дым гранатометы
+		;	{type "mgun_right"}
+		;	{weapon "4xsmokegun_bredly" filling "smoke_shtora ammo" 4}
+		;	{gunner "gunner"}
+		;	{charger "gunner"} 
+		;	{foresight "foresight20"}
+		;	{barrels 4}
+		;	{basic}
+		;}
+	}
+
+
+
+	{mass 35000}
+	{Chassis				
+		("tank_trace" fx("tracks_mid") step(0.47) len(1.2))
+		{Locomotion ("CW_track_moveparam" 
+			Mass(35)
+			Width(3.55)
+			Power(800)
+			Realspeed(55)
+			Gamespeed(36) 
+		)
+		{RearGears		0.20 0.40}}
+		("CW_fuelbag" Range(550) Fuelvolume(800))
+		("CW_speed_lev" Gamespeed(36))
+	}
+	{props "cwfs_fuel_800"}
+	;("two_headlights")
+
+	{Extension "plz-05.mdl"}
+	("missile_aimpoint_tanksize")
+	{bone "gun_rot"
+		{speed 0.002}
+	}
+	{bone "mgun"
+		{speed 0.01}
+		{limits -75 20}
+	}
+	("cwts_buksir")
+	("two_headlights")
+	("CW_turr_speed" deg_per_s(28))
+}

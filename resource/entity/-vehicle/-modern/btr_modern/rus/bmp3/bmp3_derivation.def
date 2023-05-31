@@ -1,0 +1,122 @@
+﻿;Created by Pheonix
+{ArmoredCar 
+	(include "/properties/tank_amph.ext")
+	(include "/properties/shadow/tank.inc"  scale(1.2))
+	(include "/properties/selection/vehicle.inc"  scale(1.2))
+	
+	{collider "tank.light"}
+	{props "light_M" "turret_rotator" "amphibia" "vision_lev04" "can_paradrop_il-76td" "has_autoloader" "cw_panorama"}
+	{PatherID "amphibia"}
+        {targetClass "light_tank"}
+
+	{extension "crew_derivation.ext"}
+	{extender "enumerator"}
+	{extender "vision_mode"
+		;only one {timer_object} is supported at the moment for vision_mode extender.
+		{timer_object
+			{tag		"thermal"}  ; -> only thermal, night or drone are supported right now
+			{active_time	   36000}  ;Sec 
+			{recharge_rate	  0.5}  ;Factor * game time -> only valid for type "recharge"
+			;{cooldown		   10}  ;Sec -> Only valid for type "consume" or "switch"
+			{type	     "recharge"}; -> only recharge, consume or switch are supported right now
+	    }
+	}
+
+	{volume "body1"
+		{tags "body"}
+		{component "body"}
+	}
+	{volume "body2"
+		{tags "body"}
+		{component "body"}
+	}
+
+	("armor_IFV" turret(40 12 12 6) body(56 25 25 11))
+	("armor_engine"  t(20))
+
+
+	{extender "shield"
+		{on}
+	}
+	{component "shieldl1" {tags "shield"}} 
+ 	{component "shieldr1" {tags "shield"}} 
+	{component "shieldl6" {tags "shield"}}
+	{component "shieldr6" {tags "shield"}}
+	{component "shieldl2" {tags "shield"}}
+	{component "shieldr2" {tags "shield"}}
+	{component "shieldl3" {tags "shield"}}
+	{component "shieldr3" {tags "shield"}}
+	{component "shieldl4" {tags "shield"}}
+	{component "shieldr4" {tags "shield"}}
+	{component "shieldl5" {tags "shield"}}
+	{component "shieldr5" {tags "shield"}}
+	{component "shieldr7" {tags "shield"}}
+	{component "shieldl7" {tags "shield"}}
+	{component "shieldr8" {tags "shield"}}
+	{component "shieldl8" {tags "shield"}}
+	{component "shieldr9" {tags "shield"}}
+	{component "shieldl9" {tags "shield"}}
+	{component "shieldr10" {tags "shield"}}
+	{component "shieldl10" {tags "shield"}}
+
+
+	("shield_t-64a_1981")
+
+	{extender "inventory"
+		{box		
+			{item "ammo bullet57_RUS au220m ap" 73}
+			{item "ammo bullet57_RUS au220m fg" 74}
+			{item "ammo bullet57_RUS au220m boobs" 74}
+
+		}
+	}
+	{Weaponry
+		("restore_ik_time")
+		{place "gun"
+            {RestoreIKAfterAim}
+			{weapon "57mm_au220m_aa" filling "ammo bullet57_RUS au220m ap"}
+			{foresight "foresight1"}
+			{gunner "gunner"}
+			{charger "gunner"}
+			{basic}
+			("CW_stab_abm" abm(0.43))	;предполагается стаб уровн Т-90СМ
+			("CW_stab_autotrack_suo")	;
+		}
+
+	}	
+	{sensor
+		{visor "main"
+		    {bone "Visor1"}
+			{vision "tank_gunner_optic_IR_4g"}	;весьма качественный прицел с дальностью обнаружени танка до 10 км
+		}
+		{visor "panorama"
+		    {bone "Visor3"}
+			{vision "tank_gunner_optic_IR_4g"}
+		}
+	}
+
+	{mass 17600}
+	{Chassis
+        ("tank_trace" fx("tracks_sm") step(0.15) len(0.7))
+		{Locomotion ("CW_track_moveparam" 
+			Mass(19.3)
+			Width(3.3)
+			Power(500)
+			Realspeed(70)
+			Gamespeed(43) 
+		)
+		{RearGears		0.2 0.42}}
+		("CW_fuelbag" Range(600) Fuelvolume(670))
+		("CW_speed_lev" Gamespeed(43))
+	}
+	{props "cwfs_fuel_400"}
+
+	("two_headlights")
+	{Extension "bmp3_derivation.mdl"}
+	("missile_aimpoint_tanksize")
+
+	("cwts_buksir")
+	("CW_turr_speed" deg_per_s(60))	;предположительно
+}
+
+

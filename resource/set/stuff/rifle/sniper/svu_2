@@ -1,0 +1,43 @@
+;Cold War
+{from "pattern sniper_rifle"
+("scope")
+
+	{tag "sniper reliability_medium sd"}
+	{filling "ammo svd_ammo" 10}
+	{curve "762x54rus_100"}
+	{preloaded}
+	{Automatic}
+	{mass 5.9}
+	{inventory
+		{size 4 2}
+	}
+	{entity "svu_2"}
+	{special
+		{mode aim}
+		{PrepareTime 6.0}
+		{PrepareCursor "aimed_shot"}
+		;{damage 1} ; damage *= x
+		{accuracy 1.2} ; aim_range *= x
+		;{throw_off}
+	}
+	("marksman_range")
+	{speed 290}
+	{fireSound "rifle/svu_shot"}
+	{reloadSound "chn/svd_reload"}
+	{healthDamage 110}
+	{reloadSound "enfield"}
+	{recoveryTime 0.09}
+	;{cursor "optic_pso"}
+	;{cursorReloading "optic_pso_reload"}
+	{cursor "sniper"}
+	{cursorReloading "cannon_reload_all"}
+	("accuracy_open_sight"  moa(1.8))
+	("accuracy_open_sight_77"  moa(1.8))
+    {parameters "LPS"
+		("accuracy_optic_sight"  moa(2.17))
+		("accuracy_optic_sight_77"  moa(2.17))
+		{projectileDamageTable {17 6} {65 5} {80 4} {85 3} {100 1}} 
+	}
+        
+}
+

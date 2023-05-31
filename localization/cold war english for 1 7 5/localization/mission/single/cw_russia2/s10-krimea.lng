@@ -1,0 +1,136 @@
+{tags
+	{"00" "The battery on the hill has opened fire! It is urgent to destroy it, otherwise it will grind the entire landing force."}
+	{"01" "Missile attack! Ground target, target designation mode - manual. Launch!"}
+	{"02" "Battery, attack the battery!"}
+	{"03" ""}
+	{"04" "Viktor Nikolayevich, this is Mirage. I still have Malachites, so I can strike targets on the hill."}
+	{"05" "I see the enemy!"}
+	{"06" "The beach is patrolled, and everyone with walkie-talkies ... If you want to go quietly, you need to remove the entire patrol at once, otherwise you will immediately raise the alarm."}
+	{"07" "This is Mishin. Comrade Major, we are at the point, disembarking. Everything is quiet so far, no enemy activity on the shore."}
+	{"08" "Accepted. You know your task - the SPH battery. The landing party is waiting for your signal. Captain Genne, is your missile boat ready? Will you cover my fighters?"}
+	{"09" "Cover, do not hesitate. Mirage is ready to strike a rocket attack on the battery, the special forces are only required to give the coordinates. Be sure, my target will wish to never be born."}
+	{"10" "Have you heard it, Mishin? Do it, we'll wait for the coordinates."}
+	{"11" "Attention, I see the enemy's self-propelled howitzers. They are on the back side of the hill, not in positions."}
+	{"12" "Malachites are sea-skimming missiles. I can't get them until they come to the hill top."}
+	{"13" "Mishin, act according to the situation. If you can not destroy the howitzers - just track them. As soon as the guns reach the top of the hill - Mirage will be able to destroy them with the main caliber."}
+	{"14" "Attention, I see howitzers."}
+	{"15" "Accepted! Moving to the given coordinates!"}
+	{"16" "This is Luchnikov. \"Donetsk\" is unloaded and ready to take the next batch of troops!"}
+	{"17" "\"Donetsk\", the next batch of troops is waiting for you at the Taman oil terminal. Get out to sea, take the marines, and return back. At a pace, you are the most nimble in the fleet."}
+	{"18" "Accepted, going out into the open sea."}
+	{"19" "This is \"Donetsk\", heading back to the base."}
+	{"20" "Got it, Luchnikov. The radar is clean, there are no enemy ships and aircraft. Bon Voyage!"}
+	{"21" "This is \"Donetsk\". Arrived at the terminal, mooring."}
+	{"22" "This is \"Donetsk\", landing force is onboard, going out to sea."}
+	{"23" "This is \"Donetsk\". Arrived in the area of landing, waiting for instructions."}
+	{"24" "Comrade Major, may I ask? My guys and I got an idea."}
+	{"25" "Report."}
+	{"26" "Kostyrino is well fortified from the front, it will not be easy to drop the Yankees from the hill. But we have a lake on the right flank, and no one waits for an attack from there. Why not to use \"Donetsk\" for the landing of troops directly to the rear of the enemy?"}
+	{"27" "\"Donetsk\" will be able to conduct fire barrage of the coast before landing, and it goes much faster than the APC afloat. But I am not sure that I can go to Tobechiq Lake itself. One two-meter boulder is enough to pass through the bottom of the pontoon."}
+	{"28" "I'm sure Zubr can get through. I landed there and saw the terrain - if you go ashore at the fishing lodge and move along by course  310, then large boulders will remain on the sides."}
+	{"29" "Yet it is quite risky. Mishin, I understand your idea, if necessary, we will use it."}
+	{"30" "Major, there is some movement to the north of the landing zone, I observe trucks. Perhaps this is some kind of staff or supply column."}
+	{"colonna_loose1" "The 880 and 881 battalions suffered heavy losses at the deployment stage, which did not allow them to continue the attack on Kerch. While landing ships brought up new troops, the enemy regrouped and was able to stop the advance of the Marines. Kerch was taken after all, but further progress along the Kerch Peninsula was stopped."}
+	{"colonna_loose2" "The 880 and 881 battalions were completely destroyed during the deployment phase, which violated the plan of the entire operation. The marines took defensive positions, but the occupied bridgehead was too small. After two weeks of stubborn fighting, the remains of 810 brigades and other landing units were evacuated back to Taman."}
+	{"date" "June 17, 2017, 03:00"}
+	{"def1" "Destroy the armored vehicles of the enemy advancing from the west."}
+	{"def2" "Fight off the enemy's attack from the south."}
+	{"def3" "Fight off the enemy's attack from the north."}
+	{"desant_bdk1" "Start the landing of the main forces before the approach of enemy reserves."}
+	{"destroy_pvo" "Disable air defense systems."}
+	{"detected" "HQ, this is Delta-six-two, we have enemy contact!"}
+	{"detected_body" "HQ, this is Delta-two-six. We have KIA here, send reinforcements!"}
+	{"enemy_snab_kolonna" "Intercept the column of the enemy, coming from the side of Chelyadinovo."}
+	{"flare" "HQ, this is delta-six-two, we have enemy movement!"}
+	{"forest" "Comb through the forest."}
+	{"kill_diversants" "Eliminate enemy sabotage group."}
+	{"kolonna_rf1" "Defend the column."}
+	{"loose_desant_fail" "The troops did not manage to land before the approach of enemy reinforcements."}
+	{"name" "Island of Crimea"}
+	{"name_big" "Island of Crimea"}
+	{"outro_completed" "Mission complete"}
+	{"outro_failed" "Mission failed"}
+	{"ovod_abandoned" "Missile boat \"Mirage\" was abandoned."}
+	{"ovod_cap_dead" "Captain-lieutenant Genne is dead."}
+	{"ovod_destroyed" "Missile boat \"Mirage\" was destroyed."}
+	{"ovod_survive" "Missile boat \"Mirage\" and captain Genne must survive."}
+	{"p1_alarm" "The enemy raised the alarm! We must act quickly. It is necessary to land the main forces before the arrival of enemy reinforcements at Naberezhnoye!"}
+	{"p1_car_from_costirirno" "Quiet! I hear the noise of the motor from Kostyrino! Quickly, take cover!"}
+	{"p1_desant1" "Attention, we begin the landing of the main forces!"}
+	{"p1_desant_inf1" "Two boats with soldiers has arrived as reinforcements."}
+	{"p1_desant_razvedrota" "Comrade Major, the north beach is clear."}
+	{"p1_desant_razvedrota1" "Move on to the height, and I will send reinforcements."}
+	{"p1_info_south" "It is necessary to cover our southern flank from possible attacks."}
+	{"p1_north_timer" "US reserves will arrive from the north in"}
+	{"p1_north_timer1" "US armored vehicles coming from the north"}
+	{"p1_south_timer" "US reserves will arrive from the south in"}
+	{"p1_south_timer1" "The enemy is moving forces from the south "}
+	{"p1_take_naber_beach_01" "The assault team has entrenched on the shore! We are asking for reinforcements!"}
+	{"p1_take_naber_beach_02" "I understand you! I am sending you a second wave of troops. In MT-LB there is engineering equipment for strengthening positions."}
+	{"p1_west_timer" "US reserves will arrive from the west in"}
+	{"p1_west_timer1" "The US column from the west arrives in"}
+	{"p2_begin_reinf_00" "Well, the landing is successful. Sending reinforcements."}
+	{"p2_comp_reinf2" "The attack is on its way! I am sending part of the reserve to compensate for losses."}
+	{"p2_diver_retreat" "The saboteurs retreated!"}
+	{"p2_kill_diver" "Enemy saboteurs destroyed!"}
+	{"p2_kol_ini_00" "Good job, Major, but don't relax. You've pulled back the enemy’s reserves and made it possible for the motorized infantry and the Marines to land to the south of your position."}
+	{"p2_kol_ini_01" "880 and 881 battalions will go through your square to the west, to develop an offensive. The column will pass south of Kostyrino, so do not rush to take the village. Concentrate on clearing the road."}
+	{"p2_kol_ini_02" "Yes, Comrade Lieutenant Colonel. I look after the guys, you can be sure."}
+	{"p2_kol_ini_03" "And here are the marines, look sharp!"}
+	{"p2_kol_ini_timer" "Column arrives in "}
+	{"p2_kolonna_01" "Comrade Lieutenant Colonel, the column has successfully passed!"}
+	{"p2_kolonna_01a" "Good job, major, pleased! Even though we need every men here, I'll give you a small force for assault. Finish with Kostyrino quickly, and follow me."}
+	{"p2_kolonna_02" "Comrade Lieutenant Colonel, the column passed, but with losses."}
+	{"p2_kolonna_02a" "All right, major. Finish with Kostyrino quickly, and follow me."}
+	{"p2_kolonna_03" "Comrade Lieutenant Colonel, the column was destroyed."}
+	{"p2_kolonna_03a" "What the... Destroyed ?! Major, are you crazy? Under your nose, some saboteurs put down two battalions! I'll give you to the tribunal - you blew up my operation!"}
+	{"p2_kolonna_04" "Comrade Lieutenant Colonel, the column was almost destroyed."}
+	{"p2_kolonna_04a" "Major, what are you doing !? I gave you a direct order - to ensure the passage of the column! They've lost half of their men in the area of your responsibility! With the available forces, I can not take the risk and continue the offensive. The operation failed. Give the command of the deputy, order the battalion to dug in, and go in the headquarters."}
+	{"p2_see_diversants" "Commander, they are attacking the column from the forest!"}
+	{"p2_start_00" "We continue the offensive. The next task is to expand the bridgehead. It is necessary to knock out the enemy from Zavetnoye and take the height 72."}
+	{"p2_take_blockpost1" "We've captured a roadblock at the crossroads between Naberezhniy and Kostyrino."}
+	{"p2_take_blockpost2" "The checkpoint between Nabereznoye and Zavetnoye is captured!"}
+	{"p2_take_zavetnoe" "Zavetnoye is under our control!"}
+	{"p2_take_zavetnoe1" "Great work, Major, but time is short. 880 and 881 battalions are disembarking to the south of your position. They will proceed through your sector in a few minutes - make sure they won't distracted by scattered enemy."}
+	{"p2_zubr" "This is cap-three Luchnikov! MDK \"Donetsk\" is ready to land the tanks!"}
+	{"p2_zubr_00" "This is cap-three Luchnikov! MDK \"Donetsk\" is ready to land the tanks at your command!"}
+	{"p3_end_00" "Edward Alexandrovich, Kostyrino is ours. The landing zone and the surrounding villages are completely cleared of enemy forces."}
+	{"p3_end_01" "Worked well, Major. Enough for today for your eagles, and tomorrow in the morning advance along the coast to Kerch. These Yankees won't run away from us the second time."}
+	{"p3_info_00" "Kostyrino is clear!"}
+	{"p3_info_01" "Commander, we break through to the village from the south!"}
+	{"p3_info_02" "Positions on the hill cap are captured. Yankees entrenched there quite well, but all in vain."}
+	{"p3_reinf" "Shcherbakov, sending you motorized infantry to assault Kostyrino."}
+	{"p3_reinf_01" "But I will take some for the other two battalions, to compensate for the losses."}
+	{"p3_reinf_zubr2_00" "\"Zubr\" is disembarking troops in Kostyrino."}
+	{"place" "Naberejnoye villiage, 23 km to the south from Kerch, peninsula of Crimea"}
+	{"r1" "Main forces"}
+	{"r2" "Disembarkation from the BDK to the Naberezhnoye."}
+	{"r3" "Disembarkation from \"Zubr\""}
+	{"r4" "Return \"Zubr\" for reinforcements."}
+	{"r5" "Get \"Zubr\" to the open sea to send for reinforcements."}
+	{"road" "Knock the enemy out from Zavetnoye."}
+	{"take_kostirino" "Destroy the enemy forces in the Kostyrino area."}
+	{"take_naber" "We hit them well! The remnants of enemy troops are retreating from Naberezhny to the height 72."}
+	{"take_naberejnoe" "Hold the bridgehead. Take control of Naberezhnoe."}
+	{"take_nabereznoe_beach" "Suppress the firing points on the beach of Naberezhny to ensure the landing of the second wave of landing."}
+	{"take_north_beach" "Clear the northern beach, to get reinforcements."}
+	{"take_sklad_gsm1" "Clear the fuel warehouse between the Naberezhnye and Zavetnoye!"}
+	{"take_south_beach" "Clear the southern part of Naberezhnoye beach."}
+	{"take_visota" "Our troops took a height of 72 to the west from Nabereznoye!"}
+	{"take_visota1" "This height dominates Nabereznoye, holding it we will be able to reflect possible counterstrikes."}
+	{"take_zavetnoe_01" "Commander, the Yankees flee from Zavetnoye!"}
+	{"take_zavetnoe_02" "Do not stop, continue the pursuit! Do not let them dissipate in the forest!"}
+	{"take_zavetnoe_defline" "Commander, US defenses to the east of Zavetnoye are captured!"}
+	{"usa_art1" "Suppress artillery position at height 72."}
+	{"usa_art1_c" "Howitzers turned into a pile of scrap, which greatly simplifies our lives for the next couple of hours."}
+	{"usa_art2" "Destroy the SPH of the enemy in the fortified area west of Zavetnoye."}
+	{"visota" "Take height 72."}
+	{"win" "The 810 marines brigade, 17, 18, and 20 motorized rifles batallions, which landed near Kerch, developed an offensive in two directions - on Kerch and into the depth of the Kerch Peninsula. The speed of the landing and deployment allowed to move through the narrow part of the Kerch Peninsula and go into Feodosia, to the operational space. Further, a blow was struck in the direction of Dzhankoy-Krasnoperekopsk, which led to the blocking of supply routes for NATO troops on the peninsula. After that, their fate was no longer in doubt."}
+	{"zubr2_00" "\"Zubr\" came to Kostyrino, clears the landing site."}
+	{"zubr2_01" "Disembarkation started!"}
+	{"zubr2_02" "Disembarkation complete!"}
+	{"zubr_abandoned" "MDK \"Donetsk\" was abandoned by crew."}
+	{"zubr_cap_dead" "3rd rank captain Luchnikov died."}
+	{"zubr_destroyed" "MDK \"Donetsk\" was destroyed."}
+	{"zubr_survive" "MDK \"Donetsk\" and captain Luchnikov must survive."}
+}

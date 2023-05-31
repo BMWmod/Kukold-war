@@ -1,0 +1,23 @@
+{breed
+	{skin "cw_lit_kasp"}
+	{portrait "_new/balt/lit_kasp"}
+	{icon pol_smg}
+	{icon_priority 0}
+	{nationality lit}
+	{armors
+		{head cap_lit}
+	}
+
+	(include "perks_generic.inc")
+	("traits_army_smg")
+	{inventory
+		{item "lit_vest"}
+		{item "762nato ammo" 240}
+		{item "rgd grenade" 2}
+		{item "bandage" 10}
+		{item "smoke grenade"}
+		{item "g3a3" filling "762nato ammo" 30}
+		{item "m72a4law weapon" filling "m72a4 ammo" 1}
+		{in_hands 5}
+	}
+}

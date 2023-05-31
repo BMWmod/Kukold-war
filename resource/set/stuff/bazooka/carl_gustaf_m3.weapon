@@ -1,0 +1,33 @@
+{from "pattern rpg_weapon"
+	{filling "ammo gustaf3" 1}
+        {fillingVisible "roket"}
+        {fireSound "CarlGustafM3_shot"}
+	{reloadSound "CarlGustafM3_reload"}
+	{mass 9.5}
+	{inventory
+		{size 6 2}
+	}
+        {maxRange 85}  ; 600-700м http://www.mil.ee/et/kaitsevagi/tehnika/relvad/carl-gustav-m2
+	{aimRange 85}
+	{gravity 0.4}
+	{entity "carl_gustaf_m3"}
+	{calibre 7}
+	{cursor "cannon_on_heat"}
+	{cursorReloading "cannon_reload_heat"}
+        {parameters "heat551"
+		{speed 24}                        ;67/700x254=24
+		("accuracy_open_rpg"  moa(10))
+	{cursor "cannon_on_heat_7"}
+	{cursorReloading "cannon_reload_heat"}
+	}
+        {parameters "heat751"
+		{maxRange 80}  
+		{aimRange 80}
+		{speed 33}                        ;63/600x210=22 ; speed гранаты x1.5 (25.02.21)	
+		("accuracy_open_rpg"  moa(11.8))
+	{cursor "cannon_on_heat"}
+	{cursorReloading "cannon_reload_heat"}
+	}
+       
+}
+;модель без оптики - открытый прицел.

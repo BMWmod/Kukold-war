@@ -1,0 +1,52 @@
+(include "\set\small.firearms.accuracy")
+
+(define "speed"   
+	{speed (* 0.5 %s)}
+)
+
+(define "recoveryTime"   
+	{recoveryTime (/ 60 %r)}
+)
+(define "mg_range"
+    {aimRange 85}
+	{maxRange 85}
+)
+(define "mg_range_optic"
+    {aimRange 95}
+	{maxRange 95}
+)
+(define "mg_range_custom"
+    {aimRange (* 85 %k)}
+	{maxRange (* 85 %k)}
+)
+(define "mg_range_optic_custom"
+    {aimRange (* 95 %k)}
+	{maxRange (* 95 %k)}
+)
+(define "burst_short"
+	{burst
+		{short 5 2}
+		{long 15 5}
+		{rangeKoef 0.50}
+	}	
+)
+
+(define "burst_medium"
+	{burst
+		{short 5 2}
+		{long 15 5}
+		{rangeKoef 0.50}
+	}	
+)
+
+(define "burst_long"
+	{burst
+		{short 5 2}
+		{long 15 5}
+		{rangeKoef 0.50}
+	}	
+)
+(define "skr"   
+	{recoveryTime(* 0.625 %recoveryTime)}
+)
+

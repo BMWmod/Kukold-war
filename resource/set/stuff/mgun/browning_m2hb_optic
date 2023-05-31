@@ -1,0 +1,63 @@
+;Cold War
+{from "pattern mgun"
+	{tag "reliability_medium not_for_human link_hmg"}
+	{entity "browning_m2hb_optic"}
+	{filling "ammo 50Nato" 100}
+	{curve "_50nato_120"}
+	{fireSound	"mgun/50cal_new"}
+	{inventory 	{handle_bone "handle_box"}}
+	{inventory
+		{size 6 2 }
+	}
+
+	;("burst_long")
+	{reloadSound "ptrd"}
+;	{cursor "zenite_on"}
+;	{cursorReloading "zenite_reload"}
+	;{cursor "mgun_on"}
+	;{cursorReloading "cannon_reload_all"}
+	{cursor "cannon_on_ap_4"}
+	{cursorReloading "cannon_reload_ap"}
+	{mass 38.1}
+	{burst
+		{short 4 2}
+		{long  10 3}
+		{rangeKoef 0.75}
+	}
+	{Spreading	
+		{BurstAccuracy 100 95 90 85 80 75 70 65 60}
+	}
+	{range 120 120}
+
+	{rechargeTime 4.5}
+	{recoveryTime 0.12}
+	{speed 300}
+	
+	{aimingTolerance 1}
+
+	{healthDamage 200}
+	{projectileDamage 25}
+	{projectileDamageTable {10 26} {20 25} {75 20} {105 11} {120 5} {140 3} }  ;http://www.inetres.com/gp/military/infantry/mg/50_ammo.html
+	{calibre 12}
+	("accuracy_open_sight"  moa(2.5))
+	("accuracy_open_sight_100"  moa(2.5))
+        {parameters "Mk211"
+		("accuracy_open_sight"  moa(2.5))
+		("accuracy_open_sight_100"  moa(2.5))
+		{projectileDamageTable {20 40} {75 31} {70 100} {120 9} {140 5}}	;http://guns.wikia.com/wiki/Raufoss_Mk_211
+	}
+	{parameters "AMAX"
+		("accuracy_open_sight"  moa(2.5))
+		("accuracy_open_sight_100"  moa(2.5))
+		{projectileDamageTable {10 5} {20 5} {75 5} {105 5} {120 3} {140 1}}
+	             {cursor "cannon_on_fg_12"}
+	             {cursorReloading "cannon_reload_fg"}		
+	}
+        {parameters "SLAP"
+		("accuracy_open_sight"  moa(2.5))
+		("accuracy_open_sight_100"  moa(2.5))
+		{projectileDamageTable {10 45} {20 41} {75 34} {105 23} {120 15} {140 8}}
+	             {cursor "cannon_on_apcr_4"}
+	             {cursorReloading "cannon_reload_apcr"}		
+	}
+}		

@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "mine_sign_m49a1_co"}
+	{blend none}
+}

@@ -1,0 +1,86 @@
+;Exported by: Kasutaja
+;Date:        Wed Oct  5 10:29:26 2022
+;File:        C:\Users\Kasutaja\Desktop\shgr56 grenade swedish\shgr 56 2 .max
+{Skeleton
+	{bone "body"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "body.ply"}
+		{bone "ring"
+			{Position 0.399851	0.0701983	0.729051}
+			{VolumeView "ring.ply"}
+		}
+	}
+}
+{Volume "body"
+	{Box 2.20409 1.13323 1.07085}
+	{Bone "body"}
+	{Matrix34
+		1	0	0
+		0	0	1
+		0	-1	0
+		-0.266284	0.0136755	0.00684218
+	}
+}
+{Volume "select"
+	{Box 4.20409 2.13323 2.07085}
+	{Bone "body"}
+	{Matrix34
+		-1	0	0
+		0	-1	0
+		0	0	1
+		-4.45994	0.983769	-1.91373
+	}
+}
+{Extender "preview"
+	{"Stuff"
+		{camera
+			{origin 5.16199	-1.15331	-0.964701}
+			{lookat -0.00559455	-0.0488897	-0.0490137}
+			{fov 24}
+			{horizon 39.0426}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 2.2416	0.644283	0.386873}
+			}
+			{"1"
+				{type directional}
+				{direction -0.446102	0.0783566	0.211787}
+			}
+			{"2"
+				{type point}
+				{position 0.673567	0.563812	-0.246803}
+			}
+		}
+	}
+	{"Stuff_secondary"
+		{camera
+			{origin 6.32336	-0.0540763	-0.668751}
+			{lookat 0.165538	0.00111387	0.147194}
+			{fov 45}
+			{horizon 0.370623}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 1.73115	2.77181	-0.796197}
+			}
+			{"1"
+				{type spot}
+				{position 8.87606	0.219826	0.799206}
+				{direction -0.341652	0.00546265	-0.0416648}
+				{theta 43}
+				{phi 45}
+			}
+			{"2"
+				{type point}
+				{position -0.145224	1.11149	-0.00127249}
+			}
+		}
+	}
+}

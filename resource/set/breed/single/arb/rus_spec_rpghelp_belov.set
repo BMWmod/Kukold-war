@@ -1,0 +1,28 @@
+{breed
+	{behaviour soldier}
+	{hero}
+	{skin "cw_ssoarb_arb"}
+	{portrait "_new/spec_rpghelp_Belov"}
+	{icon "bazookers"}
+	{icon_priority 2}
+	{nationality rus}
+	{armors
+		{head kufia_head}
+	}
+
+	(include "perks_generic.inc")
+	("traits_elite_bazooker")
+	{perks
+		{"field_glass"}
+		{"stealth"}
+	}
+	{inventory
+		{item "lbt6094_rus_rpg"}
+		{item "AKM"}
+		{item "762 ammo" 150}
+		{item "bandage" 10}
+		{item "TBG-29 ammo" 1}
+		{item "PG-29V ammo" 2}
+		{in_hands 1}
+	}
+}

@@ -1,0 +1,117 @@
+;Exported by: Timosh
+;Date:        Sat Aug  6 14:44:26 2022
+;File:        G:\?????? ? Pheonix\??????????????\??????\????????\SWITCHBLADE 300 UAV\mesh\switchblade 300 launcher 1.max
+{Skeleton
+	{animation
+		{sequence "close" {speed 1}}
+	}
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "support1"
+			{Position 9.45668	2.534	0}
+		}
+		{bone "gunner"
+			{Position -15.9395	-0.0166392	0}
+		}
+		{bone "emit1"
+			{Position -17.4711	-0.136991	0}
+		}
+		{bone "driver1"
+			{Position -0.392522	-3.54267	0}
+		}
+		{bone "support2"
+			{Position 9.44968	-1.99529	0}
+		}
+		{bone "support3"
+			{Position -0.984156	0	0}
+		}
+		{bone "mount"
+			{parameters "ID=body;"}
+			{Matrix34
+				-1	0	0
+				0	0	1
+				0	1	0
+				1.22336	0.091565	-0.0573201
+			}
+			{VolumeView "mount.ply"}
+			{bone "body"
+				{parameters "ID=body;"}
+				{Position 1.04348	1.05712	0}
+				{VolumeView "body.ply"}
+				{bone "stan3"
+					{parameters "ID=body;"}
+					{Position -5.52762	7.41402	-1.45257}
+					{VolumeView "stan3.ply"}
+				}
+				{bone "stan1"
+					{parameters "ID=body;"}
+					{Position -3.53209	7.05844	-0.0304072}
+					{VolumeView "stan1.ply"}
+				}
+				{bone "stan2"
+					{parameters "ID=body;"}
+					{Position -5.52762	7.41402	1.39475}
+					{VolumeView "stan2.ply"}
+				}
+				{bone revolute "handle"
+					{Matrix34
+						-0.5	0.866025	0
+						-0.866025	-0.5	0
+						0	0	1
+						-3.29993	5.27453	1.10672
+					}
+				}
+				{bone "foresight1"
+					{Matrix34
+						-0.5	0.866025	0
+						0	0	1
+						0.866025	0.5	0
+						-6.67813	10.7346	-0.0564312
+					}
+				}
+			}
+		}
+	}
+}
+{Volume "body"
+	{Box 1.67704 1.93489 11.4895}
+	{Bone "body"}
+	{Matrix34
+		-0.866025	-0.5	0
+		0	0	1
+		-0.5	0.866025	0
+		-3.04113	4.60597	-0.124444
+	}
+}
+{Volume "select"
+	{Box 47.3049 23.6906 2.5935}
+	{Bone "basis"}
+	{Position 0	0	1.29675}
+}
+{Extender "preview"
+	{"Stuff"
+		{camera
+			{origin 30.6541	-58.1078	17.0084}
+			{lookat 8.2349	-6.28432	7.35613}
+			{fov 45}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 8.06028	-7.99282	1.9469}
+			}
+			{"1"
+				{type directional}
+				{direction 0.375917	0.263804	-0.197722}
+			}
+			{"2"
+				{type point}
+				{position 9.72808	-9.39602	1.87462}
+			}
+		}
+	}
+}

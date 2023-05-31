@@ -1,0 +1,32 @@
+;Cold War
+{from "pattern smg"
+	{tag "reliability_medium"}
+	{filling "ammo 545" 30}
+	{curve "545_70"}
+	{mass 3.5}        
+	{entity "aek971_2"}
+	{fireSound	"smg/aek_02"}
+	{reloadSound "chn/abakan"}
+	{speed 280}	
+
+	{recoveryTime 0.07}
+        {rechargeTime 2.5}
+
+
+	("smg_range")
+	
+
+	{burst
+		{short 2 1}
+		{long 6 2}
+{rangeKoef 0.444}
+	}
+	{healthDamage 65}
+	("accuracy_open_sight"  moa(2.5))
+	("accuracy_open_sight_70"  moa(2.5))
+	{spreading 
+		{BurstAccuracy 100 97 94 90 85 81 76 73 68 65}
+	}
+	{cursor "ak74"}
+	{cursorReloading "cannon_reload_all"}
+}

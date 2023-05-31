@@ -1,0 +1,32 @@
+;Cold War
+{from "pattern smg"
+	{tag "reliability_medium"}
+	{filling "ammo 556Nato" 30} ;556
+	{curve "556_85"}
+	{mass 5.8}       
+	{entity "g36a3_zeiss_zo_4x30i_ag36"}
+	{fireSound	"smg/g36/"}
+	{reloadSound "g36_reload"}
+	{speed 280}	
+
+	{cursor "g36"}
+	{cursorReloading "cannon_reload_all"}
+	{recoveryTime 0.08} ;700-900
+        {rechargeTime 3.5}
+	{inventory
+		{size 4 2}
+	}
+
+	("smg_range_optic")
+	
+
+	{burst
+		{short 2 1}
+		{long 6 2}
+{rangeKoef 0.444}
+	}
+	{healthDamage 74}
+	("accuracy_optic_sight"  moa(2.5))
+	("accuracy_optic_sight_77"  moa(2.5))
+	;Правка от 20.08.2016 TOMCAT M.D. https://www.youtube.com/watch?v=cC_iPEAu7KE (Редакция Timosh)
+}

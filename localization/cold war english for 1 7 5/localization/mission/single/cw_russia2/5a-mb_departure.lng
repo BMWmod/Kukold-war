@@ -1,0 +1,108 @@
+{tags
+	{"00" "Comrade Colonel, Senior Lieutenant Mishin on your order arrives! I and my group are ready for assignment."}
+	{"01" "Good. Starley, you must have heard about the impending attack?"}
+	{"02" "Yes sir. But nothing concrete. Troops focus, go all night on the roads of the column, but who, where - is unclear."}
+	{"03" "And it is good that it is not clear. And Americans is unclear, as is known from radio intercepts. Meanwhile, already offensive tomorrow. And the first to go into battle you, spies and saboteurs."}
+	{"04" "The purpose of your group - Migalovo airfield near Tver. It is the only major airport in the area. According to intelligence reports the North-Western Front and partisans airfield is in good condition and hardly affected by the bombings."}
+	{"05" "This is where some 50-70 kilometres from the front? The Yankees would not have risked his intensive use, it is in range of Smerch MLRS."}
+	{"06" "Right. The airfield is used much less and less protected. than it should be. But we can use it. On the flanks of Klin balcony Yankees created a strong defensive position, which in the case of a frontal attack will delay our troops so that the place will have time to break pull reserves from the edge of the balcony."}
+	{"07" "But a massive air assault in the Tver region will completely destroy the enemy's rear on the balcony. If successful, the main forces of the Moscow and North-Western fronts the day break through the enemy defences and connect between Torzhok and Staritsa, is completely surrounded by the whole of the enemy group."}
+	{"08" "The task of your team - to fly to the aerodrome Migalovo area and ensure the landing of paratroopers Captain Gromov. After this, he continues to receive until the connection with the combined arms units. Prepare the group will take off on the Mi-24, at midnight."}
+	{"09" "Affirmative!"}
+	{"10" "Guys, get ready. Departure at midnight tonight, the job will explain later. Bring in the order of equipment and weapons."}
+	{"11" "At the point we take the Mi-24, so that in addition to me and Klimov need six more."}
+	{"12" "Guys who are still out of equipment is necessary - take out of the truck. Going from the strip, where \" Tunguska\" is."}
+	{"13" "Comrade Colonel, Captain Gromov arrived. My group with me."}
+	{"14" "Then start to load equipment. Technicians are already working with the aircraft."}
+	{ "15" "Yes, got it. Take the airport Migalovo and ensure the landing of the main forces."}
+	{ "16" "Very well. I instructed the commandos, they are ready. You got a job?"}
+	{ "17" "Comrade Captain, I will put the ammunition in a box next to the plane, and there you really do take away."}
+	{ "18" "Guys, load the car freighter gently, time enough to remember the power frame -. A court-martial for the job breakdown provided."}
+	{ "19" "Semyonitch amphibious car to hatch customized to the ramp."}
+	{ "20" "Comrade Captain, you have finished my guys in freighter ship, whistle me. I shew pilots, ground staff, and Colonel comrade. Departure is scheduled for midnight."}
+	{ "21" "Okay. I'll be on the plane."}
+	{ "22" "Immerse Captain Gromov and his paratroopers on board the transport plane"}
+	{ "23" "All aboard? We are waiting for the night, and there in the fight."}
+	{ "24" "Once everything is in place, take off. The tower, I am 026, requesting a takeoff from strip 2."}
+	{ "25" ""}
+	{ "26" "Do not fill the strip by vehicles! If that blind cow Il-76 will land on BMD - I will screw your heads personally."}
+	{"back" "Back"}
+	{"desant_a_120mm" "120mm mines and shells for Nona-S"}
+	{"desant_a_120mm_" "1 HEAT and 4 HE"}
+	{"desant_a_125mm" "125mm shells for Sprut-SD"}
+	{"desant_a_125mm_" "3 APFSDS, 2 HEAT, 5 HE"}
+	{"desant_a_30mm" "30mm shells for BMD-2"}
+	{"desant_a_30mm_" "18 AP, 36 HE."}
+	{"desant_a_73mm" "73mm grenades for BMD-1"}
+	{"desant_a_73mm_" "3 HEAT, 7 fragmentary"}
+	{"desant_a_762" "Ammo 7.62ı54"}
+	{"desant_a_762_" "1000 ammo (5 boxes)"}
+	{"desant_a_konkurs" "9K113 \"Konkurs\" for BTR-RD, BMD-1, BMD-2"}
+	{"desant_a_konkurs_" "1 missile"}
+	{"desant_a_mgun" "PKM on tripod."}
+	{"desant_a_mgun_" "Inventory-held tripod-mounted PKM machinegun with 800 cartridges."}
+	{"desant_bmd1" "BMD-1P"}
+	{"desant_bmd1_h" "BMD. 73mm gun, machinegun and ATGM \"Konkurs\". Universal vehicle."}
+	{"desant_bmd2" "BMD-2"}
+	{"desant_bmd2_h" "BMD. 30mm autocannon, machinegun and ATGM \"Konkurs\". Universal vehicle."}
+	{"desant_bmp3" "¡Ãœ-3"}
+	{"desant_bmp3_h" "¡Ãœ. 100mm gun-launcher, 30mm autocannon, 3 PKT. Universal vehicle."}
+	{"desant_btrd" "BTR-D"}
+	{"desant_btrd_h" "Paradropable APC. 2 forward-looking machineguns, 10 passengers."}
+	{"desant_btrrd" "¡“–-–ƒ"}
+	{"desant_btrrd_h" "Self-propelled ATGM. ATGM \"Konkurs\", 2 forward-looking machineguns, 7 passengers."}
+	{"desant_engineer" "Engineer"}
+	{"desant_engineer_" "An engineer with repair kits, accessories and URM-1 remote mine layers."}
+	{"desant_flamer" "Flamethrowers"}
+	{"desant_flamer_" "Pair of flamethrowers with RPO-A \"Shmel\"."}
+	{"desant_hsniper" "Antisniper"}
+	{"desant_hsniper_" "Paratrooper with large-caliber sniper rifle OSV-96."}
+	{"desant_loaded" "End loading"}
+	{"desant_nona" "Nona-S"}
+	{"desant_nona_h" "Self-propelled 120mm mortar. Can use NATO mines. Effective against enemy troops and buildings."}
+	{"desant_pzrk" "MANPAD team"}
+	{"desant_pzrk_" "MANPAD team with \"Igla-S\"."}
+	{"desant_rpg" "AT team"}
+	{"desant_rpg_" "AT team with RPG-29."}
+	{"desant_sniper" "Sniper"}
+	{"desant_sniper_" "Paratrooper with SVD."}
+	{"desant_sprut" "Sprut-SD"}
+	{"desant_sprut_h" "The self-propelled 125mm antitank gun. Coaxial machine gun. Effective against tanks."}
+	{"desant_squad" "Paratroopers platoon"}
+	{"desant_squad_h" "Platoon of 9 paratroopers, including sniper, machinegunner and bazooker."}
+	{"group_ammo" "Additional ammo for vehicles."}
+	{"group_inf" "Paratroopers"}
+	{"group_veh" "Paradropable vehicles"}
+	{"hint1" "Now you need to load troops for the upcoming landing to the plane. Load of An-12 should not exceed 20 tonnes, the remaining tonnage is indicated on the reinforcements counter. Take necessary equipment and personnel."}
+	{"hint1_e" "Now you need to load troops for the upcoming landing to the plane. Load of IL-76TD should not exceed 50 tonnes, the remaining tonnage is indicated on the reinforcements counter. Take necessary equipment and personnel."}
+	{"hint2" "An-12 can carry a maximum of 2 vehicles or 20 paratroopers, but all vehicles can paradrop with crew inside. Extra ammunition for units also has weight."}
+	{"hint2_e" "Il-76TD can carry a maximum of 3 vehicles or 48 paratroopers, but all vehicles can paradrop with crew inside. Extra ammunition for units also has weight."}
+	{"hint3" "Plane and requested vehicles already have no place for whole platoon. Squads that can't board, won't be shown in the reinforcements menu."}
+	{"loose1" "Captain Gromov is dead. Mission failed."}
+	{"loose2" "Lieutenant Malutin is dead. Mission failed."}
+	{"loose3" "Mi-24 was damaged, and specnaz team was unable to get to the airport on time. Paradroppers had to land without groun support. The landing wasn't succesful. Mission failed."}
+	{"loose4" "The transport plane has suffered damage even before take-off, and the paratroopers stayed on the ground. Specnaz group was not able to capture the airfield alone. Mission failed."}
+	{"spec_mgun545_h" "Machinegun RPK-74 5.45, RPG-26, 3 grenades"}
+	{"spec_mgun762" "Machinegunner"}
+	{"spec_mgun762_h" "Machinegun \"œÂ˜ÂÌÂ„\" 7.62, 3 grenades"}
+	{"spec_rpg" "Bazooker"}
+	{"spec_rpg_h" "4 RPG-27, submachinegun"}
+	{"spec_rpghelp" "Bazooker assistant"}
+	{"spec_rpghelp_h" "2 RPG-27, –œŒ, submachinegun"}
+	{"spec_smg" "Submachinegunner"}
+	{"spec_smg_groza_h" "Submachinegun \"Groza\" with grenade launcher, 3 grenades"}
+	{"spec_smgopt_h" "Submachinegun ¿Í-107 with optic sight and silencer"}
+	{"spec_smgpod" "Squad lead assistant"}
+	{"spec_smgpod_h" "Submachinegun ¿Í-74 with grenade launcher, smoke grenades, bandages"}
+	{"spec_smgrpg" "Submachinegun ¿≈ -973 with silencer, 3 RPG-26"}
+	{"spec_sniper" "Sniper"}
+	{"spec_sniper_h" "VSS \"Vintorez\", 2 grenades"}
+	{"task1" "Recruit and equip special forces group of eight people."}
+	{"task2" "Gather a group of special forces in the designated place and wait for the start of operations."}
+	{"name" "Moscow behind - gathering"}
+	{"name_big" "Moscow behind - gathering"}
+	{"outro_completed" "Forces of two fronts focused for the decisive blow in the battle for Moscow, but the fate of the operation depended on the courage and decisiveness of a few..."}
+	{"outro_failed" "The operation to encircle the enemy troops on the ledge of Klin was thwarted before the start. Paratroopers failed to seize the initiative after the landing and suffered heavy losses. The attack did not lead to a decisive defeat of the enemy, and only drained allied forces."}
+	{"place" "Airfield \"Sheremetievo\", to the north from Moscow"}
+	{"date" "August 29, 2016, 08:00"}
+}

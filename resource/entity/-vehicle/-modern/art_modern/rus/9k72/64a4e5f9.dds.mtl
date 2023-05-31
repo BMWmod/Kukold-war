@@ -1,0 +1,5 @@
+{material envmap
+	{diffuse "$/model/9k72/64a4e5f9"}
+	{emitsheat}
+{blend blend}
+}

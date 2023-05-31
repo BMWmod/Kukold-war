@@ -1,0 +1,58 @@
+{from "pattern bullet"  ;APAV 40 
+	{tag "weapon rifle gra_launch to_hand"}
+	{tag "assaultrifle"}	;for unique icon
+	{tag "skill_gra_launch"}
+	{fillingVisible "granata"}
+	{filling "ammo grenade_famas" 1} 
+	{mass 5.4} 
+	{foresight "foresight3"}
+	{entity "granata_famas_f1"}
+	{inventory
+		{size 3 1}
+		{fsm "belt"}
+		{link_bone ""}
+	}
+
+	{fireSound	"reactive/famasgrenade_fire"}
+	{reloadSound "famasgrenade_reload"}
+        {rechargeTime 3}
+        {inventory
+		{size 3 1}
+	}
+	{special
+		{PrepareTime 5}
+		{PrepareCursor "grenade"}
+		{mode detonate}
+	}
+	{spreading 
+		{SpreadRadius 1}
+	}
+	{speed 180}
+	;{cursor "cannon_on"}
+	{cursor "target_fg"}
+	{aimRange 65}	
+	{maxRange 65}	;340m https://en.wikipedia.org/wiki/APAV40
+	{rechargeTime 5}
+	{projectileDamage 15}
+	{speed 20}
+	{gravity 1.2}
+	{AimingTolerance 0.1}
+	{projectileDamageTable {130 15}}
+	{aimtype adaptive}
+;	{cursor "cannon_on"}
+;	{cursorReloading "cannon_reload"}
+
+		("CW_acc_grlaunch" mils(8.25))
+	;unknown, perhaps somewhere like GP25
+	{ZeroingAccuracy 0.8 0.6 0.5}
+	{cursor "cannon_on_fg_3"}
+	{cursorReloading "cannon_reload_fg"}
+	{parameters "sm"
+		{cursor "cannon_on_sm"}
+		{cursorReloading "cannon_reload_sm"}
+	}
+	{parameters "cm"
+		{cursor "cannon_on_heat"}
+		{cursorReloading "cannon_reload_heat"}
+	}
+}

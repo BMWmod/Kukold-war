@@ -1,0 +1,29 @@
+{from "ataka_x2_l"
+	{filling "9m120 ammo" 1}
+	{fireSound "bazooka/shturm_shot"}
+        {reloadSound "atgm_reload/sturm-s_reload"}
+	{rechargeTime 13}
+	;{cursor "Mi24"}
+	;{cursorReloading "zenite_reload"}
+	{cursor "cannon_on_heat_2"}	
+	{cursorReloading "cannon_reload_heat"}
+	;{cursorReloading "cannon_reload_heat_timer_15"}
+        {maxRange 165}	;5 км
+	{aimRange 165}
+        {parameters "9m114m"
+                {maxRange 165}
+		{aimRange 165}
+	}
+        {parameters "9m114f"
+                {maxRange 165}
+		{aimRange 165}
+	}
+        {parameters "9m120m"
+                {maxRange 175}
+		{aimRange 175}
+	}
+        {parameters "9m120f"
+                {maxRange 175}
+		{aimRange 175}
+	}
+}

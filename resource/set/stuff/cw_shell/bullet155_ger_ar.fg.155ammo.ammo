@@ -1,0 +1,24 @@
+{from "pattern fg"
+	{tag "big" "size4" "155ammo" "150to152fg" "fx_146_299"}
+	{tag "fg_150_shell"} ; только для ammo.set
+	
+	{mass 56.5} ;ориентировочно + 12 кг за 6 зарядов DM72-92 - 40 км c 52 калибров
+	{inventory
+		{size 6 1}
+	}	
+	{entity "shell_ger_fg_ar_155"}
+	{view "shell_ger_fg_ar_155"}
+	;9,2 кг ВВ Rh26  Т.э. 1.3   9.2 x 1 = 9.2кг к расчету.оск-фугас.. 
+	{tag "he_8to30"}
+{damage blastwave {energy 0.7} {area 13.4 15.4}}
+{damage add blastwave {energy 1.2} {area 11.5 13.2}}
+{damage add blastwave {energy 2.5} {area 7.8 9}}
+{damage add blastwave {energy 6.5} {area 5.7 6.5}}
+{damage add blastwave {energy 11} {area 3 3.5}}
+	{damage add blastwave	 ; HE, kinetic, direct hit
+		{energy 22}
+		{area 0.1 0.1}
+	}
+}
+;DM-131 он же Rh40.  ВВ Rh26 - 90 % RDX - гексоген.
+;

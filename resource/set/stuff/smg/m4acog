@@ -1,0 +1,29 @@
+;CW 1.5
+;Model by g521
+{from "pattern smg"
+	{tag "reliability_low"}
+	{filling "ammo 556Nato" 30} ;556
+	{curve "556_85"}
+	{mass 2.5} 
+	{entity "M4acog"}
+	{fireSound	"smg/M4"}
+	{reloadSound "M16_reload"}
+	{speed 280}
+	{cursor "m16a4"}
+	{cursorReloading "cannon_reload_all"}	
+
+	{recoveryTime 0.08} ;700-970
+                          {rechargeTime 2.5}
+
+	("smg_range_optic")
+	
+
+	{burst
+		{short 2 1}
+		{long 6 2}
+{rangeKoef 0.444}
+	}
+	{healthDamage 78}
+	("accuracy_optic_sight"  moa(2.75))	
+	("accuracy_optic_sight_70"  moa(2.75))	
+}

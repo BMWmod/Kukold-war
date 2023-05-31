@@ -1,0 +1,27 @@
+{from "pattern mgun"
+	{tag "reliability_high link_mmg"}	;спецрежим для запыленной среды
+	{filling "ammo 762Nato" 20} ;7.62x51
+	{curve "762x51nato_85"}
+	{entity "fn_fal"}
+	{fireSound	"smg/fnfal"}
+	{reloadSound "fnfal_reload"}
+	{inventory
+		{size 5 2 }
+	}
+	{mass 4.45}	
+	{recoveryTime 0.09}
+	{rechargeTime 2.9}
+	{healthDamage 100}	
+	{projectileDamage 7}
+	{speed 310}
+	("mg_range")
+	{burst
+		{short 3 1}
+		{long 6 3}
+		{rangeKoef 0.50}
+	}
+	("accuracy_open_sight"  moa(2))
+	("accuracy_open_sight_70"  moa(2))	
+	;да, где-то 2 MOA, но ссылки утрачены
+
+}

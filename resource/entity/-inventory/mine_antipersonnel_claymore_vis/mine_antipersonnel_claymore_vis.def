@@ -1,0 +1,5 @@
+{game_entity
+	(include "/properties/stuff_mine_vis.ext")
+	{Extension "mine_antipersonnel_claymore.mdl"}
+	("damage_zone" r(10.5))
+}

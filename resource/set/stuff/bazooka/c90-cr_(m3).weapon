@@ -1,0 +1,6 @@
+{from "M136 weapon"
+	{filling "ammo c90-cr" 1}
+	{entity "c90-cr_(m3)"}
+	{mass 4.8}; c90-cr_(m3)
+	;400mm penetration https://man.fas.org/dod-101/sys/land/row/weg2001.pdf
+}

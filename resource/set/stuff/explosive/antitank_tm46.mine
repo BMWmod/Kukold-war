@@ -1,0 +1,14 @@
+{item
+	{tag "itemin2hands dropboxed antitank mine fx_146_299"}
+	{entity "mine_antitank_tm46"}
+	{inventory
+		{weight 100}
+		{fsm "stuff"}
+	}
+	{mass 8.6}
+;8,6кг, 50/50 тротил и аммонит, всего 5,7кг ВВ (ТЭ 1 и 1.3, в среднем 1.15, масса ВВ к расчету 5.04кг)
+;Для подземных ПТ мин надо убирать первые две фугасные волны, т. к. грунт мешает распространению удара в стороны.
+{damage add blastwave {energy 2.5} {area 6.7 7.7}}
+{damage add blastwave {energy 6.5} {area 3.8 4.4}}
+{damage add blastwave {energy 11} {area 1.9 2.2}}
+}

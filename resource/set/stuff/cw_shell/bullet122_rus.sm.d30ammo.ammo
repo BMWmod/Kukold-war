@@ -1,0 +1,16 @@
+{bullet
+	{tag "ammo" "big" "shell" "sm" "itemin2hands" "no_ricochet" "d30ammo"}
+	{detonationThickness 2}
+	{inventory
+		{size 6 1}
+		{weight 100}
+		{fsm "stuff"}
+	}
+	{mass 29.5}
+	("fg" args 1.2)
+	{entity "shell_rus_sm_122"}
+	{view "fg_fly"}
+        ;разрывной заряд 0.145 кг. Образует крупные осколки. 29.5 кг с полным зарядом.
+        {damage blastwave {energy 0.7} {area 2.7 3.2}}
+        {damage add blastwave {energy 1.2} {area 1.9 2.2}}
+}

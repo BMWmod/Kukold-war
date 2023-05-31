@@ -1,0 +1,24 @@
+{breed
+	{skin "cw_est_tac"}
+	{portrait "_new/balt/est_com"}
+	{icon pol_com}
+	{icon_priority 0}
+	{nationality est}
+	{armors
+		{head pasgt_helmet_est}
+	}
+
+	(include "perks_generic.inc")
+	("traits_army_com")
+	{inventory
+		{item "est_vest"}
+		{item "shgr56" 4}
+		{item "bandage" 10}
+		{item "smoke grenade" 2}
+		{item "binocular"}
+		{item "556nato ammo" 240}
+		{item "r-20_rahe" filling "556nato ammo" 30}
+		{item "sandbag_kit"}
+		{in_hands 6}
+	}
+}

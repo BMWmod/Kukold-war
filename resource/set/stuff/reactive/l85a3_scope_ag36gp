@@ -1,0 +1,5 @@
+;Created by Pheonix 
+{from "weapon pg_nato"
+	{entity "l85a3_scope_ag36gp"}
+	{reloadSound "ag40_reload"}
+}

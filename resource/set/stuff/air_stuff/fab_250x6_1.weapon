@@ -1,0 +1,6 @@
+{from "fab_250x2 weapon"
+	;Su-34
+	{filling "ammo fab_250_270" 6}
+	{fillingVisible "bombb_"}
+	("accuracy_unguided_bomb" bomb_accuracy(1) sight_quality(0.75) airspeed(875) gamespeed(85))
+}

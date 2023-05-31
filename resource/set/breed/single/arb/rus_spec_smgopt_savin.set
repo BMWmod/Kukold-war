@@ -1,0 +1,31 @@
+{breed
+	{behaviour soldier}
+	{hero}
+	{skin "cw_ssoarb_savin"}
+	{portrait "_new/spec_smgopt_Savin"}
+	{icon "smgs"}
+	{icon_priority 0}
+	{nationality rus}
+	{armors
+		{head kufia_head}
+	}
+
+	(include "perks_generic.inc")
+	("traits_elite_smg")
+	{perks
+		{"field_glass"}
+		{"stealth"}
+	}
+	{perks
+		;{fortification}
+		{mechanic factor 0.33}
+	}
+	{inventory
+		{item "lbt6094_rus_smg_a"}
+		{item "bandage" 10}
+		{item "AKM"}
+		{item "knife_rus"}
+		{item "762 ammo" 240}
+		{in_hands 2}
+	}
+}

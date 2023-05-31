@@ -1,0 +1,29 @@
+;Cold War
+{from "pattern smg"
+	{tag "reliability_medium"}
+	{filling "ammo 556Nato" 25} ;556
+	{curve "556_70"}
+	{mass 3.6}        
+	{entity "famas_f1"}
+	{fireSound	"smg/Famas/"}
+	{reloadSound "chn/famas_Reload"}
+	{speed 280}	
+	{inventory
+		{size 4 2 }
+	}
+	{recoveryTime 0.06} 
+        {rechargeTime 4.5}
+	{cursor "famas"}
+	{cursorReloading "cannon_reload_all"}
+	("smg_range")
+	
+
+	{burst
+		{short 2 1}
+		{long 6 2}
+{rangeKoef 0.444}
+	}
+	{healthDamage 87}
+	("accuracy_open_sight"  moa(2.5))
+	("accuracy_open_sight_70"  moa(2.5))
+}

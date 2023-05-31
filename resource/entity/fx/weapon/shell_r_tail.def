@@ -1,0 +1,18 @@
+{fx
+	{particleview assistor
+		{entitygenerator
+			{emissionarea
+				{alpha0 0}
+				{alpha1 0}
+				{speed 0.3}
+			}
+			{particleinit
+				{speed 0} ;28.5 1.5
+				{lifetime 1}
+			}
+			{entity "cw_shell_r_detector"}
+			{totalparticles 6000}
+			{particlesinblock 1}
+		}
+	}
+}

@@ -1,0 +1,42 @@
+;Cold War
+{from "pattern smg"
+	{tag "reliability_medium"}
+	{filling "ammo 58ammo_basic" 30} ;58
+	{curve "58x42_85"}
+	{inventory
+		{size 5 2}
+	}
+	{mass 3.25}       
+	{entity "qbz_191"}
+	{fireSound	"smg/qbz191_shot"}
+	{reloadSound "chn/qbz191_reload"}
+	{speed 280}	
+
+	{recoveryTime 0.08}
+        {rechargeTime 3}
+
+	("smg_range_optic")
+	
+
+	{burst
+		{short 2 1}
+		{long 6 2}
+        {rangeKoef 0.444}
+	}
+	{healthDamage 71}
+	("accuracy_optic_sight"  moa(3))	;нет данных
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

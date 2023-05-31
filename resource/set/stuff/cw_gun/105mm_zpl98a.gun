@@ -1,0 +1,12 @@
+;Created by Pheonix 
+{from "105mm_M68"    ; ZLT-11
+	{parameters "bullet105_cn rok"             ; GP105 - копия Бастиона, но дальность до 5 км
+		("damage4" a(0.3) b(0.3) c(0.3) d(0.3) e(0.3))   ; 
+		{range 170 170}                  
+		("CW_acc_common" mils(0))
+		("CW_acc_common_170" mils(0))
+		{cursor "cannon_on_heat_2"}
+		{cursorReloading "cannon_reload_heat"}
+		{speed 1000}
+	}
+}

@@ -1,0 +1,29 @@
+{breed
+	{behaviour soldier}
+	{hero}
+	{skin "cw_ssoarb_arb2"}
+	{portrait "_new/spec_smgpod_Pozolotin"}
+	{icon "officer"}
+	{icon_priority 2}
+	{tags "officer"}
+	{nationality rus}
+	{armors
+		{head kufia_head}
+	}
+
+	(include "perks_generic.inc")
+	("traits_elite_smg")
+	{perks
+		{"field_glass"}
+		{"stealth"}
+	}
+	{inventory
+		{item "lbt6094_rus_gp"}
+		{item "762 ammo" 240}
+		{item "knife_rus"}
+		{item "smoke grenade"}
+		{item "AKM"}
+		{item "bandage" 25}
+		{in_hands 4}
+	}
+}

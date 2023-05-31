@@ -1,0 +1,47 @@
+{from "pattern gun"	; Shilka
+	
+	{filling "bullet23 zenite" 100}
+	{fireSound "gun/shilkaX4_1"}
+	{reloadSound "flak38"}
+	{RecoveryTime 0.03}
+	{RechargeTime 5}
+	{AimingTolerance 20}
+	{Automatic}
+	{burst
+		{min 1}
+		{short 5 1}
+		{long 14 2}
+	}	
+	{traceFreq 1}
+	{spreading
+		{BurstAccuracy 100 90 80 70}
+	}
+	{maxRange 130}
+	{aimRange 130}	;дальность предварительного наведени€
+	("speed" s(970))
+	{speed 250}
+	{RelaxationTime 0}
+;	{cursor "ZSU234_HE"}
+;	{cursorReloading "ZSU234_HE_reload"}
+	{calibre 23}
+	{AimingTolerance 10}
+	{SpreadTolerance 0.3}
+;        {projectileDamageTable {10 32} {30 28} {70 20} {90 15} {110 10}}
+        ("CW_acc_common" mils(0.68))
+        ("CW_acc_common_100" mils(0.68))
+	("damage4" a(0) b(0) c(4) d(4) e(4))	
+	;{cursor "cannon_on_fg"}
+	{cursor "cannon_on_fg_13"}
+	{cursorReloading "cannon_reload_fg"}
+
+	{parameters "bzt"                        
+        ("CW_acc_common" mils(0.68))
+        ("CW_acc_common_100" mils(0.68))
+;		{cursor "ZSU234_AP"}
+;		{cursorReloading "ZSU234_AP_reload"}
+		{cursor "cannon_on_aa_2"}
+		{cursorReloading "cannon_reload_ap"}
+
+        ("CW_small_AP_damage" penetr_1000m(24)) ;15мм/60гр./700м - https://militarypribor.ru/ru/products/aacomplecs
+	}     
+}

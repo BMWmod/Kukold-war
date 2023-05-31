@@ -1,0 +1,33 @@
+;Addon
+{from "pattern smg"
+	{tag "reliability_low"}
+	{filling "ammo 556Nato" 30} ;556
+	{curve "556_85"}
+	{mass 2.78} 
+	{entity "colt_car15"}
+	{fireSound	"smg/M4"}
+	{reloadSound "M16_reload"}
+	{speed 280}
+	{inventory
+		{size 3 2}
+	}
+	
+	{cursor "m16a4"}
+	{cursorReloading "cannon_reload_all"}
+	{recoveryTime 0.08}
+        {rechargeTime 2.5}
+
+	("smg_range_optic")
+	
+
+	{burst
+		{short 2 1}
+		{long 6 2}
+{rangeKoef 0.444}
+	}
+	{healthDamage 70}
+        
+        ("accuracy_optic_sight"  moa(3.3))	;во сколько раз АК-74 точнее АК-74У, в столько и M-16 точнее CAR-15
+        ("accuracy_optic_sight_63"  moa(3.3))	;во сколько раз АК-74 точнее АК-74У, в столько и M-16 точнее CAR-15
+              
+}

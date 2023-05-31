@@ -1,0 +1,63 @@
+;Exported by: Timosh
+;Date:        Tue Jul 12 20:08:36 2022
+;File:        G:\?????? ? Pheonix\??????????????\??????\?????? ? ???????\???\???????????? ??????????? ???????\x 10.max
+{Skeleton
+	{bone "f2r5"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "piece1"
+			{Matrix34
+				1	0	0
+				0	0.34202	-0.939693
+				0	0.939693	0.34202
+				-18.591	11.5717	14.8284
+			}
+			{VolumeView "piece1.ply"}
+		}
+		{bone "piece2"
+			{Matrix34
+				1	0	0
+				0	0.34202	-0.939693
+				0	0.939693	0.34202
+				17.5687	-12.4691	2.05505
+			}
+			{VolumeView "piece2.ply"}
+		}
+		{bone "piece3"
+			{Matrix34
+				0.573576	0	0.819152
+				0	1	0
+				-0.819152	0	0.573576
+				20.0615	24.2629	8.77393
+			}
+			{VolumeView "piece3.ply"}
+		}
+		{bone "piece4"
+			{Position -5.56521	-27.8702	-9.40175}
+			{VolumeView "piece4.ply"}
+		}
+	}
+}
+{Volume "piece1"
+	{Box 31.3418 2.18017 25.9551}
+	{Bone "piece1"}
+	{Position 0.140259	-0.00492859	0.15913}
+}
+{Volume "piece2"
+	{Box 42.5918 12.5736 50.5521}
+	{Bone "piece2"}
+	{Position -0.0380402	0.47287	-0.080719}
+}
+{Volume "piece3"
+	{Box 2.98637 23.7176 23.4844}
+	{Bone "piece3"}
+	{Position -0.00532532	0	-0.0115585}
+}
+{Volume "piece4"
+	{Box 22.9693 7.27913 18.14}
+	{Bone "piece4"}
+	{Position 0	0	0}
+}

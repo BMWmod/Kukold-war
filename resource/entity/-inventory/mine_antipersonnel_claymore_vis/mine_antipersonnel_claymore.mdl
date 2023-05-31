@@ -1,0 +1,42 @@
+;Exported by: Timosh
+;Date:        Wed Jul 20 08:33:28 2022
+;File:        G:\?????? ? Pheonix\??????????????\??????\?????? ??????\???????? ????\???????????? ???? ???\claymore.max
+{Skeleton
+	{bone "claymore"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{LODView
+			{VolumeView "claymore.ply"}
+			{VolumeView "claymore_lod1.ply"}
+		}
+		{bone "blast_dir"
+			{Position 0.496226	0	3.1586}
+		}
+		{bone "handle"
+			{Matrix34
+				0	0	-1
+				0	-1	0
+				-1	0	0
+				-0.118353	0.570681	4.42423
+			}
+		}
+	}
+}
+{Volume "body1"
+	{Box 1.56425 4.67717 5.51181}
+	{Bone "claymore"}
+	{Position 0	0	2.07669}
+}
+{Volume "body"
+	{Box 1.56425 4.67717 5.51181}
+	{Bone "claymore"}
+	{Position 0	0	2.07669}
+}
+{Volume "select"
+	{Cylinder 8.46615 7.52067}
+	{Bone "claymore"}
+	{Position 0	0	2.94519}
+}

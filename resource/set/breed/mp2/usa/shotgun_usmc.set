@@ -1,0 +1,70 @@
+{breed
+	{skin "cw_us_acu"}
+	{portrait "_new/usa/inf"}
+	{icon us_army_com}
+	{icon_priority 1}
+	{nationality usa}
+	{armors
+		{head ech_helmet}
+	}
+	{perks
+		{"vision" mp_officer
+		}
+		{"smg" lvl_3
+		}
+		{"mgun" lvl_2
+		}
+		{"rifle" lvl_4
+		}
+		{"rocketlauncher" lvl_2
+		}
+		{"pistol" lvl_2
+		}
+		{"gra_launch" lvl_2
+		}
+		{"melee" lvl_3
+		}
+		{"avoidance" lvl_2
+		}
+		{"health" "180%"
+		}
+		{"health_regeneration" "100%"
+		}
+		{"stamina" "130%"
+		}
+		{"stamina_regeneration" "180%"
+		}
+		{"speed" 1
+		}
+		{"field_glass"}
+		{"skill_tankgun" lev_1
+		}
+		{"skill_atgm_launcher" lev_1
+		}
+		{"skill_airgun" lev_1
+		}
+		{"skill_airgm_launcher" lev_1
+		}
+	}
+	{veterancy
+		{"lvl_1" 1
+		}
+		{"lvl_2" 2
+		}
+		{"lvl_3" 4
+		}
+		{"lvl_4" 6
+		}
+		{"lvl_5" 8
+		}
+	}
+	{inventory
+		{item "iotv_g_smg"}
+		{item "bandage" 10}
+		{item "m61 grenade" 6}
+		{item "sandbag_kit"}
+		{item "stryker" filling "12mm_shotgun ammo" 12}
+		{item "12mm_shotgun ammo" 120}
+		{in_hands 4}
+	}
+}

@@ -1,0 +1,47 @@
+;Cold War
+{from "pattern sniper_rifle"
+	{tag "sniper weapon at_rifle to_hand nokeep cannot_stand hrifle reliability_medium"}	
+	{special
+		{mode aim}
+		{PrepareTime 4}
+		{PrepareCursor "aimed_shot"}
+		;{damage 2} ; damage *= x
+		{accuracy 1.2} ; aim_range *= x
+		;{throw_off}
+	}
+	{mass 14.1}
+	{filling "ammo nato_ptr" 5}
+	{curve "_50nato_120"}
+	{inventory
+		{size 6 2}
+	}
+	{entity "as50"}
+	("hrifle_range")	
+	{speed 300}
+	{healthDamage 266}
+	{RelaxationTime 1}
+	{projectileDamageTable {20 38} {75 29} {100 15} {120 8} {140 5}}	;на 1/16 меньше М82 из-за дульной энергии
+	{projectileDamageThreshold 1}
+	{fireSound	"rifle/M82_Shot"}
+	{reloadSound "M82_Reload"}
+	{recoveryTime 1.0}
+	{rechargeTime 4}
+	{calibre 12}
+	;{cursor "zenite_on"}
+	;{cursorReloading "zenite_reload"}
+	{cursor "sniper_ap"}
+	{cursorReloading "cannon_reload_ap"}
+	("accuracy_optic_sight"  moa(1.5))
+	("accuracy_optic_sight_100"  moa(1.5))
+    {parameters "M2"
+		("accuracy_optic_sight"  moa(1.8))
+		("accuracy_optic_sight_100"  moa(1.8))
+		{projectileDamageTable {10 24} {20 24} {75 19} {105 10} {120 5} {140 3}}	;на 1/16 меньше М82 из-за дульной энергии
+	}
+	{parameters "AMAX"
+		("accuracy_optic_sight"  moa(1.3))
+		("accuracy_optic_sight_100"  moa(1.3))
+		{projectileDamageTable {10 7} {20 7} {75 6} {105 5} {120 3} {140 1}}	
+	}
+	("scope")
+}	

@@ -1,0 +1,4 @@
+;Cold War
+{from "SP3_vihr_1"
+	{entity "SP3_vihr_2"}
+}

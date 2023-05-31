@@ -1,0 +1,11 @@
+{from "pattern proj_pointer"
+	{mass 30}
+	{entity "tl4_cm"}
+                {inventory
+		{weight 100}
+		{size 6 2}
+	}
+	{tag "no_ricochet" "cm" "big" "size3" "88to105" "pierce" "ptrk" "ground_other_rus"} 
+	;Может покидать позицию сразу после пуска, отрубается ручной контроль, но не автозахват.
+	{tag "atgm_cw"} ; только для ammo.set
+}

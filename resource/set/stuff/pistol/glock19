@@ -1,0 +1,12 @@
+;Cold War
+{from "pattern pistol"
+	{filling "ammo 9mm" 19}
+	{curve "9x19_40"}
+	{entity "glock19"}
+	{fireSound	"pistol/glock19/"}
+	{reloadSound "tt"}
+	{rechargeTime 2.8}
+	{recoveryTime 0.09}
+	{aimRange 35}
+	{maxRange 40}
+}

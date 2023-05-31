@@ -1,0 +1,16 @@
+;Created by Pheonix 
+{from "weapon pg_nato"
+	{filling "40x46ammo" 6}
+	{fireSound "reactive/m32_fire"}
+	{entity "m32"}
+	{inventory
+		{size 4 2}
+		{fsm "belt"}
+		{link_bone "gun_back"}
+	}
+	{recoveryTime 0.85}
+	{rechargeTime 15}
+	{aimRange 76}
+	{maxRange 76}
+	{Automatic}
+}

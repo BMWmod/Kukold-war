@@ -1,0 +1,17 @@
+{from "pattern ap"
+	{tag "big" "size2" "88to105" "pierce" "fx_45_89" "fx_ap"}
+	{mass 16.2}
+	{inventory
+		{size 4 1}
+	}	
+	{entity "shell_rus_ap_85"}
+	{view "fg_fly"}
+	{trace
+		{view "/texture/fx/trace" {ScaleY 0.2}}
+		{length 2}
+	}
+	;Б-365 0,164 кг ВВ тротил (экв 1, 0,126 к расчету)
+	{damage blastwave {energy 1.7} {area 2.6 3}}
+	{damage add blastwave {energy 5.6} {area 1.9 2.2}}
+	{damage add blastwave {energy 7.8} {area 0.1 0.2}}
+}

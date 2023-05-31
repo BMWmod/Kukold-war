@@ -1,0 +1,80 @@
+;Exported by: Kasutaja
+;Date:        Sun Aug 29 09:52:00 2021
+;File:        C:\Users\Kasutaja\Desktop\Ammo Shell\HEAT-T 105mm ZTL11.max
+{Skeleton
+	{bone "body"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "body.ply"}
+		{bone "tail"
+			{parameters "Voxels=0;"}
+			{Matrix34
+				-1	0	0
+				0	0.819152	-0.573576
+				0	-0.573576	-0.819152
+				-10.1098	0.188288	-0.0823835
+			}
+		}
+	}
+}
+{Volume "body"
+	{Polyhedron "body.vol"}
+	{Bone "body"}
+	{Matrix34
+		-1	0	0
+		0	0.573576	0.819152
+		0	0.819152	-0.573576
+		0.604351	0.0907861	0.0953929
+	}
+}
+{Volume "select"
+	{Polyhedron "select.vol"}
+	{Bone "body"}
+	{Matrix34
+		-1	0	0
+		0	0.573576	0.819152
+		0	0.819152	-0.573576
+		0.764185	-0.9124	0.797835
+	}
+}
+{Extender "preview"
+	{"Stuff"
+		{camera
+			{origin 0.13073	29.8314	21.0851}
+			{lookat 0.142393	1.36954	1.12234}
+			{fov 31.7555}
+			{horizon -0.183454}
+		}
+		{lights
+			{"0"
+				{type directional}
+				{direction 0.0457976	-0.258037	-0.425817}
+			}
+			{"1"
+				{type point}
+				{position 15.842	-8.23913	-0.0193945}
+			}
+			{"2"
+				{type point}
+				{position -25.2243	7.86506	-8.35533}
+			}
+		}
+	}
+	{"Stuff_primary"
+		{camera
+			{origin -0.259178	27.9744	19.6696}
+			{lookat -0.247452	-5.48314	-3.73654}
+			{fov 31.7555}
+			{horizon -0.182384}
+		}
+		{lights
+			{"0"
+				{type directional}
+				{direction 0.0457983	-0.258037	-0.425816}
+			}
+		}
+	}
+}

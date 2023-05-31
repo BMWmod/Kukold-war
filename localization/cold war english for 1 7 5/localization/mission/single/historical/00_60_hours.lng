@@ -1,0 +1,362 @@
+{tags
+	{"10_1" "So, this is Popovich street, it seems? It’s not clear, the map is old. It seems that if we go this way, we’ll get to the station."}
+	{"10_10" "Sultan-14, Sultan-14, this is Chrome-40. I am wounded on Ordzhonikidze, you will command the regiment. Caliber-10 is coming to you. Contact with him, then wait for orders from above. Over."}
+	{"10_11" "Chrome-40, I Sultan-14, affirmative, waiting for Caliber-10, the positions are ready. Took the command."}
+	{"10_2" "Berezutsky! Now we go through the control office, take it. Chernichenko! You take a west depot, turn right here."}
+	{"10_3" "The third company takes the clinic with flamethrowers, and a pair of IFVs to the west of the construction site."}
+	{"10_4" "Vechkanov! Come on to the construction site too."}
+	{"10_5" "What? Burlakov, repeat, interference on the line."}
+	{"10_6" "Vechkanov! Get up on the construction site!"}
+	{"10_7" "We will deploy the headquarters in the building of vulcanization near the construction site. It seems that the depot is well covered from the side."}
+	{"10_8" "Movement in the station building! Someone is there!"}
+	{"10_9" "Third company! Clean the station!"}
+	{"10_loose" "3 company of 81 motorized rifle regiment could not take the station building. Without this key position, the defense of the square was impossible."}
+	{"10_task" "Capture the old station building."}
+	{"10_text" "10:00, December 31, 1994 The first and third companies' vehicles of the 81 motorized rifle regiment entered the station area along Popovich street."}
+	{"10_win" "Clear! Looks like there are no more tangos!"}
+	{"11_1" "Ta-aango-os! From the five-story building!"}
+	{"11_2" "Sultan-14, I am Caliber-10, approaching the station. Tell your people to recognize the targets."}
+	{"11_3" "Caliber-10, I am Sultan-14, copy. I'll give a flare from our position."}
+	{"11_loose" "The soldiers of the 81st regiment were knocked out of the station immediately after its occupation. Without this key position, the defense of the square was impossible."}
+	{"11_task" "Repel the attack on the station."}
+	{"1200" "By 12:00 on December 31, 1 motorized rifle battalion of 131 regiment under the command of Colonel Savin approached the station area."}
+	{"12_1" "There, on the right! Flare!"}
+	{"12_10" "And I have tanks and anti-aircraft guns. Tanks are headed by captain Vechkanov. We are still waiting for them, about to arrive."}
+	{"12_11" "The same for me. Half with infantry, half empty. Okay, Burlakov, keep what you have already taken, and I will stand from the old station to the post office."}
+	{"12_12" "I am \"Tankwheel\", near to the station."}
+	{"12_13" "Tankwheel, stay in front of the construction site. We will wait for orders and hold the zone for now."}
+	{"12_2" "Column, turn right on the crossroad."}
+	{"12_3" "Melikhov! Move straight to the bridge, it is further along the railway and to the left. Take three more BMPs of the first company. Burlakov, I accept the general command. Give me the Tunguska on the bridge."}
+	{"12_4" "Affirmative! 604, move with Melikhov!"}
+	{"12_5" "How is the situation here, are you holding?"}
+	{"12_6" "There were no serious clashes, only small groups of bandits. I’m not at all sure that we will linger here, we have general task to take the palace, and the order to move here has come while we were already on pur way."}
+	{"12_7" "Now the battle is going to the north, on Ordzhonikidze street."}
+	{"12_8" "Clear. What do you have?"}
+	{"12_9" "I don't have much infantry, the second company holds station control, the third - a new station, flamethrowers took the clinic, but all squads are not full. We are generally in the states of peacetime, all are ... rookies, drivers can't do more then move in column."}
+	{"13_1" "Melikhov! Melikhov, respond!"}
+	{"13_10" "Rustem! Cover the station from the side of the city and keep the right flank, post office."}
+	{"13_11" "Shoild I take the nearest five-story building? It's a very good observation point."}
+	{"13_12" "It’s impossible, this is a residential building. Pulikovsky will mix us with ..., it is ordered not to occupy residential buildings, only industrial facilities and areas."}
+	{"13_2" "Melikhov! Damn, no answer!"}
+	{"13_3" "Looks like an ambush. Damn, no intelligence, no communications, no ... orders, nothing. We wan't attack without coordination, they said, yeah, sure."}
+	{"13_4" "We'll take a circular defense. Chernutsky should come up with a second battalion very soon."}
+	{"13_5" "Samarians, the first company holds control. Berezutsky, on your left flank. Get the vehicles into the garages, if necessary, and cover the flamethrowers in the clinic."}
+	{"13_6" "Flamethrower platoon! Your task is a clinic. Look sharp, HQ is near."}
+	{"13_7" "The third company is on construction site! Be on guard, I expect attacks from the railway. Vechkanov! Put your company around the construction site. And crumple this ... fence so that the bandits did not accumulate behind it."}
+	{"13_8" "176, have you heard? Trash this fence, give Samarians firing sector."}
+	{"13_9" "First company! Keep the old train station, special attention at the depot."}
+	{"13_reinf1" "Flamethrowers"}
+	{"13_reinf2" "3 company 81 regiment"}
+	{"13_reinf3" "1 company 131 omsbr"}
+	{"13_reinf4" "3 company 131 omsbr"}
+	{"13_reinf5" "Finish preparations"}
+	{"13_reinf_hint" "Switch to the next unit"}
+	{"13_reinf_hint1" "Wait for enemy action"}
+	{"13_task" "Take up a circular defense, place troops in the areas allotted to them."}
+	{"13_task_poli" "Flamethrower platoon holds the defense in the clinic."}
+	{"13_task_stroika" "A third company of 81 regiment defends the construction site."}
+	{"13_task_upr" "The first company of 81 regiment should take up defense in railway control buildings."}
+	{"13_task_vokz_pochta" "The third company, 131 omsbr, covers the right flank - the old station and the post office building."}
+	{"13_task_vokzal" "The first company 131 omsbr should protect the old station."}
+	{"13_text" "A group sent to Belikovsky Bridge was ambushed on the way. Vehicle column was shot by separatist's RPG teams, only a part of the vehicles and soldiers managed to return to the station."}
+	{"14_1" "Hey! Hey soldiers! Who is your boss here? We need to talk."}
+	{"14_10" "Lieutenant Colonel Klaptsov at first succumbed to the Chechen’s calls, but almost immediately suspected a trap and stood up so as to hide behind him from the nearest house."}
+	{"14_11" "...! Bandits in the five-story building!"}
+	{"14_12" "The bandits tried to decapitate Russian units not only at the station."}
+	{"14_13" "At the corner of Victory Avenue and Ordzhonikidze street, Colonel Yaroslavtsev was wounded, after that the command of 81 regiment transferred to Lieutenant Colonel Burlakov."}
+	{"14_14" "In the same place, battalion commander-2 81msp Shilovsky was wounded - as a result of radio interception of an unencrypted order of the regiment's commander substitute, the bandits identified and knocked him out of the CC vehicle."}
+	{"14_15" "Third company, get ready! The post office is under attack!"}
+	{"14_16" "Klupov, hold on there. The second battalion will arrive soon, then we will throw them back."}
+	{"14_17" "Around this time, Colonel Savin, who was in the command post of the BTR-60, was wounded in the leg. "}
+	{"14_18" "After the grenade hit, one engine and part of the BTR radio equipment failed."}
+	{"14_19" "Then, due to friendly fire, a private house occupied by captain Chmirev was destroyed. The surviving fighters retreated to the construction site."}
+	{"14_2" "Hey, who are you? What do you want?"}
+	{"14_20" "By this time, column of the 2 battalion 131 Maykop brigade has entered station area."}
+	{"14_21" "Ah, ...! I am 606, Tunguska! Guns are jammed!"}
+	{"14_3" "Guys, I need to talk with your commander. Call him, huh?"}
+	{"14_4" "Yura, go figure it out what does he want?"}
+	{"14_5" "There is an important thing! Is he coming?"}
+	{"14_6" "Yes, what did you want?"}
+	{"14_7" "Come, let’s go aside, I want to talk with you!"}
+	{"14_8" "Speak here, I'm listening."}
+	{"14_9" "No, better let’s move a little bit, I have an important message."}
+	{"14_camtext" "At about two in the afternoon a Chechen in civilian clothes came to the station and began to call the brigade commander. Colonel Savin was busy, so chief of staff lt. col. Yuri Klaptsov came to him."}
+	{"14_loose" "3 company 131 brigade could not defend the post office."}
+	{"14_task" "Hold the post office"}
+	{"14_task_retreat" "Leave the post office, move to the old station"}
+	{"1500_1" "Caliber-10, Caliber-10, I am Fara-47. Approaching the point, meet us."}
+	{"1500_2" "And here comes the second battalion. Fara-47, I am Caliber-10, received, I'm waiting."}
+	{"1500_3" "A-a-a!"}
+	{"1500_cam1" "By 3 PM, 4 company of 2 battalion 131 brigade has entered the station area. The delay turned out to be fatal - the route that 1 battalion managed to go through was no longer safe."}
+	{"15_10" "I don't see them! Houses are blocking line of sight!"}
+	{"15_11" "510, yes, like that! Go-go-go! Boxes, behind the tank, form a column! We are breaking through! Caliber-10, I am Fara-47, I am under fire, breaking through to you!"}
+	{"15_13" "Headlight, come out, we'll cover with fire. Vechkanov, watch the windows, there are no frendlies inside! Shoot on any movement."}
+	{"15_14" "What the ...?! 530, 517, where are you?"}
+	{"15_15" "Commander! I pass a huge twelve-story building."}
+	{"15_16" "..., why did you get in there ?! Station is the other way! It was necessary to turn right!"}
+	{"15_17" "Farah! Fara 47, can you hear me? I understand you, turning right."}
+	{"15_18" "...! Not now! ...! Caliber-10, Caliber-10, I am Fara-47. I have two tanks lost in the city. I ask permission to return them, they will be burned there."}
+	{"15_19" "Farah, dismiss. Place survivors at a construction site. Sultan-14, have you heard him? You’re standing closer, a couple of boxes come out, let them find these tanks before bandits."}
+	{"15_20" "Caliber-10, I get it. 611, 614 - run past the twelve-story building, find our two tanks and bring them here. Move, move, while the tanks are still nearby!"}
+	{"15_21" "For the two lost tanks went IFV 611 with lieutenant Mochalin and 614 with lieutenant Sidelnik. Sidelnik’s IFV was hit first, but Mochalin, who was following him, picked up the wounded and continued his mission."}
+	{"15_22" "The remnants of Sidelnik’s crew were soon captured by bandits and taken to Rescom’s basement. Five minutes after the first IFV, they hit the second. The survivors were able to take refuge in a shed nearby, where they were surrounded by separatists."}
+	{"15_23" "Bandits were going were going to burn the barn and surrounding houses, and federal soldoiers have prepared grenades for breakthrough. Local civilians convinced Mochalin and his fighters to surrender - the Chechens vowed by their mothers that they would not be executed."}
+	{"15_24" "However, during interrogation in the basement of Reskom - the headquarters of the Dudaev's separatists - Mochalin said that he had spent all IFV cannon ammo. After that, he was executed by the head of the Dudaev's guard."}
+	{"15_25" "Both lost tanks managed to get to the station after meeting CC vehicle of 429 regiment spotters."}
+	{"15_26" "There! Looks like this is the building! Go ahead, the station is there!"}
+	{"15_27" "To the left! Come into the yard!"}
+	{"15_28" "Track! Damn, just a little bit left!"}
+	{"15_29" "Pavlov! Fire Shmel on the second floor, now!"}
+	{"15_4" "Tangoes, tangoes!"}
+	{"15_5" "..., ambush! To the train station, quick!"}
+	{"15_6" "Thirtieth, right, right! Column, follow the thirtieth!"}
+	{"15_7" "Damn, they are everywhere! Second floor, window!"}
+	{"15_8" "Do not stand, follow the tank! Thirtieth, after the turn by the yards, do not follow the road!"}
+	{"15_9" "Vechkanov! Do you see the enemy? Where did they hit Chernutsky from?"}
+	{"15_loose" "IFV No. 614 was unable to get out of the station area and return two lost tanks. The tanks were shot down, and the crews died on the spot or were shot in the basement of the presidential palace."}
+	{"15_task" "Break through near the twelve-story building on IFV"}
+	{"15_timer" "Time to return tanks"}
+	{"16_00" "Damn, doctor! The commander is injured in both legs!"}
+	{"16_01" "Get off my boot! Come on, drag it, drag it! Drag ..., hurry!"}
+	{"16_02" "Carry them, carry them! Semyon, take Klaptsov, he is shocked, he cannot walk! Inside the train station!"}
+	{"16_03" "Colonel was wounded a second time when CC APC was hit by RPG. The headquarters was moved to the old station building - vehicles in the square was under fire."}
+	{"17_00" "Ivan Alekseevich, these are the remains of the second company."}
+	{"17_01" "Put them on your positions."}
+	{"17_02" "Tupikov, they all die without specialized medical assistance! We must evacuate them! You organize a transport, and I'll put them in."}
+	{"17_03" "I did everything, now only send the transport, and that’s it. They will be met. Chief Peshkov is there, he knows everything."}
+	{"17_04" "But you have an IFV, so use it."}
+	{"17_05" "Ok, we have a green light."}
+	{"17_06" "By five PM, the wounded had already appeared inside the station. Several of them were at worsening condition, so it was decided to take them out of the city."}
+	{"17_07" "The wounded were loaded into the troop compartment, and lieutenant Kozhura was next to the gunner."}
+	{"17_08" "Will you find the way?"}
+	{"17_09" "I'll find it, the brigade is going along Ordzhonikidze."}
+	{"17_10" "Go ahead!"}
+	{"17_11" "They hit us!"}
+	{"17_12" "No, everything works! I have no smoke, it is fine."}
+	{"17_13" "So what are you waiting?! The second charge? Turn around and back to ours, now!"}
+	{"17_14" "Maybe we should not?"}
+	{"17_15" "They hit us, now everything will explode! Enough, let's turn around and back to the station!"}
+	{"17_16" "Ammo is about to explode!"}
+	{"17_17" "The BMP with the wounded was shot down and soon exploded. After that it became clear to Savin that they could not be helped on their own."}
+	{"17_loose" "The first company of Samara's regiment was unable to hold the control building. The only way out of the station was blocked."}
+	{"17_task" "Hold station control building"}
+	{"18_00" "Tenth, tenth, I am the eleventh, how do you hear me?"}
+	{"18_01" "Eleventh, I am the tenth, I hear you, I’m fighting, I’m fighting."}
+	{"18_02" "Tenth, according to the radio interception, nokhchi are sending on you an Abkhaz battalion. Report the situation."}
+	{"18_03" "Eleventh, the situation is ..., we're being ... from the buildings, with RPGs from every window. I can’t take out the wounded, I need a passage to the station, I need help."}
+	{"18_04" "I understand you the tenth, we are doing what we can. A self-propelled battery will work in your interests."}
+	{"18_05" "Tankwheel! Have you heard the eleventh? Take a position in front the construction site and try to shut up the grenadeers in the five-store buildings! There was a local at the headquarters just now, he says - there are no more civilians there, you can fire at will."}
+	{"18_06" "I allow you to go forward to the private sector, but I can’t cover with infantry. Then get back immediately."}
+	{"18_07" "Caliber-10, I'm Tankwheel, I'm Tankwheel. Abkhazians are leaving, returning to the construction site."}
+	{"18_loose" "The Abkhaz battalion managed to take the construction site and go to the left flank of 131 brigades in the old station building. "}
+	{"18_task" "Repel the attack of the Abkhaz battalion on the construction site"}
+	{"19_01" "Watch out, nokhchi dragged the tank!"}
+	{"19_02" "Eleventh, I am the tenth, I am the tenth! Artillery hammering very close, order them to stop, ...! Friendly fire!"}
+	{"19_03" "Give one smoke shell fire, one smoke shell fire, I can’t make out where whose explosions are! One smoke shell!"}
+	{"19_04" "The Abkhaz battalion was commanded by Shamil Basayev, who had already gained fame among the Islamists during the conflict in Karabakh, and later in Abkhazia."}
+	{"19_05" "Even then, Basayev was known for particular cruelty - his \"janissaries \" has slaughtered more than 400 civilians in Gagra. The Abkhaz battalion was the backbone of the defense of Grozny."}
+	{"19_06" "Basayev was responsible for a number of well-known attacks - the seizure of a hospital in Budennovsk, the Theater Center in Moscow, the explosions of two Tu-134 aircraft, and the seizure of a school in Beslan. Was liquidated on July 10, 2006 by undermining his ammunition truck, the identity was confirmed by genetic examination."}
+	{"19_07" "Eleventh, set aside artillery! Taking friendly fire!"}
+	{"19_task" "Hold the clinic building"}
+	{"23_01" "Caliber, I am the Sultan, I am the Sultan! We are hammered from the building, can’t stay here. I have to get people to the station!"}
+	{"23_02" "Got it, Sultan! I will send help, they will cover you!"}
+	{"23_03" "Chmirev! Take the left flank of the construction site, cover the retreat from the clinic and vulcanization!"}
+	{"23_04" "Tankwheel! Tankwheel! The prisoners say that in the white building near the Department of State Security, behind the private sector, their chief of staff, Maskhadov, is sitting. Go there and demolish this ... building to the ground. Their ... walkie-talkies do not allow to call artillery."}
+	{"23_05" "Tenth, I Tankwheel, accepted, doing!"}
+	{"23_06" "Ah, ...! Driver, jerk back and forth, it seems we've stuck!"}
+	{"23_07" "Captain Vechkanov’s tank fell into the cellar of a private house and got stuck. The barrel was pointing in the ground, so it was impossible to shoot, but the tank covered with roof tiles was inaccessible to grenade launchers."}
+	{"23_08" "..., nokhchi are everywhere! Can't get through!"}
+	{"23_09" "Stuck in the cellar, Captain Vechkanov called artillery fire on himself to drive off the enemy infantry and try to get out of the tank. But the frequencies were jammed with enemy radio stations."}
+	{"23_10" "Nikolaev, leave the post office. We can’t hold it, and I need you at the station."}
+	{"23_11" "After some time, the artillery started to shoot. Several close hits liberated the tank from the pit, and Vechkanov moved back to the forecourt."}
+	{"23_radio" "Leave frequency"}
+	{"23_radio2" "Do not listen to the dialogue between human rights activist Kovalev and a staff officer."}
+	{"23_task1" "The flamethrower platoon should move to the station under construction and cover the departure of the headquarters from the vulcanization building."}
+	{"23_task2" "Leave the post office building and move to the old station"}
+	{"a00_01" "Until the enemies attack again, you need to regroup. Chmirev - you have a construction site, Klupov - you are covering the old station. Wounded are here so far."}
+	{"a00_02" "Guys, well met the New Year, huh?"}
+	{"a00_03" "Well, met."}
+	{"a00_04" "Ivan Alekseevich, scouts have found a bottle of champagne for you."}
+	{"a00_05" "Thank you, Yuriy. Put it there, in the corner, we'll drink it later."}
+	{"a00_06" "Well that's it, the silence has ended."}
+	{"a01_00" "Tenth, I am the eleventh! Aviation will work in your interests now!"}
+	{"a01_01" "Aviation will ... us first, helicopters are another matter, very close range!"}
+	{"a01_02" "I understand they will disembark, over!"}
+	{"a01_03" "What are you talking about? Paratroopers can't land here! Because the station is completely surrounded, there are a lot of snipers and they will simply shoot all these paratroopers ..."}
+	{"a01_04" "Eleventh! Eleventh, do you hear me?"}
+	{"a01_05" "Hell, the radio is over again."}
+	{"a02_00" "In connection with the chief of staff of the Republic of Ichkeria, Aslan Maskhadov. I call captain Igor Vechkanov surrounded in the area of the station. Captain, can you hear me?"}
+	{"a02_01" "I hear, but don't understand why. What do you need?"}
+	{"a02_02" "Your unit, together with 131 brigade and 81 regiment, is completely surrounded. You have no chance to get out of there. I suggest you stop the resistance and surrender your weapons."}
+	{"a02_03" "To everyone who does this, I guarantee a monetary reward, and the officers will receive \"Mercedes \". The choice is simple - do it, or take a bullet."}
+	{"a02_04" "Better you, chief of staff, give up yourself. Look, the city is surrounded, artillery, aviation are working. Where do you go? Even if we will die here, you are dead man too, tomorrow if not today."}
+	{"a02_05" "I am ombudsman for Human Rights in the Russian Federation Sergey Kovalev. I stand now next to the chief of staff. I urge you too ..."}
+	{"a02_06" "Yes, I know, I know. Sell your homeland, give the tanks. ... you, I have an order, and I will fulfill it."}
+	{"a02_07" "But you are attacking the civilians of Chechnya! You shoot them from tanks, bomb them, crush them with tracks! It’s impossible, it’s not human doings!"}
+	{"a02_08" "Are those peaceful people who are firing at us at the station? Who burned our column before my eyes? These are ordinary bandits, they look good under a track!"}
+	{"a02_09" "He is the same Kovalev as I am a ballerina! Just another Chechen, where does the human rights activist get our frequency?"}
+	{"a02_10" "I am a human rights activist. Guys, I, Sergey Kovalev, take responsibility. Come on, give up, and now you will be taken to your units by car."}
+	{"a02_11" "Vechkanov, do not be silly. You have tank number 180, we know you. Don’t give up - I’ll burn you, ..., got it?"}
+	{"a02_12" "Russians do not give up! ... you all!"}
+	{"a02_13" "Did you see the pine at the entrance to the city? Today, by five in the morning, I’ll  your ... there! Personally, got it,  ... Russian?"}
+	{"a02_14" "And you, nohcha, go take it,  ...!"}
+	{"a02_15" "Colonel, our frequency is completely blocked - bandits, human rights activists, other ... . I’m moving to the reserve one, new call sign - Palych."}
+	{"a02_16" "Igor, I understand you. Communication with Samara regiment is bad, if they call you in the old way, also respond."}
+	{"a02_17" "Maskhadov became the prime minister, and after that - the president of the so-called \"Republic of Ichkeria \". In 1999 he announced the introduction of Sharia in Chechnya. He was one of the customers of the terrorist attack in Beslan, when 334 people were killed, including 186 children. Was liquidated on March 8, 2005 during a special operation of the FSB Central Security Service."}
+	{"a02_18" "Human rights activist Kovalev was suspended from the post of the Commissioner for Human Rights 3 months later, but continued to make contacts with various bandit's leaders, justifying their crimes. Awarded by Dudaev, has state awards of Lithuania, Poland, France."}
+	{"a03_01" "Save ammo! Low on ammo!"}
+	{"a04_00" "Back, pull back!"}
+	{"a04_01" "Done, now out - and to the station!"}
+	{"a05_00" "Armored vehicles burned in the streets of Grozny, the offensive was already stuck, but in Mozdok, where the HQ of the Joint Group of Forces was located, the situation was evaluated differently."}
+	{"a05_01" "\"We've pierced Grozny by crowbar,\" - said Lieutenant General Kvashnin, commander of the federal troops. \"Now we will shake the crowbar and the defense of Grozny\"."}
+	{"a05_02" "At one o’clock AM an order was issued. The forces located in the station area and controlling only three buildings (station control and two railway stations, the old one and the one under construction) to transfer positions to 19 motorrifles division, attack the presidential palace and capture about a third of Grozny."}
+	{"a06_00" "On the morning of January 1, bandits sent two truce envoyers, soldiers of the first company delivered them to headquarters."}
+	{"a06_01" "Yes, get them here."}
+	{"a06_06" "..., fire in the hole! Lay down!"}
+	{"a06_10" "Chmirev, why are you so upset? Your hands are shaking."}
+	{"a06_11" "Do you have any valerian drops or something like that?"}
+	{"a06_12" "No, I'm sorry, there is already nothing."}
+	{"a06_13" "I used to shoot in battle, but this is when the enemy is far away, and when a person is disarmed and close, then it was certainly hard for me."}
+	{"a06_2" "Here, Ivan Alekseevich, we took these not far from the post office. Were with a white rag on the smg - the parliamentarians, apparently. They want to see the brigade commander."}
+	{"a06_3" "Well, I'm the brigade commander."}
+	{"a06_4" "Is that exactly you?"}
+	{"a06_5" "Yes, yes, I’m the brigade commander, Colonel Savin. Say what you want?"}
+	{"a06_6" "Lay down, ...!"}
+	{"a06_7" "...! What the ... is going on here?!"}
+	{"a06_8" "Finish them!"}
+	{"a06_9" "Chmirev, take two men, take those around the corner and shoot. ... nokhchi."}
+	{"a07_01" "Rustem, sit down, duck down! I already have enough work, you walk like a living target."}
+	{"a07_02" "Everyone is sitting here already, look, everyone is hiding."}
+	{"a07_03" "Well, you at least sit down!"}
+	{"a07_04" "If I sit down - then no one will get up."}
+	{"a07_05" "Colonel Savin realized quite early what position the brigade was in, and at the evening of December 31 he began to call the headquarters, demanding help."}
+	{"a07_06" "68th separate reconnaissance battalion tried to break through the corridor to the station at night, but was stopped at distant approaches. 276th motorized rifle regiment failed to break through too at night too."}
+	{"a07_08" "But the command did not dare to drop the convoy into the night city, and 276 regiment entered the city only at 8 AM on January 1."}
+	{"a08_00" "The attempted murder of Colonel Savin was not the last offer to surrender from the bandits."}
+	{"a08_01" "During the rout of 2 battalion 131 brigade column, rieutenant Vladimir Adodin was captured."}
+	{"a08_02" "The bandits tried to use the locals to convince Savin to lay down their arms, but they refused."}
+	{"a08_03" "Under the threat of execution for captured prisoners, Adodin went to Savin and returned with a refusal, after which he was executed."}
+	{"a09_00" "By nine o’clock AM the help column was already in the city. Savin maintained radio contact with them and guided the movement."}
+	{"a09_01" "Nikolaev! Nikolaev, leave the post office, go to the station! We won’t hold the mail, but we need the station, the wounded there."}
+	{"a10_00" "Savin mistakenly got in touch with \"Olympus-12 \", lagging behind the help column \"Fishingline-12 \", because he called just \"twelfth \", which increased the confusion."}
+	{"a10_01" "Seven vehicles worked under the call sign \"104 \", lagging behind the aid column of 131 brigade. Lost in the city, \"104 \" could not go to the station. Having lost BMP-2 and 5 people killed, he turned back."}
+	{"a11_00" "BMP-2, BMP-2, which is behind \"Ramp\" stands! Answer, I'm Shot-1!"}
+	{"a11_01" "Frag shell on grenadeers, otherwise \"Ramp \" is ... dead! I'm Shot-1!"}
+	{"a11_02" "Standing behind \"Ramp\", answer! I am Shot-1!"}
+	{"a11_03" "There is no \"Ramp\" here! I stand in a column with tanks!"}
+	{"a11_04" "BMP-2, BMP-2! I'm Shot-1! Answer me!"}
+	{"a11_05" "I'm hearing you!"}
+	{"a11_06" "You see the grenade launcher on the right, no ?!"}
+	{"a11_07" "I do not see, no! All in the smoke, ...!"}
+	{"a11_08" "Rampa! Get out, get out of the frequency! Here the combat control is on! Get out of here! Go away! Get 10 lower, 20 lower, but don’t work here, over!"}
+	{"a11_09" "There, there passes! Sultan's, Sultan's vehicles! Vehicles!"}
+	{"a11_10" "I get it, I get it, I get it!"}
+	{"a11_11" "I hear you!"}
+	{"a11_12" "Where do they come to you? Sultan's vehicles? Where, where, where come to you, welcome?"}
+	{"a11_13" "Passed bym ...m turned right! Came to me, turned right, then out of here, ..."}
+	{"a11_14" "Colonel Savin mistakenly accepted the convoy of 276 regiment for Burlakov’s vehicles. The motorized rifles, having managed to break through to the station square and being at 20-30 meters from the defenders, did not find them."}
+	{"a11_15" "The aid convoy was shelled, suffered casualties and went back."}
+	{"a12_00" "This is Barguzin, go ahead!"}
+	{"a12_01" "Well, have you received the task or not? Over!"}
+	{"a12_02" "Yes! We are trying to reach you!"}
+	{"a12_03" "Come on! Go to the square, to the square, ...! And to the left of the square is a building, ...!"}
+	{"a12_04" "Where are you?"}
+	{"a12_05" "At the same crossroads, came back!"}
+	{"a12_06" "Are \"boxes\" still there?"}
+	{"a12_07" "Nobody knows where we got on, ...!"}
+	{"a12_08" "So you did not reach the station?"}
+	{"a12_09" "I was walking along the rails nearby, and then - hell knows!"}
+	{"a13" " "}
+	{"a13_00" "By one o'clock in the afternoon, all attempts to break through to the station failed. The last one was made by 137 regiment paratroopers."}
+	{"a13_01" "A column of paratroopers was shelled at the entrance to the city, and on the railway tracks both SPH \"Nona \" were destroyed. Only one BMD broke through to the station, but it could not find the defenders too."}
+	{"a13_02" "I am the tenth! Eleventh, I'm the tenth, over!"}
+	{"a13_03" "Tenth, I am the eleventh! \"Blues\" went to you and were blown up by a mine, by a mine! Now they dismounted and walk, walk to help you!"}
+	{"a13_04" "Now we throw out orange smokes, ... orange, and flares, flares, so that we can be seen!"}
+	{"a13_05" "I give smokes, watch!"}
+	{"a13_06" "I realized, I said, I said it to \"blues\"!"}
+	{"a13_07" "Tenth, tenth! Did you deployed the smoke? The smoke - give me the mark!"}
+	{"a13_08" "This is tenth!"}
+	{"a13_09" "Gave two smokes - orient, orient!"}
+	{"a13_10" "I gave smokes - did he see smokes or not?"}
+	{"a13_11" "They do not see anything, all blind as moles. You need to sing."}
+	{"a13_12" "Chmirev, what are you talking about? Why sing, should they be in \"boxes \"?"}
+	{"a13_13" "They don’t see us because of smoke and fences. Signal flares did not help - so sing."}
+	{"a13_14" "Let us unbridle, boys, the horses, Go lay down, and take your rest."}
+	{"a13_15" "Myself into, the orchard green, I go to dig -, out a well!"}
+	{"a13_16" "No, Chmirev, not all of us know words. Another come on:"}
+	{"a13_17" "All hands on deck! Take your places, comrades!"}
+	{"a13_18" "This is our last parade."}
+	{"a13_19" "Our proud terminal doesn't give in to its enemies,"}
+	{"a13_20" "No one begs for mercy!"}
+	{"a15_00" "Chmirev, bring me the lieutenants. We can no longer hold the station without help, and it will not come. We must retreat to Lenin's park."}
+	{"a15_01" "Load the wounded on the remaining IFVs, exit along the rails."}
+	{"a15_02" "Commander, that's all? So much blood spilled for this place, just to leave it like that?"}
+	{"a15_03" "Yes, Rustem, just like that. We are, ..., thrown for good, low on ammo, with fifty wounded. We will not go now - then there will be no forces for a breakthrough."}
+	{"a15_04" "Yura, try to contact Burlakov. We are now on the right flank of the defense, let's go left, along the rails, they should come to us in time."}
+	{"a15_05" "Nikolaev and I are covering the retreat, right behind you."}
+	{"a15_start" "Think there ...! I can’t leave the wounded ...! Almost all vehicles are burned ...! Think, think, how to take out and how to help us out, over."}
+	{"a16_01" "All these were the last. Nikolaev, we are leaving for the rest, along the rails."}
+	{"a16_02" "Nikolaev, artillery ...! Run, run, before the fire is close!"}
+	{"a16_03" "Having got out of the station, fighters of 131 brigade and 81 regiment, in separate groups and by different routes, broke through the city to frendly troops."}
+	{"a16_04" "Several BMPs and tanks have survived, they were used primarily for transporting the wounded. The combat-ready soldiers were on the armor, each BMP carried up to 40-50 people."}
+	{"a16_05" "Almost all the vehicles was lost while leaving the city, and the avanguard was captured. Nevertheless, a significant part of the survivors at the station managed to evaquate."}
+	{"a16_06" "Colonel Savin was not among them. He was inside the BMP when a grenade hit it. The soldiers pulled the brigade commander to a nearby motor depot, but separatists got there too. Colonel Savin died there from a grenade thrown by one of the bandits."}
+	{"a16_07" ""}
+	{"art" "Artillery"}
+	{"art_hint" "A volley of 152mm howitzer Msta-S"}
+	{"date" "December 31, 1994 10:00"}
+	{"evaq_loose" "The retreating suffered too serious losses and were unable to break out of the city."}
+	{"flare_desc" "Flare"}
+	{"flare_hint" "Launch a flare at a specified point"}
+	{"hq_burlakov_dead" "The chief of staff of the 81st regiment, Lt. Col. Burlakov, is dead."}
+	{"hq_savin_dead" "Colonel Savin, commander of 131st Omsbr, is dead"}
+	{"loose_klupov" "Captain Klupov is dead"}
+	{"name" "New Year's assault"}
+	{"name_big" "New Year's assault"}
+	{"off_tasks" "Colonel Savin and Lt. Col. Burlakov must survive."}
+	{"outro_completed" "The remains of 131 brigade and 81 regiment retreated to the western outskirts of Grozny."}
+	{"outro_failed" "Remains of 131 brigade and 81 regiment are destroyed."}
+	{"place" "Grozny, Chechen Republic"}
+	{"pochta_loose" "Nikolaev, leave the post office and retreat to the station!"}
+	{"random_art_off" "Stop artillery fire"}
+	{"random_art_off_hint" "Stop harassing artillery fire."}
+	{"random_art_on" "Harassing artillery fire"}
+	{"random_art_on_hint" "Call harassing artillery fire in nearby quaters."}
+	{"task_exit" "Withdraw all available forces in the direction of the Lenin park."}
+	{"task_exit_klupov" "Take Captain Klupov out of the station."}
+	{"time_10" "December 31, 1994, 10 o'clock."}
+	{"time_11" "December 31, 1994, 11 o'clock."}
+	{"time_12" "December 31, 1994, 12 o'clock."}
+	{"time_13" "December 31, 1994, 13 o'clock."}
+	{"time_14" "December 31, 1994, 14 o'clock."}
+	{"time_15" "December 31, 1994, 15 o'clock."}
+	{"time_16" "December 31, 1994, 16 o'clock."}
+	{"time_17" "December 31, 1994, 17 o'clock."}
+	{"time_18" "December 31, 1994, 18 o'clock."}
+	{"time_19" "December 31, 1994, 19 o'clock."}
+	{"time_20" "December 31, 1994, 20 o'clock."}
+	{"time_21" "December 31, 1994, 21 o'clock."}
+	{"time_22" "December 31, 1994, 22 o'clock."}
+	{"time_23" "December 31, 1994, 23 o'clock."}
+	{"time_a00" "January 1, 1995, midnight."}
+	{"time_a01" "January 1, 1995, 1 o'clock."}
+	{"time_a02" "January 1, 1995, 2 o'clock."}
+	{"time_a03" "January 1, 1995, 3 o'clock."}
+	{"time_a04" "January 1, 1995, 4 o'clock."}
+	{"time_a05" "January 1, 1995, 5 o'clock."}
+	{"time_a06" "January 1, 1995, 6 o'clock."}
+	{"time_a07" "January 1, 1995, 7 o'clock."}
+	{"time_a08" "January 1, 1995, 8 o'clock."}
+	{"time_a09" "January 1, 1995, 9 o'clock."}
+	{"time_a10" "January 1, 1995, 10 o'clock."}
+	{"time_a11" "January 1, 1995, 11 o'clock."}
+	{"time_a12" "January 1, 1995, 12 o'clock."}
+	{"time_a13" "January 1, 1995, 13 o'clock."}
+	{"time_a14" "January 1, 1995, 14 o'clock."}
+	{"time_a15" "January 1, 1995, 15 o'clock."}
+	{"time_a16" "January 1, 1995, 16 o'clock."}
+	{"time_a17" "January 1, 1995, 17 o'clock."}
+	{"vokzal_loose" "The soldiers of 131 brigade were knocked out of the station building. Bandits killed the wounded, and few survivors were captured or shot on the spot."}
+	{"vokzal_task" "Hold the building of the old station"}
+	{"win" "The failure of the New Year’s assault demonstrated the incompetence of the high command of the federal forces and the Ministry of Defense as a whole. The main reason for the failure was the poor preparation of troops. However, the assault was continued. The train station was attacked again on January 2 and was finally occupied on January 5. After two months of street fighting, in late February 1995, Grozny was taken. Federal troops lost 1,426 soldiers, 343 of them on New Year's Eve. Separatists lost about 6900 people, of which (according to Captain Vechkanov) 450 at the station."}
+}

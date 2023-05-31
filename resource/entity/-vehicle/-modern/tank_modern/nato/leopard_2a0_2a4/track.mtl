@@ -1,0 +1,6 @@
+{material bump
+	{diffuse "$/model/leopard_2a0_2a4/track"}
+	{bump "$/model/leopard_2a0_2a4/track_bp"}
+	{emitsheat}
+{blend test}
+}

@@ -1,0 +1,28 @@
+;Cold War
+{from "pattern smg"
+	{tag "reliability_high"}
+	{filling "ammo 762" 30}
+	{curve "762x39_60"}
+	{mass 4.1}       
+	{entity "groza1_1"}
+	{fireSound	"smg/groza/"}
+	{reloadSound "groza_reload"}
+	{inventory
+		{size 4 2 }
+	}
+	{recoveryTime 0.08}
+                          {rechargeTime 4}	;булл-пап
+
+	{cursor "groza"}
+	{cursorReloading "cannon_reload_all"}
+	("smg_range_custom" k(0.8))
+	
+	{burst
+		{short 2 1}
+		{long 6 2}
+{rangeKoef 0.444}
+	}
+	{healthDamage 94}
+	("accuracy_open_sight"  moa(4.5))
+	("accuracy_open_sight_70"  moa(4.5))
+}

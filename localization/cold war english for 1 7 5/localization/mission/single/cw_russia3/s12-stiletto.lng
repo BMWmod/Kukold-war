@@ -1,0 +1,134 @@
+{tags
+	{"date" "10 November 2017, 12:30"}
+	{"name" "Stiletto"}
+	{"name_big" "Stiletto"}
+	{"outro_completed" "The villiage of Szajol was captured by a blow from the south. Tanks and IFVs of the first armored division of the Bundeswehr were directly attacked by the Russian 10th tank division without infantry cover and the slightest opportunity to retreat beyond the Tisza. After a two-hour struggle, all of them were destroyed or blown up by the crews. Mission accomplished."}
+	{"outro_failed" "The operation to capture Szajol failed. The Bundeswehr troops remaining on the bridgehead did not manage to unblock the Cluj boiler, but later the heavy equipment was very useful in the defense of Szolnok. The fire of the Leopards and Marders inflicted heavy losses on the advancing Russian forces. Mission failed."}
+	{"place" "villiage Szajol, not far from Solnok, Hungary."}
+
+	{"00" "The first group is in touch, I'm on the initial position."}
+	{"01" "Good, commence the assault. Force the oxbow and go out to the flank of the first defence line, immediately gain a foothold. I will send the second group at your signal."}
+	{"02" "The first group, we go to the oxbow and force it on the move, not forgetting about the cover. We need to dig in right away - until the second group comes up, we will have to fight in a half-ring. Moved!"}
+	{"03" "The first group is in touch, we forced the oxbow. I think the Hungarians are already bringing reserves into battle. I'm fortifying behind the enemy's first line of defense, waiting for support."}
+	{"04" "Yudin, it's time. Second group - go! Suppress enemy firing positions along the front and move to support the first group."}
+	{"05" "This is Yudin, I am going out to the enemy positions."}
+	{"06" "Zircon-2, where are you stuck? Deploy, time is running out!"}
+	{"07" "I am here! Provide cover, I'm starting to burn the front line."}
+	{"08" "Yudin, have you brought a flamethrower? It is necessary to warn, we are in direct contact!"}
+	{"09" "Infantry, attention! The first volley goes to the farm next to the power pole!"}
+	{"10" "The second volley - at a suspicious forest edge in front of the depot fence. Heads down!"}
+	{"11" "And let's add to the farm, landmark is the building by the road. "}
+	{"12" "Zircon-2, do not shoot at the farm, do you copy? The third volley - at roadblocks."}
+	{"13" "Roadblocks, copy!"}
+	{"14" "The first group is on the line, the farm is captured."}
+	{"15" "Okay, lieutenant colonel. I am sending a sapper squad to clear the road and a reinforcement team on the highway to the west. Escort the guys, and put a barrier on the railroad tracks behind the autobridge."}
+	{"16" "Okay, Yudin should be ready by now. You can call him for help now, or wait until the enemy's reserves show themselves. Now we need to hold the bridgehead."}
+	{"17" "There are mines everywhere! We need sappers!"}
+	{"18" "Hey crawlers, I haven't shot full salvo yet. If where you need to burn something - Zircon-2 will help, I have three volleys."}
+	{"19" "Doronin, attention! Your group is tasked with providing cover from the west. Now there are no large forces of the Hungarians in Szolnok, so they will not be able to deliver strong blows, but they can try to unblock the road."}
+	{"20" "Grishchenko, run Aileron to the bridges over the Tisza. You need to know exactly what is going on there."}
+	{"21" "Commander, they are fleeing the city!"}
+	{"22" "Comrade commander, I see Wiesel coming from the east!"}
+	{"23" "I observe a small convoy, right at the bridge, they have already crossed the Tisza and coming fast."}
+	{"24" "Well, we meet the guests. It may be necessary to strengthen the roadblock."}
+	{"25" "UAV over the bridge, Comrade Lieutenant Colonel. I observe light wheeled vehicles. There is no need to wait for tanks yet."}
+	{"26" "This is combat reconnaissance only. The Germans are trying to probe our defenses, to find weak points."}
+	{"27" "Germans from the north! Infantry and boxes!"}
+	{"28" "Enemy IFVs are on the highway from the west!"}
+	{"29" "Comrade lieutenant colonel, the threat from the rear has been eliminated, I continue to storm the city."}
+	{"30" "It seems that some still managed to break into the city. Well, it won't help them."}
+	{"31" "Good job, battalion commander, the roadblock held out. Join Yudin and attack the city from the west."}
+	{"32" "Yudin, report the situation."}
+	{"33" "I continue to clean up Szajol. The enemy is suffering losses, our forward detachments are already fortified in the central part of the city."}
+	{"34" "Our neighbors from the east, the 10th tank division, warn about the advance of German armored vehicles to the west. Get ready for counter-attacks."}
+	{"35" "Comrade Colonel, I report: Szajol is completely cleared of the enemy, I am setting up roadblocks to the east."}
+	{"36" "Pleased, Vasily Semenovich. But do not relax - Tretyak has almost finished off the eastern group, wait for the guests."}
+	{"37" "It's clear. Do you have any information about the enemy?"}
+	{"38" "The Hungarians are defeated and have already retreated beyond the Tisza. Just wait for the Germans - they still have tanks, and BMPs cannot cross the river. If the tanks do not pass, the Germans will be forced to abandon them, and there will be simply nothing to fight back Szajol. Call Arkhipov in case of any difficulties, he is ready to deploy."}
+	{"39" "Understood, comrade Colonel. Yudin, have you heard? Prepare grenade launchers and anti-tank systems, tanks will go along the highway. You cannot let them pass to the bridge."}
+	{"40" "Enemy special forces in the farm area! It looks like they dragged inflatable boats to the oxbow and disembarked from them!"}
+	{"41" "Enemy helicopters! They go to the fuel storage!"}
+	{"42" "Comrade Colonel, Hungarians and Germans strike at the rear. I think they want to push us back to the city to give the retreating room to maneuver. I think it's time to put the reserve into action."}
+	{"43" "Good. Arkhipov, your turn."}
+	{"44" "Affirmative! Guys, let's go! We clear the rear and join groups 1 and 2 in the city!"}
+	{"45" "Vasily Semyonovich, the 10th tank HQ is on the line! They warn that they are entering in our area of responsibility!"}
+	{"46" "Soldiers, our tanks are coming from the east! Defensive positions in the east - fire only after identification. I repeat, our tanks are coming from the east!"}
+	{"47" "Doronin, our neighbors have just cut off Szajol from the remnants of the enemy group. Nice work, battalion commanders! Doronin, finish there, and let's go to the base. I am waiting at the headquarters with a report in an hour."}
+	{"48" "Yes, Comrade Colonel. I'll finish with the trophies and go straight to the headquarters."}
+	{"49" "Doronin, I have not forgotten Belgorod. If you again build a tank army from trophies, I will definitely take you to headquarters. Take the trophies, but stick to the regular size of the brigade. End of communication."}
+	{"50" "OK OK. But the trophies really need to be dealt with."}
+	{"51" "Yudin, what is this story between Doronin and Belgorod?"}
+	{"52" "Recently, also near Kiev, they managed to lose, and then three of us to recapture a secret tank. But at least Rudzinsky himself did not participate there, he was in the hospital. But near Belgorod, he accompanied the TV reporter with the operator to the brigade's field base."}
+	{"53" "Do not you know? I thought the whole army knew. Doronin is a normal officer, but when he and Pankratov get together, they certainly get into history. Near Kiev, even during the retreat, four captured Abrams were withdrawn from the battlefield - and someone on the second line could not stand their nerves, fired a AP shell. Fortunately, it didn't pierced."}
+	{"54" "The correspondent sits on driver place, and the cameraman films it live - I don't know how they got permission from the headquarters, but the broadcast was on. And Rudzinsky sits next to him and says - here, we are beating the enemy, heroes, this and that. UAZ turns around a bend - and there is a base. And a dozen and a half Leopards in picturesque poses - it was Doronin who seized the station with a train of tanks, and Pankratov and his guys led them and drove them to the base."}
+	{"55" "Rudzinsky blurt out: 'What the...' Well, it hit the reporter in the head that they were not ours, they stopped in the wrong place, and the whole gang will now shoot at them. The steering wheel to the right - and into a ditch, everybody screaming, the correspondent on his belly has already crawled into the forest, and everything in live translation, all over the country."}
+	{"56" "Then we figured it out, of course, but that was bold. Since then, Doronin has been commemorated by trophies."}
+	{"57" "And this Pankratov - is he now transferred to us? Apparently, we will have fun days ..."}
+	{"58" "Yudin, I was thrown away. Attack in the forehead, I will try to fire them through the oxbow, without crossing."}
+	{"59" "It seems that the flanking attacks have fizzled out, it remains only to clear the area from the remnants of the enemy's infantry."}
+	{"art" "Artillery strike"}
+	{"art_close_enough" "Understood, I give the coordinates to the battery. We are waiting for the presents - three volleys."}
+	{"art_too_far" "Comrade Lieutenant Colonel, it's too far, impossible to pinpoint the coordinates. A scout or a drone is needed to go over at least three kilometers ..."}
+	{"cannon_equal" "Affirmative, enough space for mounted guns, but without excess."}
+	{"cannon_not_enough" "These mounted guns can fit, comrade commander, we even have more space."}
+	{"cannon_too_much" "Comrade commander, the number of mounted guns is too large. We don't have enough parking space to place them."}
+	{"breakthrough_fail" "Doronin, Yudin, Arkhipov, what's going on? The Germans broke through the corridor and continue to withdraw their troops! Tomorrow, every passing tank will pour out a lot of blood to us."}
+	{"breakthrough_fail1" "The German units pressed against the Tisza were still able to unblock the corridor to Szolnok and withdraw not only personnel, but also heavy equipment."}
+	{"bmp_equal" "Affirmative, enough space for IFVs, but without excess."}
+	{"bmp_not_enough" "These IFVs can fit, comrade commander, we even have more space."}
+	{"bmp_too_much" "Comrade commander, the number of IFVs is too large. Pankratov doesn't have enough parking space to place them."}
+	{"btg1" "BTG-2"}
+	{"btg1_hint" "Call the second battalion tactical group"}
+	{"btr_equal" "Affirmative, enough space for APCs, but without excess."}
+	{"btr_not_enough" "These APCs can fit, comrade commander, we even have more space."}
+	{"btr_too_much" "Comrade commander, the number of APCs is too large. Pankratov doesn't have enough parking space to place them."}
+	{"cannon_equal" "Affirmative, enough space for mounted guns, but without excess."}
+	{"cannon_not_enough" "These mounted guns can fit, comrade commander, we even have more space."}
+	{"cannon_too_much" "Comrade commander, the number of mounted guns is too large. We don't have enough parking space to place them."}
+	{"car_equal" "Affirmative, enough space for cars, but without excess."}
+	{"car_not_enough" "These cars can fit, comrade commander, we even have more space."}
+	{"car_too_much" "Comrade commander, the number of cars is too large. Pankratov doesn't have enough parking space to place them."}
+	{"halfway_fail" "The enemy breaks through, intercept immediately!"}
+	{"heli_equal" "Affirmative, enough pads for helicopters, but without excess."}
+	{"heli_not_enough" "These helicopters can fit, comrade commander, we even have spare pad."}
+	{"heli_too_much" "Comrade commander, the number of helicopters is too large. Fomin doesn't have enough helipads to land them."}
+	{"mission_end" "End mission"}
+	{"no_forces" "448 brigade was broken and could not complete the task."}
+	{"ph2_blockpost" "Highway roadblock"}
+	{"ph2_blockpost1" "Call a roadblock to cover the highway."}
+	{"ph2_blockpost_talk" "Comrade Lieutenant Colonel, I have two compartments on boxes! I'm heading out to the highway and trying to block it!"}
+	{"ph2_sappers" "Call the sappers"}
+	{"ph2_sappers_rus" "Clear the road for the westward barrier."}
+	{"ph2_sappers_talk" "Sappers here! Comrade Lieutenant Colonel, I will now begin clearing the road for the arrival of reinforcements, cover me up!"}
+	{"tanks_equal" "Affirmative, enough space for tanks, but without excess"}
+	{"tanks_not_enough" "These tanks can fit, comrade commander, we even have more space."}
+	{"tanks_too_much" "Comrade commander, the number of tanks is too large. We don't have enough parking space to place them."}
+	{"task1ferma" "Capture the farm (+30CP +1UP)."}
+	{"task_breakthrough" "Prevent enemy vehicles from breaking through Szajol (+30CP +1UP)."}
+	{"task_circle" "Prevent the enemy from recapturing positions around the perimeter of the city (+25CP +1UP)."}
+	{"task_city" "Capture Szajol, prepare defensive positions on the eastern outskirts (+50CP +4UP)."}
+	{"task_halfway" "Prevent retreating forces from enter deeper into controlled territory (+20CP +1UP)/"}
+	{"task_west" "Repel attacks from the west (+20CP +1UP)/"}
+	{"timer" "Approximate time before a breakout attempt:"}
+	{"tos_fire" "TOS-1 fire"}
+	{"tos_fire1" "TOS-1 will shoot the specified point"}
+	{"tos_firetalk" "Coordinates accepted!"}
+	{"tos_move" "TOS-1 moving."}
+	{"tos_move1" "Move TOS-1"}
+	{"tos_movetalk" "Got it, changing position!"}
+	{"tos_noammo" "Comrade lieutenant colonel, I'm empty!"}
+	{"tos_task" "TOS-1 must survive or withdraw to the rear (+15CP +1UP)."}
+	{"transfer_bmp" "IFV amount"}
+	{"transfer_bmp_hint" "Check IFV amount"}
+	{"transfer_btr" "APC amount"}
+	{"transfer_btr_hint" "Check APC amount"}
+	{"transfer_cannon" "Mounted weapons amount"}
+	{"transfer_cannon_hint" "Check mounted weapons amount"}
+	{"transfer_car" "Cars amount"}
+	{"transfer_car_hint" "Check cars amount"}
+	{"transfer_heli" "Helicopters amount"}
+	{"transfer_heli_hint" "Check helicopters amount"}
+	{"transfer_tank" "Tanks amount"}
+	{"transfer_tank_hint" "Check tanks amount"}
+	{"win" "From Doronin's diary: \"November 30, 2017. We are still operating in eastern Hungary. The Cluj cauldron served as a bait, a sort of carrot attached to the nose of the Bundeswehr command. Initially, they had no chance, the thickness of the encirclement ring was even initially more than 40 kilometers, and today it is twice as much. But admitting defeat means condemning half of the German tank forces to death. Well, today we threw them behind the Tisza, and they had no choice. The Germans and Hungarians are also gradually beginning to run away from us, every soldier understands that Russians cannot be stopped in Europe.\"."}
+}

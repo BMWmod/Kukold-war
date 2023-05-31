@@ -1,0 +1,19 @@
+{breed
+	{skin "cw_poland_tankman"}
+	{portrait "_new/pol/tankman"}
+	{icon "pol_tankman"}
+	{icon_priority 0}
+	{nationality pol}
+	{armors
+		{head "telemit_h-280"}
+	}
+
+	(include "perks_generic.inc")
+	("traits_tankman")
+	{inventory
+		{item "9mm ammo" 160}
+		{item "bandage" 10}
+		{item "cz_scorpion_evo3_1a" filling "9mm ammo" 30}
+		{in_hands 2}
+	}
+}

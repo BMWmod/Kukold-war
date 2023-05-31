@@ -1,0 +1,37 @@
+{game
+    {class battle_zones}
+	{order 30}
+	{parameters	"flagCount=1:0,1:1,2:0;points_table=0.0/0,0.5/0,2.0/200;flag_capture_time=30;flag_release_time=30;flag_capture_factor=1.6"}
+	{settings
+		{options 		gameDuration scoreFinal friendlyFire showPiercing showDamageReports enableSpectators fogOfWar preparationTime}
+		{optionsAdvanced 	 floraRespawn}
+		{optionsRanked 		}
+		{fogOfWar 		fog_realistic}
+		{difficulty 		multiplayer}
+		{gameDuration 		"60 min"} ; min
+		{scoreMin			100}
+		{scoreMax			15000}
+		{scoreFinal			1000}
+		{impregnableTimeout	4}	; sec
+		{floraRespawn 0}
+		{friendlyFire}
+		{showPiercing 0}
+		{showDamageReports 1}
+		{preparationTimeMin	0}
+		{preparationTimeMax	60}
+		{preparationTime	15}
+		{useUnitLevelRestrictions}
+		{enableBots}
+	}
+	{teamSettings
+		{teamsMode normal}
+		{teams
+			{"a"}
+			{"b"}
+		}
+	}
+	{ranked
+		{enabled}
+	}
+	(include "presets.inc")
+}

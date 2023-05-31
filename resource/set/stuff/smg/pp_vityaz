@@ -1,0 +1,27 @@
+;Cold War
+{from "pattern smg"
+	{tag "reliability_high"}
+	{inventory
+		{size 3 2 }
+	}
+	 {entity "pp_vityaz"}                     
+	{filling "ammo 9mm" 30}
+	{curve "9x19_40"}
+	{fireSound	"pistol/tt"}
+	{reloadSound "tt"}
+	{mass 2.9}
+	("smg_range_custom" k(0.5))
+	
+	{rechargeTime 3}
+	{recoveryTime 0.09}	;680
+	{burst
+		{short 2 1}
+		{long 6 2}
+{rangeKoef 0.444}
+	}		
+	{healthDamage 39}
+	("accuracy_open_sight"  moa(10))
+	("accuracy_open_sight_40"  moa(10))
+	{cursor "bison"}
+	{cursorReloading "cannon_reload_all"}
+}

@@ -1,0 +1,22 @@
+;Cold War
+{from "pattern rifle"
+	{tag "reliability_medium"}
+	{filling "ammo 762x51_x20" 20}
+	{curve "762x51nato_100"}
+	{preloaded}
+	{inventory
+		{size 5 2}
+	}
+	{entity "m14"}
+	{mass 4.6}
+	("marksman_range")
+	{fireSound "rifle/svd_shoot"}
+	{reloadSound "chn/Barrett_reload"}
+	{healthDamage 104}
+	{reloadSound "enfield"}
+	{recoveryTime 0.7}
+	("accuracy_open_sight"  moa(2.5))
+	("accuracy_open_sight_70"  moa(2.5))
+	{cursor "m14"}
+	{cursorReloading "cannon_reload_all"}
+}

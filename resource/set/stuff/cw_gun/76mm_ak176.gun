@@ -1,0 +1,19 @@
+{from "pattern gun"
+	("75-76caliber")
+;	("CW_acc_artillery" mils(2.5));неизвестна
+	("CW_acc_artillery" mils(0.5));0.2 от релаьной из-за настроек опыта
+	{filling "bullet76_RUS" 4}
+	{fireSound "gun/ak176"}
+	{reloadSound "tankgun_r03"}
+	{recoveryTime 0.66}
+	{rechargeTime 3}
+	{range 255 255}
+	{gravity 10}
+	("speed" s(800)) 
+	; a - 20, b - 50, c - 80, d -100, e - 120 
+	("damage4" a(1) b(1) c(1) d(1) e(1))
+	{calibre 76}
+	;{cursor "cannon_on_fg"}
+	{cursor "cannon_on_fg_14"}
+	{cursorReloading "cannon_reload_fg"}
+}

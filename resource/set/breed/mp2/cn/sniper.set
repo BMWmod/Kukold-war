@@ -1,0 +1,23 @@
+{breed
+	{skin "cw_cn_spec_sniper"}
+	{portrait "_new/cn/specnaz"}
+	{icon snipers}
+	{icon_priority 3}
+	{tags "sniper2"}
+	{nationality cn}
+	{armors
+		{head "opscore_cn"}
+	}
+
+	(include "perks_generic.inc")
+	("traits_advanced_sniper")
+	{inventory
+		{item "type15h_sniper"}
+		{item "qbu-202" filling "8_6x70_x10 ammo" 5}
+		{item "8_6x70_x10 ammo" 170}
+		{item "plant" 2}
+		{item "bandage" 10}
+		{item "type73 grenade" 4}
+		{in_hands 1}
+	}
+}

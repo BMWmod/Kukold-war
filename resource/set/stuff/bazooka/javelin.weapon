@@ -1,0 +1,24 @@
+{from "pattern proj_weapon_ground"
+	{tag "rocketlauncher" "to_hand ap" "cannot_lie" "nokeep"}
+	{filling "ammo jav_rock" 1}
+	{rechargeTime 20}
+	{inventory
+		{size 6 2}
+	}
+	{aimRange 130}
+	{maxRange 130}
+	{entity "javelin"}
+	{mass 10.7};http://rbase.new-factoria.ru/missile/wobb/javelin/javelin.shtml
+	{fireSound "bazooka/Javelin_shot"}
+	{reloadSound "chn/Metis_reload"}
+	;{cursor "JAV"}
+	;{cursorReloading "JAV_reload"}
+	{cursor "cannon_on_heat_2"}
+	{cursorReloading "cannon_reload_heat"}
+	;{cursorReloading "cannon_reload_heat_timer_20"}
+	{projectileDamageTable {20 0.3} {220 0.3} }
+	 {parameters "FGM148F" ; https://forums.eagle.ru/topic/104820-fgm-148-javelin/
+      {aimRange 150}
+	  {maxRange 150}
+	 }
+}

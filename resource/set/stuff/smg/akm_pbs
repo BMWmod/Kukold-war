@@ -1,0 +1,9 @@
+;Cold War
+{from "akm"
+	{tag "sd"}
+	{mass 3.5}      
+	{entity "akm_pbs"}
+	{fireSound	"smg/silent/abakan_shoot_sil"}
+	("smg_range")
+	
+}

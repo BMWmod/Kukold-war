@@ -1,0 +1,19 @@
+;Exported by: Timosh
+;Date:        Fri Jun 24 12:13:14 2022
+;File:        G:\?????? ? Pheonix\??????????????\??????\?????? ? ???????\???\usa_cottage_1st_2 final 1.max
+{Skeleton
+	{bone "usa_cottage1st_2land"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "usa_cottage1st_2land.ply"}
+		{bone "land"
+			{parameters "Land;CommonMesh;Ground;"}
+			{Position -15.3375	1.10244	-0.264503}
+			{visibility 0}
+			{VolumeView "land.ply" {Ground}}
+		}
+	}
+}

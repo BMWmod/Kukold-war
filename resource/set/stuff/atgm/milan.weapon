@@ -1,0 +1,24 @@
+{from "pattern proj_weapon_ground"
+	{tag "gun"}
+	{fillingVisible "rocket"}
+	{filling "ammo milan_rock" 1}
+	{fireSound "bazooka/milan"}
+	{reloadSound "chn/Metis_reload"}
+	{mass 45}
+	{rechargeTime 10}
+	{recoveryTime 5}
+	{inventory {noView}}
+	{maxRange 120}
+	{aimRange 120}
+	;{cursor "milan"}
+	;{cursorReloading "milan_reload"}
+	{cursor "cannon_on_heat_2"}	
+	{cursorReloading "cannon_reload_heat"}
+	;{cursorReloading "cannon_reload_heat_timer_30"}
+	("damage" a(1) b(1) c(1) d(1) e(1))
+	{projectileDamage 0}
+	{parameters "milan-er"
+             {maxRange 140}
+		{aimRange 140}
+	}
+}

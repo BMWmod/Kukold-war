@@ -1,0 +1,27 @@
+{weapon_bullet
+	;G-10с
+	{tag "weapon skill_airgun bullet"}	;"bullet" is needed for work of levelling and skills
+	{tag "weapon fg"}
+	{inventory
+		{noView}
+	}
+	{filling "ammo ft3" 5}
+	{fillingVisible "bombft3_"}
+	{fireSound "reactive/bomb"}
+	{recoveryTime 0.3}
+	{rechargeTime 160}
+	{range 230 240}	;16км
+	{cursor "Su252"}
+	{cursorReloading "zenite_reload"}
+	{automatic}
+	{gravity 0.21}
+	{speed 28}
+	{aimtype direct}
+	;{cursor "bomb_on"}
+	;{cursorReloading "cannon_reload_fg"}
+	{cursor "bomb_on_2"}
+	{cursorReloading "cannon_reload_fg"}
+	;{cursorReloading "cannon_reload_fg_timer_210"}
+	("accuracy_kab" kvo_meters(6))
+
+}

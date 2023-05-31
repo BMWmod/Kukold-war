@@ -1,0 +1,5 @@
+{game_entity
+	(include "/properties/construction.inc")
+	{ObstacleID "no_vehicles"}
+	{Extension "obstacle.mdl"}
+}

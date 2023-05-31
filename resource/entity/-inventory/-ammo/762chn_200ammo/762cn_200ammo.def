@@ -1,0 +1,12 @@
+;Model by Pheonix
+{game_entity
+	(include "/properties/stuff_small.ext")
+	{collider "ammo"}
+	{extender "stuff"
+		{item "762cn_200ammo"}
+	}
+	{Volume "body"
+		{thickness 2}
+	}
+	{Extension "762cn_200ammo.mdl"}
+}

@@ -1,0 +1,42 @@
+{game_entity
+	{Extension "puma_noptur_xx.mdl"}
+		{mass 40000}
+	{Volume "body1"
+		{tags "body"}
+		{component "body"}
+		{thickness 80}   
+	}
+	{Volume "body2"
+		{tags "body"}
+		{component "body"}
+		{thickness 80}   
+	}
+	{Volume "engine"
+		{tags "engine"}
+		{component "engine"}
+		{thickness 20}   
+	}
+	{Volume "shieldl1"
+		{thickness 10}   
+	}
+	{Volume "shieldl2"
+		{thickness 10}   
+	}
+	{Volume "shieldr1"
+		{thickness 10}   
+	}
+	{Volume "shieldr2"
+		{thickness 10}   
+	}
+	{Volume "trackleft"
+		{thickness 10}   
+	}
+	{Volume "trackright"
+		{thickness 10}   
+	}
+	{Volume "turret"
+		{tags "turret"}
+		{component "turret"}
+		{thickness 20}   
+	}
+}

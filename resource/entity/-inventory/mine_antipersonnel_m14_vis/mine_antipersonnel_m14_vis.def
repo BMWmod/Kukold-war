@@ -1,0 +1,5 @@
+{actor
+	(include "/properties/stuff_mine_vis.ext")
+	{Extension "mine_antipersonnel_m14.mdl"}
+	("damage_zone" r(0.5))
+}

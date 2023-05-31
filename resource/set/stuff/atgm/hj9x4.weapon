@@ -1,0 +1,18 @@
+{from "pattern proj_weapon_ground"
+	{tag "gun"}
+	{filling "ammo hj9_missile" 4}
+	{fireSound "bazooka/konkurs_launch"}
+	{fillingVisible "rocket"}
+	{mass 45}
+	{rechargeTime 30}	;время заряжания относительно маленькое из-за автоматического заряжания с укладок внутри машины
+	;После стрельбы нужно открыть перегрузочные лючки и привести башню в положение заряжания, после чего АЗ подцепит ракеты
+	{recoveryTime 5}	;Заявляется 2 выс/мин, но это с учетом времени полета ракеты.
+	{inventory {noView}}
+	{maxRange 165}
+	{aimRange 165}
+	;{cursor "zenite_on"}
+	;{cursorReloading "zenite_reload"}
+	{cursor "cannon_on_heat_2"}	
+	{cursorReloading "cannon_reload_heat"}
+	;{cursorReloading "cannon_reload_heat_timer_30"}
+}

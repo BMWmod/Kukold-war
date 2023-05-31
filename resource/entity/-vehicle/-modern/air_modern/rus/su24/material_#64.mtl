@@ -1,0 +1,5 @@
+{material simple
+	{diffuse "$/model/su-34/hibiny"}
+	{emitsheat}
+{blend none}
+}

@@ -1,0 +1,4 @@
+;Cold War
+{from "l85a3_scope_eotech"
+	{entity "l85a3_eotech_bipod"}
+}

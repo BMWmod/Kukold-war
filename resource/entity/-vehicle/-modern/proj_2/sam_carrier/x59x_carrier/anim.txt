@@ -1,0 +1,92 @@
+-= Animation: on_start, Node rul1 =-
+	Frame 10 {
+		Visibility 1
+		Position	50.7648	-4.143	4.08672
+		Orientation	-0.382683 0 0 0.92388
+	}
+	Frame 11 {
+		Orientation	-0.360855 0.0292468 -0.0956114 0.927247
+	}
+	Frame 12 {
+		Orientation	-0.344898 0.0626898 -0.187834 0.917515
+	}
+	Frame 13 {
+		Orientation	-0.33563 0.0992495 -0.274821 0.895531
+	}
+	Frame 14 {
+		Orientation	-0.333676 0.1377 -0.354898 0.862408
+	}
+	Frame 15 {
+		Visibility 1
+		Position	50.7648	-4.143	4.08672
+		Orientation	-0.339444 0.176703 -0.4266 0.819491
+	}
+-= Animation: on_start, Node rul3 =-
+	Frame 10 {
+		Visibility 1
+		Position	50.7648	3.93097	-3.90955
+		Orientation	0.92388 0 0 0.382683
+	}
+	Frame 11 {
+		Orientation	0.927247 -0.0956114 -0.029247 0.360855
+	}
+	Frame 12 {
+		Orientation	0.917515 -0.187834 -0.0626899 0.344899
+	}
+	Frame 13 {
+		Orientation	0.895531 -0.274821 -0.0992497 0.33563
+	}
+	Frame 14 {
+		Orientation	0.862408 -0.354898 -0.137701 0.333676
+	}
+	Frame 15 {
+		Visibility 1
+		Position	50.7648	3.93097	-3.90955
+		Orientation	0.819491 -0.4266 -0.176704 0.339444
+	}
+-= Animation: on_start, Node rul4 =-
+	Frame 10 {
+		Visibility 1
+		Position	50.7648	3.89212	4.12557
+		Orientation	0.382683 0 0 0.92388
+	}
+	Frame 11 {
+		Orientation	0.360855 -0.029247 -0.0956114 0.927247
+	}
+	Frame 12 {
+		Orientation	0.344899 -0.0626898 -0.187834 0.917515
+	}
+	Frame 13 {
+		Orientation	0.33563 -0.0992498 -0.274821 0.895531
+	}
+	Frame 14 {
+		Orientation	0.333676 -0.137701 -0.354898 0.862407
+	}
+	Frame 15 {
+		Visibility 1
+		Position	50.7648	3.89212	4.12557
+		Orientation	0.339444 -0.176704 -0.4266 0.819491
+	}
+-= Animation: on_start, Node rul2 =-
+	Frame 10 {
+		Visibility 1
+		Position	50.7648	-4.10415	-3.9484
+		Orientation	0.92388 0 0 -0.382683
+	}
+	Frame 11 {
+		Orientation	0.927247 -0.0956114 0.029247 -0.360855
+	}
+	Frame 12 {
+		Orientation	0.917515 -0.187834 0.0626899 -0.344899
+	}
+	Frame 13 {
+		Orientation	0.895531 -0.274821 0.0992498 -0.33563
+	}
+	Frame 14 {
+		Orientation	0.862408 -0.354898 0.137701 -0.333676
+	}
+	Frame 15 {
+		Visibility 1
+		Position	50.7648	-4.10415	-3.9484
+		Orientation	0.819491 -0.4266 0.176704 -0.339444
+	}

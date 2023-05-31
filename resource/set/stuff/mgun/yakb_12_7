@@ -1,0 +1,60 @@
+;Cold War
+{from "pattern mgun"
+	{tag "reliability_medium" "gun" "-mgun" "hmgun"}
+	{filling "ammo hcb_ammo" 300}
+	{curve "127rus_100"}
+	{fireSound "gun/YakB"}
+	{entity "YakB"}
+	("burst_long")
+	{reloadSound "ptrd"}
+	;{cursor "Mi24127"}
+	;{cursorReloading "zenite_reload"}
+	{cursor "cannon_on_ap_4"}
+	{cursorReloading "cannon_reload_ap"}
+	{mass 200}
+	
+	{Spreading	
+		{BurstAccuracy 100 97 94 90 87}
+	}
+
+	{range 110 110}
+
+	{rechargeTime 3.0}
+	{recoveryTime 0.02}
+	{speed 290}
+	
+	{aimingTolerance 1}
+
+	{healthDamage 199}
+	{projectileDamage 32}
+	;уменьшено пропорционально разнице энергий с НСВ (на 1-3мм)
+	{projectileDamageTable {10 26} {75 20} {105 10} {120 5} {140 3}} 
+	{calibre 12}
+	
+	("accuracy_open_sight"  moa(2.5))	;http://forum.guns.ru/forum_light_message/36/622154-m15267044.html
+	("accuracy_open_sight_85"  moa(2.5))
+	{parameters "7H34"
+		("accuracy_open_sight"  moa(2.5))
+		("accuracy_open_sight_85"  moa(2.5))
+		{projectileDamageTable {0 21} {75 15} {90 10} {120 4} {140 2}}	;http://www.lveplant.ru/pages_ru.php?id=32
+	}
+	{parameters "BS"
+		("accuracy_open_sight"  moa(2.5))
+		("accuracy_open_sight_85"  moa(2.5))
+		{projectileDamageTable {20 39} {75 31} {100 16} {122 8} {140 5}}	;http://www.lveplant.ru/pages_ru.php?id=33
+	            {cursor "cannon_on_apcr_4"}
+	            {cursorReloading "cannon_reload_apcr"}	
+	}
+	{parameters "MDZ"
+		("accuracy_open_sight"  moa(2.5))
+		("accuracy_open_sight_85"  moa(2.5))
+		{projectileDamageTable {0 5} {75 4} {120 3} {140 2}}
+	             {cursor "cannon_on_fg_12"}
+	             {cursorReloading "cannon_reload_fg"}	
+	}
+        {parameters "b32s"
+		("accuracy_open_sight"  moa(2.5))
+		("accuracy_open_sight_85"  moa(2.5))
+		{projectileDamageTable {10 26} {75 20} {105 10} {120 5} {140 3}}
+	}
+}

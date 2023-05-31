@@ -1,0 +1,108 @@
+{Skeleton
+	{animation
+		{sequence "close" {speed 0.5}}
+	}
+	{bone revolute "basis"
+		{speed 0.01}
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "emit1"
+			{Position -13.8951	9.3434	1.55034}
+		}
+		{bone "emit2"
+			{Position -13.8951	-6.95733	1.55035}
+		}
+		{bone "body"
+			{parameters "ID=body;"}
+			{Matrix34
+				0.999858	0.0168627	0
+				-0.0168627	0.999858	0
+				0	0	1
+				1.47365	2.14566	20.448
+			}
+			{VolumeView "body.ply"}
+			{bone "driver1"
+				{Position -8.01289	9.95379	-20.2052}
+			}
+			{bone "driver2"
+				{Position -8.01288	-7.36066	-20.2052}
+			}
+			{bone "object03"
+				{Position -3.03335	0.29315	-0.887135}
+				{VolumeView "object03.ply"}
+			}
+			{bone "object04"
+				{Position -0.438368	5.09589	-1.00257}
+				{VolumeView "object04.ply"}
+			}
+			{bone "object05"
+				{Position -0.406678	-4.58089	-1.1381}
+				{VolumeView "object05.ply"}
+			}
+			{bone revolute "turret"
+				{parameters "ID=turret;"}
+				{Position -1.32436	-0.0721753	0.625685}
+				{VolumeView "turret.ply"}
+				{bone "visor1"
+					{Matrix34
+						1	0	0
+						0	0	1
+						0	-1	0
+						-9.97193	-0.213147	7.76951
+					}
+				}
+				{bone "commander"
+					{Matrix34
+						0.984808	0.173648	0
+						-0.173648	0.984808	0
+						0	0	1
+						-13.1613	9.85977	-21.0108
+					}
+				}
+				{bone "gunner"
+					{Matrix34
+						0.996195	-0.0871557	0
+						0.0871557	0.996195	0
+						0	0	1
+						-15.772	0.214096	-20.9934
+					}
+				}
+				{bone revolute "mgun_rot"
+					{parameters "ID=mgun;"}
+					{limits -30 15}
+					{Matrix34
+						1	0	0
+						0	0	-1
+						0	1	0
+						-2.83442	-0.0368016	2.76956
+					}
+					{bone "mgun"
+						{parameters "ID=mgun;"}
+						{Matrix34
+							1	0	0
+							0	0	1
+							0	-1	0
+							5.27624	-3.09502	2.61997
+						}
+						{bone "foresight3"
+							{Matrix34
+								1	0	0
+								0	0	1
+								0	-1	0
+								16.8937	-2.49947	0.169239
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+{Volume "body"
+	{Polyhedron "body.vol"}
+	{Bone "body"}
+	{Position -1.15983	0.045503	0.42445}
+}

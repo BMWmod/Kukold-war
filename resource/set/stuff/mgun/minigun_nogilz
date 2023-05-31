@@ -1,0 +1,20 @@
+;Cold War
+{from "pattern mgun"
+	{tag "reliability_medium link_hmg"}
+	{filling "ammo 762Nato" 100}
+	{curve "762x51nato_120"}
+	{entity "minigun_nogilz"}
+	{fireSound	"mgun/minigun"}
+	{reloadSound "M240"}
+	{inventory
+		{size 7 2 }
+	}
+	{mass 20}
+	{recoveryTime 0.01}
+	{rechargeTime 0.01}
+	{healthDamage     100}
+	{speed 290}
+	{range 130 140}
+	("accuracy_open_sight"  moa(6))
+	("accuracy_open_sight_85"  moa(6))
+}

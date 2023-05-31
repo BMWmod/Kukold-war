@@ -1,0 +1,16 @@
+{game_entity
+	(include "/properties/building.inc")
+	{Extension "usa_cottage1st_1oven.mdl"}
+	{props "cornered" "concrete" "parts" "construction" "wall"}
+	("armor_heavy" args 0.8)
+	{Volume "body1"
+		{Tags  "body"}
+		{Thickness 30}
+		{able {visible 1}}
+	}
+	{Volume "body2"
+		{Tags  "body"}
+		{Thickness 30}
+		{able {visible 1}}
+	}
+}

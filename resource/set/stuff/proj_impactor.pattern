@@ -1,0 +1,11 @@
+{bullet
+	{tag "ammo ap rocketlauncher shell dropboxed low_speed proj_impactor"}
+	{inventory
+		{weight 100}
+		{size 2 1}
+	}	
+	{cumulative 3.1}
+	{mass 2.75}
+	
+	{possibleDamageRadius 4}
+}

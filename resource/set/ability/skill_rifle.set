@@ -1,0 +1,82 @@
+{"rifle" from weapon
+	{item "skill_rifle"}
+	;because sniper rifles have accuracy bonus 20%, all coefficients
+	;should be multiplied on 0,83 to achieve nominal accuracy with bonus
+	
+(define "accuracy"
+{accuracy (* 0.6 %a)}
+)
+(define "accuracy_v"
+{accuracy (* 1 %a)}
+)
+	
+    {level "lvl_1"
+        {stand
+            ("accuracy" a(0.5))
+        }
+        {squat
+            ("accuracy" a(0.58)) 
+        }
+        {crawl
+            ("accuracy" a(0.73)) 
+        }
+        {cover
+            ("accuracy" a(0.73))
+        }
+		{vehicle
+			("accuracy_v" a(0.65))
+		}
+    }
+    {level "lvl_2"
+        {stand
+            ("accuracy" a(0.61))
+        }
+        {squat
+            ("accuracy" a(0.71))
+        }
+        {crawl
+            ("accuracy" a(0.88))
+        }
+        {cover
+            ("accuracy" a(0.88))
+        }
+		{vehicle
+			("accuracy_v" a(0.80))
+		}
+    }
+    {level "lvl_3"
+        {stand
+            ("accuracy" a(0.73))
+        }
+        {squat
+            ("accuracy" a(0.86))
+        }
+        {crawl
+            ("accuracy" a(1.06))
+        }
+        {cover
+            ("accuracy" a(1.06))
+        }
+		{vehicle
+			("accuracy_v" a(0.86))
+		}
+    }
+    {level "lvl_4"
+        {stand
+            ("accuracy" a(0.85))
+        }
+        {squat
+            ("accuracy" a(0.98))
+        }
+        {crawl
+            ("accuracy" a(1.22))
+        }
+        {cover
+           ("accuracy" a(1.38))
+        }
+		{vehicle
+			("accuracy_v" a(1.38))
+		}
+    }
+
+}

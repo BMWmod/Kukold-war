@@ -1,0 +1,66 @@
+;Exported by: Timosh
+;Date:        Thu Jan 12 17:45:51 2023
+;File:        G:\?????? ? Pheonix\??????????????\??????\??????????\30x173 abm\30x173 abm.max
+{Skeleton
+	{bone "body"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "body.ply"}
+		{bone "tail"
+			{parameters "Voxels=0;"}
+			{Matrix34
+				-1	0	0
+				0	-1	0
+				0	0	1
+				-1.9962	0.0338107	0.0499046
+			}
+		}
+	}
+}
+{Volume "body"
+	{Box 6.19335 1.41728 1.52058}
+	{Bone "body"}
+	{Matrix34
+		1	0	0
+		0	0	1
+		0	-1	0
+		1.04943	-0.0858572	-0.0127938
+	}
+}
+{Volume "select"
+	{Box 5.98583 1.41732 1.51575}
+	{Bone "body"}
+	{Matrix34
+		1	0	0
+		0	0	1
+		0	-1	0
+		1.09514	-0.055457	0.0545499
+	}
+}
+{Extender "preview"
+	{"Stuff"
+		{camera
+			{origin 0.432693	-16.2935	-0.320267}
+			{lookat 1.21949	-1.06497	0.415794}
+			{fov 25}
+			{horizon 179.831}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 4.57405	-3.00898	12.0074}
+			}
+			{"1"
+				{type directional}
+				{direction -0.072524	0.378972	-0.317994}
+			}
+			{"2"
+				{type point}
+				{position -5.48308	-1.90808	8.77803}
+			}
+		}
+	}
+}

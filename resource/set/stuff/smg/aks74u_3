@@ -1,0 +1,32 @@
+;Cold War
+{from "pattern smg"
+	{tag "reliability_high sd"}
+              {entity "aks74u_3"}                     
+	{filling "ammo 545" 30}
+	{curve "545_60"}
+	{inventory
+		{size 3 2 }
+	}
+	{mass 2.7}
+	("smg_range_custom" k(0.8))
+	
+	{fireSound	"chn/Ak74S_burst/"}
+	{reloadSound "chn/AK74u_reload"}
+	{spreading
+		{SpreadRadius 1}
+		{SpreadPower	1.7}
+	}
+	{healthDamage 50}
+	{Automatic}
+	{recoveryTime 0.09}			; s
+	{rechargeTime 2.5}			; s
+	{burst
+		{short 2 1}
+		{long 6 2}
+{rangeKoef 0.444}
+	}	
+	("accuracy_open_sight"  moa(3.85))
+	("accuracy_open_sight_50"  moa(3.85))			
+	{cursor "aks74u"}
+	{cursorReloading "cannon_reload_all"}
+}

@@ -1,0 +1,18 @@
+{from "pattern fg"
+	{tag "big" "size4" "122to128fg" "fx_111_145" "bullet120_rus" "bullet120_2b11_mine"}
+	{tag "fg_120_shell"} ; только для ammo.set
+	{mass 13.9}
+	
+	{inventory
+		{size 4 1}
+	}	
+	{entity "120mm_dfb_fg_pll05"}
+	{view "120mm_dfb_fg_pll05"}
+	;ќколо  3.56 кг ¬¬  , масса мины 13.9 кг.
+	{tag "he_2to4_5"}
+{damage blastwave {energy 0.7} {area 10.1 11.6}}
+{damage add blastwave {energy 1.2} {area 8.5 9.8}}
+{damage add blastwave {energy 2.5} {area 4.9 5.6}}
+{damage add blastwave {energy 6.5} {area 2.1 2.4}}
+{damage add blastwave {energy 11} {area 0.3 0.3}}
+}

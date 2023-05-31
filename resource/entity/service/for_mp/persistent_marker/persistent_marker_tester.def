@@ -1,0 +1,46 @@
+{actor
+	{Simulation {Able 1}}
+	{props "obstacle_ignore_height"}
+	{lodclass "vehicle_small"}
+	{mass 1}
+	{Extension "persistent_marker.mdl"}
+	{PatherID "airborne"}
+	{collider "nothing"}
+	{props "vehicle"}
+	{obstacleID "nothing"}
+	{able "-select"}
+	{Volume "sensor" {Thickness 1} {able clear {obstacle 1}}}
+	{autooperatable 1}
+       {placer
+          {crew 0}
+          {place "driver" remove}
+       }
+	{brain "vehicle"
+		{state "vehicle"}
+		{const "crush/min_danger_zone_time" 	0.1}
+		{const "crush/min_danger_zone_length"	0.1}
+	}
+	{targetSelector "searchlight"}
+
+	{extender "inventory"
+		{box
+		}
+	}
+
+{sensor
+	{RecognizeTime 0.01}
+	{InformRange 200 200}
+}
+	{Weaponry
+		{place "tester"
+			{weapon "persistent_marker" filled}
+			{foresight "foresight"}
+			{charger "driver"}
+			{gunner "driver"}
+		}
+	}
+	{NoGetShadows}
+
+	{Extension "persistent_marker_tester.mdl"}
+
+}

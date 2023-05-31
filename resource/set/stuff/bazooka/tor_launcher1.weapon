@@ -1,0 +1,16 @@
+{from "pattern proj_weapon"
+	{tag "gun"}
+	{filling "ammo 9m330" 8}
+	{preloaded}
+	{ammoLocked}
+	{fireSound "bazooka/kub_Launch"}	
+	{mass 50}
+	{recoveryTime 7}
+	{rechargeTime 160}
+	{AimingTolerance 5}	;только для пассивного наведения
+	{inventory {noView}}
+	{maxRange 305}
+	{aimRange 305}
+	{cursor "zenite_on"}
+	{cursorReloading "zenite_reload"}
+}

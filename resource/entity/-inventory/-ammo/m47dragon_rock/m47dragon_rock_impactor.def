@@ -1,0 +1,11 @@
+{actor
+	(include "/properties/projectile_impactor.ext")
+	{extension "m47dragon_rock.mdl"}
+	{props "projectile_impactor"}
+	{extender "stuff"
+		{item "m47dragon_rock_impactor"}
+	}
+	{volume "body"
+		{able {contact} {bullet} {blast} {contact_ground}}
+	}
+}

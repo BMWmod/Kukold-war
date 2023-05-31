@@ -1,0 +1,25 @@
+{from "pattern rpg_weapon"
+	
+	{filling "ammo heat_apilas" 1}
+	{fillingVisible "roket"}
+	{preloaded}
+	{ammoLocked}
+	{inventory
+		{size 6 1}
+	}
+        {maxRange 75}	;http://weaponland.ru/load/granatomet_apilas/64-1-0-285
+						;https://defence.pk/pdf/threads/apilas-anti-tank-rocket-launcher.490099/
+	{aimRange 75}
+	{entity "apilas"}
+;	("damage" a(300) b(300) c(300) d(300) e(300))
+	{mass 4.7}
+	{speed 45}	;293м/с - много для РПГ, не ошибка ; speed гранаты x1.5 (25.02.21)	
+	{gravity 0.4}
+	{reactive 0}
+	{calibre 5}
+	;{cursor "PZF3"}
+	{cursor "cannon_on_heat"}
+	{fireSound "bazooka/apilas_shot"}
+	("accuracy_optic_rpg"  moa(8.00))
+	;Данных по точности нет, но скорость и заявляемые прицельные дальности - как у РПГ-29
+}

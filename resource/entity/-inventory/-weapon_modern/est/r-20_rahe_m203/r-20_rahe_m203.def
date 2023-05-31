@@ -1,0 +1,15 @@
+{actor
+	(include "/properties/stuff_weapon.ext")
+	{Extension "r-20_rahe_m203.mdl"}
+	{extender "stuff"
+		{item "r-20_rahe"}
+	}
+}
+
+
+
+
+
+
+
+

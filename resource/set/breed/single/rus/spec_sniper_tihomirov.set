@@ -1,0 +1,30 @@
+{breed	
+	{behaviour soldier}
+	{hero}
+	{skin "cw_rus_sso_multicam"}
+	{portrait "_new/spec_sniper_Tihomirov"}
+	{icon "snipers"}
+	{icon_priority 2}
+	{tags "sniper2"}
+	{nationality rus}
+	{armors
+		{head cap_panama}
+	}
+
+	(include "perks_generic.inc")
+	("traits_elite_sniper")
+	{perks
+		{"field_glass"}
+		{"stealth"}
+	}
+	{inventory
+		{item "lbt6094_rus_marksman"}
+		{item "bandage" 15}
+		{item "plant"}
+		{item "knife_rus"}
+		{item "rgd grenade" 2}
+		{item "vintorez"}
+		{item "vin_ammo ammo" 180}
+		{in_hands 5}
+	}
+}

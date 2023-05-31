@@ -1,0 +1,7 @@
+{actor
+	(include "/properties/stuff_small.ext")
+	{Extension "radar.mdl"}
+	{extender "stuff"
+		{item "rus_radar"}
+	}
+}

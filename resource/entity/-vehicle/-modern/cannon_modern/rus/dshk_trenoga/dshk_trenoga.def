@@ -1,0 +1,89 @@
+{actor
+	(include "/properties/cannon_mgun_mod.ext")
+	(include "/properties/shadow/tank.inc"  scale(0.3))
+{props "collectable" "vision_lev01_can"}
+	("cw_armor_mgun")
+	{extender "stuff"
+		{item "kord_stan"}
+	}
+	{extender "inventory"
+		{weapon "mgun"
+			{mask "weapon mgun"}
+		}
+		{box
+			{Size 7 8}
+			{weight 400}
+			{item "Dshk_m" filled {user "mgun"}}
+			{item "ammo hcb_ammo" 600}
+			{item "plant" 3}
+		}	
+	}
+	{Weaponry
+		{place "mgun_rot"
+			{LinkBone "mgun_rot"}
+			{Rotate}
+		}
+	}
+{boarder
+	{anm "gunner"
+		{forward	{end "lie_fire_pistol"}}
+	}
+	{anm "commander"
+		{forward	{end "lie_take_item_end"}}
+	}
+	{anm "driver1"
+		{forward {end "mgun_browning_driver_r"}}
+	}
+	{anm "driver2"
+		{forward {end "mgun_browning_driver_l"}}
+	}
+	{link "driver1" "gunner"}
+	{link "driver2" "commander"}
+}
+{extender "cannon"
+	{animation
+		{switch "close"}
+		{move "mgun_browning_driver_r" "mgun_browning_driver_l"}
+		{aim "" ""}
+		{fire  "" ""}
+		{reload  "" "lie_take_small end lie_take_item_end"}
+	}
+	{animation
+		{switch close}
+	}
+	{attack {workers "gunner" "commander"}}
+}  	
+	{Extension "dshk_trenoga.mdl"}
+	("missile_aimpoint_stansize")
+
+	{Volume "stan1"
+		{tags "body" "part"}
+		{able{obstacle 0}}
+		{thickness 7}
+		{component "body"}
+	}
+	{Volume "stan2"
+		{tags "body" "part"}
+		{able{obstacle 0}}
+		{thickness 7}
+		{component "body"}
+	}
+	{sensor 
+		{visor "commander"
+			{vision "cannon_crew"}
+			{bone "basis"}
+		}
+	}
+{Volume "select"
+		{able{obstacle 0} {Bullet 0} {Contact 0} {Select 1} {Blast 0} {Overlap 0} {Touch 1} {Contact_ground 0}}
+	}
+
+	{bone "mgun_rot"
+		{limits -10 10}
+	}
+	{bone "basis"
+		{limits}
+	    	{speed 0.01}
+	}
+	{mass 16}
+}

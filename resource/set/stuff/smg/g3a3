@@ -1,0 +1,25 @@
+;Cold War
+{from "pattern smg"	;поздняя G3A3 с пластиковым цевьем http://www.smallarmssurvey.org/fileadmin/docs/weapons/SAS-weapons-rifles-Heckler-Koch-G3.pdf
+	{tag "reliability_high"}	;http://www.dogswar.ru/strelkovoe-oryjie/avtomaty/989-shtyrmovaia-vintovka.html
+	{filling "ammo 762x51_x20" 20}
+	{curve "762x51nato_70"}
+	{preloaded}
+	{inventory
+		{size 5 2}
+	}
+	{entity "g3a3"}
+	{mass 4.4}
+	("smg_range")
+	
+	{burst
+		{short 2 1}
+		{long 6 2}
+        {rangeKoef 0.444}
+	}
+	{fireSound "smg/hk_g3"}
+	{reloadSound "G3_reload"}
+	{healthDamage 114}
+	{recoveryTime 0.11}
+	("accuracy_open_sight"  moa(4.13))	;https://en.wikipedia.org/wiki/Heckler_%26_Koch_G3
+	;120mm/100m R50 for common G3A3, 80mm/100m (2.75 MOA) for G3A3ZF with telescopic sight.
+}

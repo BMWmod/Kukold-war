@@ -1,0 +1,39 @@
+{from "pattern proj_weapon_ground"
+	{tag "gun"}
+	{fillingVisible "rocket"}
+	{filling "ammo fagot_concurs" 1}
+              {fireSound "bazooka/konkurs_launch"}
+	{reloadSound "chn/Metis_reload"}
+	{mass 7}
+	{rechargeTime 15}
+	{inventory {noView}}
+	;{cursor "Fagot"}
+	;{cursorReloading "Fagot_reload"}
+	{cursor "cannon_on_heat_2"}
+	{cursorReloading "cannon_reload_heat"}
+	;{cursorReloading "cannon_reload_heat_timer_30"}
+	("damage" a(1) b(1) c(1) d(1) e(1))
+	{projectileDamage 0}
+
+	{parameters "9m113"
+        {maxRange 150}  ; 3 км с переносных ПУ. 4 км с 9П148.
+		{aimRange 150}	;но https://missilery.info/missile/concursm
+		;дает для более новой 9П135М1 все же автоматический полет на 4 км
+	}
+	{parameters "9m113m"
+        {maxRange 150}
+		{aimRange 150}
+	}
+	{parameters "9m113m1"
+        {maxRange 150}
+		{aimRange 150}
+	}
+	{parameters "9m111m"
+        {maxRange 130}	;http://btvt.narod.ru/4/fagot.htm
+		{aimRange 130}
+	}
+	{parameters "9m111"
+        {maxRange 120}
+		{aimRange 120}
+	}
+}

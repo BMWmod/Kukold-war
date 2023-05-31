@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "$/model/man/man_ammo"}
+	{blend none}
+}

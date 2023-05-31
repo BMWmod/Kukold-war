@@ -1,0 +1,32 @@
+{from "pattern proj_weapon_ground"	
+	{tag "rocketlauncher" "to_hand ap" "cannot_lie" "nokeep" "AA_missile"}
+	{entity "stinger"}	
+	{tag "gun" "AA_missile" "-low_speed"}
+	{filling "ammo fim-92a_ammo" 1}	
+	{fillingVisible "rocket"}	
+	{foresight "Foresight3"}        
+	{fireSound "bazooka/Stinger_shot"}	
+	{reloadSound "chn/Metis_reload"}
+	{mass 5.6};вики	
+	{rechargeTime 20}
+	{inventory
+		{size 6 2}
+	}
+	{maxRange 140}   ;4500-4800м для E,F,J.моделируется FIM-92E Stinger - RMP Блок I или вариант J.	
+	{aimRange 208}	;дальность предварительного наведения
+	;{cursor "zenite_on"}
+	;{cursorReloading "zenite_reload"}
+	;{cursor "cannon_on_aa"}
+	{cursor "cannon_on_pzrk"}
+	{cursorReloading "cannon_reload_fg"}
+	;{cursorReloading "cannon_reload_fg_timer_20"}
+}
+;http://rbase.new-factoria.ru/missile/wobb/stinger/stinger.shtml - в некоторых источниках указывается до 8 км что вызывает сомнения!
+;http://www.designation-systems.net/dusrm/m-92.html - 8 км для РМП Блок 2 - что подтверждается другими источниками.
+;http://raytheon.mediaroom.com/2015-03-31-Raytheon-awarded-35-million-Stinger-contract-for-Republic-of-Korea-delivery
+;В настоящий момент в производстве поддерживается только Блок - 1
+;
+;
+;
+;
+;

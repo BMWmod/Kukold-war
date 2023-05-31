@@ -1,0 +1,29 @@
+{actor
+	(include "/properties/projectile.ext")
+	{Extension "atgm_carrier_forward.mdl"}
+	{props "tandem"}
+	("missile_placer" missile("switchblade300_impactor_link") country(usa) type(other) calibre(76)
+	speed(slow) guidance(prop_switchblade300))
+	("maneuvrability_cwps3" deg_per_s(90))
+	{sensor
+		{Visor "add"
+			{vision "aircraft_optic_IR_1g"}
+			{bone "missle_foresight"}
+		}
+	}
+	;("cwps_top_attack")
+	("allow_manual_control")
+	("targetable_missile")
+	{Volume "missile1"
+		{Cylinder (* 0.01 76) 80}
+		{Bone "missile_point"}
+		{Matrix34
+			0	0	-1
+			0	1	0
+			1	0	0
+			24.5	0	0
+		}
+	}
+	{Volume "missile1" {able clear {contact 1}}}
+
+}

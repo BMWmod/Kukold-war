@@ -1,0 +1,18 @@
+{actor
+	(include "/properties/stuff_mine.ext")
+	{Extension "mine_antitank_dm21.mdl"}
+	{props "mine_antitank"}
+	{extender "stuff"
+		{item "mine antitank_dm21"}
+	}
+	{extender "mine"
+		{time 10}	;Сложная и долгая установка
+	}
+	{collider "mine.at"}
+	{Obstacle "body"
+		{Circle2
+			{Radius 20}
+		}
+	}
+	("mine_camera" scale(1.0))
+}

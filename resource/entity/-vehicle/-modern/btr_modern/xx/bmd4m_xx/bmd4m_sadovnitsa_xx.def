@@ -1,0 +1,29 @@
+{game_entity  
+	{Extension "bmd4m_sadovnitsa_xx.mdl"}
+	{Volume "body1"
+		{tags "body"}
+		{component "body"}
+		{thickness 10}
+	}
+	{Volume "body2"
+		{tags "body"}
+		{component "body"}
+		{thickness 10}
+	}
+	{Volume "turret"
+		{tags "turret"}
+		{component "turret"}
+		{thickness 10}
+	}
+	{Volume "trackleft"
+		{tags "trackleft"}
+		{component "trackleft"}
+		{thickness 10}
+	}
+	{Volume "trackright"
+		{tags "trackright"}
+		{component "trackright"}
+		{thickness 10}
+	}
+{mass 20000}
+}

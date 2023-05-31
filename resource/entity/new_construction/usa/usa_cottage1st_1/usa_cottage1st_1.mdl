@@ -1,0 +1,47 @@
+;Exported by: Timosh
+;Date:        Tue Jun 21 18:37:53 2022
+;File:        G:\?????? ? Pheonix\??????????????\??????\?????? ? ???????\???\???????????? ??????????? ???????\cottage1 final.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "1"
+			{Position -39.3701	78.7402	0}
+		}
+		{bone "2"
+			{Position 39.3701	78.7402	0}
+		}
+		{bone "4"
+			{Position 39.3701	0	0}
+		}
+		{bone "3"
+			{Position -39.3701	0	0}
+		}
+		{bone "6"
+			{Position 39.3701	-59.0551	0}
+		}
+		{bone "5"
+			{Position -39.3701	-59.0551	0}
+		}
+		{bone "7"
+			{Position -88.5827	-59.0551	0}
+		}
+		{bone "8"
+			{Position -88.5827	0	0}
+		}
+		{bone "9"
+			{Position -88.5827	59.0551	0}
+		}
+		{bone "10"
+			{Position 9.10695	-84.4092	0}
+		}
+		{bone "11"
+			{Position -79.6426	36.412	0}
+		}
+		{bone "land"
+		}
+	}
+}

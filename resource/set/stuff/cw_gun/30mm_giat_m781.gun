@@ -1,0 +1,52 @@
+{from "pattern gun_air"     ; Tiger
+	
+	{filling "bullet30_USA" 50}
+	{fireSound "gun/giat_30"}
+	{reloadSound "61k_reload"}
+;=====================
+	{AimingTolerance 3}
+	{Automatic}
+	{recoveryTime 0.08}			
+	{rechargeTime 0.08}
+	{spreading
+		{spreadradius 	1}
+		{SpreadXYRatio	1.1}
+		{SpreadPower	1.2}
+		{BurstAccuracy 300 300 300 300 300 200 200 200 150 150 150 150 100} ; т.к. включен параметр {BurstRecoveryTime 0.5}
+	}
+	{burst
+		{min 0}
+		{short 3 1}
+		{long 5 2}
+	}
+	{RelaxationTime 1}
+;	{cursor "Apach2"}
+;	{cursorReloading "zenite_reload"}
+;=====================
+	{SpreadTolerance 0.5}
+	{range 120 120}
+	("speed" s(810))
+	("37-57caliber")
+	{calibre 30}
+	{speed 170}
+	("CW_acc_common" mils(2.5))
+	("CW_acc_common_100" mils(2.5))
+	; a - 20, b - 50, c - 80, d -100, e - 120
+	;{cursor "cannon_on_fg_2"}
+	{cursor "cannon_on_fg_13"}
+	{cursorReloading "cannon_reload_fg"}
+	{parameters "ap"
+		("CW_small_AP_damage" penetr_1000m(11))	
+		;{cursor "cannon_on_ap_2"}
+		{cursor "cannon_on_ap_5"}
+		{cursorReloading "cannon_reload_ap"}
+	}
+	{parameters "cm"
+		("damage4" a(46) b(46) c(46) d(46) e(46)) 
+		;{cursor "cannon_on_ap_2"}
+		;{cursorReloading "cannon_reload_ap"}
+		{cursor "cannon_on_heat_9"}
+		{cursorReloading "cannon_reload_heat"}	
+	}
+           
+}

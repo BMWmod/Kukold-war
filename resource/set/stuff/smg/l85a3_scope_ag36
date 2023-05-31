@@ -1,0 +1,5 @@
+;Cold War
+{from "l85a3_scope"
+	{mass 4.3}       
+	{entity "l85a3_scope_ag36"}
+}

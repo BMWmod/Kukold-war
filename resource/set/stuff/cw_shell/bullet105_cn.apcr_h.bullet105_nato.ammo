@@ -1,0 +1,13 @@
+{from "pattern apcr"
+	{tag "big" "size2" "big_apcr" "big_apcr_h" "pierce" "bullet105_NATO" "bullet105_USA_apcr_h" "fx_90_110" "fx_ap"}
+	{inventory
+		{size 5 1}
+	}	
+	{mass 18.8}
+	{entity "shell_chi_bta2_105mm"}
+	{view "apcr_fly" {tail "apcr_guiders" "body"}}
+	{trace
+		{view "/texture/fx/trace" {ScaleY 0.2}}
+		{length 2}
+	}
+}

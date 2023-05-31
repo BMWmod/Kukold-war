@@ -1,0 +1,20 @@
+{from "pattern proj_weapon"
+		
+	{tag "AA_missile_2gen"}	
+	{filling "ammo 9m311" 8}
+	{fillingVisible "Cap-Roke"}	
+	{foresight "Foresight1"}       
+        	{fireSound "bazooka/9M311_shot"}	
+        	{mass 30}	
+        	{recoveryTime 2}
+	{rechargeTime 160}	
+	{inventory {noView}}
+        
+	{maxRange 185}   ;8000м для варианта не-М, 10 000 для Кортик-М только, но он на новых кораблях после 2007г
+	{aimRange 230}	;дальность предварительного наведения
+	
+	;{cursor "zenite_on"}
+	;{cursorReloading "zenite_reload"}
+	{cursor "cannon_on_aa"}
+	{cursorReloading "cannon_reload_fg"}
+}

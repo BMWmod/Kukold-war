@@ -1,0 +1,33 @@
+;Cold War
+{from "pattern smg"
+	{filling "ammo 9mm" 30} 
+	{curve "9x19_40"}
+	{tag "sd reliability_high"}
+	{mass 2.77} 
+	{inventory
+		{size 3 2}
+	}   
+	{entity "cz_scorpion_evo3_1a"}
+	{fireSound	"smg/cz_scorpion_evo3_1a/"}
+	{reloadSound "M16_reload"}
+	{speed 260}	
+
+	{recoveryTime 0.08} ;800
+        {rechargeTime 3}
+
+	{cursor "czscorpion"}
+	{cursorReloading "cannon_reload_all"}
+	("smg_range_custom" k(0.5))
+	
+	{inventory
+		{size 3 2 }
+	}
+	{burst
+		{short 2 1}
+		{long 6 2}
+{rangeKoef 0.444}
+	}
+	{healthDamage 38}
+	("accuracy_open_sight"  moa(2.8))	;https://www.gunsweek.com/en/rifles/articles/cz-and-czech-school-gunmaking-international-days
+	("accuracy_open_sight_63"  moa(2.8))	;https://www.gunsweek.com/en/rifles/articles/cz-and-czech-school-gunmaking-international-days
+}

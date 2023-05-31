@@ -1,0 +1,8 @@
+{material simple
+	{diffuse "$/model/Humve_M998/m998_exterior_w_co"}
+	{blend none}
+}
+
+
+
+

@@ -1,0 +1,89 @@
+{from "pattern gun_air"
+	{filling "25x137" 220}
+        
+	{fireSound "gun/GAU22"}
+	{reloadSound "61k_reload"}
+;=====================
+	{AimingTolerance 3}
+	{Automatic}
+	{recoveryTime 0.04}			
+	{rechargeTime 0.04}
+	{burst
+		{min 1}
+		{short 4 1}
+		{long 12 2}
+	}
+;	{cursor "m242_APCR"}
+;	{cursorReloading "m242_APCR_reload"}
+;=====================
+	{range 120 120}
+	("speed" s(1160))
+	{speed 180}
+	{calibre 25}
+
+	;точность GAU-22 порядка 1.4 мрад, разброс на 2 км - 2,8м или 1,4 т.д.
+	{spreading 
+;		{radiusTable 
+;			{0 0.01} 
+;			{20 (* 0.07 6)} 
+;			{40 (* 0.29 6)} 
+;			{50 (* 0.36 6)} 
+;			{70 (* 0.7 6)} 
+;			{100 (* 1.39 6)} 
+;			{130 (* 2.09 6)} 
+;		}
+		{BurstAccuracy 300 300 300 300 300 200 200 200 150 150 150 150 100} ; т.к. включен параметр {BurstRecoveryTime 0.5}
+;		{SpreadPower	1.7}
+;		{SpreadXYRatio	1.0}
+	}
+	("CW_acc_common" mils(2.5))	;https://www.gd-ots.com/products-services/armaments/aircraft-guns-gun-systems/gau22a/
+	("CW_acc_common_100" mils(2.5))	;https://www.gd-ots.com/products-services/armaments/aircraft-guns-gun-systems/gau22a/
+	; a - 20, b - 50, c - 80, d -100, e - 120 
+;	("damage4" a(88) b(66) c(50) d(44) e(37))   
+	("CW_small_AP_damage" penetr_1000m(63)); 25мм, но на 10% медленнее
+	;{cursor "cannon_on_ap"}
+	{cursor "cannon_on_ap_5"}
+	{cursorReloading "cannon_reload_ap"}
+    {parameters "fg"
+		("CW_acc_common" mils(2.5))
+		("CW_acc_common_100" mils(2.5))
+		;{cursor "m242_he"}
+		;{cursorReloading "m242_he_reload"}	;оценка
+		;{cursor "cannon_on_fg"}
+		{cursor "cannon_on_fg_13"}
+		{cursorReloading "cannon_reload_fg"}
+	}
+        {parameters "bullet25_fr fg"
+		("CW_acc_common" mils(2.5))
+		("CW_acc_common_100" mils(2.5));оценка
+		;{cursor "m242_he"}
+		;{cursorReloading "m242_he_reload"}	
+		;{cursor "cannon_on_fg"}	
+		{cursor "cannon_on_fg_13"}
+		{cursorReloading "cannon_reload_fg"}
+	}
+        {parameters "bullet25_fr ap"
+		("CW_acc_common" mils(2.5))
+		("CW_acc_common_100" mils(2.5));оценка
+	    ("CW_small_APCR_damage_WC" penetr_1000m(65))	;M935A2
+		;{cursor "m242_APCR"}
+	    ;{cursorReloading "m242_APCR_reload"}	
+		;{cursor "cannon_on_ap"}
+		{cursor "cannon_on_ap_5"}
+		{cursorReloading "cannon_reload_ap"}
+	}
+        {parameters "bullet25_USA_a ap"
+		("CW_acc_common" mils(2.5))
+		("CW_acc_common_100" mils(2.5))
+		("CW_small_AP_damage" penetr_1000m(15))	;PGU-32
+		;{cursor "m242_he"}
+		;{cursorReloading "m242_he_reload"}	;оценка
+		;{cursor "cannon_on_ap"}
+		{cursor "cannon_on_ap_5"}
+		{cursorReloading "cannon_reload_ap"}
+	}
+}
+
+
+           
+

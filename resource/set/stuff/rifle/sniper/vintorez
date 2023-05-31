@@ -1,0 +1,37 @@
+;Cold War
+{from "pattern sniper_rifle"
+("scope")
+
+	{tag "sniper sd reliability_medium"}
+	{filling "ammo Vin_ammo" 10}
+	{curve "9x39_60"}
+	{preloaded}
+	{Automatic}
+	{mass 2.6}
+	{inventory
+		{size 4 2}
+	}
+	{entity "Vintorez"}
+	{special
+		{mode aim}
+		{PrepareTime 2.0}
+		{PrepareCursor "aimed_shot"}
+		{damage 3} ; damage *= x
+		{accuracy 1.2} ; aim_range *= x
+		;{throw_off}
+	}
+	("marksman_range_custom" k(0.6))
+	{fireSound "rifle/vintorez/"}
+	{reloadSound "chn/VSS_Reload"}
+	{healthDamage 80};doubled damage - without it too low damage
+	{Automatic}
+	{reloadSound "enfield"}
+	{recoveryTime 0.10}
+	;{cursor "optic_pso2"}
+	;{cursorReloading "optic_pso2_reload"}
+	{cursor "sniper"}
+	{cursorReloading "cannon_reload_all"}
+	{rechargeTime 3.5}
+	("accuracy_optic_sight"  moa(2.5))
+	("accuracy_optic_sight_70"  moa(2.5))
+}

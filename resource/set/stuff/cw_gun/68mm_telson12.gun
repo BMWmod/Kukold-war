@@ -1,0 +1,32 @@
+﻿;Created by Pheonix 
+{from "pattern gun_air"     
+   	{gravity 3}
+	{filling "bullet68_FR" 12}
+	{fireSound "reactive/Hydra70/"}
+	;{burst {min 2} {noaiming}}
+	{recoveryTime 0.05}
+	{rechargeTime 200}
+	{range 150 150}
+	("speed" s(600)) 
+				("CW_acc_heli" mils(8))
+;https://en.wikipedia.org/wiki/CRV7
+;Это близкая к Гидре ракета родственной конструкции, 
+;поэтому мы тоже примем рассеяние самолетной Гидры за 4, а вертолетной - за 8.
+    ;{cursor "NUR2"}
+	;{cursorReloading "zenite_reload"}
+	;{cursor "cannon_on_fg_4"}
+	{cursor "cannon_on_fg_14"}
+	{cursorReloading "cannon_reload_fg"}
+	;{cursorReloading "cannon_reload_fg_timer_200"}
+    {parameters "sm"
+		;{cursor "cannon_on_sm_0"}
+		{cursor "cannon_on_sm"}
+		{cursorReloading "cannon_reload_sm"}
+	}
+    {parameters "cm"
+		;{cursor "cannon_on_heat"}
+		{cursor "cannon_on_heat_10"}
+		{cursorReloading "cannon_reload_heat"}
+		;{cursorReloading "cannon_reload_heat_timer_200"}
+	}
+}			

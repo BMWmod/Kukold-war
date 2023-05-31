@@ -1,0 +1,35 @@
+;Cold War
+{from "pattern smg"
+	{entity "val_1"}
+	{tag "sd reliability_medium"}                    
+	{filling "ammo Vin_ammo" 20}
+	{curve "9x39_60"}
+	{inventory
+		{size 3 2}
+	}
+	{mass 2.5}
+	("smg_range_custom" k(0.8))
+	
+	{fireSound	"chn/val_burst/"}
+	{reloadSound "chn/dragunov_reload"}
+
+	{healthDamage 95}
+	{HealthDamageClip 95}
+	{ProjectileDamageClip 0.4}
+	{Automatic}
+	{recoveryTime 0.07}			
+	;{cursor "optic_pka"}
+	;{cursorReloading "optic_pka_reload"}			; s
+	{rechargeTime 2.5}			; s
+	{burst
+		{short 2 1}
+		{long 6 2}
+{rangeKoef 0.444}
+	}	
+	{healthDamage 74};doubled damage - without it too low damage
+	("holo")
+("accuracy_collimator"  moa(4.5))
+	("accuracy_collimator_50"  moa(4.5))
+	{cursor "val"}
+	{cursorReloading "cannon_reload_all"}
+}

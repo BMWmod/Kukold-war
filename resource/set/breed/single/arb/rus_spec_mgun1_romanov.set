@@ -1,0 +1,28 @@
+{breed
+	{behaviour soldier}
+	{hero}
+	{skin "cw_ssoarb_arb2"}
+	{portrait "_new/spec_mgun1_Romanov"}
+	{icon "mgs"}
+	{icon_priority 0}
+	{nationality rus}
+	{armors
+		{head lshz1plus_sso}
+	}
+
+	(include "perks_generic.inc")
+	("traits_elite_mgun")
+	{perks
+		{"field_glass"}
+		{"stealth"}
+	}
+	{inventory
+		{item "lbt6094_rus_mgun"}
+		{item "rgd grenade" 3}
+		{item "bandage" 15}
+		{item "knife_rus"}
+		{item "pkm"}
+		{item "pkm_ammo ammo" 600}
+		{in_hands 4}
+	}
+}

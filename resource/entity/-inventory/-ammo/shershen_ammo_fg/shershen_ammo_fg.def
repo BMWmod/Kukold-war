@@ -1,0 +1,7 @@
+{game_entity
+	(include "/properties/Projectile_ammo.ext")
+	{Extension "shershen_ammo_cm.mdl"}
+	{extender "stuff"
+		{item "shershen fg ammo"}
+	}
+}

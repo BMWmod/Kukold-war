@@ -1,0 +1,24 @@
+{from "pattern proj_weapon_ground"
+	{tag "gun"}	
+	{filling "ammo 9k115-2" 1}
+	{rechargeTime 10}
+	{inventory
+		{size 5 2}
+	}
+	{aimRange 120}
+	{maxRange 120}
+	{mass 15}
+	{fireSound "bazooka/Metis_shot"}
+	{reloadSound "chn/Metis_reload"}
+	;{cursor "optic_ptrk_metis"}
+	;{cursorReloading "optic_ptrk_metis_reload"}
+	{cursor "cannon_on_heat_2"}	
+	{cursorReloading "cannon_reload_heat"}
+	;{cursorReloading "cannon_reload_heat_timer_15"}
+	("damage" a(1) b(1) c(1) d(1) e(1))
+	{projectileDamage 0}
+	{parameters "cm_e"
+        {maxRange 110}
+		{aimRange 110}
+	}
+}

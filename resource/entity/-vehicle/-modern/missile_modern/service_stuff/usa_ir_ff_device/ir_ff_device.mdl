@@ -1,0 +1,60 @@
+;Exported by: Администратор
+;Date:        Tue Aug 02 21:15:24 2011
+;File:        G:\Работа с Pheonix\Редактирование\Мои модели\ЛЦУ\Иконки\ЛЦУ\laser_ammo.max
+{Skeleton
+	{bone "plane01"
+		{parameters "CommonMesh;"}
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "plane01.ply"}
+	}
+}
+{Extender "preview"
+	{"Stuff"
+		{camera
+			{origin -0.434589	-0.512663	-6.02821}
+			{lookat -0.144328	-0.228103	-1.98921}
+			{fov 45}
+			{horizon -135.044}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position -2.95319	1.96548	-0.121223}
+			}
+			{"1"
+				{type directional}
+				{direction 0.374129	0.303176	0.13458}
+			}
+			{"2"
+				{type point}
+				{position 2.09831	-1.82905	0.228309}
+			}
+		}
+	}
+	{"Stuff_primary"
+		{camera
+			{origin -0.434589	-0.512663	-6.02821}
+			{lookat -0.144328	-0.228103	-1.98921}
+			{fov 45}
+			{horizon -135.044}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position -2.95319	1.96548	-0.121223}
+			}
+			{"1"
+				{type directional}
+				{direction 0.374129	0.303176	0.13458}
+			}
+			{"2"
+				{type point}
+				{position 2.09831	-1.82905	0.228309}
+			}
+		}
+	}
+}

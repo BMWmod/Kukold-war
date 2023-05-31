@@ -1,0 +1,200 @@
+;Created by Pheonix
+{ArmoredCar 
+	(include "/properties/tank_amph.ext")
+	(include "/properties/shadow/tank.inc"  scale(1.2))
+	(include "/properties/selection/vehicle.inc"  scale(1.2))
+	
+	{collider "tank.light"}
+	{props "light_M" "turret_rotator" "bmp3_common" "amphibia" "vision_lev04" "can_paradrop_il-76td" "has_autoloader" "cw_panorama" "3_barrels_smoke"}
+	{PatherID "amphibia"}
+        {targetClass "light_tank"}
+
+	{extension "crew.ext"}
+	{extender "enumerator"}
+	{extender "vision_mode"
+		;only one {timer_object} is supported at the moment for vision_mode extender.
+		{timer_object
+			{tag		"thermal"}  ; -> only thermal, night or drone are supported right now
+			{active_time	   36000}  ;Sec 
+			{recharge_rate	  0.5}  ;Factor * game time -> only valid for type "recharge"
+			;{cooldown		   10}  ;Sec -> Only valid for type "consume" or "switch"
+			{type	     "recharge"}; -> only recharge, consume or switch are supported right now
+	    }
+	}
+
+	{volume "body1"
+		{tags "body"}
+		{component "body"}
+	}
+	{volume "body2"
+		{tags "body"}
+		{component "body"}
+	}
+;http://btvt.narod.ru/raznoe/vbtt_1991_bmp31.htm
+;Применяется 2 типа брони - стальная БТ-70Ш (RHA неизв, предп. 1) и АБТ-102 (RHA 0.56)
+;Лоб башни 16+70 возд +25=40/60, ставим 50
+;Крыша башни 9мм, борта и корма 21мм
+
+;крыша и ВЛД 8-9мм, днще 5, ставим 8
+;НЛД 10+70мм возд +30=40/60 , СЛД 10+70 возд +12+30=52/72 , в среднем лоб корпуса 46/66 или 56
+;Борт - скула борта 30мм, верх 21мм, низ 21мм, можно оставить 25мм
+
+;В результате подробного рассмотрения на Phglobal выяснено, что почти наверняка толщину 13мм имеет только нижний кормовой лист (из-за малой площади им пренебрегаем).
+;Кормовые двери слишком толсты для 13мм, вплоть до того, что некоторые крепежные болты даже не проходят ее насквозь.
+
+	("armor_IFV" turret(50 21 21 9) body(56 25 25 11))
+	("armor_engine"  t(20))
+
+
+
+	{extender "shield"
+		{on}
+	}
+	{component "shieldl1" {tags "shield"}} 
+ 	{component "shieldr1" {tags "shield"}} 
+	{component "shieldl6" {tags "shield"}}
+	{component "shieldr6" {tags "shield"}}
+	{component "shieldl2" {tags "shield"}}
+	{component "shieldr2" {tags "shield"}}
+	{component "shieldl3" {tags "shield"}}
+	{component "shieldr3" {tags "shield"}}
+	{component "shieldl4" {tags "shield"}}
+	{component "shieldr4" {tags "shield"}}
+	{component "shieldl5" {tags "shield"}}
+	{component "shieldr5" {tags "shield"}}
+	{component "shieldr7" {tags "shield"}}
+	{component "shieldl7" {tags "shield"}}
+	{component "shieldr8" {tags "shield"}}
+	{component "shieldl8" {tags "shield"}}
+	{component "shieldr9" {tags "shield"}}
+	{component "shieldl9" {tags "shield"}}
+	{component "shieldr10" {tags "shield"}}
+	{component "shieldl10" {tags "shield"}}
+
+
+	("shield_t-64a_1981")
+
+	{extender "inventory"
+		{box
+			{item "ammo pkm_ammo" 5250}
+			{item "ammo bullet30_RUS ap" 170}
+			{item "ammo bullet30_RUS fg" 300}
+			{item "ammo bullet100a_RUS fg" 34}
+			{item "ammo bullet100a_RUS_h fg" 5}
+			{item "ammo bullet100a_RUS rok" 8}
+			{item "rpg26 weapon" 4 filling "rpg26 ammo" 1}	
+			{item "rpg7_og-7v rpg7 ammo" 4}
+		}
+	}
+	{Weaponry
+		("restore_ik_time")
+		{place "gun"
+			{weapon "100mm_2a70_1" filling "ammo bullet100a_RUS fg" 1}
+			{gunner "gunner"}
+			{charger "gunner"}
+			("CW_stab_abm" abm(0.68))
+			("CW_stab_ld_suo")
+			{basic}
+		}
+		{place "gun1"
+			{RestoreIKAfterAim}
+			{weapon "30mm_2A72" filling "ammo bullet30_RUS ap" 30}
+			{foresight "foresight6"}
+			{gunner "gunner"}
+			{charger "gunner"}
+			{basic}
+			("CW_stab_abm" abm(0.68))
+			("CW_stab_ld_suo")
+		}
+		{place "mgun"
+			{weapon "pkt" filled}
+			{type "mgun_coaxial"}
+			{foresight "foresight3"}
+			{gunner "gunner"}
+			{charger "gunner"}
+			{basic}
+			("CW_stab_abm" abm(0.84))
+			("CW_stab_ld_suo")
+		}
+		{place "mgun1"
+			{RestoreIKAfterAim}
+			{type "mgun_hull"}
+			{weapon "pkt" filled}
+			{foresight "foresight4"}
+			{gunner "driver"}
+			{charger "driver"}
+			("CW_stab_no_stabiliser")
+		}
+		{place "mgun2"
+			{RestoreIKAfterAim}
+			{type "mgun_hull"}
+			{weapon "pkt" filled}
+			{foresight "foresight5"}
+			{gunner "driver"}
+			{charger "driver"}
+			("CW_stab_no_stabiliser")
+		}
+		{place "mgun17"			
+			{type "mgun_left"}
+			{weapon "6xsmokegun_btr" filled}
+			{gunner "gunner"}
+			{charger "gunner"}
+			{foresight "foresight21"}
+			{barrels 6}
+		;	{basic}
+		}
+		{place "mgun18"			
+			{type "mgun_right"}
+			{weapon "6xsmokegun_btr" filled}
+			{gunner "gunner"}
+			{charger "gunner"}
+			{foresight "foresight20"}
+			{barrels 6}
+		;	{basic}
+		}
+	}	
+	{sensor
+		{visor "panorama"
+		    {bone "Visor3"}
+			{vision "tank_gunner_optic_IR_2g"}
+		}
+		{visor "main"
+		    {bone "Visor1"}
+			{vision "tank_gunner_optic_IR_3g"}   ;Содема http://www.kurganmash.ru/machines/bmp3u/fire_power/sodema/
+		}
+		{visor "mgun1"
+			{vision "vehicle_main"}
+		    {bone "Visor4"}
+		}
+		{visor "mgun2"
+			{vision "vehicle_main"}
+		    {bone "Visor5"}
+		}
+	}
+
+	{mass 18700}
+	{Chassis
+                ("tank_trace" fx("tracks_sm") step(0.15) len(0.7))
+		{Locomotion ("CW_track_moveparam" 
+			Mass(18.7)
+			Width(3.3)
+			Power(500)
+			Realspeed(70)
+			Gamespeed(43) 
+		)
+		{RearGears		0.2 0.42}}
+		("CW_fuelbag" Range(600) Fuelvolume(670))
+		("CW_speed_lev" Gamespeed(43))
+	}
+	{props "cwfs_fuel_400"}
+
+	("CW_amphibia" Waterline(1.4) )
+	("two_headlights")
+	{Extension "bmp3_3.mdl"}
+	("missile_aimpoint_tanksize")
+
+	("cwts_buksir")
+	("CW_turr_speed" deg_per_s(35))
+}
+
+

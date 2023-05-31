@@ -1,0 +1,46 @@
+﻿{weapon_bullet
+	{tag "gun cannot_lie nokeep"}
+	{filling "40x53ammo" 30}
+             	
+	{foresight "Foresight3"}
+	{fireSound "reactive\mk19_shot"}
+	{reloadSound "ags_reload"}
+	{cursor "cannon_on"}
+	{inventory
+		{size 6 2 }
+		{link_bone "gun_back"}
+		{weight 100}
+	}
+
+	{Spreading 2	
+		{BurstRecoveryTime 1.0}
+	}
+	{burst
+		{short 1 1}
+		{long 2 1}
+	}
+	{Automatic}
+
+        	 {maxRange 125}	;http://ucrazy.ru/interesting/1194936863-avtomaticheskij_granatomet_mk19_mark_19_ssha.html
+	 {aimRange 125}
+	 {recoveryTime 0.16}
+	 {rechargeTime 5}
+	 {speed 65}	;	;примерно, но больше АГС-30
+	 ;http://www.dtic.mil/ndia/2009infantrysmallarms/thursdaysessionviiiCorriveau.pdf
+	 ;Точность системы снаряд-орудие (без учета поправок на ветер и с прецизионной установкой угла возвышения) выходит Вб/Вв в т.д. на 300м 0,93/0,64, на 1000м 1,05/1,11
+	 ;ветер 2 м/с дает приблизительно 2 mils (1 mils на 1000м), с ним выходит 2,25 на 1000
+	{gravity 1.7}
+	 ("CW_acc_grlaunch" mils(2.25))	
+	 ("CW_acc_grlaunch_105" mils(2.25))	
+	{Spreading	
+		{BurstAccuracy 75 50 45 40 35}
+	}
+
+	{cursor "cannon_on_fg_3"}
+	{cursorReloading "cannon_reload_fg"}
+             {parameters "cm"     
+		;{cursor "cannon_on_heat_3"}
+		{cursor "cannon_on_heat_6"}
+		{cursorReloading "cannon_reload_heat"}
+	}	
+}

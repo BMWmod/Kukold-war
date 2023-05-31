@@ -1,0 +1,27 @@
+{from "pattern proj_weapon_ground"
+		
+	{tag "AA_missile_2gen" "prepare"}
+    {Special
+		{Mode aim}
+		{PrepareTime 0}
+		{PrepareCursor "aimed_shot_aa"}
+	}	
+	{filling "ammo 9m311" 8}
+	{fillingVisible "Cap-Roke"}	
+	{foresight "Foresight1"}       
+        	{fireSound "bazooka/9M311_shot"}	
+        	{mass 30}	
+        	{recoveryTime 4}	;не более 1 ракеты одновременно
+	{rechargeTime 160}	
+	{inventory {noView}}
+        
+	{maxRange 185}   ;8000м для варианта A	
+	{aimRange 230}	;дальность предварительного наведения
+	
+	;{cursor "zenite_on"}
+	;{cursorReloading "zenite_reload"}
+	{cursor "cannon_on_aa"}
+	{cursorReloading "cannon_reload_fg"}
+	;{cursor "mistral"}
+	;{cursorReloading "cannon_reload_fg_timer_160"}
+}

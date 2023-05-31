@@ -1,0 +1,21 @@
+{action
+	{target ground}
+	{cursor "mine"}
+	{fx "flashred"}
+	{item "shgr56"}
+	{item_in_box}
+	{button "set_grenademine_shgr56"}
+	{ShowCount}
+	{abledrag}
+	{instructions
+		{bind range 1}
+		{disable_action_restart}
+		{take_item}
+		{reserve_hands}
+		{animations "squat_repair_1 squat_repair_2" random loop totaltime 5}
+		{fsm_request "ground-drop"}
+		{unreserve_hands}
+		{install "grenade_mine_shgr56" 0 exact_placement}
+		{fsm_request nocheck "hold-nothing"}
+	}
+}

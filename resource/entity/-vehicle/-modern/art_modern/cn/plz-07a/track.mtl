@@ -1,0 +1,16 @@
+{material bump
+	{diffuse "$/model/plz-07b/track"}
+	{bump "$/model/plz-07b/track_bp"}
+	{specular "$/model/plz-07b/track_sp"}
+	{color "230 230 230 25"}
+	{blend none}
+}
+
+
+
+
+
+
+
+
+

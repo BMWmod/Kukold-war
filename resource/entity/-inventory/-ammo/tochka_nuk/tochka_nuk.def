@@ -1,0 +1,11 @@
+{game_entity
+	(include "/properties/stuff_small.ext")
+				(include "/properties/shadow/round.inc")
+	{collider "ammo"}
+
+	{props "steel" "explosive_stuff"}
+	{Extension "tochka_y.mdl"}
+	{extender "stuff"
+		{item "tochka_nuk"}
+	}
+}

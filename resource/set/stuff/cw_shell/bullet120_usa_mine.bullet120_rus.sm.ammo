@@ -1,0 +1,31 @@
+{bullet
+	{tag "big" "size4" "shell" "mortar_smoke" "mortar" "bullet120_2b11_mine" "-sm" "120mm_nona" "bullet120_NATO_mine" "no_ricochet"  "fx_wp_med"}
+	{mass 14}
+	
+	{inventory
+		{size 4 1}
+		{weight 70}
+	}
+
+	{entity "bullet120_USA_mine_sm"}
+	{view "bullet120_USA_mine_sm"
+		{tail "tail"}
+	}	
+	{detonationThickness 1}
+	;M929 2.4 кг снаряжения. масса мины  14,06 кг.
+	{damage blastwave	 ; fragmentary
+		{energy 0.7}
+		{area 1.2 1.3}
+	}
+	{damage add blastwave	 ; HE antipersonnel
+		{energy 1.2}
+		{area 0.5 1}
+	}
+	{damage add fire   ;в качестве дымообразуего вещества выступает фосфор
+			{radius 4}
+			{heating 0.5}
+			{time 10}
+	}
+
+}
+;https://bulletpicker.com/pdf/TM%2043-0001-28,%20Artillery%20Ammunition.pdf#page=524

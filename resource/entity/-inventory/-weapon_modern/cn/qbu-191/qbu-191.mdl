@@ -1,0 +1,84 @@
+;Exported by: Kasutaja
+;Date:        Sun Oct 30 14:55:02 2022
+;File:        D:\??????? ????\??? GEM2\????????? 3? ??????? Cold War ?????????\Cold War 2010\?????? ? Pheonix\??????????????\??????\?????? ??????\QBU-191\3d\QBU-191 3ds max.max
+{Skeleton
+	{bone "qbu-191"
+		{parameters "CommonMesh;"}
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{LODView
+			{VolumeView "qbu-191.ply"}
+			{VolumeView "qbu-191_lod1.ply"}
+			{VolumeView "qbu-191_lod2.ply"}
+			{VolumeView "qbu-191_lod3.ply"}
+		}
+		{bone "optic"
+			{Matrix34
+				0	-1	0
+				0	0	-1
+				1	0	0
+				3.19104	3.07454	0.0457874
+			}
+			{VolumeView "optic.ply"}
+		}
+		{bone "handle"
+			{parameters "Voxels=0;"}
+			{Matrix34
+				1	0	0
+				0	0.00574522	-0.999983
+				0	0.999983	0.00574522
+				7.73314	2.74009	0.0616905
+			}
+		}
+		{bone "foresight3"
+			{parameters "Voxels=0;"}
+			{Position 13.5961	1.9455	0.0988529}
+		}
+		{bone "fxshell"
+			{parameters "Voxels=0;"}
+			{Matrix34
+				-0.00526824	0	0.999986
+				0.999969	0.0057991	0.00526815
+				-0.00579902	0.999983	-3.07595e-05
+				3.2708	2.12488	0.310141
+			}
+		}
+	}
+}
+{Volume "body"
+	{Polyhedron "body.vol"}
+	{Bone "qbu-191"}
+	{Position 7.41202	1.95376	-0.748766}
+}
+{Volume "select"
+	{Polyhedron "select.vol"}
+	{Bone "qbu-191"}
+	{Position 7.50055	1.71814	-0.313453}
+}
+{Extender "preview"
+	{"Stuff"
+		{camera
+			{origin 5.40355	-3.80865	26.5253}
+			{lookat 4.94636	-1.55632	1.64755}
+			{fov 45}
+			{horizon -177.044}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 15.2754	-2.6666	1.90596}
+			}
+			{"1"
+				{type directional}
+				{direction -0.0800069	0.187578	-0.456523}
+			}
+			{"2"
+				{type point}
+				{position -2.93825	-2.06022	0.336589}
+			}
+		}
+	}
+}

@@ -1,0 +1,27 @@
+;Cold War
+{from "pattern smg"
+	{tag "reliability_high"}
+	{filling "ammo 545" 30}
+	{curve "545_70"}
+	{mass 3.6}      
+	{entity "ak74b"}
+	{fireSound	"chn/Ak74_burst/"}
+	{reloadSound "chn/ak74"}
+	{speed 280}	
+
+	{recoveryTime 0.10}
+    {rechargeTime 2.5}
+
+
+	("smg_range")
+	
+	{burst
+		{short 2 1}
+		{long 6 2}
+		{rangeKoef 0.555}
+	}
+	{healthDamage 68} 
+	("accuracy_open_sight"  moa(3.2))
+	{cursor "ak74"}
+	{cursorReloading "cannon_reload_all"}
+}

@@ -1,0 +1,75 @@
+;Created by Pheonix
+{ArmoredCar 
+	(include "/properties/tank_amph.ext")
+	(include "/properties/shadow/tank.inc"  scale(1.1))
+	(include "/properties/selection/vehicle.inc"  scale(1.1))
+
+	{props "Light_M" "turret_rotator" "vision_lev04_spa" "has_autoloader" "cw_artillery" "6_barrels_smoke"}
+	{targetClass "light_tank"}
+	{extender "enumerator" {digit_folder "pla"}}
+        {extension "crew.ext"}
+
+	("armor_light" turret(15 15 15 8) body(15 15 15 8))
+	("armor_engine"  t(20))
+
+	{extender "inventory"
+		{box
+			{Size 8 7}
+			{weight 3000}
+			{item "ammo bullet122_cn fg" 29}
+			{item "ammo bullet122_cn cl" 10}
+			{item "ammo bullet122_cn rok" 10}
+		}
+	}
+		{Weaponry
+			{place "gun"
+				{weapon "122mm_PL96" filling "ammo bullet122_cn fg" 1}	
+				{RestoreIKAfterAim}
+			("CW_stab_artillery")
+		}
+		
+	}	
+	{sensor
+		{visor "main"
+			{vision "tank_gunner_optic_IR_2g"}
+		}
+		{visor "add"
+			{vision "tank_gunner_optic_IR_2g"}
+			{bone "visor3"}
+		}
+		{visor "bok"
+			{vision "vehicle_main"}
+			{bone "visor4"}
+		}
+		{visor "bok2"
+			{vision "vehicle_main"}
+			{bone "visor5"}
+		}
+	}
+	{mass 24500}
+	{Chassis
+                ("tank_trace" fx("tracks_sm") step(0.15) len(2.0))
+		("CW_tracks"
+			Mass(24.5)
+			Width(3.2)
+			Power(550)
+			Realspeed(65)
+			Gamespeed(41) 
+			Range(500)
+			Fuelvolume(600)
+		)
+	}
+	{props "cwfs_fuel_600"}
+
+
+	("two_headlights")
+	{Extension "plz-07a.mdl"}
+	("missile_aimpoint_tanksize")
+        ("recoil_side_common")
+	("CW_turr_speed" deg_per_s(18))
+	("cwts_buksir")
+}
+
+
+
+

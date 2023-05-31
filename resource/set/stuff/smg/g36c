@@ -1,0 +1,31 @@
+;Cold War
+{from "pattern smg"
+	{tag "reliability_medium"}
+	{filling "ammo 556Nato" 30} ;556
+	{curve "556_60"}
+	{mass 2.8}        
+	{entity "g36c"}
+	{fireSound	"smg/g36c/"}
+	{reloadSound "g36_reload"}
+	{speed 260}	
+
+	{recoveryTime 0.08} ;700-900
+        {rechargeTime 3.5}
+	{inventory
+		{size 3 2}
+	}
+
+	{cursor "g36"}
+	{cursorReloading "cannon_reload_all"}
+	("smg_range_custom" k(0.8))
+	
+
+	{burst
+		{short 2 1}
+		{long 6 2}
+{rangeKoef 0.444}
+	}
+	{healthDamage 70}
+	("accuracy_open_sight"  moa(3.4))
+	("accuracy_open_sight_63"  moa(3.4))
+}

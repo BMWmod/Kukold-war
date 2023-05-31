@@ -1,0 +1,8 @@
+{actor
+	(include "/properties/stuff_small.ext")
+	{extension "QBU-191.mdl"}
+	{extender "stuff"
+		{item "QBU-191"}
+	}
+	{nogroupmesh 1}
+}

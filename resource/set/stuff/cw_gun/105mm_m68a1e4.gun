@@ -1,0 +1,6 @@
+;Created by Pheonix 
+{from "105mm_M68"    ; m1128
+        {fireSound "gun/m68"}
+	{reloadSound "t80_reload"}
+	{rechargeTime 7.7}
+}

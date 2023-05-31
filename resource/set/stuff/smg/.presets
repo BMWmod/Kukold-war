@@ -1,0 +1,73 @@
+(include "\set\small.firearms.accuracy")
+
+(define "speed"   
+	{speed (* 0.5 %s)}  
+)
+
+(define "recoveryTime"   
+	{recoveryTime (/ 60 %r)}
+)
+(define "smg_range"
+    {aimRange 75}
+	{maxRange 75}
+)
+(define "smg_range_optic"
+    {aimRange 85}
+	{maxRange 85}
+)
+(define "smg_range_custom"
+    {aimRange (* 75 %k)}
+	{maxRange (* 75 %k)}
+)
+(define "smg_range_optic_custom"
+    {aimRange (* 85 %k)}
+	{maxRange (* 85 %k)}
+)
+(define "burst_short"
+	{burst
+		{short 2 1}
+		{long 6 2}
+{rangeKoef 0.555}
+	}
+)
+
+(define "burst_medium"
+	{burst
+		{short 2 1}
+		{long 6 2}
+{rangeKoef 0.555}
+	}
+)
+
+(define "burst_long"
+	{burst
+		{short 2 1}
+		{long 6 2}
+{rangeKoef 0.555}
+	}	
+)
+(define "skr"   
+	{recoveryTime(* 0.625 %recoveryTime)}
+)
+(define "holo"
+;CtA only
+;	{thirdpersonparams inherit "human default"
+;		{level 2
+;			{camera "human_zoom3"}
+;			{scope_vignette "/texture/common/environment/lens_effects/zoom_vignette_infantry_02"}
+;			{vignette_gloss 50}
+;			{offset		3.0 2.25 0.75	}
+;			{hide_weapon 1}
+;			{with_owner
+;				{viewoff 	"fps_arms"	}
+;			}
+;			{with_weapon
+;				{viewon		"foresight3"}
+;				{viewoff	"fx_light"	}
+;			}
+;			{hide_crosshair}
+;			{weapon_sway_active}
+;		}
+;	}
+)
+

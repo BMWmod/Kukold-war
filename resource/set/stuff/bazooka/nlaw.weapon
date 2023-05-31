@@ -1,0 +1,21 @@
+{from "pattern proj_weapon_ground"
+	{tag "rocketlauncher" "to_hand ap" "cannot_lie" "nokeep"}
+
+	{filling "ammo nlaw_rocket" 1}
+	{preloaded}
+	{ammoLocked}
+	{inventory
+		{size 5 1}
+	}
+	{aimRange 90}
+	{maxRange 90}	;https://saab.com/land/weapon-systems/support-weapons/nlaw/
+	{speed 32} ; speed гранаты x1.5 (25.02.21)	
+	{gravity 0}
+	{entity "nlaw"}
+	{mass 12.5}
+	{fireSound "bazooka/nlaw_shot"}
+	;{cursor "zenite_on"}
+	;{cursorReloading "zenite_reload"}
+	{cursor "cannon_on_heat_2"}
+	{cursorReloading "cannon_reload_heat"}
+}

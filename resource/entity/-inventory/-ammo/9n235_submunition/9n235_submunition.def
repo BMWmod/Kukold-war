@@ -1,0 +1,11 @@
+{actor
+	(include "/properties/stuff_grenade.ext")
+	{Extension "9n235.mdl"}
+	{props "submunition"}
+	{extender "stuff"
+		{item "9n235 submunition"}
+	}
+	{volume "body"
+		{able clear {contact} {contact_ground}}
+	}
+}

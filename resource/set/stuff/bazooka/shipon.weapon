@@ -1,0 +1,22 @@
+{from "pattern rpg_weapon"
+	
+	{filling "ammo rocket_shipon_at_af" 1}
+	{preloaded}
+	{ammoLocked}
+	{inventory
+		{size 5 1}
+	}
+	{aimRange 75}
+	{maxRange 75}
+	{calibre 5}
+	{entity "shipon"}
+	{mass 6.7}
+	{speed 62}
+	{gravity 0.4}
+	{reactive 0}
+	{cursor "cannon_on_heat"}
+	{fireSound "reactive/grnd_launch"}
+	("accuracy_optic_rpg"  moa(8))
+	("accuracy_optic_rpg_60"  moa(8))
+}
+; speed гранаты x1.5 (25.02.21)	

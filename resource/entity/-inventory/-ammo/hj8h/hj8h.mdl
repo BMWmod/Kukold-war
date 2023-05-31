@@ -1,0 +1,55 @@
+;Exported by: Timosh
+;Date:        Sun Apr 18 06:56:50 2021
+;File:        G:\?????? ? Pheonix\??????????????\??????\?????????\HJ-8\HJ8 ?????????\??????.max
+{Skeleton
+	{bone "hj8h"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "hj8h.ply"}
+		{bone "tail"
+			{Matrix34
+				-1	0	0
+				0	-1	0
+				0	0	1
+				-13.2986	0.20056	0
+			}
+		}
+	}
+}
+{Volume "body"
+	{Box 25.7298 3.41627 3.61271}
+	{Bone "hj8h"}
+	{Position 0	0.20056	0.267898}
+}
+{Volume "select"
+	{Box 30.1039 5.53435 5.92484}
+	{Bone "hj8h"}
+	{Position 0	0.20056	0.432198}
+}
+{Extender "preview"
+	{"Stuff"
+		{camera
+			{origin 0.00372721	-50.3586	0.460975}
+			{lookat -0.0116485	-4.62055	0.424847}
+			{fov 31.7555}
+			{horizon -0.170174}
+		}
+		{lights
+			{"0"
+				{type directional}
+				{direction -0.0457979	0.45561	-0.200804}
+			}
+			{"1"
+				{type point}
+				{position -15.5248	1.12692	7.12268}
+			}
+			{"2"
+				{type point}
+				{position 12.1526	-4.54145	-3.70485}
+			}
+		}
+	}
+}

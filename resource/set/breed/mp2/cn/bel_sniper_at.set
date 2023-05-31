@@ -1,0 +1,70 @@
+{breed
+	{skin "cw_bel_gilly"}
+	{portrait "_new/bel/inf"}
+	{icon snipers}
+	{icon_priority 1}
+	{tags "sniper2"}
+	{nationality rus}
+	{perks
+		{"vision" mp_sniper
+		}
+		{"smg" lvl_2
+		}
+		{"mgun" lvl_2
+		}
+		{"rifle" lvl_3
+		}
+		{"rocketlauncher" lvl_2
+		}
+		{"pistol" lvl_3
+		}
+		{"gra_launch" lvl_2
+		}
+		{"melee" lvl_2
+		}
+		{"avoidance" lvl_2
+		}
+		{"health" "180%"
+		}
+		{"health_regeneration" "100%"
+		}
+		{"stamina" "100%"
+		}
+		{"stamina_regeneration" "100%"
+		}
+		{"speed" 0.8
+		}
+		{"telescope"}
+		{"aimedshot"}
+		{"field_glass"}
+		{"skill_tankgun" lev_1
+		}
+		{"skill_atgm_launcher" lev_1
+		}
+		{"skill_airgun" lev_1
+		}
+		{"skill_airgm_launcher" lev_1
+		}
+	}
+	{veterancy
+		{"lvl_1" 1
+		}
+		{"lvl_2" 2
+		}
+		{"lvl_3" 4
+		}
+		{"lvl_4" 6
+		}
+		{"lvl_5" 8
+		}
+	}
+	{inventory
+		{item "bandage" 15}
+		{item "vssk_vyhlop" filling "vssk_ammo ap ammo" 5}
+		{item "vssk_ammo ap ammo" 25}
+		{item "6b23-1_6sh92"}
+		{item "cap_wool"}
+		{item "vssk_ammo sn ammo" 25}
+		{in_hands 1}
+	}
+}

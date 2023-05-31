@@ -1,0 +1,88 @@
+{tags
+	{"00" "Mortars!Take cover!"}
+	{"01" "Radioman, contact with the HQ, report about the attack. Everybody, prepare to fight!"}
+	{"02" "Tower, Tower, this is Panpipe, we're attacked, position 34-176, 204-25"}
+	{"03" "Tower to Panpipe, got it, report situation. "}
+	{"04" "Tower, this is Panpipe, we're under mortar fire from the town, it's likely to be an attack."}
+	{"05" "Understood, sending support team, move to the south if possible."}
+	{"06" "Affirmative, Tower, we will act according to the situation."}
+	{"07" "I see rats at the bridge!"}
+	{"08" "Looks like the rats are over. the mortars are working again ... Tower, this is Panpipe, where is the support team?"}
+	{"09" "Your area is swarming with militants, heavy weapons detected, support team will probably be delayed. A pair of attack aircraft is sent to help you."}
+	{"10" "Good, waiting for them."}
+	{"11" "Shahid on the road!"}
+	{"12" "Umar, try to scout the way of departure. We may not be able to hold this position for a long time."}
+	{"13" "Ok, Russian friend, we are moving forward."}
+	{"14" "Hill to Tower, arrived to 34-176, 204-25. "}
+	{"15" "Tower, this is Dew, arrived near Panpipe position."}
+	{"16" "Accepted Dew. Clear the militants from the area adjacent to the road so that we can send the Typhoons."}
+	{"17" "Accepted Tower, working."}
+	{"18" "This is Tower, to all troops in the square 34-176, 204-25, a large group of armored vehicles is heading to your zone! Take defencive positions and old on, we’ll provide fire support soon!"}
+	{"19" "This is Hundred One, heads down, I'm attacking!"}
+	{"20" "This is Hundred One, Hill, Panpipe, armor is done, following attacks with your target designation."}
+	{"21" "Accepted Hundred One, wait for targets."}
+	{"22" "No, there is no way to go, the jackals are here."}
+	{"23" "Here everything is blocked, jackals will not let us pass."}
+	{"24" "They have tanks here. We won't pass."}
+	{"25" "No way here, enemy can shoot us from the other side."}
+	{"26" "Listen, Russian friend, there is nowhere to go, jackals have surrounded us. Tanks and cars are everywhere."}
+	{"27" "Umar, come back. Radioman, ask the Tower."}
+	{"28" "Tower, I Panpipe, we will not be able to get out by our own, all directions are blocked by terrorists"}
+	{"29" "Got it, Panpipe, support is on the way."}
+	{"30" "Hill, check the area for the presence of air defense. Disable any AA weapons you'll find. Attack aircraft will come soon."}
+	{"31" "Accepted, Tower, working."}
+	{"32" "This is Holl, an anti-aircraft gun near the village is destroyed."}
+	{"33" "Tower, this is Panpipe, we've left this damn village"}
+	{"34" "Gorka, Gorka, this is Tower, large nenemy force has been detected by drone just now. Hurry up, men, leave the town!"}
+	{"35" "You have about 15 minutes while the VKS are above their positions."}
+	{"36" "Understood you, Tower, we will speed up!"}
+	{"37" "This is Dew, adjacent area is clear."}
+	{"38" "Accepted, Dew, the column is moving."}
+	{"39" "Shahid on the tank!"}
+	{"40" "The tower, we have a downed pilot. We need to pull him out first, we can still hold on."}
+	{"41" "The attempt to land the aircraft will be perceived as a command to return to the base. After 6 minutes, the attack aircraft will return to base."}
+	{"aviabk0" "This is Hundred One, ammo out, heading to the base. Hold on there! Will be back soon."}
+	{"bomb1" "Bomb strike"}
+	{"bomb2" "Drop 4x FAB-250"}
+	{"bombing" "Hundred One, in combat"}
+	{"bombing2" "Hundred One, bombs away"}
+	{"bombing21" "Hundred Two, in combat"}
+	{"bombing22" "Hundred Two, bombs away"}
+	{"date" " 20 September, 2017"}
+	{"ejpilot" "Evaquate downed pilots along with the rest of the fighters."}
+	{"fail" "A platoon of the Russian military police and the SAA unit have been fully destroyed as a result of the militant attack. The SSO group attempting to unblock the area has suffered heavy losses and has reached to the blockpost too late. This battle was the most serious defeat and at the same time the heaviest loss of the Russian armed forces in Syria for the entire campaign."}
+	{"hii" "The reconnaissance of the adjacent territories must be performed by the commander of the SAA unit Umar Abbas."}
+	{"intro" "Syrian Arab Republic, military police observation post. Idlib and Hama provinces border"}
+	{"launch1" "Hundred One, missile away"}
+	{"name" "Trap"}
+	{"name_big" "Trap"}
+	{"nar" "Hundred One, rocket strike done"}
+	{"nar1" "Assault airstrike"}
+	{"nar2" "Salvo of unguided rockets С-8"}
+	{"nar3" "Hundred Two, rocket strike done"}
+	{"outro_completed" "The military of Russia and Syria successfully left the area"}
+	{"outro_failed" "Mission failed!"}
+	{"pilot_down" "Damn, I'm shot down!"}
+	{"place" "Syria, Idlib and Hama provinces border"}
+	{"rocket" "Precision strike"}
+	{"rocket2" "Hit on target with X-25ML guided missile"}
+	{"su25" "Su-25 support"}
+	{"su25_1_1" "PanPipe, Hill, Dew, I am Hundred Three, entered the area, waiting for target designation."}
+	{"su25_1_2" "I am leaving to the base."}
+	{"su25_2_1" "This is Hundred Three, ready to strike."}
+	{"su25_2_2" "That's it, I'm leaving. Good luck, guys!"}
+	{"timer" "Leave the area before the arrival of the terrorists!"}
+	{"win" "The platoon of the military police and the Specops of the Russian Federation, as well as the units of the SAA, have safely left the area without suffering serious losses during the battle. Great job."}
+	{"zad1" "Arrange defense, take cover to avoid mortar fire"}
+	{"zad1dop" "Do not suffer serious losses"}
+	{"zad2" "Repel terrorist attacks"}
+	{"zad3" "Scout out the escape route"}
+	{"zad3d1" "Check the western part of the village"}
+	{"zad3d2" "Check the center of the village"}
+	{"zad3d3" "Check the northern part of the village"}
+	{"zad3d4" "Explore the possibility of withdrawal across the river"}
+	{"zad4" "Leave the area"}
+	{"zadkom" "Alexander Samoilov and Umar Abbas must survive"}
+	{"zadsso" "Do not suffer large losses among the Specops"}
+	{"zadvihod" "Bring all Russian and CAA soldiers to a safe place."}
+}

@@ -1,0 +1,7 @@
+;Cold War
+{from "qbb95"
+	{entity "qbb95_scope"}
+	{curve "58x42_100"}
+	("mg_range_optic")
+	("accuracy_optic_sight"  moa(3))
+}

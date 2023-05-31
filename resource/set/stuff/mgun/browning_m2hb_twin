@@ -1,0 +1,43 @@
+;Cold War
+{from "pattern mgun"
+	{tag "reliability_medium not_for_human"}
+	{entity "browning_m2hb"}
+	{filling "ammo 50Nato" 200}
+	{curve "_50nato_120"}
+	{fireSound	"mgun/50cal_new"}
+	{inventory 	{handle_bone "handle_box"}}
+	{inventory
+		{size 6 2 }
+	}
+
+	("burst_long")
+	{reloadSound "ptrd"}
+	;{cursor "zenite_on"}
+	;{cursorReloading "zenite_reload"}
+	{cursor "cannon_on_ap_4"}
+	{cursorReloading "cannon_reload_ap"}
+	{mass 34}
+	{burst
+		{short 4 2}
+		{long  10 3}
+		{rangeKoef 0.75}
+	}
+	{Spreading	
+		{BurstAccuracy 100 95 90 85 80 75 70 65 60}
+	}
+
+	{range 120 120}
+
+	{rechargeTime 4.5}
+	{recoveryTime 0.09}
+	{speed 300}
+	
+	{aimingTolerance 1}
+
+	{healthDamage 200}
+	{projectileDamage 25}
+	{projectileDamageTable {10 26} {20 25} {75 20} {105 11} {120 5} {140 3}} ;http://www.inetres.com/gp/military/infantry/mg/50_ammo.html
+	{calibre 12}
+	("accuracy_open_sight"  moa(2.5))
+	("accuracy_open_sight_100"  moa(2.5))
+}

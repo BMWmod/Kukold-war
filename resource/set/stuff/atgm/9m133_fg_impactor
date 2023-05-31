@@ -1,0 +1,27 @@
+{from "pattern proj_impactor"
+	{entity "9m133_fg_impactor"}
+              {inventory
+		{weight 100}
+		{size 4 1}
+	}
+	{tag "no_ricochet" "AA_missile" "big" "size4" "88to105" "-ap" "fx_146_299"} 
+	;пишут, что эквивалент 7кг тротила.
+	;БЧ чисто фугасная, нет 1 волны
+	{tag "he_4_5to8"}
+	{damage add blastwave	 ; HE antipersonnel
+		{energy 1.2}
+		{area 10 11.5}
+	}
+	{damage add blastwave	 ; HE, FG anti-APC
+		{energy 2.5}
+		{area 7.5 9}
+	}
+	{damage add blastwave	 ; HE, FG anti-IFV
+		{energy 6.5}
+		{area 4.2 5}
+	}
+	{damage add blastwave	 ; HE, FG antitank
+		{energy 11}
+		{area 2 2.3}
+	}
+}

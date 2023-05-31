@@ -1,0 +1,21 @@
+{from "pattern fg"
+	{tag "big" "size4" "122to128fg" "bullet120_NATO_mine" "120mm_nona" "fx_111_145"}
+	{tag "fg_120_shell"} ; только для ammo.set
+	{mass 18.6}
+	
+	{inventory
+		{size 4 1}
+		{weight 70}
+	}	
+	{entity "bullet120_FR_mine_rok"}
+	{view "bullet120_FR_mine_rok"
+		{tail "tail"}
+	}
+	; 2.7 кг ВВ RDX\TNT, масса мины  18,6 кг.
+	{tag "he_2to4_5"}
+{damage blastwave {energy 0.7} {area 8.8 10.1}}
+{damage add blastwave {energy 1.2} {area 7.1 8.2}}
+{damage add blastwave {energy 2.5} {area 3.8 4.4}}
+{damage add blastwave {energy 6.5} {area 0.6 0.7}}
+}
+;

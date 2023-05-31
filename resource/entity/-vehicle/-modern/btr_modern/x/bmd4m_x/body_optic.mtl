@@ -1,0 +1,6 @@
+{material envmap
+	{diffuse "$/model/bmd4m/body_bmd4"}
+	{mask "$/model/bumerang/mirror"}
+ 	{blend blend}
+}
+

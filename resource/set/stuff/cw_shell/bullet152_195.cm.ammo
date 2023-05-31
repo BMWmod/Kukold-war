@@ -1,0 +1,29 @@
+{from "pattern cm_e"
+{tag "2a46ammo_h" "2a46ammo" "kbaz_ammo" "2a82ammo" "size3 bullet125_rus 122to128fg cm no_ricochet cumulative cm_b -fragmentary -antiinf tandem" "fx_111_145"  "fx_cm"}
+	
+	{inventory
+		{size 6 1}
+	}	
+	{mass 25}
+	{entity "shell_rus_cm_125"}
+	{view "cm_fly"}
+	{trace
+		{view "/texture/fx/trace" {ScaleY 0.2}}
+		{length 2}
+	}
+	
+	;3БК31 - Кумулятивный заряд – тройной (предзаряд в телескопической головке, вспомогательный заряд в хвостовой части корпуса и основной заряд в центре корпуса). Способен преодолевать двойную встроенную динамическую защиту.Возможно применение разных по составу(сталь,медь,уран) облицовок воронок.Масса ВВ предположительно 1,7кг.Номинальная бронепробиваемость:- под углом 0 град. от нормали - 800 мм ,- за НДЗ - 680 мм ,- за ВДЗ - 660 мм. 
+	{tag "he_07to2"}
+	{damage add blastwave	 ; HE antipersonnel
+		{energy 1.2}
+		{area 4.3 4.4}
+	}
+	{damage add blastwave	 ; HE, FG anti-APC
+		{energy 2.5}
+		{area 1.2 1.3}
+	}
+	{damage cumulative
+		{damage 1000}
+		{distance 3}
+	}
+}

@@ -1,0 +1,21 @@
+{from "pattern tank_gun"    
+	{filling "ShmelM_ammo ammo" 12}
+    {fireSound "bazooka/SMAW"}
+	{reloadSound "gun73reload"}
+	{foresight "Foresight7"}       
+	{inventory {noView}}        
+	{recoveryTime 1.5}
+	{rechargeTime 80}
+	{Automatic}
+	{cursor "shmel_on"}
+	{cursorReloading "cannon_reload_fg"}
+	;{cursorReloading "cannon_reload_fg_timer_80"}
+	{maxRange 115}	;http://www.arms-expo.ru/armament/samples/1271/65517/
+	{aimRange 115}	;800м для М. Дальность стрельбы максимальная	1700м
+	{speed 20}	;реально 13, но это медленно
+	{gravity 0.3}
+	{calibre 93}
+	("damage" a(30) b(30) c(30) d(30) e(30));оценочно. Если не задать - появляется большая бронебойность, чего быть не должно
+	("CW_XP_acc_common" mils(1.67))	;Вб 0.5м на 300м  http://www.arms-expo.ru/armament/samples/1271/65517/
+
+}

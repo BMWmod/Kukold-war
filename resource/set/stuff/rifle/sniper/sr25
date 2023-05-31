@@ -1,0 +1,33 @@
+﻿;Cold War
+{from "pattern sniper_rifle"
+("scope")
+
+	{tag "sniper sd reliability_medium"}
+	{filling "ammo 762x51_x20" 20}
+	{curve "762x51nato_100"}
+	{preloaded}
+	{mass 4.3}
+	{inventory
+		{size 5 2}
+	}
+	{entity "sr25"}
+	{special
+		{mode aim}
+		{PrepareTime 6.0}
+		{PrepareCursor "aimed_shot"}
+		;{damage 1} ; damage *= x
+		{accuracy 1.2} ; aim_range *= x
+		;{throw_off}
+	}
+	("marksman_range")
+	{speed 290}
+	{fireSound "rifle/sr25_suppressor"}
+	{reloadSound "chn/M110_reload"}
+	{healthDamage 98}
+	{recoveryTime 0.7}
+	("accuracy_optic_sight"  moa(1)) ;http://world.guns.ru/sniper/sniper-rifles/usa/mk11-mod0-m110-sr-25-e.html
+	("accuracy_optic_sight_77"  moa(1)) ;http://world.guns.ru/sniper/sniper-rifles/usa/mk11-mod0-m110-sr-25-e.html
+										;0.5 - снайперскими
+	{cursor "sniper"}
+	{cursorReloading "cannon_reload_all"}
+}

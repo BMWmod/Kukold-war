@@ -1,0 +1,13 @@
+{material bump
+	{diffuse "$/model/plz-07b/body_xx"}
+	{bump "$/model/plz-07b/body_bp"}
+	{specular "$/model/plz-07b/body_sp"}
+	{color "230 230 230 25"}
+	{blend none}
+}
+
+
+
+
+
+

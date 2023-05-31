@@ -1,0 +1,39 @@
+{tags
+	{"00" "Enemy attacks in "}
+	{"01" "Wave %1%"}
+	{"02" "Next wave in "}
+	{"03" ""}
+	{"04" "This is the last wave! "}
+	{"05" "Yo've successfully completed the mission!"}
+	{"06" "All defenders are dead! The enemu has supressed the defence!"}
+	{"07" "Call for reinforcements immediately! The enemy is breaking through!"}
+	{"08" "We should knock the enemu out from the villiage before they advance down to the road."}
+	{"09" "They are moving!"}
+	{"10" "The enemy has broken through your defences and has advanced in our territory."}
+	{"11" "Deploy defending forces."}
+	{"12" "Hold position. Do not allow enemy to pass along the road."}
+	{"13" "Supress enemy artillery."}
+	{"14" "Supplies"}
+	{"15" "Engineers"}
+	{"16" "Assault plane"}
+	{"17" "Close air support"}
+	{"18" "Helicopter"}
+	{"19" "Special forces"}
+	{"20" "Airborne troops"}
+	{"21" "Artillery"}
+	{"22" "SAM"}
+	{"23" "Tank"}
+	{"24" "IFV"}
+	{"25" "Cannon"}
+	{"26" "Infantry"}
+	{"27" "Wait for attack"}
+	{"28" "Wait for next enemy attack"}
+	{"date" "4 june 2017ã."}
+	{"loose" "Defence line is broken, mission failed."}
+	{"name" "The dam"}
+	{"name_big" "The dam"}
+	{"outro_completed" "  "}
+	{"outro_failed" " "}
+	{"place" "Chervony Oskol, Ukraine"}
+	{"win" "Counterattack on the right flank of attacking llied  army group has failed. Enemy troops were unable to cross Chervony Oskol and prevent attack to Dnepropetrovsk."}
+}

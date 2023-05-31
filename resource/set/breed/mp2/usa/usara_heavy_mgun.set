@@ -1,0 +1,23 @@
+{breed
+	{skin "cw_us_rangers"}
+	{portrait "_new/usa/usara"}
+	{icon "us_75_mgun"}
+	{icon_priority 2}
+	{nationality usa}
+	{armors
+		{head opscore_rangers}
+	}
+
+	(include "perks_generic.inc")
+	("traits_specnaz_mgun")
+	{inventory
+		{item "lbt6094_rangers_mgun"}
+		{item "bandage" 10}
+		{item "smoke m18 grenade"}
+		{item "sandbag_kit"}
+		{item "m61 grenade" 2}
+		{item "M240_elcan" filling "762nato ammo" 100}
+		{item "762nato ammo" 300}
+		{in_hands 5}
+	}
+}

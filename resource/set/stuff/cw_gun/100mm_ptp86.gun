@@ -1,0 +1,16 @@
+;Created by Pheonix 
+{from "100mm_2a29 gun" 
+	{rechargeTime 6}
+	{range 145 145}
+	("CW_acc_common" mils(0.3))
+	("CW_acc_common_130" mils(0.3))
+	{parameters "bullet100_cn_rapira rok"
+		("damage4" a(0.3) b(0.3) c(0.3) d(0.3) e(0.3))   ; 
+		{range 170 170}
+		("CW_acc_common" mils(0))
+		{cursor "cannon_on_heat_2"}
+		{cursorReloading "cannon_reload_heat"}
+		{speed 1000}
+	}
+}
+                    

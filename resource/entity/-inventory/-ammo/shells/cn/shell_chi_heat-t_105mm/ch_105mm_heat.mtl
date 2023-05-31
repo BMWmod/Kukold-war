@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "ch_105mm_heat_diff"}
+	{blend none}
+}

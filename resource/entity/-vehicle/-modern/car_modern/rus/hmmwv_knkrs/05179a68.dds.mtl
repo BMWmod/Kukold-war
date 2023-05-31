@@ -1,0 +1,8 @@
+{material bump
+	{diffuse "$/model/hmmwv/hmmwv_hood"}
+	{bump "$/model/hmmwv/hmmwv_hood_bp"}
+	{specular "$/model/hmmwv/hmmwv_hood_sp"}
+	{color "255 255 255 25"}
+	{emitsheat}
+{blend none}
+}

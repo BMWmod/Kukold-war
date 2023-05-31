@@ -1,0 +1,71 @@
+{breed
+	{skin "cw_bel_smg"}
+	{portrait "_new/bel/inf"}
+	{icon smgs}
+	{icon_priority 1}
+	{nationality rus}
+	{armors
+		{head "sh-68"}
+	}
+	{perks
+		{"vision" mp_soldier
+		}
+		{"smg" lvl_3
+		}
+		{"mgun" lvl_2
+		}
+		{"rifle" lvl_2
+		}
+		{"rocketlauncher" lvl_2
+		}
+		{"pistol" lvl_2
+		}
+		{"gra_launch" lvl_3
+		}
+		{"melee" lvl_3
+		}
+		{"avoidance" lvl_2
+		}
+		{"health" "180%"
+		}
+		{"health_regeneration" "100%"
+		}
+		{"stamina" "150%"
+		}
+		{"stamina_regeneration" "100%"
+		}
+		{"speed" 0.8
+		}
+		{"skill_tankgun" lev_1
+		}
+		{"skill_atgm_launcher" lev_1
+		}
+		{"skill_airgun" lev_1
+		}
+		{"skill_airgm_launcher" lev_1
+		}
+	}
+	{veterancy
+		{"lvl_1" 1
+		}
+		{"lvl_2" 2
+		}
+		{"lvl_3" 4
+		}
+		{"lvl_4" 6
+		}
+		{"lvl_5" 8
+		}
+	}
+	{inventory
+		{item "mosin" filling "svd_ammo ammo" 5}
+		{item "svd_ammo ammo" 150}
+		{item "6b5-11"}
+		{item "rkg3 grenade"}
+		{item "f1 grenade" 2}
+		{item "sandbag_kit"}
+		{item "bandage" 10}
+		{item "molotov_coctail grenade"}
+		{in_hands 0}
+	}
+}

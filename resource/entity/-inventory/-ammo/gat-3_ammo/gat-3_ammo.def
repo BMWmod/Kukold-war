@@ -1,0 +1,9 @@
+{game_entity
+	(include "/properties/stuff_small.ext")
+	{collider "ammo"}
+	{extender "stuff"
+		{item "gat-3_ammo"}
+	}
+	{extension "gat-3_ammo.mdl"}
+	(include "/properties/shadow/round.inc")
+}

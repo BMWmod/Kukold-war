@@ -1,0 +1,42 @@
+﻿;Cold War
+{from "pattern sniper_rifle"
+("scope")
+
+	{tag "sniper reliability_medium"}
+	{filling "ammo 762x51_x20" 4}
+	{curve "762x51nato_100"}
+	{preloaded}
+	{inventory
+		{size 5 2}
+	}
+	{mass 6.5}
+	{entity "DSR1"}
+	{special
+		{mode aim}
+		{PrepareTime 10.0}
+		{PrepareCursor "aimed_shot"}
+		;{damage 2} ; damage *= x
+		{accuracy 1.2} ; aim_range *= x
+		;{throw_off}
+	}
+	("bolt_range")
+	{speed 290}
+	{fireSound	"smg/hk417_fire"}
+	{reloadSound "hk417_reload"}
+	{healthDamage 105}	;нет данных, но турок JNG-90 со стволом той же длины дает 105 (860 м/с)
+						;http://russianguns.ru/forum/index.php?topic=104.15
+	{reloadSound "enfield"}
+	{recoveryTime 0.7}
+	;{cursor "optic_schmidt 4"}
+	;{cursorReloading "optic_schmidt 4_reload"}
+	{cursor "sniper"}
+	{cursorReloading "cannon_reload_all"}
+	("accuracy_optic_sight"  moa(0.5))
+	("accuracy_optic_sight_85"  moa(0.5))
+    {parameters "M80"
+		("accuracy_optic_sight"  moa(1.5))
+		("accuracy_optic_sight_85"  moa(1.5))
+		{projectileDamageTable {17 6} {65 5} {80 4} {90 3} {100 1}} 
+	}
+        
+}

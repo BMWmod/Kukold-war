@@ -1,0 +1,25 @@
+{breed
+	{skin "cw_us_seals"}
+	{portrait "_new/usa/seal"}
+	{icon us_seal_com}
+	{icon_priority 3}
+	{nationality usa}
+	{armors
+		{head opscore_seals_com}
+	}
+	(include "perks_generic.inc")
+	("traits_scout")
+	{inventory
+		{item "lbt6094_seals_gp_belt"}
+		{item "bandage" 5}
+		{item "smoke m18 grenade"}
+		{item "m67 grenade" 1}
+		{item "hk416_aimpoint" filling "556nato ammo" 30}
+		{item "556nato ammo" 240}
+		{item "switchblade300_w" filled}
+		{item "switchblade300 ammo" 3}
+		{item "rq11_control"}
+		{item "binocular"}
+		{in_hands 5}
+	}
+}

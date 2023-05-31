@@ -1,0 +1,36 @@
+{from "pattern proj_weapon_air"
+	{tag "gun"}
+	{fillingVisible "ShturmR_"}
+	{filling "shturm" 2}
+	{fireSound "bazooka/shturm_shot"}
+	{mass 7}
+	{recoveryTime 3}
+	{rechargeTime 60}
+	{inventory {noView}}
+	;{cursor "Mi24"}
+	;{cursorReloading "zenite_reload"}
+	{cursor "cannon_on_heat_2"}	
+	{cursorReloading "cannon_reload_heat"}
+	;{cursorReloading "cannon_reload_heat_timer_60"}
+	("damage" a(1) b(1) c(1) d(1) e(1))
+	{projectileDamage 0}
+        {maxRange 165}	;5 κμ
+	{aimRange 165}
+        {parameters "9m114m"
+                {maxRange 165}
+		{aimRange 165}
+	}
+        {parameters "9m114f"
+                {maxRange 165}
+		{aimRange 165}
+	}
+        {parameters "9m120m"
+                {maxRange 175}
+		{aimRange 175}
+	}
+        {parameters "9m120f"
+                {maxRange 175}
+		{aimRange 175}
+	}
+}
+

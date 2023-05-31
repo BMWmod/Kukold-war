@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/model/bm-30_tornado_s/body"}
+	{bump "$/model/bm-30_tornado_s/body_bp"}
+	{specular "$/model/bm-30_tornado_s/body_sp"}
+	{color "230 230 230 25"}
+	{blend none}
+}

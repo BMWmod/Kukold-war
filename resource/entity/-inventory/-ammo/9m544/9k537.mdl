@@ -1,0 +1,65 @@
+;Exported by: Timosh
+;Date:        Sun Aug 21 15:13:41 2022
+;File:        G:\?????? ? Pheonix\??????????????\??????\??????????\??30 ?????\9?53x ?????? ?????.max
+{Skeleton
+	{bone "9k55"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "9k55.ply"}
+		{bone "tail"
+			{Matrix34
+				-1	0	0
+				0	0	1
+				0	1	0
+				-69.461	0	0.0203872
+			}
+		}
+	}
+}
+{Volume "body"
+	{Box 5.90551 149.606 5.90551}
+	{Bone "9k55"}
+	{Matrix34
+		0	1	0
+		-1	0	0
+		0	0	1
+		5.39368	-0.36668	0.216318
+	}
+}
+{Volume "select"
+	{Box 5.90551 149.606 5.90551}
+	{Bone "9k55"}
+	{Matrix34
+		0	1.04838	0
+		-1.04838	0	0
+		0	0	1.04838
+		3.07156	-0.36668	0.359158
+	}
+}
+{Extender "preview"
+	{"stuff"
+		{camera
+			{origin -5.32633	-33.1362	119.785}
+			{lookat -4.11626	-24.0954	95.8361}
+			{fov 65.873}
+			{horizon 0.472712}
+		}
+		{lights
+			{"0"
+				{type directional}
+				{direction -0.0624004	-0.448863	-0.211253}
+			}
+			{"1"
+				{type point}
+				{position -9.4384	-33.6402	106.092}
+			}
+			{"2"
+				{type point}
+				{position 10.4952	-25.4112	122.888}
+			}
+		}
+	}
+}

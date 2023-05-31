@@ -1,0 +1,23 @@
+{breed
+	{skin "cw_idf_inf"}
+	{portrait "_new/idf/inf"}
+	{icon mgs}
+	{icon_priority 0}
+	{nationality idf}
+	{armors
+		{head idf_or201_mitznefet}
+	}
+
+	(include "perks_generic.inc")
+	("traits_specnaz_mgun")
+	{inventory
+		{item "idf_marom_dolphin_mgun"}
+		{item "bandage" 10}
+		{item "m61 grenade" 4}
+		{item "smoke grenade" 2}
+		{item "fn_mag" filling "762nato ammo" 100}
+		{item "762nato ammo" 300}
+		{item "sandbag_kit"}
+		{in_hands 4}
+	}
+}

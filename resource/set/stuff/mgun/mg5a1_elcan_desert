@@ -1,0 +1,7 @@
+;Cold War
+{from "mg5a1"
+	{entity "mg5a1_elcan_desert"}
+	{curve "762x51nato_100"}
+	("mg_range_optic")
+	("accuracy_optic_sight"  moa(3))
+}

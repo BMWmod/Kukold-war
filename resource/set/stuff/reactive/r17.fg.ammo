@@ -1,0 +1,48 @@
+{bullet
+	{tag "shell size5 fg no_ricochet fragmentary big itemin2hands fx_upto1000kg"}
+	{tag "fg_150_shell"} ; только для ammo.set
+	{inventory
+		{size 9 2}
+		{weight 3000}
+	}	
+	{mass 5860}
+	{entity "R17"}
+	{view "R17"
+		{tail "rocket_smoke" "tail"}
+	}
+	{detonationThickness 1}
+	{applyProjectile}
+	;БЧ фугасная.8Ф44 - 987 кг. около 700 кг ВВ ТГАГ-5.Т.э.-1.35. И.э.-1. 8Ф44 - 987 кг.радиус поражения - 50 м.https://ru.wikipedia.org/wiki/%D0%A0-17
+	;Увеличенно для баланса
+	{tag "he_over30"}
+	{damage blastwave	 ; fragmentary
+		{energy 1.7}
+		{area 80 84}
+	}
+	{damage add blastwave	 ; HE antipersonnel
+		{energy 2.7}
+		{area 62 65}
+	}
+	{damage add blastwave	 ; HE, FG anti-APC
+		{energy 7}
+		{area 46 48}
+	}
+	{damage add blastwave	 ; HE, FG anti-IFV
+		{energy 16}
+		{area 24 28}
+	}
+	;Не менялось
+	{damage add blastwave	 ; HE, FG antitank
+		{energy 22}
+		{area 11 15}
+	}
+	{damage add blastwave	 ; HE, kinetic, direct hit
+		{energy 50}
+		{area 8 9}
+	}
+	{damage add fire
+			{radius 45}
+			{heating 5.2}
+			{time 6}
+	}
+}

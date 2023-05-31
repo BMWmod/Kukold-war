@@ -1,0 +1,15 @@
+{from "pattern apcr_h"
+	{tag "big" "size3" "big_apcr" "pierce" "2a46ammo" "bullet125_rus_s" "2a46ammo_h"  "kbaz_ammo" "2a82ammo" "fx_111_145"  "fx_ap"}
+	
+	{inventory
+		{size 6 1}
+	}	
+	{mass 24}
+	("ap" args 1.2)
+	{entity "shell_rus_apcr_125"}
+	{view "apcr_fly" {tail "apcr_guiders" "body"}}
+	{trace
+		{view "/texture/fx/trace" {ScaleY 0.2}}
+		{length 2}
+	}
+}

@@ -1,0 +1,22 @@
+{breed
+	{skin "cw_cn_inf"}
+	{portrait "_new/cn/inf"}
+	{icon bazookers}
+	{icon_priority 2}
+	{nationality cn}
+	{armors
+		{head "qgf03_glasses"}
+	}
+	(include "perks_generic.inc")
+	("traits_specnaz_bazooker")
+	{inventory
+		{item "type06h_help"}
+		{item "qbz95" filling "58ammo 58ammo_basic ammo" 30}
+		{item "heat_pf98 cm ammo" 3}
+		{item "58ammo 58ammo_basic ammo" 180}
+		{item "bandage" 10}
+		{item "type73 grenade" 4}
+		{item "sandbag_kit"}
+		{in_hands 1}
+	}
+}

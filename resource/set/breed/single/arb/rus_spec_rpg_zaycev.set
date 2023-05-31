@@ -1,0 +1,28 @@
+{breed
+	{behaviour soldier}
+	{hero}
+	{skin "cw_ssoarb_zaycev"}
+	{portrait "_new/spec_rpg_Zaycev"}
+	{icon "bazookers"}
+	{icon_priority 2}
+	{nationality rus}
+	{armors
+		{head lshz1plus_sso}
+	}
+
+	(include "perks_generic.inc")
+	("traits_elite_bazooker")
+	{perks
+		{"field_glass"}
+		{"stealth"}
+	}
+	{inventory
+		{item "lbt6094_rus_rpg"}
+		{item "bandage" 10}
+		{item "rpg29 weapon" filling "PG-29V ammo" 1}
+		{item "TBG-29 ammo" 3}
+		{item "uzi"}
+		{item "9mm ammo" 128}
+		{in_hands 4}
+	}
+}

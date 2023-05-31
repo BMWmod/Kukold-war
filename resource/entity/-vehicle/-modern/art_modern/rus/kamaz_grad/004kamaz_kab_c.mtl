@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "rep008"}
+	{blend none}
+}

@@ -1,0 +1,19 @@
+{from "pattern proj_weapon_ground"
+	{tag "gun"}
+	{filling "ammo hj8" 1}
+	{fillingVisible "rocket"}
+	{fireSound "bazooka/konkurs_launch"}
+	{mass 50}
+	{rechargeTime 15}
+	{recoveryTime 5}
+	{inventory {noView}}
+	{maxRange 150}
+	{aimRange 150}
+	;{cursor "optic_ptrk_tow"}
+	;{cursorReloading "optic_ptrk_tow_reload"}
+	{cursor "cannon_on_heat_2"}	
+	{cursorReloading "cannon_reload_heat"}
+	;{cursorReloading "cannon_reload_heat_timer_30"}
+	("damage" a(1) b(1) c(1) d(1) e(1))
+	{projectileDamage 0}
+}

@@ -1,0 +1,66 @@
+;Exported by: Timosh
+;Date:        Thu Oct 20 08:31:29 2022
+;File:        G:\?????? ? Pheonix\??????????????\??????\????????\????????\?????\FT-3\FT-3.max
+{Skeleton
+	{bone "bombft3"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "bombft3.ply"}
+		{bone "tail"
+			{parameters "Voxels=0;"}
+			{Matrix34
+				1	0	0
+				0	1	0
+				0	0	1
+				-26.3774	0.914628	-0.479039
+			}
+		}
+	}
+}
+{Volume "body"
+	{Box 7.61676 1.49606 1.25984}
+	{Bone "bombft3"}
+	{Matrix34
+		5.44483	0	0
+		0	-5.97797e-05	5.44483
+		0	-5.44483	-5.97797e-05
+		-5.40237	-0.118181	0.167247
+	}
+}
+{Volume "select"
+	{Box 7.61676 1.49606 1.25984}
+	{Bone "bombft3"}
+	{Matrix34
+		5.44483	0	0
+		0	-5.97797e-05	5.44483
+		0	-5.44483	-5.97797e-05
+		-5.40237	-0.118181	0.167247
+	}
+}
+{Extender "preview"
+	{"Stuff"
+		{camera
+			{origin -5.06634	3.8442	-145.961}
+			{lookat -1.04033	-1.95676	-15.8309}
+			{fov 20.7555}
+			{horizon 34.638}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 20.9847	-66.3195	-36.2627}
+			}
+			{"1"
+				{type directional}
+				{direction -0.0793779	0.317997	0.377593}
+			}
+			{"2"
+				{type point}
+				{position -33.8742	-48.7362	-31.2617}
+			}
+		}
+	}
+}

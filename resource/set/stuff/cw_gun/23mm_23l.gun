@@ -1,0 +1,29 @@
+{from "pattern gun_air"
+	{filling "bullet23_115 zenite" 50}
+	{fireSound "gun/GSh23"}
+	{reloadSound "flak38"}
+	{RecoveryTime 0.04}
+	{RechargeTime 1}
+	{AimingTolerance 10}
+	{Automatic}
+	{burst
+		{min 7}
+		{short 10 1}
+		{long 14 2}
+	}	
+	{traceFreq 1}
+	{range 120 120}	;Ориентировочно
+	("speed" s(860))
+	{RelaxationTime 0}
+	;{cursor "Mi35"}
+	;{cursorReloading "zenite_reload"}
+	{cursor "cannon_on_ap_5"}
+	{cursorReloading "cannon_reload_ap"}
+	{calibre 23}
+	{spreading
+		{BurstAccuracy 300 300 300 300 300 200 200 200 150 150 150 150 100} ; т.к. включен параметр {BurstRecoveryTime 0.5}
+	}
+	("CW_acc_common" mils(1.61));длина ствола больше, скорость полета снаряда 780 против 720
+								;точность накинем 8%, бронебойность - 17%
+	("CW_small_AP_damage" penetr_1000m(12))
+}

@@ -1,0 +1,11 @@
+{from "pattern proj_pointer"
+	
+	{entity "shershen_ammo_fg"}
+                {mass 30}
+	        {inventory
+		{weight 100}
+		{size 6 1}
+	}
+	{tag "no_ricochet" "big" "size4" "88to105" "-ap" "laser_using_missile" "semiactive" "AA_missile" "ground_laser_rus"}
+{tag "atgm_he" "atgm_ground"} ; только для ammo.set	
+}

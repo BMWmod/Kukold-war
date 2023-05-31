@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "x-25ml"}
+	{blend none}
+}

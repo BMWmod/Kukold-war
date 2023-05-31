@@ -1,0 +1,77 @@
+{actor
+	(include "/properties/cannon_mgun_mod.ext")
+	(include "/properties/shadow/tank.inc"  scale(0.3))
+	{props "collectable" "ATGM" "vision_lev03_can" "round_sandbag2"}
+	("cw_armor_atgm")
+	{targetClass "cannon_atgm" "atgm"}
+	{extender "stuff"
+		{item "shershen_d_stan"}
+	}
+	{extender "inventory"
+		{box
+			{Size 6 6}
+			{weight 6000}
+			{item "ammo shershen cm" 2}
+			{item "ammo shershen fg" 2}
+			(mod "mp"
+				{item "plant" 3}
+			)
+		}	
+	}
+	{Weaponry
+		{place "gun"
+		{weapon "weapon shershenx2" filling "ammo shershen cm" 2}
+			{foresight "foresight1"}
+			{barrels 2}
+			{shooter "none"}
+			{gunner "gunner"}
+			{charger "gunner"}
+			{basic}
+		}
+	}
+	{sensor
+		{Visor "main"
+			{vision "tank_gunner_optic_IR_2g"}; Применяется ПУ с тепловизором, дальность обнаружения до 6 км
+			{bone "visor1"}
+		}
+	}
+{boarder
+	{anm "gunner"
+		{forward	{end "pose_mg_stan_charger"}}
+	}
+	{anm "commander"
+		{forward	{end "lie_take_item_end"}}
+	}
+	{anm "driver1"
+		{forward {end "mgun_browning_driver_r"}}
+	}
+	{anm "driver2"
+		{forward {end "mgun_browning_driver_l"}}
+	}
+	{link "driver1" "gunner"}
+	{link "driver2" "commander"}
+}
+{extender "cannon"
+	{animation
+		{switch "close"}
+		{move "mgun_browning_driver_r" "mgun_browning_driver_l"}
+		{aim "" ""}
+		{fire  "" ""}
+		{reload  "" "lie_take_small end lie_take_item_end"}
+	}
+	{animation
+		{switch close}
+	}
+	{attack {workers "gunner" "commander"}}
+}  		{Extension "shershen_d_stan.mdl"}
+	("missile_aimpoint_stansize")
+
+	{bone "basis"
+		{limits}
+	    	{speed 0.007}
+	}
+	{Volume "select"
+		{able{obstacle 0} {Bullet 0} {Contact 0} {Select 1} {Blast 0} {Overlap 0} {Touch 1} {Contact_ground 0}}
+	}
+	{mass 59}
+}

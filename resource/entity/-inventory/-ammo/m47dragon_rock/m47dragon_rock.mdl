@@ -1,0 +1,61 @@
+;Exported by: Timosh
+;Date:        Tue Sep 20 09:40:21 2022
+;File:        G:\?????? ? Pheonix\??????????????\??????\?????? ??????\M47 Dragon M2\?????? ??????.max
+{Skeleton
+	{bone "body"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "body.ply"}
+		{bone "tail"
+			{parameters "Voxels=0;"}
+			{Matrix34
+				-1	0	0
+				0	0	1
+				0	1	0
+				-0.259253	0.0809678	-0.00841439
+			}
+		}
+	}
+}
+{Volume "body"
+	{Box 16.5334 2.3548 2.39159}
+	{Bone "body"}
+	{Matrix34
+		1	0	0
+		0	0	-1
+		0	1	0
+		8.26669	0.000567913	0
+	}
+}
+{Volume "select"
+	{Box 18.7402 4.72441 4.72441}
+	{Bone "body"}
+	{Position 9.2885	-0.0170453	-0.0690229}
+}
+{Extender "preview"
+	{"Stuff"
+		{camera
+			{origin 4.78429	1.86205	-34.9155}
+			{lookat 6.8205	-0.04289	4.49591}
+			{fov 31.7555}
+			{horizon 46.8089}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 9.85561	-11.6787	2.56626}
+			}
+			{"1"
+				{type directional}
+				{direction -0.072523	0.317995	0.378972}
+			}
+			{"2"
+				{type point}
+				{position -0.201505	-8.44931	3.66716}
+			}
+		}
+	}
+}

@@ -1,0 +1,5 @@
+﻿;Created by Pheonix 
+{from "68mm_Telson12 gun"     
+   	{Automatic}
+	{filling "Bullet68" 22}
+}			

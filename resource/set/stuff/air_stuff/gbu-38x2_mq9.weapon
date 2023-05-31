@@ -1,0 +1,14 @@
+{from "GBU-38x2_A-10C weapon"
+	;MQ-9
+	{range 155 155}
+	{gravity 0.12}
+	{speed 11}
+	("accuracy_kab" kvo_meters(1.25))	;8/5
+             ;{cursor "gps"}
+	;{cursorReloading "gps_reload"}
+	;{cursor "bomb_on"}
+	;{cursorReloading "cannon_reload_fg"}
+	{cursor "bomb_on_2"}
+	{cursorReloading "cannon_reload_fg"}
+	;{cursorReloading "cannon_reload_fg_timer_210"}
+}

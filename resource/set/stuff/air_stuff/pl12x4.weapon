@@ -1,0 +1,21 @@
+{from "pattern proj_weapon_air"
+	
+	{tag "gun" "prepare"}
+	{Special
+		{Mode aim}
+		{PrepareTime 0}
+		{PrepareCursor "aimed_shot_aa"}
+	}
+	{filling "ammo pl12" 4}
+	{fillingVisible "pl12_"}	
+	{fireSound "reactive/missile_large/"}	
+	{mass 50}
+	{recoveryTime 2}
+	{rechargeTime 160}
+	{inventory {noView}}
+	{maxRange 500}
+	{aimRange 340}	;заявленная дальность пуска - как у Р-77 (не РВ-АЕ), 110км
+	{cursor "cannon_on_aa"}
+	{cursorReloading "cannon_reload_fg"}
+	;{cursorReloading "cannon_reload_fg_timer_160"}
+}

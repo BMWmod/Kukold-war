@@ -1,0 +1,10 @@
+{actor
+(include "box_weapon.inc")
+ 	{extender "inventory"
+		{box
+			{weight 5000}
+			{size 8 6}
+			{item "ammo bullet155_GER satt" 2}
+		}
+	}
+}

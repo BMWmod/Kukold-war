@@ -1,0 +1,43 @@
+;Cold War
+{from "pattern smg"
+	{tag "reliability_high"}
+	{filling "ammo 58ammo_basic" 30} ;58
+	{curve "58x42_70"}
+	{mass 3.1}      
+	{entity "type87_smg"}
+	{fireSound   "chn/Ak47_burst/"}
+	{reloadSound "chn/AK47_reload"}
+	{speed 280}	
+
+	{recoveryTime 0.08}
+    {rechargeTime 3}
+
+	("smg_range")
+	
+	{burst
+		{short 2 1}
+		{long 6 2}
+{rangeKoef 0.444}
+	}
+	{healthDamage 80}
+	("accuracy_open_sight"  moa(1.55))	;https://en.wikipedia.org/wiki/Type_81_assault_rifle#Variants
+										;1.78дюймов на 100м
+	{cursor "ak74"}
+	{cursorReloading "cannon_reload_all"}
+}
+;Type87
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,15 @@
+{item
+	{tag "smallitemin1hand dropboxed antitank mine fx_111_145"}
+	{entity "mine_antitank_dm31"}
+	{inventory
+		{weight 100}
+		{fsm "stuff"}
+	}
+	{mass 8.4}
+;3.9кг взрывчатки Composition B (ТЭ 4кг, коэффициент 1,33).
+;Для подземных ПТ мин надо убирать первые две фугасные волны, т. к. грунт мешает распространению удара в стороны.
+	{damage add blastwave {energy 2.5} {area 5.6 6.4}}
+	{damage add blastwave {energy 6.5} {area 2.8 3.2}}
+	{damage add blastwave {energy 11} {area 0.7 0.9}}
+	{damage cumulative {damage 170} {distance 3}}
+}

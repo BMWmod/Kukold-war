@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "$/model/ka52/b8_v20_c"}
+	{blend none}
+}

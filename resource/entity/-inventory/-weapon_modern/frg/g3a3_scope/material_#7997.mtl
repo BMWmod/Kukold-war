@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "$/model/fn_fal/m_fn_fal_t"} 
+	{blend none}
+}

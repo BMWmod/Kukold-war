@@ -1,0 +1,5 @@
+﻿;Created by Pheonix 
+{from "70mm_Hydra_A-10 gun"   
+    {range 150 150}  
+	("CW_acc_heli" mils(8))
+}			

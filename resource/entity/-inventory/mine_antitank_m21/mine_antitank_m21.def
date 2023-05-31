@@ -1,0 +1,18 @@
+{actor
+	(include "/properties/stuff_mine.ext")
+	{Extension "mine_antitank_m21.mdl"}
+	{props "mine_antipersonnel"}	;Мина противотанковая, но усилие срабатывания - 1.7 кг, т. е. на пехотинца тоже срабатывает.
+	{extender "stuff"
+		{item "mine antitank_m21"}
+	}
+	{extender "mine"
+		{time 5}	;Точное время установки неизвестно, но выглядит несложно из-за отсутствия сложного магнитного взрывателя
+	}
+	{collider "mine.ap"}
+	{Obstacle "body"
+		{Circle2
+			{Radius 20}
+		}
+	}
+	("mine_camera" scale(1.0))
+}

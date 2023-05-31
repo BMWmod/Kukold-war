@@ -1,0 +1,34 @@
+{from "30mm_2A72 gun"
+    ("CW_XP_acc_common" mils(0.37))	;с поддержкой ствола, только для роботов
+	{parameters "fg"
+	("damage4" a(0) b(0) c(4) d(4) e(4))
+		("CW_XP_acc_common" mils(0.67))
+		;{cursor "cannon_on_fg_2"}
+		{cursor "cannon_on_fg_13"}
+		{cursorReloading "cannon_reload_fg"}
+	}           
+    {parameters "bullet30_RUS apcr_cn ap"
+		("CW_small_APCR_damage_WC" penetr_1000m(100))     ; unknown, DTC10
+        ("CW_acc_common" mils(0.43))
+		{cursor "cannon_on_ap_5"}
+		{cursorReloading "cannon_reload_ap"}
+	} 
+    {parameters "bullet30_RUS ap_cn ap"
+		("CW_small_AP_damage" penetr_1000m(56))     ; unknown, assuming DTC04 as AP, not APCR
+        ("CW_acc_common" mils(0.43))
+		{cursor "cannon_on_ap_5"}
+		{cursorReloading "cannon_reload_ap"}
+	} 
+    {parameters "Bullet30_RUS_aph ap"
+        ("CW_XP_acc_common" mils(0.43))
+		;{cursor "cannon_on_ap_2"}
+		{cursor "cannon_on_ap_5"}
+		{cursorReloading "cannon_reload_ap"}
+	}           
+    {parameters "Bullet30_RUS_apg ap"
+        ("CW_XP_acc_common" mils(0.43))
+		;{cursor "cannon_on_ap_2"}
+		{cursor "cannon_on_ap_5"}
+		{cursorReloading "cannon_reload_ap"}
+	}           
+}

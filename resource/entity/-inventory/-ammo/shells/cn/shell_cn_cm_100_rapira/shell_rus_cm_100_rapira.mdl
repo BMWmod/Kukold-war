@@ -1,0 +1,74 @@
+;Exported by: Maksilin
+;Date:        Sun Oct 25 17:52:30 2015
+;File:        F:\Настройки\Снаряды\РФ\100 мм снаряды РФ к пушке МТ-12 Рапира(Готовы)\КС 3БК16 Кадет cm\3БК16.max
+{Skeleton
+	{bone "body"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "body.ply"}
+		{bone "tail"
+			{Position -12.9595	0.0665222	0.0346387}
+		}
+	}
+}
+{Volume "body"
+	{Box 58.1842 5.66929 5.87455}
+	{Bone "body"}
+	{Matrix34
+		0.43341	0	0
+		0	0	0.43341
+		0	-0.43341	0
+		-0.101132	0.00692856	0.039924
+	}
+}
+{Volume "select"
+	{Box 58.3212 6.39159 5.99685}
+	{Bone "body"}
+	{Matrix34
+		0.43341	0	0
+		0	0	0.43341
+		0	-0.43341	0
+		-0.0652134	-0.0483563	-0.0767838
+	}
+}
+{Extender "preview"
+	{"Stuff_primary"
+		{camera
+			{origin 8.70343	-16.7637	-0.000700023}
+			{lookat 8.69179	24.0686	0.0165543}
+			{fov 31.7555}
+			{horizon -0.17132}
+		}
+		{lights
+			{"0"
+				{type directional}
+				{direction -0.0457973	0.45561	-0.200805}
+			}
+		}
+	}
+	{"Stuff"
+		{camera
+			{origin -0.155375	-45.5654	-3.08985e-005}
+			{lookat -0.16701	0.186851	-0.0274784}
+			{fov 31.7555}
+			{horizon -0.170174}
+		}
+		{lights
+			{"0"
+				{type directional}
+				{direction -0.0457972	0.45561	-0.200804}
+			}
+			{"1"
+				{type point}
+				{position -21.3389	8.52353	10.5412}
+			}
+			{"2"
+				{type point}
+				{position 19.7274	0.11303	-5.52419}
+			}
+		}
+	}
+}

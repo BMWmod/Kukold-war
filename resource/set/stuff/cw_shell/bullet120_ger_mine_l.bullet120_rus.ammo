@@ -1,0 +1,19 @@
+{from "pattern fg"
+	{tag "big" "size4" "shell"  "mortar" "bullet120_2b11_mine" "bullet120_USA_mine" "bullet120_NATO_mine" "120mm_nona" "light_shell"  }
+	{mass 14}
+	
+	{inventory
+		{size 4 1}
+		{weight 70}
+	}
+
+	{entity "bullet120_GER_mine_l"}
+	{view "bullet120_GER_mine_l"
+		{tail "shell_l_tail" "tail"}
+	}	
+	{detonationThickness 1}
+	;DM-36 . масса мины  14,06 кг.
+	
+
+}
+;

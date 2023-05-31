@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "$/model/bm-30_tornado_s/9m529_base"}
+	{blend none}
+}

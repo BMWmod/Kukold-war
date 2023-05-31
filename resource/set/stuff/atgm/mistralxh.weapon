@@ -1,0 +1,9 @@
+{from "mistralx1 weapon"	
+	{filling "ammo mistral_missile" 2}	
+	{maxRange 180}   
+	{aimRange 225}	;дальность предварительного наведения
+	{rechargeTime 40}
+	{cursor "cannon_on_aa"}
+	{cursorReloading "cannon_reload_fg"}
+	;{cursorReloading "cannon_reload_fg_timer_20"}
+}

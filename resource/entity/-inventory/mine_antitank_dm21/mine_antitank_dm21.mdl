@@ -1,0 +1,39 @@
+;Exported by: Timosh
+;Date:        Mon Aug 29 13:16:28 2022
+;File:        G:\?????? ? Pheonix\??????????????\??????\?????? ??????\???????? ????\???????? ?? ??????? 2\DM-21\DM21.max
+{Skeleton
+	{bone "body"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{LODView
+			{VolumeView "body.ply"}
+			{VolumeView "body_lod1.ply"}
+		}
+		{bone "handle"
+			{Matrix34
+				-1	0	0
+				0	-1	0
+				0	0	1
+				3.02317	0.57068	0.00523424
+			}
+		}
+	}
+}
+{Volume "body1"
+	{Cylinder 2.95276 1.9685}
+	{Bone "body"}
+	{Position 0	0	0.169105}
+}
+{Volume "body"
+	{Cylinder 2.95276 1.9685}
+	{Bone "body"}
+	{Position 0	0	0.169105}
+}
+{Volume "select"
+	{Cylinder 8.46615 2.65748}
+	{Bone "body"}
+	{Position 0	0	0.513593}
+}

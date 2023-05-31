@@ -1,0 +1,63 @@
+;Created by Pheonix
+{ArmoredCar 
+	(include "/properties/tank.ext")
+	(include "/properties/shadow/tank.inc"  scale(1.1))
+	(include "/properties/selection/vehicle.inc"  scale(1.1))
+
+	{props "medium_M" "turret_rotator" "vision_lev04_spa" "has_autoloader" "cw_artillery" "krasnopol_user"}
+	{targetClass "light_tank"}
+
+        {extension "crew.ext"}
+
+	("armor_light" turret(30 15 15 8) body(30 15 15 8))
+	("armor_engine"  t(20))
+
+	{extender "inventory"
+		{box
+			{Size 8 7}
+			{weight 3000}
+			{item "ammo bullet152_RUS fg" 20}
+			{item "ammo bullet152_RUS korr" 3}
+			{item "ammo bullet152_RUS_r fg" 5}
+			{item "ammo bullet152_RUS rok" 5}
+			{item "ammo bullet152_RUS_h fg" 16}			
+		}
+	}
+		{Weaponry
+			{place "gun"
+				{weapon "152mm_2A33" filling "ammo bullet152_RUS_h fg" 1}
+				{RestoreIKAfterAim}
+			("CW_stab_artillery_rt" rechargetime(15))
+		}
+		
+	}	
+	{sensor
+		{visor "main"
+			{vision "tank_gunner_optic_1g"}
+		}
+	}
+	{mass 25800}
+	{Chassis
+                ("tank_trace" fx("tracks_sm") step(0.15) len(2.0))
+		{Locomotion ("CW_track_moveparam" 
+			Mass(25.7)
+			Width(3.25)
+			Power(520)
+			Realspeed(65)
+			Gamespeed(41) 
+		)
+		{RearGears		0.20 0.34}}
+		("CW_fuelbag" Range(500) Fuelvolume(830))
+		("CW_speed_lev" Gamespeed(41))
+	}
+	{props "cwfs_fuel_800"}
+
+
+	("two_headlights")
+	{Extension "2c3_akaciya.mdl"}
+	("missile_aimpoint_tanksize")
+	("CW_turr_speed" deg_per_s(18))
+	("cwts_buksir")
+}
+
+

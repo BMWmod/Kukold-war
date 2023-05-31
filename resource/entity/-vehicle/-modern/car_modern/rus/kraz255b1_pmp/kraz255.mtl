@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/model/kraz255b1_pmp/kraz255b1_co"}
+	{bump "$/model/kraz255b1_pmp/kraz255b1_co_bp"}
+	{specular "$/model/kraz255b1_pmp/kraz255b1_co_sp"}
+	{color "230 230 230 25"}
+	{blend none}
+}

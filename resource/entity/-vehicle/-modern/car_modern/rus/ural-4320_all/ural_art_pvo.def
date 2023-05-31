@@ -1,0 +1,102 @@
+;Created by Pheonix
+{game_entity
+	(include "/properties/car.ext")
+	(include "/properties/shadow/tank.inc"  scale(1.0))
+	(include "/properties/selection/vehicle.inc"  scale(1.1))
+	{collider "truck"}
+	{props "ural4320"  "vehicle" "car" "truck" "wheeled" "6_wheels" "vision_lev03" "supply_5t"}
+	{able "emit_on_attack"}
+	("armor_car_truck")
+
+	(include "/set/resupply_generic.inc")
+	("mp_cwr_rus_artpvo")
+
+	("crew_2_human")
+	("board_animation"
+		place(driver)
+		board_begin(board_big-highcar_driver)
+		board_end(seat_driver_car)
+		base(doorleft)
+	)
+	("board_animation"
+		place(commander)
+		board_begin(board_big-highcar)
+		board_end(seat_passenger)
+		base(doorright)
+	)
+	
+	("crew_human" place(seat1) bone(seat01) door(emit2) animation(commander))
+
+
+	("wheel" args "wheelright1")
+	("wheel" args "wheelleft1")
+	("wheel" args "wheelright2")
+	("wheel" args "wheelleft2")
+	("wheel" args "wheelright3")
+	("wheel" args "wheelleft3")
+
+
+	{mass 4500}
+
+	{sensor
+		{visor "driver"
+			{bone "visor1"}
+			{vision "vehicle_main"}
+		}		
+		
+	}
+	{Chassis
+		("CW_wheels"
+			Mass(8.4)
+			Turnradius(9.7)
+			Power(180)      ;яћ«-236  31л/100км
+			Realspeed(85)
+			Gamespeed(49) 
+			Range(829)
+			Fuelvolume(257) ;200л основ.+ 57л доп.
+		)
+		("car_trace" fx("tracewheel03") step(0.08) wheell("wlf") wheelr("wrf") bonel("FXtraceL1") boner("FXtraceR1"))
+		("car_trace" fx("tracewheel03") step(0.08) wheell("wlr") wheelr("wrr") bonel("FXtraceL2") boner("FXtraceR2"))
+		
+	}
+	{props "cwfs_fuel_200"}
+
+	("two_headlights")
+	{Extension "ural-4320_pvo_supply.mdl"}
+	("missile_aimpoint_trucksize")
+	
+        {extender "inventory"
+          {box
+            {size 7 7}
+            {clear}
+			;{item "grad" "rok" "ammo" 40}
+			;{item "grad" "cl" "ammo" 40}
+			;{item "grad" "spbe" "ammo" 40}
+			;{item "grad" "mine" "ammo" 40}
+			;{item "bullet152_rus" "fg" "ammo" 30}
+			;{item "bullet152_rus" "rok" "ammo" 30}
+			;{item "bullet152_rus" "korr" "ammo" 5}
+			;{item "bullet122_rus" "rok" "ammo" 30}
+			;{item "bullet122_rus" "cm" "ammo" 20}
+			;{item "ammo iskander tb" 4}
+			;{item "repair_kit"}
+			;{item "netting_kit" 10}
+		;{item "ammo buk" 12}
+		;{item "ammo 9m311" 16}
+		;{item "ammo igla_S" 10}
+		;{item "ammo 9m31" 10}
+		;{item "mp_cwr_rus_artpvo" 1 }
+            {item "mp_smallbox_rus" 3}
+            }
+        }
+		(mod "mp"
+    	{extender "inventory"
+    	  {box
+			{size 7 7}     
+			{clear}
+			{item "netting_kit" 5}
+			{item "repair_kit"}
+		  }
+		}
+  )
+}

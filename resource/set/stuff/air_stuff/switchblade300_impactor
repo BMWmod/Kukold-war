@@ -1,0 +1,16 @@
+{from "pattern proj_impactor"
+	{entity "switchblade300_impactor"}
+              {inventory
+		{weight 100}
+		{size 5 1}
+	}
+	{tag "dropboxed fg size1 shell no_ricochet fragmentary antiinf fx_25_40"} 
+	;БЧ эквивалентна 40мм гранате
+	;как пример - DM-121 0,039 кг ВВ DPX2   1450 фрагментов.
+	;т. к. взрыв направленный, дистанция поражения значительно увеличена в одном направлении.
+	;В других направлениях ограничено рестриктором
+	;Для сектора 60град домножаем радиусы примерно на 3
+	{damage blastwave {energy 1.5} {area 9.7 10.8}}
+    {damage add blastwave {energy 2.4} {area 5.4 6}}
+ 
+}

@@ -1,0 +1,27 @@
+{weapon_bullet
+	{tag "gun"}
+	("heavy_artillery")
+	{filling "ammo 140mm_a22" 22}
+	{fillingVisible "missile"}	
+	{fireSound "reactive/grad_burst"}
+	{burst
+		{min 1}
+		{short 1 1}
+		{long 4 4}
+		{noaiming}
+	}
+	{SpreadTolerance 0.5}
+	{Automatic}
+	{recoveryTime 0.5}
+	{range 152 152}
+	{rechargeTime 150}
+	{gravity 6}
+	{speed 90}
+;	{aimtype direct}
+	{aimtype adaptive}
+	("CW_XP_acc_artillery" mils(8.6));Вд/Х 1/327 Вб/Х 1/115
+	;CW_XP_acc_artillery - т. к. нет уровней опыта
+	{cursor "cannon_on_fg_5"}
+	{cursorReloading "cannon_reload_fg"}
+	;{cursorReloading "cannon_reload_fg_timer_150"}			
+}

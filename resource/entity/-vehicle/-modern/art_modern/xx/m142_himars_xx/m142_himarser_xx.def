@@ -1,0 +1,56 @@
+{game_Entity
+	{Extension "m142_himarser_xx.mdl"}
+	{Volume "body"
+		{tags "body"}
+		{component "body"}
+		{thickness 5}
+	}
+	{Volume "cabin"
+		{tags "body"}
+		{component "body"}
+		{thickness 5}
+	}
+	{Volume "engine"
+		{tags "engine"}
+		{component "engine"}
+		{thickness 5}
+	}
+	{Volume "luke"
+		{tags "part"}
+		{thickness 5}
+	}
+	{Volume "turret1"
+		{tags "turret"}
+		{component "turret"}
+		{thickness 5}
+	}
+	{Volume "turret"
+		{tags "turret"}
+		{component "turret"}
+		{thickness 5}
+	}
+	{Volume "wheelleft1"
+		{tags "part"}
+		{thickness 5}
+	}
+	{Volume "wheelleft2"
+		{tags "part"}
+		{thickness 5}
+	}
+	{Volume "wheelleft3"
+		{tags "part"}
+		{thickness 5}
+	}
+	{Volume "wheelright1"
+		{tags "part"}
+		{thickness 5}
+	}
+	{Volume "wheelright2"
+		{tags "part"}
+		{thickness 5}
+	}
+	{Volume "wheelright3"
+		{tags "part"}
+		{thickness 5}
+	}
+}

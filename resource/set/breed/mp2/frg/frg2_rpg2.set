@@ -1,0 +1,23 @@
+{breed
+	{skin "cw_ger_inf"}
+	{portrait "_new/ger/inf"}
+	{icon rifleman_ksk}
+	{icon_priority 2}
+	{nationality ger}
+	{armors
+		{head opscore_ksk_com}
+	}
+	(include "perks_generic.inc")
+	("traits_specnaz_bazooker")
+	{inventory
+		{item "shutzweste_backpack"}
+		{item "bandage" 10}
+	        {item "m72a4law weapon" 2 filling "m72a4 ammo" 1}
+		{item "g36a3_zeiss_zo_4x30i" filling "556nato ammo" 30}
+                {item "sandbag_kit"}
+		{item "556nato ammo" 180}
+		{item "dm51gr grenade" 2}
+		{item "smoke_ger grenade" 2}
+		{in_hands 3}
+	}
+}

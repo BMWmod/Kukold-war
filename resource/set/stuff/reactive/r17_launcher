@@ -1,0 +1,34 @@
+{weapon_bullet
+	
+	{tag "gun" "skill_tankgun" "bullet"}
+	{filling "ammo R17" 1}
+	{fillingVisible "Rocket00"}
+	{fireSound "reactive/SCUD_launch"}
+		{range 775 775}                 ;300 км.
+		{spreading
+			{SpreadRadius 130}	;КВО порядка 450м Точность стрельбы (КВО) – 180-610х100-350м
+		}
+
+
+	(mod "mp" ;Для мультиплеера
+		{spreading
+			{SpreadRadius 80}	
+		}
+	)
+		{rechargeTime 300}
+		{gravity 10}
+		{speed 200}
+		{aimtype curved}
+		
+		;{cursor "cannon_on_fg_9"}
+                           {cursor "tactical"}
+		;{cursorReloading "cannon_reload_fg"}
+		{cursorReloading "cannon_reload_fg_timer_300"}
+		
+	{parameters "tb"
+		;{cursor "shmel_on"}
+		;{cursorReloading "cannon_reload_fg"}
+		{cursor "tactical_tb"}
+		{cursorReloading "cannon_reload_fg_timer_300"}
+	}
+}

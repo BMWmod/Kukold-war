@@ -1,0 +1,79 @@
+{tags
+   {"date" " 3 January 1995ã"}
+   {"name" "Welcome to Hell!"}
+   {"name_big" "Grozny assault"}
+   {"place" "  "}
+   {"outro_completed" "  "}
+   {"outro_failed" " "}
+   {"win" "   "}
+   {"loose" "  "}
+        {"00" "I'm in barracks"}
+	{"01" "I can't reinforce your squad, it's strong enough."}
+	{"02" "There is no unassigned soldiers, but I've reported to HQ and reinforcements are on its way!"}
+	{"03" "Reinforcements will arrive in"}
+	{"04" "*radio* Reinforcements are incoming."}
+	{"05" "Now we 'll be in touch! *now your squad has radio*"}
+	{"06" "We're cut off from HQ! *now your squad has no radio*"}
+	{"07" "We're almost here! After fifty meters turn left."}
+	{"08" "To the base, run, run!"}
+	{"09" "We're under attack!! Out of the car!"}
+	{"10" "Welcome! It's hot here! Be careful, you can be shot from everu corner! Always be in touch with HQ!"}
+	{"11" "Mission"}
+	{"12" "Electric substation is clear!"}
+	{"13" "Clear and demine the electric substation!"}
+	{"14" "Get to the base and talk to commander."}
+	{"15" "Repair your car."}
+	{"16" "You're already have a task, complete it first!"}
+	{"17" "Damn! They are giong to retake electric substation!!"}
+	{"18" "Repel attack on base."}
+	{"19" "They are falling back!"}
+	{"20" "Escotrt supply truck to the blockpost."}
+	{"21" "Supply truck departs in"}
+	{"22" "Assist allied troops to knock out the enemyfrom the dormitory."}
+	{"23" "Take and hold school building."}
+	{"24" "Now we should hold this building before allied troops will arrive!"}
+	{"25" "Allied troops will arrive in"}
+	{"26" "3 january 1995"}
+	{"27" "Federal troops are in intense fighting in Grozny city. Your squad has been ordered to move to field HQ at Grozny's ourskirts."}
+	{"28" "Here you are! Been in heavy business, huh? Ok, welcome. We've deployed field HQ in the motor depot."}
+	{"29" "So, here is your first mission. We need to take the electric substation you were attacked from. It's an important object, demine it carefully."}
+	{"30" "The first wave of our attack has bogged down, so we we made to regroup. Now we're waiting till HQ will form a convoy for second try. "}
+	{"31" "Now we were able to gain a foothold on the outskirts of the city and to establish a blockpost at the crossroads."}
+	{"32" "If you need reinforcements, go to the garage near MT-LB and talk to the squad lead. You can take repair kits near the fuel truck."}
+	{"33" "Always have radio in your squad. You can receive reinforcements, intel and missions with it."}
+	{"34" "Take next mission."}
+	{"35" "Well done! I've ordered to establish a perimener around electric substation, so ..."}
+	{"36" "Camrade commander! Duhi near the HQ are moving! "}
+	{"37" "Defend positoin! We can't loose this foothold!"}
+	{"38" "The blockpost has requested ammo, provision and medicaments. They are under continious attacks, and we should bring them the cargo ASAP!"}
+	{"39" "Your task is to ensure secure pass of the truck from HQ to the blockpost."}
+	{"40" "Thank you! We were in dire need of this!"}
+	{"41" "Your task is: to support assault squad, to take the dormitory and nearby courtyards."}
+	{"42" "Assault squad arrives in"}
+	{"43" "*radio* Assault squadis is incoming!"}
+	{"44" "The assault will arrive soon. Your group should take the school and hold it intill reinforcements will arrive."}
+	{"45" "Your squadmen are dead."}
+	{"46" "Assault will start in"}
+	{"47" "Take the square near the department store."}
+	{"48" "Destroy enemy HQ near the department store."}
+	{"49" "Knock out insurgents from the housing area."}
+	{"50" "During fierce fight, federal troops were able to supress enemy resistance and advance to the city."}
+	{"51" "HQ reports that the convoy has been formed and moved to Grozny. Your task is to support attacking troops."}
+	{"52" "We have some time, prepare your squad, assign soldiers, take ammo. It will be hard!"}
+	{"53" "Tank, between the buildings!"}
+	{"54" "Cover the tank"}
+        {"55" "* You should have sildier with radio to take new mission. Or you can visit HQ*"}
+        {"56" "Truck, go!"}
+        {"57" "And here we are on iron beast!!"}
+        {"58" "Affirmative, heading your way."}
+        {"59" "Go!"}
+	{"60" "Reinforce the squad"}
+	{"61" "Take a mission"}
+	{"62" "Start the assault"}
+	{"63" "Report"}
+	{"64" "Send the truck"}
+	{"65" "Order the supply truck to move"}
+	{"66" "Ask tank as support"}
+	{"67" "Use radio to ask help"}
+	{"68" "Ask APC as support"}
+}

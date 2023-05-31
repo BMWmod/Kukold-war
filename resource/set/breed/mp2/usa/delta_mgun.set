@@ -1,0 +1,24 @@
+{breed
+	{skin "cw_us_delta"}
+	{portrait "_new/usa/delta"}
+	{icon "us_delta_mgun"}
+	{icon_priority 3}
+	{nationality usa}
+	{armors
+		{head opscore_delta}
+	}
+
+	(include "perks_generic.inc")
+	("traits_elite_mgun")
+	{inventory
+		{item "lbt6094_delta_mgun_a"}
+		{item "bandage" 10}
+		{item "smoke m18 grenade"}
+		{item "m67 grenade" 4}
+		{item "762nato ammo" 300}
+		{item "m240_acog" filling "762nato ammo" 100}
+		{item "smoke m18 grenade"}
+		{item "smoke m18 grenade"}
+		{in_hands 5}
+	}
+}

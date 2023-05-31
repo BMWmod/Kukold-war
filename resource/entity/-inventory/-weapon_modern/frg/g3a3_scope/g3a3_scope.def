@@ -1,0 +1,10 @@
+{actor
+        (include "/properties/stuff_weapon.ext")
+	{Extension "g3a3_scope.mdl"}
+	
+        {extender "stuff"
+		{item "g3a3_scope"}
+	}
+	{nogroupmesh 1}
+
+}

@@ -1,0 +1,16 @@
+﻿{from "pattern gun_air"    
+   	{gravity 0.5}
+	{filling "brmi-90" 7}
+	{fireSound "reactive/S-8/"}
+	;{burst {min 2}}
+	{recoveryTime 0.2}
+	{Automatic}
+	{rechargeTime 100}
+	{range 180 180}
+	("speed" s(600)) 
+	{gravity 4}
+	("accuracy_kab" kvo_meters(3))
+	{cursor "cannon_on_fg_14"}
+	{cursorReloading "cannon_reload_fg"}
+
+}			

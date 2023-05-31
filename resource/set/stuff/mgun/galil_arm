@@ -1,0 +1,24 @@
+{from "pattern mgun"
+	{tag "reliability_high link_mmg"}	;спецрежим для запыленной среды
+	{filling "ammo 762Nato" 25} ;7.62x51
+	{curve "762x51nato_70"}
+	{entity "galil_arm"}
+	{fireSound	"smg/galil-2"}
+	{reloadSound "chn/AK47_reload"}
+	{inventory
+		{size 4 2 }
+	}
+	{mass 4.45}	
+	{recoveryTime 0.08}
+	{rechargeTime 2.9}
+	{healthDamage 92}	
+	{projectileDamage 7}
+	{speed 310}
+	("mg_range_custom" k(0.8))
+	("accuracy_open_sight"  moa(2))
+	("accuracy_open_sight_70"  moa(2))	
+	;http://www.uzitalk.com/forums/showthread.php?34342-WTK-Accuracy-of-Galil-same-as-AK-47
+;http://www.thehighroad.org/archive/index.php/t-364797.html
+;верится с трудом, но пусть будет на их совести.
+
+}

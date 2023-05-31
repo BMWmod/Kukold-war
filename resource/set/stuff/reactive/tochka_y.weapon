@@ -1,0 +1,25 @@
+{weapon_bullet
+
+	{tag "gun" "skill_tankgun" "bullet"}
+	{filling "ammo iskander" 1}
+	{fillingVisible "rock"}
+	{fireSound "reactive/missile_big"}
+	{range 330 350}
+	("accuracy_kab" kvo_meters(20))
+	{rechargeTime 150}
+	{gravity 4}
+	{speed 4}
+	{aimtype curved}
+	;{cursor "cannon_on"}
+	;{cursorReloading "cannon_reload"}
+	;{cursor "cannon_on_fg_6"}
+	{cursorReloading "cannon_reload_fg"}
+	{cursor "tactical"}
+	;{cursorReloading "cannon_reload_fg_timer_300"}
+	{parameters "tb"
+		;{cursor "shmel_on"}
+		{cursorReloading "cannon_reload_fg"}
+		{cursor "tactical_tb"}
+		;{cursorReloading "cannon_reload_fg_timer_300"}
+	}
+}

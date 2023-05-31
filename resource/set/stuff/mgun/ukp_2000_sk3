@@ -1,0 +1,22 @@
+{from "pattern mgun"
+	{tag "reliability_high link_mmg"}
+	{filling "ammo 762Nato" 100}
+	{curve "762x51nato_85"}
+ 	{entity "ukp_2000_sk3"}
+	{fireSound	"chn/pkp"}
+	{reloadSound "chn/pkp_reload"}
+	{spreading 1.5}
+	{mass 8.9}
+	{inventory
+		{size 5 2 }
+		{link_bone "gun_back"}
+		{weight 100}
+	}
+
+	("mg_range")
+	{recoveryTime 0.08}
+	{rechargeTime 4.5}
+	{speed 290}
+	{healthDamage     91}
+	("accuracy_collimator"  moa(2.25))
+}

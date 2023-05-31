@@ -1,0 +1,154 @@
+;Created by Pheonix 
+{from "pattern tank_gun"    
+   	
+	{filling "bullet120_israel" 3}
+	{fireSound "gun/m256"}
+	{reloadSound "Abrams-Reload"}
+	{RecoveryTime 7.9}
+	{rechargeTime 7.9}
+	{range 155 155}
+	("speed" s(1150)) 
+	("100-128caliber")
+ ;             ("accuracy_4" r1(1.1) r2(1.3) r3(1.8) r4(2.3))
+	; a - 20, b - 50, c - 80, d -100, e - 120 
+	{calibre 15}
+	("damage4" a(0.3) b(0.3) c(0.3) d(0.3) e(0.3))   ; 
+	{projectileDamage 0}
+	("CW_acc_common" mils(0.33))
+	("CW_acc_common_140" mils(0.33))
+	{parameters "rok"
+		{range 175 175}
+		("CW_acc_common" mils(0))
+		("CW_acc_common_170" mils(0))
+		;{cursor "Merk_HEAT"}
+		;{cursorReloading "Merk_HEAT_reload"}
+		{cursor "cannon_on_heat_2"}
+		{cursorReloading "cannon_reload_heat"}
+		{speed 1000}
+	}
+
+	{parameters "bullet120_fr apcr"
+      	;	("damage4" a(740) b(702) c(641) d(617) e(567))
+		("CW_APCR_damage_DU1650" penetr_2000m(580))
+		{range 150 155}
+		{RecoveryTime 6.0}
+		("CW_acc_common" mils(0.14))
+		("CW_acc_common_140" mils(0.14))
+		;{cursor "Merk_APCR"}
+		;{cursorReloading "Merk_APCR_reload"}
+		{cursor "cannon_on_apcr"}
+		{cursorReloading "cannon_reload_apcr"}
+		("speed" s(1675))
+	}
+	{parameters "bullet120_GER apcr"
+      	;	("damage4" a(740) b(690) c(627) d(600) e(545))
+		("CW_APCR_damage_WC1500" penetr_2000m(600))
+		{range 150 155}
+		{RecoveryTime 6.0}
+		("CW_acc_common" mils(0.14))
+		("CW_acc_common_140" mils(0.14))
+		;{cursor "Merk_APCR"}
+		;{cursorReloading "Merk_APCR_reload"}
+		{cursor "cannon_on_apcr"}
+		{cursorReloading "cannon_reload_apcr"}
+		("speed" s(1675))
+	}
+	{parameters "bullet120_USA apcr"
+        ;		("damage4" a(816) b(775) c(707) d(680) e(625))
+		("CW_APCR_damage_DU1650" penetr_2000m(680))
+		{range 150 155}
+		{RecoveryTime 6.0}
+		("CW_acc_common" mils(0.14))
+		("CW_acc_common_140" mils(0.14))
+		;{cursor "Merk_APCR"}
+		;{cursorReloading "Merk_APCR_reload"}
+		{cursor "cannon_on_apcr"}
+		{cursorReloading "cannon_reload_apcr"}
+		("speed" s(1675))
+	}
+	{parameters "bullet120_USA_s apcr"
+        ;	("damage4" a(816) b(775) c(707) d(680) e(625))
+		("CW_APCR_damage_DU1650" penetr_2000m(635))
+		{range 150 155}
+		{RecoveryTime 6.0}
+		("CW_acc_common" mils(0.14))
+		("CW_acc_common_140" mils(0.14))
+		;{cursor "Merk_APCR"}
+		;{cursorReloading "Merk_APCR_reload"}
+		{cursor "cannon_on_apcr"}
+		{cursorReloading "cannon_reload_apcr"}
+		("speed" s(1675))
+	}
+	{parameters "bullet120_USA apcr_h"
+		("CW_APCR_damage_DU1650" penetr_2000m(770))
+		{range 150 155}
+		{RecoveryTime 6.0}
+		("CW_acc_common" mils(0.11))
+		("CW_acc_common_140" mils(0.11))
+		;{cursor "Merk_APCR"}
+		;{cursorReloading "Merk_APCR_reload"}
+		;{cursor "cannon_on_apcr"}
+		{cursor "cannon_on_apcr_5"}
+		{cursorReloading "cannon_reload_apcr"}
+		("speed" s(1675))
+	}
+	{parameters "bullet120_ger fg"
+		{range 150 155}
+		("CW_acc_common" mils(0.2))
+		("CW_acc_common_140" mils(0.2))
+		;{cursor "Merk_HE"}
+		;{cursorReloading "Merk_HE_reload"}
+		{cursor "cannon_on_fg_4"}
+		{cursorReloading "cannon_reload_fg"}
+		("speed" s(1100))
+	}
+	{parameters "fg"
+		{range 150 155}
+		("CW_acc_common" mils(0.13))
+		("CW_acc_common_140" mils(0.13))
+		;{cursor "Merk_HE"}
+		;{cursorReloading "Merk_HE_reload"}
+		{cursor "cannon_on_fg_4"}
+		{cursorReloading "cannon_reload_fg"}
+		("speed" s(1100))
+	}
+	{parameters "sm"
+		{range 150 155}
+		("CW_acc_common" mils(0.13))
+		("CW_acc_common_140" mils(0.13))
+		{cursor "cannon_on_sm"}
+		{cursorReloading "cannon_reload_sm"}
+		("speed" s(1100))
+	}
+	{parameters "ap"
+		{range 150 155}
+		("CW_acc_common" mils(0.13))
+		("CW_acc_common_140" mils(0.13))
+		{cursor "cannon_on_ap_3"}
+		{cursorReloading "cannon_reload_ap"}
+		("speed" s(1100))
+	}
+	{parameters "bullet120_IDF cm"
+		{range 150 155}
+		("CW_acc_common" mils(0.33))
+		("CW_acc_common_140" mils(0.33))
+		{cursor "Merk_HEAT"}
+		{cursorReloading "Merk_HEAT_reload"}
+		;{cursor "cannon_on_ap"}
+		;{cursorReloading "cannon_reload_ap"}
+		{cursor "cannon_on_HEAT"}
+		{cursorReloading "cannon_reload_HEAT"}
+		("speed" s(1100))
+	}
+	{parameters "cm"
+		{range 150 155}
+		("CW_acc_common" mils(0.33))
+		("CW_acc_common_140" mils(0.33))
+		;{cursor "Merk_HEAT"}
+		;{cursorReloading "Merk_HEAT_reload"}
+		{cursor "cannon_on_heat"}
+		{cursorReloading "cannon_reload_heat"}
+		("speed" s(1400))
+	}
+}
+

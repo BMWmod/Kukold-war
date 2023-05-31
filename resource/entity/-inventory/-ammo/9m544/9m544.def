@@ -1,0 +1,17 @@
+{Actor
+	(include "/properties/stuff_small.ext")
+	{collider "ammo"}
+	{Volume "body"
+		{thickness 4}
+		{able {touch} {bullet} {blast}}
+	}
+	(include "/properties/shadow/round.inc")
+	{props "steel" "explosive_stuff"}
+	{constrain none}
+	{fogable never}
+	{lodclass "stuff_small"}
+	{extender "stuff"
+		{item "tornado_s ammo 9m544"}
+	}
+	{Extension "9k537.mdl"}
+}

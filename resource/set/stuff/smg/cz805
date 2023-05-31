@@ -1,0 +1,29 @@
+;Cold War
+{from "pattern smg"
+	{tag "reliability_medium"}
+	{filling "ammo 556Nato" 30} ;556
+	{curve "556_70"}
+	{mass 3.4}      
+	{entity "cz805"}
+	{fireSound	"smg/cz805/"}
+	{reloadSound "M16_reload"}
+	{speed 280}	
+
+	{recoveryTime 0.08}
+        {rechargeTime 3}
+
+	{cursor "cz805"}
+	{cursorReloading "cannon_reload_all"}
+	("smg_range")
+	
+	{burst
+		{short 2 1}
+		{long 6 2}
+{rangeKoef 0.444}
+	}
+	{healthDamage 66}	;881m/s calculated ;http://www.allreadable.com/3093EuMs
+	("holo")
+("accuracy_collimator"  moa(3))	;with common munitions
+	("accuracy_collimator_70"  moa(3))	;with common munitions
+	;https://www.gunsweek.com/en/rifles/articles/cz-and-czech-school-gunmaking-international-days
+}

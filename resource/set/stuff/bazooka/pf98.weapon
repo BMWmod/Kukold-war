@@ -1,0 +1,25 @@
+{from "pattern rpg_weapon"
+	{filling "ammo heat_pf98" 1}
+        {fillingVisible "roket"}
+        {fireSound "bazooka/rpg29_fire"}
+	{reloadSound "pf98_reload"}
+	{mass 10}
+	{inventory
+		{size 6 2}
+	}
+        {maxRange 80}  ; 500м
+	{aimRange 80}
+	{gravity 0.4}
+	{entity "pf98"}
+	{calibre 7}
+	{speed 30}	;неизвестна speed гранаты x1.5 (25.02.21)
+    {parameters "fg"
+		("accuracy_optic_rpg"  moa(10))	;точность неизвестна
+	}
+        {parameters "cm"
+		{maxRange 80}  
+		{aimRange 80}
+		("accuracy_optic_rpg"  moa(10))	;точность неизвестна
+	}
+       
+}

@@ -1,0 +1,10 @@
+{item
+	{tag "keepEntity smallitemin1hand"}
+	{entity "switchblade300_catapult"}
+	{inventory
+		{size 3 2}
+		{weight 100}
+		{fsm "stuff"}
+	}
+	{mass 2}
+}

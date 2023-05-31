@@ -1,0 +1,23 @@
+﻿;Revised by maaa - DTTGOC
+;LocalGen2
+;Extra data placeholder
+;Extra data placeholder
+;rev 04.07.2022
+
+{tags
+	{"entity"      
+		(include 			"2.en/cw/cw_en_veh.inc")							;Vehicles, missiles, projectiles names
+		(include			"2.en/custom/custom_en_veh.inc")					;Custom vehicles, missiles, projectiles names
+	}
+	{"human"
+		(include			"2.en/cw/cw_en_human.inc")							;Human breeds names
+		{"equipment_mass"	"%.1f kg"}											;Mass values unit
+		(include			"2.en/custom/custom_en_human.inc")					;Custom human breeds names		
+	}
+	{"squad"
+		(include			"2.en/cw/cw_en_squads.inc")							;Squad names
+		(include			"2.en/custom/custom_en_squads.inc")					;Custom squad names
+	}
+	(include				"2.en/cw/cw_en_ammo_weapon_stuff.inc")				;Inventory items/stuff names
+	(include				"2.en/custom/custom_en_ammo_weapon_stuff.inc")		;Custom inventory items/stuff names
+}

@@ -1,0 +1,43 @@
+{bullet
+	
+	{tag "big" "shell" "fg" "bomb" "no_ricochet" "fragmentary" "m270_fg" "fx_upto250kg"}
+	{tag "fg_150_shell"} ; только для ammo.set
+	{inventory
+		{size 7 2}
+		{weight 100}
+	}	
+	{mass 300}
+	{entity "gmrls_er"}
+	{view "gmrls_er"
+		{tail "rocket_smoke_short_mlrs" "tail"}
+	}
+	{detonationThickness 1}
+	{applyProjectile}
+	;БЧ идентична GMRLS https://forum.dcs.world/topic/55019-himars-i-mlrs-m270/page/2/
+	{tag "he_8to30"}
+	{damage blastwave	 ; fragmentary
+		{energy 0.7}
+		{area 15.2 17.5}
+	}
+	{damage add blastwave	 ; HE antipersonnel
+		{energy 1.2}
+		{area 12.9 14.8}
+	}
+	{damage add blastwave	 ; HE, FG anti-APC
+		{energy 2.5}
+		{area 9.2 10.5}
+	}
+	{damage add blastwave	 ; HE, FG anti-IFV
+		{energy 6.5}
+		{area 7 8.1}
+	}
+	{damage add blastwave	 ; HE, FG antitank
+		{energy 11}
+		{area 3.6 4.1}
+	}
+	{damage add blastwave	 ; HE, kinetic, direct hit
+		{energy 25}
+		{area 0.2 0.4}
+	}
+}
+;6 волна бонус

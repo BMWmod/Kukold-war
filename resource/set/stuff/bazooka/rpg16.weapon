@@ -1,0 +1,24 @@
+{from "pattern rpg_weapon"
+	
+	{filling "ammo RPG16" 1}
+	{fillingVisible "pg-16v"}
+                          {fireSound "bazooka/rpg7"}
+		{reloadSound "chn/RPG_reload"}
+	{mass 10.3};http://modernfirearms.net/grenade/rus/rpg-16-r.html
+	{inventory
+		{size 5 1}
+	}
+        {maxRange 90}
+	{aimRange 90}
+	{speed 75} ; speed гранаты x1.5 (25.02.21)	
+	{gravity 0.4}
+	{calibre 5}
+	;{cursor "RPG16"}
+	;{cursorReloading "RPG16_reload"}
+	{cursor "cannon_on_heat_7"}
+	{cursorReloading "cannon_reload_heat"}
+	{entity "rpg16"}
+;	("damage" a(300) b(300) c(300) d(300) e(300))
+	("accuracy_optic_rpg"  moa(6))
+	("accuracy_optic_rpg_70"  moa(6))
+}

@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "$/model/ptl02/decale_lzi4"}
+	{blend test}
+}

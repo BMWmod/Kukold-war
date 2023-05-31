@@ -1,0 +1,34 @@
+{breed
+	{behaviour soldier}
+	{hero}
+	{skin "cw_rus_sso_multicam"}
+	{portrait "_new/spec_radio_Klimov"}
+	{icon "smgs"}
+	{icon_priority 0}
+	{nationality rus}
+	{armors
+		{head cap_panama}
+	}
+
+	(include "perks_generic.inc")
+	("traits_elite_smg")
+	{perks
+		{"field_glass"}
+		{"stealth"}
+	}
+	{perks
+		;{fortification}
+		{mechanic factor 0.33}
+	}
+	{inventory
+		{item "lbt6094_rus_smg_a"}
+		{item "bandage" 10}
+		{item "head_rad"}
+		{item "rus_radio_station"}
+		{item "radio_station_sumka"}
+		{item "rgd grenade" 2}
+		{item "545 ammo" 150}
+		{item "aks74_5"}
+		{in_hands 7}
+	}
+}

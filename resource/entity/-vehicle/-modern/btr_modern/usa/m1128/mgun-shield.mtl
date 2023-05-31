@@ -1,0 +1,8 @@
+{material bump
+	{diffuse "$/model/M1128/mgun_shield"}
+	{bump "$/model/M1128/mgun_shield_bp"}
+	{specular "$/model/M1128/mgun_shield_sp"}
+	{color "229 229 229 25"}
+	{emitsheat}
+{blend none}
+}

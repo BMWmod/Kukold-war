@@ -1,0 +1,169 @@
+{Entity
+	(include "/properties/tank.ext")
+	(include "/properties/shadow/tank.inc"  scale(1.2))
+	(include "/properties/selection/vehicle.inc"  scale(1.2))
+
+	{extender "enumerator"}
+	{collider "tank.heavy"}
+	{props "Medium_M" "vision_lev06" "turret_rotator" "with_open_zpu" "has_apu" "has_autoloader" "cw_panorama" "cw_artillery"}
+
+	{volume "body"
+		{tags "body"}
+		{component "body"}
+	}
+  	{volume "body1"
+		{tags "body"}
+		{component "body"}
+	}
+  	{volume "body2"
+		{tags "body"}
+		{component "body"}
+	}
+	{volume "turret"
+		{tags "turret"}
+		{component "turret"}
+	}
+	{volume "turret1"
+		{tags "turret"}
+		{component "turret"}
+	}
+
+	("armor_IFV" turret(30 30 30 10) body(30 20 15 10))	;оценочно, защита от 14,5 и осколков 155мм
+
+	{boarder
+		{anm "driver"
+			{forward	{begin	"board_tank_right"} {end "seat_gunner_stand"} {base "open_driver"}}
+			{reverse 	{end	"emit_tank_2_hold"} {base "open_driver" -1}}
+		}
+		{anm "left"
+			{forward	{begin	"board_Kv-85"} {end "seat_gunner_stand"}}
+			{reverse 	{end	"emit_tank_2_hold"}}
+		}
+		{anm "right"
+			{forward	{begin	"board_Is-2"} {end "seat_gunner_stand"}{base "open1"}}
+			{reverse 	{end	"emit_tank_2_hold"}{base "open1" -1}}
+		}
+	}
+(define "crew_human"
+	{placer
+		{place "%place"
+			{group "crew"}
+			{visor "%visor"}
+		}
+	}
+	{boarder
+		{door "%door1"}
+		{link "%door1" "%place" {anm "%anm"} {forward putoff} {reverse puton}}
+	}
+)
+	("crew_inside")
+	("crew_human" place(driver)		door1(emit1) anm(driver) visor(driver))
+	("crew_human" place(gunner)		door1(emit3) anm(right) visor(main))
+	("crew_human" place(charger)	door1(emit2) anm(left) visor(main))
+	("crew_human" place(commander)	door1(emit3) anm(right) visor(main))
+	
+	{placer
+		{place "gunner2"
+			{group "crew"}
+			{linkbone "gunner2"}
+			{turnoff {sensor} {shadow}}
+			{visor "top"}
+			{openForCrush}
+		}
+	}
+	{boarder
+		{door "emit2"}
+		{link "emit2" "gunner2" {anm "left"} {forward putoff} {reverse puton}}
+	}
+	
+	{extender "inventory"
+		{box
+			{Size 8 7}
+			{weight 3000}
+			{item "ammo bullet155_GER fg" 29}
+            {item "ammo bullet155_GER_r fg" 6} 			
+            {item "ammo bullet155_GER_ar fg" 10}    		           	
+			{item "ammo bullet155_USA spbe" 10}
+			{item "ammo bullet155_USA cl" 5}  
+			{item "ammo 762Nato" 600}					
+		}
+	}
+	{Weaponry
+		("restore_ik_time")
+		{place "gun"
+			{RestoreIKAfterAim}
+			{weapon "155mm_L52" filling "ammo bullet155_GER fg" 1}
+			{gunner "gunner"}
+			{charger "gunner"}        	
+			("CW_stab_artillery_rt" rechargetime(4.5))
+		}
+		{place "mgun"
+			{weapon "mg3" filled}
+			{foresight "foresight4"}
+			{gunner "gunner2"}
+			{charger "gunner2"}
+			{basic}
+			("CW_stab_no_stabiliser")
+		}
+		{place "mgun18"			;дым гранатометы
+			{type "mgun_left"}
+			{weapon "4xsmokegun_bredly" filling "smoke_shtora ammo" 4}
+			{gunner "gunner"}
+			{charger "gunner"} 
+			{foresight "foresight21"}
+			{barrels 4}
+			{basic}
+		}
+		{place "mgun19"			;дым гранатометы
+			{type "mgun_right"}
+			{weapon "4xsmokegun_bredly" filling "smoke_shtora ammo" 4}
+			{gunner "gunner"}
+			{charger "gunner"} 
+			{foresight "foresight20"}
+			{barrels 4}
+			{basic}
+		}
+	}
+	{sensor
+		{visor "main"
+			{vision "tank_gunner_optic_2g"}
+		}
+		{visor "top"
+			{vision "vehicle_top_mgun"} 
+			{bone "Mgun"}
+                }
+                {visor "gunner"
+                        {vision "tank_gunner_optic_2g"}
+                        {bone "Visor3"}
+                }
+	}
+	{mass 62000}
+	{Chassis
+		("tank_trace" fx("tracks_big") step(0.5) len(1.5))
+		{Locomotion ("CW_track_moveparam" 
+			Mass(62.0)
+			Width(3.48)
+			Power(1000)
+			Realspeed(67)
+			Gamespeed(42) 
+		)
+		{RearGears		0.20 0.43}}
+		("CW_fuelbag" Range(420) Fuelvolume(1000))
+		("CW_speed_lev" Gamespeed(42))
+	}
+	{props "cwfs_fuel_1000"}
+
+	("two_headlights")
+	{Extension "pzh2000.mdl"}
+	("missile_aimpoint_tanksize")
+
+	{bone "gun_rot"
+		{speed 0.005}
+	}
+	("cwts_buksir")
+        ("recoil_side_common")
+	("CW_turr_speed" deg_per_s(30))
+                
+}
+  
+

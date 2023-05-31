@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "whell_d"}
+	{blend none}
+}

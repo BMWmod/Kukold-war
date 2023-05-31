@@ -1,0 +1,39 @@
+;Exported by: Timosh
+;Date:        Tue Jun 21 11:09:06 2022
+;File:        G:\?????? ? Pheonix\??????????????\??????\?????? ? ???????\???\???????????? ??????????? ???????\cottage1_x 10.max
+{Skeleton
+	{bone "usa_cottage1st_1oven"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "piece1"
+			{Position -40.223	84.4092	-24.8276}
+			{VolumeView "piece1.ply"}
+		}
+		{bone "piece0"
+			{Position -40.223	84.4092	-24.8276}
+			{VolumeView "piece0.ply"}
+		}
+		{bone "piece2"
+			{Position -40.223	84.4092	-24.8276}
+			{VolumeView "piece2.ply"}
+		}
+	}
+}
+{Volume "piece0"
+	{Box 23.1036 8.28841 23.5625}
+	{Bone "piece0"}
+	{Position 40.7465	-85.9082	52.2677}
+}
+{Volume "piece1"
+	{Box 16.9738 8.26476 23.4512}
+	{Bone "piece1"}
+	{Position 43.8118	-85.8849	84.9366}
+}
+{Volume "piece2"
+	{Box 20.1719 11.2794 31.3912}
+	{Bone "piece2"}
+	{Position 43.8125	-85.8586	120.617}
+}

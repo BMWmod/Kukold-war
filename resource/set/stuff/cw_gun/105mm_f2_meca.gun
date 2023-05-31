@@ -1,0 +1,61 @@
+;Created by Pheonix 
+{from "pattern tank_gun"    ; "M1_Abrams"
+   	
+	{filling "ammo bullet105a_fr" 3}
+	{fireSound "gun/f2_ 105mm_shot"}
+	{reloadSound "105mm_ZTL11_reload"}
+	{RecoveryTime 4.00}
+	{rechargeTime 5}
+	{range 140 140}	;по разным данным и разными снарядами 2000-3000
+	("speed" s(800))
+	("100-128caliber")
+	{calibre 15}
+	("damage4" a(0.3) b(0.3) c(0.3) d(0.3) e(0.3)) 
+	("CW_acc_common" mils(0.4))
+	;{cursor "tankgun_HESH"}
+	;{cursorReloading "tankgun_HESH_reload"}
+	;{cursor "cannon_on_fg_4"}
+	;{cursorReloading "cannon_reload_fg"}
+	{cursor "cannon_on_HESH"}
+	{cursorReloading "cannon_reload_HESH"}
+
+	{parameters "bullet105a_fr apcr"
+		("CW_APCR_damage_WC1500" penetr_2000m(291))
+		{range 140 140}
+		("CW_acc_common" mils(0.25));оценка
+		;{cursor "tankgun_APCR"}
+		;{cursorReloading "tankgun_APCR_reload"}	
+		{cursor "cannon_on_apcr"}
+		{cursorReloading "cannon_reload_apcr"}
+
+		("speed" s(1400))
+	}
+	{parameters "bullet105a_fr cm"
+		("CW_acc_common" mils(0.4))
+		;{cursor "tankgun_HEAT"}
+		;{cursorReloading "tankgun_HEAT_reload"}
+		{cursor "cannon_on_heat"}
+		{cursorReloading "cannon_reload_heat"}
+
+		{range 140 140}
+		("speed" s(1120))
+	}
+	{parameters "bullet105a_fr fg"
+		("CW_acc_common" mils(0.4))
+		;{cursor "tankgun_HE"}
+		;{cursorReloading "tankgun_HE_reload"}
+	{cursor "cannon_on_fg_4"}
+	{cursorReloading "cannon_reload_fg"}
+		{range 140 140}
+		("speed" s(800))
+	}
+	{parameters "bullet105a_fr sm"
+		("CW_acc_common" mils(0.4))
+		;{cursor "tankgun_SM"}
+		;{cursorReloading "tankgun_SM_reload"}
+		{cursor "cannon_on_sm"}
+		{cursorReloading "cannon_reload_sm"}
+		{range 140 140}
+		("speed" s(800))
+	}
+}

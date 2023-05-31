@@ -1,0 +1,57 @@
+;Cold War
+{from "pattern sniper_rifle"
+	{tag "sniper weapon at_rifle to_hand nokeep cannot_stand hrifle reliability_medium"}	
+	{special
+		{mode aim}
+		{PrepareTime 4}
+		{PrepareCursor "aimed_shot"}
+		;{damage 2} ; damage *= x
+		{accuracy 1.2} ; aim_range *= x
+		;{throw_off}
+	}
+	{mass 12.9}
+	{filling "ammo ptr" 5}
+	{curve "127rus_120"}
+	{inventory
+		{size 6 2}
+	}
+	{entity "osv98"}
+	("hrifle_range")
+	{speed 300}
+	{healthDamage 297}
+	{HealthDamageClip 80}
+	{RelaxationTime 1}
+	{projectileDamageTable {0 22} {75 16} {90 11} {120 4} {140 2}}	;http://www.lveplant.ru/pages_ru.php?id=32
+	{projectileDamageThreshold 1}
+	{fireSound	"rifle/KSVK_shot"}
+	{reloadSound "chn/ksvk_reload"}
+	{recoveryTime 1.5}
+	{rechargeTime 4}
+	{calibre 12}
+	;{cursor "optic_pos"}
+	;{cursorReloading "optic_pos_reload"}
+	{cursor "sniper_ap"}
+	{cursorReloading "cannon_reload_ap"}
+	("accuracy_optic_sight"  moa(2))
+	("accuracy_optic_sight_100"  moa(2))
+	{parameters "hcb_ammo_nonsniper"
+		("accuracy_optic_sight"  moa(2.5))
+		("accuracy_optic_sight_100"  moa(2.5))
+		{projectileDamageTable {10 27} {75 21} {105 11} {120 5} {140 3}}	;http://www.lveplant.ru/pages_ru.php?id=28
+	}
+	{parameters "BS"
+		("accuracy_optic_sight"  moa(2.15))
+		("accuracy_optic_sight_100"  moa(2.15))
+		{projectileDamageTable {20 40} {75 32} {100 17} {122 9} {140 5}}	;http://www.lveplant.ru/pages_ru.php?id=33
+		{cursor "sniper_ap"}
+	             {cursorReloading "cannon_reload_ap"}
+	}
+	{parameters "MDZ"
+		("accuracy_optic_sight"  moa(2.15))
+		("accuracy_optic_sight_100"  moa(2.15))
+		{projectileDamageTable {0 5} {75 4} {120 3} {140 2}}
+	             {cursor "sniper_fg"}
+	             {cursorReloading "cannon_reload_fg"}
+	}
+	("scope")
+}

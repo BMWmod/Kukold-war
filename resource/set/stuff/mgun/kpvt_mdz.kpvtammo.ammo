@@ -1,0 +1,23 @@
+;Cold War
+{bullet
+	{tag "small fg ic kpvtammo pierce mdz hmgun fragmentary fx_10_15"}
+	{tag "hmgun"} ; только для ammo.set
+	{inventory
+		{weight 1}
+		{block 100}
+		{size 2 2}
+		
+	}
+	{mass 0.19}
+	{entity "kpvt_mdz"}
+	{damage blastwave
+		{energy 0.7} ; kg
+		{area 0.5 0.7} ; m
+	}
+        {trace
+		{view "/texture/fx/traceNATO"
+			{ScaleY 0.3}
+		}
+		{length 3.5}
+	}
+}

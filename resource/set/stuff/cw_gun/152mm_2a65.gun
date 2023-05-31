@@ -1,0 +1,6 @@
+;Created by Pheonix 
+{from "152mm_2A64 gun"     ; "Ã—“¿-¡"
+   	
+	{reloadSound "tankgun_r04"}
+
+}

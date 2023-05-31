@@ -1,0 +1,82 @@
+(include "\set\small.firearms.accuracy")
+
+(define "bolt_action"
+	{ZeroingAccuracy 0.9 0.8}
+)
+
+(define "speed"   
+	{speed (* 0.5 %s)}  
+)
+
+(define "accuracy_boost"
+	{ZeroingAccuracy 0.9 0.8}
+)
+(define "marksman_range"
+    {aimRange 95}
+	{maxRange 95}
+)
+(define "marksman_range_custom"
+    {aimRange (* 95 %k)}
+	{maxRange (* 95 %k)}
+)
+(define "bolt_range"
+    {aimRange 100}
+	{maxRange 100}
+)
+(define "bolt_range_custom"
+    {aimRange (* 100 %k)}
+	{maxRange (* 100 %k)}
+)
+(define "hrifle_range"
+    {aimRange 120}
+	{maxRange 120}
+)
+(define "hrifle_range_custom"
+    {aimRange (* 120 %k)}
+	{maxRange (* 120 %k)}
+)
+(define "scope"
+;CtA only
+;	{thirdpersonparams inherit "human default"
+;		{level 2
+;			{zoom}
+;			{camera "human_zoom4"}
+;			{scope_vignette "/texture/common/environment/lens_effects/zoom_vignette_scope_01"}
+;		    {vignette_gloss 30}
+;			{offset		2.5 2.25 0.75	}
+;			{hide_weapon 1}
+;			{with_owner
+;				{viewoff 	"fps_arms"	}
+;			}
+;			{with_weapon
+;				{viewon		"foresight3"}
+;				{viewoff	"fx_light"	}
+;			}
+;			{hide_crosshair}
+;			{weapon_sway_active}
+;			{blur_strength 4}
+;			{enable_special}
+;		}
+;	}
+)
+(define "holo"
+;CtA only
+;	{thirdpersonparams inherit "human default"
+;		{level 2
+;			{camera "human_zoom3"}
+;			{scope_vignette "/texture/common/environment/lens_effects/zoom_vignette_infantry_02"}
+;			{vignette_gloss 50}
+;			{offset		3.0 2.25 0.75	}
+;			{hide_weapon 1}
+;			{with_owner
+;				{viewoff 	"fps_arms"	}
+;			}
+;			{with_weapon
+;				{viewon		"foresight3"}
+;				{viewoff	"fx_light"	}
+;			}
+;			{hide_crosshair}
+;			{weapon_sway_active}
+;		}
+;	}
+)

@@ -1,0 +1,5 @@
+{material simple
+	{diffuse "$/model/toyhota"}
+	;{mask "$/model/toyhota_sp"}
+	{blend blend}
+}

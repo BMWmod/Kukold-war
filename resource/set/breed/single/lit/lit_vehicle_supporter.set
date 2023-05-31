@@ -1,0 +1,20 @@
+{breed
+	{skin "cw_lit_tac"}
+	{portrait "_new/balt/lit"}
+	{icon pol_smg}
+	{icon_priority 0}
+	{nationality lit}
+	{armors
+		{head pasgt_helmet_lit}
+	}
+	(include "perks_generic.inc")
+	("traits_vehicle_supporter")
+	{inventory
+		{item "lit_vest"}
+		{item "shgr56" 4}
+		{item "bandage" 10}
+		{item "g36k" filling "556nato ammo" 30}
+		{item "556nato ammo" 240}
+		{in_hands 3}
+	}
+}

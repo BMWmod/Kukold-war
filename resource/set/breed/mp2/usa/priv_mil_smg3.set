@@ -1,0 +1,72 @@
+{breed
+	{behaviour soldier}
+	{skin "cw_pmc2"}
+	{portrait "_new/civilian/civilian3"}
+	{icon civilian}
+	{icon_priority 0}
+	{nationality eng}
+	{armors
+		{head cap_baseball_peltor}
+	}
+	{perks
+		{"vision" mp_soldier
+		}
+		{"smg" lvl_4
+		}
+		{"mgun" lvl_3
+		}
+		{"rifle" lvl_4
+		}
+		{"rocketlauncher" lvl_3
+		}
+		{"pistol" lvl_3
+		}
+		{"gra_launch" lvl_4
+		}
+		{"melee" lvl_4
+		}
+		{"avoidance" lvl_2
+		}
+		{"health" "200%"
+		}
+		{"health_regeneration" "100%"
+		}
+		{"stamina" "200%"
+		}
+		{"stamina_regeneration" "100%"
+		}
+		{"speed" 0.9
+		}
+		{"skill_tankgun" lev_1
+		}
+		{"skill_atgm_launcher" lev_1
+		}
+		{"skill_airgun" lev_1
+		}
+		{"skill_airgm_launcher" lev_1
+		}
+	}
+	{veterancy
+		{"lvl_1" 1
+		}
+		{"lvl_2" 2
+		}
+		{"lvl_3" 4
+		}
+		{"lvl_4" 6
+		}
+		{"lvl_5" 8
+		}
+	}
+	{inventory
+		{item "lbt6094_clear"}
+		{item "bandage" 10}
+		{item "m61 grenade" 2}
+		{item "smoke grenade" 2}
+		{item "m14_scope" filling "762nato ammo" 20}
+		{item "762x51_x20 ammo" 200}
+		{item "sandbag_kit"}
+		{item "m136 weapon" 1 filling "m136 ammo" 1}
+		{in_hands 4}
+	}
+}

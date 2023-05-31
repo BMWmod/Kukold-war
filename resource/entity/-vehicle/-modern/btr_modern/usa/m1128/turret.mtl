@@ -1,0 +1,8 @@
+{material bump
+	{diffuse "$/model/M1128/stryker_turret"}
+	{bump "$/model/M1128/stryker_turret_bp"}
+	{specular "$/model/M1128/stryker_turret_sp"}
+	{color "229 229 229 25"}
+	{emitsheat}
+{blend none}
+}

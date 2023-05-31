@@ -1,0 +1,16 @@
+{game_entity
+	(include "/properties/stuff_grenade.ext")
+	{Extension "blast_restrictor_directional.mdl"}
+	{props "blast_restrictor"}
+	{Simulation {Able 0}}
+	{Volume "wall1" {able clear {blast 1}} {Thickness 10}}
+	{Volume "wall2" {able clear {blast 1}} {Thickness 10}}
+	{Volume "wall3" {able clear {blast 1}} {Thickness 10}}
+	{Volume "wall4" {able clear {blast 1}} {Thickness 10}}
+	{props "steel" "-wood"}
+	{obstacleID "nothing"}
+	{collider "nothing"}
+	{extender "stuff"
+		{item "bullet100_cn_rapira apcr"}
+	}
+}

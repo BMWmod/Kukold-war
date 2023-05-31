@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "$/model/kto_rosomak/psz_alpha_ca"}
+	{blend blend}
+}

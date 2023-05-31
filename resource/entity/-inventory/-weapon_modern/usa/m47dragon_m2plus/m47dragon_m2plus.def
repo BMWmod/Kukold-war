@@ -1,0 +1,17 @@
+{actor
+	(include "/properties/stuff_weapon.ext")
+	{Extension "m47dragon_m2plus.mdl"}
+	{extender "stuff"
+		{item "m47dragon_m2"}
+	}
+	{nogroupmesh 1}
+	{lodclass "human"}
+}
+
+
+
+
+
+
+
+

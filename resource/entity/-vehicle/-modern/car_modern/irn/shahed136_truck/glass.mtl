@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "$/model/shahed136_truck/glass"}
+	{blend blend}
+}

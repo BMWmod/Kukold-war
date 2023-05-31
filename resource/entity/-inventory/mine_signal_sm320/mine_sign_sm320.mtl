@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "mine_sign_sm320_white_co"}
+	{blend none}
+}

@@ -1,0 +1,6 @@
+;Cold War
+{from "kord"	;танковый вариант без оптики и приклада
+	{entity "kord_tank"}
+	{range 120 120}
+}
+

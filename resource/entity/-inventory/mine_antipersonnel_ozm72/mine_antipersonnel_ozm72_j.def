@@ -1,0 +1,12 @@
+{game_entity
+(include "/properties/stuff_mine.ext")
+	{Extension "mine_antipersonnel_ozm72_j.mdl"}
+	{props "mine_jumping_impactor"}
+	(include "/properties/shadow/round.inc")
+	{Volume "body"
+		{density 0}
+	}
+	{extender "stuff"
+		{item "mine_antipersonnel_ozm72_j"}
+	}
+}

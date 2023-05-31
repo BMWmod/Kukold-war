@@ -1,0 +1,185 @@
+;Expotr,DEF by Pheonix
+;Pheonix game 2010 (c)
+{Entity
+	
+	(include "/properties/tank.ext")
+	(include "/properties/shadow/tank.inc"  scale(1.4))
+	(include "/properties/selection/vehicle.inc"  scale(1.2))
+
+	{extender "enumerator"}
+	{collider "tank.heavy"}
+	{props "medium_M" "vision_lev06" "msta" "auto_dig_in" "has_apu" "has_autoloader" "cw_artillery" "3_barrels_smoke" "krasnopol_user"}
+	("shield_t-64a_1981")
+	{component "shieldl1" {tags "shield"}} 
+ 	{component "shieldr1" {tags "shield"}} 
+	{component "shieldl2" {tags "shield"}}
+	{component "shieldr2" {tags "shield"}}
+	{component "shieldl3" {tags "shield"}}
+	{component "shieldr3" {tags "shield"}}
+	{component "shieldl4" {tags "shield"}}
+	{component "shieldr4" {tags "shield"}}
+
+	{volume "body1"
+		{tags "body"}
+		{component "body"}
+	}
+	{volume "body2"
+		{tags "body"}
+		{component "body"}
+	}
+	{volume "engine"
+		{tags "engine"}
+		{component "engine"}
+	}
+	{volume "turret"
+		{tags "turret"}
+		{component "turret"}
+	}
+	{volume "stan2"
+		{tags "body"}
+		{component "body"}
+		{thickness 225}
+	}
+	{volume "mantlet"
+		{tags "gun"}
+		{component "gun"}
+		{thickness 250}
+	}
+;	("armor_msta" turret(210 180 160 90) body1(390 200 120 65)  body2(390 200 120 65))
+;	("armor_spa_mantlet" t(250))
+;	("armor_engine"  t(100))
+
+;	("armor_msta" turret(70 70 70 70) body1(60 75 70 40)  body2(60 75 70 40))
+;	("armor_heavy_multivolume" turret(30 30 30 30) body1(70 75 70 40)  body2(70 75 70 40))
+	("armor_IFV_multivolume" turret(30 30 30 30) body1(15 15 15 15)  body2(15 15 15 15))
+	;Геометрия корпуса подобна Т-72, но весь корпус набран из 15мм стальных бронелистов.
+	;http://warfiles.ru/show-38707-msta-po-uralski-borba-za-samohodnuyu-artilleriyu.html
+	
+;устар. инф.
+ ;Масса башни без боекомплекта — 13,5 тонн (wiki) Там не может быть толстой брони. Прикидки дают 30мм,
+ ;Блинов Михаил Афанасьевич (ст. н. с. Пермского НИИТИ) подтверждает толщину 30мм
+;лобовая часть не имеет комбинированного бронирования и сделана из гомогенной бронестали Башня сварена из катаных броневых листов 
+;http://legion.wplus.net/guide/army/ar/2s19.shtml
+;Поэтому бронирование корпуса - Т-72, но ВЛД 60 мм - только внешний лист http://btvt.narod.ru/4/armor.htm
+;Экран и двигатель соответственные
+	("armor_spa_mantlet" t(35))
+	("armor_engine"  t(30))
+
+
+
+
+;====================================
+
+("crew_4_human_extended")
+	{boarder
+		{anm "driver"
+			{forward	{begin	"board_pz4_driver"} {end "seat_gunner_stand"} {base "open_driver"}}
+			{reverse 	{end	"board_pz4_driver" -1} {base "open_driver" -1}}
+		}
+		{anm "left"
+			{forward	{begin	"board_tank_right"} {end "seat_gunner_stand"}}
+			{reverse 	{end	"emit_tank_2_hold"}}
+		}
+		{anm "right"
+			{forward	{begin	"board_tank_left"} {end "seat_gunner_stand"}}
+			{reverse 	{end	"emit_tank_2_hold"}}
+		}
+
+	}
+
+
+;=================================================	
+
+	{sensor
+		{visor "main"
+			{vision "tank_gunner_optic_1g"}
+		}
+	}
+	{extender "inventory"
+		{box     ;БК 50 выстрелов
+			{Size 8 7}
+			{weight 3000}
+			{item "ammo bullet152_RUS fg" 25}
+			{item "ammo bullet152_RUS korr" 3}
+			{item "ammo bullet152_RUS_r fg" 5}
+			{item "ammo bullet152_RUS rok" 5}
+			{item "ammo bullet152_RUS_h fg" 15}	
+			{item "ammo Hcb_ammo" 75} 
+			{item "ammo osv_fg" 75}	
+		}
+	}
+        ; 42 штатных ОФ и 4 3ОФ39
+	; 47 штатных ОФ и 3 3ОФ39		
+	; 39 штатных ОФ и 7 3ОФ39		
+
+	{Weaponry
+		("restore_ik_time")
+		{place "gun"
+			{RestoreIKAfterAim}
+			{weapon "152mm_2A64m2" filling "ammo bullet152_RUS fg" 1}
+			{gunner "gunner"}
+			{charger "gunner"}        	
+			("CW_stab_artillery_rt" rechargetime(8))	
+		}
+		{place "mgun"
+			{weapon "hcb" filled}
+			{foresight "foresight3"}
+			{gunner "gunner"}
+			{charger "gunner"}
+			{LinkAnimation "off"}
+			{basic}
+			("CW_stab_no_stabiliser")
+		}
+		{place "mgun18"			;дым гранатометы
+			{type "mgun_left"}
+			{weapon "3xsmokegun_msta" filled}
+			{gunner "gunner"}
+			{charger "gunner"} 
+			{foresight "foresight21"}
+			{barrels 3}
+			;{basic}
+		}
+		{place "mgun19"			;дым гранатометы
+			{type "mgun_right"}
+			{weapon "3xsmokegun_msta" filled}
+			{gunner "gunner"}
+			{charger "gunner"} 
+			{foresight "foresight20"}
+			{barrels 3}
+			;{basic}
+		}
+	}
+
+	{mass 43200}
+	{Chassis
+		("tank_trace" fx("tracks_big") step(0.47) len(1.2))
+		("CW_tracks"
+			Mass(43.2)
+			Width(3.38)
+			Power(840)
+			Realspeed(60)
+			Gamespeed(39) 
+			Range(500)
+			Fuelvolume(1250)
+		)
+		
+	}
+	{props "cwfs_fuel_1000"}
+
+	{Extension "Mstasm2.mdl"}
+	("missile_aimpoint_tanksize")
+
+	{bone "gun_rot"
+		{limits -20 75}
+             		{speed 0.002}
+	}
+	{bone "mgun"
+		{speed 0.01}
+		{limits -75 20}
+	}
+	("cwts_buksir")
+	("two_headlights")
+        ("recoil_side_common")
+	("CW_turr_speed" deg_per_s(28))
+
+}

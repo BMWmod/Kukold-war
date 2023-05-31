@@ -1,0 +1,39 @@
+;Exported by: Timosh
+;Date:        Tue Aug 30 09:41:44 2022
+;File:        G:\?????? ? Pheonix\??????????????\??????\?????? ??????\???????? ????\???????? ?? ??????? 2\?? ???? M14\M14.max
+{Skeleton
+	{bone "body"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{LODView
+			{VolumeView "body.ply"}
+			{VolumeView "body_lod1.ply"}
+		}
+		{bone "handle"
+			{Matrix34
+				-1	0	0
+				0	-1	0
+				0	0	1
+				1.75506	0.57068	0.206978
+			}
+		}
+	}
+}
+{Volume "body1"
+	{Cylinder 0.552362 0.786614}
+	{Bone "body"}
+	{Position 0	0	-0.220096}
+}
+{Volume "body"
+	{Cylinder 0.552362 0.786614}
+	{Bone "body"}
+	{Position 0	0	-0.220096}
+}
+{Volume "select"
+	{Cylinder 2.86988 2.65748}
+	{Bone "body"}
+	{Position 0	0	0.715337}
+}

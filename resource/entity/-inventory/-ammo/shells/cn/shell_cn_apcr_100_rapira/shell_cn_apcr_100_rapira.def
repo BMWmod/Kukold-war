@@ -1,0 +1,13 @@
+{game_entity
+	(include "/properties/stuff_small.ext")
+	{collider "ammo"}
+	{Volume "body"
+		{thickness 4}
+		{able {touch} {bullet} {blast}}
+	}
+	{extender "stuff"
+		{item "bullet100_cn_rapira apcr"}
+	}
+	{props "steel" "explosive_stuff"}
+	{Extension "lapfsds_ptl02.mdl"}
+}

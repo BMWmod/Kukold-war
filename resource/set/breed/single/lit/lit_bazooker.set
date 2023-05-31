@@ -1,0 +1,24 @@
+{breed
+	{skin "cw_lit_tac"}
+	{portrait "_new/balt/lit"}
+	{icon pol_bazooker}
+	{icon_priority 4}
+	{nationality lit}
+	{armors
+		{head pasgt_helmet_lit}
+	}
+	(include "perks_generic.inc")
+	("traits_army_bazooker")
+	{inventory
+		{item "lit_vest"}
+		{item "javelin weapon" filled}
+		{item "ammo jav_rock" 1}
+		{item "556nato ammo" 60}
+		{item "bandage" 5}
+		{item "smoke grenade"}
+		{item "knife_union"}
+		{item "shgr56" 2}
+		{item "g36e" filling "556nato ammo" 30}
+		{in_hands 8}
+	}
+}

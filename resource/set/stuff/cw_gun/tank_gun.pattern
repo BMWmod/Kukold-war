@@ -1,0 +1,4 @@
+{from "pattern gun"
+	{gravity 1.15}		;при меньшей гравитации не работает пристрелка
+	{ZeroingAccuracy 0.9 0.85}
+}

@@ -1,0 +1,35 @@
+;Cold War
+{from "pattern smg"
+	{tag "reliability_medium" "sd"}
+	{filling "ammo 545" 30}
+	{curve "545_100"}
+	{mass 3.8}      
+	{entity "lodtester"}
+	{fireSound	"chn/Ak74S_burst/"}
+	{reloadSound "chn/ak107_Reload"}
+	{speed 280}	
+
+	{recoveryTime 0.07}
+                          {rechargeTime 2.5}
+
+
+	("smg_range_optic")
+	
+	{burst
+		{short 2 1}
+		{long 6 2}
+{rangeKoef 0.444}
+	}
+	{healthDamage 68}
+	{spreading 1
+		{BurstAccuracy 100 92 90 87 80 73}
+		{SpreadPower	1.7}
+		{SpreadXYRatio	0.5}
+		{SpreadYadjust	0.2}	
+	}
+	("accuracy_optic_sight"  moa(2.5))
+	("accuracy_optic_sight_70"  moa(2.5))
+	{spreading 
+		{BurstAccuracy 100 97 94 90 85 81 76 73 68 65}
+	}
+}

@@ -1,0 +1,94 @@
+{game_entity
+	(include "/properties/airborne_M.ext")	;сюда впишем общие свойства и компоненты
+	{PatherID  "airborne"}
+	(include "/properties/shadow/airborn.inc" scale(1.1))
+	(include "/properties/selection/airborne.inc" scale(3.0))
+	(include "/properties/car_crew.ext")
+	{props "airborne_M" "fighter" "vision_lev_small_UAV" "small_UAV" "smalluav_usa" "altmax_40m" "-radar_spo" "-IR_spo" "cw_autotakeoff"}	
+		{Extension "rq11raven.mdl"}
+		("missile_aimpoint_custom" height(0) front(0) side(0))
+		{extender "vision_mode"
+		;only one {timer_object} is supported at the moment for vision_mode extender.
+		{timer_object
+			{tag		"thermal"}  ; -> only thermal, night or drone are supported right now
+			{active_time	   36000}  ;Sec 
+			{recharge_rate	  0.5}  ;Factor * game time -> only valid for type "recharge"
+			;{cooldown		   10}  ;Sec -> Only valid for type "consume" or "switch"
+			{type	     "recharge"}; -> only recharge, consume or switch are supported right now
+	    }
+	}
+	{collider "particle.big"}
+	{targetClass 	"small_UAV"}
+	{targetSelector "cannon_bullet"}
+
+	{mass 4}
+
+;	{armor
+;		("air_armor" body(1) wing(1) avionics(1) engine(1) hydrosystem(1) electronics(1) fuel(1))
+;		{setting "body"
+;            {thickness 1}
+;            {durability  {blast {koef 1} {value 2}} {pierce {koef 1} {value 2}}}				
+;            {threshold  {blast {koef 1} {value 1}} {pierce {koef 1} {value 1}}}	
+;            {volumes "body*"}
+;        }
+;	}
+	{armor
+		("small_UAV_armor")
+	}
+	{extender "inventory"
+		{box
+			{clear}
+		}
+	}
+
+("Chassis_parameters" 
+	Speed(22) TurnRadius(23) 
+	Fuel(3) Fuel_remain(3) Fuel_rate(0.007) 
+;	Acc_hor(2.00) Maneuvrability_hor(11.83)
+;	Acc_ver(1.37) Maneuvrability_ver(2.65)
+	Acc_hor(5) Maneuvrability_hor(5)
+	Acc_ver(5) Maneuvrability_ver(5)
+	;Стандартная шкала не годится, подобрано по удобству использования.
+
+)
+;(mod "mp" ("Chassis_parameters" Fuel(10) Fuel_rate(0.05) Speed(35) TurnRadius(15) Maneuvrability(7)))
+;Maneuvrability - маневренность по десятибалльной шкале. 10 - истребитель с УВТ, 1 - стратегический бомбардировщик.
+;==========================
+ {Chassis "wheel"
+	{locomotion ("locomotion")
+		{MaxSpeed 1} 
+		{StartTime 		1  } 
+		{BrakeTime 		0.01  } 
+		{StopTime		0.01  }    
+	}
+ }
+
+	{Sensor
+		{Visor "OLS"
+			{vision "aircraft_optic_3g_wide"}
+			{bone "visor_OLS"}
+		}
+		{Visor "OLS1"
+			{vision "aircraft_optic_3g_wide"}
+			{bone "visor_OLS1"}
+		}
+	}
+	{brain
+		{properties
+			{control user}
+		}
+	}
+	{Chassis "airborne"
+			{Altitude 25}
+		}
+	{ChassisManager
+			{Current "airborne"}
+	}
+
+       {autooperatable 1}
+       {placer
+          {crew 0}
+          {place "driver" remove}
+       }
+
+}

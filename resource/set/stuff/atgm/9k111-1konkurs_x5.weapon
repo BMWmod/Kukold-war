@@ -1,0 +1,39 @@
+{from "pattern proj_weapon_ground"
+	
+	{tag "gun"}
+	{filling "ammo fagot_concurs" 5}
+        {fillingVisible "rocket"}
+              {fireSound "bazooka/konkurs_launch"}
+	{mass 7}
+	{rechargeTime 60}
+	{recoveryTime 5}
+	{inventory {noView}}
+	{calibre 5}
+	;{cursor "zenite_on"}
+	;{cursorReloading "zenite_reload"}
+	{cursor "cannon_on_heat_2"}
+	{cursorReloading "cannon_reload_heat"}
+	;{cursorReloading "cannon_reload_heat_timer_70"}
+	("damage" a(1) b(1) c(1) d(1) e(1))
+	{projectileDamage 0}
+	{parameters "9m113"
+        {maxRange 150}
+		{aimRange 150}
+	}
+	{parameters "9m113m"
+        {maxRange 150}
+		{aimRange 150}
+	}
+	{parameters "9m113m1"
+        {maxRange 150}
+		{aimRange 150}
+	}
+	{parameters "9m111m"
+        {maxRange 130}	;http://btvt.narod.ru/4/fagot.htm
+		{aimRange 130}
+	}
+	{parameters "9m111"
+        {maxRange 120}
+		{aimRange 120}
+	}
+}

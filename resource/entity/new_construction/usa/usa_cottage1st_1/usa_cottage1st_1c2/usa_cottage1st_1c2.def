@@ -1,0 +1,69 @@
+{game_entity
+	(include "/properties/building.inc")
+	{Extension "usa_cottage1st_1c2.mdl"}
+	{props "cornered" "wood" "parts" "construction" "windowed" "wall" "burning"}
+	("armor_heavy" args 0.8)
+	{placer
+		{place "3" {attach  snipe_cover} 		{linkbone "attach3"}}
+		{place "4" {attach  snipe_cover} 		{linkbone "attach4"}}
+	}	
+	{boarder}
+	{Volume "body1"
+		{Tags  "body" "fire"}
+		{Thickness 10}
+		{able {visible 1}{holed}}
+	}
+	{Volume "body2"
+		{Tags  "body" "fire"}
+		{Thickness 10}
+		{able {visible 1}}
+	}
+	{Volume "body3"
+		{Tags  "body" "fire"}
+		{Thickness 10}
+		{able {visible 1}{obstacle 0}}
+	}
+	{Volume "body4"
+		{Tags  "body" "fire"}
+		{Thickness 10}
+		{able {visible 1}{obstacle 0}}
+	}
+	{Volume "body5"
+		{Tags  "body" "fire"}
+		{Thickness 10}
+		{able {visible 1}{obstacle 0}}
+	}
+	{Volume "body6"
+		{Tags  "body" "fire"}
+		{Thickness 10}
+		{able {visible 1}{holed}}
+	}
+	{Volume "body7"
+		{Tags  "body" "fire"}
+		{Thickness 10}
+		{able {visible 1}{obstacle 0}}
+	}
+	{Volume "hole3"
+		{Tags  "attach" "1"}
+		{able clear {hole}{touch 1}}
+	}
+	{Volume "hole4"
+		{Tags  "attach" "1"}
+		{able clear {hole}{touch 1}}
+	}
+	{Volume "roof1"
+		{Tags  "body" "fire"}
+		{Thickness 10}
+		{able {visible 0}{obstacle 0}}
+	}
+	{Volume "window3"
+		{Tags  "fire"}
+		{Thickness 0.2}
+		{able {visible 0}{window}}
+	}
+	{Volume "window4"
+		{Tags  "fire"}
+		{Thickness 0.2}
+		{able {visible 0}{window}}
+	}
+}

@@ -1,0 +1,22 @@
+{breed
+	{skin "cw_est_tac"}
+	{portrait "_new/balt/est"}
+	{icon pol_smg}
+	{icon_priority 0}
+	{nationality est}
+	{armors
+		{head pasgt_helmet_est}
+	}
+	(include "perks_generic.inc")
+	("traits_army_mgun")
+	{inventory
+		{item "est_vest"}
+		{item "shgr56" 3}
+		{item "bandage" 2}
+		{item "smoke grenade" 2}
+		{item "mg3" filling "762nato ammo" 100}
+		{item "762nato ammo" 600}
+		{item "sandbag_kit"}
+		{in_hands 4}
+	}
+}

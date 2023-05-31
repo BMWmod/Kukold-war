@@ -1,0 +1,4 @@
+;Cold War
+{from "mg3"
+	{entity "MG3_tank"}
+}

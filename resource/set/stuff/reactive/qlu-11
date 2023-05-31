@@ -1,0 +1,38 @@
+{from "weapon PG_cn"
+	{entity "qlu-11"}
+	{tag "-skill_gra_launch" "skill_rifle"}
+	{tag "reliability_medium"}	;failure rate 0.3% or 1 per 300
+	;https://www.china-arms.com/saudi-lg5-40mm-grenade-launcher/
+	{filling "ammo 35x32ammo" 7} ;grenade number unknown, there are 3,5,7 variants for 35mm
+	;This looks similar and has 7 https://www.youtube.com/watch?v=S1kCeKMTdXs
+	{Range 100 100}	;1000м по точечной цели
+	{speed 30}
+	{gravity 0.75}
+	{mass 12.9} 
+	{fireSound "reactive/qlu-11_shot"}
+	{reloadSound "chn/RPK_Reload"}
+	;R100 is less than 1m on 600m https://www.china-arms.com/saudi-lg5-40mm-grenade-launcher/
+	;generally, R100 is about 2*R50, and in CW too
+	("accuracy_optic_sight"  moa(7.7))	
+	("accuracy_optic_sight_70"  moa(3.85))	
+	{tag "sniper"}
+	;grl has complicated FCS, so sniper boost is higher, and resulting acc is 2.86 
+	{ZeroingAccuracy 1.0}	;zeroing acc is reduced, FCS helps to achieve hit with first 1-2 shots
+ 	{special
+		{mode aim}
+		{PrepareTime 3.0}
+		{PrepareCursor "aimed_shot"}
+		{damage 1} ; damage *= x
+		{accuracy 2.0} ; aim_range *= x
+		{throw_off}
+	}
+	{inventory
+		{size 5 2}
+		{link_bone "gun_back"}
+		{weight 100}
+	}
+	{recoveryTime 0.7}
+    {rechargeTime 4}
+	{AimingTolerance 0.1}
+	{aimtype direct}
+}

@@ -1,0 +1,70 @@
+;Cold War
+{from "pattern mgun"
+	{tag "reliability_medium link_hmg"}
+	{entity "kord"}
+	{filling "ammo hcb_ammo" 150}
+	{curve "127rus_120"}
+	{fireSound	"mgun/KORD"}
+	{inventory 	{handle_bone "handle_box"}}
+	{inventory
+		{size 6 2 }
+	}
+
+	;Отклонение на 1000м - 1,5 м.
+	;("burst_long")
+	{reloadSound "ptrd"}
+;	{cursor "zenite_on"}
+;	{cursorReloading "zenite_reload"}
+	;{cursor "mgun_on"}
+	;{cursorReloading "cannon_reload_all"}
+	{cursor "cannon_on_ap_4"}
+	{cursorReloading "cannon_reload_ap"}
+	{mass 25.5}
+	{burst
+		{short 4 2}
+		{long  10 3}
+		{rangeKoef 0.75}
+	}
+	{Spreading	
+		{BurstAccuracy 100 95 90 85 80 75 70 65 60}
+	}
+	{range 120 120}		;http://militaryarms.ru/oruzhie/pulemety/kord/
+
+	{rechargeTime 4.5}
+	{recoveryTime 0.1}
+	{speed 300}
+	
+	{aimingTolerance 1}
+
+	{healthDamage 207}
+	{projectileDamage 32}
+	{projectileDamageTable {10 27} {75 21} {105 11} {120 5} {140 3}}	;http://www.lveplant.ru/pages_ru.php?id=28
+	{calibre 12}
+	(mod "mp"	
+		{projectileDamageThreshold 1.1}
+	)
+
+	("accuracy_optic_sight"  moa(1.9))
+	("accuracy_optic_sight_100"  moa(1.9))
+	{parameters "7H34"
+		("accuracy_optic_sight"  moa(1.9))
+		("accuracy_optic_sight_100"  moa(1.9))
+		{projectileDamageTable {0 22} {75 16} {95 11} {120 4} {140 2}}	;http://www.lveplant.ru/pages_ru.php?id=32
+	}
+	{parameters "BS"
+		("accuracy_optic_sight"  moa(1.9))
+		("accuracy_optic_sight_100"  moa(1.9))
+		{projectileDamageTable {20 40} {75 32} {100 17} {122 9} {140 5}}	;http://www.lveplant.ru/pages_ru.php?id=33
+	             {cursor "cannon_on_apcr_4"}
+	             {cursorReloading "cannon_reload_apcr"}	
+	}
+	{parameters "MDZ"
+		("accuracy_optic_sight"  moa(1.9))
+		("accuracy_optic_sight_100"  moa(1.9))
+		{projectileDamageTable {0 5} {75 4} {120 3} {140 2}}
+	             {cursor "cannon_on_fg_12"}
+	             {cursorReloading "cannon_reload_fg"}	
+	}
+       
+}
+

@@ -1,0 +1,25 @@
+{game_entity
+	{Extension "usa_cottage1st_2.mdl"}
+	{placer}
+	{extender "structure"
+		{place "land" "usa_cottage1st_2land"}
+		{place "1" "usa_cottage1st_2c1"}
+		{place "2" "usa_cottage1st_2c2"}
+		{place "3" "usa_cottage1st_2c3"}
+		{place "4" "usa_cottage1st_2c4"}
+		{place "5" "usa_cottage1st_2c5"}
+		{place "6" "usa_cottage1st_2c6"}
+		{place "7" "usa_cottage1st_2c7"}
+		{place "8" "usa_cottage1st_2c8"}
+		{place "9" "usa_cottage1st_2c9"}
+		{place "10" "usa_cottage1st_2c10"}
+		{place "11" "usa_cottage1st_2c11"}
+		{place "12" "usa_cottage1st_2c12"}
+		{place "13" "usa_cottage1st_2c13"}
+		{place "oven" "usa_cottage1st_2oven"}
+		{place "w1" "usa_cottage1st_2w1"}
+		{place "w2" "usa_cottage1st_2w2"}
+		{place "r1" "usa_cottage1st_2r1"}
+		{place "r2" "usa_cottage1st_2r2"}
+	}
+}

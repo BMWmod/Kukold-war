@@ -1,0 +1,18 @@
+{game_entity
+	(include "/properties/stuff_mine.ext")
+	{Extension "mine_antipersonnel_claymore.mdl"}
+	{props "mine_antipersonnel" "mine_directional"}
+	{extender "stuff"
+		{item "mine antipersonnel_claymore"}
+	}
+	{extender "mine"
+		{time 20}	;Требуется натянуть длинную растяжку
+	}
+	{collider "mine.ap"}
+	{Obstacle "body"
+		{Circle2
+			{Radius 20}
+		}
+	}
+	("high_mine_camera" scale(1.0) up(3))
+}

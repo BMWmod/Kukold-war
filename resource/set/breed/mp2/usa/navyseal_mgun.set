@@ -1,0 +1,22 @@
+{breed
+	{skin "cw_us_seals_belt"}
+	{portrait "_new/usa/seal"}
+	{icon us_seal_mgun}
+	{icon_priority 3}
+	{nationality usa}
+	{armors
+		{head opscore_seals}
+	}
+
+	(include "perks_generic.inc")
+	("traits_elite_mgun")
+	{inventory
+		{item "lbt6094_seals_mgun"}
+		{item "bandage" 10}
+		{item "smoke m18 grenade" 2}
+		{item "m67 grenade" 4}
+		{item "762nato ammo" 300}
+		{item "M240_elcan" filling "762nato ammo" 100}
+		{in_hands 5}
+	}
+}

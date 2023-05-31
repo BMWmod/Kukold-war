@@ -1,0 +1,33 @@
+{from "pattern rpg_weapon"
+	
+	{filling "ammo RSHG-2" 1}
+	{preloaded}
+	{ammoLocked}
+	{inventory
+		{size 4 1}
+	}
+        {maxRange 55}  ;максимальна€ Ц 350 м, прицельна€ Ц 250 м, пр€мого выстрела Ц 115 м.
+	{aimRange 55}  ;начальна€ Ц 95 м/с, максимальна€  Ц 144 м/с.
+	{entity "RSHG-2"}
+;	("damage" a(440) b(440) c(440) d(440) e(440))
+	{mass 3.8}
+	{speed 32}       ;43/250x120= 21  43/250x144= 25
+	{gravity 1.2}
+	{reactive 0}
+	{calibre 5}
+	;{cursor "RPG"}
+
+	{fireSound "bazooka/RPG26fire"}
+	("accuracy_open_rpg"  moa(26.69))	;
+	("accuracy_optic_rpg_50"  moa(26.69))	;
+	{cursor "shmel_on"}
+	{cursorReloading "cannon_reload_heat"}
+}
+;выстрел Ў√-2 ѕ.¬. в 2003 г.
+;
+;ƒальность пр€мого выстрела ƒ¬ѕ Ц 115м. 	
+;–ассеивание гранат Ў√-2 характеризуетс€ сдаточными отклонени€ми меньше либо равно ¬в = 0,6 м и ¬б = 0,6 м	
+;фактическое рассеивание меньше - в расчет берем 0,5 на ƒ¬ѕ-115м	
+;¬ес:  Ц 3,8 кг		
+;ƒлина:  Ц 770 мм
+; speed гранаты x1.5 (25.02.21)	

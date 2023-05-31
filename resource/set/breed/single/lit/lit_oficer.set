@@ -1,0 +1,22 @@
+{breed
+	{skin "cw_lit_tac"}
+	{portrait "_new/balt/lit_com"}
+	{icon pol_com}
+	{icon_priority 2}
+	{tags "officer"}
+	{nationality lit}
+	{armors
+		{head pasgt_helmet_lit}
+	}
+	(include "perks_generic.inc")
+	("traits_officer")
+	{inventory
+		{item "lit_vest"}
+		{item "knife_rus"}
+		{item "binocular"}
+		{item "standart ammo" 50}
+		{item "glock19" filling "standart ammo" 16}
+		{in_hands 4}
+	}
+}
+

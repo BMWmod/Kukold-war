@@ -1,0 +1,26 @@
+{from "pattern proj_weapon_ground"
+	{tag "gun"}
+	{filling "ammo mmp_missile" 1}
+	{fillingVisible "rocket"}
+              {fireSound "reactive/konkurs_launch"}
+			  {reloadSound "chn/Metis_reload"}
+	{mass 7}
+	{recoveryTime 6}
+	{rechargeTime 15}	
+	{inventory {noView}}
+;	{cursor "MMP"}
+;	{cursorReloading "MMP_reload"}
+	;{cursor "spike"}
+	{cursor "cannon_on_heat_2"}
+	{cursorReloading "cannon_reload_heat"}
+	;{cursorReloading "cannon_reload_heat_timer_20"}
+	("damage" a(1) b(1) c(1) d(1) e(1))
+	{projectileDamage 0}
+    {maxRange 165}
+	{aimRange 165}
+;	{gravity 400}
+{gravity 400}
+	{speed 1000}
+	;http://bastion-karpenko.ru/mmp/
+	;4 км - это тестовая дальность, успешные поражения были и на 5 км.
+}

@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "ch_120mm_smart_diff"}
+	{blend none}
+}

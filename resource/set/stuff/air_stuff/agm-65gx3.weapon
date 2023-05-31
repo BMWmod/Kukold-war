@@ -1,0 +1,15 @@
+{from "agm-65Dx3 weapon"
+	{filling "ammo AGM-65G" 3}
+	{fillingVisible "AGM-65G_"}	
+	{foresight "Foresight3"}
+	{maxRange 302}
+	{aimRange 200}
+	{spreading 4
+		{SpreadRadius 4}
+		{radiusTable 
+			{0 4}
+			{200 4}
+			{202 99000}
+		}
+	}
+}

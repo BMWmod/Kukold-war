@@ -1,0 +1,27 @@
+{from "pattern proj_weapon_ground"
+	{tag "gun"}
+	{filling "ammo tow_missile" 2}
+	{fireSound "bazooka/SMAW"}
+	{mass 45}
+	{fillingVisible "missile_"}	
+	{rechargeTime 30}
+	{recoveryTime 5}
+	{inventory {noView}}
+	{maxRange 147}
+	{aimRange 147}
+	;{cursor "optic_ptrk_tow"}
+	;{cursorReloading "optic_ptrk_tow_reload"}
+	{cursor "cannon_on_heat_2"}	
+	{cursorReloading "cannon_reload_heat"}
+	;{cursorReloading "cannon_reload_heat_timer_60"}
+	("damage" a(1) b(1) c(1) d(1) e(1))
+	{projectileDamage 0}
+        {parameters "tow2b"
+                          {maxRange 155}
+		          {aimRange 155}
+	{cursor "cannon_on_ap_6"}	
+	{cursorReloading "cannon_reload_ap"}
+	;{cursorReloading "cannon_reload_ap_timer_60"}
+	}
+}
+

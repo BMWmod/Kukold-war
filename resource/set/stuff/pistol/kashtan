@@ -1,0 +1,32 @@
+;Cold War
+{from "pattern pistol"
+	{tag "reliability_medium"}
+	{filling "ammo standart" 20}
+	{curve "9x18_25"}
+	{mass 1.65} 
+	{entity "kashtan"}
+	{fireSound	"pistol/tt"}
+	{reloadSound "tt"}
+	{speed 800}
+	{recoveryTime 0.11} ;900
+	{rechargeTime 2.5}
+	{Automatic}
+	{cursor "kashtan"}
+	{cursorReloading "cannon_reload_all"}
+	{aimRange 25}
+	{maxRange 30}
+	{spreading
+		{BurstAccuracy 100 90 86 75 69 62}
+	}
+	{inventory
+		{size 2 2 }
+	}
+	{burst
+		{short 8 4}
+		{long 12 6}
+	}
+	{healthDamage 40}
+	{healthDamageClip 40}
+	("accuracy_open_sight"  moa(5.5))	
+	("accuracy_open_sight_40"  moa(5.5))	
+}

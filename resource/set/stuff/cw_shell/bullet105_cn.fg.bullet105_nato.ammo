@@ -1,0 +1,25 @@
+{from "pattern fg"
+	{tag "big" "size2" "100to105fg" "bullet105_NATO" "fx_90_110"}
+	{tag "fg_100_shell"} ; только для ammo.set
+	{mass 16}
+	{inventory
+		{size 5 1}
+	}	
+	{entity "shell_chi_dtb-10_105mm"}
+	{view "fg_fly"}
+	{trace
+		{view "/texture/fx/trace" {ScaleY 0.2}}
+		{length 2}
+	}
+	;Неизвестно. Аналогичный французский снаряд массой на 15% легче, имеет 1,7кг
+	;примем 1,9 кг ВВ (тундра дает 1,66, но это ненадежно, снаряд тяжелее французского)
+	;https://wiki.warthunder.com/WMA301
+	{tag "he_07to2"}
+	{damage blastwave {energy 0.7} {area 7.4 8.5}}
+	{damage add blastwave {energy 1.2} {area 5.9 6.7}}
+	{damage add blastwave {energy 2.5} {area 2.3 2.6}}
+	{damage add blastwave	 ; HE, FG anti-IFV
+		{energy 4.5}
+		{area 0.1 0.2}
+	}
+}

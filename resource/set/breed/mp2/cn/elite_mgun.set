@@ -1,0 +1,23 @@
+{breed
+	{skin "cw_cn_spec"}
+	{portrait "_new/cn/specnaz"}
+	{icon "mgs"}
+	{icon_priority 3}
+	{nationality cn}
+	{armors
+		{head "opscore_cn"}
+	}
+
+	(include "perks_generic.inc")
+	("traits_elite_mgun")
+	{inventory
+		{item "type15h_mgun"}
+		{item "type73 grenade" 4}
+		{item "bandage" 15}
+		{item "smoke_cn grenade"}
+		{item "qjy-201" filling "762cn_200ammo" 200}
+		{item "762cn_200ammo" 200}
+		{item "smoke_cn grenade"}
+		{in_hands 4}
+	}
+}

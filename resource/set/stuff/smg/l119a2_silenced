@@ -1,0 +1,9 @@
+;Cold War
+{from "l119a2"
+	{tag "sd"}
+	{entity "l119a2_silenced"}
+	{fireSound	"smg/silent/m4a1_silenced"}
+	{reloadSound "M16_reload"}
+	("smg_range")
+	
+}

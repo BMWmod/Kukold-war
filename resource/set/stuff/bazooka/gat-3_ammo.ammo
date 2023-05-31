@@ -1,0 +1,33 @@
+{from "pattern rpg_ammo"
+	{tag  "big" "size4" "88to105" "fg" "fragmentary" "antiinf" "fx_shmel" "rpg_shell"}
+{tag "rpg_he"} ; только для ammo.set	
+	
+	{entity "gat-3_ammo"}
+	{view "gat-3_ammo"
+		{tail "bazooka_tail" "tail"}
+	}
+        {inventory
+		{weight 100}
+		{size 4 1}
+	}
+	{possibleDamageRadius 18}
+	{damage fire
+		{radius 4.5}
+		{heating 15}
+		{time 2}
+	}
+	{damage add fire
+		{radius 0.7}
+		{heating 50}
+		{time 1}
+	}
+	;93мм граната. БЧ явно от Шмеля, а вот движок другой, от PF-89.
+	{tag "he_2to4_5"}
+{damage add blastwave {energy 1.2} {area 12.4 14.2}}
+{damage add blastwave {energy 2.5} {area 3.9 4.5}}
+	{damage add blastwave	 ; HE, FG anti-IFV
+		{energy 6.5}
+		{area 1.8 1.9}
+	}
+}
+ 

@@ -1,0 +1,30 @@
+{fx
+	{particleview assistor
+		{entitygenerator
+			{emissionarea
+				{alpha0 0}
+				{alpha1 0}
+				{speed 0.01}	;частота испускания, меньше цифра - реже спавнит
+			}
+			{particleinit
+				{speed -160 1.5}	;начальная скорость и ее разброс
+				{lifetime 0.5}	;время жизни
+			}
+			{entity "cw_bullet_target_rus_ballistic_missile"}
+			{totalparticles 50}	;общее число маркеров
+			{particlesinblock 1}
+		}
+	}
+	{particleview assistor
+		{entitygenerator
+			{emissionarea
+				{alpha0 0}
+				{alpha1 0}
+				{speed 0.08}	;частота испускания, меньше цифра - реже спавнит
+			}
+			{entity "balmis_detector"}
+			{totalparticles 550}	;общее число маркеров
+			{particlesinblock 1}
+		}
+	}
+}

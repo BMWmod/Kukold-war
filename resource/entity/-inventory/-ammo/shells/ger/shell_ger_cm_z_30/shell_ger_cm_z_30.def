@@ -1,0 +1,12 @@
+;Created by Timosh
+{game_entity
+	(include "/properties/stuff_small.ext")
+	{collider "ammo"}
+	{extender "stuff"
+		{item "ammo mk30abm_abm fg"}
+	}
+	{Volume "body"
+		{thickness 2}
+	}
+	{Extension "30mm_abm.mdl"}
+}

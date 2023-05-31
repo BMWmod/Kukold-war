@@ -1,0 +1,39 @@
+{Entity
+	(include "bm-30.inc")
+	(mod not "mp"
+	{Weaponry
+		{place "gun"
+			{weapon "smerch_launcher weapon" filling "9m528" 12}
+			{gunner "gunner"}
+			{charger "commander1"}
+			{foresight "foresight"}
+			{SequentialAim 0}		;наведение одновременно по курсу и дальности.
+			{shooter "shooter"}
+			{barrels 12}
+		}
+	}
+	)
+	(mod "mp"
+	{Weaponry
+	    {place "gun1"
+			{weapon "spot" filled}
+			;{basic}
+		}
+		{place "gun"
+			{weapon "smerch_launcher weapon" filling "9m528" 12}
+			{gunner "gunner"}
+			{charger "commander1"}
+			{foresight "foresight"}
+			{SequentialAim 0}		;наведение одновременно по курсу и дальности.
+			{shooter "shooter"}
+			{barrels 12}
+			{basic}
+		}
+	}
+	)
+	{Extension "bm-30_smerch.mdl"}
+	("missile_aimpoint_trucksize")
+	("CW_turr_speed" deg_per_s(6))	;это перебросочная, ее хватает
+	;("CW_gun_rot_speed" deg_per_s(2.2))	;увы, очень медленно 
+	("CW_gun_rot_speed" deg_per_s(6))	;поэтому тоже ставим 6
+}

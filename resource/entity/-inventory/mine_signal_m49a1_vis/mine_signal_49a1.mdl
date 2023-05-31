@@ -1,0 +1,79 @@
+;Exported by: Timosh
+;Date:        Thu Sep  1 08:57:30 2022
+;File:        G:\?????? ? Pheonix\??????????????\??????\?????? ??????\???????? ????\???????? ?? ??????? 2\???????? M49A1\M49A1.max
+{Skeleton
+	{bone "body"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{LODView
+			{VolumeView "body.ply"}
+			{VolumeView "body_lod1.ply"}
+		}
+		{bone "handle"
+			{Matrix34
+				-0.34202	-0.939693	0
+				0	0	1
+				-0.939693	0.34202	0
+				1.17468	4.79423	2.14205
+			}
+		}
+		{bone "string"
+			{Position 0.0323207	-0.0665335	6.86328}
+			{visibility 0}
+			{VolumeView "string.ply"}
+		}
+	}
+}
+{Volume "body1"
+	{Cylinder 0.311852 3.82104}
+	{Bone "body"}
+	{Matrix34
+		1.73319	0	0
+		0	1.73319	0
+		0	0	1.73319
+		0.0062043	0	3.31129
+	}
+}
+{Volume "body"
+	{Cylinder 0.311852 3.82104}
+	{Bone "body"}
+	{Matrix34
+		1.73319	0	0
+		0	1.73319	0
+		0	0	1.73319
+		0.0062043	0	3.31129
+	}
+}
+{Volume "detector1"
+	{Box 0.295276 138.78 0.295276}
+	{Bone "body"}
+	{Matrix34
+		1.22555	1.22555	0
+		-1.22555	1.22555	0
+		0	0	1.73319
+		0.0230147	-0.0312252	6.85213
+	}
+}
+{Volume "detector"
+	{Box 0.295276 135.827 0.295276}
+	{Bone "body"}
+	{Matrix34
+		1.22555	-1.22555	0
+		1.22555	1.22555	0
+		0	0	1.73319
+		0.0230147	-0.0312252	6.85213
+	}
+}
+{Volume "select"
+	{Cylinder 9.89283 3.16375}
+	{Bone "body"}
+	{Matrix34
+		1.73319	0	0
+		0	1.73319	0
+		0	0	1.73319
+		0.0062043	0	2.74168
+	}
+}

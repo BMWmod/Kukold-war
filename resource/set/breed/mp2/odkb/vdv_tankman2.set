@@ -1,0 +1,18 @@
+{breed
+	{skin "cw_fed_tankman"}
+	{portrait "_new/bel/vdv"}
+	{icon tankman}
+	{icon_priority 2}
+	{nationality rus}
+	{armors
+		{head "tsh3l"}
+	}
+	(include "perks_generic.inc")
+	("traits_tankman")
+	{inventory
+		{item "545 ammo" 60}
+		{item "bandage" 10}
+		{item "aks74" filling "545 ammo" 30}
+		{in_hands 2}
+	}
+}

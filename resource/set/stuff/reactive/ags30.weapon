@@ -1,0 +1,59 @@
+{weapon_bullet
+	{tag "gun cannot_lie nokeep mrl"}
+	{filling "agsammo" 30}
+             	
+	{entity "ags30"}
+	{foresight "Foresight3"}
+	{fireSound "reactive\ags_shot"}
+	{reloadSound "ags_reload"}
+	{cursor "cannon_on"}
+	{inventory
+		{size 6 2 }
+		{link_bone "gun_back"}
+		{weight 100}
+	}
+
+	{Spreading 2	
+		{BurstRecoveryTime 1.0}
+		{SpreadXYRatio	4}
+
+	}
+	{burst
+		{short 1 1}
+		{long 2 1}
+	}
+	{Automatic}
+	{gravity 1.1}
+        	 {maxRange 115}	;http://www.npovk.ru/strelkovo-pushechnoe-vooruzhenie_0_18.html
+	 {aimRange 115}
+									;см таблицы стрельбы - на 1700м Вб 3,4 Вд 16 Вв 24,
+									;на 1300м - Вб 1,5 Вд 14 Вв 6,4, 
+									;на 1000 - Вб 1,0 (1 mils) Вд 12 Вв 3,3 (3.3 mils), берем эту дальность - она есть и для Mk19, и не так сильно завязана на крутую траекторию.
+									;на 300 - Вб 0,18(0.6 mils) Вд 3,5 Вв 0,23 (0.77 mils),
+	 ("CW_acc_grlaunch" mils(3.3))	
+	 ("CW_acc_grlaunch_95" mils(3.3))	
+	 {recoveryTime 0.16}
+	 {rechargeTime 5}
+	 {speed 45}
+		 {gravity 1.9}	;макс дальность при стрельбе под 45 град - см ссылку выше
+	{Spreading	
+		{SpreadXYRatio	0.5}	;отражает тот факт, что вертикальное рассеяние АГС-17 втрое больше горизонтального
+		{BurstAccuracy 75 50 45 40 35}
+	}
+
+	{cursor "cannon_on_fg_3"}
+	{cursorReloading "cannon_reload_fg"}
+    {parameters "mortar pdb"                ;ВОГ-17М   1700м.
+		{gravity 1.9};макс дальность при стрельбе под 45 град - см ссылку выше
+		{range 115 115}
+	}
+	{parameters "mortar pdd"                ;ВОГ-30Д   2100м.
+			{gravity 1.3}
+		{range 125 125}
+	}
+    {parameters "cm"     
+		;{cursor "cannon_on_heat_3"}
+		{cursor "cannon_on_heat_6"}
+		{cursorReloading "cannon_reload_heat"}
+	}	
+}

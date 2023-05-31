@@ -1,0 +1,21 @@
+{from "pattern proj_weapon_ground"
+	{tag "gun"}
+	{filling "ammo hj-10" 8}
+	{fillingVisible "rocket"}
+              {fireSound "bazooka/konkurs_launch"}
+			  {reloadSound "chn/Metis_reload"}
+	{mass 7}
+	{recoveryTime 6}
+	{rechargeTime 160}
+	{inventory {noView}}
+	{cursor "cannon_on_heat_2"}
+	{cursorReloading "cannon_reload_heat"}
+
+	("damage" a(1) b(1) c(1) d(1) e(1))
+	{projectileDamage 0}
+        {maxRange 200}
+	{aimRange 200}
+{gravity 400}
+	{speed 1000}
+
+}

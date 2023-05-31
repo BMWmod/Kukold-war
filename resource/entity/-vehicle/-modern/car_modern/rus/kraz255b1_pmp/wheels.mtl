@@ -1,0 +1,5 @@
+{material bump
+	{diffuse "$/model/kraz255b1_pmp/wheel_co"}
+	{bump "$/model/kraz255b1_pmp/wheel_co_bp"}
+	{blend none}
+}

@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "$/model/m47dragon/m47_rocket"} 
+	{blend none}
+}

@@ -1,0 +1,31 @@
+{from "pattern sniper_rifle"
+("scope")
+
+	{tag "sniper reliability_medium"}
+	{filling "ammo 762x51_x20" 5}
+	{curve "762x51nato_100"}
+	{preloaded}
+        {mass 6}
+	{inventory
+		{size 5 2}
+	}
+	{entity "CS-LR4"}
+	{special
+		{mode aim}
+		{PrepareTime 10.0}
+		{PrepareCursor "aimed_shot"}
+		;{damage 2} ; damage *= x
+		{accuracy 1.2} ; aim_range *= x
+		;{throw_off}
+	}
+	("bolt_range")
+	{speed 290}
+	{fireSound "rifle/M21_shot"}
+	{reloadSound "chn/M21_Reload"}
+	{healthDamage 104}
+	{recoveryTime 1.8}
+	("accuracy_optic_sight"  moa(1.0))
+	{cursor "sniper"}
+	{cursorReloading "cannon_reload_all"}
+
+}

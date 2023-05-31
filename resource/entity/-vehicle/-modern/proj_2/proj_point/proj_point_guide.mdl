@@ -1,0 +1,25 @@
+;Exported by: Администратор
+;Date:        Tue Dec 20 12:03:17 2011
+;File:        G:\Работа с Pheonix\Редактирование\Мои модели\Projectile_bis\ready\proj_point.max
+{Skeleton
+	{bone "basis"
+		{parameters "SteerMax=45;Wheelradius=0.30;"}
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+	}
+}
+
+
+{Volume "body"
+	{Box 1 1 1}
+	{Bone "basis"}
+	{Position 0	0	0}
+}
+{Volume "target"
+	{Box 1 1 1}
+	{Bone "basis"}
+	{Position 0	0	0}
+}

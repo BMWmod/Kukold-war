@@ -1,0 +1,7 @@
+{actor
+	(include "/properties/stuff_weapon.ext")
+	{Extension "sako_trg42_fs.mdl"}
+	{extender "stuff"
+		{item "sako_trg42_fs"}
+	}
+}

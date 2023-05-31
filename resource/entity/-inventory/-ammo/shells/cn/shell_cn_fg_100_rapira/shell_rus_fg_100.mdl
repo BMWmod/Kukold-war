@@ -1,0 +1,73 @@
+;Exported by: Pheonix
+;Date:        Wed Aug 26 20:31:19 2009
+;File:        D:\Documents and Settings\Pheonix\Мои документы\3dsmax\scenes\MyWorks\Shells\Modern\RUS_100mm_fg.max
+{Skeleton
+	{bone "100mm"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "100mm.ply"}
+		{bone "100mm_fg"
+			{Position 14.5137	0	0.00954355}
+			{VolumeView "100mm_fg.ply"}
+		}
+	}
+}
+{Volume "body"
+	{Polyhedron "body.vol"}
+	{Bone "100mm"}
+	{Position 2.44099	-0.0126579	-0.577714}
+}
+{Volume "select"
+	{Polyhedron "select.vol"}
+	{Bone "100mm"}
+	{Position 2.24621	-0.14745	-2.34605}
+}
+{Extender "preview"
+	{"Stuff"
+		{camera
+			{origin 3.34484	-4.49404	27.1783}
+			{lookat 3.46752	-1.70396	10.6489}
+			{fov 46}
+			{horizon -177.044}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position -4.28649	-0.171789	0.936089}
+			}
+			{"1"
+				{type directional}
+				{direction -0.0206215	0.212022	-0.452351}
+			}
+			{"2"
+				{type point}
+				{position 13.0256	-5.86346	2.50543}
+			}
+		}
+	}
+	{"Stuff_primary"
+		{camera
+			{origin 8.58585	-2.72897	15.9881}
+			{lookat 8.74998	0.170858	-1.20242}
+			{fov 45}
+			{horizon -177.044}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position -6.18588	4.55984	-10.5186}
+			}
+			{"1"
+				{type directional}
+				{direction -0.0179491	0.212264	-0.452351}
+			}
+			{"2"
+				{type point}
+				{position 11.0532	-1.34945	-8.94923}
+			}
+		}
+	}
+}

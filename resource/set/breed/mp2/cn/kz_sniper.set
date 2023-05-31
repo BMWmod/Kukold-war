@@ -1,0 +1,26 @@
+{breed
+	{skin "cw_odkb_kz"}
+	{portrait "_new/kz/inf"}
+	{icon "snipers"}
+	{icon_priority 1}
+	{tags "sniper2"}
+	{nationality rus}
+	{armors
+		{head "pasgt_helmet_6b50_kz"}
+	}
+
+	(include "perks_generic.inc")
+	("traits_army_sniper")
+	{inventory
+		{item "bjo02_sniper"}
+		{item "bandage" 15}
+		{item "smoke rdg2b grenade"}
+		{item "svd" filling "svd_ammo ammo" 10}
+		{item "rgd grenade" 2}
+		{item "svd_ammo ammo" 160}
+		{item "f1 grenade" 2}
+		{item "smoke rdg2b grenade"}
+		{item "sandbag_kit"}
+		{in_hands 3}
+	}
+}

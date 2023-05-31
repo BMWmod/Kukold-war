@@ -1,0 +1,35 @@
+{from "pattern tank_gun"    ; BMP1, BMD1, BMD1P
+	{filling "bullet73_rus" 3}
+        
+	{fireSound "gun/2a28"}
+	{reloadSound "gun73reload"}
+	{RecoveryTime 4.00}
+	{rechargeTime 5}
+	{range 110 110}
+	{calibre 5}
+	("speed" s(290))
+	("75-76caliber")
+	{gravity 1}
+	{calibre 5}
+;        ("accuracy_2a28")
+	("CW_acc_common" mils(1.0))
+	("CW_acc_common_100" mils(1.0))
+	;{cursor "1PN22_HE"}
+	;{cursorReloading "1PN22_HE_reload"}
+	;{cursor "cannon_on_fg"}
+	{cursor "cannon_on_fg_2"}
+	{cursorReloading "cannon_reload_fg"}
+	; a - 20, b - 50, c - 80, d -100, e - 120 
+	("damage4" a(220) b(210) c(190) d(170) e(150))   ; ББ 
+	   ; Таблица Кум и рокет
+	{parameters "cm"
+		{range 110 110}
+		;{cursor "1PN22_HEAT"}
+		;{cursorReloading "1PN22_HEAT_reload"}
+		{cursor "cannon_on_heat"}
+		{cursorReloading "cannon_reload_heat"}
+		("speed" s(500))
+		("CW_acc_common" mils(0.6))
+		("CW_acc_common_70" mils(0.6))
+    }
+}

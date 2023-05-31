@@ -1,0 +1,10 @@
+{actor
+	(include "/properties/stuff_small.ext")
+	{extension "l85a3_sc-015_lazer.mdl"}
+	{extender "stuff"
+		{item "l85a3_sc-015_lazer"}
+	}
+	{nogroupmesh 1}
+}
+
+

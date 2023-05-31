@@ -1,0 +1,62 @@
+{from "pattern gun"     ; Warrior
+	{filling "bullet30_gb" 6} ;
+        
+	{fireSound "gun/30mm_l21a1"}
+	{reloadSound "61k_reload"}
+;=====================
+	{AimingTolerance 0.1}
+	{Automatic}
+	{recoveryTime 0.75}	; в иточниках указывает 80-90 выстрелов в минуту. Одновременно с этим указывается, что командир может "докладывать" заранее подготовленные обоймы, если наводчик будет стрелять медленне
+	{rechargeTime 1.3} ; https://youtu.be/XfP2Xuy4GRA?t=421 , https://youtu.be/tiC8ag-XzKQ?t=99 https://www.arrse.co.uk/wiki/Rarden
+	{spreading
+		{spreadradius 	1}
+		{SpreadXYRatio	1.0}
+		{SpreadPower	1.7}
+		{BurstAccuracy 100}
+	}	
+	{burst
+		{min 0}
+		{short 3}
+		{long 6}
+	}
+	;{cursor "m242_APCR"}
+	;{cursorReloading "m242_APCR_reload"}
+	;{cursor "cannon_on_ap_2"}
+	{cursor "cannon_on_ap_5"}
+	{cursorReloading "cannon_reload_ap"}
+;=====================
+	{range 120 120}
+	("speed" s(1175))
+	;{speed 180}
+	{calibre 25}
+	("CW_acc_common" mils(0.5))
+;	("CW_small_AP_damage" penetr_1000m(74))	;L14A2 
+;L14A2 пробивает 40мм под 45 на 1500м
+
+	{parameters "fg"
+		("CW_acc_common" mils(1))
+		("speed" s(1075))
+		;{cursor "m242_he"}
+		;{cursorReloading "m242_he_reload"}	;оценка
+		;{cursor "cannon_on_fg_2"}
+		{cursor "cannon_on_fg_13"}
+		{cursorReloading "cannon_reload_fg"}
+	}
+	{parameters "bullet30_gb ap"
+		("CW_acc_common" mils(1))
+		("CW_small_APCR_damage_WC" penetr_1000m(43))	;ББ
+		;{cursor "m242_APCR"}
+		;{cursorReloading "m242_APCR_reload"}	;оценка
+		;{cursor "cannon_on_ap_2"}
+		{cursor "cannon_on_ap_5"}
+		{cursorReloading "cannon_reload_ap"}
+	}
+	{parameters "bullet30_gb apcr"                        ;APDS L14A2
+		("CW_small_APCR_damage_WC" penetr_1000m(67))
+		("CW_acc_common" mils(0.5))	;Accuracy is stated to be half the dispersion of the HE-T round. Jane's Ammunition Handbook.pdf
+		("speed" s(1405))	;примерно
+		;{cursor "cannon_on_apcr_2"}
+		{cursor "cannon_on_apcr_3"}
+		{cursorReloading "cannon_reload_apcr"}
+	}
+}

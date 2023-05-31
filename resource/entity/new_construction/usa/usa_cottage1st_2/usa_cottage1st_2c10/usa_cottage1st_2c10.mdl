@@ -1,0 +1,109 @@
+;Exported by: Timosh
+;Date:        Fri Jun 24 12:13:09 2022
+;File:        G:\?????? ? Pheonix\??????????????\??????\?????? ? ???????\???\usa_cottage_1st_2 final 1.max
+{Skeleton
+	{bone "usa_cottage1st_2c10"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "usa_cottage1st_2c10.ply"}
+		{bone "window1"
+			{Position 14.8803	12.9535	26.6592}
+			{VolumeView "window1.ply"}
+		}
+		{bone "exterior"
+			{Position 16.9393	4.70399	70.1385}
+			{VolumeView "exterior.ply"}
+		}
+		{bone "attach1"
+			{Position 1.45779	12.6078	0}
+		}
+		{bone "window1_x"
+			{Position 14.8803	12.9535	26.6592}
+			{VolumeView "window1_x.ply"}
+		}
+	}
+}
+{Obstacle "body1"
+	{Obb2
+		{Center 13.2224 -10.9968}
+		{Extent 2.65691 21.7648}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body" "fire"}
+}
+{Obstacle "body2"
+	{Obb2
+		{Center -1.03032 -30.5138}
+		{Extent 16.3236 2.65691}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body" "fire"}
+}
+{Area "interior"
+	{Obb2
+		{Center -14.1685 -8.19605}
+		{Extent 27.7504 28.2774}
+		{Axis -1 0}
+	}
+	{Rotate}
+}
+{Volume "body1"
+	{Box 5.31379 43.5297 44.1588}
+	{Bone "usa_cottage1st_2c10"}
+	{Matrix34
+		1	0	0
+		0	1	0
+		0	0	1.1741
+		13.2224	10.9968	25.9234
+	}
+}
+{Volume "body2"
+	{Box 5.31379 32.6472 44.1588}
+	{Bone "usa_cottage1st_2c10"}
+	{Matrix34
+		0	1	0
+		-0.999999	0	0
+		0	0	1.1741
+		-1.03032	30.5138	25.9234
+	}
+}
+{Volume "hole1"
+	{Box 13.7795 15.8664 23.4014}
+	{Bone "window1"}
+	{Position 0	0.000133514	0}
+}
+{Volume "roof1"
+	{Polyhedron "roof1.vol"}
+	{Bone "exterior"}
+	{Position 7.86624	3.11255	-17.8401}
+}
+{Volume "roof2"
+	{Box 42.4027 58.9992 6.59106}
+	{Bone "exterior"}
+	{Matrix34
+		1	0	0
+		0	0.842602	0.538536
+		0	-0.632295	0.9893
+		-5.09518	3.50021	-3.57889
+	}
+}
+{Volume "roof3"
+	{Box 22.236 56.3488 6.59106}
+	{Bone "exterior"}
+	{Matrix34
+		0.552052	0.772448	-0.288434
+		-0.615239	0.657434	0.448863
+		0.666912	-0.0174406	0.972557
+		-16.5207	-14.9373	-4.24146
+	}
+}
+{Volume "window1"
+	{Box 2.03561 15.8664 23.4014}
+	{Bone "window1"}
+	{Position 0	0.000133514	0}
+}

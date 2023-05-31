@@ -1,0 +1,38 @@
+-= Animation: up, Node Body =-
+	Frame 10 {
+		Visibility 1
+		Position	-0.58791	-0.270702	15.3395
+		Orientation	0 0 0 1
+	}
+	Frame 11 {
+		Position	-0.58791	-0.270702	116.829
+	}
+	Frame 12 {
+		Position	-0.58791	-0.270702	218.318
+	}
+	Frame 13 {
+		Position	-0.58791	-0.270702	319.808
+	}
+	Frame 14 {
+		Position	-0.58791	-0.270702	421.297
+	}
+	Frame 15 {
+		Position	-0.58791	-0.270702	522.786
+	}
+	Frame 16 {
+		Position	-0.58791	-0.270702	624.276
+	}
+	Frame 17 {
+		Position	-0.58791	-0.270702	725.765
+	}
+	Frame 18 {
+		Position	-0.58791	-0.270702	827.254
+	}
+	Frame 19 {
+		Position	-0.58791	-0.270702	928.744
+	}
+	Frame 20 {
+		Visibility 1
+		Position	-0.58791	-0.270702	1030.23
+		Orientation	0 0 0 1
+	}

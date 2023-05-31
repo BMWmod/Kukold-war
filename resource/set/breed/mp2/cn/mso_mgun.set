@@ -1,0 +1,24 @@
+{breed
+	{skin "cw_cn_inf"}
+	{portrait "_new/cn/inf"}
+	{icon "smgs"}
+	{icon_priority 1}
+	{nationality cn}
+	{armors
+		{head "qgf03_glasses"}
+	}
+
+	(include "perks_generic.inc")
+	("traits_army_mgun")
+	{inventory
+		{item "type06h_mgun"}
+		{item "bandage" 10}
+		{item "smoke_cn grenade"}
+		{item "type86p grenade" 4}
+		{item "qbb95" filling "58ammo 58ammo_drum ammo" 70}
+		{item "58ammo 58ammo_drum ammo" 280}
+		{item "smoke_cn grenade"}
+		{item "sandbag_kit"}
+		{in_hands 4}
+	}
+}

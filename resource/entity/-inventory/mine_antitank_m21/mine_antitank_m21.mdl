@@ -1,0 +1,51 @@
+;Exported by: Timosh
+;Date:        Sun Jan  1 16:55:59 2023
+;File:        G:\?????? ? Pheonix\??????????????\??????\?????? ??????\???????? ????\??????????????? ???? ???\m21_mine.max
+{Skeleton
+	{bone "body"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{LODView
+			{VolumeView "body.ply"}
+			{VolumeView "body_lod1.ply"}
+		}
+		{bone "handle"
+			{Matrix34
+				-1	0	0
+				0	-1	0
+				0	0	1
+				2.57586	0.57068	0.00523422
+			}
+		}
+		{bone "string"
+			{visibility 0}
+			{LODView
+				{VolumeView "string.ply"}
+				{VolumeView "string_lod1.ply"}
+			}
+		}
+	}
+}
+{Volume "body1"
+	{Cylinder 2.29921 1.78898}
+	{Bone "body"}
+	{Position 0	0	0.0793413}
+}
+{Volume "body"
+	{Cylinder 2.29921 1.78898}
+	{Bone "body"}
+	{Position 0	0	0.0793413}
+}
+{Volume "detector"
+	{Box 1.9685 1.9685 13.1029}
+	{Bone "body"}
+	{Position 0	0	6.55144}
+}
+{Volume "select"
+	{Cylinder 8.46615 2.65748}
+	{Bone "body"}
+	{Position 0	0	0.513593}
+}

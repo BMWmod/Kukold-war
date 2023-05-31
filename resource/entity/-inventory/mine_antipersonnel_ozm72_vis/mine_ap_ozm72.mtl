@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "$/service/star"}
+	{blend blend}
+}

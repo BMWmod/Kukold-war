@@ -1,0 +1,11 @@
+{game_entity
+	(include "/properties/stuff_small.ext")
+	{Extension "ponton_pmp.mdl"}
+	{extender "stuff"
+		{item "ponton_pmp ammo"}
+	}
+	{volume "body"
+		{thickness 4}
+	}
+	{lodclass "human"}
+}

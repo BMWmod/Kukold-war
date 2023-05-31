@@ -1,0 +1,7 @@
+{actor
+	(include "/properties/stuff_small.ext")
+	{Extension "usa_las_designator.mdl"}
+	{extender "stuff"
+		{item "usa_las_designator"}
+	}
+}

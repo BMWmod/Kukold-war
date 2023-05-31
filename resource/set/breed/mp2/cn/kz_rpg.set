@@ -1,0 +1,25 @@
+{breed
+	{skin "cw_odkb_kz"}
+	{portrait "_new/kz/inf"}
+	{icon "bazookers"}
+	{icon_priority 1}
+	{nationality rus}
+	{armors
+		{head "pasgt_helmet_6b50_kz"}
+	}
+
+	(include "perks_generic.inc")
+	("traits_army_bazooker")
+	{inventory
+		{item "bjo02_rpg"}
+		{item "ak74b" filling "545 ammo" 30}
+		{item "545 ammo" 120}
+		{item "rpg7 weapon" filling "pg-7vr rpg7 ammo" 1}
+		{item "pg-7vr rpg7 ammo" 2}
+		{item "pg-7vl rpg7 ammo"}
+		{item "sandbag_kit"}
+		{item "bandage" 10}
+		{item "smoke rdg2b grenade"}
+		{in_hands 1}
+	}
+}

@@ -1,0 +1,23 @@
+{breed
+	{skin "cw_est_sniper"}
+	{portrait "_new/balt/est"}
+	{icon "fra_at_rifle"}
+	{icon_priority 2}
+	{nationality est}
+	{armors
+		{head cap_est}
+	}
+
+	(include "perks_generic.inc")
+	("traits_heavy_sniper")
+	{inventory
+		{item "est_vest"}
+		{item "hecate" filling "nato_ptr sn ammo" 7}
+		{item "nato_ptr ap ammo" 40}
+		{item "nato_ptr sn ammo" 40}
+		{item "plant" 1}
+		{item "bandage" 10}
+		{item "shgr56" 2}
+		{in_hands 1}
+	}
+}

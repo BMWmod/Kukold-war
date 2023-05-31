@@ -1,0 +1,90 @@
+{tags
+	{"00" "We are on the spot. I recall our main task - before 4:00 we must find and destroy the anti-aircraft weapons of the militants. After that, ensure the landing of a helicopter assault and the occupation of El Kdera and the dominant heights. We have little time, so do not delay."}
+	{"01" "Minus three."}
+	{"02" "Minus three more."}
+	{"03" "Minus two."}
+	{"04" "Black patrols are no longer a hindrance."}
+	{"05" "Both detected anti-aircraft guns destroyed, you can give a signal."}
+	{"06" "It is necessary to take the hill near the village - we can't get to the villiage while it is in the hands of the militants, they will shoot us partridges."}
+	{"07" "Jackals on the hill are no more, it is ours!"}
+	{"08" "Heck! We make too much noise!"}
+	{"09" "This is Swift One, starting the ride!"}
+	{"10" "Kestrel to Granite, the signal is green!"}
+	{"11" "Granite to Kestrel, signal received, green light!"}
+	{"12" "Kestrel, you have received an artillery support of the D-30 battery and one Grad. They will strike wherever you need. Call signs Saab and Maple-1."}
+	{"13" "Russian friends, Falcon forces have arrived and are ready to give a punch to these jackals!"}
+	{"14" "This is Arba-4, finished unloading, coming back."}
+	{"15" "Kestrel to Granite, landing is over, starting the second step"}
+	{"16" "This is Granite, accepted!"}
+	{"17" "Minus one ZU. "}
+	{"18" "Minus AA gun"}
+	{"19" "Now it is necessary to clean the village from the remnants of blacks."}
+	{"20" "Hell! We urgently need to remove them before they disturb the rest!"}
+	{"21" "O Allah! Unfaithful! Saboteurs!"}
+	{"22" "Unfaithful! Unfaithful are here!"}
+	{"23" "This is Kestrel! Jackals have left a tank and IFV. Good trophies!"}
+	{"24" "Tank must be carefully examined, it seems unlikely to me that blacks just abandoned it like that. But on the BMP-2 seems to be fine after minor repairs."}
+	{"25" "Great, we've patched up the BMP! Good fire support, and enough ammo."}
+	{"26" "As I thought, the tank is dead. The turret is completely jammed, the engine is broken, no ammo, brocen controls. Ugh, even emtu fuel tank."}
+	{"27" "Excellent, the village is in our hands. Falcon! Spread around and get ready for defense."}
+	{"28" "Good, Russian friend! Let's do it!"}
+	{"29" "Kestrel to Granite, the second part is done, what's our orders?"}
+	{"30" "Kestrel, I hear you. Take defensive position and be quiet - a tango column is sent to you, about 30 men on cars with one APC. Prepare to meet them! They will arrive in about 15 minutes."}
+	{"31" "Affirmative, Granite, we'll deal with them."}
+	{"32" "And here are the guests. Fire!"}
+	{"33" "It seems they liked it."}
+	{"34" "Kestrel, you have another column. If possible, try to destroy it."}
+	{"35" "Kestrel, the enemy reinforcementswill attack you very soon, hold the line and wait for instructions."}
+	{"36" "Got it, Granite."}
+	{"37" "And here are the running blacks. So the SAA broke through the front and will be here soon."}
+	{"38" "Kestrel, meet my glorious fighters! I am Bakir Mustafa, we pierced the corridor along this road. Jackals run with their tails tucked, a little more and the whole area will be clear of them!"}
+	{"39" "Glad to see you. It's time to clear the neighborhood of El Kdera from the remnants of ISIS and finish with this."}
+	{"40" "Kestrel, Falcon, continue to hold El Kdeer and the road. The SAA and Russian Air Force began to clear the way to you."}
+	{"41" "Affirmative, Granite, we're waiting."}
+	{"42" "Kestrel to Granite, the neighborhood of El Kdera is fully under the control of the SAA!"}
+	{"43" "Well done, Kestrel. Now wait for helicopter, then get to the base and rest for a bit. You'll have new orders later."}
+	{"44" "Heck! We're too late, it is dawn already!"}
+	{"45" "Granite Kestrel, time is up, we start the operation!"}
+	{"d30" "Volley of Syrian army D-30 howitzer"}
+	{"d31" "Volley of D-30"}
+	{"date" " 12 August, 2017"}
+	{"du" "Saab, take the coordinates for a strike"}
+	{"frad1" "Volley of BM-21 Grad"}
+	{"frad2" "Grad"}
+	{"loose" "Airborne landing of troops under El-Kder which should to become one of the key operations on the breaking through the defense of ISIS on the way to Deir-ez-Zor turned into a failure. The terrorists turned out to be ready for a surprise attack in their rear and managed to disperse and partially destroy the paratroopers of the SAA and Russian Specops soldiers, and also shoot down several helicopters of the Russian Aerospace Force. All this led to a large negative outburst in Russian society, and the SAA was forced to make its way to the besieged city for a long time, challenging with Kurds, who were supported by the USA."}
+	{"loose2" "Airborne landing of troops under El-Kder which should to become one of the key operations on the breaking through the defense of ISIS on the way to Deir-ez-Zor turned into a failure. The terrorists turned out to be ready for a surprise attack in their rear and managed to disperse and partially destroy the paratroopers of the SAA and Russian Specops soldiers, who were eventually forced to retreat with heavy losses. All this led to a large negative outburst in Russian society, and the SAA was forced to make its way to the besieged city for a long time, challenging with Kurds, who were supported by the USA."}
+	{"name" "The raid"}
+	{"name_big" "The raid"}
+	{"oper1" "Start operation"}
+	{"oper2" "The Syrian army and the Russian VKS will begin landing operations under El-Kder"}
+	{"outro_completed" "The SAA and Russian VKS is about to break the blockade of Deir-Ez-Zor. Great job!"}
+	{"outro_failed" "Stunning failure"}
+	{"place" "Syria, El-Kder neighborhood, Deir-ez-Zor province"}
+	{"pp" "The current time (approximate) can be found by clicking on the reinforcement call button (Clock)"}
+	{"rszo1" "Maple 1, transmitting the coordinates for the strike"}
+	{"rszo2" "Maple 1, target hit."}
+	{"tim" "Clock"}
+	{"time" "Current time 3:%1%"}
+	{"tim1" "Check current time"}
+	{"tim3" "Time: 3:00"}
+	{"time3" "The current time is about 3:00"}
+	{"time3.2" "The current time is about 3:20"}
+	{"time4" "The current time is about 3:50"}
+	{"win1" "The daring assault of the SAA at Deir-ez-Zor with the help of the VKS and Specops of the Russian Federation has ended with complete success - the ISIS terrorists did not expect the paratroopers and Russian special forces who had fallen as snow on their heads and almost without a fight passed the village and the strategically important hill. After that, the Syrian and Russian soldiers did not allow the militants to return the initiative and blocked the reinforcements of the terrorists to the front, which was soon broken through. Now the breakthrough is developing successfully, and the Specops soldiers have time for a little rest."}
+	{"win2" "The daring assault of the SAA at Deir-ez-Zor with the help of the VKS and Specops of the Russian Federation has ended with complete success - although the ISIS terrorists were ready for the attack, they were forced to surrendered the village and the strategically important height under the pressure of the paratroopers and the Russian special forcest. After that, the Syrian and Russian soldiers did not allow the militants to return the initiative and blocked the reinforcements of the terrorists to the front, which was soon broken through. Now the breakthrough is developing successfully, and the Specops soldiers have time for a little rest."}
+	{"zaadtime" "The column arrives at "}
+	{"zad" "Hold on against terrorists"}
+	{"zad1" "Search and destroy crew of anti-aircraft guns"}
+	{"zad2" "The commander of the Specops group must survive"}
+	{"zad3" "Ensure successful landing"}
+	{"zad3dop" "Do not suffer serious losses during operation"}
+	{"zad4" "Take dominant height"}
+	{"zad5" "Take control of the El-Kdeer village"}
+	{"zad6" "Destroy a convoy of militants"}
+	{"zad7" "Hold positions until SAA troops arrive"}
+	{"zad8" "Clean up the terrain from the remains of ISIS"}
+	{"zad9" "Prevent serious casualties among Syrian paratroopers"}
+	{"zaddop1" "Do not attract too much attention"}
+	{"zaddop2" "Repair the IFV"}
+	{"date" " 12 August, 2017"}
+}

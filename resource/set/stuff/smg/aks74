@@ -1,0 +1,5 @@
+;Cold War
+{from "ak74b"
+	{mass 3.2}    
+	{entity "aks74"}
+}

@@ -1,0 +1,73 @@
+;Exported by: Timosh
+;Date:        Thu Aug 11 09:01:26 2022
+;File:        G:\?????? ? Pheonix\??????????????\??????\????????\SWITCHBLADE 300 UAV\mesh\switchblade 300 weapon 1.max
+{Skeleton
+	{bone "body"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "body.ply"}
+		{bone revolute "handle"
+			{Matrix34
+				0	1	0
+				1	0	0
+				0	0	-1
+				0.847451	-1.61697	-1.10672
+			}
+		}
+		{bone "foresight3"
+			{Matrix34
+				0	1	0
+				0	0	-1
+				-1	0	0
+				1.04303	4.80067	0.0564325
+			}
+		}
+	}
+}
+{Volume "body"
+	{Box 1.67704 1.93489 11.4895}
+	{Bone "body"}
+	{Matrix34
+		1	0	0
+		0	0	-1
+		0	1	0
+		0.957599	-2.32536	0.124446
+	}
+}
+{Volume "select"
+	{Box 7.31188 16.5627 16.43}
+	{Bone "body"}
+	{Matrix34
+		1	0	0
+		0	0	-1
+		0	1	0
+		0.85743	-1.77496	0.124447
+	}
+}
+{Extender "preview"
+	{"Stuff"
+		{camera
+			{origin 19.014	-21.2662	-58.0163}
+			{lookat 4.42457	-1.69744	-6.19275}
+			{fov 45}
+			{horizon 68.7193}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 6.97796	3.07441	-7.90126}
+			}
+			{"1"
+				{type directional}
+				{direction 0.424414	-0.0167264	0.263805}
+			}
+			{"2"
+				{type point}
+				{position 8.45846	2.30311	-9.30445}
+			}
+		}
+	}
+}

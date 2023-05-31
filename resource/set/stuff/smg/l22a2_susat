@@ -1,0 +1,30 @@
+{from "pattern smg"
+	{tag "reliability_medium"}
+	{filling "ammo 556Nato" 30} ;556
+	{curve "556_85"}
+	{inventory
+		{size 4 2}
+	}
+	{mass 4.42} 
+	{entity "l22a2_susat"}
+	{fireSound	"smg/l85a2"}
+	{reloadSound "L85A2_Reload"}
+	{speed 280}	
+
+	{recoveryTime 0.09} 
+                          {rechargeTime 2.5}
+
+	("smg_range_optic")
+	
+
+	{cursor "s80"}
+	{cursorReloading "cannon_reload_all"}
+	{burst
+		{short 2 1}
+		{long 6 2}
+{rangeKoef 0.444}
+	}
+	{healthDamage 55}
+	("accuracy_optic_sight"  moa(1.1))	
+	("accuracy_optic_sight_77"  moa(1.1))	
+}

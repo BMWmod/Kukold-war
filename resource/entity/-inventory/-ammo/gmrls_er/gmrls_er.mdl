@@ -1,0 +1,65 @@
+;Exported by: Kasutaja
+;Date:        Tue Aug 30 17:44:11 2022
+;File:        C:\Users\Kasutaja\Desktop\GMRLS-ER CW\GMRLS-ER.max
+{Skeleton
+	{bone "body"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "body.ply"}
+		{bone "tail"
+			{Matrix34
+				-1	0	0
+				0	-1	0
+				0	0	1
+				-36.5477	0.0480297	0
+			}
+		}
+	}
+}
+{Volume "body"
+	{Polyhedron "body.vol"}
+	{Bone "body"}
+	{Matrix34
+		1	0	0
+		0	0	1
+		0	-1	0
+		-0.770918	2.37809	0.0446304
+	}
+}
+{Volume "select"
+	{Box 78.7402 4.72441 4.72441}
+	{Bone "body"}
+	{Matrix34
+		1	0	0
+		0	0	1
+		0	-1	0
+		-0.770915	0.0158842	0.0446322
+	}
+}
+{Extender "preview"
+	{"Stuff"
+		{camera
+			{origin 1.69261	-133.905	0.646179}
+			{lookat 0.720881	-84.1865	-0.10802}
+			{fov 31.7555}
+			{horizon -179.926}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 3.84935	-86.185	12.8749}
+			}
+			{"1"
+				{type directional}
+				{direction -0.0725256	0.378972	-0.317994}
+			}
+			{"2"
+				{type point}
+				{position -6.2078	-85.0842	9.64563}
+			}
+		}
+	}
+}

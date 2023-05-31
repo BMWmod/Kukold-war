@@ -1,0 +1,22 @@
+{from "pattern mgun"
+	{tag "reliability_high link_lmg"}	;спецрежим для запыленной среды
+	{filling "ammo 556NatoMB" 150}
+	{curve "556_70"}
+	{entity "negev_y"}
+	{fireSound	"mgun/negev_fire"}
+	{reloadSound "negev_reload"}
+	{inventory
+		{size 4 2 }
+	}
+	{mass 7.00}	
+	{recoveryTime 0.07}	
+	{rechargeTime 4.5}
+	{healthDamage 64}	
+	{projectileDamage 7}
+	{speed 290}
+	("mg_range_optic_custom" k(0.8))
+        ("accuracy_optic_sight"  moa(2))
+        ("accuracy_optic_sight_70"  moa(2))
+        
+
+}

@@ -1,0 +1,43 @@
+{from "pattern gun_air"	; турель АН-12
+	
+	{filling "bullet23_115 zenite" 50}
+	{fireSound "gun/GSh23"}
+	{reloadSound "flak38"}
+	{RecoveryTime 0.07}
+	{RechargeTime 2}
+	{spreading
+		{BurstAccuracy 300 300 300 300 300 200 200 200 150 150 150 150 100} ; т.к. включен параметр {BurstRecoveryTime 0.5}
+	}
+	{burst
+		{min 1}
+		{short 5 1}
+		{long 14 2}
+	}
+	{AimingTolerance 20}
+	{Automatic}
+	{traceFreq 1}
+	{range 120 120}	;Ориентировочно
+	("speed" s(800));заниженно из-за расположения.
+	("37-57caliber")
+	{speed 230}
+	{RelaxationTime 0}
+	;{cursor "zenite_on"}
+	;{cursorReloading "zenite_reload"}
+	{AimingTolerance 10}
+	{SpreadTolerance 0.3}
+	{calibre 23}
+	{projectileDamage 30}
+	;	{projectileDamageTable {10 27} {30 25} {70 23} {90 17} {110 13}}
+	("CW_acc_common" mils(1.75))
+	("CW_acc_common_100" mils(1.75))
+	("CW_small_AP_damage" penetr_1000m(8))   ;10мм/30гр./750м.
+    
+	{cursor "cannon_on_aa_2"}
+	{cursorReloading "cannon_reload_ap"}
+	{parameters "ofzt"
+		;{cursor "cannon_on_fg"}
+		{cursor "cannon_on_fg_13"}
+		{cursorReloading "cannon_reload_fg"}
+	}
+}
+;бронебойность заниженна из-за расположения.Смотрит назад.

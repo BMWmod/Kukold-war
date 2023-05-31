@@ -1,0 +1,14 @@
+;Model by Pheonix
+{game_entity
+	(include "/properties/stuff_small.ext")
+	{collider "ammo"}
+	{Volume "body"
+		{thickness 4}
+		{able {touch} {bullet} {blast}}
+	}
+	{extender "stuff"
+		{item "ammo bullet105_cn fg"}
+	}
+	{props "steel" "explosive_stuff"}
+	{Extension "shell_chi_apcr_dtb-10_105mm.mdl"}
+}

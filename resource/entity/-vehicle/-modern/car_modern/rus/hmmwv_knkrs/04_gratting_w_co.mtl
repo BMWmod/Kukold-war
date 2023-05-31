@@ -1,0 +1,7 @@
+{material simple
+	{diffuse "$/model/Humve_M998/gratting_w_co"}
+	{blend none}
+}
+
+
+

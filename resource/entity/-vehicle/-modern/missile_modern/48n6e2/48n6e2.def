@@ -1,0 +1,46 @@
+{game_entity
+	(include "/properties/missile.ext")
+
+	{PatherID  "airborne"}
+	(include "/properties/shadow/airborn.inc" scale(2.2))
+	(include "/properties/selection/airborne.inc" scale(3.0))
+       {autooperatable 1}
+       {placer
+          {crew 0}
+          {place "driver" remove}
+       }
+	{Chassis "airborne"
+		{Locomotion ("locomotion") 
+			{Maxspeed 200}
+	 	  	{turnRadius 10}
+		}
+    	{maxSideSlope 70}	;degree
+	{maxElevationSpeed 35}		;m/s
+	{elevationAcceleration 17}	;m/s^2
+       	{speed
+       		{Slow	200  }	; km/h
+       		{Normal	200	}
+       		{Fast	200	}
+       	}
+	}
+
+
+       {mass 1840}
+
+	{extender "stuff"
+		{item "48n6e2 ammo"}
+	}
+
+
+	{Volume "body"
+		{thickness 4}
+		{able {touch} {bullet} {blast}}
+	}
+
+
+	{props "steel" "explosive_stuff" "SAM_rus"}
+
+	{fogable never}
+
+	{Extension "48n6e2.mdl"}
+}

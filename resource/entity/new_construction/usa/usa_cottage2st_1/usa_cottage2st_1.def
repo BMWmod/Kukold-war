@@ -1,0 +1,29 @@
+{game_entity
+	{Extension "usa_cottage2st_1.mdl"}
+	{placer}
+	{extender "structure"
+		{place "f1c1" "usa_cottage2st_1f1c1"}
+		{place "f1c2" "usa_cottage2st_1f1c2"}
+		{place "f1c3" "usa_cottage2st_1f1c3"}
+		{place "f1c4" "usa_cottage2st_1f1c4"}
+		{place "f1c5" "usa_cottage2st_1f1c5"}
+		{place "f1c6" "usa_cottage2st_1f1c6"}
+		{place "f2c1" "usa_cottage2st_1f2c"}
+		{place "f2c2" "usa_cottage2st_1f2c2"}
+		{place "f2c3" "usa_cottage2st_1f2c3"}
+		{place "f2c4" "usa_cottage2st_1f2c4"}
+		{place "f2c5" "usa_cottage2st_1f2c5"}
+		{place "f2c6" "usa_cottage2st_1f2c6"}
+		{place "f2c7" "usa_cottage2st_1f2c7"}
+		{place "f2c8" "usa_cottage2st_1f2c8"}
+		{place "f2r1" "usa_cottage2st_1f2r1"}
+		{place "f2r2" "usa_cottage2st_1f2r2"}
+		{place "f2r3" "usa_cottage2st_1f2r3"}
+		{place "f2r4" "usa_cottage2st_1f2r4"}
+		{place "f2r5" "usa_cottage2st_1f2r5"}
+		{place "f2r6" "usa_cottage2st_1f2r6"}
+		{place "gd" "usa_cottage2st_1gd"}
+		{place "wp1" "usa_cottage2st_1wp"}
+		{place "wp2" "usa_cottage2st_1wp"}
+	}
+}

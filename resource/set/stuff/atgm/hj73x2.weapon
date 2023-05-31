@@ -1,0 +1,17 @@
+{from "pattern proj_weapon_ground"
+	{tag "gun"}
+	{filling "ammo hj73" 2}
+	{fillingVisible "rocket"}
+    {fireSound "bazooka/rpg7"}
+	{mass 5}
+	{rechargeTime 30}
+	{recoveryTime 7}
+	{calibre 5}
+	{inventory {noView}}
+    {maxRange 140}
+	{aimRange 140}
+	;{cursor "malytka"}
+	;{cursorReloading "zenite_reload"}
+	{cursor "cannon_on_heat_2"}
+    {cursorReloading "cannon_reload_heat"}
+}

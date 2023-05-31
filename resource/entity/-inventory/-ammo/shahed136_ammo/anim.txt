@@ -1,0 +1,75 @@
+-= Animation: move, Node kolpak =-
+	Frame 40 {
+		Visibility 1
+		Position	-5.31079	0	-0.867123
+		Orientation	-0.19509 0 0 0.980785
+	}
+	Frame 41 {
+		Orientation	-0.382683 0 0 0.92388
+	}
+	Frame 42 {
+		Orientation	-0.55557 0 0 0.83147
+	}
+	Frame 43 {
+		Orientation	-0.707107 0 0 0.707107
+	}
+	Frame 44 {
+		Orientation	-0.83147 0 0 0.55557
+	}
+	Frame 45 {
+		Orientation	0.92388 0 0 -0.382684
+	}
+	Frame 46 {
+		Orientation	0.980785 0 0 -0.19509
+	}
+	Frame 47 {
+		Orientation	1 0 0 0
+	}
+	Frame 48 {
+		Orientation	0.980785 0 0 0.19509
+	}
+	Frame 49 {
+		Orientation	0.92388 0 0 0.382684
+	}
+	Frame 50 {
+		Orientation	0.83147 0 0 0.55557
+	}
+	Frame 51 {
+		Orientation	0.707107 0 0 0.707107
+	}
+	Frame 52 {
+		Orientation	0.55557 0 0 0.83147
+	}
+	Frame 53 {
+		Orientation	0.382683 0 0 0.92388
+	}
+	Frame 54 {
+		Orientation	0.19509 0 0 0.980785
+	}
+	Frame 55 {
+		Visibility 1
+		Position	-5.31079	0	-0.867123
+		Orientation	0 0 0 1
+	}
+-= Animation: move, Node Propeller =-
+	Frame 40 {
+		Visibility 0
+		Position	0	0.00531578	0.0119374
+		Orientation	0 0 0 1
+	}
+	Frame 55 {
+		Visibility 0
+		Position	0	0.00531578	0.0119374
+		Orientation	0 0 0 1
+	}
+-= Animation: move, Node propeller_work1 =-
+	Frame 40 {
+		Visibility 1
+		Position	-0.163233	-0.000303268	0.0119377
+		Orientation	0.680744 -0.191278 0.680744 0.191277
+	}
+	Frame 55 {
+		Visibility 1
+		Position	-0.163233	-0.000303268	0.0119377
+		Orientation	0.680744 -0.191278 0.680744 0.191277
+	}

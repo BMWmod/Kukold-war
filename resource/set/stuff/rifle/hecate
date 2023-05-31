@@ -1,0 +1,49 @@
+﻿;Cold War
+{from "pattern sniper_rifle"
+	{tag "sniper weapon at_rifle to_hand nokeep cannot_stand hrifle reliability_medium"}	
+	{special
+		{mode aim}
+		{PrepareTime 4}
+		{PrepareCursor "aimed_shot"}
+		;{damage 2} ; damage *= x
+		{accuracy 1.2} ; aim_range *= x
+		;{throw_off}
+	}
+	{mass 13.8}
+	{filling "ammo nato_ptr" 7}
+	{curve "_50nato_120"}
+	{inventory
+		{size 6 2}
+	}
+	{entity "hecate"}
+	("hrifle_range")
+	{speed 300}
+	{healthDamage 246}
+	{RelaxationTime 1}
+	{projectileDamageTable {20 33} {75 26} {100 13} {120 7} {140 4}}	;14/17 от бронебойности M82,
+			;подтверждается http://themess.net/forum/equipment-and-material/30228-50-cal-sniper-rifles-accuracy
+			;http://imgur.com/4zFeA89
+	{projectileDamageThreshold 1}
+	{fireSound	"rifle/pgm"}
+	{reloadSound "pgm_Reload"}
+	{recoveryTime 1.5}
+	{rechargeTime 4}
+	{calibre 12}
+	;{cursor "optic_gekata"}
+	;{cursorReloading "optic_gekata_reload"}
+	{cursor "sniper_ap"}
+	{cursorReloading "cannon_reload_ap"}
+	("accuracy_optic_sight"  moa(1.25))	;approx http://themess.net/forum/equipment-and-material/30228-50-cal-sniper-rifles-accuracy
+	("accuracy_optic_sight_100"  moa(1.25))	;approx http://themess.net/forum/equipment-and-material/30228-50-cal-sniper-rifles-accuracy
+        {parameters "M2"
+		("accuracy_optic_sight"  moa(2.0))
+		("accuracy_optic_sight_100"  moa(2.0))
+		{projectileDamageTable {10 22} {20 21} {75 16} {105 9} {120 4} {140 3}}
+	}
+	{parameters "AMAX"
+		("accuracy_optic_sight"  moa(1.0))
+		("accuracy_optic_sight_100"  moa(1.0))
+		{projectileDamageTable {10 7} {20 6} {75 5} {105 4} {120 3} {140 1}}	
+	}
+	("scope")
+}	

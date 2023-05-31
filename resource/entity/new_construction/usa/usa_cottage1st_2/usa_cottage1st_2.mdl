@@ -1,0 +1,69 @@
+;Exported by: Timosh
+;Date:        Thu Jun 23 16:59:59 2022
+;File:        G:\?????? ? Pheonix\??????????????\??????\?????? ? ???????\???\???????????? ??????????? ??????? 2\usa_cottage_1st_2 17.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "land"
+			{Position -4.25185	-2.26724	0}
+		}
+		{bone "1"
+			{Position 33.0554	-91.6348	0}
+		}
+		{bone "2"
+			{Position -77.0613	-91.6348	0}
+		}
+		{bone "3"
+			{Position -77.0613	-46.472	0}
+		}
+		{bone "4"
+			{Position -77.0613	10.2195	0}
+		}
+		{bone "5"
+			{Position -77.0613	67.5832	0}
+		}
+		{bone "6"
+			{Position -52.6144	87.1924	0}
+		}
+		{bone "7"
+			{Position 24.5545	92.2363	0}
+		}
+		{bone "8"
+			{Position 41.5775	53.3442	0}
+		}
+		{bone "9"
+			{Position 39.638	-1.65117	0}
+		}
+		{bone "10"
+			{Position 39.638	-60.0082	0}
+		}
+		{bone "11"
+			{Position -18.5876	-87.9948	0}
+		}
+		{bone "12"
+			{Position -18.5876	-42.2155	0}
+		}
+		{bone "13"
+			{Position -18.5876	22.3368	0}
+		}
+		{bone "oven"
+			{Position -11.9249	99.1297	0}
+		}
+		{bone "w1"
+			{Position 69.8732	45.6906	0}
+		}
+		{bone "w2"
+			{Position 69.8732	-48.3255	0}
+		}
+		{bone "r1"
+			{Position -17.7641	-24.3715	0}
+		}
+		{bone "r2"
+			{Position -17.7641	43.8031	0}
+		}
+	}
+}

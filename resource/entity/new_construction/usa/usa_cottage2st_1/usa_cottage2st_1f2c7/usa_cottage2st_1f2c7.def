@@ -1,0 +1,24 @@
+{game_entity
+	(include "/properties/building.inc")
+	{props "cornered" "concrete" "parts" "construction" "windowed" "wall"}
+	("armor_heavy" args 0.8)
+	{extender "structure_bone"
+		{hold  "10"}
+	}
+	{Extension "usa_cottage2st_1f2c7.mdl"}
+	{Volume "body1"
+		{Tags  "body"}
+		{Thickness 30}
+		{able {visible 1}{holed}{obstacle 0}}
+	}
+	{Volume "body2"
+		{Tags  "body"}
+		{Thickness 30}
+		{able {visible 1}{holed}{obstacle 0}}
+	}
+	{Volume "floor1"
+		{Tags  "body"}
+		{Thickness 30}
+		{able {visible 0}{obstacle 0}}
+	}
+}

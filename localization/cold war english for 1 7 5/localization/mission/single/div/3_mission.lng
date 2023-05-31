@@ -1,0 +1,81 @@
+﻿{tags
+	{"date" "April 2003"}
+	{"name" "Sandstorm"}
+	{"name_big" "Sandstorm"}
+	{"outro_completed" "We did our best."}
+	{"outro_failed" "Defeat!"}
+	{"place" "Place: airfield to the south of Karbala."}
+        {"00" "We're running out of fuel. Let's go on foot."}
+        {"01" "Damn what happened here ..."}
+        {"02" "The unfaithful ... the unfaithful are everywhere ..."}
+        {"03" "Soldier! What happened here?"}
+        {"04" "The infidels flew in on their planes and destroyed us all. A couple of hours ago ... their tanks came and took over the entire area."}
+        {"05" "Apparently, we did not have time. Morozov, we need to recon the area."}
+        {"06" "What are we going to do with him?"}
+        {"07" "The injuries are too serious. We are not able to help him."}
+        {"08" "Explore the situation at the airport"}
+        {"09" "Explore the parking lot next to the airfield"}
+        {"10" "Release the prisoners"}
+        {"11" "Capture and repair the abandoned T-72"}
+        {"12" "Destroy the British column and seize the SMAW grenade launchers"}
+        {"13" "Keep the position in the area of the airfield while columns are passing"}
+        {"14" "Leave the battlefield"}
+        {"15" "We must examine the base with binoculars."}
+        {"16" "It's full of Americans. Going there now is sheer suicide. "}
+        {"17" "Consequently, Farid's troops will never get out?"}
+        {"18" "We need to scout the entire area. Perhaps we will find allies. The Americans couldn't kill everyone so quickly. Forward."}
+        {"19" "Movement! Get down!"}
+        {"20" "Open fire!"}
+        {"21" "Come on to them."}
+        {"22" "Meet the Iraqi soldiers"}
+        {"23" "Do not shoot! We are from Farid! What happened here?"}
+        {"24" "We know! Colonel Somani has announced the arrival of two scouts! About two hours ago, NATO forces took this square by storm! Many of our people surrendered to them, the main part has already been taken out. But a few more prisoners of war are being held in a camp not far from here! We are heading there to free them."}
+        {"25" "Our task is to ensure a safe retreat of the remnants of the 8th Motorized Division along this road. As I understand it, we have practically no chances, but we need to act."}
+        {"26" "Then my squad comes under your command."}
+        {"27" "We act carefully and quickly. Use grenades."}
+        {"28" "The prisoners have begun their escape! Let's quickly, they can all be shot!"}
+        {"29" "We did it. But we still don't have enough forces to recapture the airfield."}
+        {"30" "Our tank was hit nearby! If you'll fix it, it will be like new and can still serve us!"}
+        {"31" "Things are slowly but surely getting better. Take us to your tank, and then we'll see what we can do with it."}
+        {"32" "Rather, we leave here. Reinforcements are probably already coming from the airfield. We don't need new victims yet."}
+        {"33" "There is our tank! We just need to borrow a repair kit from the Americans, and we can go."}
+        {"34" "Now we have a chance to take back control of this airfield. The plan is as follows. One group quickly kills two officers at the laptops. The second begins the assault along with the tank. Count on the effect of surprise, try to immediately knock out both \"Abrams\" tanks, as well as destroy the plane before it takes off."}
+        {"35" "Capture the airfield"}
+        {"36" "First you need to shoot down their plane. If it takes off, we will be destroyed."}
+        {"37" "Our base has been attacked! First lieutenant Crosby, make us an air support!"}
+        {"38" "The airfield is ours!"}
+        {"39" "Delta-Six! We need fire support! point Zero-Zero-Eight-Niner-Four!"}
+        {"40" "Damn ... he still managed to call for reinforcements! Heck!"}
+        {"41" "Call for reinforcements"}
+        {"42" "It's dawn soon. Take up defensive positions and get ready."}
+        {"43" "Farid, do you copy? The airfield is under control!"}
+        {"44" "Finally! I thought we couldn't be saved! Defend positions, I'll send you best troops I have! Farid over."}
+        {"45" "Affirmative. Over and out"}
+        {"46" "Our columns will pass through the airfield and through the village where the prisoners were. Both of these points and the rest of the route must be under our control. NATO forces will attack from all directions, especially from the river side."}
+        {"47" "Bravo Eight! Our patrols heard the shooting near you! Should we send the convoy to you?"}
+        {"48" "Yes! Some insurgents attacked us! We have casualties, airfield base commander is wounded, but iraqi surrendered."}
+        {"49" "Good news! Wait us two minutes!"}
+        {"50" "Column arrives in 2 minutes! Prepare your weapons and get ready to destroy them!"}
+        {"51" "Column arrives in "}
+        {"52" "Do not try to destroy trucks! One of them contains a bunch of grenade launchers that we will need in defense! We need to take at least one!"}
+        {"53" "I also found stingers! We can use it in combat. We will beat the Americans with their own weapons."}
+        {"54" "NATO forces are clearly attacking us soon. The time of the attack, unfortunately, is unknown, but one must be fully armed upon their arrival."}
+        {"55" "We can no longer repel the Americans!"}
+        {"56" "A sandstorm is coming. We can leave."}
+        {"57" "The officers died and were unable to complete their main mission."}
+        {"58" "Command squad of the 6th motorized division under fire! Anyone who hears me needs help! We are all going to be shot!"}
+        {"59" "Is there anyone else in this area besides us?"}
+        {"60" "Alas, no. With a sandstorm, all the remaining units fled. The 6th motorized division is now surrounded, those who stayed there will no longer be able to get out. And we will not help them in any way."}
+        {"61" "What are we going to do now?"}
+        {"62" "We must leave this area. Our main mission is more important than the surrounded soldiers. We need transport. Perhaps Farid knows how we can get out of here safely."}
+        {"63" "Save Farid"}
+        {"64" "The zone has been cleared. Farid! How do we get out of here?"}
+        {"65" "There is one more road left at asimuth 340 from here! According to my calculations, there should be no \"Delta \" there!"}
+        {"66" "Morozov! Save Farid and the others! I'll delay Delta! They won't dare shoot me!"}
+        {"67" "We must not reveal ourselves to the Americans! The country's reputation will be in jeopardy if they find out who we really are!"}
+        {"68" "Therefore, I order to arrange for tracking the detachment that will take me prisoner, to identify their base and organize the release! Now get away with your feet! Everything will be all right, Morozov, we repeat the same thing as in 95 near Shatoi!"}
+        {"69" "Understood, Major! On the gases!"}
+        {"70" "Captain Morozov was able to get out of the battle area. Now, in order not to reveal the details of his assignment and the purpose of his location in Iraq, he will try to save Filimonov at any cost. He has very little time for this - the Americans will use all methods to obtain information from the captured specops soldier."}
+        {"71" "The Americans were able to regain control of the airfield and did not allow the 6th motorized division to leave the encirclement."}
+        {"72" "Truck \"M977A4 \" must remain intact! It contains weapons we need!"}
+}

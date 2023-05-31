@@ -1,0 +1,19 @@
+{from "pattern grenade"
+	
+	{tag "fg" "fragmentary" "grenade fragmentary" "fx_gren"}
+	{tag "grenade_ap"} ; только для ammo.set
+	{inventory {size 1 1}}	
+	{entity "shgr56"}
+	;ћасса: гранаты Ц 580 г, BB тротил Ц 190 г.190x0.8=167гр. к оскол.расчету.
+{damage blastwave {energy 0.7} {area 4.4 5.0}} ;x1.5
+{damage add blastwave {energy 1.2} {area 3 3.5}} ;x1.5
+    {throw
+		{range 25}
+	}
+	{possibleDamageRadius 2}
+	{mass 0.58}    
+
+}
+;масса 580гр. корпус сталь  дальность броска до 50
+;–адиус сплошного поражени€ Ц 5 м.ѕриведенна€ площадь рассеивани€ Ц  м2
+;„исло осколков Ц 400 шт. —редний вес осколков Ц  г.

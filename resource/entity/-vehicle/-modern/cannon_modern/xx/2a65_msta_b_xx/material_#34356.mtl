@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "$/model/2a65_msta_b/whell_d_xx"}
+	{blend none}
+}

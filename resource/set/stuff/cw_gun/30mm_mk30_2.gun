@@ -1,0 +1,62 @@
+{from "pattern gun"
+	
+	{filling "mk30abm ammo" 100}
+	{fireSound "gun/mk30-2"}	
+	{reloadSound "flak38"}
+	{RecoveryTime 0.35}	
+	{RechargeTime 0.35}
+	
+	{spreading
+		{spreadradius 	1}
+		{SpreadXYRatio	1.1}
+		{SpreadPower	1.7}
+		{BurstAccuracy 100 85 75}
+	}
+
+	{SpreadTolerance 0.5}
+	{Automatic}
+	{traceFreq 1}			;трассирующие патроны входят в боекомплект.
+	{range 140 140}			;дальность стрельбы 4 км
+	("speed" s(800))
+	("37-57caliber")
+	{RelaxationTime 1}
+;	{cursor "zenite_on"}
+;	{cursorReloading "zenite_reload"}
+	{cursor "cannon_on_ap_2"}
+	{cursorReloading "cannon_reload_ap"}
+	{AimingTolerance 3}
+	{SpreadTolerance 0.3}
+	{calibre 30}
+	{projectileDamage 30}
+	("CW_acc_common" mils(0.5))		;NAMMO 30mm_x_173_APFSDS-T_PMC_287.pdf
+	("CW_acc_common_120" mils(0.5))
+	{parameters "apcr"                        ;APFSDS
+		("CW_small_APCR_damage_WC" penetr_1000m(106))	;NAMMO 30mm_x_173_APFSDS-T_PMC_287.pdf
+		("CW_acc_common" mils(0.3))		;nammo_ammo-handbook_2016.pdf
+		("CW_acc_common_120" mils(0.3))
+		("speed" s(1405))	;примерно
+	             {cursor "cannon_on_apcr_2"}
+	             {cursorReloading "cannon_reload_apcr"}
+	}  
+	{parameters "fg_abm"                        ;airburst
+		("CW_acc_common" mils(0.5))
+		("CW_acc_common_120" mils(0.5))
+		{spreading
+			{SpreadXYRatio	10}	;взрыв-то по таймеру, поэтому рассеяние по дальности всего порядка 10м.
+								;https://www.youtube.com/watch?v=2FgmXhukQx4
+			{SpreadPower	1.7}
+			{BurstAccuracy 100 85 75}
+		}
+		{cursor "cannon_on_fg_2"}
+		{cursorReloading "cannon_reload_fg"}
+	} 
+	{parameters "ap"                        ;ББ от A-10
+		;{projectileDamageTable {10 90} {30 75} {50 69} {70 38} {90 25} {110 15} {130 9}}	Таблица для GAU-8
+		;При стрельбе из GAU-8 БПС массой 425г набирает скорость 1010 м/с (E=216.8 кДж)
+		;При стрельбе из Mk30-2 БПС массой 235г набирает скорость 1405 м/с (E=231.9 кДж)
+		;Значит, Mk30-2 имеет энергию и бронебойность на 7% больше GAU-8. Вот на 1,07 и домножаем
+		{projectileDamageTable {10 96} {30 80} {50 74} {70 41} {90 27} {110 16} {130 10}}
+		("CW_acc_common" mils(0.5))
+		("CW_acc_common_120" mils(0.5))
+	}                
+}

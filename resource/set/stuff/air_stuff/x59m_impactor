@@ -1,0 +1,20 @@
+{from "pattern proj_impactor"
+	{entity "x59m_impactor"}
+    {inventory
+		{weight 100}
+		{size 7 1}
+	}
+	{tag "no_ricochet" "fg" "big" "size5" "88to105" "fx_upto250kg"} 
+;около 107 кг ВВ - масса БЧ 320 кг, БЧ проникающая фугасная.
+	{tag "he_over30"}
+{damage blastwave {energy 7} {area 28 31}}
+{damage add blastwave {energy 10} {area 23.6 26}}
+{damage add blastwave {energy 15} {area 18 20}}
+{damage add blastwave {energy 22} {area 14 16}}
+{damage add blastwave {energy 30} {area 6 7}}
+{damage add blastwave {energy 60} {area 3 5}}	;Энергия увеличена до 22 для возможности разрушать танки прямым попаданием.
+{damage add blastwave {energy 69} {area 0.5 1}}	;Прямое попадание
+
+
+
+}

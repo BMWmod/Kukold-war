@@ -1,0 +1,22 @@
+{from "pattern fg"
+	{tag "big" "size3" "122to128fg" "bullet125_h_rus" "2a46ammo" "2a46ammo_h" "kbaz_ammo" "2a82ammo" "fx_111_145"}
+	{mass 43.5}
+	{inventory
+		{size 6 1}
+	}	
+	{entity "shell_rus_fg_125"}
+	{view "shell_rus_fg_125"}
+	;7.65 êã ÂÂ - ÇÎÔ-45
+	{tag "he_4_5to8"}
+
+
+{damage blastwave {energy 0.7} {area 9.8 11.2}}
+{damage add blastwave {energy 1.2} {area 8.2 9.4}}
+{damage add blastwave {energy 2.5} {area 4.6 5.4}}
+{damage add blastwave {energy 9.5} {area 1.9 2.1}}
+
+	{damage add blastwave	 ; HE, kinetic, direct hit
+		{energy 12}
+		{area 0.1 0.1}
+	}
+}

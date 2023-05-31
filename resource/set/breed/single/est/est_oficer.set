@@ -1,0 +1,22 @@
+{breed
+	{skin "cw_est_tac"}
+	{portrait "_new/balt/est_com"}
+	{icon pol_com}
+	{icon_priority 2}
+	{tags "officer"}
+	{nationality est}
+	{armors
+		{head cap_est}
+	}
+	(include "perks_generic.inc")
+	("traits_officer")
+	{inventory
+		{item "est_vest"}
+		{item "knife_rus"}
+		{item "binocular"}
+		{item "standart ammo" 50}
+		{item "walther_p99" filling "9mm ammo" 15}
+		{in_hands 4}
+	}
+}
+

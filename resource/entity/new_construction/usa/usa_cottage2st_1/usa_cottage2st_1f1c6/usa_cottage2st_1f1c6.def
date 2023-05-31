@@ -1,0 +1,64 @@
+{game_entity
+	(include "/properties/building.inc")
+	{props "cornered" "concrete" "parts" "construction" "windowed" "wall"}
+	("armor_heavy" args 0.8)
+	{Extension "usa_cottage2st_1f1c6.mdl"}
+	{Volume "body10"
+		{Tags  "body"}
+		{Thickness 30}
+		{able {visible 1}{holed}}
+	}
+	{Volume "body1"
+		{Tags  "body"}
+		{Thickness 30}
+		{able {visible 1}{holed}}
+	}
+	{Volume "body2"
+		{Tags  "body"}
+		{Thickness 30}
+		{able {visible 1}{holed}}
+	}
+	{Volume "body3"
+		{Tags  "body"}
+		{Thickness 30}
+		{able {visible 1}{holed}{obstacle 0}}
+	}
+	{Volume "body4"
+		{Tags  "body"}
+		{Thickness 30}
+		{able {visible 1}{holed}{obstacle 0}}
+	}
+	{Volume "body5"
+		{Tags  "body"}
+		{Thickness 30}
+		{able {visible 1}{holed}}
+	}
+	{Volume "body6"
+		{Tags  "body"}
+		{Thickness 30}
+		{able {visible 1}{holed}}
+	}
+	{Volume "body7"
+		{Tags  "body"}
+		{Thickness 30}
+		{able {visible 1}{holed}}
+	}
+	{Volume "body8"
+		{Tags  "body"}
+		{Thickness 30}
+		{able {visible 1}{holed}}
+	}
+	{Volume "body9"
+		{Tags  "body"}
+		{Thickness 30}
+		{able {visible 1}{holed}}
+	}
+	{Volume "floor1"
+		{Tags  "body"}
+		{Thickness 30}
+		{able {visible 0}{obstacle 0}}
+	}
+	{Extender "land_patch"
+		{TerrainType "road" "bridge"}	
+	}
+}

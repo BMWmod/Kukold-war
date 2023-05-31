@@ -1,0 +1,30 @@
+{weapon_bullet
+	
+	{tag "gun" "skill_tankgun" "bullet" "prepare"}
+	{Special
+		{Mode aim}
+		{PrepareTime 10}
+		{PrepareCursor "aimed_shot"}
+	}
+	{filling "ammo df15b" 1}
+	{fillingVisible "Rocket00"}
+	{fireSound "reactive/SCUD_launch"}
+	{range 800 800}                 ;800 км.
+	("accuracy_kab" kvo_meters(25))	;реально 35-50м, т. е. несколько хуже Искандера
+	{spreading 
+		{SpreadXYRatio	2}	;Реальный угол падения больше игрового, и эллипс рассеяния меньше игрового
+	}
+		{rechargeTime 300}
+		{gravity 2.5}
+		{speed 200}	;скорость побольше нельзя - ракета исчезнет на незавышенных картах
+		{aimtype adaptive}
+		
+	{cursor "tactical"}
+	{cursorReloading "cannon_reload_fg_timer_300"}
+	{parameters "tb"
+		;{cursor "shmel_on"}
+		;{cursorReloading "cannon_reload_fg"}
+		{cursor "tactical_tb"}
+		{cursorReloading "cannon_reload_fg_timer_300"}
+	}
+}

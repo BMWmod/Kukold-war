@@ -1,0 +1,7 @@
+;SDL
+{units
+	(include "selectors.set")
+	(include "generic.set")
+	(include "soldiers.set")
+	(include "vehicles_nz.set")
+}

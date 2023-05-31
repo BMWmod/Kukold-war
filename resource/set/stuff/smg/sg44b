@@ -1,0 +1,20 @@
+{from "pattern smg"
+	{tag "assaultrifle"}
+	{filling "ammo 556Nato" 30} ;556
+	{curve "556_70"}
+	{mass 5}
+	{entity "stg44_scope"}
+	{fireSound	"smg/mp44_burst/"}
+	{reloadSound "mp44"}	
+
+	{range 70 75}
+	{healthDamage 160}
+	("recoveryTime" r(700))
+	{burst
+		{short 2 1}
+		{long 7 8}
+{rangeKoef 0.454}
+	}
+	("accuracy_automatic_rifle")
+ 	("speed" s(700))
+}

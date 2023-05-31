@@ -1,0 +1,39 @@
+{from "pattern sniper_rifle"
+	{tag "sniper weapon at_rifle sd to_hand nokeep cannot_stand hrifle reliability_medium"}	
+	{special
+		{mode aim}
+		{PrepareTime 4}
+		{PrepareCursor "aimed_shot"}
+		;{damage 2} ; damage *= x
+		{accuracy 1.2} ; aim_range *= x
+		;{throw_off}
+	}
+	{filling "ammo vssk_ammo" 5}
+	{curve "127rus_85"}
+	{inventory
+		{size 5 2}
+	}
+	{entity "vssk_vyhlop"}
+	{fireSound "rifle/vintorez/"}
+	{reloadSound "chn/ksvk_reload"}
+	("hrifle_range_custom" k(0.8))
+	{speed 290}
+	{healthDamage 176}
+	{HealthDamageClip 80}
+	{RelaxationTime 1}
+	{projectileDamageTable {0 14} {20 12} {75 10} {100 7} {120 3} {140 2}}	;примерно, ведь у ОСВ-98 тоже на четверть меньше бронебоя
+	{projectileDamageThreshold 1}
+	{recoveryTime 1.5}
+	{rechargeTime 4}
+	{calibre 12}
+	;{cursor "zenite_on"}
+	;{cursorReloading "zenite_reload"}
+	{cursor "sniper_ap"}
+	{cursorReloading "cannon_reload_ap"}
+	("accuracy_optic_sight"  moa(0.86))	;https://www.armoury-online.ru/articles/sr/ru/vssk/
+	{parameters "ap"
+		("accuracy_optic_sight"  moa(1.72))	;https://vk.com/wall-11916741_21208?offset=20 (ПТ R100/100м 3.5см ВПС R100/100м 7см)
+		{projectileDamageTable {0 19} {20 16} {75 13} {100 9} {120 3} {140 2}}	;16мм/100м http://gunrf.ru/rg_spesial_vykhiop_ru.html
+															;https://topwar.ru/33757-specinstrument-dlya-professionala.html
+	}
+}

@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "$/model/s400/s400_baz_6402_body"}
+	{blend none}
+}

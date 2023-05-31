@@ -1,0 +1,70 @@
+;Exported by: Kasutaja
+;Date:        Sun Aug 29 15:52:13 2021
+;File:        C:\Users\Kasutaja\Desktop\Ammo Shell\cn 120mm mine accurate .max
+{Skeleton
+	{bone "body"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "body.ply"}
+		{bone "tail"
+			{parameters "Voxels=0;"}
+			{Matrix34
+				-1	0	0
+				0	-1	0
+				0	0	1
+				-6.16123	-0.0414927	-0.136201
+			}
+		}
+	}
+}
+{Volume "body"
+	{Polyhedron "body.vol"}
+	{Bone "body"}
+	{Position -1.67524	-0.010534	-1.45144}
+}
+{Volume "select"
+	{Polyhedron "select.vol"}
+	{Bone "body"}
+	{Position -0.842221	-0.0105398	-0.226774}
+}
+{Extender "preview"
+	{"Stuff_primary"
+		{camera
+			{origin -0.0454445	21.3544	0.505896}
+			{lookat -0.0338011	-19.4779	0.523169}
+			{fov 31.7555}
+			{horizon -0.17132}
+		}
+		{lights
+			{"0"
+				{type directional}
+				{direction 0.0457972	-0.45561	-0.200804}
+			}
+		}
+	}
+	{"Stuff"
+		{camera
+			{origin -0.336233	24.6509	0.064779}
+			{lookat -0.324591	-10.1139	0.0373361}
+			{fov 31.7555}
+			{horizon -0.170174}
+		}
+		{lights
+			{"0"
+				{type directional}
+				{direction 0.0457972	-0.45561	-0.200804}
+			}
+			{"1"
+				{type point}
+				{position 18.8739	-18.6422	9.32173}
+			}
+			{"2"
+				{type point}
+				{position -22.1924	-10.2318	-6.74362}
+			}
+		}
+	}
+}

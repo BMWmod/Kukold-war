@@ -1,0 +1,29 @@
+;Cold War
+{from "pattern rifle"
+	{tag "reliability_low"}
+	{filling "ammo 12mm_shotgun" 8}
+	{curve "9x18_15"}
+	{mass 3.9}
+	{inventory
+		{size 5 2}
+	}
+	{special
+		{throw_off_always}
+	}
+	{entity "spas15"}
+	{range 75 75}
+	{Automatic}
+	{reloadSound "shotgun"}
+	{fireSound "rifle/shotgun"}
+	{traceFreq 1}
+             {RelaxationTime 0.1}
+	{recoveryTime 0.5}
+	{rechargeTime 4.5}
+	{speed 60}
+	{cursor "shotgun_on"}
+	{cursorReloading "cannon_reload_all"}
+
+	{healthDamage 130}
+	("accuracy_open_sight"  moa(6))	;примерно
+	("accuracy_open_sight_40"  moa(6))	;примерно
+}

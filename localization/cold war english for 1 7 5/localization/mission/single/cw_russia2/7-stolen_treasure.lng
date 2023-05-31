@@ -1,0 +1,147 @@
+{tags
+	{"00" "Vasiliy, turn left. We'll hide vehicles behind rocks. Yankees or jews can comb the area by land and air, Hurshid's contact told about it."}
+	{"01" "So, guys, it was a road with two state borders, five hundred kilometers of desert, the Turks, the rebels and the Syrian squad that has covered our retreat. You all know our mission - to deliver a special SCUD warhead to Syrian missilemen. Savin, report cargo status."}
+	{"02" "It's OK, commander. The temperature is stable, the air conditioner operates, the container is sealed. Do not allow somebody to shoot a bullet to it."}
+	{"03" "Savin, I'm tired of your bullets. Watch out, if you'll croak disaster - it won't rest enough of you to bury."}
+	{"04" "Silence! Gleb, what about Hurshid?"}
+	{"05" "Hurshid reported two days ago, there was no communication today. The meeting place is home of park ranger. He will be there. My advice is to hurry, commander. Aleppo is large city, yankees or Israel forces can watch it from UAVs."}
+	{"06" "So, we have the next task: I'll take three men and go for Hurshid. He'll guide us to the Syrian HQ in the city, and HQ will send forces to escort the truck. After that, our mission will be completed - SCUD launchers are not far, and they should should have proper guard. But you're right, Gleb, we're short in time."}
+	{"07" "I'll do it."}
+	{"08" "Nasedkin, Zaytcev, Romanov - follow me. Savin - you're in charge. Klimov - report to Moscow."}
+	{"09" "Watch out! There's something going on."}
+	{"10" "That's Abbas Hurshid! Looks like Jews have taken him. Lads, he is our way to the Syrians, we can't complete our mission without him."}
+	{"11" "Commander' we must hurry! They have APC or truck, let's make ambush near the road and stop it. Hurshid will be able to escape during the battle."}
+	{"12" "Hurshid! Here, run!"}
+	{"13" "They have Namer - heavy APC."}
+	{"14" "Commander, that's even good for us! It has good armor, but not enough to withstand my RPG. I'll try to hit it in the engine compartment, it is in front to the right side. Vasya, assist me and throw RKG on the engine's roof. Then I'll try thermobaric grenade in the upper glacis, that should destroy machinegun turret."}
+	{"15" "That's risky - Hurshid boarded first, he is in the center of APC. Hit the engine. If APC will stop, crew will come outside. Check your fire and let's start!"}
+	{"16" "Ah, the mashinegun is broken! Now it'll be easier. Don't walk in front of it, Namer has a mortar in the hull."}
+	{"17" "It's stuck! Now calm down and carefully finish the job. APC won't move anywhere, but Jews can kill the informator."}
+	{"18" "Pull back, pull back! Return to the camp, we have the informator! Hurshid, can you walk?"}
+	{"19" "Yes, yes... I feel bad, everything is floating... how it is... contusion, right. Can't run."}
+	{"20" ""}
+	{"21" ""}
+	{"22" "Hurshid, we have no time. How can we reach SCUD location?"}
+	{"23" "The situation is worse than you think. Our position was spotted, \"Truman\" launched fighters... To the south of the city is the zone of responsibility of Israel, US Marines have been seen within the city limits. Three Scud launchers were bombed out in the desert, the commander of the missile brigade managed to hide a fourth here, in a residential quarter, but later this zone was captured by rebels."}
+	{"24" "The fourth SCUD was not evacuated in time. It was only five or six hours ago, with luck rebels have not yet found it."}
+	{"25" "Great. This tin \"Truman\" will still be on your nerves, Khurshid, for a long time. Rocketeers are dead, the SCUD is in the rebel's nest, yankees and Jews are roaming around, F-35 are in the air, and we sit in the middle of this mess on the atomic bomb. Right? "}
+	{"26" "Commander, Makar described our situation emotionally, but close to the truth. Who is to blame - it is clear, some residents of the desert overestimated their strength, and some residents of Moscow is clearly not envisaged actions of the enemy. The question is - what to do?"}
+	{"27" "There is an opportunity... There is a town named Seraquib to the south, it's still under control of Second Reserve brigade. There's a fallback position for the missile brigade, and there we can find SCUD operators."}
+	{"28" "We have no other opportunity. I'll take four men, quietly capture the launcher and return here. Then we'll pass with launcher and truck along the south border of the city, between rebels and IDF. The Jews are rather close to the city, but destroyed squad was at full alert - that means that southern city outskirts are not under IDF control."}
+	{"29" "Let's go."}
+	{"30" "Good luck, Mishin. We'll wait here."}
+	{"31" "Well, commander... I don't like those buildings. Do you remember Kiev and our ambushes on rooftops? Rats can play this joke with us."}
+	{"32" "Agreed, take attention to rooftops and balconies. Those high-rise building are obvious places for snipers."}
+	{"33" "Alex, I think we could use this places too. Square is fully seen from the close ones, that stand like a corner."}
+	{"34" "We'll see. The time is short, let's move."}
+	{"35" "Good, then down to the street. There is a lot of destroyed armour, after fights in the autumn."}
+	{"36" "Damn, yankees are here!"}
+	{"37" "So, they've spotted the SCUD. They could never sneak through the city on wheels - that means they are allied with local rebels. We must recapture the launcher right now!"}
+	{"38" "Watch out, incoming!"}
+	{"39" "Alex, he's going away!"}
+	{"40" "To the Humvee, run! I'll get him, be sure. Shoot to the left cabin only, to the driver! Or it can to blow up."}
+	{"41" "Starting the engine..."}
+	{"42" "What's about the map? He has turned right, but there are junk everywhere? Where will he go next?"}
+	{"43" "There is no pass! Tnk blocks whole road!"}
+	{"44" "Yes! Let's go!"}
+	{"45" "We'll find him."}
+	{"46" "Quiet! Wait, is he coming back?"}
+	{"47" "Well, that,s logical. If your weight is 40 tonn, you can make your own road."}
+	{"48" "Go, go, go! Strait, then left, go parallel to SCUD!"}
+	{"49" "Watch out!"}
+	{"50" "Turn left, through courtyards!"}
+	{"51" "Alex, prepare to shoot, gun to starboard!"}
+	{"52" "He presses us left!"}
+	{"53" "Lads, last chance! The engine is going to stall!"}
+	{"54" "That's all, ride is over."}
+	{"55" "He will turn left and pass in front of us!"}
+	{"56" "Here! Brakes!"}
+	{"57" "Still moving!"}
+	{"58" "Follow him, ASAP!"}
+	{"59" "Commander, the engine feels bad, won't work long! We need finish hijackers now!"}
+	{"60" "No place to outrun the SCUD, we'll have last chance in the park! If we fail, he'll go to the Jews!"}
+	{"61" "Commander the engine is overheating! It will stall soon!"}
+	{"62" "Got him! Brakes!"}
+	{"63" "Commander, I don't like that explosion in the cabin. The launcher can be damaged."}
+	{"64" "Some flat roofs can have opened hatches. Your soldiers can use them to observe or shoot. Take a soldier ro the door of such building, then give an order to enter by clicking on the door or hutch. Do this actions again to exit from roof to ground."}
+	{"65" "Commander, we're under attack! Take them off!"}
+	{"66" "Alex, the car is damaged! Return fire!"}
+	{"67" "Commander, engine is stalled!"}
+	{"68" "Commander, I've examined the launcher. Maybe, driver has blown himself, maybe, you hit a grenade, byt the explosion has damaged the cabin. All control panel has turned to scrap, steering wheel is stuck. I can't repair it with just a screwdriver and a knife, I need good instruments."}
+	{"69" "I've got it. We will need help, we can't guard the launcher and search instruments at the same time."}
+	{"70" "Klimov, report! Klimov, do you copy? Klimov, this is Mishin, report!"}
+	{"71" "Mishin, this is Klimov! I hear you!"}
+	{"72" "Ask Hurshid about coordinates of car washes, fuel depots, motor depots nearby! We,ve found SCUD, but in needs repairs!"}
+	{"73" "I know three places! In the southeast there is repair, in the south - a warehouse with a workshop, and in the west was a fuel depot!"}
+	{"74" "Commander, I've just intercepted an American radio station! Transmission is encrypted, but it is clear that they were yelling for help. We could hear as you drove them there. We don't have time at all!"}
+	{"75" "Commander Mishin, the rest three launchers were destroyed from the air. But it should have an inflatable decoy as spare part, it will help to trick F-35! Deploy the dummy inside the city and let yankees to bomb it. After that, we will be able to leave the city without fighters pursuing us."}
+	{"76" "Good, let's do it. Repair SCUD, mask it in relatively safe location and deploy the dummy. After bombardment - get the SCUD and the truck to the south-west. Let's move!"}
+	{"77" "Good, we can use it for repairs."}
+	{"78" "Everything is ready, we can go."}
+	{"79" "The enemy knows our last coordinates, \"Ligtnings\" will carefully inspect the area. It is not wise to mask a real SCUD near this place, but it is good point for the dummy."}
+	{"80" ""}
+	{"81" "I think that the dummy shouldn't be placed much further"}
+	{"82" "It,s too far, the dummy should be closer to the place where we've stopped SCUD."}
+	{"83" "Good, close enough, time to install the dummy."}
+	{"84" "Well then, let them bomb it."}
+	{"85" "Yes, they got it! It will distract them for some time. Now we need to bring the SCUD and a truck with a warhead in the south-western outskirts."}
+	{"86" "A real rocket launcher can not be shown to Americans, or they will call \"Lightnings\" again. And in any case, we can not allow the enemy to see SCUD leaving to the the south-west!"}
+	{"87" "Yes, the area around the evacuation point should be secure. Our cars have to evaq unnoticed, otherwise they will have no chance to escape from detection from the air in the middle of the desert. For the Yankees SCUD should disappear without a trace in the city."}
+	{"88" "They probably think to rebel - and in fact after our ride Yankees and rebels will not talk, rebels saw american jeep attacking them."}
+	{"89" "Commander, I would not leave the launcher in the city. We stirred up a hornet's nest, it is best to take SCUD to our camp and wait a bit. Yet camouflage net is not a panacea, and it is better to be away from the city while F-35 is working."}
+	{"90" "It seems not work. Well, I have to drive the car through the city while \"Lightnings\" are changing. Otherwise, they will not leave us a chance."}
+	{"91" "Here they are! HQ, this is Foxtrot five, we've spotted SCUD heading to the south-west."}
+	{"92" "Looks like it worked! Now, the Yankees think that the SCUD was captured by rebels, and will look for it in Aleppo or northwest. Full speed ahead - to the Saraqib!"}
+	{"93" "Enemy in sight! It seems that the Jews decided to find out the fate of theirs patrol."}
+	{"94" "Commander, they are driving away with a warhead!"}
+	{"95" "We need to recapture it immediately, our mission is pointless without warhead. Shoot very carefully!"}
+	{"96" "The launcher is relatively safe here, but it is necessary to use the camouflage net."}
+	{"97" "So, we didn't brought the launcher to our hideout... Well, the city is full of other shelters, but the Americans know it too."}
+	{"date" "September 25, 2016, 10:00"}
+	{"name" "Hidden treasure"}
+	{"name_big" "Hidden treasure"}
+	{"outro_completed" "Mishin and his men were able to secretly deliver the warhead and the SCUD to Saraqib. The next night, SCUD launcher, fitted with tactical nuclear warhead, under heavy guard came out to the launch position in the desert..."}
+	{"outro_failed" "The operation was a failure, and a retaliatory nuclear strike was performed later. NATO continued to use nuclear mines, which led to significant civilian casualties in Belarus, Ukraine and western regions of Russia."}
+	{"place" "South-eastern outskirts of Aleppo, Syria"}
+	{"reinf_leave_car" "Leave the car"}
+	{"scud_escaped" "Specnaz have not been able to fight off the rocket launcher from\"Delta\" squad. The last survivor was able to deduce the SCUD to Israeli troops. The warhead was submerged in the lake to the east of Aleppo, and the remains of the  special group managed to return home through the Iranian front."}
+	{"spec_mgun545_h" "AK assault rifle with drum, 3 grenades"}
+	{"spec_mgun762" "Machine-gunner"}
+	{"spec_mgun762_h" "\"PKM\" machinegun, 3 grenades"}
+	{"spec_rpg" "AT infantry"}
+	{"spec_rpg_h" "RPG-30, submachinegun"}
+	{"spec_rpghelp" "AT infantry assistant"}
+	{"spec_rpghelp_h" "Assault rifle"}
+	{"spec_smg" "Rifleman"}
+	{"spec_smg_groza_h" "AKM assault rifle, 3 grenades"}
+	{"spec_smgpod" "Rifleman"}
+	{"spec_smgpod_h" "AKM assault rifle, 3 grenades"}
+	{"spec_smgrpg" "RPG-7 with 1 HEAT and 4 HE grenades, hand AT grenades, submachinegun"}
+	{"spec_sniper" "Sniper"}
+	{"spec_sniper_h" "SVD sniper rifle, 2 grenades"}
+	{"task_2phase_losses" "An attempt to quickly grab a rocket launcher has failed. Mishin lost three team members and exhausted all possibilities to complete the mission. The warhead was submerged in the lake to the east of Aleppo, and the remains of the  special group managed to return home through the Iranian front."}
+	{"task_2phase_survive" "Do not suffer heavy losses while searching the SCUD"}
+	{"task_ambush" "Ambush Israeli patrol vehicle"}
+	{"task_capture_scud" "Destroy Delta squad and capture SCUD."}
+	{"task_com_dead" "The group commander Lieutenant Alexei Mishin was killed."}
+	{"task_com_survive_nuke_survive" "Squad commander Alexei Mishin must survive, the car with the cargo and SCUD must be moveable"}
+	{"task_evaq" "Deliver SCUD and a truck with a warhead on the south-western outskirts"}
+	{"task_evaq_fail" "Oh, no..."}
+	{"task_evaq_fail1" "Commander, they figured out where we're going. We should not have to unmask our route, they know that we come out of the city."}
+	{"task_evaq_fail2" "Mishin made a desperate attempt to reach Saraqib through the desert with one throw. Unfortunately, the column was detected on the outskirts of Aleppo, and several F-35B took off from the field aerodrome near Latakia. Specnaz was not able to camouflage on flat desert, the column was detected and completely destroyed."}
+	{"task_examine_scud" "Examine SCUD."}
+	{"task_find_rep_kit" "Find repair kit"}
+	{"task_find_scud" "Find SCUD-B launcher hidden in the city."}
+	{"task_hide_scud" "Take SCUD to the base camp and wait there while airstrike ends."}
+	{"task_inform_dead" "Informant Abbas Khurshid, who was supposed to establish a connection between Mishin group with the Syrian army, was killed. Mishin was unable to find a Syrian missile operators. While trying to contact with Syrian army by themselves, the group was detected and destroyed from air."}
+	{"task_meet_informator" "Meet the informant"}
+	{"task_no_rep_kits_left" "Mishin was unable to repair the rocket launcher and had to undermine it. The warhead was submerged in the lake to the east of Aleppo, and the remains of the  special group managed to return home through the Iranian front."}
+	{"task_nuke_captured" "By focusing on the search for the rocket launcher, the commander of the group Mishin did not pay sufficient attention to ensuring the secrecy and security of his valuable cargo. A small mobile group of Israeli troops, while investigating circumstances of flight Abbas Khurshid and the death of their patrol, discovered a special forces camp and fought off the car with a warhead. "}
+	{"task_nuke_exploded" "It is not known what happened to a group of the GRU special forces under the command of Mishin, but seismic stations around the world recorded a nuclear explosion on the ground, far from the shore. The warhead did not get into the hands of the Syrian army."}
+	{"task_repair_scud" "Repair and crew SCUD"}
+	{"task_save_informator" "Remove the informant out of the hands of the Israeli patrol and return with him to the base camp."}
+	{"task_scud_destroyed" "The specnaz team found a rocket launcher, but it received serious damage and could not move. The warhead was submerged in the lake to the east of Aleppo, and the remains of the  special group managed to return home through the Iranian front."}
+	{"task_set_dummy" "Deploy SCUD dummy, camouflage the real SCUD and wait for airstrike end."}
+	{"task_win" "From Doronin's diary: \"25 september 2016. We've passed place of nuclear mine explosion near Kursk. The huge crater is half filled with water, the land around the loosened and turned into an impassable mess. Place is filled by half-stuck tanks, APC, trucks. There were survivors among the crew, but vehicles are not recoverable, and radioactive. We do not take off protection suits, Geiger counter crackles, the water can not be drunk in the vicinity. In general, from a military point of view, an unpleasant thing, but I've had worse. But trees do not grow here even for a hundred years.\""}
+	{"timer_fighters" "F-35 incoming at:"}
+}

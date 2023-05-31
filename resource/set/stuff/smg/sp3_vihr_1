@@ -1,0 +1,8 @@
+;Cold War
+{from "SP3_vihr"
+	{entity "SP3_vihr_1"}
+	{tag "sd"}                        
+	("smg_range_custom" k(0.8))
+	
+	{fireSound	"chn/val_burst/"}
+}

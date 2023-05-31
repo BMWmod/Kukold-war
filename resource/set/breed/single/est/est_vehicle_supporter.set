@@ -1,0 +1,20 @@
+{breed
+	{skin "cw_est_tac"}
+	{portrait "_new/balt/est"}
+	{icon pol_smg}
+	{icon_priority 0}
+	{nationality est}
+	{armors
+		{head cvc_helmet}
+	}
+	(include "perks_generic.inc")
+	("traits_tankman")
+	{inventory
+		{item "est_vest"}
+		{item "shgr56" 4}
+		{item "bandage" 10}
+		{item "galil_ar_556" filling "556nato ammo" 30}
+		{item "556nato ammo" 240}
+		{in_hands 3}
+	}
+}

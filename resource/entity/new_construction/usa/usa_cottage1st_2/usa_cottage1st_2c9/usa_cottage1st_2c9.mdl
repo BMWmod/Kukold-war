@@ -1,0 +1,191 @@
+;Exported by: Timosh
+;Date:        Fri Jun 24 12:13:09 2022
+;File:        G:\?????? ? Pheonix\??????????????\??????\?????? ? ???????\???\usa_cottage_1st_2 final 1.max
+{Skeleton
+	{bone "usa_cottage1st_2c9"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "usa_cottage1st_2c9.ply"}
+		{bone "exterior"
+			{Position 33.3562	5.77543	76.7965}
+			{VolumeView "exterior.ply"}
+			{bone "window1"
+				{Position 15.1452	-4.43791	-7.09695}
+				{VolumeView "window1.ply"}
+			}
+			{bone "window1_x"
+				{Position 15.1452	-4.43791	-7.09695}
+				{VolumeView "window1_x.ply"}
+			}
+		}
+		{bone "fix3"
+			{Position 46.6713	-24.9736	46.639}
+		}
+		{bone "fix4"
+			{Position 46.6713	29.1049	46.639}
+		}
+	}
+}
+{Obstacle "body1"
+	{Obb2
+		{Center 8.98743 16.8905}
+		{Extent 2.6569 9.49688}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body" "fire"}
+}
+{Obstacle "body2"
+	{Obb2
+		{Center 8.98743 -19.6707}
+		{Extent 2.6569 9.49688}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body" "fire"}
+}
+{Obstacle "body4"
+	{Obb2
+		{Center 20.8299 -14.2403}
+		{Extent 1.09414 9.0868}
+		{Axis 0.50046 0.86576}
+	}
+	{Rotate}
+	{Tags  "body" "fire"}
+}
+{Area "interior"
+	{Obb2
+		{Center 27.6216 -6.35834}
+		{Extent 44.7587 27.9666}
+		{Axis -1 0}
+	}
+	{Rotate}
+}
+{Volume "body1"
+	{Box 5.31379 18.9938 44.1588}
+	{Bone "usa_cottage1st_2c9"}
+	{Matrix34
+		1	0	0
+		0	1	0
+		0	0	1.1741
+		8.98743	-16.8905	25.9234
+	}
+}
+{Volume "body2"
+	{Box 5.31379 18.9938 44.1588}
+	{Bone "usa_cottage1st_2c9"}
+	{Matrix34
+		1	0	0
+		0	1	0
+		0	0	1.1741
+		8.98743	19.6707	25.9234
+	}
+}
+{Volume "body3"
+	{Box 5.31379 18.9938 11.0397}
+	{Bone "usa_cottage1st_2c9"}
+	{Matrix34
+		1	0	0
+		0	1	0
+		0	0	1.1741
+		8.98743	0.840837	45.1788
+	}
+}
+{Volume "body4"
+	{Box 2.17865 18.1725 30.028}
+	{Bone "usa_cottage1st_2c9"}
+	{Matrix34
+		-0.500001	0.866026	0
+		-0.866024	-0.500001	0
+		0	0	1.1741
+		20.8299	14.2403	17.6279
+	}
+}
+{Volume "hole1"
+	{Box 13.7795 16.1041 16.0321}
+	{Bone "window1"}
+	{Position 0	0	0.000224113}
+}
+{Volume "roof1"
+	{Box 72.5087 33.0395 6.59106}
+	{Bone "exterior"}
+	{Matrix34
+		1	0	0
+		0	0.842602	0.538536
+		0	-0.632295	0.9893
+		5.53484	-17.7383	14.1716
+	}
+}
+{Volume "roof2"
+	{Box 63.0825 31.718 6.59106}
+	{Bone "exterior"}
+	{Matrix34
+		1	0	0
+		0	0.836719	-0.547632
+		0	0.642974	0.982393
+		10.2002	7.53209	14.2739
+	}
+}
+{Volume "roof3"
+	{Box 22.0789 21.8854 6.59106}
+	{Bone "exterior"}
+	{Matrix34
+		0.675153	-0.617229	0.403976
+		0.737678	0.564913	-0.369735
+		0	0.642975	0.982393
+		9.42306	21.9668	4.82641
+	}
+}
+{Volume "roof4"
+	{Box 35.9886 12.0238 6.59106}
+	{Bone "exterior"}
+	{Matrix34
+		0.675153	-0.617229	0.403976
+		0.737678	0.564913	-0.369735
+		0	0.642975	0.982393
+		-25.8455	25.6906	2.91036
+	}
+}
+{Volume "roof5"
+	{Box 32.4624 32.8989 6.59106}
+	{Bone "exterior"}
+	{Matrix34
+		1	0	0
+		0	0.854141	-0.520041
+		0	0.610581	1.00285
+		26.0099	35.055	-2.34252
+	}
+}
+{Volume "roof6"
+	{Box 45.772 29.5695 6.59106}
+	{Bone "exterior"}
+	{Matrix34
+		1	0	0
+		0	0.854141	-0.520041
+		0	0.610581	1.00285
+		19.1061	60.409	-17.7792
+	}
+}
+{Volume "roof7"
+	{Box 35.9754 66.3331 6.59106}
+	{Bone "exterior"}
+	{Matrix34
+		1	0	0
+		0	1	0
+		0	0	1.1741
+		-0.2715	-4.53505	-20.6289
+	}
+}
+{Volume "roof8"
+	{Polyhedron "roof8.vol"}
+	{Bone "exterior"}
+	{Position 14.864	1.59547	-19.714}
+}
+{Volume "window1"
+	{Box 1.73789 16.1041 16.0321}
+	{Bone "window1"}
+	{Position 0	0	0.000224113}
+}

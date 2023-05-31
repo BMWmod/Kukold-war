@@ -1,0 +1,66 @@
+;Exported by: Timosh
+;Date:        Thu Oct 20 08:31:44 2022
+;File:        G:\?????? ? Pheonix\??????????????\??????\????????\????????\?????\PL12\PL12.max
+{Skeleton
+	{bone "pl12"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "pl12.ply"}
+		{bone "tail"
+			{parameters "Voxels=0;"}
+			{Matrix34
+				-1	0	0
+				0	-1.00713e-05	-1
+				0	-1	0
+				-38.4107	0	0
+			}
+		}
+	}
+}
+{Volume "body"
+	{Box 14.1154 0.94252 0.932283}
+	{Bone "pl12"}
+	{Matrix34
+		5.44483	0	0
+		0	5.44483	6.01908e-05
+		0	-6.01908e-05	5.44483
+		-0.23326	0.174033	-0.0148504
+	}
+}
+{Volume "select"
+	{Box 17.2207 1.17815 1.184}
+	{Bone "pl12"}
+	{Matrix34
+		5.44483	0	0
+		0	5.44483	6.01908e-05
+		0	-6.01908e-05	5.44483
+		-0.23326	0.174025	-0.219009
+	}
+}
+{Extender "preview"
+	{"Stuff"
+		{camera
+			{origin -5.06634	3.8442	-145.961}
+			{lookat -1.04033	-1.95676	-25.8309}
+			{fov 31.7555}
+			{horizon 34.638}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 20.9847	-66.3195	-36.2627}
+			}
+			{"1"
+				{type directional}
+				{direction -0.0793779	0.317997	0.377593}
+			}
+			{"2"
+				{type point}
+				{position -33.8742	-48.7362	-31.2617}
+			}
+		}
+	}
+}

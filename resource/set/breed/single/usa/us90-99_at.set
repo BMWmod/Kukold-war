@@ -1,0 +1,22 @@
+{breed
+	{skin "cw_us2003_ucp"}
+	{portrait "_new/usa/inf"}
+	{icon "us_army_javelin"}
+	{icon_priority 4}
+	{nationality usa}
+	{armors
+		{head pasgt_helmet_ucp}
+	}
+
+	(include "perks_generic.inc")
+	("traits_army_bazooker")
+	{inventory
+		{item "otv_gp"}
+		{item "m47dragon_m2plus weapon" filling "m47dragon_rock ammo" 1}
+		{item "m47dragon_rock ammo" 1}
+		{item "bandage" 5}
+		{item "colt1911a1" filling "standart ammo" 10}
+                {item "standart ammo" 50}
+		{in_hands 1}
+	}
+}

@@ -1,0 +1,26 @@
+{from "pattern smg"
+	{tag "reliability_medium"}
+	{filling "ammo 762x51_x20" 20} ;7,62
+	{curve "762x51nato_85"}
+	{mass 3.9} 
+	{entity "mk17_acog_black"}
+	{fireSound	"smg/scar"}
+	{reloadSound "M16_reload"}
+	{speed 280}
+	{recoveryTime 0.09} ;600-650
+        {rechargeTime 2.5}
+	{cursor "mk17"}
+	{cursorReloading "cannon_reload_all"}
+
+	("smg_range_optic")
+	
+
+	{burst
+		{short 2 1}
+		{long 6 2}
+{rangeKoef 0.444}
+	}
+	{healthDamage 92}
+	("accuracy_optic_sight"  moa(2))
+	("accuracy_optic_sight_77"  moa(2))
+}

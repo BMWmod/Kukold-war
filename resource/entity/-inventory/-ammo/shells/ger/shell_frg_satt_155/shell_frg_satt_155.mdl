@@ -1,0 +1,61 @@
+;Exported by: Kasutaja
+;Date:        Tue Aug 30 18:16:21 2022
+;File:        C:\Users\Kasutaja\Desktop\Vulcano 155mm PZH 2000\vulcano.max
+{Skeleton
+	{bone "body"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "body.ply"}
+		{bone "tail"
+			{parameters "Voxels=0;"}
+			{Position -9.97291	-0.0807427	0.0911365}
+		}
+	}
+}
+{Volume "body"
+	{Polyhedron "body.vol"}
+	{Bone "body"}
+	{Matrix34
+		1	0	0
+		0	0	1
+		0	-1	0
+		-1.08276	1.59174	0.000331125
+	}
+}
+{Volume "select"
+	{Box 18.609 3.15345 3.71177}
+	{Bone "body"}
+	{Matrix34
+		1	0	0
+		0	0	1
+		0	-1	0
+		-0.194243	-0.036945	0.000330405
+	}
+}
+{Extender "preview"
+	{"Stuff"
+		{camera
+			{origin 0.307264	-41.1232	0.646232}
+			{lookat -0.664459	8.59555	-0.10803}
+			{fov 31.7555}
+			{horizon -179.926}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 2.46402	6.59702	12.8749}
+			}
+			{"1"
+				{type directional}
+				{direction -0.0725258	0.378972	-0.317994}
+			}
+			{"2"
+				{type point}
+				{position -7.59313	7.69791	9.64563}
+			}
+		}
+	}
+}

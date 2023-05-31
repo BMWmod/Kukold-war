@@ -1,0 +1,21 @@
+{from "pattern fg"
+	{tag "big" "size4" "122to128fg" "bullet120_RUS" "bullet120_NATO_mine" "bullet120_USA_mine" "fx_111_145"}
+	{tag "fg_120_shell"} ; только для ammo.set
+	{mass 16.8}
+	{inventory
+		{size 4 1}
+		{weight 70}
+	}	
+	{entity "shell_120mm_F-843"}
+	{view "shell_120mm_F-843"
+		{tail "tail"}
+	}
+	;3ОФ34 3.43 кг ВВ  , масса мины 16.8 кг.
+	{tag "he_2to4_5"}
+{damage blastwave {energy 0.7} {area 9.8 11.3}}
+{damage add blastwave {energy 1.2} {area 8.2 9.5}}
+{damage add blastwave {energy 2.5} {area 4.7 5.4}}
+{damage add blastwave {energy 6.5} {area 1.9 2.2}}
+{damage add blastwave {energy 11} {area 0.2 0.25}}	;+0.1
+}
+;http://www.fa.ru/org/chair/voen/Documents/EduMaterials/120mm_minomet_ShotTables.pdf

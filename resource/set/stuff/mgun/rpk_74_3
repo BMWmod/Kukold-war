@@ -1,0 +1,23 @@
+;Cold War
+{from "pattern mgun"
+	{tag "reliability_high link_lmg"}
+	{filling "ammo RPK_ammo" 45}
+	{curve "545_70"}
+	{entity "rpk_3"}
+	{mass 4.7}
+	{fireSound	"mgun/rpk/"}
+	{reloadSound "chn/RPK_Reload"}
+	{inventory
+		{size 4 2 }
+	}
+	("mg_range_optic_custom" k(0.8))
+	{recoveryTime 0.09}
+	;{cursor "optic_1p29"}
+	;{cursorReloading "optic_1p29_reload"}
+	{rechargeTime 4}
+	{speed 290}
+	{healthDamage     63}
+	("accuracy_optic_sight"  moa(3.2))
+	("accuracy_optic_sight_77"  moa(3.2))
+}
+;7Í6 - 3.4דנ/960לס - 1567הז. = 63

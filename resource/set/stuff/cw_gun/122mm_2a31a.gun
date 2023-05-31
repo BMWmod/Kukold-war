@@ -1,0 +1,36 @@
+;Created by Pheonix 
+{from "pattern tank_gun"    ; "�30�"
+   	
+	{filling "d30ammo"}
+	{fireSound "gun/d30_shot"}
+	{reloadSound "tankgun_r04"}
+	{rechargeTime 8}
+	{range 210 210}
+;	{gravity 9.5}
+;	("speed" s(800)) 
+	{gravity 2.8}
+	("speed_artillery") 
+	("100-128caliber")
+	{calibre 5}	;��� ��, ������ ��
+	; a - 20, b - 50, c - 80, d -100, e - 120 
+	("damage4" a(1) b(1) c(1) d(1) e(1))
+	("CW_acc_artillery" mils(2.03))
+	{cursor "cannon_on_fg_4"}
+	{cursorReloading "cannon_reload_fg"}
+	{parameters "bullet122_Rus rok"	;c ��������� ������� 
+		{range 220 220}	
+	}
+    {parameters "bullet122_Rus fg"	;c ������ ������� 
+		{range 210 210}	
+	}
+    {parameters "bullet122_Rus sm"	;� ������ ������� 
+		{range 220 220}	
+		{cursor "cannon_on_dm_0"}
+		{cursorReloading "cannon_reload_sm"}
+	}            
+    {parameters "bullet122_Rus cm"	;1500� ��� ��-13. 
+		{range 85 85}	
+		{cursor "cannon_on_heat"}
+		{cursorReloading "cannon_reload_heat"}
+	}            
+}

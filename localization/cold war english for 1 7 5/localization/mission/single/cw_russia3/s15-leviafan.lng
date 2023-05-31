@@ -1,0 +1,110 @@
+{tags
+	{"00" "09:10, 350 km north of the transport convoy."}
+	{"01" "Almaz, I'm Zenit-7, arrived to the square number two. Starting search routine."}
+	{"02" "I'm spotted, enemy search radar is active."}
+	{"03" "Seventh, look for Hawkeye as you look for bread. It is necessary to knock out their AWACS, without it we will have at least comparable chances."}
+	{"04" "Yes! Almaz, I see Hawkeye, transmitting the coordinates!"}
+	{"05" "It seems to me that in the northern part of the square, the chances of finding a target are higher. CSG is moving from the north."}
+	{"06" "Good, got him. Resuming patrol."}
+	{"07" "Looks like Hawkeye is evaded us. Bad, he'll be back."}
+	{"08" "Air group, get ready. Together with the Indian MiGs from Vikrant, we now have 26 planes. Vikramaditya will cover both us and the convoy, while we protect fleet strike group."}
+	{"09" "Every \"Nimitz\" carries twice more, and we have three against us. Therefore, work carefully, interact with the ship's air defense, exhaust Lightnings. Remember, they will be running low on fuel, they cannot fight for a long time."}
+	{"10" "Good luck to all. Mount up!"}
+	{"11" "Damn I'm hit, ejecting!"}
+	{"12" "Attention to convoy, we have perimeter breakthrough, enemy anti-ship missiles incoming!"}
+	{"13" "The transport convoy is covered by missile destroyers from Russia, China, and India. They will be able to shoot down a certain number of missiles launched from planes that have broken through, but their ammunition load is limited and replenishes very slowly on the move."}
+	{"14" "Try not to miss enemy planes in large groups, four F-35s are more dangerous than two separate pairs, as they launch missiles in a salvo."}
+	{"15" "Defend a transport convoy by intercepting enemy planes with ASM. Prevent the sinking of more than 50 transports. (50CP, -1CP per sunk)"}
+	{"16" "Bistriy, Ushakov, this si fleet HQ. Report the situation."}
+	{"17" "This is Bistriy, Comrade Vice Admiral! Multiple contacts with enemy fighters, expecting a missile strike. The air defense is ready."}
+	{"18" "Follow a group of orders \"Green-4\". Additionally, try to thin out the attacking enemy groups. Anti-sub ships will support you. "}
+	{"19" "Ok, green folder, paragraph 4. \"Enemy CSG will not allow the combined strike group to approach the launch distance of heavy anti-ship missiles. Therefore, the main strike will be dealt by 949A nuclear submarines.\""}
+	{"20" "\"Cover group of...\" well, there isUstinov, me with Rusakov, four anti-sub ships and two Paltus subs, \"it is necessary to escort submarine cruisers to launch zone\""}
+	{"21" "Yes, everything is like at the meeting in Cadiz."}
+	{"22" "Alexander Sergeevich, my thrust is not at maximum, but I'm ready to work."}
+	{"23" "Anti-sub group - \"Blue-5\" for you. Attention to sonars, \"Loses\" can be right here already."}
+	{"24" "\"Blue-5\": \"The anti-sub group is instructed to accompany the submarine cruisers to the launch area. The cruisers will go on mediom speed, see Appendix 3 for the schedule.\""}
+	{"25" "We must not allow not only sinking, but also spotting of submariners. If Yankees identify submarines as \"Antey\"-class, CSG will immediately break contact and escape."}
+	{"26" "There are no \"Orions\" in the area, F-35 can't spot submarines, but enemy submarines and destroyers are extremely dangerous. It is necessary to keep them away from \"Anteys\"."}
+	{"27" "HQ, there are too many of them! We can't stop them by aviation only, the help of the fleet is needed!"}
+	{"28" "Watch your fuel! Whoever is running low, or the missiles are out - we are waiting for landing."}
+	{"29" "\"Ushakov\", \"Bistriy\", maneuver with caution. Do not stay under a direct hit from passing air group, the AK-630 alone will not be able to fight back."}
+	{"30" "To \"Kuznetsov\" wing: guys, don't forget about our ships. Their air defense systems will protect you from attacking enemy fighters - lure them under fire of \"Uragan\" SAMs, and then finish off the defenseless missile carriers."}
+	{"31" "11:00. The group of destroyers and anti-sub ships is heading north."}
+	{"32" "12:00. Anti-sub group and \"Admiral Ustinov\" cruiser accompanies missile submarines."}
+	{"33" "13:52. SSN \"Tver\", \"Orel\" and \"Smplensk\", covertly approached the launch zone, open fire on the US Northern Task Force, SSN \"Omsk\", \"Tomsk\" and \"Chelyabinsk\" - on South Task Force."}
+	{"34" "16:15. Strike cruiser group, having stopped circulation, is approaching the remnants of the enemy's northern CSG."}
+	{"35" "Found something! It looks like Los, transferring the bearing!"}
+	{"36" "Anti-sub ships -  attack the enemy's submarine forces!"}
+	{"37" "Submarines are immune to missiles and projectiles. Use torpedoes or rocket torpedoes loaded into torpedo tubes to destroy them."}
+	{"38" "Anti-sub ship 1155 is also armed with eight \"Rastrub\" missile torpedoes in two quad launchers under the bridge."}
+	{"39" "Cruisers and Anti-sub ships are equipped with a powerful sonar station capable of detecting moving enemy submarines at a considerable distance. "}
+	{"40" "But the enemy's detection means are no worse, so keep your ships near the guarded cruisers. Their noises will make it difficult to detect your submarine cruisers."}
+	{"41" "All planes in the air - we have an emergency, a cable break during landing. Landing is allowed only with low fuel level, takeoff canceled for half an hour."}
+	{"42" "All aircraft in the air: takeoff and landing operations resumed."}
+	{"43" "This is Varfolomeev! 11th division is ready for launch, cruisers of both northern and southern groups are in positions! I'm waiting for the order."}
+	{"44" "Do it, Valeriy Vladimirovich, rub them into dust. The time has come."}
+	{"45" "Attention to all cruisers of the 11th division! I order to fire a full salvo at the coordinates of the package \"Red-8\"."}
+	{"46" "\"Admiral Makarov\" hit by two missiles in the forecastle and superstructure, a strong roll to the left side. \"Fotius Krylov\" - take on board a crew for transfer to the convoy transports."}
+	{"47" "Second hit in \"Changchun\", the helicopter hangar is on fire, leaks in the stern, the left propeller shaft is damaged."}
+	{"48" "\"Teg\" burns, the crew reports damage to the main power plant. \"Chicker\", move to the tail of the convoy, be prepared to help the Indians if they decide to take off the crew."}
+	{"49" "\"Talvar\" is hit, a hole at the level of the waterline, the bow is flooded."}
+	{"50" "\"Soobrazitelniy\" got hit in the helipad, the ship is not controlled, but it can move with one propeller. \"Chicker\", quickly hook it, you will guide."}
+	{"51" "\"Liaoning\" hit by two missiles above the waterline, medium fire in the hangar. The deck is intact. We will miss a few more such attacks - and the defense of the convoy will not withstand."}
+	{"52" "\"Changchun\" got a hole, the bow VLA is disabled, but the ship remains intact."}
+	{"53" "Torpedo detonation on \"Boikiy\", in the right torpedo tube. The ship is almost destroyed. \"Nikolay Chicker\", rescue the crew and transfer the survivors to the convoy transports."}
+	{"54" "\"Admiral Grigorovich\" covered by himself a transport with 10'th tank division personnel. The commander and most of the command staff were killed, the superstructure was completely destroyed, but the guarded transport was not damaged."}
+	{"55" "A strong fire on \"Haikou \" in the area of the artillery cellar as a result of a missile hit."}
+	{"56" "The fire on the \"Haikou \" could not be extinguished, the ammunition of the gun turret detonated, significant damage to the bow. The ship shows no more than 5 knots."}
+	{"57" "\"Tabar\" got a hole in the waterline, a strong fire in the fuel tank."}
+	{"58" "\"Gromkiy\" received two hits in the bow, speed reduced to 15 knots, \"Shtil\" SAM is completely destroyed, the gun turret left the support ring."}
+	{"59" "Three hits in \"Xi'an \", the ship broke apart, sailors remained in the sunken stern. The crew is evacuated by helicopters from \"Vikramaditya\"."}
+	{"60" "Attention to the fleet! A volley has been fired, we are waiting for a picture from the satellite."}
+	{"61" "Pilots report a glow on the horizon, airborne FLIRs periodically lock some heat in the direction of the CSG."}
+	{"62" "Alexander Alekseevich, there is a picture from the satellite, transmitting."}
+	{"63" "So ... Yes, judging by the satellite picture, there are two large fires in the center of the order. Ignitions are visible on the escort ships, and their number has clearly diminished."}
+	{"64" "Remnants of the 43rd Brigade, supported by cruisers \"Moscow\" и \"Varyag\", I order to complete the destruction of the enemy aircraft carrier formation.. "}
+	{"65" "Now all enemy forces are concentrated in one place, but they are deprived of the opportunity to effectively attack surface ships - if at least one aircraft carrier remained afloat, it clearly cannot raise aircraft."}
+	{"66" "That's enough of them. All ships - stop pursuing the enemy and return to the transport convoy. Enough with them, and we need a respite too. \"Kuznetsov\" - resume air patrol. Anti-submarine helicopters from warships and rescue ships - recover crew from sunken ships in the prescribed manner."}
+	{"67" "You can send the plane to rearm by pressing the \"ZPU Mode \" button on the right panel, or by ordering it to fly to the return zone marked on the map."}
+	{"68" "Jumping!"}
+	{"69" "Ejecting!"}
+	{"70" "I'm hit!"}
+	{"71" "A-a-a!"}
+	{"72" "If the ocean doesn't appear around the edges of the screen, change any graphics setting or move the FOV slider. The water will return to normal."}
+	{"73" "What tactics should we choose? With a ratio of one to six, chances are slim."}
+	{"74" "Rely to \"Vitebsk\". This electronic warfare complex is capable of pre-detonating missiles approaching from the nose or tail. The technicians installed it on all planes."}
+	{"75" "Both destroyers sunk, the way for the submarines is clear!"}
+	{"76" "The cruiser carries heavy anti-ship weapons, long-range S-300F air defense systems, torpedo tubes, but will not withstand a massive missile attack."}
+	{"949_killed" "Two of the three nuclear submarines 949A were destroyed. Mission failed."}
+	{"fleet" "Preserve fleet forces (up to 48 CP 4 UP)"}
+	{"obj_progress" "Transport ships sunk: %1%"}
+	{"range600" "The submarines should already be 550 km from the aircraft carriers. Hold on! A volley can follow at any second!"}
+	{"range650" "580 km .... It's about thirty to the launch point, approximately an hour."}
+	{"range700" "949A in 600 km from the target. They still have a couple of hours to go. All ships - remain vigilant!"}
+	{"range750" "630 km to the target. We are waiting, looking for enemy submarines."}
+	{"range800" "Submarine cruisers are in 650 km from the enemy's CSG. "}
+	{"reinf_aa" "MiG-29K air-to-air"}
+	{"reinf_antiship" "MiG-29K antiship"}
+	{"task7_failed" "CVN-73 \"George Washington\" has restored moveability and managed to break away from the pursuit of Russian surface ships."}
+	{"task7_failed1" "CVN-68 \"Nimitz\" has restored moveability and managed to break away from the pursuit of Russian surface ships."}
+	{"task7_failed2" "CVN-69 \"Dwight D. Eisenhower\" has restored moveability and managed to break away from the pursuit of Russian surface ships."}
+	{"task_convoy_failed" "The transport convoy suffered serious losses; an attempt to disembark with the remaining forces is pointless."}
+	{"task_main" "Destroy US aircraft carrier strike group (100CP, 4UP)"}
+	{"task_return" "Return a plane to the aircraft carrier \"Kuznetsov \" to replenish ammunition and fuel"}
+	{"task_t1" "Search and destroy enemy AWACS aircraft (2CP)"}
+	{"task_t3" "Wait until the group of nuclear submarines 949A \"Antey\" arrives in the combat area"}
+	{"task_t3ships" "Destroy two enemy destroyers blocking the path of a submarine group."}
+	{"task_t4" "Prevent the detection of three nuclear submarines 949A \"Antey \", escort them to the launch zone."}
+	{"task_t4_failed" "The trap was not slammed: one of the attack submarines was discovered prematurely. The command of the northern US CSG immediately gave the order to the naval group to withdraw. The southern CSG, which attacked the Chinese fleet, did the same. The convoy and most of the transports would have reached Cuba, but in the face of US superiority at sea, the landing operation had no chance of success and the allied command decided to terminate it."}
+	{"task_t7" "Complete the defeat of the AUS: destroy the last aircraft carrier and most of the destroyers before the aircraft carrier will be able to move"}
+	{"timer" "The aircraft carrier will resume moveability in: "}
+	{"timer_air" "Until the next group of F-35: "}
+	{"win" "Mission complete"}
+	{"date" "21 August 2019, 09:00"}
+	{"name" "Leviathan"}
+	{"name_big" "Leviathan"}
+	{"outro_completed" "Despite the heavy losses of the Allied fleet, both main tasks were completed. The transport convoy passed into the Caribbean Sea, and it was no longer possible to prevent the landing. Almost the entire US aircraft carrier fleet was sunk in the battle, which made it possible to supply the landing force by sea. Lieutenant Colonel Doronin and other soldiers of the 448th brigade safely crossed the ocean. Mission accomplished."}
+	{"outro_failed" "Termination of the landing operation meant a long stalemate for the Allies and again made the outcome of the war ambiguous. Mission failed."}
+	{"place" "300 km east-northeast of a transport convoy, Atlantic Ocean."}
+}

@@ -1,0 +1,35 @@
+;Cold War
+{from "pattern sniper_rifle"
+("scope")
+
+	{tag "sniper reliability_low"}	;http://ohrana.ru/weapon/sniper_rifles/2545/
+	{filling "ammo 762Nato" 10}
+	{curve "762x51nato_100"}
+	{preloaded}
+	{inventory
+		{size 5 2}
+	}
+	{mass 5.4}	;http://www.snipercentral.com/cz-750-s1m1/
+	{entity "cz750"}
+	{special
+		{mode aim}
+		{PrepareTime 10.0}
+		{PrepareCursor "aimed_shot"}
+		;{damage 3} ; damage *= x
+		{accuracy 1.2} ; aim_range *= x
+		;{throw_off}
+	}
+	("bolt_range")
+	{speed 290}	
+	{fireSound "rifle/cz750_1"}
+	{reloadSound "chn/CZ750_reload"}
+	{healthDamage 93}
+	{reloadSound "enfield"}
+	{recoveryTime 1.8}
+	;{cursor "optic_mildots"}
+	;{cursorReloading "optic_mildots_reload"}
+	{cursor "sniper"}
+	{cursorReloading "cannon_reload_all"}
+	("accuracy_optic_sight"  moa(0.93))	;http://www.snipercentral.com/cz-750-s1m1/
+	("accuracy_optic_sight_85"  moa(0.93))	;http://www.snipercentral.com/cz-750-s1m1/
+}

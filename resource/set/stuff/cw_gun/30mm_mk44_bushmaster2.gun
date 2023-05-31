@@ -1,0 +1,35 @@
+{from "30mm_Mk30_2 gun"
+	
+	{filling "mk30abm ammo" 10}
+	{fireSound "gun/bushmasterII_shot"}	
+	{reloadSound "flak38"}
+	{RecoveryTime 0.3}	
+	{RechargeTime 0.3}
+
+	("CW_acc_common" mils(0.5))		;NAMMO 30mm_x_173_APFSDS-T_PMC_287.pdf
+	("CW_acc_common_120" mils(0.5))
+	{parameters "apcr"                        ;APFSDS
+		("CW_small_APCR_damage_WC" penetr_1000m(80))	;NAMMO 30mm_x_173_APFSDS-T_PMC_287.pdf *0.75 за длину ствола
+		("CW_acc_common" mils(0.3))		;nammo_ammo-handbook_2016.pdf
+		("CW_acc_common_120" mils(0.3))
+		("speed" s(1205))	;примерно
+		 {cursor "cannon_on_apcr_2"}
+		 {cursorReloading "cannon_reload_apcr"}
+	}  
+	{parameters "fg_abm"                        ;airburst
+		("CW_acc_common" mils(0.5))
+		("CW_acc_common_120" mils(0.5))
+		{spreading
+			{SpreadXYRatio	10}	;взрыв-то по таймеру, поэтому рассеяние по дальности всего порядка 10м.
+								;https://www.youtube.com/watch?v=2FgmXhukQx4
+			{SpreadPower	1.7}
+			{BurstAccuracy 100 85 75}
+		}
+		{cursor "cannon_on_fg_2"}
+		{cursorReloading "cannon_reload_fg"}
+	} 
+	{parameters "fg" 
+    		{cursor "cannon_on_fg_13"}
+		{cursorReloading "cannon_reload_fg"}
+	}  
+}

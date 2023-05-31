@@ -1,0 +1,5 @@
+{material envmap
+	{diffuse "$/model/Su-50/glass"}
+	{emitsheat}
+{blend blend}
+}

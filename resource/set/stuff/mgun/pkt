@@ -1,0 +1,26 @@
+;Cold War
+{from "pattern mgun"
+	{tag "not_for_human link_mmg"}
+	{filling "ammo PKM_ammo" 250}     
+	{curve "762x54rus_100"}
+	{entity "pkt"}
+	{fireSound	"mgun/PKT"}
+	{reloadSound "chn/PKM_reload"}
+	{spreading 1.2}
+	{inventory
+		{size 5 2 }
+		{link_bone "gun_back"}
+		{weight 100}
+	}
+	("mg_range_optic")
+	{mass 10.5}
+	{recoveryTime 0.08};сред.скорострельность 750в/м. http://zid.ru/products/defence/44/detail/170
+	;{cursor "TKN3"}
+	;{cursorReloading "TKN3_reload"}
+	{rechargeTime 4.5}
+	{speed 300}
+	{healthDamage     103}
+	{projectileDamageTable {18 6} {38 5} {57 4} {63 3} {71 1}}
+	("accuracy_optic_sight"  moa(2.25))
+	("accuracy_optic_sight_85"  moa(2.25))
+}

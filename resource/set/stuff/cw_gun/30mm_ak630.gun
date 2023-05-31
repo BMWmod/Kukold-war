@@ -1,0 +1,43 @@
+{from "pattern gun"
+	
+	{filling "bullet30_nav_RUS" 200}
+	{fireSound "gun/schot_2A28x2"}	
+	{reloadSound "flak38"}
+	{RecoveryTime 0.015}	; 6 очередей по 200 с перерывом в 1с, либо 6 по 500 с перерывом в 5с.
+	{RechargeTime 1}
+	{spreading 1
+		;{BurstAccuracy 95 85 80}
+	}
+	{burst
+		{min 20}
+		{short 22 2}
+		{long 25 5}
+	}
+	{SpreadTolerance 0.5}
+	{Automatic}
+	{traceFreq 1}			;трассирующие патроны входят в боекомплект
+	{maxrange 115}			;дальность стрельбы 4 км, но эффективная - всего 500-600м
+	{Aimrange 170}			
+	("speed" s(900))
+	("37-57caliber")
+	{LockFireDistanceTime 0.1}
+	{RelaxationTime 0}
+;	{cursor "zenite_on"}
+;	{cursorReloading "zenite_reload"}
+	{cursor "cannon_on_aa_2"}
+	{cursorReloading "cannon_reload_ap"}
+	{AimingTolerance 2}
+	{SpreadTolerance 0.3}
+	{calibre 30}
+	{healthDamage 605}
+	{projectileDamage 40}
+	("CW_small_AP_damage" penetr_1000m(22))	;условно - в БК только ОФС
+;   ("CW_acc_common" mils(2.5)) ;намного менее эффективны, чем Вулкан или тунгуска-Панцирь
+    ("CW_acc_common" mils(0.5)) ;0.2 от реальной из-за настроек опыта
+	{parameters "fg"
+	("damage4" a(0) b(0) c(4) d(4) e(4))
+		;{cursor "cannon_on_fg_2"}
+		{cursor "cannon_on_fg_13"}
+		{cursorReloading "cannon_reload_fg"}
+	}          
+}

@@ -1,0 +1,75 @@
+{from "pattern bullet"
+	{tag "weapon mgun bullet to_hand"}
+	{tag "skill_mgun"}
+	{filling "ammo mgun" 100}
+	{reloadSound "mg1"}
+	{inventory
+		{size 5 2 }
+		{link_bone "gun_back"}
+		{weight 100}
+	}
+	{entity "mg34"}
+	{mass 12}
+	{Automatic}
+
+	("mg_range")
+
+	("burst_medium")
+	{Spreading
+		{SpreadPower	1.7}
+		{BurstAccuracy 100 95 90 85 80 75 70 65 60}
+		{burstSpreadWidth 0.4}
+		{burstSpreadDelta 0.4}
+		{burstSpreadCount 7}
+		{BurstRecoveryTime 1.5}
+	}
+	{recoveryTime 0.12}
+	{rechargeTime 4.5}
+	{speed 290}
+
+	{projectileDamageThreshold 1.5}
+	{aimingTolerance 0.5}
+
+	{projectileDamage 6}
+	{projectileDamageClip 6}
+	
+	{healthDamage     70}
+	{healthDamageClip 70}
+			
+	
+	("accuracy_mgun")
+	("cw_recoil_high")
+	("cw_sway_medium")
+	;{cursor "mgun_on"}
+	{cursor "mgun_on_2"}
+	{cursorReloading "cannon_reload_all"}			; s
+
+	{curve "762x54rus_120"}
+        {parameters "M118"                                                  ;M118LR 
+		{projectileDamageTable {10 6} {60 5} {75 4} {85 2} {100 1}}  ;
+	}                                                                   ;
+	{parameters "7H14"                                                  ;http://www.lveplant.ru/pages_ru.php?id=82
+		{projectileDamageTable {60 7} {80 5} {90 3} {100 2}}         ;пуля 7Н14 - Бронебойное действие пуль по бронелисту марки 2П толщиной 5 мм или листу из стали Ст3 толщиной 10 мм,установленному вертикально на дальности 300 м - не менее 80%.
+	}                                                                   ;
+        {parameters "LPS"                                                   ;ЛПС - 57-H-323C со стальным сердечником Cт10.
+		{projectileDamageTable {15 6} {65 5} {80 4} {90 3} {100 1}}  ;лист Ст3. толщиной 6мм пробивает на 520м.
+	}                                                                   ;
+        {parameters "M80"                                                   ;Патрон M80 пробивает 4мм/300метров и 3мм/500метров
+		{projectileDamageTable {10 6} {60 5} {75 4} {85 2} {100 1}}  ;http://www.inetres.com/gp/military/infantry/rifle/762mm_ammo.html
+	}                                                                   ;
+        {parameters "SS109"                                                 ;Патрон М855/вариант НАТО SS109 
+		{projectileDamageTable {10 6} {70 5} {80 3} {85 2} {100 1}}  ;
+	}                                                                   ;
+	{parameters "7H6"                                                   ;Патрон 7H6М с 1986г с термоупроченным сердечником/ТУС/ из Ст.65
+		{projectileDamageTable {60 5} {75 3} {85 2} {100 1}}         ;по броне марки 44 - 900м/с - 6мм, 800м/с - 4,9мм, 700м/с - 4мм. по Ст.3 - 14мм/100м/30% пробитий
+	}                                                                   ;								
+    {parameters "DPB88"                                                 ;Патрон DPB88
+		{projectileDamageTable {15 8} {65 6} {80 4} {85 2.5} {100 1}}         
+	} 
+        {parameters "DBP10"                                                 ;Патрон DPB10
+		{projectileDamageTable {15 7} {65 5} {80 3} {85 2} {100 1}}         
+	} 
+    {parameters "DVC12"                                                 ;Патрон DVC12
+		{projectileDamageTable {15 10} {65 7} {80 5} {85 3} {100 1.5}}         
+	} 	
+}

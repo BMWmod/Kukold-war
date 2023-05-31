@@ -1,0 +1,7 @@
+{actor
+	(include "mp_flag.inc")
+	 {texmod "vvs"}
+	(include "/set/resupply_generic.inc")
+	("avia_flag_rus")
+	{props "vvs_ru" "smalluav_irn_control"}
+}

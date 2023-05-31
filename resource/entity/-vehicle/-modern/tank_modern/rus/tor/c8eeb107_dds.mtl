@@ -1,0 +1,5 @@
+{material bump
+	{diffuse "c8eeb107"}
+	{bump "tex3_1"}
+	{blend none}
+}

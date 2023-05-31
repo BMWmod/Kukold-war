@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/model/kto_rosomak/body3"}
+	{bump "$/model/kto_rosomak/body3_n"}
+	{specular "$/model/kto_rosomak/body3_sp"}
+	{color "230 230 230 25"}
+	{blend none}
+}

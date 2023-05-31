@@ -1,0 +1,367 @@
+{Entity
+	(include "/properties/tank.ext")
+	(include "/properties/shadow/tank.inc"  scale(1.4))
+	(include "/properties/selection/vehicle.inc"  scale(1.2))
+	{props "heavy_M" "turret_rotator" "vision_lev06" "t72a_new" "with_open_zpu" "has_autoloader"}
+	{targetSelector "tank"}
+
+	{extender "enumerator"}
+         
+        {volume "body"
+		{tags "body"}
+		{component "body"}
+        }
+        {volume "turret"
+		{tags "turret"}
+		{component "turret"}
+        }
+        {volume "shieldl"
+		{tags "shield"}
+		{component "shield"}
+        }
+        {volume "shieldr"
+		{tags "shield"}
+		{component "shield"}
+        }
+
+       
+		("armor_heavy" turret(532 280 50 80) body(204 80 100 40))    
+		
+		  
+
+	("armor_mantlet" t(15))
+	("armor_engine"  t(5))
+
+        ("d_a_Kontakt5") 
+
+	
+
+	
+
+	{component "d_a1" {tags "d_a"}}
+	{component "d_a2" {tags "d_a"}}
+	{component "d_a3" {tags "d_a"}}
+	{component "d_a4" {tags "d_a"}}
+	{component "d_a5" {tags "d_a"}}
+	{component "d_a6" {tags "d_a"}}
+	{component "d_a7" {tags "d_a"}}
+	{component "d_a8" {tags "d_a"}}
+	{component "d_a9" {tags "d_a"}}
+	{component "d_a10" {tags "d_a"}}
+	{component "d_a11" {tags "d_a"}}
+	{component "d_a12" {tags "d_a"}}
+	{component "d_a13" {tags "d_a"}}
+	{component "d_a14" {tags "d_a"}}
+	{component "d_a15" {tags "d_a"}}
+	{component "d_a16" {tags "d_a"}}
+	{component "d_a17" {tags "d_a"}}
+	{component "d_a18" {tags "d_a"}}
+	{component "d_a19" {tags "d_a"}}
+	{component "d_a20" {tags "d_a"}}
+	{component "d_a21" {tags "d_a"}}
+	{component "d_a22" {tags "d_a"}}
+	{component "d_a23" {tags "d_a"}}
+	{component "d_a24" {tags "d_a"}}
+	{component "d_a25" {tags "d_a"}}
+	{component "d_a26" {tags "d_a"}}
+	{component "d_a27" {tags "d_a"}}
+	{component "d_a28" {tags "d_a"}}
+	{component "d_a29" {tags "d_a"}}
+	{component "d_a30" {tags "d_a"}}
+	{component "d_a31" {tags "d_a"}}
+	{component "d_a32" {tags "d_a"}}
+	{component "d_a33" {tags "d_a"}}
+	{component "d_a34" {tags "d_a"}}
+	{component "d_a35" {tags "d_a"}}
+	{component "d_a36" {tags "d_a"}}
+	{component "d_a37" {tags "d_a"}}
+	{component "d_a38" {tags "d_a"}}
+	{component "d_a39" {tags "d_a"}}
+	{component "d_a40" {tags "d_a"}}
+	{component "d_a41" {tags "d_a"}}
+	{component "d_a42" {tags "d_a"}}
+	{component "d_a43" {tags "d_a"}}
+	{component "d_a44" {tags "d_a"}}
+	{component "d_a45" {tags "d_a"}}
+	{component "d_a46" {tags "d_a"}}
+	{component "d_a47" {tags "d_a"}}
+	{component "d_a48" {tags "d_a"}}
+	{component "d_a49" {tags "d_a"}}
+	{component "d_a50" {tags "d_a"}}
+	{component "d_a51" {tags "d_a"}}
+	{component "d_a52" {tags "d_a"}}
+        {component "d_a53" {tags "d_a"}}
+	{component "d_a54" {tags "d_a"}}
+	{component "d_a55" {tags "d_a"}}
+	{component "d_a56" {tags "d_a"}}
+	{component "d_a57" {tags "d_a"}}
+	{component "d_a58" {tags "d_a"}}
+	{component "d_a59" {tags "d_a"}}
+	{component "d_a60" {tags "d_a"}}
+	{component "d_a61" {tags "d_a"}}
+	{component "d_a62" {tags "d_a"}}
+	{component "d_a63" {tags "d_a"}}
+	{component "d_a64" {tags "d_a"}}
+	{component "d_a65" {tags "d_a"}}
+	{component "d_a66" {tags "d_a"}}
+	{component "d_a67" {tags "d_a"}}
+	{component "d_a68" {tags "d_a"}}
+	{component "d_a69" {tags "d_a"}}
+	{component "d_a70" {tags "d_a"}}
+	{component "d_a71" {tags "d_a"}}
+	{component "d_a72" {tags "d_a"}}
+	{component "d_a73" {tags "d_a"}}
+	{component "d_a74" {tags "d_a"}}
+	{component "d_a75" {tags "d_a"}}
+	{component "d_a76" {tags "d_a"}}
+	{component "d_a77" {tags "d_a"}}
+	{component "d_a78" {tags "d_a"}}
+	{component "d_a79" {tags "d_a"}}
+	{component "d_a80" {tags "d_a"}}
+	{component "d_a81" {tags "d_a"}}
+	{component "d_a82" {tags "d_a"}}
+	{component "d_a83" {tags "d_a"}}
+	{component "d_a84" {tags "d_a"}}
+	{component "d_a85" {tags "d_a"}}
+	{component "d_a86" {tags "d_a"}}
+	{component "d_a87" {tags "d_a"}}
+	{component "d_a88" {tags "d_a"}}
+	{component "d_a89" {tags "d_a"}}
+	{component "d_a90" {tags "d_a"}}
+        {component "d_a91" {tags "d_a"}}
+	{component "d_a92" {tags "d_a"}}
+	{component "d_a93" {tags "d_a"}}
+	{component "d_a94" {tags "d_a"}}
+	{component "d_a95" {tags "d_a"}}
+	{component "d_a96" {tags "d_a"}}
+	{component "d_a97" {tags "d_a"}}
+	{component "d_a98" {tags "d_a"}}
+	{component "d_a99" {tags "d_a"}}
+	{component "d_a100" {tags "d_a"}}
+	{component "d_a101" {tags "d_a"}}
+	{component "d_a102" {tags "d_a"}}
+	{component "d_a103" {tags "d_a"}}
+	{component "d_a104" {tags "d_a"}}
+	{component "d_a105" {tags "d_a"}}
+	{component "d_a106" {tags "d_a"}}
+	{component "d_a107" {tags "d_a"}}
+	{component "d_a108" {tags "d_a"}}
+	{component "d_a109" {tags "d_a"}}
+        {component "d_a110" {tags "d_a"}}
+	{component "d_a111" {tags "d_a"}}
+	{component "d_a112" {tags "d_a"}}
+	{component "d_a113" {tags "d_a"}}
+	{component "d_a114" {tags "d_a"}}
+	{component "d_a115" {tags "d_a"}}
+	{component "d_a116" {tags "d_a"}}
+	{component "d_a117" {tags "d_a"}}
+	{component "d_a118" {tags "d_a"}}
+	{component "d_a119" {tags "d_a"}}
+        {component "d_a120" {tags "d_a"}}
+	{component "d_a121" {tags "d_a"}}
+	{component "d_a122" {tags "d_a"}}
+	{component "d_a123" {tags "d_a"}}
+	{component "d_a124" {tags "d_a"}}
+	{component "d_a125" {tags "d_a"}}
+	{component "d_a126" {tags "d_a"}}
+	{component "d_a127" {tags "d_a"}}
+	{component "d_a128" {tags "d_a"}}
+	{component "d_a129" {tags "d_a"}}
+        {component "d_a130" {tags "d_a"}}
+	{component "d_a131" {tags "d_a"}}
+	{component "d_a132" {tags "d_a"}}
+	{component "d_a133" {tags "d_a"}}
+	{component "d_a134" {tags "d_a"}}
+	{component "d_a135" {tags "d_a"}}
+	{component "d_a136" {tags "d_a"}}
+	{component "d_a137" {tags "d_a"}}
+	{component "d_a138" {tags "d_a"}}
+	{component "d_a139" {tags "d_a"}}
+	{component "d_a140" {tags "d_a"}}
+	{component "d_a141" {tags "d_a"}}
+	{component "d_a142" {tags "d_a"}}
+	{component "d_a143" {tags "d_a"}}
+	{component "d_a144" {tags "d_a"}}
+	{component "d_a145" {tags "d_a"}}
+	{component "d_a146" {tags "d_a"}}
+	{component "d_a147" {tags "d_a"}}
+	{component "d_a148" {tags "d_a"}}
+	{component "d_a149" {tags "d_a"}}
+	{component "d_a150" {tags "d_a"}}
+	{component "d_a151" {tags "d_a"}}
+	{component "d_a152" {tags "d_a"}}
+        {component "d_a153" {tags "d_a"}}
+	{component "d_a154" {tags "d_a"}}
+	{component "d_a155" {tags "d_a"}}
+	{component "d_a156" {tags "d_a"}}
+	{component "d_a157" {tags "d_a"}}
+	{component "d_a158" {tags "d_a"}}
+	{component "d_a159" {tags "d_a"}}
+	{component "d_a160" {tags "d_a"}}
+	{component "d_a161" {tags "d_a"}}
+	{component "d_a162" {tags "d_a"}}
+	{component "d_a163" {tags "d_a"}}
+	{component "d_a164" {tags "d_a"}}
+	{component "d_a165" {tags "d_a"}}
+	{component "d_a166" {tags "d_a"}}
+	{component "d_a167" {tags "d_a"}}
+	{component "d_a168" {tags "d_a"}}
+	{component "d_a169" {tags "d_a"}}
+	{component "d_a170" {tags "d_a"}}
+	{component "d_a171" {tags "d_a"}}
+	{component "d_a172" {tags "d_a"}}
+	{component "d_a173" {tags "d_a"}} 
+	
+
+
+
+
+          ("shield_BMP2D")
+{extender "shield"			{on}		}
+{component "shieldr1" {tags "shield"}}		{component "shieldl1" {tags "shield"}}
+
+        ("crew_3_human") 
+	{boarder
+		{anm "driver"
+			{forward	{begin	"board_pz4_driver"} {end "seat_gunner_stand"} {base "open_driver"}}
+			{reverse 	{end	"board_pz4_driver" -1} {base "open_driver" -1}}
+		}
+		{anm "left"
+			{forward	{begin	"board_tank_right"} {end "seat_gunner_stand"}}
+			{reverse 	{end	"emit_tank_2_hold"}}
+		}
+		{anm "right"
+			{forward	{begin	"board_tank_left"} {end "seat_gunner_stand"}}
+			{reverse 	{end	"emit_tank_2_hold"}}
+		}
+		{anm "armor"
+			{forward	{begin	"board_highArmor"} 	{end "pose_seat_armor_1"}}
+			{reverse 	{end	"emit_tank_2"}}
+		}
+		{anm "armor1"
+			{forward	{begin	"board_lowArmor"} {end "pose_seat_armor_2"}}
+			{reverse 	{end	"emit_body"}}
+		}
+		{anm "armor2"
+			{forward	{begin	"board_lowArmor"} {end "pose_seat_armor_1"}}
+			{reverse 	{end	"emit_body"}}
+		}
+	}
+	{sensor		;Прицелы искать!
+		{visor "driver"
+			{vision "vehicle_top_mgun"}
+			{bone "Visor2"}
+		}
+		{visor "main"
+			{vision "tank_gunner_optic_IR_3g"}
+			{bone "Visor1"}
+		}
+		{visor "commander"				;соответствие визора и экипажа проверить!
+			{vision "vehicle_top_mgun"}
+			{bone "Visor3"}
+		}
+	}
+
+	(define "define_place"
+	{placer
+		{place "%place" {LinkBone "%bone"}{openForCrush} {turnoff {shadow}}{attach squat_lie}}
+	}
+	{boarder
+		{door "%door"}
+		{link "%door" "%place" {anm "%animation"} }
+	}
+	{Volume "%place"
+		{tags "attach" "attach_%place"}
+		{able clear {bullet 0} {touch 1}}
+	}
+)
+	("define_place" place(seat1) bone(seat01) door(emit3)  animation(armor1))
+	("define_place" place(seat2) bone(seat02) door(emit3)  animation(armor))
+	("define_place" place(seat3) bone(seat03) door(emit6)  animation(armor))
+	("define_place" place(seat4) bone(seat04) door(emit6)  animation(armor1))
+
+	{extender "inventory"
+		
+		{box
+			{Size 8 12}
+			{item "ammo Hcb_ammo" 300} 
+			{item "ammo PKM_ammo" 1250}
+			{item "ammo bullet125_RUS apcr" 15}
+			{item "ammo bullet125_RUS cm" 9}
+			{item "ammo bullet125_RUS fg" 11}
+			
+		}
+	}
+
+	{Weaponry		
+		("restore_ik_time")
+		{place "gun"
+			{RestoreIKAfterAim}
+			{weapon "125mm_2A46M_5" filling "ammo bullet125_RUS apcr" 1}
+			("abm_5") 
+		}
+		{place "mgun2"
+			{charger "gunner"}
+			{weapon  "hcb" filled}
+                        {foresight "foresight4"}
+			{basic}
+		}
+		{place "mgun"
+			{type "mgun_coaxial"}
+			{weapon "PKM" filled}
+			{foresight "foresight2"}
+			("abm_mgun2")
+			{basic}
+		}
+
+		{place "mgun20"			;дым гранатометы
+			{type "mgun_right"}
+			{weapon "4xsmokegun_bredly" filled}
+			{gunner "gunner"}
+			{foresight "foresight18"}
+		}
+		{place "mgun21"			;дым гранатометы
+			{type "mgun_left"}
+			{weapon "4xsmokegun_bredly" filled}
+			{gunner "gunner"}
+			{foresight "foresight19"}
+		}
+	}
+
+	{mass 46000}
+	{Chassis
+		("tank_trace" fx("tracks_big") step(0.47) len(1.2))
+		{Locomotion ("locomotion")
+
+			{MaxSpeed   48}		;на 10 км/ч быстрее Т-72
+			{maxSpeedAtMaxTurn 21}
+			{StartTime  14}
+			{TurnStart  2.2}			
+			{TurnTime   6}
+			{TurnRadius 8} 
+    			{TurnStop   1}
+			{BrakeTime  1.3}
+			{StopTime   2.0}
+			{Gears   0.3 0.86 1}
+			{RearGears  0.11 0.37}
+			{GearSwitchDelay 2.5}
+		}
+			{FuelBag
+				{volume 800 }	
+				{rate	200 }   
+				{remain 800 }
+				{fuel "fuel"}
+			}
+		    	{speed
+				{Slow	16}
+				{Normal	28}
+				{Fast	44}
+			}
+		
+	}
+   		 
+           
+	{Extension "t72_rogatka.mdl"}
+	("cwts_buksir")	
+	
+}

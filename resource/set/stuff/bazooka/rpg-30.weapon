@@ -1,0 +1,22 @@
+{from "pattern rpg_weapon"
+	
+	{filling "ammo RPG30" 1}
+	{preloaded}
+	{ammoLocked}
+	{inventory
+		{size 5 1}
+	}
+	{aimRange 50}
+	{maxRange 50}
+	{entity "rpg-30"}
+;	("damage" a(700) b(700) c(700) d(700) e(700))
+	{mass 1.0}
+	{speed 36} ; speed гранаты x1.5 (25.02.21)	
+	{gravity 0.4}
+	{reactive 0}
+	{cursor "cannon_on_heat"}	
+	;{cursor "RPG27"}
+	{fireSound "bazooka/RPG27fire"}
+	("accuracy_open_rpg"  moa(17))
+	("accuracy_open_rpg_40"  moa(17))
+}

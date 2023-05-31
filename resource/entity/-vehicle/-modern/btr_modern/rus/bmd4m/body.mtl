@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/model/bmd4m/body_bmd4"}
+	{bump "$/model/bmd4m/body_bmd4_bump"}
+	{specular "$/model/bmd4m/body_bmd4_sp"}
+	{color "230 230 230 25"}
+	{blend none}
+}

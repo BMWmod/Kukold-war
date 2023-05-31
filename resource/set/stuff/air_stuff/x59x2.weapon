@@ -1,0 +1,4 @@
+{from "x59x3 weapon"
+	;Su-35
+	{filling "ammo x59m" 2}
+}

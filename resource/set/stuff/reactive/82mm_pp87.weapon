@@ -1,0 +1,4 @@
+;Миномет Поднос
+{from "weapon 82mm_podnos"
+	("CW_acc_artillery" mils(6.25))
+}

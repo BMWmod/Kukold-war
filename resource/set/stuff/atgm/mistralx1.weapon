@@ -1,0 +1,22 @@
+{from "pattern proj_weapon_ground"	
+	{tag "gun"}
+	{filling "ammo mistral_missile" 1}	
+	{fillingVisible "rocket"}	;да, передняя заглушка именно граненая, без сглаживания.
+	{foresight "Foresight1"}        
+	{fireSound "bazooka/Mistral_shot"}	
+	{reloadSound "chn/Metis_reload"}
+	{mass 10};вики	
+	{recoveryTime 3}
+	{rechargeTime 20}	;ракеты довольно тяжелые
+	{maxRange 155}   
+	{aimRange 220}	;дальность предварительного наведения
+	;{cursor "zenite_on"}
+	;{cursorReloading "zenite_reload"}
+	;{cursor "mistral"}
+	{cursor "cannon_on_aa"}
+	{cursorReloading "cannon_reload_fg"}
+	;{cursorReloading "cannon_reload_fg_timer_20"}
+}
+;6500 с вертолета и 6 с земли
+;https://www.defense.gouv.fr/actualites/dossiers/dossiers-archives/le-bourget-2013/les-materiels-presentes/les-armements-du-tigre-hap
+;https://fr.wikipedia.org/wiki/Mistral_(missile)

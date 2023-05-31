@@ -1,0 +1,18 @@
+{from "pattern proj_weapon_air"
+	
+	{tag "AA_missile_2gen" "-low_speed" "gun"}	
+	{filling "ammo aim-9l_ammo" 1}	
+	{fillingVisible "missile_r"}
+	{fireSound "reactive/katyusha_burst"}	
+	{foresight "Foresight8"}
+	{mass 50}	
+	{inventory {noView}}
+	{rechargeTime 100}	
+	{maxRange 185}   ;8000 примерно	
+	{aimRange 185}	
+	;{cursor "zenite_on"}
+	;{cursorReloading "zenite_reload"}
+	{cursor "cannon_on_aa"}
+	{cursorReloading "cannon_reload_fg"}
+	;{cursorReloading "cannon_reload_fg_timer_100"}
+}

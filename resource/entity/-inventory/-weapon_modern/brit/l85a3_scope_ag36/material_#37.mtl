@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "$/model/g36a3/g36_accessories"}
+	{blend none}
+}

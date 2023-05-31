@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/model/ptl02/turret_ptl02_xx"}
+	{bump "$/model/ptl02/turret_ptl02_bp"}
+	{specular "$/model/ptl02/turret_ptl02_sp"}
+	{color "230 230 230 25"}
+	{blend none}
+}

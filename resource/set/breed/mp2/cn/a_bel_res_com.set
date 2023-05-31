@@ -1,0 +1,73 @@
+{breed
+	{skin "cw_bel_com"}
+	{portrait "_new/bel/inf"}
+	{icon officer}
+	{icon_priority 1}
+	{tags "officer"}
+	{nationality rus}
+	{armors
+		{head "6b7_2"}
+	}
+	{perks
+		{"vision" mp_officer
+		}
+		{"smg" lvl_3
+		}
+		{"mgun" lvl_2
+		}
+		{"rifle" lvl_2
+		}
+		{"rocketlauncher" lvl_2
+		}
+		{"pistol" lvl_2
+		}
+		{"gra_launch" lvl_2
+		}
+		{"melee" lvl_3
+		}
+		{"avoidance" lvl_2
+		}
+		{"health" "180%"
+		}
+		{"health_regeneration" "100%"
+		}
+		{"stamina" "100%"
+		}
+		{"stamina_regeneration" "100%"
+		}
+		{"speed" 0.8
+		}
+		{"field_glass"}
+		{"skill_tankgun" lev_1
+		}
+		{"skill_atgm_launcher" lev_1
+		}
+		{"skill_airgun" lev_1
+		}
+		{"skill_airgm_launcher" lev_1
+		}
+	}
+	{veterancy
+		{"lvl_1" 1
+		}
+		{"lvl_2" 2
+		}
+		{"lvl_3" 4
+		}
+		{"lvl_4" 6
+		}
+		{"lvl_5" 8
+		}
+	}
+	{inventory
+		{item "f1 grenade" 2}
+		{item "rkg3 grenade" 2}
+		{item "sandbag_kit"}
+		{item "bandage" 15}
+		{item "tarzan"}
+		
+		{item "ak47_rp" filling "762 ammo" 70}
+		{item "762 ammo" 300}
+		{in_hands 5}
+	}
+}

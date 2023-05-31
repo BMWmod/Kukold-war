@@ -1,0 +1,40 @@
+{from "pattern proj_weapon_ground"  ;ос 9о163-1    арп-д
+	{tag "gun"}
+	{filling "ammo 9m133" 1}
+	{fillingVisible "rocket"}
+              {fireSound "bazooka/konkurs_launch"}
+			  {reloadSound "chn/Metis_reload"}
+	{mass 7}
+	{recoveryTime 3}
+	{rechargeTime 30}
+	{inventory {noView}}
+	;{cursor "zenite_on"}
+	;{cursorReloading "zenite_reload"}
+	{cursor "cannon_on_heat_2"}
+	{cursorReloading "cannon_reload_heat"}
+	;{cursorReloading "cannon_reload_heat_timer_30"}
+	("damage" a(1) b(1) c(1) d(1) e(1))
+	{projectileDamage 0}
+        {maxRange 140}	
+	{aimRange 140}
+	{parameters "cm_e"
+                {maxRange 130}
+		{aimRange 130}
+	}
+	{parameters "tb"
+                          {maxRange 130}
+		{aimRange 130}
+		{cursor "therm_on"}
+	             {cursorReloading "cannon_reload_fg"}
+		;{cursorReloading "cannon_reload_fg_timer_30"}
+	}
+	{parameters "fg"
+                          {maxRange 130}
+		{aimRange 130}
+		{cursor "cannon_on_fg_7"}
+	             {cursorReloading "cannon_reload_fg"}
+	            ;{cursorReloading "cannon_reload_fg_timer_30"}
+	}
+
+}
+

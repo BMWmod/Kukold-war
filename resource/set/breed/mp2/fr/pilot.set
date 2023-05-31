@@ -1,0 +1,20 @@
+{breed
+	{skin "cw_fr_pilot"}
+	{portrait "_new/fr/pilot"}
+	{icon "pilot"}
+	{icon_priority 0}
+	{nationality fr}
+	{armors
+		{head hgu55_plane}
+	}
+
+	(include "perks_generic.inc")
+	("traits_pilot")
+	{inventory
+		{item "lpsv_us_pilot"}
+		{item "famas_f1" filling "556nato ammo" 25}
+		{item "556nato ammo" 90}
+		{item "bandage" 15}
+		{in_hands 1}
+	}
+}

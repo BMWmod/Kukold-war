@@ -1,0 +1,78 @@
+{from "pattern bullet"
+	{tag "smg weapon bullet to_hand"}
+	{tag "skill_smg"}
+	{filling "ammo standart" 30}
+	{curve "545_70"}
+	{inventory
+		{size 4 2 }
+		{link_bone "gun_back"}
+		{weight 100 }
+	}
+	{mass 4}
+	{reloadSound "mp44"}
+	{Automatic}
+
+;-------------------------------------------
+	{spreading 1
+		{BurstAccuracy 100 98 94 88 82 76 70 64}
+		{SpreadPower	1.7}	
+	}
+
+	{recoveryTime 0.09}			; s
+	{rechargeTime 3.5}			; s
+	{speed 270}					; m/s
+	
+	{healthDamage 95}
+	{ProjectileDamage 5}
+	{ProjectileDamageClip 5}
+
+	("smg_range")
+	
+	{burst
+		{short 2 1}
+		{long 6 2}
+        {rangeKoef 0.444}
+	}
+	{LockFireDistanceTime 0.5}	
+	
+	
+	("accuracy_smg")	
+	("cw_recoil_medium")
+	("cw_sway_medium")
+	{cursor "mgun_on_0"}
+	{cursorReloading "cannon_reload_all"}			; s
+
+        {parameters "SS109"                                                 ;Патрон М855/вариант НАТО SS109 
+		{projectileDamageTable {35 5} {55 3} {61 2} {71 1}}         
+	}                                                                   
+	{parameters "7H6"                                                   ;Патрон 7H6М с 1986г с термоупроченным сердечником/ТУС/ из Ст.65
+		{projectileDamageTable {30 5} {50 3} {60 2} {71 1}}         ;по броне марки 44 - 900м/с - 6мм, 800м/с - 4,9мм, 700м/с - 4мм. по Ст.3 - 14мм/100м/30% пробитий
+	}                                                                   
+        {parameters "PS43"                                                  ;Патрон 7.62x39мм обр.43г - 57-Н-231С или ПС-43 с 1989г термоупроченным сердечником/ТУС/ из Ст.65Г,70,75
+		{projectileDamageTable {15 6} {35 5} {52 3} {71 1}}         ;по броне марки 44 - 735м/с - 7мм, 700м/с - 6,2мм, 650м/с - 5,25мм, 600м/с - 4,65мм.
+	}                                                                   ;
+        {parameters "919"                                                  
+		{projectileDamageTable {15 3} {25 2} {52 1}}                
+	}   
+    {parameters "SP5"                                                   ;
+		{projectileDamageTable {15 4} {35 3} {52 2} {71 1}}         ;Патрон СП-5 пробивает в упор 6мм лист Ст3. 400м пробивает бронежилеты 2-3класса.
+	}       
+    {parameters "DPB88"                                                 ;Патрон DPB88
+		{projectileDamageTable {15 8} {35 6} {55 4} {61 2.5} {71 1}}         
+	} 
+        {parameters "DBP10"                                                 ;Патрон DPB10
+		{projectileDamageTable {15 7} {35 5} {55 3} {61 2} {71 1}}         
+	} 
+    {parameters "DVC12"                                                 ;Патрон DVC12
+		{projectileDamageTable {15 10} {35 7} {55 5} {61 3} {71 1.5}}         
+	} 	
+}                                                                                      
+		
+;http://grigorew.narod.ru/raznoe/kal545.htm	
+;http://vooruzhen.ru/news/139/5571/	
+;http://arms2.narod.ru/Info/Pordeist/03.htm - поражающее действие пуль.		
+;http://topwar.ru/29958-glavnyy-patron-holodnoy-voyny.html	
+        
+		
+	                                                                
+              

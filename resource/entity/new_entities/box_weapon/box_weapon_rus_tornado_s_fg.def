@@ -1,0 +1,10 @@
+{actor
+(include "box_weapon.inc")
+ 	{extender "inventory"
+		{box
+			{weight 5000}
+			{size 10 6}
+			{item "ammo tornado_s 9m542 fg" 12}
+		}
+	}
+}

@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/model/ptl02/body"}
+	{bump "$/model/ptl02/body_n"}
+	{specular "$/model/ptl02/body_sp"}
+	{color "230 230 230 25"}
+	{blend none}
+}

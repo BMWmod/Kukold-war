@@ -1,0 +1,80 @@
+;Exported by: Timosh
+;Date:        Mon Jul 25 12:17:44 2022
+;File:        G:\?????? ? Pheonix\??????????????\??????\??????? ?????????\ZLT-11 NEW MODEL\3? ?????? ? ??????? ?????????\?????? ??? 105?? ????? DTW3 105mm\DTW3-105_final 11.max
+{Skeleton
+	{bone "body"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "body.ply"}
+		{bone "tail"
+			{parameters "Voxels=0;"}
+			{Matrix34
+				-0.999994	-0.00359886	0
+				-0.00359957	0.999994	0
+				0	0	-1
+				-10.652	-0.0825989	0.0923112
+			}
+		}
+	}
+}
+{Volume "body"
+	{Polyhedron "body.vol"}
+	{Bone "body"}
+	{Matrix34
+		-0.999994	-0.00359868	0
+		0	0	1
+		-0.00359868	0.999994	0
+		0.0618067	0.0323831	0.0884861
+	}
+}
+{Volume "select"
+	{Polyhedron "select.vol"}
+	{Bone "body"}
+	{Matrix34
+		-0.999994	-0.00359868	0
+		0	0	1
+		-0.00359868	0.999994	0
+		0.226047	-1.1917	0.0884894
+	}
+}
+{Extender "preview"
+	{"Stuff_primary"
+		{camera
+			{origin -0.678339	34.2511	0.0252024}
+			{lookat -0.813615	-6.58079	0.0424601}
+			{fov 31.7555}
+			{horizon -0.170174}
+		}
+		{lights
+			{"0"
+				{type directional}
+				{direction 0.0441577	-0.455772	-0.200804}
+			}
+		}
+	}
+	{"Stuff"
+		{camera
+			{origin -0.280033	36.5827	0.119581}
+			{lookat -0.393499	1.81808	0.0920897}
+			{fov 31.7555}
+			{horizon -0.16902}
+		}
+		{lights
+			{"0"
+				{type directional}
+				{direction 0.0441574	-0.455772	-0.200805}
+			}
+			{"1"
+				{type point}
+				{position 15.2753	-6.7642	4.66814}
+			}
+			{"2"
+				{type point}
+				{position -25.7604	1.79405	-11.3972}
+			}
+		}
+	}
+}

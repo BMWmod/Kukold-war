@@ -1,0 +1,72 @@
+{breed
+	{behaviour soldier}
+	{skin "cw_pmc4"}
+	{portrait "_new/civilian/civilian3"}
+	{icon civilian}
+	{icon_priority 0}
+	{nationality eng}
+	{armors
+		{head pasgt_helmet_od}
+	}
+	{perks
+		{"vision" mp_soldier
+		}
+		{"smg" lvl_3
+		}
+		{"mgun" lvl_3
+		}
+		{"rifle" lvl_2
+		}
+		{"rocketlauncher" lvl_4
+		}
+		{"pistol" lvl_3
+		}
+		{"gra_launch" lvl_4
+		}
+		{"melee" lvl_4
+		}
+		{"avoidance" lvl_2
+		}
+		{"health" "200%"
+		}
+		{"health_regeneration" "100%"
+		}
+		{"stamina" "200%"
+		}
+		{"stamina_regeneration" "100%"
+		}
+		{"speed" 0.9
+		}
+		{"skill_tankgun" lev_1
+		}
+		{"skill_atgm_launcher" lev_4
+		}
+		{"skill_airgun" lev_1
+		}
+		{"skill_airgm_launcher" lev_1
+		}
+	}
+	{veterancy
+		{"lvl_1" 1
+		}
+		{"lvl_2" 2
+		}
+		{"lvl_3" 4
+		}
+		{"lvl_4" 6
+		}
+		{"lvl_5" 8
+		}
+	}
+	{inventory
+		{item "idf_marom_dolphin"}
+		{item "m61 grenade" 2}
+		{item "bandage" 10}
+		{item "galil_arm" filling "762nato ammo" 25}
+		{item "762cn_200ammo ammo" 150}
+		{item "panzerfaust3 weapon" filling "pzf3 dm12a1 ammo" 1}
+		{item "pzf3 dm12a1 ammo" 2}
+		{item "sandbag_kit"}
+		{in_hands 4}
+	}
+}

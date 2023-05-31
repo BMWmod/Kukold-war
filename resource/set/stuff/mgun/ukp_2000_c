@@ -1,0 +1,8 @@
+;Cold War
+{from "pkt"
+	{filling "ammo 762Nato" 100}
+	{curve "762x51nato_85"}
+	{entity "pkt"}
+	{recoveryTime 0.08};сред.скорострельность 750в/м. http://zid.ru/products/defence/44/detail/170
+	{healthDamage     91}
+}

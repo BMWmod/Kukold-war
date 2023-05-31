@@ -1,0 +1,58 @@
+{from "pattern gun"	; Zu23-2
+	
+	{filling "bullet35 ammo" 40}
+	{fireSound "gun/35mm_shot"}	
+	{reloadSound "flak38"}
+	{RecoveryTime 0.09}		;параллельно поправлено у 23мм и ¬улкана, так что соотношение к выходу √епарда будет правильным.
+	{RechargeTime 2}		;питание непрерывной лентой, но нужно время на охлаждение
+	
+;	("accuracy_4" r1(1.8) r2(2.5) r3(3.5) r4(5))
+	{spreading 1
+		{SpreadXYRatio	1.2}
+		{SpreadPower	1.7}
+		{BurstAccuracy 100 80 75}
+	}
+	{burst
+		{min 1}
+		{short 3 1}
+		{long 5 2}
+	}
+	{SpreadTolerance 0.5}
+	{Automatic}
+	{traceFreq 1}			;трассирующие патроны вход€т в боекомплект.
+	{range 150 150}			;дальность стрельбы 4 км
+	{maxRange 150}
+	{aimRange 190}	;дальность предварительного наведени€
+	("speed" s(1100))
+	("37-57caliber")
+	{RelaxationTime 0}
+	{AimingTolerance 10}
+	{SpreadTolerance 0.3}
+	{calibre 35}
+	("damage4" a(0) b(0) c(4) d(4) e(4))
+	{projectileDamage 30}
+	("CW_acc_common" mils(0.66))
+	("CW_acc_common_140" mils(0.66))
+	;{cursor "zenite_on"}
+	;{cursorReloading "zenite_reload"}
+	;{cursor "cannon_on_fg_2"}
+	{cursor "cannon_on_fg_13"}
+	{cursorReloading "cannon_reload_fg"}
+	{parameters "ap"                        ;SAPHEI
+		;{projectileDamageTable {10 50} {30 44} {70 40} {90 28} {110 22} {140 12}}
+		("CW_small_AP_damage" penetr_1000m(40))
+		("CW_acc_common" mils(0.66))
+		("CW_acc_common_140" mils(0.66))
+		{cursor "cannon_on_aa_2"}
+		{cursorReloading "cannon_reload_ap"}
+	}                
+	{parameters "apcr"                        ;APFSDS
+		;{projectileDamageTable {10 135} {30 125} {70 115} {90 85} {110 65} {110 40}}
+		("CW_small_APCR_damage_WC" penetr_1000m(115))
+		("CW_acc_common" mils(0.44))
+		("CW_acc_common_140" mils(0.44))
+		;{cursor "cannon_on_apcr_2"}
+		{cursor "cannon_on_apcr_3"}
+		{cursorReloading "cannon_reload_apcr"}
+	}                
+}

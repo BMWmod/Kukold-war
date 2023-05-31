@@ -1,0 +1,30 @@
+;Cold War
+{from "pattern smg"
+	{tag "reliability_low"}
+	{filling "ammo 556Nato" 30} ;556
+	{curve "556_70"}
+	{inventory
+		{size 4 2}
+	}
+	{mass 2.68}       
+	{entity "l119a2"}
+	{fireSound	"smg/l119a2"}
+	{reloadSound "M16_reload"}
+	{speed 280}	
+
+	{recoveryTime 0.08}
+    {rechargeTime 3}
+
+	("smg_range")
+	
+
+	{cursor "l119"}
+	{cursorReloading "cannon_reload_all"}
+	{burst
+		{short 2 1}
+		{long 6 2}
+{rangeKoef 0.444}
+	}
+	{healthDamage 77}
+	("accuracy_collimator"  moa(2.75))	;нет данных
+}

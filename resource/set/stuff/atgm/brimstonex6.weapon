@@ -1,0 +1,19 @@
+{from "pattern proj_weapon"
+	{tag "gun"}
+	{filling "ammo Brimstone" 6}
+	{fillingVisible "Brimstone"}
+	{fireSound "reactive/konkurs_launch"}
+	{foresight "foresight9"}
+	{mass 47}
+	{recoveryTime 1.5}
+	{rechargeTime 120}
+	{gravity 4}
+	{inventory {noView}}
+              {maxRange 300}	;11,2 км с вертов и 20 км с самолетов
+	{aimRange 300}	;https://en.wikipedia.org/wiki/Brimstone_(missile)
+	;{cursor "zenite_on"}
+	;{cursorReloading "zenite_reload"}
+	{cursor "cannon_on_heat_2"}	
+	{cursorReloading "cannon_reload_heat"}
+	;{cursorReloading "cannon_reload_heat_timer_90"}
+}

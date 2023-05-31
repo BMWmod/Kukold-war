@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "ural_bm21_rus_co"}
+	{blend none}
+}

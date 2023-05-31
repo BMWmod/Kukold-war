@@ -1,0 +1,128 @@
+;Exported by: Kasutaja
+;Date:        Tue Oct  4 06:26:37 2022
+;File:        D:\??????? ????\??? GEM2\????????? 3? ??????? Cold War ?????????\Cold War 2010\?????? ? Pheonix\??????????????\??????\?????? ??????\MASAF\Masaf smg iranian\Masaf Assault Rifle IRan Sulleman.max
+{Skeleton
+	{bone "masaf"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{LODView
+			{VolumeView "masaf.ply"}
+			{VolumeView "masaf_lod1.ply"}
+			{VolumeView "masaf_lod2.ply"}
+			{VolumeView "masaf_lod3.ply"}
+		}
+		{bone "lever"
+			{Matrix34
+				1	0	0
+				0	0	-1
+				0	1	0
+				6.70922	1.1062	0.217
+			}
+			{LODView
+				{VolumeView "lever.ply"}
+				{VolumeView "lever_lod1.ply"}
+				{VolumeView "lever_lod2.ply"}
+				{VolumeView "lever_lod3.ply"}
+			}
+		}
+		{bone "eotech"
+			{Matrix34
+				1	0	0
+				0	0	-1
+				0	1	0
+				4.78674	3.96678	0.214944
+			}
+			{VolumeView "eotech.ply"}
+			{bone "glass"
+				{Position -0.380304	-0.0300522	0.232199}
+				{VolumeView "glass.ply"}
+			}
+		}
+		{bone "scope"
+			{Matrix34
+				1	0	0
+				0	0	-1
+				0	1	0
+				1.68195	4.07964	0.291116
+			}
+			{LODView
+				{VolumeView "scope.ply"}
+				{VolumeView "scope_lod1.ply"}
+				{VolumeView "scope_lod2.ply"}
+				{VolumeView "scope_lod3.ply"}
+			}
+		}
+		{bone "flashlight"
+			{Matrix34
+				1	0	0
+				0	0	-1
+				0	1	0
+				7.18799	3.08819	0.911352
+			}
+			{VolumeView "flashlight.ply"}
+		}
+		{bone "foresight3"
+			{Position 12.2237	2.89513	0.215536}
+		}
+		{bone "fxshell"
+			{Matrix34
+				0	0	1
+				0	1	0
+				-1	0	0
+				2.86015	3.04448	0.402432
+			}
+		}
+	}
+}
+{Volume "body"
+	{Box 3.93701 18.5039 0.984252}
+	{Bone "masaf"}
+	{Matrix34
+		0	1.00968	0
+		-1.00968	0	0
+		0	0	1.00968
+		2.70377	1.63234	-0.0180761
+	}
+}
+{Volume "select"
+	{Polyhedron "select.vol"}
+	{Bone "masaf"}
+	{Matrix34
+		0	1	0
+		-1	0	0
+		0	0	1
+		2.70377	1.63234	-0.514963
+	}
+}
+{Extender "preview"
+	{"Stuff"
+		{camera
+			{origin 1.38041	-0.806359	59.5216}
+			{lookat 1.38041	-0.80635	0}
+			{fov 16.2811}
+			{horizon 18}
+		}
+		{lights
+			{"0"
+				{type directional}
+				{direction 0.0140999	0	-0.499801}
+			}
+		}
+	}
+	{"Stuff_primary"
+		{camera
+			{origin 1.73312	-0.670966	59.5215}
+			{lookat 1.73312	-0.670956	0}
+			{fov 16.923}
+		}
+		{lights
+			{"0"
+				{type directional}
+				{direction 0.0140999	0	-0.499801}
+			}
+		}
+	}
+}

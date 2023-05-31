@@ -1,0 +1,7 @@
+{actor
+	(include "/properties/stuff_weapon.ext")
+	{Extension "qbu-202_suppressor.mdl"}
+	{extender "stuff"
+		{item "qbu-202_suppressor"}
+	}
+}

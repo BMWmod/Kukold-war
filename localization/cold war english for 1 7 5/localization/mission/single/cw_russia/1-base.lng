@@ -1,0 +1,63 @@
+;CW 1.5.6
+;Translate by Pheonix KageDesu
+;Proof read by Scott Thomas
+{tags
+	{"00" "Welcome, Captain. We currently only have a small garrison, that will be leaving with me"}
+	{"01" "So, barracks and garages. Not bad."}
+	{"02" "Here are the headquarters. All the equipment will be staying behind. So everything is organized for a couple of days."}
+	{"03" "Close to the main gate is the loading area."}
+	{"04" "Here and in the repair hangar there are some old vehicles."}
+	{"05" "Near that is the arsenal. A supply track came from Kamaz yesterday. We unloaded and parked it there. Here is the fuel depot."}
+	{"06" "That's all. We're leaving , and wish you good luck on behalf of 47 mechanized regiment 51 mehdivizii, from all the Ukrainian army and myself . Good luck."}
+	{"07" "Grishchenko! Look around. Engineers platoon put up artificial obstacles , get to it."}
+	{"08" "A decent place for anti-aircraft guns . Interestingly , the Ukrainians left it to us?"}
+	{"09" "Yeah , that's anti-aircraft guns . Just need find ammunition."}
+	{"10" "Repair hangar. Tank completely killed , but BRDM still good."}
+	{"11" "Comrade Captain, there is diesel oil in those barrels."}
+	{"12" "All examined . So, Grishchenko , what do you hear ?"}
+	{"13" "Lots of static today. Jammers more than likely, since there is no storm."}
+	{"14" "Nightingales sing ... just like home . Okay, pragmatic soul , come to headquarters , let's figure out this noise."}
+	{"15" "Stop! Who are you?"}
+	{"16" "Squad, open fire!"}
+	{"17" "Headquarters , we under attack ! Repeat, we under at... "}
+	{"18" "All, in Position! Set up defense, do not open fire first ! Grishchenko get a connection with division headquarters !"}
+	{"19" "No communication with the base ! NATO Frequencies is completely clogged, civic too!"}
+	{"20" "Anisimov ! Anisimov , do you hear me ? Who attacked you?"}
+	{"21" "Hummers , Captain. Damn, we can not escape."}
+	{"22" "Anisimov ! Grishchenko, but what's with the radio? Do what you want, but get connection with base in five minutes."}
+	{"23" "I order you to strengthen the base near the forest. In the trucks and boxes you will find mines, sandbags, barbed wire and hedgehogs."}
+	{"24" "First Platoon , take the barracks soldiers. Second Platoon - mainstream . Third - the northern corner . Fourth - reserve. Go!"}
+	{"25" "What's that?"}
+	{"26" "Connected Colonel Alan Smith , commander of 170 Infantry Brigade of the U.S. Army. I appeal to the commander of the military base Armed Forces of Ukraine \" Vladimir-Volyn \" Give up! You do not have to fight for a foreign country . Lay down your arms , and the entire staff of below the rank of lieutenant will be dismissed to their homes. "}
+	{"27" "Ah, Alan Smith , We are glad to see you , but we are not Ukrainians . We are motorized infantry brigade 448. This is a Russian army checkpoint!"}
+	{"28" "You do not have to die for the criminal regime Strelnikova. His forces carried out mass executions ..."}
+	{"29" "Yes, yes, one of the executions will happen here soon. Grishchenko, can you give me a headquarters or not, and unplug this clown."}
+	{"30" "Doronin, do you hear me? It Lieutenant General Tretiak . This is the first company 62 Tank Regiment . Give them the opportunity to refuel and arm themselves to defend the base . Then leave the base with them ."}
+	{"31" "This is Doronin. Affirmative, retain the base ."}
+	{"32" "Captain Doronin , Senior Lieutenant Pankratov and radioman Grishchenko must survive."}
+	{"33" "Attack was sudden and violently . Database \" Vladimir-Volyn \" under Captain Doronin was only a minor obstacle to the 170 Infantry Brigade of the United States. The Tanks Under Lieutenant General Tretiak were met by heavy fire and destroyed. Submodel base was surrounded by the main forces of the Ukrainian army."} ;
+	{"34" "For the filling of the tank battalion we need 5 barrels . The barrels must be not destroyed . Also , you can not lose more than 4 boxes of ammunition for the tanks."}
+	{"35" "Attention! Shoot to kill , do not to allow the enemy to break the base area . Tank battalion should refuel without problems."}
+	{"36" "Doronin, do you hear me? It's Tretiak . First machine ready to fight , cover the remaining."}
+	{"37" "Comrade Captain, says senior lieutenant Pankratov . My tank is fully fueled and ready to go!"}
+	{"38" "Tanks in battle: %1% of 30"}
+	{"39" "All the tanks arrived . 25 I will take , and the rest to you. Breakthrough enemy forces, defend the base . Perhaps we will have time to pick up remaining fuel."}
+	{"40" "Good job, Captain. Now I have enough tanks to counterattack ."}
+	{"41" "Warning , enemy special forces on the flanks!"}
+	{"42" "Doronin, we've come back. Yankees too much , we can not hold them . Cover my tanks and follow."}
+	{"43" "Hmm , how few of them remain . Soldiers , retreat."}
+	{"44" "From the diary Doronin: \" May 15, 2016. War always comes suddenly. Yesterday thought about furlough fishing with father. Today, a third of my company were killed on the base, and the survivors retreat under bombardment and shelling. Peaceful life ended with the first shot, now for me there is one way home - through Washington. I hope father is alive.\""}
+	{"45" "Lieutenant, situation very hot, we need some help!"}
+	{"46" "No, Captain. Anybody, who be in time . Hold position!"}
+	{"47" "Clear a road!"}
+	{"48" "Pankratov can help you in next missions, if he is in his tank at the end of the mission."}
+	{"49" "BMP-2D will go into the next mission , if it is able to move and if the crew is inside."}
+	{"50" "Ukrainian gunners will continue to help you if they are serviceable MLRS."}
+	{"51" "Due to the difficult international situation, the Ukrainian government tightens its troops on the western border and the liberated base transmits arriving Russian parts..."}
+	{"date" "May 15, 2016 , 3:30"}
+	{"name" "Long day"}
+	{"name_big" "Long day"}
+	{"outro_completed" " Our tanks safely retreated. Mission completed."}
+	{"outro_failed" "We lost the base! Mission failed."}
+	{"place" "Base \" Vladimir-Volyn \" west of Ukraine"}
+}

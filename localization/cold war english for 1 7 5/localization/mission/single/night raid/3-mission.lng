@@ -1,0 +1,56 @@
+{tags
+	{"00" "Capture the airfield."}
+	{"01" "Destroy the enemy at the western gate."}
+	{"02" "Destroy the anti-aircraft guns on the airfield.*"}
+	{"03" "Capture control point and data regarding flights enemy aircraft. *"}
+	{"04" "Destroy the enemy planes."}
+	{"05" "Destroy the enemy on the stock of fuel."}
+	{"06" "Capture the main control room."}
+	{"07" "Expel enemy to the town outskirts."}
+	{"08" "Capture the enemy radar"}
+	{"09" "Destroy the enemy at the southern gate"}
+	{"10" "Destroy enemy soldiers in barracks"}
+	{"11" "Well! Shot out, you bastards."}
+	{"12" "Do not relax, soldiers! We need to continue the assault. Next goal - fortified enemy positions ahead."}
+	{"13" "Ok, enemy knocked away"}
+	{"14" "Attention, soldiers! We have to put down any resistance from the runway and get to the control room."}
+	{"15" "Use smoke grenades. It's cover you while you go to the secure position."}
+	{"16" "Excellent! Air defense destroyed."}
+	{"17" "Now moving to the control room."}
+	{"18" "Finish. Documents with us."}
+	{"19" "In the area observed the enemy anti-aircraft guns. If you destroy this, you get access to aviation support."}
+	{"20" "Well!"}
+	{"21" "Transmitter destroyed, communications they no longer have."}
+	{"22" "We're here, guys. The task is simple and clear: to destroy as many planes and destroy the control tower. Pilots also should be killed."}
+	{"23" "And here is our troops arrived. Now would be better!"}
+	{"24" "And here and help arrived in time."}
+	{"25" "We have a tough task - capture the enemy radar."}
+	{"26" "Guys, we are in the middle of a minefield!"}
+	{"27" "We need explore this area with mine-detector"}
+	{"28" "This is Hilton 7! We're taking heavy fire, we need air support!"}
+	{"29" "It's second infantry group! Ask the fire on the following coordinates: *square 32-12, right 181 mark*. Fry them well!"}
+	{"30" "Reporting bomber pilots. They are on approach, expect the signal to attack."}
+	{"31" "Reinforcements arrived, Comrade Commander!"}
+	{"32" "Guys, help arrived in time!"}
+	{"33" "Aircraft should not get in the air! If they take off, it will be bad."}
+	{"34" "Damn, we missed planes."}
+	{"35" "Now what? You got it!"}
+	{"36" "Good news - a few of our tanks arrived, just in time. Take command."}
+	{"37" "Commander, spotted the enemy reinforcements. Move along the road to the airfield. Will be here in a few minutes."}
+	{"38" "Commander, received a report of aerial reconnaissance. From northwest approaching large enemy force supported by armored vehicles. Vanguard will be here in a few minutes."}
+	{"39" "Guys, help arrived in time!"}
+	{"40" "Armored personnel carriers, a lot of infantry!"}
+	{"41" "See, help arrived in time. Hold on, soldiers!"}
+	{"42" "God damn! Enemy are already here, we are being attacked!"}
+	{"43" "Attention to the road. Enemy vehicle, occupy positions to attack. We give them a good meeting!"}
+	{"44" "Enemy attacks us from the rear! "}
+	{"45" "With the capture of the last airfield in the area, the Americans had tight. Now the sky was wholly owned by the Russian pilots, which meant the possibility of timely aerial reconnaissance and air support tank and infantry units. Impedance in such conditions could not last long. A few days later, Russian troops began a large-scale attack, and as a result completely Rostov region came under the control of the Russian Army."}
+	{"46" "Task was to destroy the airfield Impossible by only a few units. Enemy defense is very strong. We try attack from the air, but they all failed - anti-aircraft guns and enemy fighter planes."}
+	{"date" "June 16, 2017"}
+	{"name" "Airfield"}
+	{"name_big" "Airfield in the Rostov region"}
+	{"outro_completed" "Mission complete."}
+	{"outro_failed" "Mission failed."}
+	{"place" "Rostov region"}
+	{"timer" "Hold the position until the loading data ..."}
+}

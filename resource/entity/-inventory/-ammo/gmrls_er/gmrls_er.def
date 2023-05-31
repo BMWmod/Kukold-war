@@ -1,0 +1,18 @@
+;Model by Timosh
+{game_entity
+	(include "/properties/stuff_small.ext")
+	{collider "ammo"}
+	{Volume "body"
+		{thickness 4}
+		{able {touch} {bullet} {blast}}
+	}
+	(include "/properties/shadow/round.inc")
+	{props "steel" "explosive_stuff"}
+	{constrain none}
+	{fogable never}
+	{lodclass "stuff_small"}
+	{extender "stuff"
+		{item "gmrlser fg"}
+	}
+	{Extension "gmrls_er.mdl"}
+}

@@ -1,0 +1,13 @@
+{game_entity
+	(include "/properties/stuff_small.ext")
+	{collider "ammo"}
+	{Volume "body"
+		{thickness 4}
+		{able {touch} {bullet} {blast}}
+	}
+	{extender "stuff"
+		{item "bullet120_cn_m 120mm_nona fg"}
+	}
+	{props "steel" "explosive_stuff"}
+	{Extension "120mm_dfb_fg_pll05.mdl"}
+}

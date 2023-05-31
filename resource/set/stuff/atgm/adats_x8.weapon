@@ -1,0 +1,27 @@
+{from "pattern proj_weapon_ground"
+	
+	{tag "gun" "AA_missile" "prepare"}
+    {Special
+		{Mode aim}
+		{PrepareTime 0}
+		{PrepareCursor "aimed_shot_aa"}
+	}	
+	{filling "ammo adats" 8}	
+	{foresight "Foresight1"}       
+        {fireSound "bazooka/SMAW"}	
+        {mass 300}	
+        {recoveryTime 5}	
+	{rechargeTime 160}	
+	{inventory {noView}}        
+	{calibre 5}
+	;{cursor "zenite_on"}
+	;{cursorReloading "zenite_reload"}
+	;{cursor "cannon_on_heat_4"}
+	;{cursorReloading "cannon_reload_heat"}
+	;{cursor "adats"}
+	;{cursorReloading "cannon_reload_fg_timer_160"}
+	{cursor "cannon_on_heat_2"}
+	{cursorReloading "cannon_reload_heat"}
+	{maxRange 200}   ;10 км	
+	{aimRange 240}	;дальность предварительного наведения
+}

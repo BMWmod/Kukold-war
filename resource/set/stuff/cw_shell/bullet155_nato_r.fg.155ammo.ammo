@@ -1,0 +1,24 @@
+{from "pattern fg"
+	{tag "big" "size4" "155ammo" "150to152fg" "fx_146_299"}
+	{tag "fg_150_shell"} ; только для ammo.set
+	{detonationThickness 2}
+	{mass 56.2} ;ориентировочно использует 12.7 кг заряд М203А1 - 22.5 км
+	{inventory
+		{size 6 1}
+	}	
+	{entity "shell_NATO_fg_155"}
+	{view "shell_NATO_fg_155" {tail "shell_r_tail" "tail"}}
+	;11,3 кг ВВ TNT тротил - L15A2 11.3 x 0.8 = 9.04кг к расчету.оск-фугас. 
+	{tag "he_8to30"}
+{damage blastwave {energy 0.7} {area 13.3 15.3}}
+{damage add blastwave {energy 1.2} {area 11.5 13.2}}
+{damage add blastwave {energy 2.5} {area 7.8 8.9}}
+{damage add blastwave {energy 6.5} {area 5.6 6.4}}
+{damage add blastwave {energy 11} {area 3 3.4}}
+	{damage add blastwave	 ; HE, kinetic, direct hit
+		{energy 22}
+		{area 0.1 0.1}
+	}
+}
+;оснашается и Comp.B в последнее время.Стандартными 155-мм ОФС для Германии, Великобритании и Италии являются снаряды серии L15
+;расчет по тротилу.применяется коэффицент 0.8 к тротилу

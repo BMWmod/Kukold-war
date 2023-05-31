@@ -1,0 +1,23 @@
+{breed
+	{skin "cw_gb_inf"}
+	{portrait "_new/uk/inf"}
+	{icon brit_smg}
+	{icon_priority 0}
+	{nationality eng}
+	{armors
+		{head helmet_mk7_net}
+	}
+
+	(include "perks_generic.inc")
+	("traits_specnaz_smg")
+	{inventory
+		{item "osprey_smg"}
+		{item "556nato ammo" 300}
+		{item "l109a1 grenade" 2}
+		{item "bandage" 10}
+		{item "l85a3_scope" filling "556nato ammo" 30}
+		{item "sandbag_kit"}
+		{item "smoke_gb grenade" 2}
+		{in_hands 4}
+	}
+}

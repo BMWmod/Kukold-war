@@ -1,0 +1,33 @@
+;Cold War
+{from "pattern sniper_rifle"
+("scope")
+
+	{tag "sniper reliability_high"}
+	{filling "ammo 762Nato" 10}
+	{curve "762x51nato_100"}
+	{preloaded}
+	{inventory
+		{size 5 2}
+	}
+	{mass 5.2}
+	{entity "fr_f2"}
+	{special
+		{mode aim}
+		{PrepareTime 6.0}
+		{PrepareCursor "aimed_shot"}
+		;{damage 3} ; damage *= x
+		{accuracy 1.2} ; aim_range *= x
+		;{throw_off}
+	}
+	("marksman_range")
+	{speed 290}	
+	{fireSound "rifle/frf2"}
+	{reloadSound "frf2_reload"}
+	{healthDamage 99}
+	{recoveryTime 1.8}
+	{rechargeTime 2.5}
+	("accuracy_optic_sight"  moa(1.1))
+	("accuracy_optic_sight_85"  moa(1.1))
+	{cursor "sniper"}
+	{cursorReloading "cannon_reload_all"}
+}

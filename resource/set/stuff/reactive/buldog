@@ -1,0 +1,16 @@
+;Created by Pheonix 
+{from "weapon pg"
+	{filling "ammo mortar pd" 6}
+	
+	{entity "buldog"}
+	{inventory
+		{size 3 2}
+		{fsm "belt"}
+		{link_bone "gun_back"}
+	}
+	{recoveryTime 0.85}
+	{rechargeTime 15}
+	{aimRange 76}
+	{maxRange 76}
+	{Automatic}
+}

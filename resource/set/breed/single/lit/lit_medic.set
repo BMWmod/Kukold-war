@@ -1,0 +1,23 @@
+{breed
+	{skin "cw_lit_tac"}
+	{portrait "_new/balt/lit"}
+	{icon pol_smg}
+	{icon_priority 2}
+	{nationality lit}
+	{armors
+		{head pasgt_helmet_lit}
+	}
+	(include "perks_generic.inc")
+	("traits_army_smg")
+	{inventory
+		{item "lit_vest"}
+		{item "bandage" 30}
+		{item "556nato ammo" 240}
+		{item "shgr56" 3}
+		{item "knife_union"}
+		{item "g36k" filling "556nato ammo" 30}
+		{item "smoke grenade"}
+		{item "sandbag_kit"}
+		{in_hands 5}
+	}
+}

@@ -1,0 +1,21 @@
+{from "pattern fg"
+	{tag "big" "size2" "fg" "fx_90_110"}
+	{tag "fg_100_shell"} ; только для ammo.set
+	{mass 28.9}
+	{inventory
+		{size 5 1}
+	}	
+	{entity "shell_rus_fg_100_rapira"}
+	{view "fg_fly"}
+	{trace
+		{view "/texture/fx/trace" {ScaleY 0.2}}
+		{length 2}
+	}
+	;около 2.5 кг ВВ A-XI-2 гексал т.э.-1.53, ЗОФ35
+	{tag "he_2to4_5"}
+        {damage blastwave {energy 0.7} {area 8.5 9.8}}
+        {damage add blastwave {energy 1.2} {area 6.8 7.8}}
+        {damage add blastwave {energy 2.5} {area 3.5 4}}
+        {damage add blastwave {energy 6.5} {area 0.3 0.3}}
+}
+;http://www.russianarms.ru/forum/index.php/topic,12045.0.html

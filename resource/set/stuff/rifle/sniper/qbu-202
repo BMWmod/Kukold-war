@@ -1,0 +1,37 @@
+;Cold War
+{from "pattern sniper_rifle"
+("scope")
+
+	{tag "sniper reliability_high"}
+	{filling "ammo 8_6x70_x10" 5}
+	{curve "_338nato_120"}
+	{mass 6.9} 
+	{inventory
+		{size 5 2}
+	}
+	{entity "qbu-202"}
+	{special
+		{mode aim}
+		{PrepareTime 10.0}
+		{PrepareCursor "aimed_shot"}
+		;{damage 3} ; damage *= x
+		{accuracy 1.2} ; aim_range *= x
+		;{throw_off}
+	}
+	("bolt_range_custom" k(1.1))
+	{speed 290}
+	{fireSound "rifle/qbu88"}
+	{reloadSound "chn/qbu88_reload"}
+	{healthDamage 139}
+	{projectileDamageTable {0 22} {20 19} {65 16} {75 13} {80 6}}
+	{recoveryTime 1.8}
+	;{cursor "optic_horus"}
+	;{cursorReloading "optic_horus_reload"}
+	{cursor "sniper"}
+	{cursorReloading "cannon_reload_all"}
+	{rechargeTime 2.5}
+        ("accuracy_optic_sight"  moa(0.5))	
+        ("accuracy_optic_sight_85"  moa(0.5))	
+		;https://www.163.com/dy/article/GRPDO0OD0552PMBQ.html
+
+}

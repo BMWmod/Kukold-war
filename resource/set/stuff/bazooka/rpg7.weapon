@@ -1,0 +1,102 @@
+{from "pattern rpg_weapon"
+	{filling "ammo RPG7" 1}
+	{fillingVisible "rpg7rocket"}
+                           {fireSound "bazooka/rpg7"}
+		{reloadSound "chn/RPG_reload"}
+	{mass 6.3};http://modernfirearms.net/grenade/rus/rpg-7-r.html
+	{inventory
+		{size 5 2}
+	}
+        {maxRange 75}
+	{aimRange 75}
+	{speed 48}
+	{gravity 0.8}
+	{entity "rpg7"}
+	{calibre 7}
+	;{cursor "RPG7"}
+	;{cursorReloading "RPG7_reload"}
+
+	;{projectileDamage 700}
+	{parameters "RPG7_og-7V"
+;		("damage" a(4) b(4) c(4) d(4) e(4))
+		{maxRange 85}                           ;с УП-7В 700м
+		{aimRange 85}
+	        {speed 36}        ;60/500x300=36   скорость полета – 300 м/с
+		("accuracy_optic_rpg"  moa(7.47))	;
+		("accuracy_optic_rpg_70"  moa(5.28))
+		;{cursor "RPG7o"}
+	             ;{cursorReloading "RPG7o_reload"}	;http://arsenal-info.ru/b/book/643295886/8
+	             {cursor "cannon_on_fg_2"}
+	             {cursorReloading "cannon_reload_fg"}
+	}
+	{parameters "TBG-7V"
+;		("damage" a(20) b(20) c(20) d(20) e(20))
+		{maxRange 75}                           ;с УП-7В 550м
+		{aimRange 75}
+	        {speed 36}        ;60/500x300=36   скорость полета – 300 м/с
+		("accuracy_optic_rpg"  moa(23.92))
+		("accuracy_optic_rpg_60"  moa(23.92))
+		;{cursor "RPG7tb"}
+	             ;{cursorReloading "RPG7tb_reload"}
+		{cursor "shmel_on"}
+	             {cursorReloading "cannon_reload_heat"}
+	}
+	{parameters "PG-7VL"
+;		("damage" a(500) b(500) c(500) d(500) e(500))
+ ;http://www.militaryparitet.com/nomen/russia/arty/griogne/data/ic_nomenrussiaartygriogne/19/
+ ;http://world.guns.ru/grenade/rus/rpg-7-r.html
+ ;http://nvo.ng.ru/armament/2001-07-27/6_fight.html
+ ;http://army.lv/ru/rpg-7/harakteristiki/1465/485#info
+		{maxRange 60}
+		{aimRange 60}
+	        {speed 48}        ;60/500x300=36   скорость полета – 300 м/с ; speed гранаты x1.5 (25.02.21)	!!!!!!!!!!
+		("accuracy_optic_rpg"  moa(7.47))	;"РПГ или РПГ", Сергей Евтехов, предп. Солдат удачи
+		("accuracy_optic_rpg_50"  moa(7.47))
+	             {cursor "cannon_on_heat"}
+	             {cursorReloading "cannon_reload_heat"}	
+	}
+	{parameters "PG-7VR"
+;		("damage" a(750) b(750) c(750) d(750) e(750)) ;http://gunsite.narod.ru/rpg7.htm
+		{maxRange 50}
+		{aimRange 50}
+	        {speed 48}        ;60/500x300=36   скорость полета – 300 м/с
+		("accuracy_optic_rpg"  moa(10.8))
+		("accuracy_optic_rpg_40"  moa(10.8))
+		;{cursor "RPG7t"}
+	             ;{cursorReloading "RPG7t_reload"}
+	              {cursor "cannon_on_heat_11"}
+	              {cursorReloading "cannon_reload_heat"}
+	}
+	{parameters "PG-7V"
+		{maxRange 75}                           ;Дальность прямого выстрела(эффективная дальность)–330м.Прицельная-500м
+		{aimRange 75}
+	        {speed 54}       ;60/500x300=36   скорость полета – 300 м/с
+		("accuracy_optic_rpg"  moa(10.46))	;на 200м http://www.nastavleniya.ru/RPG/rpg13.htm
+		("accuracy_optic_rpg_60"  moa(10.46))
+	             {cursor "cannon_on_heat"}
+	             {cursorReloading "cannon_reload_heat"}	
+	}
+	{parameters "PG-7VM"
+		{maxRange 75}                           ;Дальность прямого выстрела(эффективная дальность)–310м.Прицельная-500м                           
+		{aimRange 75}
+	        {speed 54}       ;60/500x300=36   скорость полета – 300 м/с
+		("accuracy_optic_rpg"  moa(7.47));на 200м http://www.nastavleniya.ru/RPG/rpg13.htm
+		("accuracy_optic_rpg_60"  moa(7.47))
+	             {cursor "cannon_on_heat_7"}
+	             {cursorReloading "cannon_reload_heat"}
+	}
+	{parameters "PG-7VS"
+		{maxRange 75}                           ;Дальность прямого выстрела(эффективная дальность)–310м.Прицельная-500м
+		{aimRange 75}
+	        {speed 54}       ;60/500x300=36   скорость полета – 300 м/с
+		("accuracy_optic_rpg"  moa(8.3))
+		("accuracy_optic_rpg_60"  moa(8.3))
+	             {cursor "cannon_on_heat_7"}
+	             {cursorReloading "cannon_reload_heat"}
+	}
+}
+;Дальности РПГ в CW соответсвуют - 300 реал.м./47и.м. - 500 реал.м./60и.м.	
+;http://militaryrussia.ru/blog/topic-437.html	
+;http://www.russianarms.ru/forum/index.php/topic,2092.0.html	
+;http://www.libma.ru/tehnicheskie_nauki/otechestvennye_protivotankovye_granatometnye_kompleksy/p19.php		
+;http://pirochem.net/index.php?id1=3&category=azgotov-prim-vv&author=dik-vn&book=2009&page=120		

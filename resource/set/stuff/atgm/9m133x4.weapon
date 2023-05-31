@@ -1,0 +1,35 @@
+{from "pattern proj_weapon_ground"
+	{tag "gun"}
+	{filling "ammo 9m133" 4}
+              {fireSound "bazooka/konkurs_launch"}
+	{mass 7}
+	{fillingVisible "ptyr_"}
+	{recoveryTime 3}
+	{rechargeTime 120}
+	{inventory {noView}}
+	;{cursor "missile_at"}
+	;{cursorReloading "missile_at_reload"}
+	{cursor "cannon_on_heat_2"}
+	{cursorReloading "cannon_reload_heat"}
+	;{cursorReloading "cannon_reload_heat_timer_120"}
+	("damage" a(1) b(1) c(1) d(1) e(1))
+	{projectileDamage 0}
+              {maxRange 130}	;8-10 км разными ракетами
+	{aimRange 140}
+	{parameters "fg"
+                {maxRange 120}
+		{aimRange 120}
+		;{cursor "missile_he"}
+		;{cursorReloading "missile_he_reload"}
+		{cursor "cannon_on_fg_7"}
+		{cursorReloading "cannon_reload_fg"}
+		;{cursorReloading "cannon_reload_fg_timer_120"}
+	}
+	{parameters "tb"
+		;{cursor "missile_he"}
+		;{cursorReloading "missile_he_reload"}
+		{cursor "therm_on"}
+		{cursorReloading "cannon_reload_fg"}
+		;{cursorReloading "cannon_reload_fg_timer_120"}
+	}
+}

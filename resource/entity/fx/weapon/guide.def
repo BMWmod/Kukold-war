@@ -1,0 +1,18 @@
+{fx
+	{particleview assistor
+		{entitygenerator
+			{emissionarea
+				{alpha0 0}
+				{alpha1 0}
+				{speed 0.05}
+			}
+			{particleinit
+				{speed 0.3} ;28.5 1.5
+				{lifetime 1}
+			}
+			{entity "proj_point_rus_laser_guide"}
+			{totalparticles 8}
+			{particlesinblock 1}
+		}
+	}
+}

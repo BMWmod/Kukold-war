@@ -1,0 +1,71 @@
+{from "pattern gun"
+	;БТР-82 лента на 500 патронов.без перезарядки как на БТР-80.Время перезарядки уменьшенно максимально.
+	{filling "kpvtammo" 500}
+	{mass 50}
+	{foresight "foresight1"}
+	
+	("range_zenite_modern")
+	{range 120 120}	
+	{SpreadTolerance 0.3}
+	{recoveryTime 0.16}	;600 в/мин http://www.zid.ru/products/defence/44/detail/165
+	{rechargeTime 0.3}
+	{AimingTolerance 10}
+	{Automatic}	
+	("speed" s(1000))
+;	("CW_acc_common" mils(0.75))	;http://www.nastavleniya.ru/VP/vp18.htm  - вдвое хуже ПКТ
+;	("CW_acc_common_100" mils(0.75))	;http://www.nastavleniya.ru/VP/vp18.htm  - вдвое хуже ПКТ
+								;http://omumr.apu-fsin.ru/pdf/15_1_p_ogn_p/15_1_nst_pVlad.pdf   стр 86
+								;короткими очередями 0,91, но одиночными тогда должен лучше. 
+	;По личным отзывам стрелвших - КПВТ имеет примерно равную с ПКТ точность. Видимо, глава из наставления
+	;дает более мягкие требовани к убитости ствола КПВТ - там не указано, что новый КПВТ будет
+	;вдвое хуже нового ПКТ.
+	("CW_acc_common" mils(0.38))
+	("CW_acc_common_100" mils(0.38))
+							
+								
+	{Spreading {BurstAccuracy 100 98 96 94 92 90}}	;fixed mgun
+	{burst
+		{min 1}
+		{short 5 1}
+		{long 14 2}
+	}
+	("speed" s(1000))
+	("14-20caliber")
+	{traceFreq 1}
+	{healthDamage 405}
+	{projectileDamage 40}	
+	{projectileDamageTable {10 40} {75 31} {100 16} {120 8} {150 5}} ;http://world.guns.ru/machine/mg01-r.htm
+							;http://www.sub-aquila.net/division/pulemeti_i_granatometi/14_5-mm_korabelnye_pulemetnye_ustanovki_na_baze_kpv/
+	{calibre 12}
+	{fireSound	"gun/kpvt"}
+	{reloadSound "ptrd"}
+	;{cursor "TKN4_ap"}
+	;{cursorReloading "TKN4_ap_reload"}
+	;{cursor "cannon_on_ap"}
+	;{cursorReloading "cannon_reload_ap"}
+	{cursor "cannon_on_ap_4"}
+	{cursorReloading "cannon_reload_ap"}
+	{parameters "bst"
+		("CW_acc_common" mils(0.38))
+		{Spreading {BurstAccuracy 100 98 96 94 92 90}}	;fixed mgun
+		;{cursor "TKN4_ap"}
+		;{cursorReloading "TKN4_ap_reload"}
+		;{cursor "cannon_on_ap"}
+		;{cursorReloading "cannon_reload_ap"}
+	             {cursor "cannon_on_apcr_4"}
+	             {cursorReloading "cannon_reload_apcr"}
+		{projectileDamageTable {10 45} {75 36} {100 22} {120 14} {150 9}}	;
+	}
+	{parameters "mdz"
+		("CW_acc_common" mils(0.38))
+		{Spreading {BurstAccuracy 100 98 96 94 92 90}}	;fixed mgun
+		;{cursor "TKN4_he"}
+		;{cursorReloading "TKN4_he_reload"}
+		;{cursor "cannon_on_fg"}
+		;{cursorReloading "cannon_reload_fg"}
+		{cursor "cannon_on_fg_12"}
+		{cursorReloading "cannon_reload_fg"}
+		{projectileDamageTable {10 4} {75 4} {100 4} {120 4} {150 4}}	;
+	}
+}
+;Применен курсор ТКН-4 как БТР-82А

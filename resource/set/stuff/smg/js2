@@ -1,0 +1,62 @@
+;Cold War
+{from "pattern smg"
+	{filling "ammo 58ammo_basic" 30} ;58
+	{curve "58x42_70"}
+	{tag "reliability_medium"}
+	{mass 2.5} 
+	{inventory
+		{size 3 2}
+	}   
+	{entity "js2"}
+	{fireSound "smg/js2_shot/"}
+	{reloadSound "M16_reload"}
+	{speed 260}
+	{cursor "mp5"}
+	{cursorReloading "cannon_reload_all"}	
+
+	{recoveryTime 0.07} ;800
+        {rechargeTime 3}
+
+	("smg_range")
+	
+	{inventory
+		{size 3 2 }
+	}
+	{burst
+		{short 2 1}
+		{long 6 2}
+{rangeKoef 0.444}
+	}
+	{healthDamage 30}
+	("accuracy_open_sight"  moa(3.09))		;http://cjaie.com/content/details16_3005.html
+}
+    ;   JQCW-05 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

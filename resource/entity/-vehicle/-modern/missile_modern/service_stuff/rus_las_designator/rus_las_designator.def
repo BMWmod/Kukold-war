@@ -1,0 +1,95 @@
+{entity
+	(include "/properties/cannon_mgun_mod.ext")
+	(include "/properties/shadow/tank.inc"  scale(0.6))
+
+	{props  "collectable" "vision_lev01" "laser_designator"}
+	{collider "cannon_small"}
+	{extender "stuff"
+		{item "rus_las_designator_stan"}
+	}
+	{extender "inventory"
+		{box
+			{Size 3 3}
+			{weight 200}
+			{item "plant" 3}
+		}	
+	}
+	{sensor	
+		{visor "main"
+			{vision "tank_gunner_optic_IR_3g"}
+			{bone "foresight1"}
+		}
+	}
+	{Weaponry
+		{place "gun"
+			{weapon "rus_las_designator" filled}
+			{foresight "foresight1"}
+			{basic}
+			{charger "gunner"}
+			{gunner "gunner"}
+			{SequentialAim 0}	;наводим сразу и по гориз. и по верт.
+		}
+	}  
+    {brain
+		{properties
+			{fire_mode hold}
+		}
+	}	
+	{Extension "rus_las_designator.mdl"}
+	("missile_aimpoint_stansize")
+;	{bone "turret"
+;		{limits -20 20}
+;	}
+;	{bone "basis"
+;		{limits}
+;		{speed 0.005}
+;	}
+
+	{extender "cannon"
+		{animation
+			{move "cannon_maxim_move" ""}
+			{reload "" "cannon_kpvt_charger"}
+		}
+		{move {workers "driver"} {obstacle "close"}}
+		{attack {workers "gunner"} {obstacle "open"}}
+		{rotate_ik_Limit 0}
+	}
+
+	("crew_inside")
+	("crew_human" place(driver) bone(driver)	door(emit1) animation(driver))
+	("crew_human" place(gunner)	bone(gunner)	door(emit1) animation(gunner))
+	{placer
+		{place "gunner" {UseVision 0}}
+		{place "commander" remove}
+		{place "driver1" remove}
+		{place "driver2" remove}
+	}
+	{boarder
+		{anm "gunner"
+;			{forward	{end "pose_maxim_gunlaeyr" 10}}
+			{forward	{end "pose_maxim_gunlaeyr"}}
+		}
+		{anm "driver"
+;			{forward {end "pose_maxim_driver" -10}}
+			{forward {end "pose_maxim_driver"}}
+		}
+		{link "driver" "gunner"}
+	}
+
+	{Volume "body"
+		{tags "body"}
+		{able{obstacle 0}{blast 0}}
+		{thickness 1}
+		{component "body"}
+	}
+	{volume "turret"
+		{thickness 3}
+	}
+	{component "turret"
+		{RepairTime 15}
+	}
+	{Volume "select"
+		{able{obstacle 0} {Bullet 0} {Contact 0} {Select 1} {Blast 0} {Overlap 0} {Touch 1} {Contact_ground 0}}
+	}
+}
+

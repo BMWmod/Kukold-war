@@ -1,0 +1,38 @@
+;Cold War
+{from "pattern rifle"
+	{tag "reliability_high"}
+	{filling "ammo 23mm_shotgun" 3}
+	{curve "9x18_15"}
+	{mass 4}
+	{inventory
+		{size 5 2}
+	}
+	{special
+		{throw_off_always}
+	}
+	{entity "ks-23"}
+	{range 20 23}
+	{reloadSound "shotgun"}
+	{fireSound "rifle/shotgun"}
+	{traceFreq 1}
+             {RelaxationTime 0.1}
+	{recoveryTime 0.8}
+	{rechargeTime 5}
+	{speed 150}
+	{cursor "shotgun_on"}
+	{cursorReloading "cannon_reload_all"}
+
+	{healthDamage 1}
+	("accuracy_open_sight"  moa(4))
+	{parameters "rubber"
+		("accuracy_open_sight"  moa(10))
+	}
+	{parameters "ap"
+		{projectileDamageTable {10 7} {20 5} {30 3} {50 1}}
+		{healthDamage 130}	;Неизв нач. скор. и масса, нельзя рассчитать, но 5мм - это немало.
+	}
+	{parameters "fg"
+		{range 15 15}
+		("accuracy_open_sight"  moa(1))	;это чтобы симулировать низкую вроятность промаха шрапнелью
+	}
+}

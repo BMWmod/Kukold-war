@@ -1,0 +1,20 @@
+{from "pattern fg"
+	{tag "size1" "big" "autocannon_small" "fx_45_89"}
+	{mass 6.3}
+	{inventory
+		{size 4 1}
+		{weight 100}
+		{block 1}
+	}	
+;	("fg" args 0.8)
+	{entity "shell_rus_fg_57mm"}
+	{trace
+		{view "/texture/fx/trace2"
+			{ScaleY 0.24}
+		}
+		{length 3.5}
+	}
+	;0,153 кг ВВ осколочный
+{damage blastwave {energy 0.7} {area 5.2 5.8}}
+{damage add blastwave {energy 1.6} {area 2.9 3.2}}
+}

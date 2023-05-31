@@ -1,0 +1,50 @@
+;Created by Pheonix
+{game_entity
+	(include "m142.inc")
+	
+	{extender "inventory"
+		{box
+			{Size 7 6}
+			{weight 3000}
+		}
+	}
+	{Weaponry
+		{place "gun"
+			{weapon "weapon m142" filling "ammo m270 fg" 6}
+			{foresight "foresight"}
+			{RestoreIKAfterAim}
+			{Barrels 6}
+			{charger "gunner"}
+			{gunner "gunner"}
+			("CW_stab_artillery")
+			;{StationaryFiring}
+				{basic}
+		}
+	}
+    (mod "mp"
+		{Weaponry
+			{place "gun"
+				{weapon "spot" filled}
+				;{basic}
+			}
+			{place "gun2"
+				{weapon "weapon m142" filling "ammo m270 fg" 6}
+				{foresight "foresight"}
+				{shooter "shooter"}
+				{RestoreIKAfterAim}
+				{Barrels 6}
+				{charger "gunner"}
+				{gunner "gunner"}
+				("CW_stab_artillery")
+				;{StationaryFiring}
+				{basic}
+			}
+		}	
+	)
+	("two_headlights")
+	
+	{Extension "m142_himars.mdl"}
+	("missile_aimpoint_trucksize")
+        ("recoil_side_common")
+
+}

@@ -1,0 +1,9 @@
+;Cold War
+{from "ak103_1p87"
+	{tag "sd"}
+	{mass 4.3}      
+	{entity "ak103_pbs_1p87"}
+	{fireSound	"smg/silent/abakan_shoot_sil"}
+	("smg_range")
+	
+}

@@ -1,0 +1,29 @@
+{from "pattern rpg_weapon"
+	
+	{filling "ammo rpg-28" 1}
+	{preloaded}
+	{ammoLocked}
+	{inventory
+		{size 5 1}
+	}
+	{aimRange 60}
+	{maxRange 60}      ;300m
+	{entity "rpg-28"}
+;	("damage" a(700) b(700) c(700) d(700) e(700))
+	{mass 13}
+	{speed 36}         ;оценка как у РПГ-27 ; speed гранаты x1.5 (25.02.21)	
+	{gravity 0.4}
+	{reactive 0}
+	{cursor "cannon_on_heat"}	
+	;{cursor "RPG28"}
+	{fireSound "bazooka/rpg29_fire"}
+	("accuracy_open_rpg"  moa(19.93))
+	("accuracy_open_rpg_50"  moa(19.93))
+}
+;выстрел ПГ-28 П.В. в 2011 г.
+;
+;Дальность прямого выстрела ДВП – 150..180м. Прицельная - 300м.	
+;Рассеивание гранат ПГ-28 характеризуется сдаточными отклонениями меньше либо равно Вв = 0,6 м и Вб = 0,6 м	
+;фактическое рассеивание меньше - в расчет берем 0,5 на ДВП-150м	
+;Вес: выстрела – 13 кг, гранаты – 8,5 кг		
+;Длина:  – 1200 мм

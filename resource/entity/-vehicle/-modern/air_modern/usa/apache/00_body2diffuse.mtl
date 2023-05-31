@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/model/exactor/body"}
+	{bump "$/model/exactor/body_bp"}
+	{specular "$/model/exactor/body_sp"}
+	{color "230 230 230 25"}
+	{blend none}
+}

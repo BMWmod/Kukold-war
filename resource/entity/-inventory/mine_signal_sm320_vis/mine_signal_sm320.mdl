@@ -1,0 +1,69 @@
+;Exported by: Timosh
+;Date:        Tue Aug 30 15:08:02 2022
+;File:        G:\?????? ? Pheonix\??????????????\??????\?????? ??????\???????? ????\???????? ?? ??????? 2\??-320 ???????? ??\SM-320.max
+{Skeleton
+	{bone "body"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{LODView
+			{VolumeView "body.ply"}
+			{VolumeView "body_lod1.ply"}
+		}
+		{bone "handle"
+			{Matrix34
+				-0.34202	-0.939693	0
+				0	0	1
+				-0.939693	0.34202	0
+				0.729564	1.92852	1.26065
+			}
+		}
+		{bone "string"
+			{Matrix34
+				0.707107	0.707107	0
+				0	0	1
+				0.707107	-0.707107	0
+				0.0150684	-0.00747025	3.98466
+			}
+			{visibility 0}
+			{VolumeView "string.ply"}
+		}
+	}
+}
+{Volume "body1"
+	{Cylinder 0.301457 5.53656}
+	{Bone "body"}
+	{Position 0	-0.0198403	0.730912}
+}
+{Volume "body"
+	{Cylinder 0.301457 5.53656}
+	{Bone "body"}
+	{Position 0	-0.0198403	0.730912}
+}
+{Volume "detector1"
+	{Box 0.295276 295.276 0.295276}
+	{Bone "body"}
+	{Matrix34
+		0.707107	0.707107	0
+		-0.707107	0.707107	0
+		0	0	1
+		0.00969914	0.0129017	3.97823
+	}
+}
+{Volume "detector"
+	{Box 0.295276 295.276 0.295276}
+	{Bone "body"}
+	{Matrix34
+		0.707107	-0.707107	0
+		0.707107	0.707107	0
+		0	0	1
+		0.00969914	0.0129017	3.97823
+	}
+}
+{Volume "select"
+	{Cylinder 9.89283 3.16375}
+	{Bone "body"}
+	{Position 0	0.290647	1.58187}
+}

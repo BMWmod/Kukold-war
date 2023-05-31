@@ -1,0 +1,3 @@
+{from "30mm_2A42 gun"
+	{filling "bullet30_rus" 600}
+}

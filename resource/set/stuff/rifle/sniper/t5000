@@ -1,0 +1,39 @@
+﻿;Cold War
+{from "pattern sniper_rifle"
+("scope")
+	;вариант под .338 Lapua Magnum, но можно переделать под 7,62 НАТО
+	{tag "sniper reliability_medium"}
+	{filling "ammo 8_6x70_x10" 5}
+	{curve "_338nato_120"}
+	{preloaded}
+	{mass 6.5}
+	{inventory
+		{size 5 2}
+	}
+	{entity "t5000"}
+	{special
+		{mode aim}
+		{PrepareTime 10.0}
+		{PrepareCursor "aimed_shot"}
+		;{damage 3} ; damage *= x
+		{accuracy 1.2} ; aim_range *= x
+		;{throw_off}
+	}
+	("bolt_range_custom" k(1.1))
+	{speed 290}
+	{fireSound "rifle/t5000_shot"}
+	{reloadSound "chn/t5000_reload"}
+	{healthDamage 139}
+	{projectileDamageTable {0 22} {20 19} {65 16} {75 13} {80 6}}
+	{projectileDamageThreshold 1}
+	{reloadSound "enfield"}
+	{recoveryTime 1.8}
+	;{cursor "optic_nf moar2"}
+	;{cursorReloading "optic_nf moar2_reload"}
+	{cursor "sniper"}
+	{cursorReloading "cannon_reload_all"}
+	("accuracy_optic_sight"  moa(0.5))
+	("accuracy_optic_sight_85"  moa(0.5))
+}
+;338LM AP529 - 19.4гр. 830м/с  22мм/100м - 12мм/600м.
+

@@ -1,0 +1,12 @@
+{from "pattern proj_pointer"
+	{tag "big size3 rok cumulative low_speed laser_using_missile 2a46ammo  2a46ammo_h kbaz_ammo 2a82ammo semiactive ground_laser_rus atgm_ground"}
+	{tag "atgm_cw" "atgm_ground"} ; только для ammo.set
+	{inventory
+		{size 6 1}
+	}
+
+	{mass 23}
+	{entity "shell_rus_rok_125"}
+	;Около 2.5 кг ВВ, масса выстрела 23,4 кг (для ТУРС Рубин массой 28.5кг - 2.7 кг ВВ
+}
+

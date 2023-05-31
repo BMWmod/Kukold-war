@@ -1,0 +1,74 @@
+;Created by Pheonix 
+{from "pattern tank_gun"    ; "mt-12"
+	{filling "100mmrapira ammo"}
+	{fireSound "gun/100mm_D10-t"}
+	{reloadSound "gun73reload"}
+	{rechargeTime 4.5}
+	{range 185 185}
+	("CW_acc_common" mils(0.24))
+	("CW_acc_common_130" mils(0.24))
+	;{cursor "arta_he"}
+	;{cursorReloading "arta_he_reload"}
+	{cursor "cannon_on_fg_4"}
+	{cursorReloading "cannon_reload_fg"}
+	("speed" s(663))
+	("100-128caliber")
+	{calibre 15}
+	;("damage4" a(200) b(175) c(152) d(130) e(100))   ; нет калиберного бронебойного, не используется
+	{parameters "bullet100_rus_rapira apcr"             ; ПК 3БМ24 Калач
+		("CW_APCR_damage_ST1500" penetr_2000m(195)) ; +15% к бронебойности 3БМ2 
+		{range 145 145}
+		("CW_acc_common" mils(0.27));оценка
+		("CW_acc_common_130" mils(0.27));оценка
+		;{cursor "arta_apcr"}
+		;{cursorReloading "arta_apcr_reload"}
+		{cursor "cannon_on_apcr"}
+		{cursorReloading "cannon_reload_apcr"}
+		("speed" s(1575))
+	}
+	{parameters "bullet100_rus_rapira cm"
+		{range 145 145}
+		("CW_acc_common" mils(0.44));оценка
+		("CW_acc_common_130" mils(0.44));оценка
+		{cursor "arta_heat"}
+		{cursorReloading "arta_heat_reload"}	
+		{cursor "cannon_on_heat"}
+		{cursorReloading "cannon_reload_heat"}
+		("speed" s(975))
+	}
+	{parameters "bullet100_rus_rapira fg"
+		("speed" s(663))
+		{gravity 2}	
+	}
+	{parameters "bullet100_cn_rapira apcr" 
+		("CW_APCR_damage_ST1500" penetr_2000m(195))
+		{range 145 145}
+		("CW_acc_common" mils(0.3));оценка
+		{cursor "cannon_on_apcr"}
+		{cursorReloading "cannon_reload_apcr"}
+		("speed" s(1575))
+	}
+	{parameters "bullet100_rus_rapira cm"
+		{range 145 145}
+		("CW_acc_common" mils(0.3))
+		{cursor "arta_heat"}
+		{cursorReloading "arta_heat_reload"}	
+		{cursor "cannon_on_heat"}
+		{cursorReloading "cannon_reload_heat"}
+		("speed" s(975))
+	}
+	{parameters "bullet100_cn_rapira fg"
+		("CW_acc_common" mils(0.3))
+		("speed" s(663))
+		{gravity 2}	
+	}
+	{parameters "bullet100_cn_rapira rok"
+		("damage4" a(0.3) b(0.3) c(0.3) d(0.3) e(0.3))   ; 
+		{range 1 1}
+		("CW_acc_common" mils(0))
+		{cursor "cannon_on_heat_2"}
+		{cursorReloading "cannon_reload_heat"}
+		{speed 1000}
+	}
+}
+                    

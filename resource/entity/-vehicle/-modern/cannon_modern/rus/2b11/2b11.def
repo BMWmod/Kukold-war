@@ -1,0 +1,119 @@
+{Entity
+	(include "/properties/cannon.ext")
+	(include "/properties/shadow/tank.inc"  scale(0.6))
+	{props "vehicle" "cannon" "cannon_small" "wheeled" "truck_mortar" "round_sandbag2" "vision_lev01_can"}
+	{PatherId "cannon.large"}
+	
+{collider "cannon_small"}
+{targetSelector "cannon_rocket"}
+(mod not "mp"
+	{able "emit_on_attack"}
+)
+("cw_armor_mortar")
+
+	{Volume "turret_vol"
+	{tags "turret"}
+		{component "turret"}
+	}
+	{Volume "body01_vol_gun"
+	{tags "gun"}
+		{component "gun"}
+	}
+	{Volume "body01_vol_tripod_center"
+	}
+	{Volume "body01_vol_tripod_left"
+	}
+	{Volume "body01_vol_tripod_right"
+	}
+	{Volume "body02_vol01"
+	}
+	{Volume "body02_vol02"
+	}
+	{Volume "select"
+	{able{obstacle 0} {Bullet 0} {Contact 0} {Select 1} {Blast 0} {Overlap 0} {Touch 1} {Contact_ground 0}}
+	}
+	{Volume "wheelleft"
+	{tags "wheelleft"}
+		{component "wheelleft"}
+	}
+	{Volume "wheelright"
+	{tags "wheelright"}
+		{component "wheelright"}
+	}
+		("wheel" args "wheelright")
+	("wheel" args "wheelleft")
+		("crew_wheeled_gun")
+	{boarder
+		{anm "gunner"
+			{forward	{end "pose_m5_gunlayer" 10}}
+		}
+		{anm "commander"
+			{forward	{end "pose_m5_charger" 10}}
+		}
+		{anm "driver1"
+			{forward {end "cannon_pak40_pusher_left" 10}}
+		}
+		{anm "driver2"
+			{forward {end "cannon_pak40_pusher_right" 10}}
+		}
+		{anm "seat1"
+			{forward {end "seat_passenger" 10}}
+		}
+		{anm "seat2"
+			{forward {end "seat_passenger" 10}}
+		}
+	}
+
+{extender "inventory"
+	{box
+		{Size 6 2}
+		{weight 5000}
+		{item "ammo bullet120_rus_mine bullet120_2b11_mine fg" 20}
+		;{item "ammo bullet120_2b11_mine sm" 5}
+	}
+}
+{Weaponry
+	{place "gun"
+		{Barrels 1}
+		{weapon "120mm_2b11" filling "ammo bullet120_rus_mine bullet120_2b11_mine fg" 1}
+		{foresight "foresight1"}
+	}
+}
+	{sensor 
+		{visor "main" 
+			{vision "cannon_mgun"}
+			{bone "turret"}
+		}
+		{visor "commander"
+			{vision "cannon_crew"}
+			{bone "turret"}
+		}
+	}
+	{mass 550}
+		{Extension "2b11.mdl"}
+		("missile_aimpoint_stansize")
+
+	
+	
+	{extender "cannon"
+		{animation
+			{switch "close"}
+			{move "cannon_pak40_pusher_left" "cannon_pak40_pusher_right"}
+			{aim "" ""}
+			{fire  "Squat_load_mortar_end" ""}
+			{reload  "" ""}
+		}
+		{move {obstacle "close"}}
+		{attack {obstacle "open"}}
+	}
+
+	{Chassis "track"
+		("car_trace" fx("tracewheel03") step(0.09) wheell("wlf") wheelr("wrf") bonel("FXtraceL1") boner("FXtraceR1"))
+		("loco_medium")
+    }
+	{bone "basis"
+		{limits}
+	    	{speed 0.007}
+	}
+
+}

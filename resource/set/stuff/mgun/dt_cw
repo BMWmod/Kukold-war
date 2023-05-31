@@ -1,0 +1,24 @@
+;Cold War
+{from "pattern mgun"
+	{tag "link_mmg"}
+	{filling "ammo PKM_ammo" 63}     
+	{curve "762x54rus_100"}
+	{entity "dt29_cw"}
+	{fireSound	"mgun/dt_burst_cw/"}
+	{reloadSound "dt_cw"}
+	{spreading 1.2}
+	{inventory
+		{size 5 2 }
+		{link_bone "gun_back"}
+		{weight 100}
+	}
+	("mg_range_optic")
+	{mass 10.5}
+	{recoveryTime 0.10}
+	{rechargeTime 4.5}
+	{speed 300}
+	{healthDamage     101}
+	{projectileDamageTable {18 6} {38 5} {57 4} {63 3} {71 1}}
+	("accuracy_optic_sight"  moa(3.5))
+	("accuracy_optic_sight_85"  moa(3.5))
+}

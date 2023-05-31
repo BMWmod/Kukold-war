@@ -1,0 +1,47 @@
+{actor
+	(include "/properties/Projectile.ext")
+                           (include "/properties/shadow/round.inc")
+	{collider "ammo"}
+	{extender "stuff"
+		{item "krasnopol_impactor"}
+	}
+	{props "steel" "explosive_stuff" "krasnopol_test"}
+	{Extension "krasnopol_test.mdl"}
+	{Weaponry
+	    {place "targeting_sys_anti_jamming"
+			{weapon "missilets_arc_160" filling "rus_laser_spot_aj cwps2 ammo" 200}
+			{foresight "missle_foresight"}
+			{charger "driver"}
+			{gunner "driver"}
+			{basic}
+			{SequentialAim 0}
+		}
+	}
+	{armor
+		{setting "body"
+            {thickness 30000}
+            {durability {blast {value 30000} } {pierce  {value 30000} }  }  
+            {threshold  {blast {value 30000} } {pierce  {value 30000} }}
+            {volumes "body" "select"}
+        }
+	}
+	{targetSelector "laser_guided_shell"}
+	{sensor
+		{RecognizeTime 0.01}
+		{InformRange 0.1 0.1}
+		{Visor "main"
+			{vision "missile"}
+			{bone "missle_foresight"}
+		}
+		{Visor "close"
+			{vision "missile_close"}
+			{bone "missle_foresight"}
+		}
+	}
+	{volume "cont_vol"
+		{able clear {contact}}
+		{Box 0 25 25}
+		{Bone "cont_vol"}
+		{Position 1	0	0}
+	}
+}

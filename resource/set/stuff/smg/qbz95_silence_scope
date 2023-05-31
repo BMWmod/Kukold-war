@@ -1,0 +1,22 @@
+;Cold War
+{from "qbz95_scope"
+	{tag "sd"}
+	{entity "qbz95_silence_scope"}
+	{fireSound	"smg/silent/m4a1_silenced"}
+	{fireSound	"chn/Val_burst"}
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

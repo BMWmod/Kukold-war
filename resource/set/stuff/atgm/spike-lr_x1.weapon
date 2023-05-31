@@ -1,0 +1,26 @@
+{from "pattern proj_weapon_ground"
+	{tag "gun"}
+	{filling "ammo spike-lr" 1}
+	{fillingVisible "rocket"}
+              {fireSound "bazooka/spike_shot"}
+			  {reloadSound "chn/Metis_reload"}
+	{mass 7}
+	{recoveryTime 6}
+	{rechargeTime 15}	
+	;пишут, что перезаряжается быстро, но с чего - непонятно. 
+	;Прицел-то вешается на ТПК, и при перезарядке его нужно отсоединить, заменить ТПК, присоединить.
+	{inventory {noView}}
+;	{cursor "SPIKE"}
+;	{cursorReloading "SPIKE_reload"}
+	{cursor "cannon_on_heat_2"}
+	{cursorReloading "cannon_reload_heat"}
+	;{cursor "spike"}
+	;{cursorReloading "cannon_reload_heat_timer_30"}
+	("damage" a(1) b(1) c(1) d(1) e(1))
+	{projectileDamage 0}
+    {maxRange 170}
+	{aimRange 170}
+;	{gravity 600}
+{gravity 300}
+	{speed 1000}
+}

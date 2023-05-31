@@ -1,0 +1,49 @@
+{from "pattern gun"    
+	("100-128caliber")
+	{ZeroingAccuracy 0.8 0.6 0.5}
+	{DisableRicochet}
+ 	{aimtype curved}
+	{traceFreq 0}
+	{filling "bullet120_2b11_mine"}
+	{fireSound "gun/2B11"}
+	{reloadSound "tankgun_r03"}
+	{rechargeTime 6} ;прицельная скорострельность: до 10 выстр./мин
+	{range 176 176} ; максимальная дальность стрельбы: 7100 м; 9000 м (КМ-8 «Грань»)
+	{gravity 1}
+	("speed" s(820)) 
+	{calibre 120}
+	("CW_acc_artillery" mils(8))	
+	;{cursor "cannon_on_fg_4"}
+	{cursor "mortar"}
+	{cursorReloading "cannon_reload_fg"}
+        {parameters "bullet120_2b11_mine sm"    ;зажигательна€ 3-з-2
+		{range 173 173}                 ; 5.7 км		 
+		("CW_acc_artillery" mils(8))     
+		{cursor "mortar"}
+	        {cursorReloading "cannon_reload_fg"}
+	}
+        {parameters "bullet120_USA_mine sm"
+		{range 181 181}          		; 7.2 км 
+		("CW_acc_artillery" mils(8))     
+		{cursor "mortar"}
+	        {cursorReloading "cannon_reload_fg"}
+	}
+        {parameters "bullet120_USA_mine"
+		{range 181 181}          		; 7.2 км 
+		("CW_acc_artillery" mils(8))
+		{cursor "mortar"}
+	        {cursorReloading "cannon_reload_fg"}
+	}
+        {parameters "bullet120_GER_mine"
+		{range 181 181}          		; 7.2 км - уточнить!
+		("CW_acc_artillery" mils(8))
+		{cursor "mortar"}
+	        {cursorReloading "cannon_reload_fg"}
+	}
+        {parameters "bullet120_GER_mine_l"
+		{range 181 181}          		; 7.2 км - уточнить!
+		("CW_acc_artillery" mils(8))		
+		{cursor "cannon_on_sm_0"}
+	        {cursorReloading "cannon_reload_sm"}
+	}	              	              
+}

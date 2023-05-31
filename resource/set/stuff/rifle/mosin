@@ -1,0 +1,34 @@
+
+
+;Cold War
+{from "pattern sniper_rifle"
+("scope")
+
+	{tag "sniper reliability_medium"}
+	{filling "ammo svd_ammo" 5}
+	{curve "762x54rus_85"}
+	{preloaded}
+	{mass 3.9}
+	{inventory
+		{size 5 2}
+	}
+	{entity "mosin"}
+	("marksman_range_custom" k(0.8))
+	{speed 250}                ;без оптики
+	{fireSound "rifle/mosin_03"}
+	{reloadSound "chn/rifle_bolt_five"}
+	{healthDamage 120}
+	{reloadSound "enfield"}
+	{recoveryTime 1.5}
+	("accuracy_open_sight"  moa(1.24))
+	("accuracy_open_sight_70"  moa(1.24))
+    {parameters "LPS"
+		("accuracy_open_sight"  moa(2.17))
+		("accuracy_open_sight_70"  moa(2.17))
+		{projectileDamageTable {17 6} {65 5} {80 4} {85 3} {100 1}} 
+	}
+	{cursor "mgun_on_0"}
+	{cursorReloading "cannon_reload_all"}
+	
+        
+}

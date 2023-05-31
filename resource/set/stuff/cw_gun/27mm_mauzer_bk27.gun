@@ -1,0 +1,48 @@
+{from "pattern gun_air"
+	{filling "bullet27_ger" 90}
+        
+	{fireSound "gun/GAU22"}
+	{reloadSound "61k_reload"}
+;=====================
+	{AimingTolerance 3}
+	{Automatic}
+	{recoveryTime 0.04}		;почти как у ГШ-30	
+	{rechargeTime 0.04}
+	{spreading
+		{spreadradius 	1}
+		{SpreadXYRatio	1.0}
+		{SpreadPower	1.7}
+		{BurstAccuracy 300 300 300 300 300 200 200 200 150 150 150 150 100} ; т.к. включен параметр {BurstRecoveryTime 0.5}
+	}	
+	{burst
+		{min 1}
+		{short 4 1}
+		{long 12 2}
+	}
+;=====================
+	{range 145 145}
+	("speed" s(1100))
+	{speed 180}
+	{calibre 27}
+
+	;см NAMMO-16
+	("CW_acc_common" mils(1))
+	("CW_acc_common_100" mils(1))
+	; a - 20, b - 50, c - 80, d -100, e - 120 
+;	("damage4" a(88) b(66) c(50) d(44) e(37))   
+;данных нет
+	("CW_small_AP_damage" penetr_1000m(25))     ;Кинетическая энергия снаряда отичается от ГШ-30 всего на 3%
+	;{cursor "Cobra"}
+	;{cursorReloading "zenite_reload"}
+	{cursor "cannon_on_aa_2"}
+	{cursorReloading "cannon_reload_ap"}
+	{parameters "fg"
+		;{cursor "cannon_on_fg"}
+		{cursor "cannon_on_fg_13"}
+		{cursorReloading "cannon_reload_fg"}
+	}
+}
+
+
+           
+

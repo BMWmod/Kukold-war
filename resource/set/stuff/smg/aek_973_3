@@ -1,0 +1,40 @@
+;Cold War
+{from "pattern smg"
+	{tag "reliability_medium"}
+	{filling "ammo 762" 30}
+	{curve "762x39_70"}
+	{mass 3.5}      
+	{entity "aek_973_3"}
+	{fireSound	"smg/aek_01"}
+	{reloadSound "chn/abakan"}
+	{speed 280}	
+
+	{recoveryTime 0.07}
+             ;{cursor "optic_pka"}
+	;{cursorReloading "optic_pka_reload"}
+        {rechargeTime 2.5}
+
+
+	("smg_range")
+	
+	{spreading 1
+		{BurstAccuracy 100 92 90 87 80 73}
+		{SpreadPower	1.7}
+		{SpreadXYRatio	0.5}
+		{SpreadYadjust	0.2}	
+	}
+	{burst
+		{short 2 1}
+		{long 6 2}
+{rangeKoef 0.444}
+	}
+	{healthDamage 96}
+	("holo")
+("accuracy_collimator"  moa(3.3)) ;http://world.guns.ru/assault/rus/aek-971-r.html
+	("accuracy_collimator_70"  moa(3.3)) ;http://world.guns.ru/assault/rus/aek-971-r.html
+	{spreading 
+		{BurstAccuracy 100 97 94 90 85 81 76 73 68 65}
+	}
+	{cursor "ak74"}
+	{cursorReloading "cannon_reload_all"}
+}

@@ -1,0 +1,294 @@
+{bitmap
+
+	{Axis  16 4 }
+
+	{cursor 1}
+
+	{Frame  "cannon_reload_heat_timer/400.tga" 100}
+
+	{Frame  "cannon_reload_heat_timer/359.tga" 100}
+	{Frame  "cannon_reload_heat_timer/358.tga" 100}
+	{Frame  "cannon_reload_heat_timer/357.tga" 100}
+	{Frame  "cannon_reload_heat_timer/356.tga" 100}
+	{Frame  "cannon_reload_heat_timer/355.tga" 100}
+	{Frame  "cannon_reload_heat_timer/354.tga" 100}
+	{Frame  "cannon_reload_heat_timer/353.tga" 100}
+	{Frame  "cannon_reload_heat_timer/352.tga" 100}
+	{Frame  "cannon_reload_heat_timer/351.tga" 100}
+
+	{Frame  "cannon_reload_heat_timer/350.tga" 100}
+
+	{Frame  "cannon_reload_heat_timer/349.tga" 100}
+	{Frame  "cannon_reload_heat_timer/348.tga" 100}
+	{Frame  "cannon_reload_heat_timer/347.tga" 100}
+	{Frame  "cannon_reload_heat_timer/346.tga" 100}
+	{Frame  "cannon_reload_heat_timer/345.tga" 100}
+	{Frame  "cannon_reload_heat_timer/344.tga" 100}
+	{Frame  "cannon_reload_heat_timer/343.tga" 100}
+	{Frame  "cannon_reload_heat_timer/342.tga" 100}
+	{Frame  "cannon_reload_heat_timer/341.tga" 100}
+
+	{Frame  "cannon_reload_heat_timer/340.tga" 100}
+
+	{Frame  "cannon_reload_heat_timer/339.tga" 100}
+	{Frame  "cannon_reload_heat_timer/338.tga" 100}
+	{Frame  "cannon_reload_heat_timer/337.tga" 100}
+	{Frame  "cannon_reload_heat_timer/336.tga" 100}
+	{Frame  "cannon_reload_heat_timer/335.tga" 100}
+	{Frame  "cannon_reload_heat_timer/334.tga" 100}
+	{Frame  "cannon_reload_heat_timer/333.tga" 100}
+	{Frame  "cannon_reload_heat_timer/332.tga" 100}
+	{Frame  "cannon_reload_heat_timer/331.tga" 100}
+
+	{Frame  "cannon_reload_heat_timer/330.tga" 100}
+
+	{Frame  "cannon_reload_heat_timer/329.tga" 100}
+	{Frame  "cannon_reload_heat_timer/328.tga" 100}
+	{Frame  "cannon_reload_heat_timer/327.tga" 100}
+	{Frame  "cannon_reload_heat_timer/326.tga" 100}
+	{Frame  "cannon_reload_heat_timer/325.tga" 100}
+	{Frame  "cannon_reload_heat_timer/324.tga" 100}
+	{Frame  "cannon_reload_heat_timer/323.tga" 100}
+	{Frame  "cannon_reload_heat_timer/322.tga" 100}
+	{Frame  "cannon_reload_heat_timer/321.tga" 100}
+
+	{Frame  "cannon_reload_heat_timer/320.tga" 100}
+
+	{Frame  "cannon_reload_heat_timer/319.tga" 100}
+	{Frame  "cannon_reload_heat_timer/318.tga" 100}
+	{Frame  "cannon_reload_heat_timer/317.tga" 100}
+	{Frame  "cannon_reload_heat_timer/316.tga" 100}
+	{Frame  "cannon_reload_heat_timer/315.tga" 100}
+	{Frame  "cannon_reload_heat_timer/314.tga" 100}
+	{Frame  "cannon_reload_heat_timer/313.tga" 100}
+	{Frame  "cannon_reload_heat_timer/312.tga" 100}
+	{Frame  "cannon_reload_heat_timer/311.tga" 100}
+
+	{Frame  "cannon_reload_heat_timer/310.tga" 100}
+
+	{Frame  "cannon_reload_heat_timer/309.tga" 100}
+	{Frame  "cannon_reload_heat_timer/308.tga" 100}
+	{Frame  "cannon_reload_heat_timer/307.tga" 100}
+	{Frame  "cannon_reload_heat_timer/306.tga" 100}
+	{Frame  "cannon_reload_heat_timer/305.tga" 100}
+	{Frame  "cannon_reload_heat_timer/304.tga" 100}
+	{Frame  "cannon_reload_heat_timer/303.tga" 100}
+	{Frame  "cannon_reload_heat_timer/302.tga" 100}
+	{Frame  "cannon_reload_heat_timer/301.tga" 100}
+
+	{Frame  "cannon_reload_heat_timer/300.tga" 100}
+
+	{Frame  "cannon_reload_heat_timer/259.tga" 100}
+	{Frame  "cannon_reload_heat_timer/258.tga" 100}
+	{Frame  "cannon_reload_heat_timer/257.tga" 100}
+	{Frame  "cannon_reload_heat_timer/256.tga" 100}
+	{Frame  "cannon_reload_heat_timer/255.tga" 100}
+	{Frame  "cannon_reload_heat_timer/254.tga" 100}
+	{Frame  "cannon_reload_heat_timer/253.tga" 100}
+	{Frame  "cannon_reload_heat_timer/252.tga" 100}
+	{Frame  "cannon_reload_heat_timer/251.tga" 100}
+
+	{Frame  "cannon_reload_heat_timer/250.tga" 100}
+
+	{Frame  "cannon_reload_heat_timer/249.tga" 100}
+	{Frame  "cannon_reload_heat_timer/248.tga" 100}
+	{Frame  "cannon_reload_heat_timer/247.tga" 100}
+	{Frame  "cannon_reload_heat_timer/246.tga" 100}
+	{Frame  "cannon_reload_heat_timer/245.tga" 100}
+	{Frame  "cannon_reload_heat_timer/244.tga" 100}
+	{Frame  "cannon_reload_heat_timer/243.tga" 100}
+	{Frame  "cannon_reload_heat_timer/242.tga" 100}
+	{Frame  "cannon_reload_heat_timer/241.tga" 100}
+
+	{Frame  "cannon_reload_heat_timer/240.tga" 100}
+
+	{Frame  "cannon_reload_heat_timer/239.tga" 100}
+	{Frame  "cannon_reload_heat_timer/238.tga" 100}
+	{Frame  "cannon_reload_heat_timer/237.tga" 100}
+	{Frame  "cannon_reload_heat_timer/236.tga" 100}
+	{Frame  "cannon_reload_heat_timer/235.tga" 100}
+	{Frame  "cannon_reload_heat_timer/234.tga" 100}
+	{Frame  "cannon_reload_heat_timer/233.tga" 100}
+	{Frame  "cannon_reload_heat_timer/232.tga" 100}
+	{Frame  "cannon_reload_heat_timer/231.tga" 100}
+
+	{Frame  "cannon_reload_heat_timer/230.tga" 100}
+
+	{Frame  "cannon_reload_heat_timer/229.tga" 100}
+	{Frame  "cannon_reload_heat_timer/228.tga" 100}
+	{Frame  "cannon_reload_heat_timer/227.tga" 100}
+	{Frame  "cannon_reload_heat_timer/226.tga" 100}
+	{Frame  "cannon_reload_heat_timer/225.tga" 100}
+	{Frame  "cannon_reload_heat_timer/224.tga" 100}
+	{Frame  "cannon_reload_heat_timer/223.tga" 100}
+	{Frame  "cannon_reload_heat_timer/222.tga" 100}
+	{Frame  "cannon_reload_heat_timer/221.tga" 100}
+
+	{Frame  "cannon_reload_heat_timer/220.tga" 100}
+
+	{Frame  "cannon_reload_heat_timer/219.tga" 100}
+	{Frame  "cannon_reload_heat_timer/218.tga" 100}
+	{Frame  "cannon_reload_heat_timer/217.tga" 100}
+	{Frame  "cannon_reload_heat_timer/216.tga" 100}
+	{Frame  "cannon_reload_heat_timer/215.tga" 100}
+	{Frame  "cannon_reload_heat_timer/214.tga" 100}
+	{Frame  "cannon_reload_heat_timer/213.tga" 100}
+	{Frame  "cannon_reload_heat_timer/212.tga" 100}
+	{Frame  "cannon_reload_heat_timer/211.tga" 100}
+
+	{Frame  "cannon_reload_heat_timer/210.tga" 100}
+
+	{Frame  "cannon_reload_heat_timer/209.tga" 100}
+	{Frame  "cannon_reload_heat_timer/208.tga" 100}
+	{Frame  "cannon_reload_heat_timer/207.tga" 100}
+	{Frame  "cannon_reload_heat_timer/206.tga" 100}
+	{Frame  "cannon_reload_heat_timer/205.tga" 100}
+	{Frame  "cannon_reload_heat_timer/204.tga" 100}
+	{Frame  "cannon_reload_heat_timer/203.tga" 100}
+	{Frame  "cannon_reload_heat_timer/202.tga" 100}
+	{Frame  "cannon_reload_heat_timer/201.tga" 100}
+
+	{Frame  "cannon_reload_heat_timer/200.tga" 100}
+
+	{Frame  "cannon_reload_heat_timer/159.tga" 100}
+	{Frame  "cannon_reload_heat_timer/158.tga" 100}
+	{Frame  "cannon_reload_heat_timer/157.tga" 100}
+	{Frame  "cannon_reload_heat_timer/156.tga" 100}
+	{Frame  "cannon_reload_heat_timer/155.tga" 100}
+	{Frame  "cannon_reload_heat_timer/154.tga" 100}
+	{Frame  "cannon_reload_heat_timer/153.tga" 100}
+	{Frame  "cannon_reload_heat_timer/152.tga" 100}
+	{Frame  "cannon_reload_heat_timer/151.tga" 100}
+
+	{Frame  "cannon_reload_heat_timer/150.tga" 100}
+
+	{Frame  "cannon_reload_heat_timer/149.tga" 100}
+	{Frame  "cannon_reload_heat_timer/148.tga" 100}
+	{Frame  "cannon_reload_heat_timer/147.tga" 100}
+	{Frame  "cannon_reload_heat_timer/146.tga" 100}
+	{Frame  "cannon_reload_heat_timer/145.tga" 100}
+	{Frame  "cannon_reload_heat_timer/144.tga" 100}
+	{Frame  "cannon_reload_heat_timer/143.tga" 100}
+	{Frame  "cannon_reload_heat_timer/142.tga" 100}
+	{Frame  "cannon_reload_heat_timer/141.tga" 100}
+
+	{Frame  "cannon_reload_heat_timer/140.tga" 100}
+
+	{Frame  "cannon_reload_heat_timer/139.tga" 100}
+	{Frame  "cannon_reload_heat_timer/138.tga" 100}
+	{Frame  "cannon_reload_heat_timer/137.tga" 100}
+	{Frame  "cannon_reload_heat_timer/136.tga" 100}
+	{Frame  "cannon_reload_heat_timer/135.tga" 100}
+	{Frame  "cannon_reload_heat_timer/134.tga" 100}
+	{Frame  "cannon_reload_heat_timer/133.tga" 100}
+	{Frame  "cannon_reload_heat_timer/132.tga" 100}
+	{Frame  "cannon_reload_heat_timer/131.tga" 100}
+
+	{Frame  "cannon_reload_heat_timer/130.tga" 100}
+
+	{Frame  "cannon_reload_heat_timer/129.tga" 100}
+	{Frame  "cannon_reload_heat_timer/128.tga" 100}
+	{Frame  "cannon_reload_heat_timer/127.tga" 100}
+	{Frame  "cannon_reload_heat_timer/126.tga" 100}
+	{Frame  "cannon_reload_heat_timer/125.tga" 100}
+	{Frame  "cannon_reload_heat_timer/124.tga" 100}
+	{Frame  "cannon_reload_heat_timer/123.tga" 100}
+	{Frame  "cannon_reload_heat_timer/122.tga" 100}
+	{Frame  "cannon_reload_heat_timer/121.tga" 100}
+
+	{Frame  "cannon_reload_heat_timer/120.tga" 100}
+
+	{Frame  "cannon_reload_heat_timer/119.tga" 100}
+	{Frame  "cannon_reload_heat_timer/118.tga" 100}
+	{Frame  "cannon_reload_heat_timer/117.tga" 100}
+	{Frame  "cannon_reload_heat_timer/116.tga" 100}
+	{Frame  "cannon_reload_heat_timer/115.tga" 100}
+	{Frame  "cannon_reload_heat_timer/114.tga" 100}
+	{Frame  "cannon_reload_heat_timer/113.tga" 100}
+	{Frame  "cannon_reload_heat_timer/112.tga" 100}
+	{Frame  "cannon_reload_heat_timer/111.tga" 100}
+
+	{Frame  "cannon_reload_heat_timer/110.tga" 100}
+
+	{Frame  "cannon_reload_heat_timer/109.tga" 100}
+	{Frame  "cannon_reload_heat_timer/108.tga" 100}
+	{Frame  "cannon_reload_heat_timer/107.tga" 100}
+	{Frame  "cannon_reload_heat_timer/106.tga" 100}
+	{Frame  "cannon_reload_heat_timer/105.tga" 100}
+	{Frame  "cannon_reload_heat_timer/104.tga" 100}
+	{Frame  "cannon_reload_heat_timer/103.tga" 100}
+	{Frame  "cannon_reload_heat_timer/102.tga" 100}
+	{Frame  "cannon_reload_heat_timer/101.tga" 100}
+
+	{Frame  "cannon_reload_heat_timer/100.tga" 100}
+
+	{Frame  "cannon_reload_heat_timer/059.tga" 100}
+	{Frame  "cannon_reload_heat_timer/058.tga" 100}
+	{Frame  "cannon_reload_heat_timer/057.tga" 100}
+	{Frame  "cannon_reload_heat_timer/056.tga" 100}
+	{Frame  "cannon_reload_heat_timer/055.tga" 100}
+	{Frame  "cannon_reload_heat_timer/054.tga" 100}
+	{Frame  "cannon_reload_heat_timer/053.tga" 100}
+	{Frame  "cannon_reload_heat_timer/052.tga" 100}
+	{Frame  "cannon_reload_heat_timer/051.tga" 100}
+
+	{Frame  "cannon_reload_heat_timer/050.tga" 100}
+
+	{Frame  "cannon_reload_heat_timer/049.tga" 100}
+	{Frame  "cannon_reload_heat_timer/048.tga" 100}
+	{Frame  "cannon_reload_heat_timer/047.tga" 100}
+	{Frame  "cannon_reload_heat_timer/046.tga" 100}
+	{Frame  "cannon_reload_heat_timer/045.tga" 100}
+	{Frame  "cannon_reload_heat_timer/044.tga" 100}
+	{Frame  "cannon_reload_heat_timer/043.tga" 100}
+	{Frame  "cannon_reload_heat_timer/042.tga" 100}
+	{Frame  "cannon_reload_heat_timer/041.tga" 100}
+
+	{Frame  "cannon_reload_heat_timer/040.tga" 100}
+
+	{Frame  "cannon_reload_heat_timer/039.tga" 100}
+	{Frame  "cannon_reload_heat_timer/038.tga" 100}
+	{Frame  "cannon_reload_heat_timer/037.tga" 100}
+	{Frame  "cannon_reload_heat_timer/036.tga" 100}
+	{Frame  "cannon_reload_heat_timer/035.tga" 100}
+	{Frame  "cannon_reload_heat_timer/034.tga" 100}
+	{Frame  "cannon_reload_heat_timer/033.tga" 100}
+	{Frame  "cannon_reload_heat_timer/032.tga" 100}
+	{Frame  "cannon_reload_heat_timer/031.tga" 100}
+
+	{Frame  "cannon_reload_heat_timer/030.tga" 100}
+
+	{Frame  "cannon_reload_heat_timer/029.tga" 100}
+	{Frame  "cannon_reload_heat_timer/028.tga" 100}
+	{Frame  "cannon_reload_heat_timer/027.tga" 100}
+	{Frame  "cannon_reload_heat_timer/026.tga" 100}
+	{Frame  "cannon_reload_heat_timer/025.tga" 100}
+	{Frame  "cannon_reload_heat_timer/024.tga" 100}
+	{Frame  "cannon_reload_heat_timer/023.tga" 100}
+	{Frame  "cannon_reload_heat_timer/022.tga" 100}
+	{Frame  "cannon_reload_heat_timer/021.tga" 100}
+
+	{Frame  "cannon_reload_heat_timer/020.tga" 100}
+
+	{Frame  "cannon_reload_heat_timer/019.tga" 100}
+	{Frame  "cannon_reload_heat_timer/018.tga" 100}
+	{Frame  "cannon_reload_heat_timer/017.tga" 100}
+	{Frame  "cannon_reload_heat_timer/016.tga" 100}
+	{Frame  "cannon_reload_heat_timer/015.tga" 100}
+	{Frame  "cannon_reload_heat_timer/014.tga" 100}
+	{Frame  "cannon_reload_heat_timer/013.tga" 100}
+	{Frame  "cannon_reload_heat_timer/012.tga" 100}
+	{Frame  "cannon_reload_heat_timer/011.tga" 100}
+
+	{Frame  "cannon_reload_heat_timer/010.tga" 100}
+
+	{Frame  "cannon_reload_heat_timer/009.tga" 100}
+	{Frame  "cannon_reload_heat_timer/008.tga" 100}
+	{Frame  "cannon_reload_heat_timer/007.tga" 100}
+	{Frame  "cannon_reload_heat_timer/006.tga" 100}
+	{Frame  "cannon_reload_heat_timer/005.tga" 100}
+	{Frame  "cannon_reload_heat_timer/004.tga" 100}
+	{Frame  "cannon_reload_heat_timer/003.tga" 100}
+	{Frame  "cannon_reload_heat_timer/002.tga" 100}
+	{Frame  "cannon_reload_heat_timer/001.tga" 100}
+}

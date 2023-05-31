@@ -1,0 +1,7 @@
+;Cold War
+{from "mg5a1"
+	{entity "h&k_mg5a1_zeiss_zo_4x30i"}
+	{curve "762x51nato_100"}
+	("mg_range_optic")
+	("accuracy_optic_sight"  moa(3))
+}

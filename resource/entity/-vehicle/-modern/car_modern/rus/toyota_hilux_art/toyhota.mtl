@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/model/toyhota"}
+	{bump "$/model/toyhota_bp"}
+	{specular "$/model/toyhota_sp"}
+	{color "229 229 229 25"}
+	{blend none}
+}

@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "$/model/mig-29/kab500kr"}
+	{blend none}
+}

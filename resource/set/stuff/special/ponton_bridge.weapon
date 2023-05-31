@@ -1,0 +1,36 @@
+{from "pattern proj_weapon"
+;{weapon_bombing	
+	{tag "gun" "weapon"}
+	{inventory
+		{noView}
+	}
+	{preloaded}
+	{ammoLocked}
+	{filling "ammo ponton_pmp" 1}
+	{fillingVisible "pmp_ammo_00"}	
+	{foresight "Foresight1"}
+	{fireSound "none"}
+	{mass 5}
+	{speed 1}
+	{gravity 10}
+	{recoveryTime 10}
+	{rechargeTime 10}
+	{inventory {noView}}
+	{maxRange 15}	
+	{aimRange 15}
+	{spreading 
+		{radiusTable 
+			{0 0}
+			{0.1 9}
+			{20 9}
+		}
+		{SpreadXYRatio	1.0}
+		{SpreadRadius 9}
+
+	}
+	;{cursor "zenite_on"}
+	;{cursorReloading "zenite_reload"}
+	{cursor "attack"}
+	{cursorReloading "cannon_reload_all"}
+	;{cursorReloading "cannon_reload_all_timer_210"}
+}

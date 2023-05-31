@@ -1,0 +1,159 @@
+{tags
+	{"00" "Hello! So you are the 448th brigade, we are waiting for you. Password?"}
+	{"01" "Spring."}
+	{"02" "Recall - seal. "}
+	{"03" "That's right. Captain Mishin, right? Nice to meet you. How's the situation in the town?"}
+	{"04" "The situation is so-so. The 81st Rifle Divisions are battered at Matanzas. It's a miracle they managed to hold out for these five days. There are only a few squads in the town, in the eastern part, under the command of Lieutenant Gustavo Cano de Velasco."}
+	{"05" "You arrived just in time, the city cannot be held without motorized riflemen. My reconnaissance group is watching the approaches in the southern part..."}
+	{"06" "Coming, commander! Airborne assault!"}
+	{"07" "Looks like time's up. Mishin, you're under my command. Scout enemy forces in the southeast and report back."}
+	{"08" "Yes, the Yankees are active. They have helicopters, it will be difficult for us to counter the air strikes."}
+	{"09" "I ​​bet we can't wait for fighters?"}
+	{"10" "I'm afraid that all hope is in the military air defense. Grishchenko, where is Arkhipov? We could use help right now."}
+	{"11" "At least half an hour, Vasily Semyonovich. They're only passing Kardenos, 17 kilometers in a straight line."}
+	{"12" "I've got a couple of MANPADS in the truck, and six missiles. Not many, I took them to tickle a Chinook just in case, no more."}
+	{"13" "Very well. Let's get to work then. The enemy can try to capture and hold the bridge, but first they'll have to capture the western part of the city."}
+	{"14" "Or the Yankees will try to break through the southern road. There's a second BTG on the way, but they don't know it. Arkhipov will deal with them, but that will slow him down."}
+	{"15" "Our task is to prevent the passage of enemy troops through the city to the east, if possible, to block the southern road as well. Perhaps some squads of the 81st divisions, Cubans, will come."}
+	{"16" "Comandante Doronin, I must take my men across the river. Further defense of the western part of the city will only result in needless casualties."}
+	{"17" "Gustavo, the bridge and the river is the last place where you can effectively defend yourself. You can retreat, but you must hold the highway."}
+	{"18" "My men and I will do our best, but we won't last long without heavy equipment. I hope your soldiers arrive in time."}
+	{"19" "Now, guys, the Cubans are retreating to the right bank. The Yankees will try to break through the highway, or cross the river in shallow water. You can't let them through to the east, there will be coastal missile systems deployed, and their guards will not be able to repel a serious attack."}
+	{"20" "Vasily Semyonovich, Arkhipov reports that he has not yet taken up his positions."}
+	{"21" "Yes, I know... And the Cubans need time to regroup. No, we can't retreat to the right bank yet, we should gain a foothold in the southern position where Mishin dug in."}
+	{"22" "Vasily Semyonovich, Arkhipov reports that he is ready for defense."}
+	{"23" "Yes. If we leave the southern quarter, then some of the Americans will try to go around us on the left - and there they will run into Arkhipov. It will delay him, but it will be easier for us."}
+	{"24" "The Americans turning south before crossing the river will be stopped by Arkhipov. My headache is heading east. But the more work Arkhipov has in the south, the later he will join me here."}
+	{"25" "Looks like the enemy's first attacks weren't successful. Let's see what they show next."}
+	{"26" "According to divisional intelligence, the Yankees shouldn't have much offensive potential left. Hold on, Arkhipov is almost there."}
+	{"27" "Vasily Semyonovich, Arkhipov is in touch. Ready to fight!"}
+	{"28" "Yudin is on the line! The second BTG has arrived!"}
+	{"29" "Damn, you missed them!"}
+	{"30" "Comandante Gustavo! Comandante Gustavo! On call Lieutenant Navarro, 12th Panzer Regiment. I managed to get my men out of Matanzas, but we were cut off."}
+	{"31" "Lieutenant, you're very welcome, we could use some help here. Where are you, and when can you get to our positions?"}
+	{"32" "I'm west of the city, but I saw helicopters circling over the village. If there's a landing force, I can't break through, and I'll have to abandon the tank - there's no fuel."}
+	{"33" "Gustavo, we can't remove significant forces from the defense. Mishin, this is a job for you - take the lieutenant and his tank along the southern outskirts of the village before he is spotted and covered from the air. And you heard - the tank needs fuel."}
+	{"34" "Oh, Commander, you're asking tasks. All right, lads, we're working."}
+	{"35" "Comandante Doronin, they've taken the entire left bank, I can't hold them back! I'm withdrawing my troops!"}
+	{"36" "Gustavo, dismiss! Dismiss! Hold position!"}
+	{"37" "Damn Cubans! Now it's going to be really hard."}
+	{"38" "Thank you, Comandante! These soldiers owe you their lives!"}
+	{"39" "If you pass Camaguey, I will prepare for you and your soldiers the best Vaca Frita in Cuba!"}
+	{"40" "Attention, Javelin on the roof."}
+	{"41" "It must be taken down, otherwise the tank will not pass."}
+	{"42" "Hey! 12th tank! Don't shoot, we're Russians, reconnaissance team. Follow me, we'll take you to our positions."}
+	{"43" "Comandante Gustavo, we failed, more than half of my men died. I'm sorry I let you down."}
+	{"44" "Comandante Gustavo, Lieutenant Navarro has been killed, we have heavy casualties. I'll try to get the survivors out."}
+	{"45" "Everyone, it's time to move!"}
+	{"46" "Soldiers, follow me!"}
+	{"47" "Commander, landing! From the coast!"}
+	{"48" "That's just if not enough... I think they want to take control of the highway from the east as well, then it will be much easier for them to cross the river."}
+	{"49" "Fortunately, we didn't miss the landing. Now it would be best to establish defenses around the hotel complex, preventing the enemy from futher landing."}
+	{"50" "Nevertheless, our main task is to keep the enemy here until Arkhipov arrives with tanks. For successful defense against the landing, the hotel complex can be surrendered, the main thing is not to let them into the city blocks and maintain fire control over the road."}
+	{"51" "Semenych, can we quickly kick them out of the hotel? The first success for the landing, but if they have to land under fire, they will not have a chance to gain a foothold again."}
+	{"52" "Risky - the hotel complex will be difficult to take with small forces, and we need to seal the road."}
+	{"53" "Look: there's a bare field between the hotel and the highway. If we get fire control from the buildings along the highway, we'll cut off both it and the enemy's direction of attack."}
+	{"54" "No, that won't do, we need fire control on the road. We need to recapture the captured quarter."}
+	{"55" "Vasily, now landing in the hotel is a threat anymore- the main forces are exhausted, and Arkhipov has approached us with tanks. I think now they can be smoked out."}
+	{"56" "Great, now the brigade can strike at full strength. Comrade officers, I remind you of the combat mission: soon the coastal complexes will be deployed behind our backs, so we will push the Yankees back to Matanzas."}
+	{"57" "Doronin, let's start from the city. I'm afraid that our tanks will be set on fire from the air, but in urban areas it is much more difficult to do this. And we will answer by MANPADS from the roofs."}
+	{"58" "Let's do that. Move!"}
+	{"59" "The city is ours!"}
+	{"60" "Let's push, there's not much left!"}
+	{"61" "We've taken the Eastern position!"}
+	{"62" "Commander, there's some interesting armored car here, it looks like a command vehicle!"}
+	{"63" "\"Interesting armored car\"? The Marines use the LAV-25C2 CV."}
+	{"64" "Not the best place for the KShM. But it's worth destroying or capturing this \"headquarters\"."}
+	{"65" "Comrade Lieutenant Colonel, we've inspected the command vehicle. It's not headquarters, it's just observers."}
+	{"66" "I see. I didn't expect headquarters right on the front line. Perhaps the Yankees were just expecting a landing here and decided to find out who hit them in the teeth. Get back, the city is still under attack."}
+	{"67" "Commander, the enemy headquarters armored car has burned out, you can't get anything out of there."}
+	{"68" "To hell with it, get back to brigade positions."}
+	{"69" "Doronin, Arkhipov is on the line! Hold on, the tanks will be here soon!"}
+	{"70" "BTG-3 travel distance: %1% km."}
+	{"71" "Enemy is attacking: "}
+	{"72" "Comrade Lieutenant Colonel, Major Gromov, 52nd Airborne Division, got in touch."}
+	{"73" "Gromov? I remember him, we met near Poltava. Good to hear when  old freind is alive. What's with him?"}
+	{"74" "His paratroopers have finally cleared the Juan Gualberto Gómez airfield and are ready to assist us."}
+	{"75" "Is that so? Tell them the remnants of the Marines that attacked us are retreating down the Via Blanca. He can try to intercept them at Carbonera or further to the west. And we'll be there by tomorrow morning."}
+	{"76" "All right, I'll do it! Commander, what would you like to eat? I just asked around - the local chef from Playa Larga will make ajiaco instead of stew."}
+	{"77" "Yes, perhaps. Send a dispatch to Gromov and go to the chef, let him cook for the whole group. Wait a minute, but you don't know Spanish?"}
+	{"78" "When I can have the pork with vegetables and spices instead of dry, I know. I'll do everything, don't worry!"}
+	{"79" "I ​​don't think there will be any more attacks today. Mishin, position yourself with the first battalion group, BTG-3 will relieve your men. Gustavo, how are your men? Do you need medical supplies?"}
+	{"80" "Thank you, we have a lot of wounded, the medicines will come in handy. Senors, I'm grateful for your help, but I have to leave you for a while. The city has suffered a lot, I need to find out what we can do for the locals."}
+	{"81" "Well, my boys will join your fighters. Nice to meet you too."}
+	{"82" "Alexey, outside the battle this officialdom is not neccesary. The brigade commander said that your group is now assigned to the brigade, so we will work together. Now this one is waiting for us, what was it... The pork that Grishchenko promised."}
+	{"83" "Grishchenko is your radio operator?"}
+	{"84" "Yes, from day one. I got a good guy, walked with me from the Polish border to Voronezh, and from there to France. And you must have seen a lot over the years?"}
+	{"85" "Anything happened, but never fatal."}
+	{"86" "That's right. All right, time to brigade headquarters. Tomorrow we're back in action."}
+	{"87" "Air! Helicopters!"}
+	{"88" "Cuban Squad"}
+	{"89" "Cuban infantry unit on BTR-60"}
+	{"90" "Hello Commander. I expect the enemy to move along the Via Blanca Coastal Highway."}
+	{"91" "My soldiers have taken up positions in the western part of the city, but we have few anti-tank weapons and equipment. We will need your support."}
+	{"92" "South of town is out of danger for now, but not for long."}
+	{"93" "I only have one squad in the east, in case some vehicles break through."}
+	{"94" "Fortunately, we managed to get the civilians to Cardenas and Santa Marta Airport."}
+	{"art" "Artillery strike"}
+	{"art_close_enough" "Understood, I give the coordinates to the battery. We are waiting for the presents - three volleys."}
+	{"art_too_far" "Comrade Lieutenant Colonel, it's too far, impossible to pinpoint the coordinates. A scout or a drone is needed to go over at least three kilometers ..."}
+	{"bmp_equal" "Affirmative, enough space for IFVs, but without excess."}
+	{"bmp_not_enough" "These IFVs can fit, comrade commander, we even have more space."}
+	{"bmp_too_much" "Comrade commander, the number of IFVs is too large. Pankratov doesn't have enough parking space to place them."}
+	{"btg1" "BTG-1"}
+	{"btg1_hint" "Call the first battalion tactical group"}
+	{"btg2" "BTG-2"}
+	{"btg2_hint" "Call the second battalion tactical group"}
+	{"btg3" "BTG-3"}
+	{"btg3_hint" "Call the third battalion tactical group"}
+	{"btr_equal" "Affirmative, enough space for APCs, but without excess."}
+	{"btr_not_enough" "These APCs can fit, comrade commander, we even have more space."}
+	{"btr_too_much" "Comrade commander, the number of APCs is too large. Pankratov doesn't have enough parking space to place them."}
+	{"cannon_equal" "Affirmative, enough space for mounted guns, but without excess."}
+	{"cannon_not_enough" "These mounted guns can fit, comrade commander, we even have more space."}
+	{"cannon_too_much" "Comrade commander, the number of mounted guns is too large. We don't have enough parking space to place them."}
+	{"car_equal" "Affirmative, enough space for cars, but without excess."}
+	{"car_not_enough" "These cars can fit, comrade commander, we even have more space."}
+	{"car_too_much" "Comrade commander, the number of cars is too large. Pankratov doesn't have enough parking space to place them."}
+	{"date" "1 September 2019, 11:25"}
+	{"heli_equal" "Affirmative, enough pads for helicopters, but without excess."}
+	{"heli_not_enough" "These helicopters can fit, comrade commander, we even have spare pad."}
+	{"heli_too_much" "Comrade commander, the number of helicopters is too large. Fomin doesn't have enough helipads to land them."}
+	{"mission_end" "End mission"}
+	{"name" "Operation \"Dawn\""}
+	{"name_big" "Operation \"Dawn\""}
+	{"no_forces" "448 brigade was broken and could not complete the task."}
+	{"outro_completed" "Being able to stop the advance of the enemy near Matanzas, the 448th brigade solved two important tasks at once. The paratroopers defending at the Juan Gualberto Gomez airfield received a much-needed supply route, and the coastal anti-ship missile systems were able to deploy safely behind the backs of Doronin’s fighters and prevent the delivery of reinforcements to the US Marines in the Havana area. Mission accomplished."}
+	{"outro_failed" "The breakthrough of the US Marines along the northern coast was a heavy blow to the expeditionary forces in Cuba. The landing party at the Juan Gualberto Gómez airfield was destroyed, the 448th brigade fell back to Colon, and the US landing craft were able to ensure the continuous delivery of reinforcements to the Havana area. Mission failed."}
+	{"place" "Boca de Camarioca, province of Matanzas, north coast of Cuba."}
+	{"tanks_equal" "Affirmative, enough space for tanks, but without excess"}
+	{"tanks_not_enough" "These tanks can fit, comrade commander, we even have more space."}
+	{"tanks_too_much" "Comrade commander, the number of tanks is too large. We don't have enough parking space to place them."}
+	{"task_boat" "Prevent the enemy from capturing the block along the highway (up to CP +30 UP +1)."}
+	{"task_counter" "Counterattack and knock the enemy out of Boca Kamarioka (CP +40 UP +2)"}
+	{"task_counter2" "Push the enemy out of the construction area in the west of the city (CP +20 UP +1)"}
+	{"task_delay" "Detain the forward detachments of the USMC, preventing them from penetrating the eastern part of the city (CP +20 UP +1)"}
+	{"task_doronin" "Doronin and Grishchenko must survive"}
+	{"task_doronin_fail" "Lieutenant Colonel Vasily Doronin is killed."}
+	{"task_doronin_fail1" "Junior Sergeant Viktor Grishchenko is killed."}
+	{"task_lavcc" "Destroy the crew of the LAV-25C2 CV, inspect the vehicle (CP +20 UP +1)"}
+	{"task_main" "Prevent 30 enemy soldiers from passing east (CP +40 UP +2)"}
+	{"task_main_fail" "Despite the resistance of the 448th brigade, the enemy led significant forces through Matanzas and Boca de Camarioca and managed to gain a foothold on the northern coast up to the Varadero Spit. Mission failed."}
+	{"task_resque" "Extract at least half of the encircled Cubans to the player's positions (CP +30 UP +2)"}
+	{"task_resque_desc" "Surrounded Cubans will go for a breakthrough."}
+	{"task_resque_reinf" "Breakthrough"}
+	{"timer_delay" "Hold the enemy in the western part of the city: "}
+	{"transfer_bmp" "IFV amount"}
+	{"transfer_bmp_hint" "Check IFV amount"}
+	{"transfer_btr" "APC amount"}
+	{"transfer_btr_hint" "Check APC amount"}
+	{"transfer_cannon" "Mounted weapons amount"}
+	{"transfer_cannon_hint" "Check mounted weapons amount"}
+	{"transfer_car" "Cars amount"}
+	{"transfer_car_hint" "Check cars amount"}
+	{"transfer_heli" "Helicopters amount"}
+	{"transfer_heli_hint" "Check helicopters amount"}
+	{"transfer_tank" "Tanks amount"}
+	{"transfer_tank_hint" "Check tanks amount"}
+	{"win" "Из дневника Доронина: \"September 2, 2019. Cuba is so colorful! Houses and cars from the sixties, a real jungle with parrots and lizards, tropical fruits. The country is almost not affected by the war, the fighting has not been going on for even a week. Our job, however, are dusty roads, heat under 30 degrees with great humidity. 800 km through the jungle - this is hard. We did not reach Matanzas in time, but at least part of the northen coast is ours.\"."}
+}

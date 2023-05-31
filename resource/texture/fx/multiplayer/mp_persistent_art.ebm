@@ -1,0 +1,7 @@
+{bitmap
+	{Axis  64 128 }
+	{Filtering  1 }
+	{AlphaChannel  1 }
+	{Blend  Alpha }
+	{Frame  "mp_persistent_art.dds"}
+}

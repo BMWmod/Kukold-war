@@ -1,0 +1,21 @@
+;Cold War
+{from "pattern mgun"
+	{tag "not_for_human link_mmg"}
+	{filling "ammo 762Nato" 100}
+	{curve "762x51nato_100"}
+	{entity "M240_optic"}
+	{fireSound	"mgun/M240"}
+	{reloadSound "M240_reload"}
+	{inventory
+		{size 5 2 }
+	}
+	{mass 10.1}
+	{recoveryTime 0.08}   ;три режима скорострельности - на спареных М240 - М240C , M240D и М240G.Второй режим - сред. 800в/м.
+	{rechargeTime 4.5}
+	{healthDamage     92}
+	{speed 290}
+	("mg_range_optic")
+	("accuracy_optic_sight"  moa(2))
+	("accuracy_optic_sight_85"  moa(2))
+}
+;https://fnamerica.com/products/machine-guns/fn-m240c/

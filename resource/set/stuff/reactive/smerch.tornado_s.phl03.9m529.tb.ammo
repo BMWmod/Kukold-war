@@ -1,0 +1,27 @@
+{bullet
+	
+	{tag "big" "shell" "fg" "bomb" "no_ricochet" "fragmentary" "fx_tos"}
+	{tag "fg_150_shell"} ; только для ammo.set
+	{inventory
+		{size 7 2}
+		{weight 100}
+	}	
+	{mass 810}
+	{entity "9m529"}
+	{view "9m529_view"
+		{tail "rocket_smokebig_short" "tail"}
+	}
+	{detonationThickness 1}
+	{applyProjectile}
+	;ВВ 100кг.100 x 1 = 90кг к расчету термобар.
+	{tag "he_over30"}
+	{damage add blastwave {energy 1.2} {area 42.8 49.2}}
+	{damage add blastwave {energy 2.5} {area 23.7 27.3}}
+	{damage add blastwave {energy 6.5} {area 18.1 20.9}}
+	{damage add blastwave {energy 11} {area 7.7 8.8}}
+	{damage add fire
+			{radius 33}
+			{heating 11}
+			{time 6}
+	}
+}

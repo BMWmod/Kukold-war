@@ -1,0 +1,146 @@
+{"mgun" from weapon
+	{item "skill_mgun"}
+	
+(define "accuracy"
+{accuracy (* 0.6 %a)}
+)
+(define "accuracy_v"
+{accuracy (* 0.8 %a)}
+)
+    {level "lvl_1"
+        {stand
+            ("accuracy" a(0.24))
+        }
+        {squat
+            ("accuracy" a(0.28)) 
+        }
+        {crawl
+            ("accuracy" a(0.45)) 
+        }
+        {cover
+            ("accuracy" a(0.41))
+        }
+		{vehicle
+			("accuracy_v" a(0.66))
+		}
+    }
+    {level "lvl_2"
+        {stand
+            ("accuracy" a(0.28))
+        }
+        {squat
+            ("accuracy" a(0.34))
+        }
+        {crawl
+            ("accuracy" a(0.56))
+        }
+        {cover
+            ("accuracy" a(0.58))
+        }
+		{vehicle
+			("accuracy_v" a(0.89))
+		}
+    }
+    {level "lvl_3"
+        {stand
+            ("accuracy" a(0.32))
+        }
+        {squat
+            ("accuracy" a(0.39))
+        }
+        {crawl
+            ("accuracy" a(0.66))
+        }
+        {cover
+            ("accuracy" a(0.65))
+        }
+		{vehicle
+			("accuracy_v" a(1.06))
+		}
+    }
+    {level "lvl_4"
+        {stand
+            ("accuracy" a(0.36))
+        }
+        {squat
+            ("accuracy" a(0.43))
+        }
+        {crawl
+            ("accuracy" a(0.75))
+        }
+        {cover
+            ("accuracy" a(0.75))
+        }
+		{vehicle
+			("accuracy_v" a(1.25))
+		}
+    }
+;{level "lvl_1"          бекап, если time to kill не понравится
+;    {stand
+;        ("accuracy" a(0.18))
+;    }
+;    {squat
+;        ("accuracy" a(0.26)) 
+;    }
+;    {crawl
+;        ("accuracy" a(0.72)) 
+;    }
+;    {cover
+;        ("accuracy" a(0.7))
+;    }
+;	{vehicle
+;		("accuracy_v" a(0.7))
+;	}
+;}
+;{level "lvl_2"
+;    {stand
+;        ("accuracy" a(0.26))
+;    }
+;    {squat
+;        ("accuracy" a(0.36))
+;    }
+;    {crawl
+;        ("accuracy" a(1.02))
+;    }
+;    {cover
+;        ("accuracy" a(1))
+;    }
+;	{vehicle
+;		("accuracy_v" a(1))
+;	}
+;}
+;{level "lvl_3"
+;    {stand
+;        ("accuracy" a(0.38))
+;    }
+;    {squat
+;        ("accuracy" a(0.5))
+;    }
+;    {crawl
+;        ("accuracy" a(1.46))
+;    }
+;    {cover
+;        ("accuracy" a(1.42))
+;    }
+;	{vehicle
+;		("accuracy_v" a(1.42))
+;	}
+;}
+;{level "lvl_4"
+;    {stand
+;        ("accuracy" a(0.54))
+;    }
+;    {squat
+;        ("accuracy" a(0.76))
+;    }
+;    {crawl
+;        ("accuracy" a(2))
+;    }
+;    {cover
+;        ("accuracy" a(2))
+;    }
+;	{vehicle
+;		("accuracy_v" a(2))
+;	}
+;}
+}

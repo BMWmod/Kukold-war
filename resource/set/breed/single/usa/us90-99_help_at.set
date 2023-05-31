@@ -1,0 +1,23 @@
+{breed
+	{skin "cw_us2003_ucp"}
+	{portrait "_new/usa/inf"}
+	{icon "us_army_javelin"}
+	{icon_priority 2}
+	{nationality usa}
+	{armors
+		{head pasgt_helmet_ucp}
+	}
+
+	(include "perks_generic.inc")
+	("traits_army_bazooker")
+	{inventory
+		{item "otv_gp"}
+		{item "smoke grenade"}
+		{item "m61 grenade" 2}
+		{item "m16a2" filling "556nato ammo" 30}
+		{item "m47dragon_rock ammo" 2}
+		{item "556nato ammo" 120}
+		{item "bandage" 10}
+		{in_hands 3}
+	}
+}

@@ -1,0 +1,49 @@
+;Exported by: Timosh
+;Date:        Wed Jun 15 07:57:31 2022
+;File:        G:\?????? ? Pheonix\??????????????\??? ??????\??????\????????? ???????\????????????\hedgevolume.max
+{Skeleton
+	{animation
+		;{sequence "up" {speed 0.1} {resume}}
+	}
+	{bone "basis"
+		{parameters "SteerMax=0.1;Wheelradius=0.01;"}
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "body"
+			{Position 350.0	0.0	0.0}
+			{VolumeView "body.ply"}
+		}
+		{bone "foresight1"
+			{Orientation
+			    0	0	0
+			    0	0	0
+			    0	0	0
+		    }
+		}
+		{bone "foresight2"
+			{Orientation
+			    0	0	0
+			    0	0	0
+			    0	0	0
+		    }
+		}
+		{bone "foresight3"
+			{Orientation
+			    0	0.5	0
+			    0	0	0
+			    0	0	0
+		    }
+		}
+		{bone "foresight4"
+			{Orientation
+			    0	-0.5	0
+			    0	0	0
+			    0	0	0
+		    }
+		}
+		
+	}
+}

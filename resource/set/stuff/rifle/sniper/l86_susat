@@ -1,0 +1,44 @@
+;Addon
+{from "pattern sniper_rifle"
+("scope")
+
+	{tag "reliability_medium"}
+	{filling "ammo 556Nato" 30} ;556
+	{curve "556_100"}
+	{mass 6.58} 
+	{entity "l86_susat"}
+	{special
+		{mode aim}
+		{PrepareTime 6.0}
+		{PrepareCursor "aimed_shot"}
+		;{damage 1} ; damage *= x
+		{accuracy 1.2} ; aim_range *= x
+		;{throw_off}
+	}
+
+	{fireSound	"smg/l85a2"}
+	{reloadSound "L85A2_Reload"}
+	{speed 280}
+	{inventory
+		{size 4 2}
+	}
+	
+
+	{recoveryTime 0.09}	
+	{rechargeTime 3}
+
+	("marksman_range")
+	{cursor "sniper"}
+	{cursorReloading "cannon_reload_all"}
+        
+        {Automatic}
+
+	{burst
+		{short 4 2}
+		{long 12 4}
+	}
+	{healthDamage 76}
+        ("accuracy_optic_sight"  moa(2))	
+        ("accuracy_optic_sight_77"  moa(2))	
+              
+}

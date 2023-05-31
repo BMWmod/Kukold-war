@@ -1,0 +1,110 @@
+{tags
+	{"00" "Militants noticed us!"}
+	{"01" "Americans noticed us!"}
+	{"02" "Night sabotage in the port caused confusion among our enemies."}
+	{"03" "It is time to beat the traitors out of Latakia! In the name of Syrian people!"}
+	{"04" "The main assault direction of our group will be to Al-Zirah square. We will move along the street Khalap."}
+	{"05" "We've stormed the enemy's checkpoint on the left flank! We send you reinforcements in this direction."}
+	{"06" "Militants knocked out of residential areas on the left flank."}
+	{"07" "Barricades on the main street are captured!"}
+	{"08" "We broke through the first line of defense of these pathetic traitors!"}
+	{"09" "Americans still hinder our advancement into the city center! It is necessary to suppress their position on the right flank!"}
+	{"10" "But we cannot move further to the square until we clear the flanks!"}
+	{"11" "Shaitan !! Traitors have tanks!"}
+	{"12" "Militants have pulled heavy armor into the city! But still it does not help them."}
+	{"13" "Our troops began storming the city from other directions! Judging by the incessant cannonade, they are in fierce battle! "}
+	{"14" "In order not to get into the environment, you will have to clean the adjacent neighborhoods."}
+	{"15" "On the right flank, the Yankees deployed their transit base. In connection with the latest events they went into deep defense. For our progress it is necessary to suppress their positions."}
+	{"16" "Fine! We can move on!"}
+	{"17" "We have casualities! Need for reinforcements!"}
+	{"18" "The American base is secure!"}
+	{"19" "I understand you! We send to you a reserve!"}
+	{"20" "It's time to storm the area of Al Zira!"}
+	{"21" "Militants are moving to the second line of defense."}
+	{"22" "The square is ours! But do not relax until there is an order to advance - dig in, replenish the ammunition!"}
+	{"23" "We were informed that a column of US armored vehicles is approaching from the west. Get ready for Al Zirah's defense! "}
+	{"24" "Prepare defences in the blocks on the flanks and do not allow the enemy to break through! If this happens, then your forward troops are at risk of being surrounded!"}
+	{"25" "To develop the success of an offensive operation, we will send you in support of a tank and a truck with ammunition! As well as infantry detachments to protect the flanks!"}
+	{"26" "Breakthrough on the left flank! We're in risk to be cut off from the main forces! Regain control of this area!"}
+	{"27" "Break on the right flank! We're in risk to be cut off from the main forces! Regain control of this area!"}
+	{"28" "Tanks! Coming from the west to the square! "}
+	{"29" "A detachment of infantry was sent along the left flank."}
+	{"30" "A reinforcement consisting of a tank and an infantry squad was sent down the main street."}
+	{"31" "A reinforcement consisting of Shilka and an infantry detachment was sent to the right flank."}
+	{"32" "I order to defend the area! "}
+	{"33" "Wonderful! We withstood the American attack and they did not break through our positions!"}
+	{"34" "It's time to move on!"}
+	{"35" "The enemy periodically attacks, so watch your positions and do not allow a breakthrough."}
+	{"36" "In order to fully control this key area, the HQ sends reinforcements."}
+	{"37" "Check the remains of the column, maybe there will be something useful."}
+	{"38" "We have moved forward! The enemy is running! Great job! "}
+	{"39" "The traitors suffered great losses, we broke through two lines of their defense. The enemy is running out, but still trying to counterattack! Defend!"}
+	{"40" "Intelligence reports that rebel tanks are approaching you from the south."}
+	{"41" "Tanks! Coming from the south!"}
+	{"42" "Intelligence reports that insurgent tanks are approaching you from the north."}
+	{"43" "Tanks! Coming from the north!"}
+	{"44" "We send you the last reserve!"}
+	{"45" "We regained control on the left flank!"}
+	{"46" "We regained control on the right flank!"}
+	{"47" "We broke through the second line of defense of the militants on the right flank!"}
+	{"48" "We broke through the second line of defense of militants in the area of the park on the left flank!"}
+	{"49" "We are losing the initiative! We must urgently repel Al Zira from the enemy, otherwise our offensive will fail!"}
+	{"50" "Time left to seize the square:"}
+	{"51" "You did not manage to keep the key position under control, the initiative passed to the enemies, the attack choked. Mission failed. Remains of your troops are leaving the city."}
+	{"52" "Retreat!"}
+	{"53" ""}
+	{"54" ""}
+	{"55" "They bypassed us and attack from the rear! "}
+	{"56" "American tanks are disabled!"}
+	{"57" "Enemy IFVs are knocked out."}
+	{"58" "American tank goes from the square on the right flank!"}
+	{"59" "Enemy vehicle goes to captured US positions on the right flank. "}
+	{"60" "Al Zirah Square"}
+	{"61" "Hold the left flank."}
+	{"62" "Hold the right flank."}
+	{"63" "Barricades on the main street."}
+	{"64" "Latakia. The eastern part of the city."}
+	{"65" "US positions on the right flank."}
+	{"66" "The main forces made a march and were already in the suburbs in the early morning."}
+	{"67" "To battle!"}
+	{"68" ""}
+	{"69" "At night, our saboteurs undermined the US fuel storage at the port, so the convoy will not come soon, we have extra time to strengthen defences."}
+	{"70" "Incoming tanks destroyed!"}
+	{"71" "The nighttime undermining of the traitors' weapons depot slightly weakened their combat capability!"}
+	{"72" "It is necessary to destroy the battery that is shelling the area!"}
+	{"73" "And here's the good news: the sabotage group reported that it had reached our positions!"}
+	{"74" "We've supressed the enemy battery!"}
+	{"75" "After our sabotage US troops regard the militants as enemies! Use it!"}
+	{"76" "Nevertheless, our enemies were able to understand that this was a provocation and stopped shooting at each other."}
+	{"77" ""}
+	{"78" ""}
+	{"79" "We've captured the rebel technical!"}
+	{"80" "We've fought off the tank from the traitors!"}
+	{"81" "We've captured an American IFV!"}
+	{"82" "We've captured an American tank!"}
+	{"83" "Residential areas on the left flank."}
+	{"84" "Capture the square."}
+	{"85" "Hold the square under your control."}
+	{"86" "Capture the position of Americans."}
+	{"87" "Capture barricades on the main street."}
+	{"88" "Clean the residential areas on the left flank."}
+	{"89" "Move on the left flank and take the park."}
+	{"90" "Advance on the right flank and take the second line of defense."}
+	{"91" "Do not allow a breakthrough on the left flank."}
+	{"92" "Do not allow a breakthrough on the right flank."}
+	{"93" "Restore control of the left flank!"}
+	{"94" "Restore control of the right flank!"}
+	{"95" "Prepare for an American attack from the west."}
+	{"96" "Protect the square from a tank attack from the south."}
+	{"97" "Protect the square from a tank attack from the north."}
+	{"98" "Suppress Islamists' mortars behind the skyscraper."}
+	{"99" "Hold positions on the square"}
+	{"date" "September 27, 2016, 12:00"}
+	{"loose" ""}
+	{"name" "Saifu-lah"}
+	{"name_big" "Saifu-lah"}
+	{"outro_completed" "Mission complete"}
+	{"outro_failed" "Operation failed"}
+	{"place" "Latakia, Syria"}
+	{"win" ""}
+}

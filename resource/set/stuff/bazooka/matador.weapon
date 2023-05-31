@@ -1,0 +1,24 @@
+{from "pattern rpg_weapon"
+	{filling "ammo matador_ammo" 1}
+        {fireSound "bazooka/matador_fire"}
+	;http://www.rafael.co.il/marketing/SIP_STORAGE/FILES/5/925.pdf
+;http://www.youtube.com/watch?v=i2MNSTJOwAI
+;Источник не слишком авторитетный, но там объясняются два типа работы РПГ. И там сказано, что против бронецелей применяется режим с одновременной детонацией двух боеголовок (short mode), а не с замедлением (blast mode)
+	{mass 11.3}	;http://www.rafael.co.il/marketing/SIP_STORAGE/FILES/5/925.pdf
+	{inventory
+		{size 5 1}
+	}
+        {entity "matador"}
+	{preloaded}
+	{ammoLocked}
+	{maxRange 75}
+	{aimRange 75}
+	{speed 45} ; speed гранаты x1.5 (25.02.21)	
+	{gravity 0.4}
+	{calibre 5}
+;        ("damage" a(100) b(100) c(100) d(100) e(100)) 
+;грубо оценочно - если пробивает 40см дыру в двойной кирп. стене (экв 30мм), то 100мм брони может и пробить.
+	{cursor "cannon_on_heat_7"}
+	("accuracy_optic_rpg"  moa(8.0))	;о точности можно судить по прицельной дальности - а она как у М136. Прирост, даваемый оптикой, учитывается самим типом макроса.
+	("accuracy_optic_rpg_60"  moa(8.0))
+}

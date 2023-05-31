@@ -1,0 +1,30 @@
+{from "pattern cm"
+	{tag "ammo shell itemin2hands cm no_ricochet cumulative big size3 122to128fg cm_b -fragmentary -antiinf" "fx_111_145"  "fx_cm"}
+	
+	{mass 13.2}
+	{inventory
+		{size 6 1}
+	}	
+	{view "cm_fly"}
+	{entity "shell_rus_cm_120"}
+	{view "shell_rus_cm_120"}
+	{trace
+		{view "/texture/fx/trace" {ScaleY 0.2}}
+		{length 2}
+	}
+	;Около 1.5 кг ВВ окфол ,осколочное действие-толстостенный корпус. Расчет-кумулятивный.1 волна умножена x2
+	{tag "he_07to2"}
+	{damage add blastwave	 ; HE antipersonnel
+		{energy 1.2}
+		{area 4.8 5.6}
+	}
+	{damage add blastwave	 ; HE, FG anti-APC
+		{energy 2.5}
+		{area 0.6 0.7}
+	}
+	{damage cumulative
+		{damage 600}
+		{distance 3}
+	}
+}
+;http://www.russianarms.ru/forum/index.php/topic,4737.0.html

@@ -1,0 +1,19 @@
+{game_entity
+        (include "/properties/building.inc")
+        {obstacleid "small_building" }
+	{props "steel" "no_destroyed_stamp"}
+
+	{collider "particle.big"}
+	{simulation {able 1}}
+	{mass 10}
+	{Extension "znak_city.mdl"}
+	{Volume "body"
+		{Thickness 1}
+	}
+	{Volume "body1"
+		{Thickness 1}
+	}
+	{Volume "body2"
+		{Thickness 1}
+	}
+}

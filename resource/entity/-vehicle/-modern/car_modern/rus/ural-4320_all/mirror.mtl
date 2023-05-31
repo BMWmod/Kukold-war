@@ -1,0 +1,7 @@
+{material envmap
+	{diffuse "$/model/ural-XXXX/ural_kabina"}
+	{mask "$/model/bumerang/mirror"}
+	{blend none}
+}
+
+

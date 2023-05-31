@@ -1,0 +1,14 @@
+{item
+	{tag "smallitemin1hand dropboxed antitank mine fx_111_145"}
+	{entity "mine_antitank_dm21"}
+	{inventory
+		{weight 100}
+		{fsm "stuff"}
+	}
+	{mass 9.26}
+;5кг взрывчатки тротил (расчетная масса 3,84кг коэфф 1/1,3). Тип - фугасная, осколков нет (алюм корпус).
+;Для подземных ПТ мин надо убирать первые две фугасные волны, т. к. грунт мешает распространению удара в стороны.
+	{damage add blastwave {energy 2.5} {area 5.3 6.1}}
+	{damage add blastwave {energy 6.5} {area 2.5 2.9}}
+	{damage add blastwave {energy 11} {area 0.6 0.7}}
+}

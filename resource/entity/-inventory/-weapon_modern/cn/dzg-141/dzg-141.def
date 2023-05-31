@@ -1,0 +1,10 @@
+;Модель предоставил Flanker
+{entity
+	(include "/properties/stuff_weapon.ext")
+	{Extension "dzg-141.mdl"}
+	{extender "stuff"
+		{item "weapon GAT-3_rock" filled}
+	}
+	{nogroupmesh 1}
+	{lodclass "human"}
+}

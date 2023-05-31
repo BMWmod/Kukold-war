@@ -1,0 +1,38 @@
+;Cold War
+{from "pattern sniper_rifle"
+("scope")
+
+	{tag "sniper reliability_low"}	;http://www.guns.yfa1.ru/poluavtomaticheskaya-snajperskaya-vintovka-m110-sass-semi-automatic-sniper-system-ssha-obzor-sovremennyx-zarubezhnyx-snajperskix-sistem-chast-1.html
+	{filling "ammo 762x51_x20" 20}
+	{curve "762x51nato_100"}
+	{preloaded}
+	{mass 7.2}
+	{inventory
+		{size 5 2}
+	}
+	{entity "m110"}
+	{special
+		{mode aim}
+		{PrepareTime 6.0}
+		{PrepareCursor "aimed_shot"}
+		;{damage 1} ; damage *= x
+		{accuracy 1.2} ; aim_range *= x
+		;{throw_off}
+	}
+	("marksman_range")
+	{speed 290}
+	{fireSound "rifle/M110_shot"}
+	{reloadSound "chn/M110_reload"}
+	{healthDamage 94}
+	{reloadSound "enfield"}
+	{recoveryTime 0.7}
+	;{cursor "optic_mildots"}
+	;{cursorReloading "optic_mildots_reload"}
+	{cursor "sniper"}
+	{cursorReloading "cannon_reload_all"}
+	("accuracy_optic_sight"  moa(1))
+	("accuracy_optic_sight_85"  moa(1))
+	;http://www.snipercentral.com/m110.phtml
+	;http://kitup.military.com/2011/08/special-forces-worry-about-m110-durability.html
+	;так-то точная, 1 и менее, но с расстреливанием стволов падение точности сильное, до 8
+}

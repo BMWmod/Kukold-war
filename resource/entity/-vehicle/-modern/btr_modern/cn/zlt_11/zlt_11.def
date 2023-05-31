@@ -1,0 +1,151 @@
+{ArmoredCar 
+	(include "/properties/armoredcar.ext")
+	(include "/properties/shadow/tank.inc"  scale(1.0))
+	(include "/properties/selection/vehicle.inc"  scale(1.0))
+	{props "turret_rotator" "tank" "armored_car_M" "turret" "wheeled" "with_gun" "vision_lev04" "8_wheels" "with_open_zpu" "6_barrels_smoke"}
+	{targetClass "armoredcar"}
+	{extender "enumerator" {digit_folder "pla"}}
+
+	("armor_btr" turret(35 20 10 6) body(25 20 10 6))
+	
+	{extender "inventory"
+		{box
+			{item "ammo Hcb_ammo" 400}
+			{item "ammo pkm_ammo" 1900} 
+			{item "ammo bullet105_cn apcr_h" 10}
+			{item "ammo bullet105_cn cm" 5}
+			{item "ammo bullet105_cn fg" 15}
+			{item "ammo bullet105_cn rok" 6}
+			;{item "ammo smoke_shtora" 16}	
+		}
+	}
+	{Weaponry
+		("restore_ik_time")
+		{place "gun"
+			{charger "gunner"}
+			{gunner "gunner"}
+			{RestoreIKAfterAim}
+			{weapon "105mm_zpl98a" filling "ammo bullet105_cn apcr_h" 1}
+			("CW_stab_abm" abm(0.46))
+			("CW_stab_ldwind_suo")
+		}
+		{place "mgun"
+			{RestoreIKAfterAim}
+			{type "mgun_coaxial"}
+			{foresight "foresight3"}
+			{charger "gunner"}
+			{gunner "gunner"}
+			{weapon "PKT" filled}
+			{basic}
+			("CW_stab_abm" abm(0.78)) ;estimated
+			("CW_stab_ldwind_suo")
+		}
+		{place "mgun2"
+			{type "mgun_aa"}
+			{weapon "qjz-89" filled}
+            {foresight "foresight5"}
+            {LinkAnimation "off"}
+			{gunner "gunner2"}
+			{charger "gunner2"}
+			{basic}
+			("CW_stab_abm" abm(0.89))
+			("CW_stab_no_stabiliser")
+		}
+	}
+	
+;====================================
+
+	{boarder
+		{anm "driver"
+			{forward	{begin	"board_tank_left"} {base "open_driver"}}
+			{reverse 	{end	"emit_tank_2_hold"} {base "open_driver" -1}}
+		}
+		{anm "left"
+			{forward	{begin	"board_tank_right"} {end "t72_zpy"}{base "open2"}}
+			{reverse 	{end	"emit_tank_2_hold"}{base "open2" -1}}
+		}
+		{anm "right"
+			{forward	{begin	"board_sd222_driver"} {end "t72_zpy"}{base "open3"}}
+			{reverse 	{end	"board_sd222_driver" -1}	{base "open3" -1}}
+		}
+	}
+(define "crew_human"
+	{placer
+		{place "%place"
+			{group "crew"}
+			{visor "%visor"}
+		}
+	}
+	{boarder
+		{door "%door"}
+		{link "%door" "%place" {anm "%anm"} {forward putoff} {reverse puton}}
+	}
+)
+
+	("crew_human" place(driver)		door(emit1) anm(driver) visor(driver))
+	("crew_human" place(gunner)		door(emit2) anm(left) visor(main))
+	("crew_human" place(commander)		door(emit2) anm(left) visor(main))
+
+	("crew_human" place(gunner2)	 	door(emit3)  anm(right)  visor(up))
+
+	{placer
+		{place "gunner2" {group "crew"}{linkbone "gunner2"}{turnoff {sensor} {shadow}}{openForCrush}{visor "up"}}
+	}
+
+	{sensor
+		{visor "main"
+			{vision "tank_gunner_optic_IR_2g"}
+		}
+		{visor "commander"
+			{vision "tank_gunner_optic_1g"}
+			{bone "Visor4"}
+		}
+		{visor "charger"
+			{vision "tank_gunner_optic_1g"}
+			{bone "Visor3"}
+		}
+		{visor "up"
+			{vision "vehicle_top_mgun"}
+			{bone "mgun3"}
+		}
+	}
+
+
+;=================================================	
+	("wheel" args "wheelright1")
+	("wheel" args "wheelleft1")
+	("wheel" args "wheelright2")
+	("wheel" args "wheelleft2")
+	("wheel" args "wheelright3")
+	("wheel" args "wheelleft3")
+	("wheel" args "wheelright4")
+	("wheel" args "wheelleft4")
+
+	{mass 22000}
+	{Chassis
+		("car_trace" fx("tracewheel02") step(0.09) wheell("wlf") wheelr("wrf") bonel("FXtraceL1") boner("FXtraceR1"))
+		("car_trace" fx("tracewheel02") step(0.09) wheell("wlr") wheelr("wrr") bonel("FXtraceL4") boner("FXtraceR4"))
+		("CW_wheels"
+			Mass(22.0)
+			Turnradius(10.5)
+			Power(450)
+			Realspeed(100)
+			Gamespeed(55) 
+			Range(800)
+			Fuelvolume(680)
+		)
+	}
+	{props "cwfs_fuel_600"}
+
+	("two_headlights")
+	("cw_headlightt")
+	("CW_amphibia" Waterline(1.45) )
+
+	{Extension "zlt_11.mdl"}
+	("missile_aimpoint_trucksize")
+        ("recoil_side_common")
+	("cwts_buksir")
+	("CW_turr_speed" deg_per_s(28))
+
+}
+

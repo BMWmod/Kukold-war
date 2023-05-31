@@ -1,0 +1,23 @@
+{breed
+	{skin "cw_us_acu"}
+	{portrait "_new/usa/inf"}
+	{icon "us_army_mgun"}
+	{icon_priority 1}
+	{nationality usa}
+	{armors
+		{head ech_helmet}
+	}
+	(include "perks_generic.inc")
+	("traits_army_mgun")
+	{inventory
+		{item "iotv_g_mgun"}
+		{item "bandage" 10}
+		{item "smoke m18 grenade"}
+		{item "smoke m18 grenade"}
+		{item "m61 grenade" 2}
+		{item "762nato ammo" 300}
+		{item "M240_elcan" filling "762nato ammo" 100}
+		{item "sandbag_kit"}
+		{in_hands 6}
+	}
+}

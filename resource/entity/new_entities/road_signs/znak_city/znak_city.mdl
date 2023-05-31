@@ -1,0 +1,75 @@
+;Exported by: Андрей
+;Date:        Fri Sep 05 22:52:26 2014
+;File:        C:\Documents and Settings\Андрей\Мои документы\3dsmax\scenes\Дорожные знаки РФ\Треуголник.max
+{Skeleton
+	{bone "basis3"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "body"
+			{Matrix34
+				-1	0	0
+				0	-1	0
+				0	0	1
+				3.41694	-13.4197	10.8128
+			}
+			{VolumeView "body.ply"}
+		}
+	}
+}
+{Obstacle "body1"
+	{Obb2
+		{Center 2.7476 -0.167343}
+		{Extent 0.421392 21.9474}
+		{Axis 1 0}
+	}
+	{Rotate}
+}
+{Obstacle "body2"
+	{Obb2
+		{Center 3.45546 -12.8803}
+		{Extent 0.606528 0.597311}
+		{Axis 1 0}
+	}
+	{Rotate}
+}
+{Obstacle "body3"
+	{Obb2
+		{Center 3.45546 11.8528}
+		{Extent 0.606528 0.597311}
+		{Axis 1 0}
+	}
+	{Rotate}
+}
+{Volume "body1"
+	{Polyhedron "body1.vol"}
+	{Bone "body"}
+	{Matrix34
+		0	1	0
+		0	0	1
+		1	0	0
+		0.247942	-13.587	21.6977
+	}
+}
+{Volume "body2"
+	{Polyhedron "body2.vol"}
+	{Bone "body"}
+	{Matrix34
+		0	1	0
+		-1	0	0
+		0	0	1
+		-0.0385392	-26.3185	-12.6364
+	}
+}
+{Volume "body3"
+	{Polyhedron "body3.vol"}
+	{Bone "body"}
+	{Matrix34
+		0	1	0
+		-1	0	0
+		0	0	1
+		-0.0385194	-1.58541	-12.6364
+	}
+}

@@ -1,0 +1,8 @@
+﻿{from "m270 weapon"
+	{filling "ammo m270" 6}
+	{fillingvisible "rocket"}
+	{rechargeTime 120}
+	{recoveryTime 4}	;https://youtu.be/otiG0BN982M?t=53    раскачка не позволяет стрелять так быстро, как гусеничная M270
+	{cursorReloading "cannon_reload_fg_timer_120"}
+	;невозможно использование неуправляемых снарядов из-за раскачки ПУ
+}

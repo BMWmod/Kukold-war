@@ -1,0 +1,5 @@
+;Cold War
+{from "pp_vityaz"
+	 {entity "pp_vityaz_spec"}                     
+	("accuracy_optic_sight"  moa(10))
+}

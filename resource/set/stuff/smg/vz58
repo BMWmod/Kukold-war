@@ -1,0 +1,27 @@
+;Cold War
+{from "pattern smg"
+	{tag "reliability_medium"}
+	{filling "ammo 762" 30}
+	{curve "762x39_70"}
+	{mass 2.91}     
+	{entity "vz58"}
+	{fireSound	"smg/vz.58"}
+	{reloadSound "chn/AK47_reload"}
+	{speed 280}	
+
+	{recoveryTime 0.08}
+    {rechargeTime 3}
+	{cursor "ak74"}
+	{cursorReloading "cannon_reload_all"}
+
+	("smg_range")
+	
+	{burst
+		{short 2 1}
+		{long 6 2}
+{rangeKoef 0.444}
+	}
+	{healthDamage 91}
+	("accuracy_open_sight"  moa(3.0))	;https://www.thehighroad.org/index.php?threads/vz-58-accuracy.496102/
+	("accuracy_open_sight_70"  moa(3.0))	;https://www.thehighroad.org/index.php?threads/vz-58-accuracy.496102/
+}

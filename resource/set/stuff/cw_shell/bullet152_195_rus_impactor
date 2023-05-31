@@ -1,0 +1,28 @@
+{from "pattern proj_impactor"
+	{tag "big" "size3" "rok" "cumulative" "low_speed"}
+	{inventory
+		{size 6 1}
+	}
+
+	{mass 23}
+	{entity "reflex152_impactor"}
+	;Около 2.5 кг ВВ, масса выстрела 23,4 кг (для ТУРС Рубин массой 28.5кг - 2.7 кг ВВ
+	{tag "he_2to4_5"}
+	{damage add blastwave	 ; HE antipersonnel
+		{energy 1.2}
+		{area 5.0 5.2}
+	}
+	{damage add blastwave	 ; HE, FG anti-APC
+		{energy 2.5}
+		{area 2.4 2.5}
+	}
+	{damage add blastwave	 ; HE, FG anti-IFV
+		{energy 6.5}
+		{area 0.5 0.6}
+	}
+	{damage cumulative
+		{damage 1300}
+		{distance 3}
+	}
+}
+

@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "ural_kabina_rus_co"}
+	{blend none}
+}

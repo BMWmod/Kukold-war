@@ -1,0 +1,8 @@
+{material bump
+	{diffuse "$/model/hmmwv/hmmwv_body"}
+	{bump "$/model/hmmwv/hmmwv_body_bp"}
+	{specular "$/model/hmmwv/hmmwv_body_sp"}
+	{color "255 255 255 25"}
+	{emitsheat}
+{blend none}
+}

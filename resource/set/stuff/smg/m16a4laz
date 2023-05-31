@@ -1,0 +1,32 @@
+;Cold War
+{from "pattern smg"
+	{tag "reliability_low"}
+	{filling "ammo 556Nato" 30} ;556
+	{curve "556_70"}
+	{inventory
+		{size 5 2}
+	}
+	{mass 3.4} 
+	{tag "lg_off"}     
+	{entity "M16a4laz"}
+	{fireSound	"smg/M16A2"}
+	{reloadSound "M16_reload"}
+	{speed 280}
+	{cursor "m16a4"}
+	{cursorReloading "cannon_reload_all"}	
+
+	{recoveryTime 0.08} ;700-900
+        {rechargeTime 3}
+
+	("smg_range")
+	
+
+	{burst
+		{short 2 1}
+		{long 6 2}
+{rangeKoef 0.444}
+	}
+	{healthDamage 85}
+	("accuracy_open_sight"  moa(2.75))
+	("accuracy_open_sight_70"  moa(2.75))
+}

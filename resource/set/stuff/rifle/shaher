@@ -1,0 +1,54 @@
+;Cold War
+{from "pattern sniper_rifle"
+("scope")
+
+	{tag "sniper reliability_high"}
+	{filling "kpvtammo" 1}
+	{curve "127rus_120"}
+	{preloaded}
+	{inventory
+		{size 7 2}
+	}
+	{mass 22}
+	{entity "Shaher"}
+	{special
+		{mode aim}
+		{PrepareTime 10.0}
+		{PrepareCursor "aimed_shot"}
+		;{damage 3} ; damage *= x
+		{accuracy 1.2} ; aim_range *= x
+		;{throw_off}
+	}
+	("hrifle_range_custom" k(1.2))
+	{speed 290}	;длина ствола практически (+-3%) равна КПВТ, так что бронебойность та же.
+	{fireSound "rifle/shaher_shot"}
+	{reloadSound "ptrd"}
+	{healthDamage 405}
+	{projectileDamage 40}	
+	{projectileDamageTable {10 40} {75 31} {100 16} {120 8} {140 5}} ;http://world.guns.ru/machine/mg01-r.htm
+	{recoveryTime 3}
+	{calibre 12}
+	;{cursor "optic_mildots"}
+	;{cursorReloading "optic_mildots_reload"}
+	{cursor "sniper"}
+	{cursorReloading "cannon_reload_all"}
+	("accuracy_optic_sight"  moa(2))	;kpvt accuracy is 2.27, bolt-operation should slightly increase it
+										;ptrd accuracy is 3 MOA (without any scopes and in year 1942 https://forum.guns.ru/forummessage/36/1500048.html)
+	("accuracy_optic_sight_85"  moa(2))
+	{cursor "cannon_on_ap_4"}
+	{cursorReloading "cannon_reload_ap"}
+    {parameters "bst"
+		{projectileDamageTable {10 45} {75 36} {100 22} {120 14} {140 9}}	;
+		;{cursor "cannon_on_ap"}
+		;{cursorReloading "cannon_reload_ap"}
+	             {cursor "cannon_on_apcr_4"}
+	             {cursorReloading "cannon_reload_apcr"}
+	}
+	{parameters "mdz"
+		{projectileDamageTable {10 4} {75 4} {100 4} {120 4} {140 4}}	;
+		;{cursor "cannon_on_fg"}
+		;{cursorReloading "cannon_reload_fg"}
+		{cursor "cannon_on_fg_12"}
+		{cursorReloading "cannon_reload_fg"}
+	}
+}

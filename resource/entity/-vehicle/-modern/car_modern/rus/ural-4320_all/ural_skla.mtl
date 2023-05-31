@@ -1,0 +1,4 @@
+{material envmap
+	{diffuse "$/model/ural-XXXX/ural_glass"}
+	{blend blend}
+}

@@ -1,0 +1,23 @@
+{breed
+	{skin "cw_est_tac"}
+	{portrait "_new/balt/est"}
+	{icon pol_smg}
+	{icon_priority 0}
+	{nationality est}
+	{armors
+		{head pasgt_helmet_est}
+	}
+
+	(include "perks_generic.inc")
+	("traits_army_bazooker")
+	{inventory
+		{item "est_vest"}
+		{item "556nato ammo" 180}
+		{item "shgr56" 2}
+		{item "bandage" 10}
+		{item "galil_ar_556" filling "556nato ammo" 30}
+		{item "gustaf3 heat751 ammo" 3}
+		{item "sandbag_kit"}
+		{in_hands 4}
+	}
+}

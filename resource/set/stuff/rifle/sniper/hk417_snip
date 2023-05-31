@@ -1,0 +1,32 @@
+;Cold War
+{from "pattern sniper_rifle"
+("scope")
+
+	{tag "sniper reliability_medium"}	
+	{filling "ammo 762x51_x20" 20}
+	{curve "762x51nato_100"}
+	{preloaded}
+	{mass 5}
+	{inventory
+		{size 5 2}
+	}
+	{entity "hk417_snip"}
+	{special
+		{mode aim}
+		{PrepareTime 6.0}
+		{PrepareCursor "aimed_shot"}
+		;{damage 1} ; damage *= x
+		{accuracy 1.2} ; aim_range *= x
+		;{throw_off}
+	}
+	("marksman_range")
+	{speed 290}
+	{fireSound	"smg/hk417_fire"}
+	{reloadSound "hk417_reload"}
+	{healthDamage 99}
+	{recoveryTime 0.7}
+	("accuracy_optic_sight"  moa(1))
+	("accuracy_optic_sight_85"  moa(1))
+	{cursor "sniper"}
+	{cursorReloading "cannon_reload_all"}
+}

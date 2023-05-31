@@ -1,0 +1,30 @@
+;Cold War
+;Specnaz 1.3
+;obsolete
+{from "pattern mgun"
+	{filling "ammo Hmgun" 100}
+	{entity "pkvt"}
+	{fireSound "mgun/browning_burst/"}
+                         {tag "hmgun ptr"}
+   	     {speed 300}
+     	   {mass 45}
+	{reloadSound "ptrd"}
+  	;    {cursor "zenite_on"}
+	;{cursorReloading "zenite_reload"}
+	{cursor "cannon_on_ap_4"}
+	{cursorReloading "cannon_reload_ap"}
+   	    {recoveryTime 0.06}
+	{rechargeTime 3.5}     
+	{curve "gun_light"}
+	{projectileDamageTable {20 50} {70 35} {85 25} {115 15}}
+	{calibre 16}
+	{projectileDamageThreshold 1}
+	{range 120 120}
+	{healthDamage 350}
+	{HealthDamageClip 50}
+	("accuracy_PKVT")
+	{Spreading	
+		{BurstAccuracy 100 95 90 85 80}
+	}
+
+}

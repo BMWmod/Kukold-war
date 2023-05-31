@@ -1,0 +1,43 @@
+﻿{weapon_bullet
+	{tag "gun cannot_lie nokeep"}
+	{filling "40x53ammo" 30}
+	{entity "hk_gmg"}
+	{foresight "Foresight3"}
+	{fireSound "reactive\gmg_fire"}
+	{reloadSound "ags_reload"}
+	;{cursor "cannon_on"}
+	{inventory
+		{size 6 2 }
+		{link_bone "gun_back"}
+		{weight 100}
+	}
+
+	{Spreading 2	
+		{BurstRecoveryTime 1.0}
+	}
+	{burst
+		{short 1 1}
+		{long 2 1}
+	}
+	{Automatic}
+	
+        	 {maxRange 125}
+	 {aimRange 125}
+	 {recoveryTime 0.16}
+	 {rechargeTime 5}
+	 {speed 55}	;	;примерно, но больше АГС-30
+	{gravity 1.7}
+	 ("CW_acc_grlaunch" mils(2.25))	
+	 ("CW_acc_grlaunch_105" mils(2.25))	
+	{Spreading	
+		{BurstAccuracy 75 50 45 40 35}
+	}
+
+	{cursor "cannon_on_fg_3"}
+	{cursorReloading "cannon_reload_fg"}
+             {parameters "cm"     
+		;{cursor "cannon_on_heat_3"}
+		{cursor "cannon_on_heat_6"}
+		{cursorReloading "cannon_reload_heat"}
+	}	
+}

@@ -1,0 +1,20 @@
+{from "pattern proj_weapon_ground"
+	{tag "rocketlauncher" "to_hand ap" "cannot_lie" "nokeep" "AA_missile"}
+	{entity "fn6a"}
+	{tag "AA_missile_2gen" "-low_speed"}
+	{fillingVisible "rocket"}
+	{filling "ammo fn6a_ammo" 1}	
+        {fireSound "bazooka/IGLA_shot"}	
+		{reloadSound "chn/Metis_reload"}
+        {mass 7}
+	{inventory
+		{size 6 2}
+	}
+	{rechargeTime 20}	
+	{maxRange 140}   ;5500 примерно	
+	{aimRange 220}	;дальность предварительного наведения
+	;{cursor "zenite_on"}
+	;{cursorReloading "zenite_reload"}
+	{cursor "cannon_on_aa"}
+	{cursorReloading "cannon_reload_fg"}
+}

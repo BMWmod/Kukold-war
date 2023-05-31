@@ -1,0 +1,33 @@
+{from "pattern rifle"
+	{tag "reliability_medium"}
+	{filling "ammo grenade_xm25" 4} 
+	{mass 5.4} 
+	{entity "xm25"}
+
+	{fireSound	"rifle/XM25_shot"}
+	{reloadSound "M16_reload"}
+	{speed 80}
+	{recoveryTime 0.55} 
+        {rechargeTime 4}
+        {inventory
+		{size 5 2}
+	}
+
+
+	{aimRange 85}	;700 м
+	{maxRange 85}
+	{healthDamage 100}
+	{gravity 5}
+
+	;http://www.globalsecurity.org/military/systems/munitions/m1049.htm
+	;разброс на 963м - 1 тысячная (1 метр), точность - 3,25 MOA
+	("accuracy_optic_sight"  moa(3.25))	
+	("accuracy_optic_sight_70"  moa(3.25))	
+             {Automatic}
+	{cursor "cannon_on_fg_3"}
+	{cursorReloading "cannon_reload_fg"}
+             {parameters "cm"     
+		{cursor "cannon_on_heat_6"}
+		{cursorReloading "cannon_reload_heat"}
+	}
+}

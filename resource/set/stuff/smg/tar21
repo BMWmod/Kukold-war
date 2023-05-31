@@ -1,0 +1,33 @@
+;Addon
+{from "pattern smg"
+	{tag "reliability_medium"}
+	{filling "ammo 556Nato" 30} ;556
+	{curve "556_70"}
+	{mass 3.3} 
+	{entity "tar21"}
+	{fireSound	"smg/tar21_fire"}
+	{reloadSound "tar21_reload"}
+	{speed 280}
+        {inventory
+		{size 4 2}
+	}
+	
+	{cursor "tavor"}
+	{cursorReloading "cannon_reload_all"}
+	{recoveryTime 0.08}
+        {rechargeTime 2.5}
+
+	("smg_range")
+	
+	{burst
+		{short 2 1}
+		{long 6 2}
+{rangeKoef 0.444}
+	}
+	{healthDamage 80}
+        
+        ("holo")
+("accuracy_collimator"  moa(2.0))
+        ("accuracy_collimator_70"  moa(2.0))
+              
+}

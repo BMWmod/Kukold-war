@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "an_peq-1"}
+	{blend none}
+}

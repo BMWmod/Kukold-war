@@ -1,0 +1,14 @@
+<f(arial_narrow)s(16)c(ee852f)><e(shadow)>
+f = font
+s = size
+c = color
+e = effect
+
+Interface:
+gamelogic.pak\set\registry
+Files main_menu.reg , default_skin.reg
+f(font_name)
+interface.pak\interface\font
+- fonts files
+
+<c(FFFFFF)>injener</c>

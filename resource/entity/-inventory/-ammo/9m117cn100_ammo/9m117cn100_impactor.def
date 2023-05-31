@@ -1,0 +1,12 @@
+{actor
+	(include "/properties/projectile_impactor.ext")
+	{extension "9m117_ammo.mdl"}
+	{props "projectile_impactor"}
+	{extender "stuff"
+		{item "9m117cn100_impactor"}
+	}
+	{volume "body"
+		{able {contact} {bullet} {blast} {contact_ground}}
+	}
+	{targetClass 	"laser_using_missile"}
+}

@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "$/model/jh-7a/targeting_container"}
+	{blend none}
+}

@@ -1,0 +1,120 @@
+;Exported by: Timosh
+;Date:        Sat Sep 17 16:20:58 2022
+;File:        G:\?????? ? Pheonix\??????????????\??? ??????\??????\????????? ???????\convoy_assistor\convoy_assistor.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "ra004"
+			{Position -246.372	-352.433	0}
+		}
+		{bone "la005"
+			{Position 318.617	418.499	0}
+		}
+		{bone "l005"
+			{Position 318.617	221.648	0}
+		}
+		{bone "r005"
+			{Position 318.617	-172.052	0}
+		}
+		{bone "ra005"
+			{Position 318.617	-368.903	0}
+		}
+		{bone "la006"
+			{Position 483.925	394.213	0}
+		}
+		{bone "l006"
+			{Position 483.925	197.363	0}
+		}
+		{bone "r006"
+			{Position 483.925	-196.338	0}
+		}
+		{bone "ra006"
+			{Position 483.925	-393.189	0}
+		}
+		{bone "la007"
+			{Position -431.563	376.519	0}
+		}
+		{bone "l007"
+			{Position -431.563	179.668	0}
+		}
+		{bone "r007"
+			{Position -431.563	-214.032	0}
+		}
+		{bone "ra007"
+			{Position -431.563	-410.883	0}
+		}
+		{bone "la008"
+			{Position -602.364	364.711	0}
+		}
+		{bone "l008"
+			{Position -602.364	167.861	0}
+		}
+		{bone "r008"
+			{Position -602.364	-225.84	0}
+		}
+		{bone "ra008"
+			{Position -602.364	-422.69	0}
+		}
+		{bone "l000"
+			{Position 0	196.85	0}
+		}
+		{bone "r000"
+			{Position 0	-196.85	0}
+		}
+		{bone "la000"
+			{Position 0	393.701	0}
+		}
+		{bone "ra000"
+			{Position 0	-393.701	0}
+		}
+		{bone "r001"
+			{Position 93.7576	-230.847	0}
+		}
+		{bone "la001"
+			{Position 93.7576	359.704	0}
+		}
+		{bone "ra001"
+			{Position 93.7576	-427.698	0}
+		}
+		{bone "l001"
+			{Position 93.7576	162.853	0}
+		}
+		{bone "r002"
+			{Position 193.379	-210.517	0}
+		}
+		{bone "ra002"
+			{Position 193.379	-407.367	0}
+		}
+		{bone "la002"
+			{Position 193.379	380.034	0}
+		}
+		{bone "l002"
+			{Position 193.379	183.184	0}
+		}
+		{bone "r003"
+			{Position -114.333	-222.273	0}
+		}
+		{bone "ra003"
+			{Position -114.333	-419.124	0}
+		}
+		{bone "la003"
+			{Position -114.333	368.278	0}
+		}
+		{bone "l003"
+			{Position -114.333	171.428	0}
+		}
+		{bone "la004"
+			{Position -246.372	434.969	0}
+		}
+		{bone "l004"
+			{Position -246.372	238.118	0}
+		}
+		{bone "r004"
+			{Position -246.372	-155.582	0}
+		}
+	}
+}

@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "cl_shell"}
+	{blend none}
+}

@@ -1,0 +1,27 @@
+;Cold War
+{from "pattern smg"
+	{tag "reliability_medium"}
+	{filling "ammo 556Nato" 30} ;556
+	{curve "556_70"}
+	{mass 3.5}        
+	{entity "Scar-l"}
+	{fireSound	"smg/scarL/"}
+	{reloadSound "M16_reload"}
+	{speed 280}
+	{recoveryTime 0.09} ;600-650
+        {rechargeTime 2.5}
+	{cursor "scar"}
+	{cursorReloading "cannon_reload_all"}
+
+	("smg_range")
+	
+
+	{burst
+		{short 2 1}
+		{long 6 2}
+{rangeKoef 0.444}
+	}
+	{healthDamage 75}
+	("accuracy_open_sight"  moa(2))
+	("accuracy_open_sight_70"  moa(2))
+}

@@ -1,0 +1,16 @@
+{from "pattern proj_weapon_air"
+	
+	{tag "gun"}
+	{filling "ammo rvv-md" 2}
+	{fillingVisible "RVV_MD_"}	
+	{fireSound "reactive/missile_small/"}	
+	{mass 50}
+	{recoveryTime 2}
+	{rechargeTime 160}
+	{inventory {noView}}
+	{maxRange 244}
+	{aimRange 194}	;95% מע 13ךל
+	{cursor "cannon_on_aa"}
+	{cursorReloading "cannon_reload_fg"}
+	;{cursorReloading "cannon_reload_fg_timer_160"}
+}

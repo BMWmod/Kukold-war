@@ -1,0 +1,8 @@
+;Cold War
+{from "pp_vityaz"
+	 {entity "pp_vityaz_pbs"} 
+ 	{tag "sd"}                    
+	{fireSound	"pistol/silent/pb-bizon_shoot"}
+	
+	("accuracy_collimator"  moa(10))
+}

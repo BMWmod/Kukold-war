@@ -1,0 +1,25 @@
+{breed
+	{skin "cw_bel_borderguard"}
+	{portrait "_new/bel/borderguard"}
+	{icon "smgs"}
+	{icon_priority 1}
+	{nationality rus}
+	{armors
+		{head "beret_borderguard_bel"}
+	}
+
+	(include "perks_generic.inc")
+	("traits_army_smg")
+	{inventory
+		{item "tarzan"}
+		{item "bandage" 10}
+		{item "smoke rdg2b grenade"}
+		{item "545 ammo" 120}
+		{item "ak74b" filling "545 ammo" 30}
+		{item "f1 grenade" 2}
+		{item "smoke rdg2b grenade" 2}
+		{item "binocular"}
+		{item "sandbag_kit"}
+		{in_hands 4}
+	}
+}

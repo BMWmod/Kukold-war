@@ -1,0 +1,23 @@
+{from "pattern fg"
+	{tag "big" "size4" "fg" "122to128fg" "fragmentary" "d30ammo" "fx_111_145"}
+	{tag "fg_120_shell"} ; только для ammo.set
+    {detonationThickness 40}
+	{inventory
+		{size 6 1}
+	}	
+	{mass 29.5}
+	{entity "shell_122amm_reactive"}
+{view "fg_fly"}
+	;4,4 кг ВВ A-IX-2 гексал, ЗВОФ81 с увеличенным зарядом
+	{tag "he_2to4_5"}
+{damage blastwave {energy 0.7} {area 11.3 13}}
+{damage add blastwave {energy 1.2} {area 9.7 11.1}}
+{damage add blastwave {energy 2.5} {area 6 6.9}}
+{damage add blastwave {energy 6.5} {area 3.2 3.7}}
+{damage add blastwave {energy 11} {area 1.2 1.4}}
+	{damage add blastwave	 ; HE, kinetic, direct hit
+		{energy 20}
+		{area 0.1 0.1}
+	}
+}
+;http://www.russianarms.ru/forum/index.php/topic,11951.0.html

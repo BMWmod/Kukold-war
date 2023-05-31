@@ -1,0 +1,66 @@
+;Exported by: Timosh
+;Date:        Wed Jul 20 20:24:27 2022
+;File:        G:\?????? ? Pheonix\??????????????\??????\?????????\???????\??????\shershen_ammo.max
+{Skeleton
+	{bone "shershen_ammo"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "shershen_ammo.ply"}
+		{bone "tail"
+			{parameters "Voxels=0;"}
+			{Matrix34
+				-1	0	0
+				0	1	0
+				0	0	-1
+				-10.1772	0	-0.213502
+			}
+		}
+	}
+}
+{Volume "body"
+	{Box 27.4008 2.67717 3.36378}
+	{Bone "shershen_ammo"}
+	{Matrix34
+		0.881176	0	0
+		0	0	-0.881176
+		0	0.881176	0
+		-0.185299	0.00775504	-0.22423
+	}
+}
+{Volume "select"
+	{Box 33.4646 7.87402 7.87402}
+	{Bone "shershen_ammo"}
+	{Matrix34
+		0.881176	0	0
+		0	0	-0.881176
+		0	0.881176	0
+		0.0784357	0.0386298	-0.283568
+	}
+}
+{Extender "preview"
+	{"Stuff"
+		{camera
+			{origin -2.28332	106.641	3.9765}
+			{lookat 1.1508	4.17462	-0.972338}
+			{fov 16.5929}
+			{horizon -0.170174}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 4.13731	5.83382	-11.1866}
+			}
+			{"1"
+				{type directional}
+				{direction -0.0793777	-0.377597	0.317993}
+			}
+			{"2"
+				{type point}
+				{position -4.74091	5.02444	-8.34094}
+			}
+		}
+	}
+}

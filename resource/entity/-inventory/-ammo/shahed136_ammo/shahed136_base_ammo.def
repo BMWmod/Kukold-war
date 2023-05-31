@@ -1,0 +1,24 @@
+{Game_entity
+	(include "/properties/Projectile_ammo.ext")
+                           (include "/properties/shadow/round.inc")
+	{collider "ammo"}
+	{extender "stuff"
+		{item "shahed136_ammo base ammo"}
+	}
+	{Extension "shahed136_ammo.mdl"}
+	{Volume "body3"
+		{tags "part"}
+	}
+	{Volume "body4"
+		{tags "part"}
+	}
+	{Volume "engine"
+		{tags "part"}
+	}
+	{Volume "tail1"
+		{tags "part"}
+	}
+	{Volume "tail2"
+		{tags "part"}
+	}
+}

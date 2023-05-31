@@ -1,0 +1,18 @@
+{from "pattern proj_weapon_ground"
+	{tag "gun"}
+	{filling "ammo hot_rock" 4}
+	{fireSound "bazooka/SMAW"}
+	{mass 45}
+	{rechargeTime 30}	;время заряжания относительно маленькое из-за полуавтоматического заряжания с барабанов внутри машины
+	;После стрельбы нужно привести башню в положение заряжания и открыть перегрузочные лючки, после чего
+	;просто задвинуть все 4 ракеты в пусковую.
+	{recoveryTime 5}
+	{inventory {noView}}
+	{maxRange 150}
+	{aimRange 150}
+	;{cursor "zenite_on"}
+	;{cursorReloading "zenite_reload"}
+	{cursor "cannon_on_heat_2"}	
+	{cursorReloading "cannon_reload_heat"}
+	;{cursorReloading "cannon_reload_heat_timer_30"}
+}

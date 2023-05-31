@@ -1,0 +1,24 @@
+{breed
+	{skin "cw_us_acu_usmc"}
+	{portrait "_new/usa/usmc"}
+	{icon "us_usmc_smg"}
+	{icon_priority 2}
+	{nationality usa}
+	{armors
+		{head lwh_helmet}
+	}
+
+	(include "perks_generic.inc")
+	("traits_specnaz_mgun")
+	{inventory
+		{item "imtv_rpg_a"}
+		{item "bandage" 10}
+		{item "smoke m18 grenade"}
+		{item "sandbag_kit"}
+		{item "m61 grenade" 2}
+		{item "762nato ammo" 300}
+		{item "m27iar_acog" filling "556nato ammo" 30}
+		{item "556nato ammo" 120}
+		{in_hands 6}
+	}
+}

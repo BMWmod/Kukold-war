@@ -1,0 +1,21 @@
+{from "pattern fg"
+	{tag "big" "size2" "fg" "fx_90_110"}
+	{tag "fg_100_shell"} ; только для ammo.set
+	{mass 15}
+	{inventory
+		{size 5 1}
+	}	
+	{entity "shell_cn_fg_100_rapira"}
+	{view "fg_fly"}
+	{trace
+		{view "/texture/fx/trace" {ScaleY 0.2}}
+		{length 2}
+	}
+	;1.3 кг ВВ
+	{tag "he_07to2"}
+		{damage blastwave {energy 0.7} {area 6.2 7.1}}
+		{damage add blastwave {energy 1.2} {area 4.5 5.1}}
+		{damage add blastwave {energy 2.5} {area 0.9 1}}
+        {damage add blastwave {energy 6.5} {area 0.1 0.1}}
+}
+;http://www.russianarms.ru/forum/index.php/topic,12045.0.html

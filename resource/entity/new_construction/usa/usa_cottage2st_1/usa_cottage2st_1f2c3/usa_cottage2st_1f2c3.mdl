@@ -1,0 +1,40 @@
+;Exported by: Timosh
+;Date:        Sat Jul 16 08:49:27 2022
+;File:        G:\?????? ? Pheonix\??????????????\??????\?????? ? ???????\???\???????????? ??????????? ???????\final.max
+{Skeleton
+	{bone "usa_cottage2st_1f2c3"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "usa_cottage2st_1f2c3.ply"}
+		{bone "window1"
+			{Position 2.58532	30.2563	41.0733}
+			{VolumeView "window1.ply"}
+		}
+		{bone "fix5"
+			{Position -6.47387	31.6688	-0.988365}
+		}
+	}
+}
+{Volume "body1"
+	{Box 5.31379 24.3097 47.9633}
+	{Bone "usa_cottage2st_1f2c3"}
+	{Matrix34
+		0	-1	0
+		1	0	0
+		0	0	1.1741
+		0.41634	31.6648	37.3174
+	}
+}
+{Volume "hole1"
+	{Box 8.37 13.7795 10.4524}
+	{Bone "window1"}
+	{Position 0	0	1.14441e-05}
+}
+{Volume "window1"
+	{Box 8.37 1.9685 10.4524}
+	{Bone "window1"}
+	{Position 0	0	1.14441e-05}
+}

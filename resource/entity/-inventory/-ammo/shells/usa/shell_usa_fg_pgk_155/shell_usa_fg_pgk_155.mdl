@@ -1,0 +1,77 @@
+;Exported by: Timosh
+;Date:        Sun Oct  9 19:48:18 2022
+;File:        G:\?????? ? Pheonix\??????????????\??????\??????????\155mm PGK\155mmPGK.max
+{Skeleton
+	{bone "body"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "body.ply"}
+		{bone "tail"
+			{Matrix34
+				-1	0	0
+				0	-1	0
+				0	0	1
+				-7.03735	0	0
+			}
+		}
+	}
+}
+{Volume "body"
+	{Box 14.6924 2.95383 2.88928}
+	{Bone "body"}
+	{Position -0.0785722	0.12874	-0.00590754}
+}
+{Volume "select"
+	{Box 18.3361 3.78091 3.92942}
+	{Bone "body"}
+	{Position 0.150937	0.12874	0.0174589}
+}
+{Extender "preview"
+	{"Stuff"
+		{camera
+			{origin -0.725975	31.5835	0.000520064}
+			{lookat -0.714314	8.5188	-0.0306278}
+			{fov 31.7555}
+			{horizon -0.170174}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 21.5726	0.0573746	10.5679}
+			}
+			{"1"
+				{type directional}
+				{direction 0.0457975	-0.45561	-0.200804}
+			}
+			{"2"
+				{type point}
+				{position -17.9295	-0.0204598	-5.49746}
+			}
+		}
+	}
+	{"Stuff_primary"
+		{camera
+			{origin 2.13445	21.935	0.000521158}
+			{lookat 2.14611	-1.12967	-0.0306267}
+			{fov 31.7555}
+			{horizon -0.170174}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 24.433	-9.5911	10.5679}
+			}
+			{"1"
+				{type directional}
+				{direction 0.0457975	-0.45561	-0.200804}
+			}
+			{"2"
+				{type point}
+				{position -15.0691	-9.66893	-5.49746}
+			}
+		}
+	}
+}

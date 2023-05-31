@@ -1,0 +1,27 @@
+;Cold War
+{from "pattern smg"
+	{tag "reliability_high"}
+	{filling "ammo 762" 30}
+	{curve "762x39_70"}
+	{mass 3.9}      
+	{entity "ak103_1p87"}
+	{fireSound	"smg/ak103"}
+	{reloadSound "chn/abakan"}
+	{speed 280}	
+
+	{recoveryTime 0.10}
+              ;{cursor "optic_pka"}
+	;{cursorReloading "optic_pka_reload"}
+	{cursor "ak74"}
+	{cursorReloading "cannon_reload_all"}
+             {rechargeTime 2.5}
+	("smg_range")
+	
+	{burst
+		{short 2 1}
+		{long 6 2}
+		{rangeKoef 0.555}
+	}
+	{healthDamage 93}
+	("accuracy_collimator"  moa(3.3)) ;http://world.guns.ru/assault/rus/aek-971-r.html
+}

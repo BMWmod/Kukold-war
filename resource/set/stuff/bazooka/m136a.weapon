@@ -1,0 +1,42 @@
+{from "pattern rpg_weapon"
+	
+	{filling "ammo m136a" 1}
+	{preloaded}
+	{ammoLocked}
+	{inventory
+		{size 5 1}
+	}
+	{aimRange 60}
+	{maxRange 60}
+	{calibre 5}
+	{entity "m136a"}
+;	("damage" a(420) b(420) c(420) d(420) e(420))
+	{mass 6.7};АТ-4 HEAT
+	{speed 69}        ;расчет скорости на 290м/с. 47/300x290= 46 ; speed гранаты x1.5 (25.02.21)	
+	{gravity 0.4}
+	{reactive 0}
+	{fireSound "bazooka/M136_shot"}
+	{cursor "cannon_on_heat"}
+	("accuracy_open_rpg"  moa(10))
+	("accuracy_open_rpg_50"  moa(10))
+}
+;http://www.armyrecognition.com/at-4_at4_anti-armour_weapon_variants_uk/at-4_cs_at4cs_hp_light_anti-armour_anti-tank_weapon_technical_data_sheet_information_specifications.html 
+;http://saab.com/globalassets/commercial/land/weapon-systems/support-weapons/at4-family/at4_family_brochure_en_aw.pdf
+;	
+;Основные модификации	
+;AT-4 HEAT - кумулятив,бронебойность 420мм,вес 6.7 кг,начальная скорость 290м/с.	47/300x290= 46
+;	
+;CS - для замкнутого пространства.	
+;AT-4 CS ACT - двойного назначения,         ,вес 8.7 кг,начальная скорость 205м/с. 
+;AT-4 CS HP - кумулятив,,бронебойность 500мм,вес 7,8 кг,начальная скорость 220м/с.	47/300x220= 35
+;	
+;	
+;		
+;		
+;	
+;	
+;		
+;	
+;	
+;	
+;

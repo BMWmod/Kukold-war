@@ -1,0 +1,22 @@
+{from "pattern rpg_weapon"
+	
+	{filling "ammo gat-3_ammo" 1}
+        {fireSound "bazooka/shmel_shot"}
+	{mass 11}
+	{inventory
+		{size 5 1}
+	}
+        {entity "dzg-141"}
+	{preloaded}
+	{ammoLocked}
+	{aimRange 50}
+	{maxRange 50}
+	{speed 42}        ;расчет скорости на 220м/с. 40/200x140= 28; speed гранаты x1.5 (25.02.21)
+	{gravity 1.0}
+	{calibre 93}
+	("damage" a(30) b(30) c(30) d(30) e(30));оценочно. Если не задать - появляется большая бронебойность, чего быть не должно
+	("accuracy_open_rpg"  moa(6))	;0.35м на 200м
+	{cursor "shmel_on"}
+	;{cursorReloading "cannon_reload_heat"}
+	{cursorReloading "cannon_reload_fg"}
+}

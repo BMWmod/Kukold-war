@@ -1,0 +1,5 @@
+{material simple
+	{diffuse "$/model/f-16c/agm-84d"}
+	{emitsheat}
+{blend none}
+}

@@ -1,0 +1,63 @@
+;CW 1.5.6
+;Translate by Pheonix KageDesu
+{tags
+	{"00" "Captain Doronin, radioman Grishchenko and gunner Gorshkov must survive "}
+	{"01" "Protect the northern position"}
+	{"02" "Protect the southern position "}
+	{"03" "Protect the hill 176 until the order to retreat"}
+	{"04" "Destroy enemy tanks"}
+	{"05" "Do not let the enemy scouting reveal our position"}
+	{"06" "Bring the troops as much as possible to the point of departure . You will need them in the future. Captured equipment do not take, allies can open fire."}
+	{"07" "Our troops were unable to stop the enemy. NATO Tank units, quickly moving on the highway Dubna - Myrgorod - Poltava, were able to cut off in the battle for Kiev and Dniprodzerzhyns'k 10 Panzer Division, 448 Motorized Infantry Brigade, 53 Airborne Brigade. Trying to stop the enemy \"Abrams \" en banc were killed 45 art."}
+	{"08" "Reports to the tank commander of a tank company 1 62 Panzer Regiment 10 Panzer Division Senior Lieutenant Pankratov. We broke out of the encirclement and heard the sounds of battle . Arrives at your disposal!"}
+	{"09" "Good for you, lieutenant. You here very useful, enemy attack all time. C'mon, refuel and in battle, take cover of the road to the south."}
+	{"10" "Lieutenant Zguralsky reports. Sappers already finished."}
+	{"11" "We prepared central position, with headquarters and warehouse"}
+	{"12" "Created as outrigger position in the north."}
+	{"13" "In the south, we have good place for ambush, but not for vehicle"}
+	{"14" "Enemy look through countryside from the satellite, so the first thing engineers have built a false position . So the first enemy squads will go there."}
+	{"15" "Well, Lieutenant. Follow us."}
+	{"16" "In position. Lobanov, southern face , Kolesnikov , center, Kuznetsov , north face , Volkov, Smirnov, occupy outrigger position. Grishchenko communication with the headquarters!"}
+	{"17" "Vehicle in the trenches, anti-aircraft guns on the heights, sappers prepare ammunition. Move! Move! Move!"}
+	{"18" "Attention. The scout squad will go first. Enemy saw our false position and will attack her. We need destroy this squad."}
+	{"19" "HQ, HQ, do you copy? This is recon! The position is fake, I repeat, fake. The real one is to the north-east, on the hill!"}
+	{"20" "Well, smart dogs. Drive back, quick! They must be on that hill!"}
+	{"21" "This is HQ. Ok, we get it. Stay back, we prepare artillery."}
+	{"22" "It's an ambush! Pull back! Morris, get us out of here!"}
+	{"23" "Scouting out! Shoot at wheels, you can not give them access to the bridge!"}
+	{"24" "HQ, this is corporal Allen. Just entered recon zone, rolling further. "}
+	{"25" "No signs of enemy. Moving to navpoint Delta."}
+	{"26" "So, these are no longer harm us. Prepare to repel enemy attacks!"}
+	{"27" "This is HQ! Allen, hold on, we will do an artillery strike on Delta. Get out of there!"}
+	{"28" "Now hold positions!"}
+	{"29" "So, the first time they lose, but just do not recede. A few minutes later they go again. Prepare weapons, wounded in headquarters, repair equipment. Find trophies - use."}
+	{"30" "Northern position almost destroyed. Command to retreat to the central position."}
+	{"31" "HQ, this is Gamma. No enemies in destination."}
+	{"32" "This is HQ, copy. Cover Delta from north-east. "}
+	{"33" "This is Delta, finally moving torwards the road."}
+	{"34" "Tanks!  South position attention, five tanks. Hit the first and the last, then the rest. They should not break through to the road!"}
+	{"35" "Damn, it's an ambush! HQ, we need artillery fire on that hill, now!"}
+	{"36" "Negative, Delta, howitzers are reloading. Hold three minutes more."}
+	{"37" "This is HQ. Delta, if you alive, reinforcements are on a way."}
+	{"38" "All enemy tanks destroyed.  I order you to leave the southern position and retreat to the center."}
+	{"39" "This is group Foxtrot. The road is still blocked by hostile troops on hill 176."}
+	{"40" "Comrade Captain, base on communication! 10th Tanks is coming. We will get Smerch battery they will cover our retreat."}
+	{"41" "So we just will not let go. It is necessary to more hit the enemy, and he can not follow us."}
+	{"42" "Right Kursk ... Grishchenko that heard from the base?"}
+	{"43" "Base made ??contact, ordered a retreat to Mogilev and further to the northeast. 45 artbrigady been deployed 60 kilometers east-south-east of us, and ready to open fire!"}
+	{"44" "Comrade Captain, allow to us stay and adjust artillery fire!"}
+	{"45" "Ok, but do not go on the rampage. How do you see the goal - attack with artillery and ran after us, without heroism. Got that?"}
+	{"46" "That's right!"}
+	{"47" "Grishchenko, run, I can do with the radio. That's an order."}
+	{"48" "Damn, hooked . So, no luck. Artbrigady 45, height 176 fire!"}
+	{"49" "From the diary Doronin: \"June 2, 2016. Yesterday I lost almost half of soldiers. Few were alive of those who met the war with me. We have already the second week of retreat, and no end in sight. Yes, my fighters stopped the enemy, but those who were on the southern, not get to know this. I try to keep a cheerful mood, but I'm still restless. We need to stop them - or all of the losses were in vain.\""}
+	{"50" "This is not the main force. Wait."}
+	{"51" " I'm hit !"}
+	{"52" "Paul Zguralsky - one of the best tankman of your division. Cherish it."}
+	{"date" "June 1, 2016 , 14:00"}
+	{"name" "Hill"}
+	{"name_big" "Hill 176"}
+	{"outro_completed" "Our troops marched Poltava. Mission complete!"}
+	{"outro_failed" "American tanks passed height 176 and occupied Poltava. Mission failed."}
+	{"place" "Height 176, northeast of Mirgorod"}
+}

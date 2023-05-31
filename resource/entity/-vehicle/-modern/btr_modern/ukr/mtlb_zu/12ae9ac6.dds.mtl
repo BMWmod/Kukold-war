@@ -1,0 +1,4 @@
+{material bump
+	{diffuse "$/model/mtlb/body_bmp"}
+	{blend none}
+}

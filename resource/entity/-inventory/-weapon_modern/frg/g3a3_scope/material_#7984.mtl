@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "$/model/g3a3/g3_d"}
+	{blend none}
+}

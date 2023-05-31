@@ -1,0 +1,19 @@
+{from "pattern proj_weapon_ground"
+	{tag "rocketlauncher" "to_hand ap" "cannot_lie" "nokeep"}
+
+	{filling "ammo m47dragon_rock" 1}
+	{rechargeTime 10}
+	{inventory
+		{size 5 2}
+	}
+	{aimRange 100}
+	{maxRange 100}
+	{entity "m47dragon_m2plus"}
+	{mass 2};вики, вес пусковой без тпк с ракетой
+	{fireSound "bazooka/eryx_shot"}
+	;{cursor "zenite_on"}
+	;{cursorReloading "zenite_reload"}
+	{cursor "cannon_on_heat_2"}
+	{cursorReloading "cannon_reload_heat"}
+	;{cursorReloading "cannon_reload_heat_timer_20"}
+}

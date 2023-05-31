@@ -1,0 +1,57 @@
+{from "pattern gun_air"
+	
+	{filling "gau-8 ammo" 100}
+	{fireSound "gun/GAU-8"}
+	{RecoveryTime 0.02}
+	{RechargeTime 1}
+	{AimingTolerance 10}
+	{Automatic}
+	{burst
+		;{min 7}
+		{short 10 1}
+		{long 14 2}
+	}	
+	{traceFreq 1}
+	{range 145 145}	;Ёффективна€ дальность зависит от цели. 1250м ¬ики - фигн€, мало, на таком рассто€нии Ѕ— еще пробивает более 30мм.
+	("speed" s(990))
+	{RelaxationTime 0}
+	;{cursor "zenite_on"}
+	;{cursorReloading "zenite_reload"}
+	{cursor "cannon_on_ap_5"}
+	{cursorReloading "cannon_reload_ap"}
+	{calibre 30}
+	{spreading 
+;		{radiusTable 
+;			{0 0.01} 
+;			{20 (* 0.07 9)} 
+;			{40 (* 0.29 9)} 
+;			{50 (* 0.36 9)} 
+;			{70 (* 0.7 9)} 
+;			{100 (* 1.39 9)} 
+;			{130 (* 2.09 9)} 
+;		}
+		{BurstAccuracy 300 300 300 300 300 200 200 200 150 150 150 150 100} ; т.к. включен параметр {BurstRecoveryTime 0.5}
+;		{SpreadPower	1.7}
+;		{SpreadXYRatio	1.0}
+	}
+	("CW_acc_common" mils(2.5))
+	("CW_acc_common_130" mils(2.5))
+        	;{projectileDamageTable {10 90} {30 75} {50 69} {70 38} {90 25} {110 15} {130 9}}
+			("CW_small_APCR_damage_WC" penetr_1000m(57))
+	;50(500) и 70(1000) - истинные значени€    	
+	{parameters "bullet30_gb ap"
+		("CW_acc_common" mils(0.75))
+	    ("CW_small_APCR_damage_WC" penetr_1000m(61))	;L14A2
+	{cursor "cannon_on_ap_5"}
+	{cursorReloading "cannon_reload_ap"}
+	}
+	{parameters "apcr"                        ;APFSDS
+		;Ѕронебойность меньше Mk30-2 в 1,07 раз
+		("CW_small_APCR_damage_WC" penetr_1000m(99))	;NAMMO 30mm_x_173_APFSDS-T_PMC_287.pdf
+		("CW_acc_common" mils(0.3))		;nammo_ammo-handbook_2016.pdf
+		("CW_acc_common_120" mils(0.3))
+		("speed" s(1405))	;примерно
+	{cursor "cannon_on_apcr_3"}
+	{cursorReloading "cannon_reload_apcr"}
+	}
+}

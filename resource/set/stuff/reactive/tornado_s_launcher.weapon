@@ -1,0 +1,33 @@
+{from "smerch_launcher weapon"
+	{filling "ammo tornado_s" 12}
+	{parameters "9m542"	;управл ОФ 120км
+		("CW_acc_guided" kvo_meters(8.5))
+		{range 485 485}
+		{cursor "cannon_on_fg_14"}
+	    {cursorReloading "cannon_reload_fg_timer_240"}
+		{Spreading	
+		    {SpreadXYRatio	1.0}
+	    }
+	}
+	{parameters "9m549"	;управл ПП кассетка 120км
+		("CW_acc_guided" kvo_meters(8.5))
+		{range 485 485}
+		{cursor "cannon_on_fg_3"}
+	    {cursorReloading "cannon_reload_fg_timer_240"}
+		{Spreading	
+		    {SpreadXYRatio	1.0}
+	    }
+	}
+	{parameters "9m546"	;управл DPICM кассетный 120км
+		("CW_acc_guided" kvo_meters(8.5))
+		{range 485 485}
+		{cursor "cannon_on_heat_10"}
+		{cursorReloading "cannon_reload_heat_timer_240"}
+		{Spreading
+		    {SpreadXYRatio	1.0}
+	    }
+	}
+
+}	
+
+

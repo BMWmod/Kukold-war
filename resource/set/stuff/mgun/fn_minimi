@@ -1,0 +1,4 @@
+;Cold War
+{from "M249"
+	{entity "fn_minimi"}
+}

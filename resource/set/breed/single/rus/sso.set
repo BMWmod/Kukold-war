@@ -1,0 +1,30 @@
+{breed
+	{skin "cw_rus_sso_multicam"}
+	{portrait "_new/kdg"}
+	{icon "scouts"}
+	{icon_priority 2}
+	{nationality rus}
+	{armors
+		{head lshz1plus_sso}
+	}
+	(include "perks_generic.inc")
+	("traits_elite_smg")
+	{perks
+		{"field_glass"}
+		{"stealth"}
+	}
+
+	{inventory
+		{item "lbt6094_rus_smg"}
+		{item "bandage" 5}
+		{item "dynamite" 2}
+		{item "knife_union"}
+		{item "smoke grenade"}
+		{item "545 ammo" 240}
+		{item "ak74spec_1" filling "545 ammo" 30}
+		{item "rpg22 weapon" 3 filling "rpg22 ammo" 1}
+		{item "rgo grenade" 2}
+		{item "rgn grenade" 2}
+		{in_hands 5}
+	}
+}

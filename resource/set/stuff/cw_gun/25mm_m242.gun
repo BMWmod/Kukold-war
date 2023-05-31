@@ -1,0 +1,80 @@
+{from "pattern gun"     ; M2_Bredly
+	{filling "25x137" 100}
+        
+	{fireSound "gun/M242_25mm"}
+	{reloadSound "61k_reload"}
+;=====================
+	{AimingTolerance 3}
+	{Automatic}
+	{recoveryTime 0.23}			
+	{rechargeTime 6}
+	{spreading
+		{spreadradius 	1}
+		{SpreadXYRatio	1.0}
+		{SpreadPower	1.7}
+		{BurstAccuracy 100 85 80}
+	}	
+	{burst
+		{min 0}
+		{short 3 1}
+		{long 5 2}
+	}
+;	{cursor "m242_APCR"}
+;	{cursorReloading "m242_APCR_reload"}
+;=====================
+	{range 120 120}
+	("speed" s(1160))
+	{speed 180}
+	{calibre 25}
+;        ("accuracy_2a72")
+	; a - 20, b - 50, c - 80, d -100, e - 120 
+;	("damage4" a(106) b(79) c(60) d(53) e(44))   ; ББ M791 
+;M791 APDS-T will penetrate 25mm RHA at a 60-deg angle at 1,300 meters range
+;https://answers.yahoo.com/question/index?qid=20130214161820AAfU4H3
+;баллистическая rривая M791 -120 м/с/км M919 -110 м/с/км
+    ("CW_acc_common" mils(0.44))
+    ("CW_acc_common_100" mils(0.44))
+	("CW_small_APCR_damage_DU" penetr_1000m(78))	;M919
+	;{cursor "cannon_on_apcr_2"}
+	{cursor "cannon_on_apcr_3"}
+	{cursorReloading "cannon_reload_apcr"}
+    {parameters "bullet25_fr fg"
+		("CW_acc_common" mils(0.75))
+		("CW_acc_common_100" mils(0.75))
+		;{cursor "m242_he"}
+		;{cursorReloading "m242_he_reload"}	;оценка
+		;{cursor "cannon_on_fg_2"}
+		{cursor "cannon_on_fg_13"}
+		{cursorReloading "cannon_reload_fg"}
+	}
+	{parameters "fg"
+		("CW_acc_common" mils(0.75))
+		("CW_acc_common_100" mils(0.75))
+		;{cursor "m242_he"}
+		;{cursorReloading "m242_he_reload"}	;оценка
+		;{cursor "cannon_on_fg_2"}
+		{cursor "cannon_on_fg_13"}
+		{cursorReloading "cannon_reload_fg"}
+	}
+
+    {parameters "bullet25_fr ap"
+		("CW_acc_common" mils(0.44))
+		("CW_acc_common_100" mils(0.44))
+	    ("CW_small_APCR_damage_WC" penetr_1000m(80))	;M935A2
+		;{cursor "m242_APCR"}
+	             ;{cursorReloading "m242_APCR_reload"}	;оценка
+		;{cursor "cannon_on_ap_2"}
+		{cursor "cannon_on_ap_5"}
+		{cursorReloading "cannon_reload_ap"}
+	}
+    {parameters "bullet25_USA_a ap"
+		("CW_acc_common" mils(0.75))
+		("CW_acc_common_100" mils(0.75))
+		("CW_small_AP_damage" penetr_1000m(15))	;PGU-32
+		;{cursor "m242_APCR"}
+	             ;{cursorReloading "m242_APCR_reload"}	;оценка
+		;{cursor "cannon_on_ap_2"}
+		{cursor "cannon_on_ap_5"}
+		{cursorReloading "cannon_reload_ap"}
+	}
+}

@@ -1,0 +1,102 @@
+;Exported by: Kasutaja
+;Date:        Fri Sep  9 21:27:39 2022
+;File:        C:\Users\Kasutaja\Desktop\QJY-201\QJY-201 2013.max
+{Skeleton
+	{bone "qjy-201"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{LODView
+			{VolumeView "qjy-201.ply"}
+			{VolumeView "qjy-201_lod1.ply"}
+			{VolumeView "qjy-201_lod2.ply"}
+			{VolumeView "qjy-201_lod3.ply"}
+		}
+		{bone "lenta"
+			{Matrix34
+				1	0	0
+				0	0	-1
+				0	1	0
+				3.73553	2.32531	-0.842871
+			}
+			{VolumeView "lenta.ply"}
+		}
+		{bone "foresight3"
+			{Position 17.5409	3.36077	0.0353583}
+		}
+		{bone "fxshell"
+			{Matrix34
+				0	0	1
+				0	1	0
+				-1	0	0
+				3.68097	3.37322	0.49456
+			}
+		}
+		{bone "handle"
+			{Matrix34
+				1	0	0
+				0	0	-1
+				0	1	0
+				5.61497	3.73396	-0.050362
+			}
+		}
+	}
+}
+{Volume "body"
+	{Polyhedron "body.vol"}
+	{Bone "qjy-201"}
+	{Position 4.57315	2.1348	-0.282393}
+}
+{Volume "select"
+	{Polyhedron "select.vol"}
+	{Bone "qjy-201"}
+	{Position 4.57315	2.1348	-0.282393}
+}
+{Extender "preview"
+	{"Stuff"
+		{camera
+			{origin 6.62818	-6.3698	32.1661}
+			{lookat 6.14337	-3.61943	15.6367}
+			{fov 45}
+			{horizon -177.044}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 14.5696	-4.38938	7.74909}
+			}
+			{"1"
+				{type directional}
+				{direction -0.0660742	0.202516	-0.452351}
+			}
+			{"2"
+				{type point}
+				{position -3.56448	-2.58428	6.17975}
+			}
+		}
+	}
+	{"Stuff_primary"
+		{camera
+			{origin 6.63234	-6.4833	32.8271}
+			{lookat 6.12813	-3.62293	15.6366}
+			{fov 45}
+			{horizon -177.044}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 14.5696	-4.38938	7.74909}
+			}
+			{"1"
+				{type directional}
+				{direction -0.0660742	0.202516	-0.452351}
+			}
+			{"2"
+				{type point}
+				{position -3.56448	-2.58428	6.17975}
+			}
+		}
+	}
+}

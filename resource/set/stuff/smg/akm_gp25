@@ -1,0 +1,5 @@
+;Cold War
+{from "akms_gp25"
+	{mass 3.3}     
+	{entity "akm_gp25"}
+}

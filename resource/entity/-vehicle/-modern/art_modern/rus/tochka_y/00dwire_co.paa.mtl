@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "tochk01a"}
+	{blend none}
+}

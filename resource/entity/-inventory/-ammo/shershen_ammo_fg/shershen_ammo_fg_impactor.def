@@ -1,0 +1,12 @@
+{actor
+	(include "/properties/projectile_impactor.ext")
+	{extension "shershen_ammo_cm.mdl"}
+	{props "projectile_impactor"}
+	{extender "stuff"
+		{item "shershen_ammo_fg_impactor"}
+	}
+	{volume "body"
+		{able {contact} {bullet} {blast} {contact_ground}}
+	}
+	{targetClass 	"laser_using_missile"}
+}

@@ -1,0 +1,18 @@
+{actor
+	(include "/properties/stuff_mine.ext")
+	{Extension "mine_signal_sm320.mdl"}
+	{props "mine_antipersonnel" "mine_signal"}
+	{extender "stuff"
+		{item "mine signal_sm320"}
+	}
+	{extender "mine"
+		{time 20}	;Обычная установка, но требуется натянуть растяжки
+	}
+	{collider "mine.ap"}
+	{Obstacle "body"
+		{Circle2
+			{Radius 50}
+		}
+	}
+	("high_mine_camera" scale(0.25) up(2))
+}

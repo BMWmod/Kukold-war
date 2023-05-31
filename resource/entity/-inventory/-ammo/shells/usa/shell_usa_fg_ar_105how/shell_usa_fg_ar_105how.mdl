@@ -1,0 +1,57 @@
+;Exported by: Kasutaja
+;Date:        Fri Mar 19 09:15:43 2021
+;File:        D:\??????? ????\??? GEM2\????????? 3? ??????? Cold War ?????????\???????st ?????? ?????,????,???,????????\L118 Turret ?? Parvis Rassulov ? Sanchez 02.10.2020\??????? ? ????? L118  M119\shell 105mm L118_M119.max
+{Skeleton
+	{bone "body"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "body.ply"}
+	}
+}
+{Volume "body"
+	{Polyhedron "body.vol"}
+	{Bone "body"}
+	{Matrix34
+		-1	0	0
+		0	-1	0
+		0	0	1
+		0.0260703	0.188056	0.00981558
+	}
+}
+{Volume "select"
+	{Polyhedron "select.vol"}
+	{Bone "body"}
+	{Matrix34
+		-1	0	0
+		0	-1	0
+		0	0	1
+		0.0188828	0.188056	0.00981558
+	}
+}
+{Extender "preview"
+	{"Stuff"
+		{camera
+			{origin -0.0754709	-23.1155	0.00052681}
+			{lookat -0.0871353	-0.0507851	-0.0306222}
+			{fov 31.7555}
+			{horizon -0.170174}
+		}
+		{lights
+			{"0"
+				{type directional}
+				{direction -0.0457975	0.45561	-0.200804}
+			}
+			{"1"
+				{type point}
+				{position -11.5836	4.2241	10.5679}
+			}
+			{"2"
+				{type point}
+				{position 11.833	-1.33762	-5.49746}
+			}
+		}
+	}
+}

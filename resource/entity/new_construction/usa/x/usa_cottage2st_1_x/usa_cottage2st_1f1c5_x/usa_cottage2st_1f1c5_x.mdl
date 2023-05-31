@@ -1,0 +1,97 @@
+;Exported by: Timosh
+;Date:        Tue Jul 12 20:08:51 2022
+;File:        G:\?????? ? Pheonix\??????????????\??????\?????? ? ???????\???\???????????? ??????????? ???????\x 10.max
+{Skeleton
+	{bone "f1c5"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "foundation"
+			{VolumeView "foundation.ply"}
+		}
+		{bone "piece1"
+			{Position 25.7742	-5.22043	27.4725}
+			{VolumeView "piece1.ply"}
+		}
+		{bone "piece2"
+			{Position 27.952	25.4417	48.0651}
+			{VolumeView "piece2.ply"}
+		}
+		{bone "piece3"
+			{Position 5.72475	-20.8125	29.6714}
+			{VolumeView "piece3.ply"}
+		}
+		{bone "piece4"
+			{Position 13.0886	-17.8052	53.9501}
+			{VolumeView "piece4.ply"}
+		}
+		{bone "piece5"
+			{Position 12.9286	4.84792	65.1922}
+			{VolumeView "piece5.ply"}
+		}
+		{bone "piece6"
+			{Position -13.3688	-17.816	60.9341}
+			{VolumeView "piece6.ply"}
+		}
+		{bone "piece7"
+			{Position -28.3949	-23.4483	41.1941}
+			{VolumeView "piece7.ply"}
+		}
+		{bone "piece8"
+			{Position -10.8839	19.2794	65.1888}
+			{VolumeView "piece8.ply"}
+		}
+		{bone "land"
+			{parameters "Land;CommonMesh;Ground;"}
+			{Matrix34
+				1	0	0
+				0	1	-0.000236034
+				0	0.000236034	1
+				8.55991	12.4709	9.92212
+			}
+			{visibility 0}
+			{VolumeView "land.ply" {Ground}}
+		}
+	}
+}
+{Volume "piece1"
+	{Box 10.2827 30.6857 23.5597}
+	{Bone "piece1"}
+	{Position 1.52588e-05	0	-1.52588e-05}
+}
+{Volume "piece2"
+	{Box 5.9131 25.6044 23.058}
+	{Bone "piece2"}
+	{Position 1.52588e-05	0	1.52588e-05}
+}
+{Volume "piece3"
+	{Box 23.0885 9.68168 21.4316}
+	{Bone "piece3"}
+	{Position 0	0	1.52588e-05}
+}
+{Volume "piece4"
+	{Box 24.8601 10.3415 34.6018}
+	{Bone "piece4"}
+	{Position 0	0	0}
+}
+{Volume "piece5"
+	{Box 23.4484 24.1599 3.9425}
+	{Bone "piece5"}
+	{Position 0	0	0}
+}
+{Volume "piece6"
+	{Box 22.7926 10.3392 20.888}
+	{Bone "piece6"}
+}
+{Volume "piece7"
+	{Box 13.8446 0.972458 23.9165}
+	{Bone "piece7"}
+	{Position 0	0	-1.52588e-05}
+}
+{Volume "piece8"
+	{Box 22.7704 22.9582 3.94232}
+	{Bone "piece8"}
+	{Position 0	1.14441e-05	0}
+}

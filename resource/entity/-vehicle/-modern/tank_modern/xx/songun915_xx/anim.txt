@@ -1,0 +1,22 @@
+-= Animation: break, Node Body =-
+	Frame 100 {
+		Visibility 1
+		Position	-5.06241	0.205762	17.7713
+		Orientation	0.0275333 -0.0194504 0.00053589 0.999431
+	}
+	Frame 125 {
+		Visibility 1
+		Position	-5.06241	0.205762	17.7713
+		Orientation	0.0275333 -0.0194504 0.00053589 0.999431
+	}
+-= Animation: break, Node Turret =-
+	Frame 100 {
+		Visibility 1
+		Position	4.76678	-0.702346	10.9713
+		Orientation	0.0340041 -0.00759297 -0.196556 0.979873
+	}
+	Frame 125 {
+		Visibility 1
+		Position	4.76678	-0.702346	10.9713
+		Orientation	0.0340041 -0.00759297 -0.196556 0.979873
+	}

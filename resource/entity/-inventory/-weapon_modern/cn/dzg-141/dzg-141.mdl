@@ -1,0 +1,86 @@
+;Exported by: Kasutaja
+;Date:        Fri Sep  9 14:58:20 2022
+;File:        C:\Users\Kasutaja\Desktop\DZG-141\DZG-141 + rocket 2.max
+{Skeleton
+	{bone "dzg-141"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "dzg-141.ply"}
+		{bone "fxshot"
+			{Matrix34
+				-1	0	0
+				0	0	-1
+				0	-1	0
+				-8.87497	0.164533	0.724077
+			}
+		}
+		{bone "foresight3"
+			{Matrix34
+				1	0	0
+				0	0	1
+				0	-1	0
+				8.79398	0.17485	0.76824
+			}
+		}
+		{bone "tail"
+			{Matrix34
+				-1	0	0
+				0	0	1
+				0	1	0
+				-8.78938	0.173081	0.698706
+			}
+		}
+		{bone "roket"
+			{parameters "ID=roket;"}
+			{Position 1.30964	0.118386	0.771884}
+			{VolumeView "roket.ply"}
+		}
+	}
+}
+{Volume "body"
+	{Polyhedron "body.vol"}
+	{Bone "dzg-141"}
+	{Matrix34
+		1	0	0
+		0	0	1
+		0	-1	0
+		-0.124732	0.224284	0.692242
+	}
+}
+{Volume "select"
+	{Polyhedron "select.vol"}
+	{Bone "dzg-141"}
+	{Matrix34
+		1	0	0
+		0	0	1
+		0	-1	0
+		3.51834	1.02319	0.760967
+	}
+}
+{Extender "preview"
+	{"Stuff"
+		{camera
+			{origin -1.07055	40.3224	0.524961}
+			{lookat -1.05889	6.53378	0.497512}
+			{fov 31.7555}
+			{horizon -0.170174}
+		}
+		{lights
+			{"0"
+				{type directional}
+				{direction 0.0532644	-0.438886	-0.233544}
+			}
+			{"1"
+				{type point}
+				{position 13.799	-7.98939	6.5127}
+			}
+			{"2"
+				{type point}
+				{position -15.5001	-7.91978	-2.42606}
+			}
+		}
+	}
+}

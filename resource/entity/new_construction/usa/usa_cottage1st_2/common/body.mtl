@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "$/new_construction/usa/usa_cottage_1st_2"}
+	{blend none}
+}

@@ -1,0 +1,127 @@
+;Exported by: Timosh
+;Date:        Mon Jul  4 18:03:08 2022
+;File:        G:\?????? ? Pheonix\??????????????\??????\?????? ? ???????\???\???????????? ??????????? ???????\27.max
+{Skeleton
+	{bone "usa_cottage2st_1f1c5"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "usa_cottage2st_1f1c5.ply"}
+		{bone "window1"
+			{Position -6.37659	-19.0668	41.0945}
+			{VolumeView "window1.ply"}
+		}
+		{bone "attach1"
+			{Matrix34
+				0	-1	0
+				1	0	0
+				0	0	1
+				-5.67473	-6.8101	10.6149
+			}
+		}
+		{bone "window1_x"
+			{Position -6.37659	-19.0668	41.0945}
+			{VolumeView "window1_x.ply"}
+		}
+		{bone "land"
+			{parameters "Land;CommonMesh;Ground;"}
+			{Matrix34
+				1	0	0
+				0	1	-0.000236034
+				0	0.000236034	1
+				8.55991	12.4709	9.92212
+			}
+			{visibility 0}
+			{VolumeView "land.ply" {Ground}}
+		}
+	}
+}
+{Obstacle "body1"
+	{Obb2
+		{Center 27.7269 -7.82171}
+		{Extent 3.40083 30.4997}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body2"
+	{Obb2
+		{Center 2.65455 19.6021}
+		{Extent 26.2297 3.40083}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body3"
+	{Obb2
+		{Center -30.7343 19.6021}
+		{Extent 7.34433 3.40083}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body1"
+	{Box 6.80165 60.9994 64.9134}
+	{Bone "usa_cottage2st_1f1c5"}
+	{Matrix34
+		1	0	0
+		0	1	0
+		0	0	1.1741
+		27.7269	7.82171	28.3284
+	}
+}
+{Volume "body2"
+	{Box 6.80165 52.4595 70.1064}
+	{Bone "usa_cottage2st_1f1c5"}
+	{Matrix34
+		0	-1	0
+		1	0	0
+		0	0	1.1741
+		2.65455	-19.6021	31.3769
+	}
+}
+{Volume "body3"
+	{Box 6.80165 14.6886 48.0359}
+	{Bone "usa_cottage2st_1f1c5"}
+	{Matrix34
+		0	-1	0
+		1	0	0
+		0	0	1.1741
+		-30.7343	-19.6021	18.4204
+	}
+}
+{Volume "floor1"
+	{Box 49.5081 34.5149 3.69682}
+	{Bone "usa_cottage2st_1f1c5"}
+	{Matrix34
+		0	-1	0
+		1	0	0
+		0	0	1.1741
+		9.13016	3.17911	65.7305
+	}
+}
+{Volume "floor2"
+	{Box 18.8131 10.0093 3.69682}
+	{Bone "usa_cottage2st_1f1c5"}
+	{Matrix34
+		0	-1	0
+		1	0	0
+		0	0	1.1741
+		-12.6712	13.4593	65.7305
+	}
+}
+{Volume "hole1"
+	{Box 28.4199 13.7795 21.9481}
+	{Bone "window1"}
+	{Position 0	0	0}
+}
+{Volume "window1"
+	{Box 28.4199 1.10794 21.9481}
+	{Bone "window1"}
+	{Position 0	0	0}
+}

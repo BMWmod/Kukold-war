@@ -1,0 +1,38 @@
+{game_Entity
+	{Extension "2a65_msta_b_xx.mdl"}
+	{Volume "body"
+		{tags "body"}
+		{component "body"}
+		{thickness 5}   
+	}
+	{Volume "gun2"
+		{tags "gun"}
+		{component "gun"}
+		{thickness 5}   
+	}
+	{Volume "gun"
+		{tags "gun"}
+		{component "gun"}
+		{thickness 5}   
+	}
+	{Volume "standl"
+		{tags "part"}
+		{thickness 5}
+	}
+	{Volume "standr"
+		{tags "part"}
+		{thickness 5}
+	}
+	{Volume "turret"
+		{tags "part"}
+		{thickness 5}
+	}
+	{Volume "wheell1"
+		{tags "part"}
+		{thickness 5}
+	}
+	{Volume "wheelr1"
+		{tags "part"}
+		{thickness 5}
+	}
+}

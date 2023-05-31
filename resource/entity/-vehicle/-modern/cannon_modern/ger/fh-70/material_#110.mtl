@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "gerart_fh70_c"}
+	{blend none}
+}

@@ -1,0 +1,33 @@
+{avoidance
+	{level "lvl_1"
+		{drop_weapon 0.1}
+		{explosive 0.0}
+	}
+	{level "lvl_2"
+		{drop_weapon 0.3}
+		{knockdown_melee 0.2}
+		{explosive 0.0}
+	}
+
+	{level "lvl_3"
+		{drop_weapon 0.6}
+		{knockdown_melee 0.3}
+		{explosive 0.0}
+	}
+
+	{level "lvl_4"
+		{drop_weapon 0.75}
+		{knockdown_melee 0.5}
+		{fire 0.1}
+		{aimed_shot 0.15}
+		{explosive 0.0}
+	}
+
+	{level "lvl_5"
+		{drop_weapon 0.97}
+		{knockdown_melee 0.97}
+		{fire 0.25}
+		{aimed_shot 0.9}
+		{explosive 0.0}
+	}
+}

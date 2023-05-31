@@ -1,0 +1,8 @@
+﻿;Created by Pheonix 
+{from "70mm_Hydra_A-10 gun" 
+    {range 150 150}    
+	{filling "Bullet70" 7}
+	{rechargeTime 70}
+				("CW_acc_heli" mils(8))
+		;См Hydra 70 Apache
+}		

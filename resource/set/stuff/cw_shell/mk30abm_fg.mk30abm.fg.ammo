@@ -1,0 +1,19 @@
+{from "pattern fg"
+	{tag "size1" "ic" "autocannon_small" "mk30abm" "fx_25_40" "fg_air"}
+	{mass 0.681}
+	{inventory
+		{size 3 1}
+		{weight 20}
+		{block 5}
+	}	
+	{entity "shell_usa_fg_30"}
+	{trace
+		{view "/texture/fx/trace2"
+			{ScaleY 0.24}
+		}
+		{length 3.5}
+	}
+	;40г ВВ в обычном, 25 в трассирующем
+{damage blastwave {energy 0.7} {area 2.1 2.4}}
+{damage add blastwave {energy 1.2} {area 1.5 1.7}}
+}

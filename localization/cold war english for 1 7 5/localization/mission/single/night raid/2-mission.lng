@@ -1,0 +1,24 @@
+{tags
+	{"00" "Arrived, Comrade Commander!"}
+	{"01" "That village. Our goal air defense. Destroy it, and we got access to aircraft."}
+	{"02" "Capture the enemy roadblock."}
+	{"03" "What's that?"}
+	{"04" "Destroy enemy air defenses."}
+	{"05" "Alexander Smolensky must survive."}
+	{"06" "*Base, task complete, path for aircrafts is clear.*"}
+	{"07" "*Roger that. We start.*"}
+	{"08" "Well, fighters, we will support our offensive. Come flank, be careful."}
+	{"09" "Enemies will try to recapture the village. Take positions!"}
+	{"10" "Support Allied attack from the flank."}
+	{"11" "*Aviation ready. Specify the coordinates*"}
+	{"12" "U.S. base been destroyed. Now they can not call reinforcements."}
+	{"13" "Destroy the enemy"}
+	{"14" "Task successfully complete"}
+	{"15" "Air strike"}
+	{"date" "July 1, 2016, 15:00"}
+	{"name" "Break-out"}
+	{"name_big" "Break-out"}
+	{"outro_completed" "Mission complete. U.S. troops destroyed."}
+	{"outro_failed" "Mission failed. Our troops have been destroyed..."}
+	{"place" "Mirgorod. Ukraine."}
+}

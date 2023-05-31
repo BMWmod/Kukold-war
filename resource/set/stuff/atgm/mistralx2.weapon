@@ -1,0 +1,9 @@
+{from "mistralx1 weapon"	
+	{filling "ammo mistral_missile" 2}	
+	{maxRange 180}   
+	{aimRange 225}	;дальность предварительного наведения
+	{rechargeTime 40}
+}
+;6500 с вертолета и 6 с земли
+;https://www.defense.gouv.fr/actualites/dossiers/dossiers-archives/le-bourget-2013/les-materiels-presentes/les-armements-du-tigre-hap
+;https://fr.wikipedia.org/wiki/Mistral_(missile)

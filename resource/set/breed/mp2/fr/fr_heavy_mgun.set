@@ -1,0 +1,23 @@
+{breed
+	{skin "cw_fr_inf"}
+	{portrait "_new/fr/inf"}
+	{icon "fr_light_mgun"}
+	{icon_priority 0}
+	{nationality fr}
+	{armors
+		{head spectra_helmet}
+	}
+
+	(include "perks_generic.inc")
+	("traits_specnaz_mgun")
+	{inventory
+		{item "gpb_vest_backpack"}
+		{item "bandage" 10}
+		{item "smoke_fr grenade"}
+		{item "sandbag_kit"}
+		{item "of37_grenade grenade" 2}
+		{item "m240" filling "762nato ammo" 100}
+		{item "762nato ammo" 300}
+		{in_hands 5}
+	}
+}

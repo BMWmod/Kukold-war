@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "$/model/kraz255b1_pmp/255_light"}
+	{blend none}
+}

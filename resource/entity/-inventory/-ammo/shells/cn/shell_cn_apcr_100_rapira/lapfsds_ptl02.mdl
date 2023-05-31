@@ -1,0 +1,80 @@
+;Exported by: Kasutaja
+;Date:        Wed Aug 18 13:59:43 2021
+;File:        D:\?????? ?????\???? 1.7.2 - 1.7.6\PTL-02 ? PLL-05 ??????????? ????? ? ???????? ??????\PTL APFSD ?????? + ???????\ptl02 apfsds ????????.max
+{Skeleton
+	{bone "body"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "body.ply"}
+		{bone "tail"
+			{parameters "Voxels=0;"}
+			{Matrix34
+				-1	0	0
+				0	-1	0
+				0	0	1
+				-10.3181	-0.0181564	0.0157815
+			}
+		}
+	}
+}
+{Volume "body"
+	{Box 1.9685 20.9449 1.9685}
+	{Bone "body"}
+	{Matrix34
+		0	-1	0
+		1	0	0
+		0	0	1
+		0.0290496	-0.0366409	0.0863878
+	}
+}
+{Volume "select"
+	{Box 1.9685 20.9449 1.9685}
+	{Bone "body"}
+	{Matrix34
+		0	-1.02902	0
+		1.02902	0	0
+		0	0	1.02902
+		0.0290496	-0.0366409	0.114956
+	}
+}
+{Extender "preview"
+	{"Stuff"
+		{camera
+			{origin -0.808654	33.1931	-0.0475081}
+			{lookat -0.797014	-1.57179	-0.0749828}
+			{fov 31.7555}
+			{horizon -0.170174}
+		}
+		{lights
+			{"0"
+				{type directional}
+				{direction 0.0457972	-0.45561	-0.200805}
+			}
+			{"1"
+				{type point}
+				{position 19.6547	-10.0986	7.87662}
+			}
+			{"2"
+				{type point}
+				{position -21.4116	-1.68815	-8.18874}
+			}
+		}
+	}
+	{"Stuff_primary"
+		{camera
+			{origin -0.678486	32.8045	-1.21313}
+			{lookat -0.666864	-8.02761	-1.19583}
+			{fov 31.7555}
+			{horizon -0.17132}
+		}
+		{lights
+			{"0"
+				{type directional}
+				{direction 0.0457973	-0.45561	-0.200804}
+			}
+		}
+	}
+}

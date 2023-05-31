@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "agm_65_maverick"}
+	{blend none}
+}

@@ -1,0 +1,27 @@
+{from "pattern proj_weapon_ground"
+		
+	{tag "AA_missile_2gen" "prepare"}
+    {Special
+		{Mode aim}
+		{PrepareTime 0}
+		{PrepareCursor "aimed_shot_aa"}
+	}	
+	{filling "ammo pantsir" 12}
+	{fillingVisible "Cap-Roke"}	
+	{foresight "Foresight2"}       
+        	{fireSound "bazooka/9M311_shot"}	
+        	{mass 30}	
+        	{recoveryTime 1.5}	;до 4 ракет одновременно
+	{rechargeTime 160}	
+	{inventory {noView}}
+        
+	{maxRange 300}   ;20000м для Панцирь-С1 без новой гиперзвуковой ракеты 57Э6М-Е
+	{aimRange 350}	;дальность предварительного наведения
+	
+	;{cursor "zenite_on"}
+	;{cursorReloading "zenite_reload"}
+	{cursor "cannon_on_aa"}
+	{cursorReloading "cannon_reload_fg"}
+	;{cursor "mistral"}
+	;{cursorReloading "cannon_reload_fg_timer_160"}
+}

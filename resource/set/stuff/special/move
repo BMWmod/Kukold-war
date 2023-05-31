@@ -1,0 +1,19 @@
+{weapon_bullet
+	{tag "weapon smallitemin1hand"}
+	{filling "light" 0}
+	{entity "binocular"}
+	{inventory
+		{size 2 1}
+		{weight 10}
+		{fsm "belt"}
+	}
+	{states
+	}
+	{mass 1.5}
+	{range 1 1}
+	{gravity 15.0}
+	{speed 100}
+    {AimingTolerance 0}
+	{cursor "binocular_on"}
+
+}

@@ -1,0 +1,25 @@
+{breed
+	{skin "cw_est_sniper"}
+	{portrait "_new/balt/est"}
+	{icon pol_sniper}
+	{icon_priority 1}
+	{tags "sniper2"}
+	{nationality est}
+	{armors
+		{head pasgt_helmet_est}
+	}
+
+	(include "perks_generic.inc")
+	("traits_army_sniper")
+	{inventory
+		{item "est_vest"}
+		{item "bandage" 10}
+		{item "knife_union"}
+		{item "shgr56" 3}
+		{item "smoke grenade"}
+		{item "sako_trg42_fs" filling "8_6x70_x10 ammo" 5}
+		{item "8_6x70_x10 ammo" 170}
+		{item "sandbag_kit"}
+		{in_hands 5}
+	}
+}

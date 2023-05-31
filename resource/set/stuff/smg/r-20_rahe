@@ -1,0 +1,28 @@
+;Cold War
+{from "pattern smg"	;Это LMT MARS
+	{tag "reliability_low"}
+	{filling "ammo 556Nato" 30} ;556
+	{curve "556_70"}
+	{mass 3.3} 
+	{entity "r-20_rahe"}
+	{fireSound	"smg/M4"}
+	{reloadSound "M16_reload"}
+	{speed 280}
+	{cursor "m16a4"}
+	{cursorReloading "cannon_reload_all"}	
+
+	{recoveryTime 0.08} ;700-970
+                          {rechargeTime 2.5}
+
+	("smg_range")
+	
+	{burst
+		{short 2 1}
+		{long 6 2}
+{rangeKoef 0.444}
+	}
+	{healthDamage 78}
+	("holo")
+("accuracy_collimator"  moa(2.75))
+	("accuracy_collimator_63"  moa(2.75))
+}

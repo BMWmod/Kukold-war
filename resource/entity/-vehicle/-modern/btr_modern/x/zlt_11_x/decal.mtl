@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "$/model/ztl11/tj"}
+	{blend blend}
+}

@@ -1,0 +1,24 @@
+{actor
+	(include "/properties/stuff_mine.ext")
+	{Extension "grenade_mine.mdl"}
+	{props "grenade_mine" "-collectable"}
+	(include "/properties/shadow/round.inc")
+	{volume "detector" {thickness 0.2}}
+	{volume "body" {thickness 2}}
+	{extender "stuff"
+		{item "shgr56 grenade"}
+	}
+	{extender "mine"
+		{time 5}
+	}
+	{Placer
+	     {place "grenade"
+		{entity "shgr56"}
+		{Linkbone "for_m67"}
+		{obstacle disable}
+	     }
+	}
+	{collider "mine.ap"}
+	(include "/properties/shadow/round.inc")
+	{lodclass "vehicle_small"}
+}

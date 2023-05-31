@@ -1,0 +1,64 @@
+;Exported by: Kasutaja
+;Date:        Thu Oct 21 11:56:08 2021
+;File:        D:\?????? ?????\???? 1.7.2 - 1.7.6\??30 ?????\?????? ????? 9?55.max
+{Skeleton
+	{bone "9k55"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "9k55.ply"}
+		{bone "tail"
+			{Matrix34
+				-1	0	0
+				0	0	1
+				0	1	0
+				-69.461	0	0.0203872
+			}
+		}	}
+}
+{Volume "body"
+	{Polyhedron "body.vol"}
+	{Bone "9k55"}
+	{Matrix34
+		1	0	0
+		0	0	1
+		0	-1	0
+		-1.4586	1.8315	0.0446376
+	}
+}
+{Volume "select"
+	{Polyhedron "select.vol"}
+	{Bone "9k55"}
+	{Matrix34
+		1	0	0
+		0	0	1
+		0	-1	0
+		-1.4586	1.8315	0.0446376
+	}
+}
+{Extender "preview"
+	{"Stuff"
+		{camera
+			{origin 25.3079	-286.589	-9.08599}
+			{lookat 4.88405	-11.6275	-3.00843}
+			{fov 31.7555}
+			{horizon -180}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 1.76996	-14.5231	12.7992}
+			}
+			{"1"
+				{type directional}
+				{direction -0.0725232	0.378972	-0.317994}
+			}
+			{"2"
+				{type point}
+				{position -8.28716	-13.4222	9.56986}
+			}
+		}
+	}
+}

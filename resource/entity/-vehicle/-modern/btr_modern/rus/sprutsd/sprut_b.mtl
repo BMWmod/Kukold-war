@@ -1,0 +1,8 @@
+{material bump
+	{diffuse "$/model/sprutsd/sprut_body"}
+	{bump "$/model/sprutsd/sprut_body_bp"}
+	{specular "$/model/sprutsd/sprut_body_sp"}
+	{color "229 229 229 25"}
+	{emitsheat}
+{blend none}
+}

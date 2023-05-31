@@ -1,0 +1,44 @@
+{game_entity
+	{Extension "plz-07a_xx.mdl"}
+	{Volume "autoloader"
+	}
+	{Volume "body1"
+		{tags "body"}
+		{component "body"}
+		{thickness 15}
+	}
+	{Volume "body"
+		{tags "body"}
+		{component "body"}
+		{thickness 15}
+	}
+	{Volume "engine"
+		{tags "engine"}
+		{component "engine"}
+		{thickness 15}
+	}
+	{Volume "gun"
+		{tags "gun"}
+		{component "gun"}
+		{thickness 15}
+	}
+	{Volume "shieldl1"
+		{tags "part"}
+		{thickness 5}
+	}
+	{Volume "shieldr1"
+		{tags "part"}
+		{thickness 5}
+	}
+	{Volume "stabilizer"
+	}
+	{Volume "trackleft"
+	}
+	{Volume "trackright"
+	}
+	{Volume "turret"
+		{tags "turret"}
+		{component "turret"}
+		{thickness 15}
+	}
+}

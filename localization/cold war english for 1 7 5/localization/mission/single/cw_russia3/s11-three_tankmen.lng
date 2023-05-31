@@ -1,0 +1,172 @@
+﻿{tags
+	{"00" "So what, broken?"}
+	{"01" "Doesn't work, Vasiliy Semyenovich. Our UAZ is patient, but will not go any further with crippled piston."}
+	{"02" "Oh, I'll clean up brains of our technicians. Well, I'll have to meet Pankratov here. The column with the tank will not pass us by. Actually, they should be here already. Can't you hear anything?"}
+	{"03" "In such a thunderstorm we will see them more quickly than hear."}
+	{"04" "Hello, comrade lieutenant-colonel. Well, it's a bit rainy, huh?"}
+	{"05" "Well yes. Lousy weather, and UAZ is stuck, it's just not my best day. Grishchenko, grab the radio, and get into the car."}
+	{"06" "And that is our guest on the trailer, right? It looks unusual."}
+	{"07" "Like it? I have not decided yet, but at least spacy and comfortable. And what's about the front line?"}
+	{"08" "I'm just from Minki - it's all right there. I do not have large force, but there is a tank and light armour. I will provide cover, if necessary. And we have SAM positions near the river, so they won't get us frome above too."}
+	{"09" "Heck! I hear shooting right ahead. Is the column being attacked?"}
+	{"10" "Headquarters, this is Alder-4! We are attacked, a heavy artillery fire!"}
+	{"100" "Well, Grishchenko, did you like being tankman?"}
+	{"101" "No, not my job, comrade officers. It is somehow easier to fight on fresh air."}
+	{"102" "Yes! Wer're out, Doronin! Well, it was real rumble, even harder than near Kiev."}
+	{"103" "Yup, and they don't try to hit you bu meter long rod. Well, tasts differ. And the tests of the tank should be considered successful. Sorry for your men, of course, but the Germans did pay for their deaths. And now, let's go, it's all over today."}
+	{"104" "Take it! A good gun, both accurate and powerful."}
+	{"105" "So, I think I've figure out how to use the machine gun."}
+	{"106" "It lacks coaxial machinegun. Pankratov, we must take care of the machine gun turret, if it will be hit - we can have some trouble with fighting infantry with HE shells only."}
+	{"107" "Caution, APS worked!"}
+	{"108" "Alder-6, we have WIA."}
+	{"109" "Affirmative, medevaq is on the way."}
+	{"11" "Grishchenko, radio!"}
+	{"110" "We are wounded! First aid kit, quickly!"}
+	{"111" "Alder, what's about the tank?"}
+	{"112" "I'm working, Comrade General! I will not leave it to the enemy."}
+	{"113" "Watch out, I see the tanks on the highway!"}
+	{"114" "Alder, I'm Alder-3, we are attacked by superior enemy forces! Officers are killed, heavy weapons is destroyed! Requesting  retreat to the reserve position."}
+	{"115" "Alder-3, retreat to Perevolochna and go under the command of Alder-6."}
+	{"116" "Alder, I'm Alder-2! Attacked by the enemy airmobile troops, taking up defensive positions!"}
+	{"117" "Alder, I'm Alder-2, we have heavy losses, I can not hold my position! I retreat to the north-east."}
+	{"118" "Bloody river! Out of the tank, quick!"}
+	{"119" "Doronin, it's not good. You can not just leave the tank in the water, the Germans can pull it out. We still have to destroy it. You need an RPG or something like that."}
+	{"12" "Alder-4, this is Doronin! Take defense, readiness report!"}
+	{"120" "Commander, I'm reading messages from patrol units. It seems that this tank has coe for us on purpose."}
+	{"121" "Of course they are looking for us. Grishchenko, don't sleep, the next patrol can appear from anywhere."}
+	{"122" "I'm starting it, Doronin! Everybody, inside!"}
+	{"123" "Air! Alder, I'm Alder-4, where are these SAMs?!"}
+	{"124" "It's burning"}
+	{"125" "Alder-4, my armor was torn to pieces! What do they use?"}
+	{"126" "Akimov, leave the checkpoint! Do you hear? Rush to the height, to me!"}
+	{"127" "They're attacking the hill! Need support!"}
+	{"128" "Alder-3, prepare reserve positions, ASAP! Alder-4, if they press, retreat to the Perevolochnaya, understand?"}
+	{"129" "Alder-3, do you copy? Damn, Grishchenko, the connection is lost. Alder-6, can you hear me? Take command, do you copy?"}
+	{"13" "Arrow-1, Arrow-2, this is Doronin, report the situation!"}
+	{"130" "Alder, I understand you, I take command. "}
+	{"131" "They're coming from the north! Alder, I'm Alder-4, attacked from the northwest! The Germans are here!"}
+	{"132" "Alder, can you hear me? Alder! Minki villiage is captured, I will try to break through to Alder-3!"}
+	{"133" "Caution, RPGs!"}
+	{"134" "Got him!"}
+	{"135" "Burn, you!"}
+	{"136" "Burned him!"}
+	{"137" "Busted!"}
+	{"138" "Minus one."}
+	{"139" "Yes!"}
+	{"14" "Arrow-1 and Arrow-2 are not responding!"}
+	{"140" "Hit, hit!"}
+	{"141" "One less!"}
+	{"15" "It looks like we have no air defense. Explicitly planned action. Doronin, you need to get to the column."}
+	{"16" "Carefully! Marder at the bridge! But ... yes, exactly, it's detracked."}
+	{"17" "The enemy is everywhere ... IFV will help us, we need to capture it."}
+	{"18" "Everything is in German ... But I can handle it."}
+	{"19" "An ambush, of course. Accoding to the traces of bullets, they were shooting from both sides of the road."}
+	{"20" "Were in a hurry and took risks?"}
+	{"21" "Or did not want to give a chance to hide behind the cars. Lightning raid - quickly destroy all guards without giving them the opportunity to return fire."}
+	{"22" "It turns out that they knew the composition of the column ... Tretiak must be reported."}
+	{"23" "Comrade Captain, look! Is there an oil slick here, is it from a tractor?"}
+	{"24" "He stood here for a couple of minutes at most. Doronin, but it looks like their crankcase on the tractor is pierced. This is a chance - the tractor will not go far, it is somewhere here. Maybe we can try to find him from the air?"}
+	{"25" "Here it is! Doronin, we must follow him!"}
+	{"26" "Yes, we will find a safe place and from there we will contact corps HQ."}
+	{"27" "Cossack, I'm Alder! Cossack, I'm Alder! Do you hear me, copy!"}
+	{"28" "Alder, I'm a Cossack, I hear you! Switch to an encrypted channel."}
+	{"29" "Doronin, what have you got there? Neighbors report intense cannonade. Report!"}
+	{"30" "The enemy suddenly attacked our positions near the village of Minki. There was no sign of the deployment of these forces prior to the attack. Minki and Kommuna do not get in touch, armored vehicles continue to move east-northeast, along the N07 highway."}
+	{"30a" "The enemy suddenly attacked our positions in the area of the village of Minki. There was no sign of the deployment of these forces prior to the attack. Minky and Commune don't get in touch."}
+	{"31" "What about the air defense positions?"}
+	{"32" "Unknown, but there were no launches on enemy aircraft. "}
+	{"33" "Where are you, Lieutenant Colonel? Why did you leave the battalion for the deputy?"}
+	{"34" ""}
+	{"35" "A prototype T-14 was sent to my battalion for testing. It was the target. The convoy carrying the tank was ambushed. I survived, together with my radio operator and the commander of the T-14. Now we have the tank, I'm waiting for orders."}
+	{"36" "At least something. While hide with the tank in the area, avoid the enemy, I will pull you out. Over and out."}
+	{"37" "A prototype T-14 was sent to my battalion for testing. It was the target. The convoy carrying the tank was ambushed. I survived, together withmy radio operator and the commander of the T-14. Now the enemy has a tank, it is going west, I am pursuing."}
+	{"38" "Doronin, follow him as much as you can. I have no other intelligence right now, but you know the area. It is very important that the enemy won't have the prototype intact. I'll do whatever I can, good luck! Over and out."}
+	{"39" "Comrade General, the tank's tractor has been damaged. I think that they will be able to drive only a few kilometers, and then they will stand up until they figure out the control of the tank."}
+	{"40" "A prototype T-14 was sent to my battalion for testing. It was the target. The convoy carrying the tank was ambushed. I survived, together with my radio operator and the commander of the T-14. Now the enemy has a tank."}
+	{"41" "Well, you heard the general. Any thoughts?"}
+	{"42" "We need to recon the forces in Minki. When I went to Poltava with special forces, they first looked out for patrols. Vasily Semenovich, your binoculars will help here."}
+	{"43" "I pass. Grishchenko is our Rambo, not e. But I wonder if these guys from the Delta will be able to lower the tank from the trailer by themselves? I think that it will take them half an hour or an hour. But if there are Americans there, from those who dealt with our modern machines, they will do it faster."}
+	{"44" "Then let's act quickly. We are scouting the tank, reporting to the Tretyak. And they will somehow destroy it."}
+	{"45" "It's not so easy if you need a guarantee. Artillery or MLRS will not cope, aviation is needed here. And the Yankees can still get something if the leftovers are pulled out."}
+	{"46" "Or maybe there are not so many guards there?"}
+	{"47" "What if we'll throw the smoke, and just get into the tank. Until they figure it out - rush from the trailer, and go."}
+	{"48" "Yeah, and half a dozen RPGs in the side. Let's say I can drive it, but who will shoot back?"}
+	{"49" "I could handle a machine gun. I would not like to hand over the tank to the enemy ... But first of all - the coordinates."}
+	{"50" "The tank stopped at Minki!"}
+	{"51" "Cossack, I'm Alder! Cossack, I'm Alder! Target at position four!"}
+	{"52" "Alder, I am a Cossack, I understand you. Helis in the air, confirm the airstrike results, over."}
+	{"53" "Cossack, I'm Alder, watching the airstrike, over and out."}
+	{"54" "Well, that's all - now they are going to burn it. We are monitoring."}
+	{"55" "The Yankees have dealt with tamk control! Hurry, the tank is escaping!"}
+	{"56" "It's not here. The trailer is very big, you can't hide it. So, in Minki."}
+	{"57" "\"Pastel\" is screaming! Abort the attack, right and down!"}
+	{"58" "The radar shows a stealthy target ... Coming! Evasion maneuver!"}
+	{"59" "And here are US SAMs..."}
+	{"60" "The helis did not pass, the Yankees foresaw our move as well. Doronin, come back through Perevolochnaya."}
+	{"61" "Comrade general, what about the tank?"}
+	{"62" "Nothing! Or go and burn it yourself! Right now I have nothing to get him, and in an hour he will be gone. I will give the information to the partisans, they will try to track and destroy it during transportation. That's it, over and out."}
+	{"63" "Well, what's next?"}
+	{"64" "And really, what if just to get by ourselves? To take them on surprise, or distract somehow?"}
+	{"65" "Doronin, don't listen to Grishchenko, listen to the general! The three of us can't do it."}
+	{"66" "Well, we have armor. We pass into the village along the river, disperse the infantry, then smokes along the perimeter of the tank, get into the tank and leave. Enough talk, let's go."}
+	{"67" "Well, on the armor - on that Marder by the bridge. We pass into the village along the river, disperse the infantry, then smokes along the perimeter of the tank, get into the tank and leave. Enough talk, let's go."}
+	{"68" "Well, on the armor - we'll have to look for some kind of APC. We pass into the village along the river, disperse the infantry, then smokes along the perimeter of the tank, get into the tank and leave. Enough talk, let's go."}
+	{"69" "Burned out, as it seems to me. We won't do anything else here. It's time to get out."}
+	{"70" "Does not burn! Doronin, the tank must be reliably destroyed, completely blown up. Let's throw the shells inside and try to blow it up again."}
+	{"71" "Grishchenko, walkie-talkie! Cossack, I'm Alder, I have a tank, I'm waiting for instructions!"}
+	{"72" "Alder, Alder-6 is already breaking through a corridor to you from Perevolochnaya. You have to hold out until our advance units reach your area. Over and out."}
+	{"73" "Grishchenko, walkie-talkie! Cossack, I'm Alder, the tank burned down, I'm waiting for instructions!"}
+	{"74" "We're low on ammo... During transportation, I did not fill autoloader, it was the Yankees who had already grabbed a couple of them. The main ammunition load was in the truck. It would be better to go back there and grab them, we will not fight a lot with machine gun only."}
+	{"75" "Or you can search for damaged vehicles. T-14 can also use shells from the T-72."}
+	{"76" "Alder, this is Alder-6, you've made a lot of noise! A group of tanks has just withdrawn from the front, they are coming to you along the highway!"}
+	{"77" "Alder-6, I'm Alder, copy."}
+	{"78" "Ha, the big hunt begins, and we are the wildfowl!"}
+	{"79" "Why do we need to go to the north coast at all? Let's just bring the bridge down. We don't care if we go south."}
+	{"80" "Agree. We'll need ammunition from the truck, but the bridge must be brought down as early as possible. This will completely cut off the escaping German units if they do not have a bridgelayer nearby. "}
+	{"81" "Yes, let them hunt as long as they like. They are on the other side of the river, and the bridge is gone. "}
+	{"82" "Kaboom!"}
+	{"83" "Alder-6, I'm Alder, the bridge is destroyed."}
+	{"84" "Alder-6, be careful at the bridge, four enemy tanks did not cross it. "}
+	{"85" "Doronin, good news. One of the Su-57 pilots volunteered to cover you from the air. He will be able to enter the square and avoid detection by fighters, but he cannot escape the air defense system. If you take down the radar that was detected in your square, or the launcher, Su will break through."}
+	{"86" "Comrade General, the air defense complex has been destroyed. I look forward to your ace."}
+	{"87" "Good job, lieutenant colonel. The ace is already loitering over our positions, you can issue target designation. Callsign - \"Argon\"."}
+	{"88" "Alder, I'm Argon, I'm starting to search for targets."}
+	{"89" "Alder, I am Argon, I'm empty, going to the base."}
+	{"90" "Alder, I am Argon, arrived at the point, patrolling."}
+	{"91" "Alder, I'm Alder-6! How are you, alive?"}
+	{"92" "Alder-6, I'm Alder, I hear you. Do you have any good news?"}
+	{"93" "The Germans are fleeing, my tanks are approaching the oxbow on the southern bank. In a couple of minutes they will be there, do not confuse with Leopards."}
+	{"94" "Finally, Alder-6! I move towards."}
+	{"95" "Damn mines! Stop for all forward groups! Alder, there is a minefield from the oxbow. When did they managed to lay it! Hold on there, I'll send the minesweeper out now."}
+	{"96" "Alder-6, I am Alder, was blown up by a mine near the oxbow, requesting help."}
+	{"97" "Alder, I understand you! I'm sending a minesweeper."}
+	{"98" "Ok, we are at home, Doronin. What a scrape."}
+	{"99" "Oh, and the general will pull the skin off me ... And not without a reason. Okay, let's go to the base, that's enough for today."}
+	{"a1" "Grishchenko, Why do you need so many cartridges? You will fall off after a kilometer."}
+	{"a2" "Aha ... Get yourself a donkey, let him carry it instead of you."}
+	{"a3" "It will come in handy ... The stock does not hold a pocket ... in a figurative sense."}
+	{"complete_armata_destr" "From Doronin's diary: \"July 28, 2017. Bad day, to put it mildly. The Germans have laid more than a hundred of my guys, we had to close the hole with a divisional reserve. They hunted for a prototype tank. I knew that nothing good could be expected from these tests. Well, in the end, we burned the tank by ourselves, so that it would not go the enemy. But these are all particulars, the vicissitudes of the war, the general tendency is completely different - we are advancing! We have been advancing for the fifth month already, we have crossed the border and are slowly squeezing the Yankees westward. They threw the Europeans into battle, they lack the strength to hold back our onslaught. And the front is narrowing, and the force of our blows increases. They will run soon.\"."}
+	{"complete_armata_retake" "From Doronin's diary: \"28 июля 2017. Bad day, to put it mildly. The Germans have laid more than a hundred of my guys, we had to close the hole with a divisional reserve. They hunted for a prototype tank. I knew that nothing good could be expected from these tests. Me, Pankratov and Grishchenko managed to withdraw the tank from the occupied territory, so that a lot of people from both sides died, in fact, in vain. But these are all particulars, the vicissitudes of the war, the general tendency is completely different - we are advancing! We have been advancing for the fifth month already, we have crossed the border and are slowly squeezing the Yankees westward. They threw the Europeans into battle, they lack the strength to hold back our onslaught. And the front is narrowing, and the force of our blows increases. They will run soon.\"."}
+	{"date" "28 July 2017, 09:30"}
+	{"fail_all_wounded" "All personages are heavily wounded"}
+	{"fail_armata_destr" "The T-14 was hit but not destroyed. The Americans managed to pull out the damaged tank before our troops arrived."}
+	{"fail_armata_left" "American specialists quickly figured out the control of the T-14 and were able to withdraw it from the battlefield on their own. Classified components of the tank and new ammunition fell into the hands of the enemy."}
+	{"fail_hero_dead" "Personage is dead"}
+	{"name" "Three tankmen"}
+	{"name_big" "Three tankmen"}
+	{"outro_completed" "The failure of the operation to capture the newest Russian tank made it senseless for the enemy to hold the captured area. The NATO troops retreated to their original positions, the losses incurred during the breakthrough of the front were in vain. Mission accomplished."}
+	{"outro_failed" "The operation to capture the newest Russian tank was generally successful. NATO specialists received samples of ammunition, electronic components, armored compounds, which helped to adjust the requirements for the development of new types of NATO weapons. Mission failed."}
+	{"place" "Minki villiage, 12 km to the east from Priluki, Ukraine."}
+	{"reinf" "Airstrike"}
+	{"reinf_air" "Call the Su-50 with \"air-ground\" missiles"}
+	{"task_ally" "Wait for the approach of our troops."}
+	{"task_armata" "Perform tests of T-14 tank"}
+	{"task_armata_capt" "Retake T-14 from the enemy"}
+	{"task_armata_cd" "Do not leave operatable T-14 at enemy territory."}
+	{"task_bridge" "Bring the bridge down"}
+	{"task_evaq" "Cross the front line."}
+	{"task_follow_armata" "Pursue a trailer with a tank"}
+	{"task_pvo" "Destroy the Patriot Air Defense Systems"}
+	{"task_search_clues" "Inspect the site of the attack"}
+	{"task_survive" "Doronin, Pankratov and Grischenko should survive"}
+}

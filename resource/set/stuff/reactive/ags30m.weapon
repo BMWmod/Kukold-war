@@ -1,0 +1,4 @@
+﻿{from "weapon ags30"
+  ;АГС модуля Бережок под ленту 
+	{filling "agsammo" 250}
+}

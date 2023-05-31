@@ -1,0 +1,22 @@
+{breed
+	{skin "cw_gb_sas_nobelt"}
+	{portrait "_new/uk/sas"}
+	{icon "brit_smg"}
+	{icon_priority 0}
+	{nationality eng}
+	{armors
+		{head opscore_sas}
+	}
+
+	(include "perks_generic.inc")
+	("traits_elite_mgun")
+	{inventory
+		{item "lbt6094_sas_mgun"}
+		{item "bandage" 10}
+		{item "762nato ammo" 300}
+		{item "l109a1 grenade" 3}
+		{item "smoke_gb grenade" 1}
+		{item "M240_acog" filling "762nato ammo" 100}
+		{in_hands 5}
+	}
+}

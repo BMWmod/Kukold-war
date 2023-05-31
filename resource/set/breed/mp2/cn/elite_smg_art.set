@@ -1,0 +1,23 @@
+{breed
+	{skin "cw_cn_spec"}
+	{portrait "_new/cn/specnaz"}
+	{icon smgs}
+	{icon_priority 3}
+	{nationality cn}
+	{armors
+		{head "opscore_cn"}
+	}
+	(include "perks_generic.inc")
+	("traits_scout")
+	{inventory
+		{item "type15h_smg"}
+		{item "pf89b weapon" filling "pf89b_ammo ammo" 1}
+		{item "bandage" 10}
+		{item "smoke_cn grenade"}
+		{item "type73 grenade" 4}
+		{item "smoke_cn grenade"}
+		{item "qbz_191" filling "58ammo 58ammo_basic ammo" 30}
+		{item "58ammo 58ammo_basic ammo" 240}
+		{in_hands 6}
+	}
+}

@@ -1,0 +1,89 @@
+;Exported by: Kasutaja
+;Date:        Sat Sep 24 11:05:24 2022
+;File:        D:\??????? ????\??? GEM2\????????? 3? ??????? Cold War ?????????\Cold War 2010\?????? ? Pheonix\??????????????\??????\?????? ??????\H&K G3A3\????????_H_amp_amp_K_G3A3.max
+{Skeleton
+	{bone "h&k_g3a3_scope"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "h&k_g3a3_scope.ply"}
+		{bone "foresight3"
+			{Position 12.8999	1.74353	0.306845}
+		}
+		{bone "fxshell"
+			{Matrix34
+				0	0	-1
+				0	1	0
+				1	0	0
+				6.51928	2.19046	0.26458
+			}
+		}
+		{bone "fn_fal_scope_2"
+			{Matrix34
+				0	0	-1
+				0	1	0
+				1	0	0
+				2.66948	2.92562	0.415696
+			}
+			{VolumeView "fn_fal_scope_2.ply"}
+		}
+	}
+}
+{Volume "body"
+	{Polyhedron "body.vol"}
+	{Bone "h&k_g3a3_scope"}
+	{Position 3.19086	0.653139	-0.0184137}
+}
+{Volume "select"
+	{Polyhedron "select.vol"}
+	{Bone "h&k_g3a3_scope"}
+	{Position 3.19086	0.653139	-0.0184137}
+}
+{Extender "preview"
+	{"Stuff"
+		{camera
+			{origin 5.40969	-6.3698	32.1661}
+			{lookat 4.92487	-3.61943	15.6367}
+			{fov 45}
+			{horizon -177.044}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 13.3511	-4.38938	7.74909}
+			}
+			{"1"
+				{type directional}
+				{direction -0.0660742	0.202516	-0.452351}
+			}
+			{"2"
+				{type point}
+				{position -4.78298	-2.58428	6.17975}
+			}
+		}
+	}
+	{"Stuff_primary"
+		{camera
+			{origin 5.41385	-6.4833	32.8271}
+			{lookat 4.90964	-3.62293	15.6366}
+			{fov 45}
+			{horizon -177.044}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 13.3511	-4.38938	7.74909}
+			}
+			{"1"
+				{type directional}
+				{direction -0.0660742	0.202516	-0.452351}
+			}
+			{"2"
+				{type point}
+				{position -4.78298	-2.58428	6.17975}
+			}
+		}
+	}
+}

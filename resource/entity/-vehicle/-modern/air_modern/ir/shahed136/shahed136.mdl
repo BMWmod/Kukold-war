@@ -1,0 +1,402 @@
+;Exported by: Timosh
+;Date:        Tue Nov 22 15:24:29 2022
+;File:        G:\?????? ? Pheonix\??????????????\??????\??????? ?????????\TRUCK DAF CD 380 Drone Kamikadze pre final\Shahed 136\Shahed_136 7.max
+{Skeleton
+	{animation
+		{sequence "basis" {speed 0.1}}
+		{sequence "engine_start" {speed 0.6}}
+		{sequence "engine_work" {speed 0.6}}
+		{sequence "engine_stop" {speed 0.6}}
+		{sequence "fly" {speed 0.3}}
+		{sequence "damage_fly" {speed 0.3}}
+	}
+	{bone "basis"
+		{parameters "SteerMax=20;Wheelradius=0.15;"}
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone revolute "rudder_proj"
+			{limits -20 20}
+			{speed 0.04}
+			{Matrix34
+				1	0	0
+				0	-1	0
+				0	0	-1
+				-0.940851	0	1.02293
+			}
+			{bone revolute "elevator_proj"
+				{limits -20 20}
+				{speed 0.04}
+				{Matrix34
+					1	0	0
+					0	0	1
+					0	-1	0
+					2.77382	0	0
+				}
+			}
+		}
+		{bone "pivot_front"
+			{Position 23.527	0	0}
+			{bone "supportfront"
+				{parameters "support;"}
+				{Position 1.03631	0	0}
+			}
+		}
+		{bone "pivot_back"
+			{Position -22.8551	0	0}
+			{bone "supportleft"
+				{parameters "support;"}
+				{Position -0.73724	24.4453	0}
+			}
+			{bone "supportright"
+				{parameters "support;"}
+				{Position 0.520365	-24.0468	0}
+			}
+		}
+		{bone "body"
+			{parameters "ID=body;"}
+			{Position -0.0355206	0	0}
+			{VolumeView "body.ply"}
+			{bone "body_systems"
+				{Position 3.02628	0	-0.9133}
+			}
+			{bone "ir_2gen_emitter"
+				{Position -7.39455	-0.885384	6.56151}
+			}
+			{bone "ir_1gen_emitter"
+				{Position -8.66167	-0.885384	6.56151}
+			}
+			{bone "visor_ols"
+				{Position 31.7498	0.0639801	-0.0193244}
+			}
+			{bone "aiming_mark"
+				{Position 31.7498	0.0639801	-0.0193244}
+			}
+			{bone revolute "foresight1_rot"
+				{limits -30 30}
+				{speed 1}
+				{Position 31.0286	0.0639801	-0.239013}
+				{bone revolute "foresight1"
+					{limits -20 35}
+					{speed 1}
+					{Matrix34
+						1	0	0
+						0	0	-1
+						0	1	0
+						0.243561	0	0
+					}
+				}
+			}
+			{bone "foresight_spawn"
+				{Position 12.8131	-0.0394897	-0.0849448}
+			}
+			{bone "part4"
+				{Matrix34
+					1	0	0
+					0	0	-1
+					0	-1	0
+					-15.2208	0	-6.09794
+				}
+				{VolumeView "part4.ply"}
+				{bone "fx_starter"
+					{Matrix34
+						-0.939693	0.34202	0
+						0	0	1
+						-0.34202	-0.939693	0
+						-7.46917	-0.529604	0
+					}
+				}
+			}
+			{bone revolute "aileron2"
+				{parameters "ID=body;"}
+				{limits -15 15}
+				{speed 0.27}
+				{Matrix34
+					1	0	0
+					0	0	-1
+					0	1	0
+					-22.8973	-19.4669	-0.128673
+				}
+				{VolumeView "aileron2.ply"}
+			}
+			{bone revolute "elevator2"
+				{parameters "ID=body;"}
+				{limits -15 15}
+				{speed 0.27}
+				{Matrix34
+					1	0	0
+					0	0	1
+					0	-1	0
+					-22.9363	-10.2577	-0.0302613
+				}
+				{VolumeView "elevator2.ply"}
+			}
+			{bone "steer_elevator2"
+				{parameters "ID=body;"}
+				{VolumeView "steer_elevator2.ply"}
+			}
+			{bone "steer_aileron2"
+				{parameters "ID=body;"}
+				{VolumeView "steer_aileron2.ply"}
+			}
+			{bone revolute "elevator1"
+				{parameters "ID=body;"}
+				{limits -15 15}
+				{speed 0.27}
+				{Matrix34
+					1	0	0
+					0	0	1
+					0	-1	0
+					-22.9363	10.2408	-0.030258
+				}
+				{VolumeView "elevator1.ply"}
+			}
+			{bone revolute "aileron1"
+				{parameters "ID=body;"}
+				{limits -15 15}
+				{speed 0.27}
+				{Matrix34
+					1	0	0
+					0	0	1
+					0	-1	0
+					-22.8973	19.4668	-0.128675
+				}
+				{VolumeView "aileron1.ply"}
+			}
+			{bone "steer_aileron1"
+				{parameters "ID=body;"}
+				{VolumeView "steer_aileron1.ply"}
+			}
+			{bone "steer_elevator1"
+				{parameters "ID=body;"}
+				{VolumeView "steer_elevator1.ply"}
+			}
+			{bone "part1"
+				{parameters "ID=engine;"}
+				{Position -25.1698	0	0.867123}
+				{VolumeView "part1.ply"}
+				{bone "kolpak"
+					{parameters "ID=body;"}
+					{Position -5.31079	0	-0.867123}
+					{VolumeView "kolpak.ply"}
+					{bone "propeller"
+						{parameters "ID=body;"}
+						{Position 0	0.00531578	0.0119374}
+						{VolumeView "propeller.ply"}
+					}
+					{bone "propeller_work1"
+						{Matrix34
+							0	-0.520844	0.853652
+							0	-0.853652	-0.520844
+							1	0	0
+							-0.163233	-0.000303268	0.0119377
+						}
+						{visibility 0}
+						{VolumeView "propeller_work1.ply"}
+					}
+				}
+			}
+			{bone "tail2"
+				{parameters "ID=body;"}
+				{VolumeView "tail2.ply"}
+				{bone "enumerator"
+					{Matrix34
+						0.00131182	-0.999919	0.0126303
+						0.999716	0.00161193	0.0237608
+						-0.0237797	0.0125954	0.999638
+						-24.2095	-24.5986	3.02692
+					}
+					{VolumeView "enumerator.ply"}
+				}
+			}
+			{bone "tail1"
+				{parameters "ID=body;"}
+				{VolumeView "tail1.ply"}
+				{bone "enumerator1"
+					{Matrix34
+						-0.00131165	0.999919	0.0126302
+						-0.999716	-0.0016119	0.0237608
+						0.0237797	-0.0125953	0.999638
+						-24.5425	24.5912	2.9989
+					}
+					{VolumeView "enumerator1.ply"}
+				}
+			}
+		}
+	}
+}
+{Obstacle "rectangle1"
+	{Obb2
+		{Center -1.91867 0}
+		{Extent 3.64615 4.73204}
+		{Axis -1 1.74846e-07}
+	}
+	{Rotate}
+}
+{Volume "aileron1"
+	{Box 2.45326 10.0398 0.453844}
+	{Bone "aileron1"}
+	{Matrix34
+		1	0	0
+		0	0	-1
+		0	1	0
+		-1.12102	0.0121642	0
+	}
+}
+{Volume "aileron2"
+	{Box 2.45326 10.0398 0.57991}
+	{Bone "aileron2"}
+	{Matrix34
+		1	0	0
+		0	0	1
+		0	-1	0
+		-1.12102	-0.0751972	0
+	}
+}
+{Volume "ammo_storage_autocannon"
+	{Box 17.1654 4.33071 4.33071}
+	{Bone "body_systems"}
+	{Position 13.2521	0	0.756533}
+}
+{Volume "body1"
+	{Polyhedron "body1.vol"}
+	{Bone "body"}
+	{Position -5.1241	-11.9277	-0.833191}
+}
+{Volume "body2"
+	{Polyhedron "body2.vol"}
+	{Bone "body"}
+	{Position -5.1241	15.2209	-0.833191}
+}
+{Volume "body3"
+	{Polyhedron "body3.vol"}
+	{Bone "tail1"}
+	{Position -5.1241	15.2035	-0.833191}
+}
+{Volume "body4"
+	{Polyhedron "body4.vol"}
+	{Bone "tail2"}
+	{Position -5.1241	-11.7546	-0.833191}
+}
+{Volume "body"
+	{Polyhedron "body.vol"}
+	{Bone "body"}
+	{Matrix34
+		0	0	-1
+		0	1	0
+		1	0	0
+		-23.2961	0	0
+	}
+}
+{Volume "electronics"
+	{Box 3.93701 3.93701 0.984252}
+	{Bone "body_systems"}
+	{Position -18.6925	-19.1436	0.919738}
+}
+{Volume "elevator1"
+	{Box 2.61454 8.40516 0.527118}
+	{Bone "elevator1"}
+	{Matrix34
+		1	0	0
+		0	0	-1
+		0	1	0
+		-1.21086	-0.0439827	0
+	}
+}
+{Volume "elevator2"
+	{Box 2.61454 8.37632 0.539671}
+	{Bone "elevator2"}
+	{Matrix34
+		1	0	0
+		0	0	-1
+		0	1	0
+		-1.21086	-0.0377099	0
+	}
+}
+{Volume "engine"
+	{Box 6.92908 10.2922 6.05905}
+	{Bone "part1"}
+	{Matrix34
+		0.999431	0	0.0337251
+		0	1	0
+		-0.0337251	0	0.999431
+		-1.43491	0	-0.347634
+	}
+}
+{Volume "fuel_tank_internal_a"
+	{Box 25.5906 4.92126 4.92126}
+	{Bone "body_systems"}
+	{Position -8.84779	0	0.917484}
+}
+{Volume "ols"
+	{Cylinder 1.37795 4.33071}
+	{Bone "body_systems"}
+	{Matrix34
+		0	0	-1
+		0	1	0
+		1	0	0
+		24.2701	0	0.783099
+	}
+}
+{Volume "part4"
+	{Cylinder 0.871498 17.3196}
+	{Bone "part4"}
+	{Matrix34
+		0	1	0
+		0	0	-1
+		1	0	0
+		2.15436	-0.824258	0
+	}
+}
+{Volume "pilot_panel"
+	{Box 3.93701 3.93701 2.95276}
+	{Bone "body_systems"}
+	{Position -5.85171	8.15009	1.04184}
+}
+{Volume "ppu"
+	{Box 1.9685 1.9685 1.9685}
+	{Bone "body_systems"}
+	{Position -2.51944	7.93626	0.624973}
+}
+{Volume "ptur1"
+	{Box 1.9685 3.93701 0.984252}
+	{Bone "body_systems"}
+	{Position -15.1009	-17.7654	0.446493}
+}
+{Volume "ptur"
+	{Box 3.93701 3.93701 2.95276}
+	{Bone "body_systems"}
+	{Position -15.7732	-12.9711	1.43074}
+}
+{Volume "steering_eler_l"
+	{Box 5.90551 0.177165 0.177165}
+	{Bone "body_systems"}
+	{Position -24.0579	15.3575	1.54418}
+}
+{Volume "steering_eler_r"
+	{Box 5.90551 0.177165 0.177165}
+	{Bone "body_systems"}
+	{Position -24.0579	-15.3496	1.54418}
+}
+{Volume "steering_elev"
+	{Box 5.90551 0.177165 0.177165}
+	{Bone "body_systems"}
+	{Position -24.0579	13.056	1.54418}
+}
+{Volume "steering_rudder"
+	{Box 5.90551 0.177165 0.177165}
+	{Bone "body_systems"}
+	{Position -24.0579	-13.0668	1.54418}
+}
+{Volume "tail1"
+	{Polyhedron "tail1.vol"}
+	{Bone "tail2"}
+	{Position -20.8001	-24.4816	-6.59449}
+}
+{Volume "tail2"
+	{Polyhedron "tail2.vol"}
+	{Bone "tail1"}
+	{Position -20.8001	24.5483	-6.59449}
+}

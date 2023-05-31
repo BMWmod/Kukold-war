@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/model/shahed136_truck/body"}
+	{bump "$/model/shahed136_truck/body_bp"}
+	{specular "$/model/shahed136_truck/body_sp"}
+	{color "230 230 230 25"}
+	{blend none}
+}

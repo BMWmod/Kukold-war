@@ -1,0 +1,16 @@
+{from "pattern proj_impactor"
+	{entity "pl12_impactor"}
+              {inventory
+		{weight 100}
+		{size 5 1}
+	}
+	{tag  "big" "size3" "88to105" "AA_missile" "-ap" "-rocketlauncher" "-low_speed" "fx_146_299"}
+	;около 7.5 кг ВВ - масса б/ч 22.5 кг.
+	;тип БЧ, вероятно, отличается от Р-77, https://zh.wikipedia.org/wiki/%E9%9C%B9%E9%9B%B3-12%E5%AF%BC%E5%BC%B9
+	;указывает на кольцевое осколочное поле, шаблон кольцевая детонация
+	{damage blastwave {energy 0.7} {area 14.4 16.6}}
+	{damage add blastwave {energy 1.2} {area 12.9 14.9}}
+	{damage add blastwave {energy 2.5} {area 7.5 8.6}}
+	{damage add blastwave {energy 6.5} {area 4.9 5.6}}
+	{damage add blastwave {energy 11} {area 2.5 2.9}}
+}

@@ -1,0 +1,6 @@
+{material envmap
+	{diffuse "$/new_construction/usa/glass"}
+	{mask "$/new_construction/usa/glass"}
+	{envmap "$/environment/envmap_window_build"}
+	{blend blend}
+}

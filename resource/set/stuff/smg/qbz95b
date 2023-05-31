@@ -1,0 +1,28 @@
+;Cold War
+{from "qbz95"
+	{curve "58x42_70"}
+	{inventory
+		{size 3 2}
+	}
+	{mass 2.9}       
+	{entity "qbz95b"}
+	{fireSound	"smg/qbz95b"}
+	
+
+	{healthDamage 65}
+	("accuracy_open_sight"  moa(3.5));нет данных, примерно 3 для автомата и 1,5 для снайперки
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

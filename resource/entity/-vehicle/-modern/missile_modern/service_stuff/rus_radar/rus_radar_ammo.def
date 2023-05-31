@@ -1,0 +1,11 @@
+{game_entity
+	(include "/properties/stuff_small.ext")
+	{collider "ammo"}
+	{extender "stuff"
+		{item "rus_radar_beam AA_proj ammo"}
+	}
+	{Volume "body"
+		{thickness 2}
+	}
+	{Extension "radar.mdl"}
+}

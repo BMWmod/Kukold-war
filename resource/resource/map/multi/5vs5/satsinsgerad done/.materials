@@ -1,0 +1,78 @@
+{materials
+	{"mtl0"
+		{layer bump
+		}
+		{layer bump
+			{bump "/texture/land/grass/forestfloor1_nm"}
+		}
+	}
+	{"mtl1"
+		{layer bump
+			{diffuse "/texture/land/_reighstag/crash_brick"}
+		}
+		{layer bump
+		}
+	}
+	{"mtl2"
+		{layer bump
+			{diffuse "/texture/land/_reighstag/crash_brick"}
+		}
+		{layer bump
+			{diffuse "/texture/land/grass/forestfloor1"}
+			{bump "/texture/land/grass/forestfloor1_nm"}
+		}
+	}
+	{"mtl3"
+		{layer bump
+			{diffuse "/texture/land/_reighstag/crash_brick"}
+		}
+		{layer bump
+			{diffuse "/texture/land/rock/cliffy_1"}
+			{bump "/texture/land/rock/cliffy_1_nm"}
+		}
+	}
+	{"mtl4"
+		{layer bump
+			{diffuse "/texture/land/_reighstag/crash_brick"}
+		}
+		{layer bump
+			{diffuse "/texture/land/dirt/clay_2"}
+			{bump "/texture/land/dirt/clay_2_nm"}
+		}
+	}
+	{"mtl5"
+		{layer bump
+			{diffuse "/texture/land/_reighstag/crash_brick"}
+		}
+		{layer bump
+			{diffuse "/texture/land/_reighstag/asfalt_road_q3_x2"}
+		}
+	}
+	{"mtl6"
+		{layer bump
+			{diffuse "/texture/land/_reighstag/crash_brick"}
+		}
+		{layer bump
+			{diffuse "/texture/land/dirt/clay_1f"}
+			{bump "/texture/land/dirt/clay_1f_nm"}
+		}
+	}
+	{"mtl7"
+		{layer bump
+			{diffuse "/texture/land/bottom/bottom_bog1a"}
+			{bump "/texture/land/bottom/bottom_bog1a_nm"}
+		}
+		{layer bump
+			{diffuse "/texture/land/dirt/clay_1f"}
+			{bump "/texture/land/dirt/clay_1f_nm"}
+		}
+	}
+	{"mtl8"
+		{layer bump
+			{diffuse "/texture/land/town/asfalt_plat1"}
+			{bump "/texture/land/town/asfalt_plat1_nm"}
+		}
+		{layer bump
+		}
+	}
+}

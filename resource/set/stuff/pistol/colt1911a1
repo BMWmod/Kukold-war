@@ -1,0 +1,12 @@
+;Cold War
+{from "pattern pistol"
+	{filling "ammo standart" 10}
+	{curve "9x19_40"}
+	{entity "colt1911a1"}
+	{fireSound "pistol/colt1911a1/"}
+	{reloadSound "colt"}
+	{recoveryTime 0.09}
+	{aimRange 35}
+	{maxRange 40}
+	{rechargeTime 2.8}
+}

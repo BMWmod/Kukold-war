@@ -1,0 +1,86 @@
+;Exported by: Timosh
+;Date:        Mon Jul  4 17:55:08 2022
+;File:        G:\?????? ? Pheonix\??????????????\??????\?????? ? ???????\???\???????????? ??????????? ???????\27.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "f1c1"
+			{Position -59.0356	-36.0437	0}
+		}
+		{bone "f1c2"
+			{Position -59.0356	26.1495	0}
+		}
+		{bone "f1c3"
+			{Position -1.57475	26.1495	0}
+		}
+		{bone "f1c4"
+			{Position 57.7737	26.1495	0}
+		}
+		{bone "f1c5"
+			{Position 57.7737	-36.0177	0}
+		}
+		{bone "f1c6"
+			{Position 0.0604935	-36.0177	0}
+		}
+		{bone "f2c1"
+			{Position -56.3368	-36.0177	61.5869}
+		}
+		{bone "f2c2"
+			{Position -56.3368	25.1211	61.5869}
+		}
+		{bone "f2c3"
+			{Position -2.93268	25.1211	61.5869}
+		}
+		{bone "f2c4"
+			{Position 53.4678	25.1211	61.5869}
+		}
+		{bone "f2c5"
+			{Position 53.4678	-32.5438	61.5869}
+		}
+		{bone "f2c6"
+			{Position 1.5493	-32.5438	61.5869}
+		}
+		{bone "f2c7"
+			{Position -33.6281	25.1211	61.5869}
+		}
+		{bone "f2c8"
+			{Position 17.6206	7.86826	61.5869}
+		}
+		{bone "f2r1"
+			{Position -53.4992	-31.4647	133.444}
+		}
+		{bone "f2r2"
+			{Position -53.4992	33.0716	133.444}
+		}
+		{bone "f2r3"
+			{Position -0.258209	33.0716	133.444}
+		}
+		{bone "f2r4"
+			{Position 56.5413	33.0716	133.444}
+		}
+		{bone "f2r5"
+			{Position 56.5413	-28.6298	133.444}
+		}
+		{bone "f2r6"
+			{Position 1.3301	-28.6298	133.444}
+		}
+		{bone "gd"
+			{Position -53.6175	-77.1213	0}
+		}
+		{bone "wp1"
+			{Position 88.6667	-54.2371	12.6918}
+		}
+		{bone "wp2"
+			{Matrix34
+				-1	0	0
+				0	-1	0
+				0	0	1
+				-88.6079	50.196	12.6918
+			}
+		}
+	}
+}

@@ -1,0 +1,57 @@
+{weapon_bullet
+	{tag "gun" "weapon" "skill_tankgun" "bullet"}	;"bullet" is needed for work of levelling and skills
+	("heavy_artillery")
+	{filling "ammo lars2" 36}
+	{fillingvisible "rocket0"}
+	{fireSound "reactive/grad_burst"}
+	{burst {min 18} {noaiming}}
+	{Automatic}
+	{recoveryTime 0.5}
+    (mod "mp"
+	{recoveryTime 0.35}
+	{burst {min 0} {short 1} {long 1} {noaiming}}
+	)
+	("relaxationtime" rt(3))
+
+		{range 320 320}   ;Так то 14 км для старых версий НУРС - но до прояснения ситуации ставим 25 км.
+		("CW_acc_artillery" mils(10))	;удвоено из баланса
+		{Spreading	
+        {SpreadPower	1.70}
+		{SpreadXYRatio	2.0}
+	    }
+		{rechargeTime 210}
+		
+;		{gravity 4}
+		{speed 40}
+		{gravity 0.5}
+		;("speed_mrls")
+
+;		{aimtype adaptive}
+		;{cursor "cannon_on_fg_4"}
+	             {cursor "cannon_on_fg_14"}
+		;{cursorReloading "cannon_reload_fg"}
+	             {cursorReloading "cannon_reload_fg_timer_210"}
+    {parameters "mine"
+	    (mod "mp"
+	    {recoveryTime 0.5}
+		)
+		{gravity 0.65}
+		{range 240 240}  ;14 км для старых версий НУРС (мины)
+        {Spreading	
+        {SpreadXYRatio	2.0} ; чтобы не было взведения раньше времени из-за вертикального разброса
+	    }		
+		;{cursor "cannon_on_heat_3"}
+		;{cursorReloading "cannon_reload_heat"}
+		{cursor "mine"}
+		;{cursorReloading "cannon_reload_all"}
+		{cursorReloading "cannon_reload_all_timer_210"}
+	}
+}
+;ОФ DM-11 взрыватель ударного действия - стар.
+;ОФ с ГПЭ DM-21 - 5000 стальн.шар. и неконтакным взрывателем.-стар.
+;ДЫМ DM-15 6 кг дым.образ.состава - стар.
+;кассетная DM-70 мины AT-1 - стар.
+;кассетная DM-711 мины АТ-2x5 - нов.
+;ДЫМ DM-28 8.4 кг - нов.
+;кассетная - КОБЭ М42 - М77. - нов.	
+;http://www.rakartbtl12.de/waffensysteme/lars_munition/munition.html

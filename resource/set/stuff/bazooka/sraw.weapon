@@ -1,0 +1,20 @@
+{from "pattern proj_weapon_ground"
+	{tag "rocketlauncher" "to_hand ap" "cannot_lie" "nokeep"}
+	{filling "ammo sraw_rock" 1}
+	{preloaded}
+	{ammoLocked}
+	{inventory
+		{size 4 1}
+	}
+	{aimRange 85}
+	{maxRange 85}
+	{speed 32} ; speed гранаты x1.5 (25.02.21)	
+	{gravity 0}
+	{entity "sraw"}
+	{mass 6.4}
+	{fireSound "bazooka/SMAW"}
+	;{cursor "zenite_on"}
+	;{cursorReloading "zenite_reload"}
+	{cursor "cannon_on_heat_2"}
+	{cursorReloading "cannon_reload_heat"}
+}

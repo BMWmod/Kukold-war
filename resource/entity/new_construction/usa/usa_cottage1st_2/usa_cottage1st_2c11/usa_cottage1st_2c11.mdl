@@ -1,0 +1,139 @@
+;Exported by: Timosh
+;Date:        Fri Jun 24 12:13:08 2022
+;File:        G:\?????? ? Pheonix\??????????????\??????\?????? ? ???????\???\usa_cottage_1st_2 final 1.max
+{Skeleton
+	{bone "usa_cottage1st_2c11"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "usa_cottage1st_2c11.ply"}
+		{bone "exterior"
+			{Position 2.23128	-3.41663	69.8935}
+			{VolumeView "exterior.ply"}
+		}
+		{bone "fix1"
+			{Position 3.54268	-15.285	16.0172}
+		}
+		{bone "fix2"
+			{Position -18.0017	1.85048	16.0172}
+		}
+	}
+}
+{Obstacle "body1"
+	{Obb2
+		{Center -6.34492 14.8944}
+		{Extent 14.7436 2.6569}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body" "fire"}
+}
+{Obstacle "body2"
+	{Obb2
+		{Center 0.689074 14.8944}
+		{Extent 22.1154 2.6569}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body" "fire"}
+}
+{Area "interior"
+	{Obb2
+		{Center -0.821056 -11.1306}
+		{Extent 44.7587 24.8592}
+		{Axis -1 0}
+	}
+	{Rotate}
+}
+{Volume "body1"
+	{Box 5.31379 29.4873 15.0069}
+	{Bone "usa_cottage1st_2c11"}
+	{Matrix34
+		0	1	0
+		-0.999999	0	0
+		0	0	1.1741
+		-6.34492	-14.8944	28.9475
+	}
+}
+{Volume "body2"
+	{Box 5.31379 44.2309 15.0069}
+	{Bone "usa_cottage1st_2c11"}
+	{Matrix34
+		0	1	0
+		-0.999999	0	0
+		0	0	1.1741
+		0.689075	-14.8944	43.4483
+	}
+}
+{Volume "body3"
+	{Box 5.31379 29.5946 16.2429}
+	{Bone "usa_cottage1st_2c11"}
+	{Matrix34
+		-1	0	0
+		0	-1	0
+		0	0	1.1741
+		15.8364	1.14798	43.499
+	}
+}
+{Volume "body4"
+	{Box 5.31379 29.5946 18.0477}
+	{Bone "usa_cottage1st_2c11"}
+	{Matrix34
+		-1	0	0
+		0	-0.999999	0
+		0	0	1.1741
+		-17.8651	1.14796	41.596
+	}
+}
+{Volume "roof1"
+	{Box 22.236 25.8481 6.59106}
+	{Bone "exterior"}
+	{Matrix34
+		0.427899	0.872312	-0.201507
+		-0.704944	0.507468	0.507687
+		0.666912	-0.0174407	0.972557
+		41.9848	8.98392	4.428
+	}
+}
+{Volume "roof2"
+	{Box 20.6769 19.7149 6.59449}
+	{Bone "exterior"}
+	{Matrix34
+		-0.666411	0.510349	0.543545
+		-0.745585	-0.456141	-0.485838
+		-1.31173e-05	-0.729027	0.684485
+		-39.137	-1.22077	1.74366
+	}
+}
+{Volume "roof3"
+	{Polyhedron "roof3.vol"}
+	{Bone "exterior"}
+	{Matrix34
+		0.562609	-0.739739	0.36913
+		0.616966	0.672891	0.40813
+		-0.550294	-0.0018764	0.834969
+		-46.6816	12.0224	1.79208
+	}
+}
+{Volume "roof4"
+	{Box 20.6769 22.0807 6.59449}
+	{Bone "exterior"}
+	{Matrix34
+		-0.666411	0.510349	0.543545
+		-0.745585	-0.456141	-0.485838
+		-1.31173e-05	-0.729027	0.684485
+		30.7723	-2.05739	0.853953
+	}
+}
+{Volume "roof5"
+	{Polyhedron "roof5.vol"}
+	{Bone "exterior"}
+	{Matrix34
+		-0.999766	-0.017364	0.0128661
+		0.00520869	-0.698914	-0.715187
+		-1.2815e-05	-0.729027	0.684485
+		-4.29914	-11.8134	-10.8365
+	}
+}

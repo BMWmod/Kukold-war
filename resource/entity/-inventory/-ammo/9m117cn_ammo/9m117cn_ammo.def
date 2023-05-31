@@ -1,0 +1,11 @@
+;Model by Pheonix
+{game_entity
+	(include "/properties/Projectile_ammo.ext")
+                           (include "/properties/shadow/round.inc")
+	{collider "ammo"}
+	{extender "stuff"
+		{item "bullet105_cn rok"}
+	}
+	{extension "9m117_ammo.mdl"}
+	
+}

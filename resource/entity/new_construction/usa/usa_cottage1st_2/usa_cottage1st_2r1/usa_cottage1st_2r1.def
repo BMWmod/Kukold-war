@@ -1,0 +1,40 @@
+{game_entity
+	(include "/properties/building.inc")
+	{props "cornered" "wood" "parts" "construction" "windowed" "wall" "burning"}
+	("armor_heavy" args 0.8)
+	{extender "structure_bone"
+		{hold  "5"}
+		{hold  "6"}
+	}
+	{Extension "usa_cottage1st_2r1.mdl"}
+	{Volume "roof1"
+		{Tags  "body" "fire"}
+		{Thickness 10}
+		{able {visible 0}{obstacle 0}}
+	}
+	{Volume "roof2"
+		{Tags  "body" "fire"}
+		{Thickness 10}
+		{able {visible 0}{obstacle 0}}
+	}
+	{Volume "roof3"
+		{Tags  "body" "fire"}
+		{Thickness 10}
+		{able {visible 0}{obstacle 0}}
+	}
+	{Volume "roof4"
+		{Tags  "body" "fire"}
+		{Thickness 10}
+		{able {visible 0}{obstacle 0}}
+	}
+	{Volume "roof5"
+		{Tags  "body" "fire"}
+		{Thickness 10}
+		{able {visible 0}{obstacle 0}}
+	}
+	{Volume "roof6"
+		{Tags  "body" "fire"}
+		{Thickness 10}
+		{able {visible 0}{obstacle 0}}
+	}
+}

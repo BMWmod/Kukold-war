@@ -1,0 +1,12 @@
+{material bump
+	{diffuse "$/model/plz-07b/turret_xx"}
+	{bump "$/model/plz-07b/turret_bp"}
+	{specular "$/model/plz-07b/turret_sp"}
+	{color "230 230 230 25"}
+	{blend none}
+}
+
+
+
+
+

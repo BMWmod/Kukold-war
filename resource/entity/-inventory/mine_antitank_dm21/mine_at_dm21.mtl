@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "mine_at_dm21_co"}
+	{blend none}
+}

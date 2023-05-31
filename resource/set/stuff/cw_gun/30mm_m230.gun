@@ -1,0 +1,48 @@
+{from "pattern gun_air"     ; AH64d 
+	
+	{filling "bullet30_USA" 100}
+	{fireSound "gun/M230"}
+	{reloadSound "61k_reload"}
+;=====================
+	{AimingTolerance 3}
+	{Automatic}
+	{recoveryTime 0.1}			
+	{rechargeTime 4}
+	{spreading
+		{spreadradius 	1}
+		{SpreadXYRatio	1.1}
+		{SpreadPower	1.7}
+		{BurstAccuracy 100 80 70}	;дальше от центра масс, меньше точность очереди
+	}
+	{burst
+		{min 0}
+		{short 3 1}
+		{long 5 2}
+	}
+	{RelaxationTime 1}
+;	{cursor "Apach2"}
+;	{cursorReloading "zenite_reload"}
+;=====================
+	{SpreadTolerance 0.5}
+	{range 120 120}
+	("speed" s(960))
+	("37-57caliber")
+	{calibre 30}
+	{speed 180}
+	("CW_acc_common" mils(0.86))	;http://dtic.mil/ndia/2012armaments/Tuesday14031mcconkie.pdf
+	; a - 20, b - 50, c - 80, d -100, e - 120 
+	;{cursor "cannon_on_ap_2"}
+	;{cursorReloading "cannon_reload_ap"}
+	{parameters "cm"
+		("damage4" a(46) b(46) c(46) d(46) e(46))   ; M789 http://www.orbitalatk.com/defense-systems/small-caliber-systems/30mm/
+	             {cursor "cannon_on_heat_9"}
+	             {cursorReloading "cannon_reload_heat"}
+	}
+	{parameters "ap"
+		("CW_small_AP_damage" penetr_1000m(11))
+	             {cursor "cannon_on_ap_5"}
+	             {cursorReloading "cannon_reload_ap"}	
+	}
+
+           
+}

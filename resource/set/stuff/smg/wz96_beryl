@@ -1,0 +1,24 @@
+;Cold War
+{from "pattern smg"
+	{tag "reliability_high"}
+	{filling "ammo 556Nato" 30} ;556
+	{curve "556_70"}
+	{mass 3.36}     
+	{entity "wz96_beryl"}
+	{fireSound	"smg/fb_beryl"}
+	{reloadSound "chn/AK74u_reload"}
+	{speed 280}	
+
+	{recoveryTime 0.09}
+    {rechargeTime 2.5}
+
+	("smg_range")
+	
+	{burst
+		{short 2 1}
+		{long 6 2}
+{rangeKoef 0.444}
+	}
+	{healthDamage 81}
+	("accuracy_open_sight"  moa(3.2))
+}

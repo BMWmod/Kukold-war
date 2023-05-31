@@ -1,0 +1,114 @@
+;Translated by Pheonix KageDesu
+{tags
+	{"00" "Crews, on position! "}
+	{"01" "Three!"}
+	{"02" "Two!"}
+	{"03" "One!"}
+	{"04" "Armor, attention"}
+	{"10" "Wrong way, you got a penal!"}
+	{"blue_00" "Blue, tank in position"}
+	{"blue_01" "This is Blue , I start loading ammo"}
+	{"blue_02" "This is Blue, ammo loaded , the crew inside"}
+	{"blue_03" "Blue , start shooting ."}
+	{"blue_04" "Blue, targets destroyed, get back."}
+	{"blue_05" "This is Blue, a gun is unloaded."}
+	{"blue_06" "Blue, extra shot."}
+	{"blue_07" "Blue, a penalty loop, get back."}
+	{"blue_08" "Blue, a two penalty loop, get back."}
+	{"blue_09" "Blue, a three penalty loop, get back."}
+	{"blue_11" "Blue, fine, on the road."}
+	{"blue_15" "Blue, there was one penalty loop."}
+	{"blue_19" "Blue, there was two penalty loop."}
+	{"blue_23" "Blue, stop!"}
+	{"blue_24" "Blue, passed the second round."}
+	{"blue_25" "Blue, passed the third round."}
+	{"blue_26" "Blue, passed the first round."}
+	{"blue_27" "Wrong way!"}
+	{"blue_28" "Blue, what you doing, go to the fire position!"}
+	{"blue_29" "Blue, targets destroyed, get back."}
+	{"blue_30" "Blue, load an addition ammo"}
+	{"blue_31" "Blue, after loading, follow the track for fire on the move."}
+	{"blue_ready" "Blue"}
+	{"blue_fuel" "Blue, don't forget about fuel"}
+	{"cam1" "The first obstacle is \" snake \" . Tank must elapse between the columns defined without hitting them . Behind touch tank column stops for 5 seconds. After \" snake \"- the firing line."}
+	{"cam2" "The entire crew must leave the tank and refill it from the box next to the ammunition . Ammunition at different stages includes shells and machine-gun bullets."}
+	{"cam3" " After loading ammunition for 1, 2 and 3 tank firing line extends slightly forward to the firing position . Thereafter crew shells appeared goals and leaves the firing position. Targets in the first stage - three tanks on the second - helicopter third - RPG group of infantry and anti-tank systems based on the car ."}
+	{"cam4" "The fourth shooting occurs in the movement or short , at the request of the crew. Occurs it in position for firing on the move. target type \" tank \" can be affected only by a shell . Apart from a group of three tanks need two hit singles RPG two LAW based on the car , and two groups of infantry . Penalty charged for incomplete defeat the purposes of the same type ."}
+	{"cam5" "For the purposes of the unaffected or groups of objectives assigned penalty loop , from 1 to 3 . Only after the designated penalty laps player may continue to move along the path. "}
+	{"cam6" "Next hurdle - two rutting bridge. Player can pass the bridge without penalty only when hit tracks on the bridge track ."}
+	{"cam7" "Around the second or third round tank participant need refueling . Refuel the tank can be in special area."}
+	{"cam8" "Next, the crew must overcome obstacles antitank band : two rows of anti eschey , hill, pond and scarp . Then the crew through his land \" snake \" goes to the next step ."}
+	{"cam9" "Time to fire 1,2,3 lines and time in the middle of the circle is displayed on small displays, while the next round and final time - on the main board at the finish line ."}
+	{"green_00" "Green, tank in position"}
+	{"green_01" "This is Green , I start loading ammo"}
+	{"green_02" "This is Green, ammo loaded , the crew inside"}
+	{"green_03" "Green , start shooting ."}
+	{"green_04" "Green, targets destroyed, get back."}
+	{"green_05" "This is Green, a gun is unloaded."}
+	{"green_06" "Green, extra shot."}
+	{"green_07" "Green, a penalty loop, get back."}
+	{"green_08" "Green, a two penalty loop, get back."}
+	{"green_09" "Green, a three penalty loop, get back."}
+	{"green_11" "Green, fine, on the road."}
+	{"green_15" "Green, there was one penalty loop."}
+	{"green_19" "Green, there was two penalty loop."}
+	{"green_23" "Green, stop!"}
+	{"green_24" "Green, passed the second round."}
+	{"green_25" "Green, passed the third round."}
+	{"green_26" "Green, passed the first round."}
+	{"green_27" "Wrong way!"}
+	{"green_28" "Green, what you doing, go to the fire position!"}
+	{"green_29" "Green, targets destroyed, get back."}
+	{"green_30" "Green, load an addition ammo"}
+	{"green_31" "Green, after loading, follow the track for fire on the move."}
+	{"green_ready" "Green"}
+	{"green_fuel" "Green, don't forget about fuel"}
+	{"red_00" "Red, tank in position"}
+	{"red_01" "This is Red , I start loading ammo"}
+	{"red_02" "This is Red, ammo loaded , the crew inside"}
+	{"red_03" "Red , start shooting ."}
+	{"red_04" "Red, targets destroyed, get back."}
+	{"red_05" "This is Red, a gun is unloaded."}
+	{"red_06" "Red, extra shot."}
+	{"red_07" "Red, a penalty loop, get back."}
+	{"red_08" "Red, a two penalty loop, get back."}
+	{"red_09" "Red, a three penalty loop, get back."}
+	{"red_11" "Red, fine, on the road."}
+	{"red_15" "Red, there was one penalty loop."}
+	{"red_19" "Red, there was two penalty loop."}
+	{"red_23" "Red, stop!"}
+	{"red_24" "Red, passed the second round."}
+	{"red_25" "Red, passed the third round."}
+	{"red_26" "Red, passed the first round."}
+	{"red_27" "Wrong way!"}
+	{"red_28" "Red, what you doing, go to the fire position!"}
+	{"red_29" "Red, targets destroyed, get back."}
+	{"red_30" "Red, load an addition ammo"}
+	{"red_31" "Red, after loading, follow the track for fire on the move."}
+	{"red_ready" "Red"}
+	{"red_fuel" "Red, don't forget about fuel"}
+	{"yellow_00" "Yellow, tank in position"}
+	{"yellow_01" "This is Yellow , I start loading ammo"}
+	{"yellow_02" "This is Yellow, ammo loaded , the crew inside"}
+	{"yellow_03" "Yellow , start shooting ."}
+	{"yellow_04" "Yellow, targets destroyed, get back."}
+	{"yellow_05" "This is Yellow, a gun is unloaded."}
+	{"yellow_06" "Yellow, extra shot."}
+	{"yellow_07" "Yellow, a penalty loop, get back."}
+	{"yellow_08" "Yellow, a two penalty loop, get back."}
+	{"yellow_09" "Yellow, a three penalty loop, get back."}
+	{"yellow_11" "Yellow, fine, on the road."}
+	{"yellow_15" "Yellow, there was one penalty loop."}
+	{"yellow_19" "Yellow, there was two penalty loop."}
+	{"yellow_23" "Yellow, stop!"}
+	{"yellow_24" "Yellow, passed the second round."}
+	{"yellow_25" "Yellow, passed the third round."}
+	{"yellow_26" "Yellow, passed the first round."}
+	{"yellow_27" "Wrong way!"}
+	{"yellow_28" "Yellow, what you doing, go to the fire position!"}
+	{"yellow_29" "Yellow, targets destroyed, get back."}
+	{"yellow_30" "Yellow, load an addition ammo"}
+	{"yellow_31" "Yellow, after loading, follow the track for fire on the move."}
+	{"yellow_ready" "Yellow"}
+	{"yellow_fuel" "Yellow, don't forget about fuel"}
+}

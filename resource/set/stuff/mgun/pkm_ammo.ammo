@@ -1,0 +1,18 @@
+;Cold War
+{bullet
+	{tag "bullet stackable LPS mgun svd_ammo pierce fx_bul_med"}
+	{inventory
+		{weight 1}
+		{block 100}
+		{size 2 1}
+		{fsm "belt"}
+	}
+	{mass 0.04}
+	{entity "Pkm_ammo"}
+	{trace
+		{view "/texture/fx/trace5"
+			{ScaleY 0.13}
+		}
+		{length 1.2}
+	}
+}

@@ -1,0 +1,108 @@
+;Exported by: Kasutaja
+;Date:        Sun Oct 30 15:37:25 2022
+;File:        D:\??????? ????\??? GEM2\????????? 3? ??????? Cold War ?????????\Cold War 2010\?????? ? Pheonix\??????????????\??????\?????? ??????\SAKO TRG 42\TRG_42\SAKO_TRG_42FS Sulleman.max
+{Skeleton
+	{bone "sako_trg42_fs"
+		{parameters "CommonMesh;"}
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "sako_trg42_fs.ply"}
+		{bone "scope_optika"
+			{Matrix34
+				0.0385208	-0.999258	0
+				0	0	-1
+				0.999258	0.0385208	0
+				4.35006	3.07902	0.20523
+			}
+			{LODView
+				{VolumeView "scope_optika.ply"}
+				{VolumeView "scope_optika_lod1.ply"}
+				{VolumeView "scope_optika_lod2.ply"}
+				{VolumeView "scope_optika_lod3.ply"}
+			}
+		}
+		{bone "suppressor"
+			{Matrix34
+				0.926577	0.0357194	0.374406
+				0.374128	0.0144224	-0.927265
+				-0.0385212	0.999258	0
+				19.776	2.86086	-0.0698751
+			}
+			{VolumeView "suppressor.ply"}
+		}
+		{bone "fxshell"
+			{parameters "Voxels=0;"}
+			{Matrix34
+				-0.0052634	-0.000202162	0.999986
+				0.999004	0.0443049	0.00526719
+				-0.0443054	0.999018	-3.12337e-05
+				3.20058	2.26762	0.41073
+			}
+		}
+		{bone "foresight3"
+			{parameters "Voxels=0;"}
+			{Matrix34
+				0.999258	0.0385207	0
+				-0.0385207	0.999258	0
+				0	0	1
+				21.7158	2.94989	0.18926
+			}
+		}
+		{bone "handle"
+			{parameters "Voxels=0;"}
+			{Matrix34
+				0.999258	0.0385207	0
+				-0.000221638	0.00574046	-0.999983
+				-0.0385201	0.999241	0.00574474
+				9.62444	2.81841	-0.0384398
+			}
+		}
+	}
+}
+{Volume "body"
+	{Polyhedron "body.vol"}
+	{Bone "sako_trg42_fs"}
+	{Matrix34
+		0.999258	0.0385207	0
+		-0.0385207	0.999258	0
+		0	0	1
+		8.41032	2.55338	-0.234525
+	}
+}
+{Volume "select"
+	{Polyhedron "select.vol"}
+	{Bone "sako_trg42_fs"}
+	{Matrix34
+		0.999258	0.0385207	0
+		-0.0385207	0.999258	0
+		0	0	1
+		8.50786	2.32135	0.200789
+	}
+}
+{Extender "preview"
+	{"Stuff"
+		{camera
+			{origin 5.40355	-3.80865	26.5253}
+			{lookat 4.94636	-1.55632	1.64755}
+			{fov 45}
+			{horizon -177.044}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 15.2754	-2.6666	1.90596}
+			}
+			{"1"
+				{type directional}
+				{direction -0.0800069	0.187578	-0.456523}
+			}
+			{"2"
+				{type point}
+				{position -2.93825	-2.06022	0.336589}
+			}
+		}
+	}
+}

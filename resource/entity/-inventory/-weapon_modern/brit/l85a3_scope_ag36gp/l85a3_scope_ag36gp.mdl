@@ -1,0 +1,127 @@
+;Exported by: Kasutaja
+;Date:        Sun Oct 30 16:33:48 2022
+;File:        C:\Users\Kasutaja\Desktop\l85a3 cw\L85A3_1.max
+{Skeleton
+	{bone "l85-a3"
+		{parameters "CommonMesh;"}
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{LODView
+			{VolumeView "l85-a3.ply"}
+			{VolumeView "l85-a3_lod1.ply"}
+			{VolumeView "l85-a3_lod2.ply"}
+			{VolumeView "l85-a3_lod3.ply"}
+		}
+		{bone "ag36"
+			{Matrix34
+				0	0	-1
+				-1	0	0
+				0	1	0
+				4.39503	0.154493	-0.0248642
+			}
+			{VolumeView "ag36.ply"}
+		}
+		{bone "lazer"
+			{Matrix34
+				0	0	-1
+				-1	0	0
+				0	1	0
+				5.13404	1.84007	-0.681087
+			}
+			{VolumeView "lazer.ply"}
+		}
+		{bone "ares_sc-015_scope"
+			{Matrix34
+				0	0	-1
+				-1	0	0
+				0	1	0
+				0.127319	3.08687	-0.0421583
+			}
+			{VolumeView "ares_sc-015_scope.ply"}
+		}
+		{bone "handle"
+			{parameters "Voxels=0;"}
+			{Matrix34
+				1	0	0
+				0	0.00574522	-0.999983
+				0	0.999983	0.00574522
+				2.52685	2.68883	0.0125364
+			}
+		}
+		{bone "foresight3"
+			{parameters "Voxels=0;"}
+			{Position 6.90191	0.729407	0.0158559}
+		}
+		{bone "fxshell"
+			{parameters "Voxels=0;"}
+			{Matrix34
+				-0.00526919	0	0.999986
+				0.999969	0.00577478	0.0052691
+				-0.0057747	0.999983	-3.07575e-05
+				-2.51909	1.98758	0.477483
+			}
+		}
+	}
+}
+{Volume "body"
+	{Polyhedron "body.vol"}
+	{Bone "l85-a3"}
+	{Position 4.32305	1.90251	-0.581424}
+}
+{Volume "select"
+	{Polyhedron "select.vol"}
+	{Bone "l85-a3"}
+	{Position 4.41158	1.66688	-0.146111}
+}
+{Extender "preview"
+	{"Stuff_primary"
+		{camera
+			{origin 17.1404	-4.32914	16.0124}
+			{lookat 9.2744	-1.46876	0.718755}
+			{fov 45}
+			{horizon 120.784}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 13.4908	-2.23522	-10.0373}
+			}
+			{"1"
+				{type directional}
+				{direction -0.254633	0.202516	-0.37967}
+			}
+			{"2"
+				{type point}
+				{position -3.54818	-0.430116	-3.63548}
+			}
+		}
+	}
+	{"Stuff"
+		{camera
+			{origin 16.8517	-4.21563	15.4177}
+			{lookat 9.28821	-1.46527	0.712307}
+			{fov 45}
+			{horizon 120.784}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 13.4908	-2.23522	-10.0373}
+			}
+			{"1"
+				{type directional}
+				{direction -0.254633	0.202516	-0.37967}
+			}
+			{"2"
+				{type point}
+				{position -3.54818	-0.430116	-3.63548}
+			}
+		}
+	}
+}
+
+
+

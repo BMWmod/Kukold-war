@@ -1,0 +1,160 @@
+{tags
+	{"" ""}
+	{"00" "Lieutenant, we are in place. It's a polygon of Torzhok TSBPA, I flew here and know the area. A lot of metal scrap, so Mi-24 should not be detected at this site. Helicopter at your disposal, I'll take you wherever you order, or support by fire. I can also paradrop you if needed."}
+	{"01" "He is done, alive."}
+	{"02" "Got him, alive."}
+	{"03" "Commander, we have a captive!"}
+	{"04" "Ha, a lieutenant. He will burn all near Andreikovo."}
+	{"05" "Says - a sergeant. Good enough, but he shouldn't know all positions near Andreikovo."}
+	{"06" "Just a private. He knows some positions, but not very useful."}
+	{"07" "Who's stamping over there? Look where you're stepping! We must go away, yankees will comb everything around there."}
+	{"08" "Hush!"}
+	{"09" "Looks like we're lucky. But only till next time."}
+	{"10" "Hey, a lieutenant. I'll ask him about patrols near Ryabeevo.."}
+	{"100" "I'll do it. It's better to have co-operator, but I'll make it alone too."}
+	{"101" "Too late... The pilot is dead."}
+	{"102" "Storm, I am Dawn! We are ready, but there are eight Raptors heading East!"}
+	{"103" ""}
+	{"104" "Ensure the parachute landing of troops in the area. Save 6 or more machines in at least three groups."}
+	{"105" "East landing zone."}
+	{"106" "Dawn, understood you. Transports will wait until the Raptors will not be shot down. Hold on."}
+	{"107" "Storm, I am Dawn. The second company has successfully landed."}
+	{"108" "Storm, I am Dawn. The second company has suffered losses."}
+	{"109" "Paratroopers have suffered heavy losses  during the landing, that did not allow them to close the encirclement of Klin balcony."}
+	{"11" "Says - a sergeant. Good enough, but he shouldn't know all patrols near Ryabeevo."}
+	{"110" "Storm, I am Dawn. The third company is put forward."}
+	{"111" "South landing zone."}
+	{"112" "Storm, I am Dawn. The third company is battered."}
+	{"113" "Storm, I am Dawn. The fourth company is ready to fight."}
+	{"114" "Western landing zone."}
+	{"115" "The central landing zone."}
+	{"116" "Storm, I am Dawn. The fourth company column is formed, commander, but we have KIAs."}
+	{"117" "Storm, I am Dawn. Fifth company is proceeding to the airfield protection."}
+	{"118" "Storm, I am Dawn. Fifth company holds positions at the airport, but it suffered some losses."}
+	{"119" "It seems that we have here one of the Thunderbolts, who were able to get away from us."}
+	{"12" "What a rascal! We've got an officer. He knows all positions in Danilovskoye."}
+	{"120" "Yes, we failed to stop them. Aerodrome rather far away, they won't return quickly, but they will fly until destroyed."}
+	{"121" "Storm, this is Dawn. The landing was successful. Airport is under our control, Danilovskoe is taken,  a group was sent along road R90. The third company moves on the west along A112, the second company entered the Proletarian district and captured a bridge over the Volga."}
+	{"122" "Dawn, this is Storm. Excellent work, the HQ is happy. The offensive is progressing well in your area, no significant enemy resistance. Kantemirov Guards have broken through the front and soon will complete encirclement. Thank you, captain, now we've caught them!"}
+	{"123" "Mission complete!"}
+	{"124" "Saved troops found. Select transport plane loadout."}
+	{"125" "Transport planes arrive in:"}
+	{"127" "Got him!"}
+	{"128" "Burn!"}
+	{"129" "Blown him up!"}
+	{"13" "He is SAM operator. He knows nothing about patrols and ground forces, but he'd burned all SAMs' locations."}
+	{"130" "Burst, skunk!"}
+	{"131" "Minus one."}
+	{"132" "Yes!"}
+	{"133" "Hit him!"}
+	{"134" "One less!"}
+	{"14" "Ha, a lieutenant. He has told about patrols near Danilovskoye."}
+	{"15" "He's a sergeant. He has told about several patrols near Danilovskoye."}
+	{"16" "Exellent trophy. He is an officer of Tver garrison. He knows every patrol in the city."}
+	{"17" "We've got a lieutenant, a good trophy."}
+	{"18" "Commander, we have a sergeant. At least something. He will definitely burn somebody at the city."}
+	{"19" "Commander! We've managed to capture one of the garrison officers. Now we know enemy dislocation in that zone."}
+	{"20" "He's a pilot. He can tell about helicopter patrols."}
+	{"21" "Commander, we've got an HQ major. All enemy positions are in our pocket."}
+	{"22" "Good. I'll start on foot, quietly, and you get ready to take off."}
+	{"23" "Our first task is to cut the enemy's communications. Aviation and EW will suppress transmitters of enemy vehicles and personnel, but the radio reconnaissance discovered two command and control vehicles LAV-25C2 at the airport. They won't be supressed, so it's our task."}
+	{"24" "Their position are unknown, it is necessary to search for them. They are probably somewhere at the airport or near the fuel depots. You need to destroy them simultaneously, with a difference of not more than half a minute, or the alarm will be raised, and we will be in trouble."}
+	{"25" "The airfield is surrounded by the villages of the  Andreykovo in the south, Danilovskoe in the south-west and Ryabeevo in the north-east. We shouldn't get in without need, there may be garrisons. Before the arrival of paratroopers it is better to bypass them."}
+	{"26" "The airfield is surrounded by a mesh barrier, and the gates are protected. If anyone has nippers you can try to sneak quietly by cutting the mesh."}
+	{"27" "The first machine is destroyed. We have half a minute, no more, or Yankees will raise the alarm!"}
+	{ "28" "Yes! The Yankees will not cause reinforcements and paratroopers can now successfully land. We shall depart from the airport and join them."}
+	{"29" "It's too late... Yankees have raised the alarm. There is no choice - we must call the paradrop and try to capture the airfield until it's too late."}
+	{"30" "Main enemy forces arrive in:"}
+	{"31" "Paratroopers could not seize airfield  \"Migalovo\" before the armour approach. Enemy tanks with massed support of artillery could easily destroy lightly armoured BMD and SPH. Paratroopers fought up to the end, but landing of troops has been hopelessly broken."}
+	{"32" "Destroy air defence installations in aerodrome and clear it of the enemy."}
+	{"33" "To take enemy soldier captive, it is necessary to kill him hand to hand. The soldier killed thus is considered deafened and tied. If there is your soldier near to him, and enemies are not present nearby, you can interrogate it about position of troops in the zone and learn valuable data."}
+	{"34" "Two o'clock in the morning. The attack is scheduled for five in the morning."}
+	{"35" "Half past two. Guys, acting in pace!"}
+	{"36" "All five in the morning. We can wait no longer, call the troopers. Soon Yankees realize that our attack is full-scale and raise all the troops within a radius of two hundred kilometers an alarm."}
+	{"37" "Paradrop"}
+	{"38" "Paradrop troops in designated area."}
+	{"39" "Owl, I'm Dawn. LZ is clear, receive coordinates."}
+	{"40" "I'm Owl, deploying."}
+	{"41" "To capture the airfield is necessary to destroy all significant air defense in the area. The main threat is SAM ADATS, it is necessary to destroy them ASAP. But the Yankees may have other anti-aircraft guns."}
+	{"42" "The airfield is protected from the ground - ground forces must be destroyed or split. Retreating enemy should not be prosecuted - we have other task."}
+	{"43" "It is impossible to leave the combat zone."}
+	{"44" "Running! Yura, they are running!"}
+	{"45" "Yes, they are. Not in the first time. And so that we do not have to run - Sash, order your radioman to call transporters, and I'll take care of the defense. We can't hold tre airfield by ourselves."}
+	{"46" "Storm, I Dawn! Storm, I Dawn! Eight-six! I repeat, eight-six!"}
+	{"47" "--wn, th-s is St-rm, Dawn, this is S---- Mess-ge rec---, eight-si-, ei--t-six, we're on our way!"}
+	{"48" "It is necessary to prepare the airstrip for transports - if there or on runway there are any vehicles, we need to drive it away. A blown-up car can be moved with the help of a tractor or a tank. When I was here three years ago on the trials, there was a tank without a turret, used to clean airstrip from snow."}
+	{"49" "Receive cargo planes with troops, provide their takeoff. If necessary, clean the airstrip from any vehicles that blocks it"}
+	{"50" "Hey, desantura, do not shoot! We're allies."}
+	{"51" "What kind of allies? Guerrillas?"}
+	{"52" "Yes, partisan group \"Seagull\". Commander heard explosions  and sent us here, but we were detected by these, on jeeps."}
+	{"53" "How many men do you have?"}
+	{"54" "Seven more plus commander. All are on their way."}
+	{"55" "Also on PPS Jiguli, huh?"}
+	{"56" "Well, no, such decoy is suitable only for ambush. Yeah, that's commander."}
+	{"57" "Sergeant Belov reporting! Comrade Captain, \"Seagull\" squad goes to your submission and waiting for orders."}
+	{"58" "Well, Sergeant. Report the situation in the city."}
+	{"59" "The city empties. Almost all enemy squads in the city move to the north and south-east. So, they will not go at the airport, it seems that it's really hot on the frontline."}
+	{"60" "This also means that the reinforcements will move right through us. Sergeant, take position."}
+	{"61" "Two jeeps on the tail! We're on Ryabeevskoe highway, then left to the Gromov! Meet us!"}
+	{"62" "I've missed!"}
+	{"63" "Stas, distract him, I'll throw!"}
+	{"64" "Here I am!"}
+	{"65" "One  cargo plane has been destroyed."}
+	{"66" "Captain, we've disembarked. I've ordered the forces on hand to take Ryabeevo, Danilovskoe and Andreevo, after that we will hold  a defensive perimeter together - the main force is in readiness."}
+	{"67" "Yes, it blocked, so the Yankees will not pass here by the Leningrad highway from the south. There may be attacks from the south-west, by the road, or from the north-east and east of the city."}
+	{"68" "Villages Ryabeevo and Andreykovo are small, there should not be a significant force. Village Danilovskoe certainly more protected, and highway A112 passes next to it. If the road R90 is blocked..."}
+	{"69" "It is time to act. We will attack Ryabeevo and Andreykovo  at the same time, after their capture, I'll leave there BMD and a squad, and other forces will attack Danilovskoe. Gromov, time is short and we have a lot of work. You can support my lads in combat, strengthen positions at the airport and in the suburbs, scout the enemy's dispositions for the use of artillery. Or you can secure the road and block reinforcements to the village. It's up to you, and we're starting."}
+	{"70" "Capture Andreykovo, Ryabeevo and Danilovskoe villages"}
+	{"71" "Gromov, Andreykovo is clear."}
+	{"72" "Can't wait much longer, attack Danilovskoye."}
+	{"73" "Ryabeevo is under our control, but the village is not suitable for defense. I'll take the old defensive position on the bank of the Volga."}
+	{"74" "Excellent, Danilovskoe is under our control."}
+	{"75" "All three villages are captured, and the main assault force can deploy in our area. Captain, my boys go under your command."}
+	{"76" "All three villages are captured, and the main landing forces can deploy in our area. To remainong paratroopers - go under my command."}
+	{"77" "I see armor! It goes to Danilovskoe!"}
+	{"78" "On the road there are cisterns. Our retreating troops left in a hurry, there still can be jet fuel."}
+	{"79" "While fuel cisterns are intact, you can refuel  helicopters and airplanes by more convenient way - by flying over the main runway. In this case fuel will be automatically refilled."}
+	{"80" "Refueling comlete."}
+	{"81" "Fuel cisterns are destroyed. Now refueling aircraft will be a serious problem."}
+	{"82" "If necessary, refuel aircraft."}
+	{"83" "Comrade lieutenant, I see enemy UAV on parking."}
+	{"84" "I got it. Control centre probably is in the headquarters building, in the center of the airfield. But have no use of it, it requires a skilled plane pilot, not a helicopter pilot."}
+	{"85" "I'm sure the Yankees in this second are attempting to takeoff the air jets from the base. I do not think they are dangerous now, but we can not let them take off. If assault planes will get to the reserve airfield, they will be back here in two or three hours to bomb us."}
+	{"86" "But we can not destroy them near the airstrip, if transport Il will stumble on something large during landing - the airfield will be completely clogged."}
+	{"87" "We had to stop those planes ... The fighters can easily bring down landing cargo planes. If any anti-aircraft guns or MANPADS remain intact - it's time to use them."}
+	{"88" "Lira, Lira, I'm Kazak, do you hear me? All unit died, I have engine fire radio malfunction. I'll land in Migalovo."}
+	{"89" "Commander, go on without me. With engine fire, I won't hold out to the front."}
+	{"90" "I got it. We are near Migalovo, there should already be our paratroopers. Sit down there."}
+	{"91" "Hell, fighters! Paratroopers if you hear - assist me, or I'll be killed."}
+	{"92" "Hydraulics malfunction, ejecting!"}
+	{"93" "Paratroopers, I've ejected, but can't reach the airport. Enemy helicopters are near, they will comb the forest."}
+	{"94" "Save the the Su-25 pilot"}
+	{"95" "Soldier with wirecutters in hand can cut barbed wire. Select this soldier and click left mouse button on the wire. Wire or fence that was cut is not an obstacle for the infantry."}
+	{"96" "And I was afraid that you won't be in time. I've to get to the airfield."}
+	{"97" "Captain, do you only fly the Su-25, or maybe something else?"}
+	{"98" "If you have undamaged A-10 - perhaps i'll raise it. Commander moved such a trophy in Zhukovsky about month ago."}
+	{"99" "What about the drone? There is UAV control station in that building. Will you figure out?"}
+	{"andreikovo" "Village Andreykovo."}
+	{"danilovo" "Village Danilovskoe."}
+	{"date" "2 june 2016, 22:00"}
+	{"detected" "Here they are! Alert!"}
+	{"detected_body" "Damn, he is dead! There are enemy somewhere nearby. Alert!"}
+	{"gromov_d" "Captain Gromov was killed. Without skilled commander paratroopers were unable to capture the base for the landing of the main forces."}
+	{"load1" "An-12"}
+	{"load1_hint" "BMD-2 with passengers, SPH Nona"}
+	{"load2_hint" "BTR-RD and 17 paratroopers."}
+	{"load3" "Il-76TD (militarized)"}
+	{"load3_hint" "BMP-3, Sprut-SD and 23 paratroopers"}
+	{"load4_hint" "Sprut-SD, SPH Nona, BMD-2 with 5 passengers"}
+	{"mishin_d" "Starley Mishin was killed, and the specnaz team did not fulfill the task. Marines were met by heavy fire from the ground ..."}
+	{"name" "Moscow behind us"}
+	{"name_big" "Moscow behind us"}
+	{"outro_completed" "At the point of impact in the south was Kantemirovskaya Guards Division, 5th Tank Division broke enemy defenses from north. The breakthrough was enlarged by other divisions and brigades of the North-West and Moscow front, assisted by paratroopers. In Klin encirclement to the south-east of Tver was the entire US 5th Corps, half of the US 18th Airborne Corps, as well as Polish and Canadian units, more than three hundred thousand people in total. Without supplies,  under constant artillery and air strikes, surrounded troops held out for two weeks, after which they were dissected into smaller pieces and taken captive, only some airmobile squads of 82 Airborne Division managed to avoid SAMs and retreat westwards. Movement of troops from the south of Moscow created the preconditions for the assault of the first Belorussian front and behind it there were already unfolding Chinese and Indian divisions. Allies seized the initiative from the NATO and  were not going lose it ..."}
+	{"outro_failed" "The operation to encircle the enemy troops on the ledge of Klin was unsuccessful. Tamantskaya and 5 Tank divisions tried to break through the defense on the flanks for three days, fighting with the incoming reinforcements. The attack did not lead to a decisive defeat of the enemy, and only drained the allied forces."}
+	{"place" "Airfield \"Migalovo \", to the west of Tver"}
+	{"date" "29 August 2016, 22:00"}
+	{"rabeevo" "Village Ryabeevo."}
+	{"task1" "Find and destroy two US command and control vehicles on the airfield."}
+	{"task2" "Do not enter into a collision with the garrisons of Ryabeevo, Danilovskoye Andreykovo."}
+	{"task3" "Specnaz team commander Mishin and paratroopers commander Gromov must survive."}
+}

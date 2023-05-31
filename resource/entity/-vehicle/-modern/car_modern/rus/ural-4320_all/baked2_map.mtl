@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "$/model/ural-XXXX/kung_kamaz_body"}
+	{blend none}
+}

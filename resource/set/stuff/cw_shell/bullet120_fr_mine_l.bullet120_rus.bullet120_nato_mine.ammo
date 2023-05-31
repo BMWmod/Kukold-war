@@ -1,0 +1,16 @@
+{from "pattern fg"
+	{tag "big" "size4" "shell"  "mortar" "bullet120_NATO_mine" "120mm_nona" "light_shell"}
+	{mass 18.6}
+	
+	{inventory
+		{size 4 1}
+		{weight 70}
+	}	
+	{entity "bullet120_FR_mine_l"}
+	{view "bullet120_FR_mine_l"
+		{tail "shell_l_tail" "tail"}
+	}
+	{detonationThickness 1}
+	;. масса мины  18,6 кг.
+}
+;

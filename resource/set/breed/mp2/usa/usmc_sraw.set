@@ -1,0 +1,21 @@
+{breed
+	{skin "cw_us_acu_usmc"}
+	{portrait "_new/usa/usmc"}
+	{icon us_usmc_smaw}
+	{icon_priority 3}
+	{nationality usa}
+	{armors
+		{head lwh_helmet}
+	}
+	(include "perks_generic.inc")
+	("traits_specnaz_bazooker")
+	{inventory
+		{item "imtv_rpg"}
+		{item "bandage" 5}
+		{item "556nato ammo" 180}
+		{item "m27iar_acog" filling "556nato ammo" 30}
+		{item "sraw weapon" 1 filling "sraw_rock ammo" 1}
+		{item "sandbag_kit"}
+		{in_hands 3}
+	}
+}

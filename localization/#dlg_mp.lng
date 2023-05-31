@@ -1,0 +1,1229 @@
+﻿;Создано maaa - DTTGOC
+;LocalGen2
+;Extra data placeholder
+;Extra data placeholder
+;rev 04.07.2022
+
+{tags
+	{"mp"
+		{"game_ffa" "Свободная игра"}
+		{"msg_starting" "Загрузка сетевой игры..."}
+		{"msg_restarting" "Перезагрузка сетевой игры..."}
+		{"msg_processmods" "Загрузка МОДов..."}
+		{"msg_searching" "Поиск сеанса..."}
+		{"msg_connecting" "Подключение..."}
+		{"msg_searching" "Поиск сессии..."}
+		{"msg_connecting_failed" "Не удалось подключиться"}
+		{"msg_steam_connecting_failed" "Ошибка соединения"}
+		{"msg_access_denied" "Доступ запрещен"}
+		{"msg_lobby_full" "Нет места на сервере"}
+		{"msg_session_full" "В игре нет места"}
+		{"msg_host_banned" "Хост в черном списке"}
+		{"msg_client_blocked" "Вы заблокированы на данном хосте"}
+		{"msg_user_not_found" "Пользователь не найден."}
+		{"msg_post_not_delivered" "Сообщение для %1% не было доставлено"}
+		{"msg_rank_unbalanced" "Несбалансированно"}
+		{"msg_steam_offline" "Не удалось подключиться к серверам Steam, проверьте настройки сетевого подключения."}
+		{"msg_starting_in" "Запуск через %1%..."}
+		{"txt_disconnecting" "Отключение..."}
+		{"title_readystatus" "Готов к игре"}
+		{"title_status" "Состояние"}
+		{"title_inet" "Интернет"}
+		{"title_lan" "Сеть"}
+		{"title_replay" "Записи игр"}
+		{"title_any" "Любые"}
+		{"retry_btn" "Повторить"}
+		{"ai_player_name" "ИИ"}
+		{"presets"
+			{"game"
+				{"periodical_update" "Непрерывные"}
+				{"period_update" "Периодические"}
+				{"with_payback" "Возврат"}
+				{"without_update" "Отсутствуют"}
+				{"duel" "Биатлон"}
+			}
+			{"unit"
+				{"brigades" "Бригады"}
+				{"lowbrigades" "Бригады (Low MP)"}
+				{"vnormal" "Стандартные войска"}
+				{"vnormaltank_mono" "Только танки"}
+				{"test" "<c(204 0 0)e(shadow)>Тестовый режим (бригады)</c>"}
+				{"test_nobrig" "<c(204 0 0)e(shadow)>Тестовый режим</c>"}
+			}
+			{"spec"
+				{"all_normal" "Обычно"}
+				{"all_high" "Максимум"}
+				{"competitive_normal" "Обычно"}
+				{"competitive_high" "Максимум"}
+				{"cp_30" "30 КО"}
+				{"cp_50" "50 КО"}
+				{"cp_60" "60 КО"}
+				{"cp_80" "80 КО"}
+				{"cp_100" "100 КО"}
+				{"cp_120" "120 КО"}
+				{"cp_140" "140 КО"}
+				{"cp_160" "160 КО"}
+				{"cp_180" "180 КО"}
+				{"cp_200" "200 КО"}
+				;======================
+				{"squad_60" "Отделение"}
+				{"platoon_80" "Взвод"}
+				{"company_100" "Рота"}
+				{"battalion_120" "Батальон"}
+				{"regiment_140" "Полк"}
+				{"division_160" "Дивизия"}
+				{"army_200" "Армия"}
+				;=======================
+				{"test_a" "Без таймеров"}
+				{"test_b" "С таймерами"}
+			}
+			{"browser"
+				{"title" "Наборы войск"}
+				{"title_include" "Включая"}
+				{"title_exclude" "Кроме"}
+				{"title_available" "Доступно"}
+				{"title_value" "<c(20a601)>Нажмите для просмотра"}
+				{"tags"
+					{"vvs" "ВКС РФ"}
+					{"pvo" "ПВО РФ"}
+					{"artbr" "Артбригада РФ"}
+					{"vdv" "ВДВ РФ"}
+					{"mot" "Мотострелки РФ"}
+					{"armbr" "Танковая бригада РФ"}
+					{"specbr" "Морпехи РФ"}
+					{"usaf" "ВВС США"}
+					{"usa_aa" "ПВО США"}
+					{"usart" "Артбригада США"}
+					{"idf" "ЦАХАЛ"}
+					{"usarmy" "Армия США"}
+					{"usmc" "Морпехи США"}
+					{"nrf" "ВВС НАТО"}
+					{"nato_aa" "ПВО НАТО"}
+					{"abn" "Артбригада НАТО"}
+					{"bund" "Бундесвер"}
+					{"gb" "Бригада ВБ"}
+					{"fra" "Бригада Франции"}
+					{"cnair" "ВВС КНР"}
+					{"cnsam" "ПВО КНР"}
+					{"cnart" "Артбригада КНР"}
+					{"cnheavy" "Тяжелая бригада КНР"}
+					{"cnmed" "Средняя бригада КНР"}
+					
+					{"common" "Общие войска"}
+					{"supl" "Вспомогательные войска"}
+					
+					{"additional" "additional"}
+					{"additional" "biatlon"}
+					{"hqcar" "hqcar"}
+					{"all" "Стандарт"}
+					{"supply" "supply"}
+					{"tanks_only" "tanks_only"}
+					{"hqcarhqcardummy" "hqcarhqcardummy"}
+					{"infantry" "Пехота"}
+					{"sniper" "Снайперы"}
+					{"light" "Легкая техника"}
+					{"medium" "Средняя техника"}
+					{"heavy" "Тяжелая техника"}
+					{"artillery" "Артиллерия"}
+					{"airborne" "Авиация"}
+					{"armor" "Бронетехника"}
+					{"mechanized" "Мотострелки"}
+					
+					{"all" "Все"}
+					{"artillery" "Артиллерия"}
+					{"heavyart" "Тяжелая артиллерия"}
+					{"cannon" "Огневые точки"}
+					{"mediumcan" "Средние огневые точки"}
+					{"heavycan" "Тяжелые огневые точки"}
+					{"arcade" "Аркада"}
+					{"light" "Легкие танки"}
+					{"medium" "Средние танки"}
+					{"heavy" "Тяжёлые танки"}
+					{"sheavy" "Сверхтяжелые танки"}
+					{"hero" "Герои"}
+					{"inf_only" "Пехота"}
+					{"sniper_only" "Снайперы"}
+					{"supply" "Снабжение"}
+				}
+			}
+			{"chargeFactor" "x %1%"}
+			{"resourceSpeed" "%1% MP"}
+		}
+		{"game"
+			{"auto" "Автовыбор"}
+			{"deathmatch" "Deathmatch"}
+			{"captureflag" "Бой за высоту"}
+			{"captureflag"
+				{"rules" "Командная игра. Цель каждой команды  -  захватить и удерживать территорию, обозначенную флагом. Побеждает команда, сумевшая  удержать территорию до тех пор, пока флаг не будет поднят. Время игры ограничено. Захватить и удерживать территорию может только пехота."}
+				{"objective" "Захватите и удерживайте территорию, обозначенную флагом."}
+			}
+			{"cooperative" "Совместная игра"}
+			{"cooperative"
+				{"info" "Создайте команду и проходите миссии кампании вместе."}
+				{"rules" "Создайте команду до четырех человек и проходите миссии кампании вместе."}
+			}
+			{"ammunition" "Последний герой"}
+			{"ammunition"
+				{"info" "Захватите припасы и завоюйте базу противника."}
+				{"rules" "Последний герой"}
+				{"objective" "Уничтожьте столько вражеской пехоты и техники, сколько сможете! Доступны ящики с боеприпасами."}
+			}
+			{"koth" "Царь горы"}
+			{"koth"
+				{"info" "Захватите ключевую точку первым."}
+				{"rules" "Царь горы"}
+				{"objective" "Захватите ключевую точку первым!"}
+			}
+			{"evacuation" "Эвакуация"}
+			{"evacuation"
+				{"info" "Защищайте точку эвакуации от атак противника."}
+				{"rules" "Эвакуация\n\n"}
+				{"objective" "Продержитесь отведенное время до прибытия вертолетов!"}
+			}
+			{"combat" "Бой (не рекомендуется!)"}
+			{"combat"
+			    {"info" "Не поддерживается самими разработчиками игры. Некорректно начилсяются победные очки за уничтоженную технику. Могут наблюдаться проблемы с работоспособностью карт и некоторых фич мода."}
+				{"rules" "Не поддерживается самими разработчиками игры. Некорректно начилсяются победные очки за уничтоженную технику. Могут наблюдаться проблемы с работоспособностью карт и некоторых фич мода. Командная игра. Цель каждой команды - уничтожить как можно больше техники и пехоты противника. За уничтожение добавляются очки. Побеждает команда, набравшая к концу игры наибольшее количество очков."}
+				{"rules_ffa" "Участвуют от одного до восьми игроков. Цель каждого игрока - уничтожить как можно больше техники и пехоты противника. За уничтожение добавляются очки. Побеждает игрок, набравший к концу игры наибольшее количество очков."}
+				{"objective" "Не поддерживается самими разработчиками игры. Некорректно начилсяются победные очки за уничтоженную технику. Могут наблюдаться проблемы с работоспособностью карт и некоторых фич мода. Уничтожьте как можно больше техники и пехоты противника."}
+			}
+			{"biatlon" "Танковый биатлон"}
+			{"biatlon"
+				{"info" "Пройдите трассу танкового биатлона."}
+				{"rules" "Одиночная игра. Цель каждого игрока  -  как можно быстрее пройти четыре круга трассы танкового биатлона. Каждый круг включает в себя огневое упражнение и несколько препятствий. Промахи могут привести к штрафному кругу. Время на контрольных точках и время прохождения круга отображаются на табло, установленных по периметру трассы."}
+				{"objective" "Выполнить четыре огневых упражнения и первым добраться до финиша."}
+			}
+			{"battle_zones" "Захват территорий"}
+			{"battle_zones"
+				{"info" "Захватывайте и удерживайте территории, обозначенные флагами."}
+				{"rules" "Командная игра. Цель каждой команды  -  захватить и удерживать большее количество территориий, обозначенных флагом. Побеждает команда, сумевшая  удержать территории до тех пор, пока не кончится время или одна из команд не достигнет максимума контроля. Время игры ограничено. Захватить и удерживать территорию может только пехота."}
+				{"objective" "Захватывайте и удерживайте территории, обозначенные флагами"}
+			}
+			{"heroes" "Герои"}
+			{"heroes"
+				{"info" "Захватывайте и удерживайте территории, обозначенные флагами."}
+				{"rules" "Герои\n\nВ режиме Герои ваша цель -  захватить и удерживать большее количество территориий, обозначенных флагом."}
+				{"objective" "Захватывайте и удерживайте территории, обозначенные флагами."}
+			}
+			{"armored_warfare" "Танковый бой"}
+			{"armored_warfare"
+				{"info" "Сражайтесь с применением танков и захватите топливный склад."}
+				{"rules" "Доминирование\n\nПри доминировании ваша цель - захват ключевых точек, отмеченных флагами, дающими победные очки. Флаги захватываются пехотой (кроме танкистов и пилотов).\n\n\n\"CP\"\n\n Командные очки определяют максимум войск под командованием игрока.\n\n\n\"MP\"\n\nОчки подкреплений используются для вызова дополнительных войск."}
+				{"objective" " Захватывайте и удерживайте территории, обозначенные флагами."}
+			}
+			{"combined_arms" "Combined Arms"}
+			{"combined_arms"
+				{"info" "fight large battles with ground and air vehicles."}
+				{"rules" "Domination\n\nIn Domination, your goal is to capture and hold key positions on the map, marked by flags. Whichever team that currently holds the greater number of flags will gain points over time, and once a team reaches the target number of points, they will win the game. Flags can only be captured by infantry (excluding tank crew), within the circular boundary of a flag zone.\n\n\n\"CP\"\n\nCommand Points determine the maximum number of troops a player can field at any point during the game.\n\n\n\"MP\"\n\nManpower is the resource used by players to call new troops onto the battlefield. The total amount of Manpower distributed throughout the game is determined by the host, and once the battle has begun, players will receive a steady income of Manpower until this limit has been reached. Units lost will have their purchase price refunded to the player over time, though again, the total amount of usable manpower will never exceed the limit set by the host."}
+				{"objective" "Capture and hold territories marked by flags. The team with more flags receives points. The more flags a team captured, the more points they get."}
+			}
+			{"frontline" "Линия фронта"}
+			{"frontline"
+				{"rules" "Командная игра. Цель первой команды - за определенное время захватить две линии обороны противника. Цель второй - используя ограниченный набор техники, удержать хотя бы одну из них. Линия обороны считается захваченной, если команда контролирует все флаги на ней. Игра состоит из двух туров, по окончании первого команды меняются местами. Побеждает команда, действующая наиболее эффективно по итогам двух туров. Линию обороны может захватывать только пехота."}
+				{"objective"
+					{"a" "Захватите все флаги противника до окончания игры."}
+					{"b" "Сдерживайте противника на линиях обороны до окончания игры."}
+				}
+			}
+			{"frontline_2" "Линия фронта v2"}
+			{"frontline_2"
+				{"info" "Захватывайте и удерживайте точки, обозначенные на миникарте."}
+				{"rules" "Командная игра. Цель каждой команды  -  захватить и удерживать большее количество территориий, обозначенных точками на миникарте. Побеждает команда, сумевшая  удержать территории до тех пор, пока не кончится время или одна из команд не достигнет максимума контроля. Время игры ограничено. Захватить и удерживать территорию может только пехота."}
+				{"objective" "Захватывайте и удерживайте территории, обозначенные точками."}
+			}
+			{"neutral_zone" "Серая зона"}
+			{"frontline_2"
+				{"info" "Захватывайте и удерживайте точки, обозначенные на миникарте."}
+				{"rules" "Командная игра. Цель каждой команды  -  захватить и удерживать большее количество территориий, обозначенных точками на миникарте. Побеждает команда, сумевшая  удержать территории до тех пор, пока не кончится время или одна из команд не достигнет максимума контроля. Время игры ограничено. Захватить и удерживать территорию может только пехота.\nИзначально стороны разделены, есть время на организацию обороны. Боевые действия начнутся после истечения таймера."}
+				{"objective" "Захватывайте и удерживайте территории, обозначенные точками."}
+			}
+			{"role_play" "Сценарии"}
+			{"role_play"
+				{"rules" ""}
+				{"objective"
+					{"a" "Захватите и удержите город. Желательно перерезать путь снабжения."}
+					{"b" "Удержать город, сохранив путь снабжения."}
+				}
+			}
+			{"heavyload" "Конвой"}
+			{"heavyload"
+				{"rules" "Командная игра. Команде А, нужно доставить груз на базу, а команде Б, нужно выкрасть этот груз и доставить его к себе на базу."}
+				{"objective"
+					{"a" "Перевезти груз на базу, не потеряв его."}
+					{"b" "Украсть груз у конвоя, и доставить на базу."}
+				}
+			}
+			{"modifications" "Игра с МОДами"}
+			{"text"
+				{"unitlost" "Потеря боевой единицы"}
+				{"frontline_preparetime" "Время на подготовку"}
+				{"frontline_ready" "Приготовьтесь! Атака начнется через %1% секунд."}
+				{"frontline_go_a" "Вперед! Захватите все флаги, чтобы завоевать линию фронта."}
+				{"frontline_go_b" "Они атакуют! Удерживайте позиции!"}
+				{"frontline_captured" "Линия фронта захвачена."}
+				{"frontline_flag_captured" "Флаг захвачен!"}
+				{"frontline_retreat_hint" "Отступить к следующей линии фронта"}
+				{"frontline_retreat_btn" "Отступить"}
+				{"frontline_phase_hint" "Линия фронта"}
+				{"captureflag_preparetime" "Время на подготовку"}
+				{"combat_inactivity_lose_time" "У вас нет войск. Вы проиграете через:"}
+				{"ammunition_point_enabled" "Разведка обнаружила источник снабжения!"}
+				{"ammunition_point_won" "<f(arial_hq)c(FFFFFF)s(8)>Вы получаете подкрепления!"}
+				{"ammunition_point_lost" "<f(arial_hq)c(FFFFFF)s(8)>Враг получает подкрепления!"}
+				{"ammunition_base_won" "Вы захватили базу противника!"}
+				{"ammunition_base_lost" "Враг захватил нашу базу!"}
+				{"evacuation_wavetime" " %1%. Атака через"}
+				{"evacuation_supply_secured" "Вы захватили источник снабжения!"}
+				{"evacuation_supply_enabled" "Сброшен ящик с боеприпасами!"}
+				{"heavyload_delivered" "Груз доставлен на базу!"}
+				{"heavyload_delivered_by_enemy" "Противник доставил груз на базу!"}
+				{"heavyload_captured" "Мы захватили груз. Теперь нужно доставить его на базу!"}
+				{"heavyload_captured_by_enemy" "Противник захватил груз. Нужно во что бы то ни стало отбить груз!"}
+				{"heavyload_losed" "Мы потеряли груз"}
+				{"heavyload_losed_by_enemy" "Противник потерял груз"}
+				{"haevyload_timetoloaddeath" "<e(shadow)>Время на доставку груза"}
+				{"haevyload_you_have_mover" "Появился тягач. Вперед за грузом!"}
+				{"combat_inactivity_lose_time" "У Вас не осталось ни одного юнита. Вы проиграете через:"}
+				{"groundcontrol_controlarea" "<e(shadow)>Контроль территории: %1% / %2%"}
+				{"groundcontrol_timetowin" "<e(shadow)>До победы: %1%"}
+				{"groundcontrol_timetolose" "<e(shadow)>До поражения: %1%"}
+			}
+			{"groundcontrol" "Контроль территории"}
+			{"groundcontrol"
+				{"objective" "Захватите и удерживайте более половины всей территории для победы."}
+			}
+		}
+		{"army"
+			{"usa" "США"}
+			{"grm" "GRM"}
+			{"uaf" "UAF"}
+			{"reb" "Rebels"}
+			{"ger" "Germany"}
+			{"rus" "Россия"}
+			{"nato" "НАТО"}
+			{"cn" "ОДКБ"}
+			{"civilian" "Гражданский"}
+			{"random" "Случайно"}
+			{"spectator" "Наблюдатель"}
+			{"dummy" "Неизвестно"}
+			{"-modern" "Cold War"}
+		}
+		{"team"
+			{"a" "<c(red)e(shadow)>Команда A"}
+			{"b" "<c(102 102 255)e(shadow)>Команда B"}
+			{"c" "<c(yellow)e(shadow)>Команда C"}
+			{"d" "Команда D"}
+			{"e" "Команда E"}
+			{"f" "Команда F"}
+			{"g" "Команда G"}
+			{"h" "Команда H"}
+			{"coop" "Кооператив"}
+			{"spectator" "Наблюдатель"}
+		}
+		{"alliance"
+			{"nato" "Альянс"}
+			{"opfor" "Союз"}
+		}
+		{"stage"
+			{"lobby" "На сервере"}
+			{"session" "Запускают игру"}
+			{"game" "В игре"}
+			{"zone" "На сервере"}
+			{"gslobby" "Главная комната"}
+			{"gssession" "Игровая комната"}
+		}
+		{"reason"
+			{"gone" "Игрок %1% ливнул"}
+			{"game_gone" "Игрок %1% вышел"}
+			{"session_gone" "Игрок %1% вышел"}
+			{"mm_gone" "Игрок %1% вышел"}
+			{"outofsync" "Игрок %1% был отключен из-за рассинхронизации"}
+			{"slow" "Игрок %1% был отключен из-за низкой производительности"}
+			{"kickoff" "Игрок %1% был отключен мастером!"}
+			{"timeout" "Игрок %1% был отключен по времени ожидания"}
+			{"disconnect" "Связь с игроком %1% потеряна"}
+			{"msg_outofsync" "Вы были исключены из игры по причине рассинхронизации"}
+			{"msg_slow" "Вы были исключены из игры из-за низкой производительности компьютера"}
+			{"msg_kickoff" "Вы были исключены сервером"}
+			{"msg_disconnect" "Связь утеряна"}
+			{"outofsync_client_cheat" "Игрок %1% был отключен из-за использования читов"}
+			{"outofsync_server_cheat" "Мастер %1% использовал читы и был отключен"}
+			{"msg_outofsync_client_cheat" "Вы были исключены из игры из-за использования читов"}
+			{"msg_outofsync_server_cheat" "Сервер использовал читы и все игроки были отключены"}
+			{"user_have_no_shared_link_to_ds_with_mm" "Игрок %1% был отключен из-за потери соединения с выделенным сервером"}
+			{"user_have_no_shared_link_to_ds_with_master" "Игрок %1% был отключен из-за отсутствия общего с мастером соединения к выделенному серверу"}
+			{"you_have_no_shared_link_to_ds_with_mm" "Вы были исключены из игры из-за потери соединения с выделенным сервером"}
+			{"you_have_no_shared_link_to_ds_with_master" "Вы были исключены из игры из-за отсутствия общего с мастером соединения к выделенному серверу"}
+
+		}
+		{"session_restriction"
+			{"version" "Не подключиться: другая версия игры."}
+			{"closed" "Не подключиться: сессия закрыта."}
+			{"veterancy" "Не подключиться: Нужен более высокий ранг."}
+			{"performance" "Не подключиться: нужен более быстрый пинг."}
+			{"player_limit" "Не подключиться: достигнут предел количества игроков."}
+		}
+		{"lobby"
+			{"title_quit_game" "Выйти из игры?"}
+			{"title_close_game" "Закрыть игру?"}
+			{"title_close_game_xp" "Do you really want to surrender?\n\nYou will receive no XP and lose your chance for an item drop!\nStay in-game for fair-play."}
+			{"title_surrender_game" "Do you really want to surrender?\n\nYou will lose all XP collected during the match, gain a loss and weaken your ranked trust rating.\nStay in-game for fair-play."}
+			{"title_zone" "Выбор сервера"}
+			{"title_session" "Игра"}
+			{"title_selectmap" "Карта"}
+			{"header"
+				{"host" "Сервер"}
+				{"game" "Игра"}
+				{"map" "Карта"}
+				{"players" "Игроки"}
+				{"ping" "Пинг"}
+				{"version" "%1%"}
+			}
+			{"hdr_session" "# # # # # #Хост [%1%]#Игра#Карта#Игроков#Лаг#%2%#Моды"}
+			{"hdr_sessioncount" "%1% / %2%"}
+			{"hdr_lobby" "# #Хост [%1%]#Пользователи#Игры#Лаг"}
+			{"lbl_gametype" "Выберите тип игры:"}
+			{"lbl_map" "Выберите карту:"}
+			{"lbl_minplayers" "Минимально игроков"}
+			{"lbl_maxplayers" "Количество игроков:"}
+			{"lbl_info" "дополнительная информация:"}
+			{"lbl_password" "Пароль:"}
+			{"lbl_passwordconfirm" "Повтор:"}
+			{"lbl_password_enter" "Введите пароль:"}
+			{"msg_password_invalid" "Неверный пароль!"}
+			{"ping_ms" "%1%мс"}
+			{"ping_s" "%1%с"}
+			{"txt_players" "Игроков: %1%"}
+			{"txt_creatingsession" "Создание игры..."}
+			{"txt_creatingsession_failed" "Ошибка создания игры."}
+			{"txt_closesession" "Вы хотите закрыть текущую сессию?"}
+			{"txt_mm_performance_warn" "У одного или более игроков низкая производительность."}
+			{"txt_lookingforsessions" "Поиск игр"}
+			{"txt_lookingforsessions_empty" "<c(white)>Не найдено игр по данному запросу"}
+			{"txt_lookingforservers" "Поиск серверов"}
+			{"lbl_army" "Армия"}
+			{"ranked_game" "С рангом"}
+			{"bots" "Bots"}
+			{"chat_officers" "<c(white)>Офицеры [%1%]"}
+			{"chat_friends" "<c(white)>Друзья [%1%]"}
+			{"chat_others" "<c(white)>Пользователи [%1%]"}
+			{"army_mode"
+				{"default" "По умолчанию"}
+				{"team" "<c(white)e(shadow)>Команды"}
+				{"alliance" "<c(red)e(shadow)>Союзы"}
+				{"player" "<c(102 102 255)e(shadow)>Игроки"}
+			}
+			{"setup"
+				{"player.name" "Имя"}
+				{"player.team" "Команда"}
+				{"player.army" "Сторона"}
+				{"preset.gamemode" "Подкрепления"}
+				{"preset.unitmode" "Тип войск"}
+				{"preset.unitmode#hint" "Используйте стандартный набор или укажите доступные войска"}
+				{"preset.specmode" "Количество войск"}
+				{"preset.specmode#hint" "Большие значения позволяют управлять большим числом войск одновременно"}
+				{"preset.customUnitSet" "Набор войск"}
+				{"preset.customUnitSet#hint" "Добавляйте и удаляйте доступные войска"}
+				{"preset.customChargeFactors" "Таймера"}
+				{"preset.customChargeFactors#hint" "Коэффициент, управляющий задержкой перед повторной покупкой отряда"}
+				{"settings.fogofwar" "Туман войны"}
+				{"settings.fogofwar#hint" "Скрыть необнаруженные войска противника или открыть всю карту"}
+				{"settings.gameduration" "Время игры (мин.)"}
+				{"settings.gameduration#hint" "Время до победы"}
+				{"settings.tactics" "Тактический режим"}
+				{"settings.florarespawn" "Регенерация флоры"}
+				{"settings.difficulty" "Сложность"}
+				{"settings.finalscore" ""}
+				{"settings.gameendreason" "Заканчивать игру"}
+				{"settings.gameendreason#"
+					{"time" "по времени"}
+					{"score" "по очкам"}
+				}
+				{"tunes.traffic" "Трафик"}
+				{"tunes.traffic#"
+					{"minimum" "Минимальный"}
+					{"optimal" "Оптимальный"}
+					{"maximum" "Максимальный"}
+				}
+				{"tunes.cheatKeys" "##Enable dev commands"}
+				{"team.a.army" "<c(red)e(shadow)>Команда A "}
+				{"team.b.army" "<c(102 102 255)e(shadow)>Команда B "}
+				{"team.c.army" "<c(yellow)e(shadow)>Команда C "}
+				{"team.d.army" "Команда D "}
+				{"team.e.army" "Команда E "}
+				{"team.f.army" "Команда F "}
+				{"team.g.army" "Команда G "}
+				{"team.h.army" "Команда H "}
+				{"team.a.alliance" "<c(red)e(shadow)>Команда A "}
+				{"team.b.alliance" "<c(102 102 255)e(shadow)>Команда B "}
+				{"team.c.alliance" "<c(yellow)e(shadow)>Команда C "}
+				{"team.d.alliance" "Команда D "}
+				{"team.e.alliance" "Команда E "}
+				{"team.f.alliance" "Команда F "}
+				{"team.g.alliance" "Команда G "}
+				{"team.h.alliance" "Команда H "}
+				{"settings.fogofwar#"
+					{"fog_off" "Выключен"}
+					{"fog_simple" "Простой"}
+					{"fog_realistic" "Реалистичный"}
+				}
+				{"settings.friendlyfire" "Урон союзникам"}
+				{"settings.friendlyfire#hint" "Союзники получают урон от огня ваших войск"}
+				{"settings.resourceamount" "Ресурсы"}
+				{"settings.resourceamount#hint" "Максимальный объем ресурсов, который может быть накоплен."}
+				{"settings.scorefinal" "Очков для победы"}
+				{"settings.scorefinalPP" "Очков победы осталось (на игрока)"}
+				{"settings.preparationtime" "Подготовка"}
+				{"settings.preparationtime#hint" "Время подготовки перед запуском игры. Вы можете покупать войска во время подготовки."}
+				{"settings.difficulty#"
+					{"easy" "Легкая"}
+					{"normal" "Средняя"}
+					{"hard" "Реалистичная"}
+					{"heroic" "Невозможная"}
+				}
+				{"settings.showpiercing" "Индикатор бронепробиваемости"}
+				{"settings.showpiercing#hint" "Показывать озможность пробития цели"}
+				{"settings.showdamagereports" "Сообщения о повреждениях"}
+				{"settings.showdamagereports#hint" "Показывать информацию о повреждениях союзной техники"}
+				{"settings.useUnitLevelRestrictions" "Lock units by level"}
+				{"settings.enableSpectators" "Включить наблюдателей"}
+				{"settings.armySelectionMode" "Режим выбора армии"}
+				{"settings.randomSpawnPoints" "Случайные точки появления"}
+				{"settings.minUserPerformance" "Производительность"}
+				{"settings.minUserPerformance#"
+					{"undefined" "Минимум"}
+					{"impossible" "Невозможно"}
+					{"low" "Средне"}
+					{"normal" "Хорошо"}
+					{"excellent" "Отлично"}
+					{"fast" "Очень быстро"}
+				}
+				{"settings.veterancyMode" "Опыт"}
+				{"settings.veterancyMode#"
+					{"all" "Для всех"}
+					{"beginners" "Новички"}
+					{"veterans" "Ветераны"}
+				}
+				{"mission_options" "Настройки миссии"}
+				{"replay.version" "Версия игры"}
+				{"replay.version#invalid" "<c(red)>%s"}
+				{"replay.map" "Карта"}
+				{"replay.map#not_found" "<c(red)>%s (карта не найдена)"}
+				{"replay.map#crc_invalid" "<c(red)>%s (не сходится чексумма карты)"}
+				{"replay.duration" "Длительность"}
+				{"replay.date" "Дата"}
+				{"replay.gametype" "Тип игры"}
+				{"replay.players" "Игроки"}
+				{"replay.players#count" "%1% из %2%"}
+				{"game.hardcore" "Сверхсложный режим"}
+				{"game.hardcore#hint" "Повреждения значительно увеличены"}
+				{"game.strategy" "Режим стратегии"}
+				{"game.strategy#hint" "Отключение прямого управления войсками"}
+			}
+			{"button"
+				{"back" "Назад"}
+				{"join" "Подключиться"}
+				{"enter_zone" "Сменить сервер"}
+				{"leave_zone" "Покинуть сервер"}
+				{"new_game" "Новая игра"}
+				{"change_map" "Сменить карту"}
+				{"replay_game" "Ролик"}
+				{"create_session" "Создать"}
+				{"refresh" "Обновить"}
+				{"ready" "Готов"}
+				{"start" "Начать игру"}
+				{"stop" "Стоп"}
+				{"apply" "Применить"}
+				{"details" "Подробно"}
+				{"desync" "Рассинхр."}
+				{"kickoff" "Исключить"}
+				{"setmaster" "Назначить мастером"}
+				{"download" "Загрузить"}
+				{"select" "Выбрать"}
+				{"result" "Результаты"}
+				{"rename" "Переименовать"}
+				{"delete" "Удалить"}
+				{"upload" "Загрузить"}
+				{"browse" "Просмотреть"}
+				{"rules" "Правила"}
+				{"advanced" "Расширенные настройки"}
+				{"results" "Показать результат предыдущей игры"}
+				{"matchmaking" "Пункт призыва"}
+				{"match_making_start" "На фронт"}
+				{"match_making_stop" "Отступить"}
+				{"invite" "Пригласить"}
+				{"replay_start" "Старт"}
+				{"replay_delete" "Удалить"}
+				{"replay_rename" "Переименовать"}
+				{"replay_rename_title" "Переименовать запись"}
+				{"filter" "Фильтр"}
+				{"info" "Инфо"}
+				{"results" "Итог"}
+			}
+			{"slot"
+				{"empty_slot" "пусто"}
+				{"closed_slot" "закрыто"}
+				{"reserved_slot" "резерв"}
+				{"reserved_slot_canjoin" "В резерве"}
+				{"ai_slot" "ИИ"}
+				{"menu"
+					{"open" "Открыть ячейку"}
+					{"closed" "Закрыть ячейку"}
+					{"reserved" "Зарезервировать ячейку"}
+					{"ai_easy" "<c(51 153 0)e(shadow)>ИИ: Легкий"}
+					{"ai_normal" "<c(102 102 255)e(shadow)>ИИ: Средний"}
+					{"ai_hard" "<c(255 153 0)e(shadow)>ИИ: Реалистичный"}
+					{"ai_heroic" "<c(204 0 0)e(shadow)>ИИ: Невозможный"}
+				}
+				{"hint"
+					{"open" "Ячейка открыта. Дважды щелкните для присоединения."}
+					{"closed" "Ячейка закрыта."}
+					{"reserved" "Ячейка открыта только для друзей администратора."}
+					{"ai" "Ячейка зарезервирована для игрока ИИ."}
+				}
+			}
+			{"hint"
+				{"ready" "Готов"}
+				{"not_ready" "Не готов"}
+				{"desynced" "Рассинхронизация"}
+				{"password_protected" "Защищена паролем"}
+				{"refresh" "Обновить"}
+				{"filter" "Фильтр"}
+				{"show_smileys" "Показывать меню эмоций"}
+				{"post_msg" "Послать сообщение"}
+				{"kick" "Исключить игрока"}
+				{"kickoff" "Исключить игрока"}
+				{"kickban" "Забанить игрока"}
+				{"lockon" "Сессия закрыта. Нажмите для открытия."}
+				{"lockoff" "Сессия открыта. Нажмите для закрытия."}
+				{"setmaster" "Назначить нового мастера"}
+				{"players" "Всего/Доступно"}
+				{"game" "Открыто/Всего/Доступно"}
+				{"performance" "Производительность ПК"}
+				{"performance0" "Производительность ПК (Неизвестна)"}
+				{"performance1" "Производительность ПК (Очень хуёвая)"}
+				{"performance2" "Производительность ПК (Хуёвая)"}
+				{"performance3" "Производительность ПК (Нормальная)"}
+				{"performance4" "Производительность ПК (Хорошая)"}
+				{"performance5" "Производительность ПК (Заебсь!)"}
+				{"add_player" "Добавить игрока в команду"}
+				{"remove_player" "Удалить игрока из команды"}
+				{"session_info" "Посмотреть подробную информацию о сессии"}
+				{"search_options" "Настройки поиска сессии"}
+				{"join_team" "Двойной щелчок для присоединения к команде."}
+				{"unranked" "%1% Игр сыграно"}
+				{"ranked" "%1% Игр с рангом сыграно"}
+				{"min_user_performance" "Минимальная производительность"}
+				{"veterancy_mode" "Опыт"}
+			}
+			{"title_rules" "Правила игры"}
+			{"color_my_name" "<c(fece99)>"}
+			{"color_my_name_dark" "<c(c4935c)>"}
+			{"color_private" "<c(9adbf5)>"}
+			{"txt_advanced_on" "Некорректная установка дополнительных параметров может негативно повлиять на играбельность. Хотите продолжить?"}
+			{"txt_advanced_off" "Настройки сетевой игры будут установлены в стандартные значения. Продолжить?"}
+			{"txt_test_mode_on" "Тестовый режим может быть нестабилен.\n\nПродолжить?"}
+			{"txt_advanced" "<c(a60000)><x.>Расширенные настройки"}
+			{"color_lobby" "<c(4c4945)>"}
+			{"color_report" "<c(4c4945)>"}
+			{"txt_local_provider" "локальный хост"}
+			{"txt_provider" "%1%.ds"}
+			{"session"
+				{"team_color" "<c(790505)>"}
+				{"title" "<f(impact)s(28)c(255 255 255)>%1%"}
+				{"common" "<y(+9)>Игра"}
+				{"teams" "<y(+9)>Команды"}
+				{"mods" "<y(+9)>Моды"}
+				{"players" "Игроков:"}
+				{"game_type" "Тип игры:"}
+				{"map" "Карта:"}
+				{"server_state" "Сервер:"}
+				{"game_time" "Время игры:"}
+				{"nat" "NAT"}
+				{"password" "пароль"}
+			}
+			{"matchmaking"
+				{"2x2" "2 x 2"}
+				{"3x3" "3 x 3"}
+				{"4x4" "4 x 4"}
+				{"rules" "В призывном пункте производится набор участников рейтинговой игры. В первую очередь сформируйте свою команду либо согласитесь на автоматический подбор игроков (их рейтинг будет приблизительно соответствовать Вашему). После этого нажмите кнопку \"На фронт\", и система подыщет Вам достойного соперника, с которым Вы сразитесь в честном бою."}
+				{"autoselect" "Автоподбор"}
+				{"2_players" "2 игрока"}
+				{"3_players" "3 игрока"}
+				{"4_players" "4 игрока"}
+				{"random_bracket" "Случайно"}
+				{"waiting_time" "Среднее время ожидания:"}
+				{"time_to_wait" "Вы ждете:"}
+				{"game_count" "Игр:<x(150)>%1%"}
+				{"all_players_count" "Игроков:<x(150)>%1%"}
+				{"players_in_game" "Ваши игры:<x(150)>%1% / %2%"}
+				{"stats_invalid" "Ошибка подключения к серверу статистики, попробуйте\n переподключить интернет соединение и перезайти в игру"}
+				{"need_drop_mods" "Для входа в пункт призыва необходимо отключить все моды"}
+				{"client_have_no_linked_ds" "Ошибка подключения к выделенному серверу"}
+				{"leave_close_mm_session" "Выйти из пункта призыва с закрытием сессии"}
+				{"leave_mm_session" "Выйти из пункта призыва"}
+				{"start_deny_reason"
+					{"unknow" "Неопределенная ошибка старта поиска противника"}
+					{"team_not_full" "В команде недостаточно игроков для указанного размера команды"}
+					{"team_have_no_master" "В команде отсутствует мастер"}
+					{"bad_org_rate" "Не у всех игроков допустимый рейтинг для выбранного типа игры с вами"}
+				}
+				{"wait_accept" "Ожидаем приглашенного в команду игрока \"%1%\""}
+				{"receive_invite" "Игрок \"%1%\" приглашает вас в команду для рейтинговой игры"}
+				{"wait_invite_params" "Ожидаем параметры подключения к выделенному серверу"}
+				{"wait_connect" "Ожидаем подключения игрока \"%1%\" к команде"}
+				{"decline_invite" "Игрок \"%1%\" отменил приглашение в команду"}
+				{"decline_invite_busy" "Игрок \"%1%\" уже приглашен в другую команду или подключается к игре"}
+				{"decline_invite_timer" "Игрок \"%1%\" не принял приглашение в команду, возможно он отошел от компьютера"}
+				{"player_cant_join" "Игрок \"%1%\" не может подключится в выделенному серверу"}
+				{"players_more_then_game_type" "Нельзя выбрать тип команды меньше чем игроков в команде"}
+				{"team_have_bad_rate_for_selected_game" "У игрока%1% недостаточно рейтинга для игры с вами в %2%"}
+				{"cancel_invite" "Вы отменили приглашение в команду"}
+				{"invitation_decline" "Вы отказались от приглашения в команду"}
+			}
+			{"blocked"
+				{"permanent" "В связи с нарушением сетевых правил вам навсегда запрещен доступ к игре через Интернет."}
+				{"minutes" "Вы не можете участвовать в играх через Интернет в течение %1% мин. из-за низкого рейтинга доверия. Старайтесь не выходить из игры до ее завершения."}
+				{"performance" "Чтобы проводить матчи, нужно иметь как минимум два полных уровня эффективности."}
+				{"seconds" "Вы не можете участвовать в играх через Интернет в течение %1% сек. из-за низкого рейтинга доверия. Старайтесь не выходить из игры до ее завершения."}
+			}
+			{"filter"
+				{"title" "Варианты поиска сессии"}
+				{"apply" "Применить"}
+				{"reset" "Сброс"}
+				{"searchDistance" "Расстояние до хоста"}
+				{"searchDistance#"
+					{"close" "Ближайшие"}
+					{"default" "Средние"}
+					{"far" "Далекие"}
+					{"worldwide" "По миру"}
+				}
+				{"searchOnlyOpen" "Только открытые сессии"}
+				{"searchOnlyFriends" "Только сессии с друзьями"}
+				{"searchOnlyPublic" "Только без пароля"}
+				{"searchOnlySameVersion" "Только та же версия игры"}
+				{"searchOnlyNotFull" "Только со слотами"}
+				{"searchGameType" "Типы игры"}
+			}
+			{"lbl_players_mine" "Ваша команда:"}
+			{"lbl_players_total" "Количество игроков:"}
+			{"lbl_players_selected" "Состав команды:"}
+			{"lbl_players_to_selected" "Доступные игроки:"}
+			{"color_system" "<c(cccc00)>"}
+			{"chat_system_prefix" ">>>>>>"}
+			{"chat_private_message" "%1% to %2%"}
+			{"chat_user_banned" "Вас забанили в этой комнате чата."}
+			{"chat_user_kicked" "Вас отправили нахуй!."}
+			{"chat_unable_to_connect" "Невозможно подключиться к комнате чата, проверьте соединение."}
+			{"replay"
+				{"column_name" "Имя"}
+				{"column_map" "Карта"}
+				{"column_date" "Дата"}
+				{"column_version" "Версия"}
+				{"column_mods" "Моды"}
+				{"column_desc" "Описание"}
+				{"column_creator" "Создатель"}
+				{"column_score" "Очки"}
+				{"row_version" "Версия: %1%"}
+				{"row_game" "%1%"}
+				{"row_players" "Игроки: %1% of %2%"}
+				{"row_duration" "Длительность: %1%"}
+				{"row_team" "Команда %1%:"}
+				{"title_delete_replay" "Удалить выбранный повтор игры?"}
+				{"leave_replay_session" "Вы хотите покинуть страницу повторов игры?"}
+				{"load_incomplete_replay" "Повтор неполон или поврежден. Все равно загрузить?"}
+				{"load_invalid_version" "Повтор сделан на другой версии игры. Все равно загрузить?"}
+				{"load_invalid_version_failed" "Повтор сделан на другой версии игры. Невозможно загрузить."}
+				{"title_upload_replay" "Вы точно хотите загрузит ьвыбранный повтор в облако Steam?"}
+				{"error_incomplete_replay" "Этот повтор был неправильно записан или поврежден."}
+				{"visibility"
+					{"public" "Общие"}
+					{"friends" "Друзья"}
+					{"private" "Частные"}
+				}
+				{"info"
+					{"upload_invalid_version" "Повторы с других версий игры не могут быть загружены."}
+					{"cloud_not_available" "Облако Steam недоступно."}
+					{"upload_not_a_player" "Вы не можете загружать повторы игр, в которые вы не играли."}
+					{"publishing" "Публикация..."}
+					{"invalid_handle" "The item update handle was invalid, job might be finished."}
+					{"preparing_config" "Обработка данных конфигурации..."}
+					{"preparing_content" "Чтение и обработка содержимого файлов..."}
+					{"uploading_content" "Загрузка изменений содержимого в Steam..."}
+					{"uploading" "Загрузка (%.0f%)"}
+					{"uploading_preview_file" "Загрузка изображенияUploading preview file image..."}
+					{"committing_changes" "Фиксирование изменений..."}
+					{"commit_successful" "Повтор успешно загружен."}
+					{"commit_error" "Ошибка при загрузке пользовательской информации. (Код ошибки: %1%)"}
+				}
+			}
+		}
+		{"lobby2"
+			{"lbl_info" "ИНФОРМАЦИЯ"}
+			{"lbl_password" "ПАРОЛЬ"}
+			{"lbl_passwordconfirm" "ПОВТОР ПАРОЛЯ"}
+			{"lbl_players" "ИГРОКИ %1%"}
+			{"lbl_performance" "ПРОИЗВОДИТЕЛЬНОСТЬ"}
+			{"lbl_veterancy" "ОПЫТ"}
+			{"vac_secured" "VAC SECURED"}
+			{"maps" "КАРТЫ"}
+			{"session_comment" "<x.y.c(9adbf5)>%1%"}
+			{"button"
+				{"reset_settings" "СБРОС"}
+				{"create_session" "СОЗДАТЬ"}
+				{"ready" "ГОТОВ"}
+				{"cancel" "ОТМЕНА"}
+				{"start" "СТАРТ"}
+				{"kick" "ИСКЛЮЧИТЬ"}
+				{"advanced" "ДОПОЛНИТЕЛЬНО"}
+				{"results" "ИТОГ"}
+			}
+		}
+		{"persona_state"
+			{"offline" "Не тут"}
+			{"online" "Тут"}
+			{"busy" "Важный хуй бумажный"}
+			{"away" "Съебался"}
+			{"snooze" "Дрыхнет ебать"}
+			{"looking_to_trade" "Хочу торговать"}
+			{"looking_to_play" "Хочу играть"}
+			{"in_game" "В игре"}
+			{"in_lobby" "В игре (в сессии)"}
+			{"in_matchmaking" "В игре (подбирает матч)"}
+			{"in_match" "В игре (играет)"}
+			{"in_other_game" "В другой игре"}
+		}
+		{"sync"
+			{"title_autojoin" "Присоединиться"}
+			{"title_download" "Загрузить"}
+			{"title_resources" "Ресурсы"}
+			{"lbl_mastermods" "МОДы мастера:"}
+			{"lbl_clientmods" "Установленные МОДы:"}
+			{"lbl_requiredmods" "Требуемые МОДы:"}
+			{"txt_prepare" "Сейчас будет произведена попытка подготовить ресурсы для подключения к игре."}
+			{"txt_notfound" "%s не найден(ы)."}
+			{"txt_download" "%s будет загружено."}
+			{"txt_mapapply" "%s будет применено."}
+			{"txt_modapply" "МОДы %s будут применены."}
+			{"txt_missingmods" "Missing mods:"}
+			{"txt_desyncwarning" "Игра с ресурсами отличающимися от мастера может привести к рассинхронизации."}
+			{"txt_exedesync" "Обнаружено несоответствие исполняемых файлов."}
+			{"txt_resourcedesync" "Обнаружено несоответствие ресурсов."}
+			{"txt_resourcedesyncfor" "Обнаружена рассинхронизация ресурсов - %1%."}
+			{"txt_mapnotfound" "Карта не найдена."}
+			{"txt_mapdesync" "Обнаружено несоответствие карты."}
+			{"txt_mapcompare" "Установлена карта %1%, требуется карта %2%."}
+			{"txt_nodesyncresfound" "Несоответствия ресурсов не обнаружены."}
+			{"txt_reschecking" "Проверка ресурсов..."}
+			{"txt_rescheckingfailed" "Ошибка проверки ресурсов!"}
+			{"msg_downloading" "Загрузка файлов"}
+			{"msg_downloadingfailed" "Ошибка загрузки файлов!"}
+		}
+		{"scene"
+			{"round" "Раунд %1% из %2%"}
+			{"title_transfer" "Передача юнитов"}
+			{"hint_transfer" "Передать юнитов другому игроку"}
+			{"msg_quality_reducing" "Понижены настройки видео для повышения производительности"}
+			{"msg_reinforcement_arrived" "Прибыло подкрепление: %1%."}
+			{"msg_transfered" "Юниты (%1%) были переданы игроку %2%"}
+			{"txt_waitingfor" "<f(bookman_hq)s(13)>Падение производительности у игрока"}
+			{"txt_comingup" "<f(bookman_hq)s(13)>Синхронизация с сервером"}
+			{"txt_winner" "Победитель - %1%!"}
+			{"txt_draw" "Ничья"}
+			{"hint_cost"
+				{"command" "CP: %1%"}
+				{"default" "MP: %1%"}
+				{"special" "SP: %1%"}
+			}
+			{"hint_cost2"
+				{"command" "%1% ЦП"}
+				{"default" "%1% MP"}
+				{"special" "%1% SP"}
+			}
+			{"hint_level" "Уровень: %1%"}
+			{"hint_time" "Время: %1%"}
+			{"hint_score" "Очки: %1%"}
+			{"chat"
+				{"say_all" "<c(ff4500)e(shadow)>Сообщение всем</c>"}
+				{"say_team" "<c(7fffd4)e(shadow)>Сообщение команде</c>"}
+				{"prefix_all" "<c(ff4500)e(shadow)>(Все) </c>"}
+				{"prefix_team" "<c(7fffd4)e(shadow)>(Свои) </c>"}
+				{"team" "<b+c(00FF00)>%s"}
+				{"all" "<b+c(FF8080)>%s"}
+				{"private" "<b+c(6DCFF6)>%s"}
+				{"default" "<b+c(CYAN)>%s"}
+			}
+			{"txt_waitingfor_master" "<f(bookman_hq)s(13)>Ожидаем сервер"}
+			{"txt_cp" "<f(arial_narrow)s(16)c(96bbd9)><e(shadow)>%1% / %2% КО"}
+			{"txt_mp" "<f(arial_narrow)s(16)c(ee852f)><e(shadow)>%1% / %2% ОП"}
+			{"txt_mp_rate" "<f(arial_hq)s(8)c(ee852f)p(0)e(shadow)>+ %1% ОП"}
+			{"txt_mp_rate2" "<f(arial_hq)c(ee852f)p(0)e(shadow)>+%1%"}
+			{"txt_payback_rate" "<f(arial_hq)s(8)c(f8cf91)p(0)e(shadow)>+ %1% ОП"}
+			{"txt_payback_rate2" "<f(arial_hq)c(f8cf91)p(0)e(shadow)>+%1%"}
+			{"txt_level" "<f(arial_narrow)s(16)c(e5e1df)><e(shadow)>Уровень %1%"}
+			{"txt_growspeed" "<f(arial_narrow)s(16)>%1%%"}
+			{"hint_cp" "Потрачено КО / Всего КО"}
+			{"hint_growspeed" "Скорость роста очков"}		
+			;brigades
+				;common
+					{"hint_common" "<c(FFFFFF)>Общие войска"}
+					{"hint_supl" "<c(FFFFFF)>Бригада поддержки"}
+					{"hint_hqcar" "<c(FFFFFF)>КШМ"}
+					{"hint_hqcardummy" ""}
+				;china
+					{"hint_chidummy_hqcar" "<c(FFFFFF)>ОДКБ"}
+					{"hint_cnair_hqcar" "<c(FFFFFF)>Бригада ВВС ОДКБ"}
+					{"hint_cnart_hqcar" "<c(FFFFFF)>ВС Украины"}
+					{"hint_cnheavy_hqcar" "<c(FFFFFF)>ВС РБ"}
+					{"hint_cnmed_hqcar" "<c(FFFFFF)>ВС Казахстана"}
+					{"hint_cnsam_hqcar" "<c(FFFFFF)>Бригада ПВО"}
+					{"hint_cnsco_hqcar" "<c(FFFFFF)>Контингент ШОС"}
+				;nato
+					{"hint_abn_hqcar" "<c(FFFFFF)>Полевая артиллерия НАТО"}
+					{"hint_bund_hqcar" "<c(FFFFFF)>Бундесвер"}
+					{"hint_cbn_hqcar" "<c(FFFFFF)>Сводный контингент экспедиционных сил"}
+					{"hint_fra_hqcar" "<c(FFFFFF)>Вооружённые силы Франции"}
+					{"hint_gb_hqcar" "<c(FFFFFF)>Вооруженные силы Ее Величества"}
+					{"hint_natoaa_hqcar" "<c(FFFFFF)>Противовоздушная и противоракетная оборона НАТО"}
+					{"hint_natodummy_hqcar" "<c(FFFFFF)>НАТО"}
+					{"hint_nrf_hqcar" "<c(FFFFFF)>Воздушное командование союзников НАТО"}
+				;russia
+					{"hint_armbr_hqcar" "<c(FFFFFF)>Танковая бригада"}
+					{"hint_artbr_hqcar" "<c(FFFFFF)>Артбригада"}
+					{"hint_mot_hqcar" "<c(FFFFFF)>Мотострелковая бригада"}
+					{"hint_pvo_hqcar" "<c(FFFFFF)>Бригада ПВО"}
+					{"hint_rusdummy_hqcar" "<c(FFFFFF)>Российская Федерация"}
+					{"hint_specbr_hqcar" "<c(FFFFFF)>Бригада морской пехоты"}
+					{"hint_vdv_hqcar" "<c(FFFFFF)>Бригада ВДВ"}
+					{"hint_vvs_hqcar" "<c(FFFFFF)>Бригада ВКС"}	
+				;usa
+					{"hint_idf_hqcar" "<c(FFFFFF)>Цахал (АОИ)"}
+					{"hint_usaaa_hqcar" "<c(FFFFFF)>Командование воздушно-космической обороны США"}
+					{"hint_usadummy_hqcar" "<c(FFFFFF)>США"}
+					{"hint_usaf_hqcar" "<c(FFFFFF)>ВВС США (USAF)"}
+					{"hint_usarmy_hqcar" "<c(FFFFFF)>Армия США"}
+					{"hint_usart_hqcar" "<c(FFFFFF)>Отделение полевой артиллерии армии США"}
+					{"hint_usmc_hqcar" "<c(FFFFFF)>Корпус морской пехоты США (USMC)"}
+			;unavailable brigades
+				;usa
+					{"hint_ngrd_hqcar" "<c(FFFFFF)>Национальная гвардия США"}
+		}
+		{"result"
+			{"title" "Результат"}
+			{"hdr" "# # #Игрок#<x.>Очки победы#<x.>Пехота#<x.>Техника#<x.>Очки#Пинг#ПК"}
+		}
+		{"statistics_xp"
+			{"value" "Опыт: %1%"}
+			{"victory_bonus" "Бонус победы (+%1%%): %2%"}
+			{"friend_bonus" "Бонус друзей (+%1%%): %2%"}
+			{"deluxe_bonus" "Бонус особого издания (+%1%%): %2%"}
+			{"total" "Всего опыта: %1%"}
+			{"rank" "Рейтинг: %1%"}
+			{"leave" "Вы не завершили игру и не получите опыта."}
+		}
+		{"statistics"
+			{"title" "<f(impact)s(28)c(255 255 255)>Результаты игры"}
+			{"player"
+				{"title" "<s(25)y(+9)>Статистика"}
+				{"units_header" "# #Лучшие войска#<x.>Пехоты уничтожено#<x.>Техники уничтожено#<x.>Очки#<x.>Эффективность#"}
+				{"score" "Счет"}
+				{"man" "Пехота:"}
+				{"veh" "Техника:"}
+				{"experience" "Опыт:"}
+				{"elo" "Очки ранга:"}
+				{"total" "+%1% XP <c(25 25 25)>(%2% XP + %3% XP *Победа + %4% XP *Друзья + %5% XP *Особое издание)"}
+				{"ranked_score" "%1% <c(25 25 25)>(%2% *Общие)"}
+				{"early_exit" "<c(25 25 25)> +1 Ранний выход"}
+				{"btn_profile" "Ваш профиль"}
+				{"btn_replay" "Сохранить запись"}
+			}
+			{"result"
+				{"title" "<s(25)y(+9)>Результат"}
+				{"header" "# #Player#<x.>Очки победы#<x.>Пехота#<x.>Техника#<x.>Очки#<x.>Ресурсы#"}
+				{"resources" "%1% / %2%"}
+			}
+			{"resources"
+				{"title" "<s(25)y(+9)>Ресурсы"}
+			}
+			{"detail"
+				{"title" "<s(25)y(+9)>Подробности"}
+				{"units_header" "# #Войска#<x.>Пехоты уничтожено#<x.>Техники уничтожено#<x.>Счет#<x.>Эффективность#"}
+			}
+			{"units"
+				{"title" "<s(25)y(+9)>Войска"}
+				{"user" "%1%"}
+				{"cost"
+					{"default" "<c(30 30 30)>%.0f ЛС"}
+					{"special" "<c(30 30 30)>%.0f СП"}
+				}
+				{"hint" "Потрачено ресурсов: %.0f / %.0f"}
+			}
+			{"history"
+				{"title" "<s(25)y(+9)>История"}
+				{"timestamp" "<f(arial_hq)s(8)c(ffffff)>%02d:%02d"}
+			}
+		}
+		{"search_replay"
+			{"title" "<f(impact)s(28)c(255 255 255)>Поиск повторов"}
+			{"search_all" "<s(25)y(+9)>Все"}
+			{"search_friends" "<s(25)y(+9)>Друзья"}
+			{"search_subscribed" "<s(25)y(+9)>Подписчиков"}
+			{"search_published" "<s(25)y(+9)>Опубликовано"}
+			{"subscribe" "Подписаться"}
+			{"unsubscribe" "Отменить подписку"}
+		}
+		{"settings"
+			{"teama" "Команда A"}
+			{"teamb" "Команда B"}
+			{"teamc" "Команда C"}
+			{"disabled" "Выключен"}
+		}
+		{"gs"
+			{"quit_confirm" "Выйти из интернет-игры?"}
+			{"login_input_name_pass" "*Введите уникальные имя пользователя и пароль для входа на GameSpy"}
+			{"login_create_acc_if_have_no" "*Если Вы еще не зарегистрированы на GameSpy, то нажмите кнопку 'Создать аккаунт'"}
+			{"login_pass_sensitive" "*Имя пользователя и пароль чувствительны к регистру"}
+			{"login_name" "Имя пользователя"}
+			{"login_password" "Пароль"}
+			{"login_remember_password" "Помнить пароль"}
+			{"login_enter" "Войти"}
+			{"login_create_acc_btn" "Создать аккаунт"}
+			{"login_create_acc_dialog_title" "Создание аккаунта"}
+			{"login_complete_fields" "*Для регистрации нового аккаунта заполните все поля"}
+			{"login_choose_existing_or_create" "*Аккаунт создается на основе GameSpyID. Если у Вас уже есть GameSpyID аккаунт, то Вы можете использовать e-mail и пароль этого аккаунта"}
+			{"login_unique_name" "*Имя пользователя должно быть уникальным на GameSpy"}
+			{"login_email" "e-mail"}
+			{"login_confirm_password" "Подтверждение пароля"}
+			{"login_create_btn" "Создать"}
+			{"login_unique_name_dialog_title" "Выбор уникального имени"}
+			{"login_name_is_in_use" "Имя пользователя, которое Вы задали, уже используется. Пожалуйста, введите другое имя или выберете одно из предложенных уникальных"}
+			{"login_name_select_suggest" "Пожалуйста, введите другое имя или выбирете одно из предложенных уникальных"}
+			{"login_suggested_names" "Возможные уникальные имена"}
+			{"account_forced_disconnect" "Произошел разрыв соединения либо установленно новое соединение с другого адреса под вашим аккаунтом"}
+			{"cd_key_reg_path" "Software\\1C\\Men of War"}
+			{"cd_key_dialog_title" "Введите CD-KEY"}
+			{"cd_key_disabled" "Ваш CD-KEY заблокирован"}
+			{"cd_key_wrong" "Неправильный CD-KEY"}
+			{"cd_key_verification" "Проверка CD-KEY"}
+			{"cd_key_duplicated" "Запущена другая версия игры с вашим CD-KEY"}
+			{"msg_connecting" "Соединение..."}
+			{"msg_connecting_failed" "Ошибка соединения"}
+			{"game_unavailable" "Недоступны онлайн сервисы"}
+			{"game_temporarily_unavailable" "Онлайн сервисы временно отключены для технического обслуживания. Пожалуйста попробуйте зайти позже"}
+			{"patching_dialog_title" "Патч для игры"}
+			{"patching_available" "Доступен новый патч версии %1%"}
+			{"patching_mandatory" "Мультиплеерная игра невозможна без этого патча!"}
+			{"pathcing_download" "Скачать"}
+			{"pathcing_cancel" "Продолжить"}
+			{"patching_check_msg" "Проверка версии игры"}
+			{"stats_unknow_error" "Неопределенная ошибка при работе с сервером статистики"}
+			{"cancel_session_question" "Закрыть текущую игру?"}
+			{"ranked_game" "Игра с рангом"}
+			{"vac_secured" "Защищено VAC"}
+			{"vac_secured_hint" "Защищено Valve Anti-Cheat."}
+			{"xp_gain_lobby" "Вы получите опыт за эту игру."}
+			{"xp_gain" "Опыта получено (%1%%)"}
+			{"xp_gain_hint" "Вы получите %1%% опыта за игру без ранга."}
+			{"xp_gain_ranked" "Ранг + опыта получено (%1%%)"}
+			{"xp_gain_hint_ranked" "Вы получите %1%% опыта и очков ранга за игру с рангом."}
+			{"chat"
+				{"connect_fail" "Ошибка подключения к чату"}
+				{"login_fail" "Ошибка входа в чат"}
+				{"bad_channel_name" "Недопустимое имя канала чата."}
+				{"bad_channel_pass" "Канал чата полон."}
+				{"channel_invite_only" "Доступ в канал только по приглашению."}
+				{"user_banned_by_channel" "Текущий пользователь не имеет доступа в чат."}
+				{"bad_channel_mask" "Ошибка подключения к чату"}
+				{"undef_error" "Ошибка подключения к чату"}
+				{"invalid_nick" "Недопустимое имя"}
+				{"nik_too_long" "Слишком длинное имя"}
+				{"main" "Общий чат"}
+				{"session" "Игровая комната"}
+				{"select_type" "Выберите комнату чата"}
+				{"txt_send_to" "Отправлять:"}
+				{"to_lobby" "в общий чат"}
+				{"to_lobby_hint" "Сообщения будут видны и в игровой комнате и в главной комнате"}
+				{"to_session" "в игровую комнату"}
+				{"to_session_hint" "Сообщения будут видны только в игровой комнате"}
+			}
+			{"qrwsockerror" "Ошибка инициализации Winsock"}
+			{"qrbinderror" "Доступные хост порты не найдены"}
+			{"qrdnserror" "Не удалось установить соединение с главным сервером"}
+			{"qrconnerror" "Невозможно создать игру, находясь за non-promiscuous NAT."}
+			{"qrnochallengeerror" "Главный сервер не отвечает. Возможно брандмауэр блокирует UDP пакеты или сервер отключен."}
+			{"account_uniquenick_inuse" "Указанное имя уже используется"}
+			{"account_bad_name_length" "Имя должно быть не меньше %1% символов и не больше %2%"}
+			{"acoount_bad_name_first_number" "Имя не может начинаться с цифры"}
+			{"account_bad_password_length" "Пароль должен быть не меньше %1% символов и не больше %2%"}
+			{"account_name_absent" "Пользователь с таким именем не зарегистрирован"}
+			{"account_bad_name" "Некорректное имя"}
+			{"account_passwords_mismatch" "Пароли не совпадают"}
+			{"account_bad_email" "Некорректный адресс электронной почты"}
+			{"account_bad_password" "Неверный пароль"}
+			{"account_bad_profile" "Недействительный профиль"}
+			{"account_profile_deleted" "Указанный профиль не найден"}
+			{"account_disconnect" "Онлайн сервисы недоступны"}
+			{"change_sort_number" "Отсортировать по количеству игр."}
+			{"change_sort_picture" "Отсортировать по рейтингу."}
+			{"change_sort_name" "Отсортировать по имени пользователя."}
+			{"change_rank_type" "Сменить тип статистики"}
+			{"player_info" "Информация об игроке"}
+			{"player_profile" "Профиль игрока"}
+			{"send_message" "Послать сообщение"}
+			{"invite" "Invite to session"}
+			{"invite" "Пригласить на сервер"}
+			{"join" "Войти на сервер"}
+			{"copy_text" "Скопировать текст"}
+			{"paste_text" "Вставить текст"}
+			{"stats"
+				{"player_dialog_title" "<f(impact)s(28)c(255 255 255)>Статистика \"%1%\""}
+				{"global_dialog_title" "<f(impact)s(28)c(255 255 255)>Зал славы"}
+				{"common" "<y(+9)>Общая"}
+				{"games" "Игры"}
+				{"armies" "<y(+9)>Армии"}
+				{"hdr_common" "#Игры#Очки#Ранговые Игры#Победы#Побед#Выходов"}
+				{"hdr_games" "#Игра#Очки#Игры#Победы#Побед"}
+				{"hdr_armies" "#Сторона#Игры#Победы#Побед"}
+				{"select_game_type" "Выбор типа рейтинга"}
+				{"hdr_toplist" "# #Имя#Очки#Игры#Победы, %"}
+				{"ri_top_common" "Общий рейтинг"}
+				{"ri_top_frontline" "Линия фронта"}
+				{"ri_top_captureflag" "Знамя победы"}
+				{"ri_top_heavyload" "Ценный груз"}
+				{"ri_top_battle_zones" "Захват флагов"}
+				{"ri_top_modification" "Игра с МОДами"}
+				{"ri_top_groundcontrol" "Контроль территории"}
+				{"ri_top_auto" "Авто"}
+				{"init_msg" "Инициализация рейтинговой системы"}
+				{"common_page" "<y(+9)>Общая"}
+				{"games_page" "<y(+9)>Игры"}
+				{"armies_page" "<y(+9)>Армии"}
+				{"hdr_games_page" "#Игра#Очки#Игры#Победы#Побед"}
+				{"hdr_armies_page" "#Сторона#Игры#Победы#Побед"}
+				{"next" "Следующая страница"}
+				{"prev" "Предыдущая страница"}
+				{"first" "В начало"}
+				{"last" "В конец"}
+				{"il_search_hint" "Введите полное имя для поиска игрока"}
+				{"il_search_txt" "Поиск"}
+				{"btn_search" "Найти"}
+				{"page" "Страница"}
+				{"rank" "Очки"}
+				{"position" "Место в рейтинге"}
+				{"disconnects" "Досрочные выходы"}
+				{"ranked_games" "Игры на рейтинг"}
+				{"wins" "Победы"}
+				{"winratio" "Процент побед"}
+				{"page_loading" "Подождите, идет загрузка страницы"}
+				{"player_loading" "Подождите, идет загрузка информации по игроку \"%1%\""}
+				{"looking_for_player" "Подождите, идет поиск игрока \"%1%\""}
+				{"player_not_in_ladder" "Игрок \"%1%\" не найден в этом виде рейтинга"}
+				{"player_not_found" "Игрок \"%1%\" не найден"}
+				{"loading_error" "Не удалось загрузить страницу"}
+				{"player_loading_error" "Не удалось загрузить информацию по игроку"}
+				{"undef_error" "Произошла ошибка"}
+			}
+			{"rejects_transfer" "Трансфер файлов не поддерживается"}
+			{"login_valid_email" "*Указывайте действительный e-mail адрес - он используется для восстановления пароля"}
+			{"login_one_name_per_cdkey" "*После создания аккаунта он будет привязан к CD-KEY. На один CD-KEY можно создать только один аккаунт"}
+			{"cd_key_obsolete" "Внимание! При нажатии на \"Да\" ваш аккаунт будет привязан к указаному CD-KEY! После этого вы сможете заходить в игру только под этим аккаунтом! Перед привязкой CD-KEY, обязательно запишите имя аккаунта и пароль, так как после привязки вы не сможете создать новый аккаунт. При утере пароля вы можете восстановить его на e-mail адрес, указанный при регистрации."}
+			{"cd_key_already_set" "Профиль привязан к другому ключу. Введите правильный ключ"}
+			{"cd_key_already_taken" "Указанный CD-KEY привязан к другому аккаунту"}
+			{"cd_key_register_error" "Ошибка привязки CD-KEY к аккаунту"}
+			{"diff_lobby_version" "Разные версии протокола связи с сервером"}
+			{"social"
+				{"color_online" "<c(000000)>"}
+				{"color_offline" "<c(100 100 100)>"}
+				{"color_friend" "<c(9ded90)>"}
+				{"color_neutral" "<c(25 25 25)>"}
+				{"color_ignore" "(Blocked) <c(bdbdbd)>"}
+				{"color_blocked" "<c(bdbdbd)>"}
+				{"color_officer" "<c(ffcc00)>"}
+				{"color_officer_chat" "<c(ffcc00)>"}
+				{"color_friendlist_ingame" "<c(9ded90)>"}
+				{"color_friendlist_online" "<c(83 163 194)>"}
+				{"color_friendlist_offline" "<c(4c4945)>"}
+				{"friendlist_state" "<s(8)y(-2)>%1%"}
+				{"friend_del" "Удалить из друзей"}
+				{"friend_add" "Сделать другом"}
+				{"ignore_del" "Удалить из блокируемых"}
+				{"ignore_add" "Заблокировать"}
+				{"social" "Сообщество"}
+				{"impossible_to_add_my_name" "Нельзя добавить себя"}
+				{"player_not_found" "Игрок %1% не найден"}
+				{"btn_add" "Добавить"}
+				{"btn_info" "Инфо"}
+				{"dialog_title" "<f(impact)s(28)c(255 255 255)>Сообщество"}
+				{"player_add_dialog_title" "<f(impact)s(28)c(255 255 255)>Добавить игрока"}
+				{"friends_page" "<y(+9)>Друзья"}
+				{"ignore_page" "<y(+9)>Заблокированные"}
+				{"hdr_friends_page" "#Имя игрока#Состояние"}
+				{"hdr_ignore_page" "#Имя игрока"}
+				{"show_online" "Онлайн"}
+				{"global_chat" "Сказать всем"}
+			}
+		}
+		{"unit_info"
+			{"speed" "Скорость<x(70)>%1%"}
+			{"crew" "Экипаж<x(70)>%1% чел."}
+			{"armor" "Бронирование, мм.<x(175)>лоб<x(225)>бок<x(275)>корма<x(325)>верх"}
+			{"armor"
+				{"body" "<x(20)>корпус<x(175)>%1%<x(225)>%2%<x(275)>%3%<x(325)>%4%"}
+				{"turret" "<x(20)>башня<x(175)>%1%<x(225)>%2%<x(275)>%3%<x(325)>%4%"}
+			}
+			{"armor_angle" "Углы наклона брони*"}
+			{"armor_angle_desc" "<s(8)c(20 20 20)f(arial_hq)>* - Углы наклона указаны в градусах от горизонтали. Чем меньшe <x(0)y(12)>угол наклона брони, тем выше ее снарядостойкость."}
+			{"gun" "Орудие<x(75)>%1%"}
+			{"gun"
+				{"range" "дальность выстрела<x(175)>%1%<x(225)>%2%<x(275)>%3%<x(325)>%4%"}
+				{"piercing" "пробиваемость, мм.<x(175)>%1%<x(225)>%2%<x(275)>%3%<x(325)>%4%"}
+				{"recharge_time" "Время перезарядки, с.<x(175)>%1%"}
+			}
+			{"mgun" "Пулемет<x(75)>%1%"}
+			{"mguns" "Пулеметы"}
+			{"mguns"
+				{"text" "%1%<x(175)>%2%"}
+			}
+			{"btn_tech" "Характеристики"}
+			{"btn_info" "Описание"}
+		}
+		{"mow_config_getting_fail" "Невозможно получить конфигурацию выделенных серверов"}
+		{"ds"
+			{"unknown" "-"}
+			{"btn_hint" "Список серверов"}
+			{"btn" "Список серверов"}
+			{"cfg_none" "Конфигурация недоступна"}
+			{"cfg_load" "Загрузка конфигурации..."}
+			{"cfg_load_complete" "#имя#ip#состояние#игр#ping#"}
+			{"dlg"
+				{"title" "<f(impact)s(28)c(255 255 255)> Список выделенных серверов"}
+				{"btn_close" "Закрыть"}
+			}
+			{"s_avail" "доступен"}
+			{"s_closed" "нет места"}
+			{"s_offline" "недоступен"}
+			{"s_lobby_full" "переполнен"}
+			{"s_diff_version" "другая версия"}
+			{"s_deny_connect" "доступ закрыт"}
+		}
+		{"button"
+			{"multiplayer_matchmaking" "Подбор матча"}
+			{"multiplayer_find_match" "Найти матч"}
+			{"multiplayer_host_game" "Создать"}
+			{"multiplayer_join_game" "Присоединиться"}
+		}
+		{"title_matchmaking" "Пункт призыва"}
+		{"trust_rating"
+			{"great" "хороший"}
+			{"okay" "средний"}
+			{"bad" "плохой"}
+			{"abysmal" "ужасный"}
+			{"banned" "заблокирован"}
+			{"perm_banned" "заблокирован навсегда"}
+		}
+		{"chat"
+			{"steamlobby" "Чат сервера"}
+			{"steamclan" "Сообщество"}
+		}
+	}
+}

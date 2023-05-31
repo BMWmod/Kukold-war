@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "$/model/j-10c/pl12_pylon1"}
+	{blend none}
+}

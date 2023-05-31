@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "dm31at_co"}
+	{blend none}
+}

@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "$/model/ural-XXXX/body_tent_repair"}
+	{blend none}
+}

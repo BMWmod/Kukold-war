@@ -1,0 +1,27 @@
+{from "pattern mgun"
+	{tag "reliability_high link_mmg"}
+	{filling "ammo PKM_ammo" 200}
+	{curve "762x54rus_100"}
+ 	{entity "PKP"}
+	{fireSound	"mgun/Pecheneg"}
+	{reloadSound "chn/pkp_reload"}
+	{spreading 1.3}
+	{mass 8.2}
+	{inventory
+		{size 5 2 }
+		{link_bone "gun_back"}
+		{weight 100}
+	}
+	{Spreading
+		{BurstAccuracy 100 97 92 88 85 78 74 68 61}
+	}
+	("mg_range_optic")
+	{recoveryTime 0.09}
+	;{cursor "optic_1p78"}
+	;{cursorReloading "optic_1p78_reload"}
+	{rechargeTime 4.5}
+	{speed 290}
+	{healthDamage     99}
+	("accuracy_optic_sight"  moa(1.75))
+	("accuracy_optic_sight_85"  moa(1.75))
+}

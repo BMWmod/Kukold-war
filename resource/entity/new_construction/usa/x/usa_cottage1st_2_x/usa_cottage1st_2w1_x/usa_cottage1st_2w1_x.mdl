@@ -1,0 +1,105 @@
+;Exported by: Timosh
+;Date:        Mon Jun 27 19:54:52 2022
+;File:        G:\?????? ? Pheonix\??????????????\??????\?????? ? ???????\???\???????????? ??????????? ??????? 2\usa_cottage_1st_2 x 7.max
+{Skeleton
+	{bone "w1"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "piece7"
+			{Position 15.4754	18.5506	34.8807}
+			{VolumeView "piece7.ply"}
+		}
+		{bone "piece6"
+			{Position 15.4795	-19.2533	34.8781}
+			{VolumeView "piece6.ply"}
+		}
+		{bone "piece3"
+			{Matrix34
+				0	1	0
+				9.27885e-05	0	1
+				1	0	-9.27885e-05
+				14.832	-0.873901	8.07652
+			}
+			{VolumeView "piece3.ply"}
+		}
+		{bone "piece4"
+			{Position 15.4733	18.5441	12.3207}
+			{VolumeView "piece4.ply"}
+		}
+		{bone "piece5"
+			{Position 14.8348	-19.2515	9.40396}
+			{VolumeView "piece5.ply"}
+		}
+		{bone "piece2"
+			{Matrix34
+				0	0.852006	-0.523532
+				-1	0	0
+				0	0.523532	0.852006
+				18.7373	7.20885	62.4721
+			}
+			{VolumeView "piece2.ply"}
+		}
+		{bone "piece1"
+			{Matrix34
+				0	1	0
+				9.27885e-05	0	1
+				1	0	-9.27885e-05
+				-5.75718	18.5364	8.07961
+			}
+			{VolumeView "piece1.ply"}
+		}
+	}
+}
+{Volume "piece1"
+	{Box 21.1449 3.75304 9.28096}
+	{Bone "piece1"}
+	{Matrix34
+		-6.56339e-05	6.56339e-05	1
+		1	0	6.56339e-05
+		0	1	-6.56339e-05
+		0	0	0.000115044
+	}
+}
+{Volume "piece2"
+	{Box 52.7659 10.8819 53.2498}
+	{Bone "piece2"}
+	{Matrix34
+		0	-1	0
+		-0.0273888	0	0.999625
+		-0.999625	0	-0.0273888
+		0	1.2009e-05	0
+	}
+}
+{Volume "piece3"
+	{Box 3.7037 22.6968 9.2795}
+	{Bone "piece3"}
+	{Matrix34
+		-6.56339e-05	6.56339e-05	1
+		1	0	6.56339e-05
+		0	1	-6.56339e-05
+		0	0	0.000122721
+	}
+}
+{Volume "piece4"
+	{Box 13.0885 12.3509 9.78911}
+	{Bone "piece4"}
+	{Position 0	0.000267029	3.19481e-05}
+}
+{Volume "piece5"
+	{Box 11.7327 11.0695 15.6464}
+	{Bone "piece5"}
+	{Position 0	6.67572e-05	0}
+}
+{Volume "piece6"
+	{Box 5.89613 6.19549 36.3109}
+	{Bone "piece6"}
+	{Position 0	0	5.14984e-05}
+}
+{Volume "piece7"
+	{Box 5.89614 6.19442 36.3109}
+	{Bone "piece7"}
+	{Position 0	0	-1.71661e-05}
+}

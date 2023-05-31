@@ -1,0 +1,17 @@
+{from "pattern proj_weapon_air"
+	{tag "gun"}
+
+	{filling "ammo trigat" 4}
+	{fireSound "reactive/konkurs_launch"}
+	{mass 47}
+	{recoveryTime 3}
+	{rechargeTime 90}
+	{inventory {noView}}
+                          {maxRange 180}
+	{aimRange 180}
+	;{cursor "Apach"}
+	;{cursorReloading "zenite_reload"}
+	{cursor "cannon_on_heat_2"}
+	{cursorReloading "cannon_reload_heat"}
+	;{cursorReloading "cannon_reload_heat_timer_90"}
+}

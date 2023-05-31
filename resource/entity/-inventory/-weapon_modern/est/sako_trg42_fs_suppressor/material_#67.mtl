@@ -1,0 +1,8 @@
+{material simple
+	{diffuse "$/model/sakotrg42/trg_42"}
+	{blend none}
+}
+
+
+
+

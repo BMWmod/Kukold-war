@@ -1,0 +1,27 @@
+{breed
+	{skin "cw_cn_inf"}
+	{portrait "_new/cn/inf"}
+	{icon "smgs"}
+	{icon_priority 2}
+	{nationality cn}
+	{armors
+		{head "qgf03_glasses"}
+	}
+
+	(include "perks_generic.inc")
+	("traits_specnaz_smg")
+	{inventory
+		{item "type06h_smg"}
+		{item "bandage" 10}
+		{item "smoke_cn grenade"}
+		{item "58ammo 58ammo_basic ammo" 240}
+		{item "pf89b weapon" filling "pf89b_ammo ammo" 1}
+		{item "qbz95_qlg91" filling "58ammo 58ammo_basic" 30}
+		{item "qbz95_qlg91_pod" filling "cn_pg fg ammo" 1}
+		{item "cn_pg fg ammo" 8}
+		{item "type73 grenade" 4}
+		{item "smoke_cn grenade"}
+		{item "sandbag_kit"}
+		{in_hands 5}
+	}
+}

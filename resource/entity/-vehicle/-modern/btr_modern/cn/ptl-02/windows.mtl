@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "$/model/ptl02/windows_new"}
+	{blend blend}
+}

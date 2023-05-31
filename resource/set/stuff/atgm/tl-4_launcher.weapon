@@ -1,0 +1,25 @@
+{from "pattern proj_weapon_ground"
+	{tag "gun"}
+	{filling "ammo Ten_Lei_ammo" 1}
+	{fillingVisible "rocket"}
+              {fireSound "bazooka/spike_shot"}
+			  {reloadSound "chn/Metis_reload"}
+	{mass 7}
+	{recoveryTime 6}
+	{rechargeTime 30}	
+	{inventory {noView}}
+;	{cursor "SPIKE"}
+;	{cursorReloading "SPIKE_reload"}
+	{cursor "cannon_on_heat_2"}
+	{cursorReloading "cannon_reload_heat"}
+	;{cursor "spike"}
+	;{cursorReloading "cannon_reload_heat_timer_30"}
+
+	("damage" a(1) b(1) c(1) d(1) e(1))
+	{projectileDamage 0}
+        {maxRange 175}
+	{aimRange 175}
+;	{gravity 400}
+{gravity 300}
+	{speed 1000}
+}

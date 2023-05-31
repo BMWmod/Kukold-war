@@ -1,0 +1,41 @@
+{from "pattern gun_air"
+	
+	{filling "GSH-30_ammo ammo" 180}
+	{fireSound "gun/GSh301"}
+	{RecoveryTime 0.02}
+	{RechargeTime 0.02}
+	{AimingTolerance 10}
+	{Automatic}
+	{burst
+		{min 7}
+		{short 10 1}
+		{long 14 2}
+	}	
+	{traceFreq 1}
+	{range 145 145}	;Ориентировочно
+	("speed" s(860))
+	{RelaxationTime 0}
+	;{cursor "Su254"}
+	;{cursorReloading "zenite_reload"}
+	{cursor "cannon_on_aa_2"}
+	{cursorReloading "cannon_reload_ap"}
+	{calibre 30}
+	{spreading 	;не так точна, как Авенджер из-за меньшей длины ствола
+;		{radiusTable 
+;			{0 0.01} 
+;			{20 (* 0.07 11)} 
+;			{40 (* 0.29 11)} 
+;			{50 (* 0.36 11)} 
+;			{70 (* 0.7 11)} 
+;			{100 (* 1.39 11)} 
+;			{130 (* 2.09 11)} 
+;		}
+		{BurstAccuracy 300 300 300 300 300 200 200 200 150 150 150 150 100} ; т.к. включен параметр {BurstRecoveryTime 0.5}
+;		{SpreadPower	1.7}
+;		{SpreadXYRatio	1.0}
+	}
+	("CW_acc_common" mils(2))	;нет данных
+	("CW_acc_common_100" mils(2))	;нет данных
+    ;   	{projectileDamageTable {10 75} {30 69} {50 40} {70 25} {90 15} {110 12}}
+    ("CW_small_AP_damage" penetr_1000m(28))
+}

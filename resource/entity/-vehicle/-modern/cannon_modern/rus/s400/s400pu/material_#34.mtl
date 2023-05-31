@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "$/model/s400/s400_trailer"}
+	{blend none}
+}

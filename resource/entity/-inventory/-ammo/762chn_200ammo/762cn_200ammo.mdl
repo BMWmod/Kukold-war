@@ -1,0 +1,79 @@
+;Exported by: PC
+;Date:        Wed Sep 14 20:20:04 2022
+;File:        C:\Users\PC\Desktop\7.62x51_200ammo.max
+{Skeleton
+	{bone "762chn_200ammo"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "762cn_200ammo.ply"}
+	}
+}
+{Volume "body"
+	{Polyhedron "body.vol"}
+	{Bone "762chn_200ammo"}
+	{Matrix34
+		0	0	-1
+		0	1	0
+		1	0	0
+		-0.0959809	-0.272522	-0.0919684
+	}
+}
+{Volume "select"
+	{Polyhedron "select.vol"}
+	{Bone "762chn_200ammo"}
+	{Matrix34
+		0	0	-1
+		0	1	0
+		1	0	0
+		0.257792	-0.174887	-0.0502118
+	}
+}
+{Extender "preview"
+	{"Stuff_primary"
+		{camera
+			{origin 170.017	-21.807	-1.30749}
+			{lookat -0.0900237	0.020705	-0.0311852}
+			{fov 1.82526}
+			{horizon 90.8313}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 5.36064	9.50801	-2.39099}
+			}
+			{"1"
+				{type directional}
+				{direction 0.452351	0.0792752	-0.197722}
+			}
+			{"2"
+				{type point}
+				{position 3.96664	-6.67075	-1.85248}
+			}
+		}
+	}
+	{"Stuff"
+		{camera
+			{origin 25.4186	-4.80538	-1.89089}
+			{lookat 0.615027	-0.0916507	-0.107925}
+			{fov 12.2375}
+			{horizon 91.0108}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 5.36064	9.50801	-2.39099}
+			}
+			{"1"
+				{type directional}
+				{direction 0.457316	0.0531562	-0.19503}
+			}
+			{"2"
+				{type point}
+				{position 3.96664	-6.67075	-1.85248}
+			}
+		}
+	}
+}

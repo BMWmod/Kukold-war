@@ -1,0 +1,15 @@
+;Cold War
+{from "browning_m2hb_optic"
+	{burst
+		{short 4 2}
+		{long  10 3}
+		{rangeKoef 0.75}
+	}
+	{recoveryTime 0.062}
+	{rechargeTime 0.062}
+	;https://www.youtube.com/watch?v=vY8UFQj89q4&t=220s
+	;rpm of Avenger's M2 is significantly higher than normal one, about 1000 rpm (0.062s interval)
+	;and all ammo is stored in one belt
+	
+	
+}		

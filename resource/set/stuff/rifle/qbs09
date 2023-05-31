@@ -1,0 +1,35 @@
+{from "pattern bullet"
+	{tag "weapon rifle shotgun bullet to_hand"}
+	{filling "ammo 12mm_shotgun" 5}
+	{curve "9x18_15"}
+	{mass 3.5}
+	{inventory
+		{size 4 2}
+		{link_bone "gun_back"}
+		{weight 100}
+	}
+	{special
+		{throw_off_always}
+	}
+	{entity "QBS09"}
+	{range 30 35}
+	{reloadSound "shotgun"}
+	{fireSound "rifle/qbs09"}
+	{cursor "carbine_on"}
+	{cursorReloading "carbine_reload"}
+
+	{traceFreq 1}
+	
+	{range 30 35}
+     {RelaxationTime 0.1}
+	{recoveryTime 0.8}
+	{rechargeTime 4.5}
+
+	{Automatic}
+	{rechargeTime 4.0}
+	{speed 60}
+
+	{healthDamage 130}
+	("accuracy_open_sight"  moa(7))	;примерно
+	("accuracy_open_sight_40"  moa(7))	;примерно
+}

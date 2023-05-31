@@ -1,0 +1,29 @@
+;Cold War
+{from "pattern smg"
+	{tag "reliability_medium"}
+	{filling "ammo standart" 40}
+	{curve "9x19_40"}
+	{inventory
+		{size 2 2}
+	}
+	{mass 2.2}         
+	{entity "mp7"}
+	{fireSound	"smg/mp7/"}
+	{reloadSound "mp7_reload"}
+	{speed 310}	
+	{cursor "mp7"}
+	{cursorReloading "cannon_reload_all"}
+	{recoveryTime 0.09}
+	{Automatic}
+        {rechargeTime 3.0}
+
+	{aimRange 35}	;200 м эффективная, но убойность пули сохраняется на 700 м
+	{maxRange 40}
+	{burst
+		{short 4 2}
+		{long 12 4}
+	}
+	{healthDamage 35} ;по подсчетам всего 10, увеличил до 35
+	("accuracy_open_sight"  moa(5)) ;неизвестно
+	("accuracy_open_sight_40"  moa(5)) ;неизвестно
+}

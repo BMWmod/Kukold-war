@@ -1,0 +1,4 @@
+{actor
+	(include "proj_point_guide.inc")
+	{targetClass 	"proj_rus_laser_guide"}
+}

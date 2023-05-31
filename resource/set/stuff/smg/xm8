@@ -1,0 +1,29 @@
+;Cold War
+{from "pattern smg"
+	{tag "reliability_medium"}
+	{filling "ammo 556Nato" 30} ;556
+	{curve "556_60"}
+	{mass 2.6}     
+	{entity "xm8"}
+	{fireSound	"mgun/XM8"}
+	{reloadSound "M16_reload"}
+	{speed 280}	
+
+	{recoveryTime 0.08} ;700-970
+                          {rechargeTime 1.8}	;легкое пехотное оружие - сделал быструю перезарядку
+
+	("smg_range")
+	
+	{cursor "g36"}
+	{cursorReloading "cannon_reload_all"}
+
+	{burst
+		{short 2 1}
+		{long 6 2}
+{rangeKoef 0.444}
+	}
+	{healthDamage 68}
+	("holo")
+("accuracy_collimator"  moa(3))	
+	("accuracy_collimator_50"  moa(3))	
+}

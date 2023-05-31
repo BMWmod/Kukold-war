@@ -1,0 +1,22 @@
+{breed
+	{skin "cw_ger_inf"}
+	{portrait "_new/ger/inf"}
+	{icon bund_smg}
+	{icon_priority 2}
+	{nationality ger}
+	{armors
+		{head helmet_m826}
+	}
+	(include "perks_generic.inc")
+	("traits_specnaz_mgun")
+	{inventory
+		{item "shutzweste_backpack"}
+		{item "bandage" 10}
+		{item "mg3" filling "762nato ammo" 100}
+		{item "762nato ammo" 300}
+		{item "sandbag_kit"}
+		{item "smoke_ger grenade"}
+		{item "dm51gr grenade" 4}
+		{in_hands 2}
+	}
+}

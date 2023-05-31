@@ -1,0 +1,22 @@
+{breed
+	{skin "cw_cn_medic"}
+	{portrait "_new/cn/inf"}
+	{icon "smgs"}
+	{icon_priority 1}
+	{nationality cn}
+	{armors
+		{head "qgf03_glasses"}
+	}
+
+	(include "perks_generic.inc")
+	("traits_army_smg")
+	{inventory
+		{item "type06h_medic"}
+		{item "bandage" 25}
+		{item "58ammo 58ammo_basic ammo" 180}
+		{item "type86p grenade" 4}
+		{item "qbz95" filling "58ammo 58ammo_basic ammo" 30}
+		{item "sandbag_kit"}
+		{in_hands 4}
+	}
+}

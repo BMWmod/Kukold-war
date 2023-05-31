@@ -1,0 +1,20 @@
+;Cold War
+{from "pattern mgun"
+	{tag "reliability_high link_lmg"}
+	{filling "ammo RPK_ammo" 45}
+	{curve "545_70"}
+	{mass 4.7}
+	{entity "rpk74"}
+	{fireSound	"mgun/rpk/"}
+	{reloadSound "chn/RPK_Reload"}
+	{inventory
+		{size 4 2 }
+	}
+	("mg_range_custom" k(0.8))
+	{recoveryTime 0.09}
+	{rechargeTime 4}
+	{speed 290}
+	{healthDamage     65}
+	("accuracy_open_sight"  moa(3.2))
+	("accuracy_open_sight_70"  moa(3.2))
+}

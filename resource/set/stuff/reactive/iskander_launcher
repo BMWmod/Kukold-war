@@ -1,0 +1,37 @@
+{weapon_bullet
+	
+	{tag "gun" "skill_tankgun" "bullet" "prepare"}
+	{Special
+		{Mode aim}
+		{PrepareTime 10}
+		{PrepareCursor "aimed_shot"}
+	}
+	{filling "ammo iskander" 2}
+	{fillingVisible "Missile"}
+	{fireSound "reactive/missile_big"}
+	{range 650 650}
+	("accuracy_kab" kvo_meters(20))	;при использовании ракет с корреляционной ГСН - 7м, без - до 30.
+		;https://vpk.name/library/f/9m723.html
+		;https://www.youtube.com/watch?v=OXyF1njLfqw
+		;9М723 мод идут только с 2016г и отличаютс более острой носовой частью и высокой точностью.
+		;http://militaryrussia.ru/blog/topic-816.html
+
+
+	{rechargeTime 300}
+	{recoverytime 2}
+	{gravity 6}
+	{speed 1000}
+	{aimtype adaptive}
+	;{cursor "cannon_on"}
+	;{cursorReloading "cannon_reload"}
+	;{cursor "cannon_on_fg_6"}
+	;{cursorReloading "cannon_reload_fg"}
+	{cursor "tactical"}
+	{cursorReloading "cannon_reload_fg_timer_300"}
+	{parameters "tb"
+		;{cursor "shmel_on"}
+		;{cursorReloading "cannon_reload_fg"}
+		{cursor "tactical_tb"}
+		{cursorReloading "cannon_reload_fg_timer_300"}
+	}
+}

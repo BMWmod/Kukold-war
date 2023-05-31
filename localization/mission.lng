@@ -1,0 +1,91 @@
+﻿;Создано maaa - DTTGOC
+;LocalGen2
+;Extra data placeholder
+;Extra data placeholder
+;rev 04.07.2022
+
+;texmodes
+	;null
+	;desert
+	;forest
+	;winter
+
+		;xvsx;	
+			;file name					;[xvsx] value							;cold War map definer		;map name														;textmode		;Author
+{tags
+	{"multi"
+		{"biatlon" 						{"name" "<c(FF0000)e(shadow)>[2x2]"		"<c(70F651)e(shadow)>[CW]"	" <c(FFFFFF)e(shadow)>Tank Biathlon</c>"}			}			;null			;PG Cold War
+		{"scenario"						{"name" "<c(B205FC)e(shadow)>[5x5]"		"<c(70F651)e(shadow)>[CW]"	" <c(FFD700)e(shadow)>Syrian Conflict</c>"}			}			;desert			;PG Cold War
+		{"1vs1"
+		}
+		{"2vs2"
+			{"2vs2_drozdov" 			{"name" "<c(FF0000)e(shadow)>[2x2]"		"<c(70F651)e(shadow)>[CW]"	" <c(FFFFFF)e(shadow)>Drozdov</c>"}					}			;null			;PG Cold War
+			{"2vs2_cw_european_city" 	{"name" "<c(FF0000)e(shadow)>[2x2]"		"<c(70F651)e(shadow)>[CW]"	" <c(FFFFFF)e(shadow)>European City</c>"}			}			;null			;PG Cold War
+			{"2vs2_elzas" 				{"name" "<c(FF0000)e(shadow)>[2x2]"									" <c(FFFFFF)e(shadow)>Elzas</c>"}					}			;null
+			{"2vs2_hills" 				{"name" "<c(FF0000)e(shadow)>[2x2]"									" <c(FFFFFF)e(shadow)>Hills</c>"}					}			;null
+			{"2vs2_hunting" 			{"name" "<c(FF0000)e(shadow)>[2x2]"									" <c(FFFFFF)e(shadow)>Hunting</c>"}					}			;null
+			{"2vs2_gsm_kharkov" 		{"name" "<c(FF0000)e(shadow)>[2x2]"									" <c(FFFFFF)e(shadow)>Kharkov (GSM)</c>"}			}			;null			;GSM
+			{"2vs2_warehouse" 			{"name" "<c(FF0000)e(shadow)>[2x2]"									" <c(FFFFFF)e(shadow)>Warehouse</c>"}				}			;null
+		}	
+		{"3vs3"
+			{"3v3_cw_doomed_town" 		{"name" "<c(044f8e)e(shadow)>[3x3]"		"<c(70F651)e(shadow)>[CW]"	" <c(FFFFFF)e(shadow)>Doomed Town</c>"}				}			;null			;PG Cold War
+			{"3v3_cw_military_city" 	{"name" "<c(044f8e)e(shadow)>[3x3]"		"<c(70F651)e(shadow)>[CW]"	" <c(FFFFFF)e(shadow)>Military City</c>"}			}			;null			;PG Cold War
+			{"3v3_atlantic_line" 		{"name" "<c(044f8e)e(shadow)>[3x3]"									" <c(FFFFFF)e(shadow)>Atlantic Line</c>"}			}			;null
+			{"3vs3_gsm_bigdeserttown" 	{"name" "<c(044f8e)e(shadow)>[3x3]"									" <c(FFD700)e(shadow)>Big Desert Town (GSM)</c>"}	}			;desert			;GSM
+			{"3vs3_country" 			{"name" "<c(044f8e)e(shadow)>[3x3]"									" <c(FFFFFF)e(shadow)>Country</c>"}					}			;null
+			{"3v3_desert_hills" 		{"name" "<c(044f8e)e(shadow)>[3x3]"									" <c(FFD700)e(shadow)>Desert Hills</c>"}			}			;desert
+			{"3vs3_glubinka"			{"name" "<c(044f8e)e(shadow)>[3x3]"									" <c(FFFFFF)e(shadow)>Golubinka</c>"}				}			;null
+			{"3vs3_gsm_medvedovka"		{"name" "<c(044f8e)e(shadow)>[3x3]"									" <c(FFFFFF)e(shadow)>Medvedovka (GSM)</c>"}		}			;null			;GSM
+			{"3vs3_gsm_nikolaev" 		{"name" "<c(044f8e)e(shadow)>[3x3]"									" <c(FFFFFF)e(shadow)>Nikolayev (GSM)</c>"}			}			;null			;GSM
+			{"3vs3_new_ukraine"			{"name" "<c(044f8e)e(shadow)>[3x3]"									" <c(FFFFFF)e(shadow)>Ukraine</c>"}					}			;null
+			{"3vs3_winter_hutor"		{"name" "<c(044f8e)e(shadow)>[3x3]"									" <c(FFFFFF)e(shadow)>Winter Khutor</c>"}			}			;null
+		}
+		{"4vs4"
+			{"4vs4_cw_russian_village"	{"name" "<c(711b77)e(shadow)>[4x4]"		"<c(70F651)e(shadow)>[CW]"	" <c(FFFFFF)e(shadow)>Russian Village</c>"}			}			;null			;PG Cold War
+			{"4vs4_disaster"			{"name" "<c(711b77)e(shadow)>[4x4]"									" <c(FFFFFF)e(shadow)>Disaster</c>"}				}			;null
+			{"4vs4_forest"				{"name" "<c(711b77)e(shadow)>[4x4]"									" <c(FFFFFF)e(shadow)>Forest</c>"}					}			;null
+			{"4vs4_new_minsk"			{"name" "<c(711b77)e(shadow)>[4x4]"									" <c(FFFFFF)e(shadow)>Minsk</c>"}					}			;null
+			{"4vs4_station"				{"name" "<c(711b77)e(shadow)>[4x4]"									" <c(FFFFFF)e(shadow)>Station</c>"}					}			;null
+		}
+		{"5vs5"
+			{"5x5_pizdec"			{"name" "<c(B205FC)e(shadow)>[5x5]"		"<c(70F651)e(shadow)>[CW]"	" <c(FFFFFF)e(shadow)>Очко Сереги</c>"}				}
+			{"5vs5_cw_baltyisk"			{"name" "<c(B205FC)e(shadow)>[5x5]"		"<c(70F651)e(shadow)>[CW]"	" <c(FFFFFF)e(shadow)>Baltiysk</c>"}				}			;null			;PG Cold War
+			{"5vs5_cw_frag_town"		{"name" "<c(B205FC)e(shadow)>[5x5]"		"<c(70F651)e(shadow)>[CW]"	" <c(FFFFFF)e(shadow)>Frag Town</c>"}				}			;null			;PG Cold War
+			{"5vs5_cw_karnitur"			{"name" "<c(B205FC)e(shadow)>[5x5]"		"<c(70F651)e(shadow)>[CW]"	" <c(FFFFFF)e(shadow)>Karnitur</c>"}				}			;null			;PG Cold War - Pheonix
+			{"5vs5_cw_ph_hutor"			{"name" "<c(B205FC)e(shadow)>[5x5]"		"<c(70F651)e(shadow)>[CW]"	" <c(FFFFFF)e(shadow)>Khutor</c>"}					}			;null			;PG Cold War - Pheonix
+			{"5vs5_dubovka"				{"name" "<c(B205FC)e(shadow)>[5x5]"									" <c(FFFFFF)e(shadow)>Dubovka</c>"}					}			;null
+			{"5vs5_russianland"			{"name" "<c(B205FC)e(shadow)>[5x5]"									" <c(FFFFFF)e(shadow)>Russian land</c>"}			}			;null
+			{"5vs5_winter hell"			{"name" "<c(B205FC)e(shadow)>[5x5]"									" <c(05BCE6)e(shadow)>Winter Hell</c>"}				}			;winter
+		}
+		{"6vs6"
+			{"6vs6_cw_iraq_2003"		{"name" "<c(C96D2B)e(shadow)>[6x6]"		"<c(70F651)e(shadow)>[CW]"	" <c(FFD700)e(shadow)>Iraq 2003</c>"}				}			;desert			;PG Cold War
+			{"6vs6_cw_murovanka"		{"name" "<c(C96D2B)e(shadow)>[6x6]"		"<c(70F651)e(shadow)>[CW]"	" <c(FFFFFF)e(shadow)>Murovanka</c>"}				}			;null			;PG Cold War
+			{"6vs6_cw_road"				{"name" "<c(C96D2B)e(shadow)>[6x6]"		"<c(70F651)e(shadow)>[CW]"	" <c(FFFFFF)e(shadow)>Road</c>"}					}			;null			;PG Cold War
+			{"6vs6_cw_usafields"		{"name" "<c(C96D2B)e(shadow)>[6x6]"		"<c(70F651)e(shadow)>[CW]"	" <c(FFFFFF)e(shadow)>US Fields</c>"}				}			;null			;PG Cold War
+			{"6vs6_cw_wood_city"		{"name" "<c(C96D2B)e(shadow)>[6x6]"		"<c(70F651)e(shadow)>[CW]"	" <c(FFFFFF)e(shadow)>Wood City</c>"}				}			;null			;PG Cold War
+			{"6vs6_fields"				{"name" "<c(C96D2B)e(shadow)>[6x6]"									" <c(FFFFFF)e(shadow)>Fields</c>"}					}			;null
+			{"6vs6_gsm_poland_new"		{"name" "<c(ff9933)e(shadow)>[6x6]"									" <c(FFFFFF)e(shadow)>Poland (GSM)</c>"}			}			;null			;GSM
+		}
+		{"7vs7"
+		}
+		{"8vs8"
+			{"8vs8_cw_abu_kemal_sirya"	{"name" "<c(ff9933)e(shadow)>[8x8]"		"<c(70F651)e(shadow)>[CW]"	" <c(FFD700)e(shadow)>Abu Kamal, Syria</c>"}		}			;desert			;PG Cold War
+			{"8vs8_cw_bridges"			{"name" "<c(ff9933)e(shadow)>[8x8]"		"<c(70F651)e(shadow)>[CW]"	" <c(FFFFFF)e(shadow)>Bridges</c>"}					}			;null			;PG Cold War
+			{"8vs8_cw_chernarus_2022"	{"name" "<c(ff9933)e(shadow)>[8x8]"		"<c(70F651)e(shadow)>[CW]"	" <c(FFD700)e(shadow)>Chernarus</c>"}				}			;desert			;PG Cold War
+			{"8vs8_cw_desert"			{"name" "<c(ff9933)e(shadow)>[8x8]"		"<c(70F651)e(shadow)>[CW]"	" <c(FFD700)e(shadow)>Desert</c>"}					}			;desert			;PG Cold War
+			{"8vs8_cw_inhabited"		{"name" "<c(ff9933)e(shadow)>[8x8]"		"<c(70F651)e(shadow)>[CW]"	" <c(FFFFFF)e(shadow)>Inhabited</c>"}				}			;null			;PG Cold War
+			{"8vs8_cw_naurskaya"		{"name" "<c(ff9933)e(shadow)>[8x8]"		"<c(70F651)e(shadow)>[CW]"	" <c(FFFFFF)e(shadow)>Naurskaya</c>"}				}			;null			;PG Cold War
+			{"8vs8_cw_fnaurskaya"		{"name" "<c(ff9933)e(shadow)>[8x8]"		"<c(70F651)e(shadow)>[CW]"	" <c(FFFFFF)e(shadow)>Naurskaya F</c>"}				}			;null			;PG Cold War
+			{"8vs8_cw_naurskaya_winter"	{"name" "<c(ff9933)e(shadow)>[8x8]"		"<c(70F651)e(shadow)>[CW]"	" <c(05BCE6)e(shadow)>Naurskaya Winter</c>"}		}			;winter			;PG Cold War
+			{"8vs8_abbad_big"			{"name" "<c(ff9933)e(shadow)>[8x8]"									" <c(FFD700)e(shadow)>Abbad</c>"}					}			;desert
+			{"8vs8_afghanistan"			{"name" "<c(ff9933)e(shadow)>[8x8]"									" <c(FFD700)e(shadow)>Afghanistan</c>"}				}			;desert
+			{"8vs8_atlantic_wall"		{"name" "<c(ff9933)e(shadow)>[8x8]"									" <c(FFFFFF)e(shadow)>Atlantic Wall</c>"}			}			;null
+			{"8vs8_bridge_to_hell"		{"name" "<c(ff9933)e(shadow)>[8x8]"									" <c(05BCE6)e(shadow)>Bridge To Hell</c>"}			}			;winter
+			{"8vs8_desert_walk"			{"name" "<c(ff9933)e(shadow)>[8x8]"									" <c(FFD700)e(shadow)>Desert Walk</c>"}				}			;desert
+			{"8vs8_forest2"				{"name" "<c(ff9933)e(shadow)>[8x8]"									" <c(FFFFFF)e(shadow)>Forest II</c>"}				}			;null
+			{"8vs8_gsm_prokhorovka"		{"name" "<c(ff9933)e(shadow)>[8x8]"									" <c(FFFFFF)e(shadow)>Prokhorovka (GSM)</c>"}		}			;null			;GSM
+			{"8vs8_moscow_behind"		{"name" "<c(ff9933)e(shadow)>[8x8]"									" <c(FFFFFF)e(shadow)>Moscow Behind</c>"}			}			;null
+			{"8vs8_wcw_field_posch"		{"name" "<c(ff9933)e(shadow)>[8x8]"		"<c(70F651)e(shadow)>[WCW]" " <c(FFFFFF)e(shadow)>Field Posch</c>"}				}			;null
+		}
+	}
+}

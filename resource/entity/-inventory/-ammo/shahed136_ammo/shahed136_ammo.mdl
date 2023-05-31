@@ -1,0 +1,166 @@
+;Exported by: Timosh
+;Date:        Fri Nov 18 18:04:55 2022
+;File:        G:\?????? ? Pheonix\??????????????\??????\??????? ?????????\TRUCK DAF CD 380 Drone Kamikadze pre final\Shahed 136\Shahed_136 item.max
+{Skeleton
+	{animation
+		{sequence "move" {speed 0.6}}
+	}
+	{bone "body"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "body.ply"}
+		{bone "foresight_spawn"
+			{Matrix34
+				1	0	0
+				0	0	1
+				0	-1	0
+				12.8131	0.0849448	-0.0394898
+			}
+		}
+		{bone "part1"
+			{parameters "ID=engine;"}
+			{Matrix34
+				1	0	0
+				0	0	1
+				0	-1	0
+				-25.1698	-0.867123	0
+			}
+			{VolumeView "part1.ply"}
+			{bone "kolpak"
+				{parameters "ID=body;"}
+				{Position -5.31079	0	-0.867123}
+				{VolumeView "kolpak.ply"}
+				{bone "propeller"
+					{parameters "ID=body;"}
+					{Position 0	0.00531578	0.0119374}
+					{VolumeView "propeller.ply"}
+				}
+				{bone "propeller_work1"
+					{Matrix34
+						0	-0.520844	0.853652
+						0	-0.853652	-0.520844
+						1	0	0
+						-0.163233	-0.000303268	0.0119377
+					}
+					{visibility 0}
+					{VolumeView "propeller_work1.ply"}
+				}
+			}
+		}
+		{bone "tail2"
+			{parameters "ID=body;"}
+			{Orientation
+				1	0	0
+				0	0	1
+				0	-1	0
+			}
+			{VolumeView "tail2.ply"}
+		}
+		{bone "tail1"
+			{parameters "ID=body;"}
+			{Orientation
+				1	0	0
+				0	0	1
+				0	-1	0
+			}
+			{VolumeView "tail1.ply"}
+		}
+	}
+}
+{Volume "body1"
+	{Polyhedron "body1.vol"}
+	{Bone "body"}
+	{Matrix34
+		1	0	0
+		0	0	1
+		0	-1	0
+		-5.1241	0.833189	-11.9277
+	}
+}
+{Volume "body2"
+	{Polyhedron "body2.vol"}
+	{Bone "body"}
+	{Matrix34
+		1	0	0
+		0	0	1
+		0	-1	0
+		-5.1241	0.833192	15.2209
+	}
+}
+{Volume "body3"
+	{Polyhedron "body3.vol"}
+	{Bone "tail1"}
+	{Position -5.1241	15.2035	-0.833191}
+}
+{Volume "body4"
+	{Polyhedron "body4.vol"}
+	{Bone "tail2"}
+	{Position -5.1241	-11.7546	-0.833191}
+}
+{Volume "body"
+	{Polyhedron "body.vol"}
+	{Bone "body"}
+	{Matrix34
+		0	1	0
+		0	0	1
+		1	0	0
+		-23.2961	0	0
+	}
+}
+{Volume "engine"
+	{Box 6.92908 10.2922 6.05905}
+	{Bone "part1"}
+	{Matrix34
+		0.999431	0	0.0337251
+		0	1	0
+		-0.0337251	0	0.999431
+		-1.43491	0	-0.347634
+	}
+}
+{Volume "select"
+	{Box 56.2001 48.9735 10.2095}
+	{Bone "body"}
+	{Matrix34
+		1	0	0
+		0	0	1
+		0	-1	0
+		2.64561	-0.923459	0
+	}
+}
+{Volume "tail1"
+	{Polyhedron "tail1.vol"}
+	{Bone "tail2"}
+	{Position -20.8001	-24.4816	-6.59449}
+}
+{Volume "tail2"
+	{Polyhedron "tail2.vol"}
+	{Bone "tail1"}
+	{Position -20.8001	24.5483	-6.59449}
+}
+{Extender "preview"
+	{"Stuff"
+		{camera
+			{origin 116.214	34.6202	224.177}
+			{lookat 1.33385	0.94568	4.06008}
+			{fov 16.5929}
+			{horizon -101.61}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 4.23843	10.8797	5.67377}
+			}
+			{"1"
+				{type directional}
+				{direction -0.0793778	-0.317993	-0.377597}
+			}
+			{"2"
+				{type point}
+				{position -4.39621	8.11212	4.88661}
+			}
+		}
+	}
+}

@@ -1,0 +1,8 @@
+{from "30mm_2A42 gun"    ; БМП-3
+	{fireSound "gun/2A72"}
+	{recoveryTime 0.18}
+    {spreading
+		{BurstAccuracy 100 90 80}
+	}	
+	;кучность с поддержкой ствола та же
+}

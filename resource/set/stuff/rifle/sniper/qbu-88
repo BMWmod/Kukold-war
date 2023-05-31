@@ -1,0 +1,44 @@
+;Cold War
+{from "pattern sniper_rifle"
+("scope")
+
+	{tag "sniper reliability_medium"}
+	{filling "ammo 58ammo" 10}
+	{curve "58x42_100"}
+	{preloaded}
+	{mass 4.1}
+	{inventory
+		{size 4 2}
+	}
+	{entity "qbu-88"}
+	{special
+		{mode aim}
+		{PrepareTime 6.0}
+		{PrepareCursor "aimed_shot"}
+		;{damage 1} ; damage *= x
+		{accuracy 1.2} ; aim_range *= x
+		;{throw_off}
+	}
+	("marksman_range")
+	{speed 290}
+	{fireSound "rifle/qbu88"}
+	{reloadSound "chn/qbu88_reload"}
+	{healthDamage 76}
+	{recoveryTime 0.8}
+	{cursor "optic_pso"}
+	{cursorReloading "optic_pso_reload"}
+	("accuracy_optic_sight"  moa(1.5))
+    {parameters "DPB88"                                                 ;Патрон DPB88 снайперский
+		{healthDamage     76}
+		("accuracy_open_sight"  moa(1.5))
+	} 
+    {parameters "DBP10"                                                 ;Патрон DPB10 автоматный
+		{healthDamage     77}
+		("accuracy_open_sight"  moa(2.2))	;штраф к точности за несоответствие шага нареза
+	} 
+    {parameters "DVC12"                                                 ;Патрон DVC12 ББ
+		{healthDamage     79}
+		("accuracy_open_sight"  moa(2))
+	}
+        
+}

@@ -1,0 +1,21 @@
+{from "pattern gun"
+	("100-128caliber")
+;	("CW_acc_artillery" mils(2.85));неизвестна
+    ("CW_acc_artillery" mils(0.57)) ;0.2 от реальной из-за настроек опыта
+	{filling "bullet100_rus_nav" 1}
+	{fireSound "gun/d30_shot"}
+	{reloadSound "tankgun_r03"}
+	{recoveryTime 1}
+	{rechargeTime 1}
+	{Automatic}
+	{range 296 296}
+;	{gravity 7}
+;	("speed" s(800)) 
+	{gravity 1.8}
+	("speed_artillery") 
+	; a - 20, b - 50, c - 80, d -100, e - 120 
+	("damage4" a(1) b(1) c(1) d(1) e(1))
+	{calibre 100}
+	{cursor "cannon_on_fg_4"}
+	{cursorReloading "cannon_reload_fg"}
+}

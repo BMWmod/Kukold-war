@@ -1,0 +1,236 @@
+{tags
+	{"00" "Carry out radio-locational survey"}
+	{"01" "Comrade captain, lieutenant Akimov reporting. L-band radar P-37 is at your disposal."}
+	{"02" "Lieutenant, hat are capabilities of this station?"}
+	{"03" "It will detect low-altitude assault plane at several tens of clicks, F-22 at almost same range. This will give us a few minutes to prepare. But for long-range detection we should be at high ground. If the radar will be moved away from the hill, we won't be able to warn of air strikes."}
+	{"04" "When deployed outside of the hill, radar won't be able to detect enemy aviation early."}
+	{"05" "Comrade captain, radar controls air space again."}
+	{"06" "Comrade captain, radar is destroyed."}
+	{"07" "Comrade captain, sergeant Ermakov reporting. Spotter squad has arrived. We will assist our artillery and aviation."}
+	{"08" "Your soldiers also can adjust fire. To do this, your spotter should have radio station and radio bag in inventory. We have four sets, three more are near radar."}
+	{"09" "How close should you be to target?"}
+	{"10" "We have problems in range detection when using portable optics. When using radio only, spotter should be about two clicks from target. Artillery fire will not be perfect, and assault planes will receive only approximate coordinates."}
+	{"100" "The last SPH \"Paladin\" has been destroyed. They have no towed artillery, so we do not expect more artillery barrage."}
+	{"101" "Enemy attack in:"}
+	{"102" "Damn, they attacked earlier!"}
+	{"103" "Yeah, we've walloped those choppers. Bye-bye, Apaches."}
+	{"104" "AGS-30"}
+	{"105" "That's all, they shouldn't have more MLRS here."}
+	{"106" "Reckon reports that they hadn't large number of TUSKs. One platoon is burning out and they still don't control the villiage. I think they won't send more."}
+	{"107" "USA 1st Armoured Division losses percentage: %1%"}
+	{"108" "Doronin, this is Fomin. Helicopter is ready, awaiting instructions."}
+	{"109" "Pankratov! Do you copy?"}
+	{"11" "That's why we use laser target designators. Rather bulky, you can't crawl with it. But it can mark any point target at 7-8 clicks. Designator increases accuracy of artillery fire and marks specific target for assault plane. Targeting system \"Klen\" of our Su-25 can use external guidance, so pilots won't miss."}
+	{"110" "Sorokin? Stas, is that you?"}
+	{"111" "At your service. Well, I was searching you. I've heard in HQ that somebody had burned ten Abramses. Of course, who else could it be except good old Pankratov. So, you survived after Kiev, but the rest of your platoon didn't returned that time?"}
+	{"112" "Yes, they've caught us from ambush. There was a tank platoon, they called assault planes, then attacked by themselves. That was hard, Vanya and that yakut were burned almost instantly, and Karpov was cut off on the left flank. I've ordered him to retreat, but it seems he wasn't lucky. And I found Doronin and his squad. Well, we've fought together at first day, and we're going to do it once again. But what about you? that's not yours T-72."}
+	{"113" "You like it, right? Newly-built T-90 with Shtora. Saved me yesterday, TOW just can't lock target, not less than dozen have missed."}
+	{"114" "You like it, right? A very rare thing, T-80UM1 \"Bars\"! You'll have the same for your ten tank kills. It's equipped by active defence system  \"Arena\", Very good against RPG, just explodes it afar from armour."}
+	{"115" "Radar post reporting, enemy aircraft detected. Speed 500, altitude 300. Probably, assault planes. Group target."}
+	{"116" "Radar post reporting, enemy aircraft detected. Speed 500, altitude 300. Probably, assault plane. Single target."}
+	{"117" "Radar post reporting, enemy aircraft detected. Speed 250, altitude 50, Large RCS. Probably, group of assault helicopters."}
+	{"118" "Radar post reporting, enemy aircraft detected. Speed 250, altitude 50, Large RCS. Probably, single assault helicopter."}
+	{"119" "Radar post reporting, enemy aircraft detected. Speed 1400, altitude 15000. Signal is weak, tracking unreliable. Probably, a pair of F-22."}
+	{"12" "June 3, 2016 ã., 06:00. Villiage Davydovka, several kilometres east from Poltava. Doronin's squad with 10 tank division are preparing defence line. Diversants are returning by helicopter with captured plans of enemy attack."}
+	{"120" "Radar post reporting, enemy aircraft detected. Speed 1400, altitude 15000. Signal is weak, tracking unreliable. Probably, a single F-22."}
+	{"121" "Radar post reporting, enemy aircraft detected. Speed 180, altitude 10000. Signal is weak, tracking unreliable. Probably, a group of UAVs."}
+	{"122" "Radar post reporting, enemy aircraft detected. Speed 180, altitude 10000. Signal is weak, tracking unreliable. Probably, a single UAV."}
+	{"123" "HQ, this is Doronin. Comrade general, we're being wiped out. I see multiple AT helicopters and assault planes, supported with fighters and recon. We can't regroup, our armour suffers heavy losses. We need air support."}
+	{"124" "Hold the second line, or first if possible. S-300 and fighters will cover you."}
+	{"125" "Take-off"}
+	{"126" "Let's go!"}
+	{"127" "Got him!"}
+	{"128" "Burn!"}
+	{"129" "Blown him up!"}
+	{"13" "Warning, single F-22 detected, heading south-east to the left flank."}
+	{"130" "Burst, skunk!"}
+	{"131" "Minus one."}
+	{"132" "Yes!"}
+	{"133" "Hit him!"}
+	{"134" "One less!"}
+	{"135" "Warning! The enemy has broken through your positions. Hold the line!"}
+	{"136" "The enemy has broken through."}
+	{"137" "The enemy has taken a part of defence line, retake it!"}
+	{"138" "The enemy has broken through."}
+	{"139" "Mi-17 has crushed."}
+	{"14" "Radar, damn you, are you sleeping? Why do I know about enemy planes only when they are above my head?"}
+	{"140" "Retreat"}
+	{"141" "End mission"}
+	{"142" ""}
+	{"143" ""}
+	{"144" ""}
+	{"145" ""}
+	{"146" "Comrade general, I see large amount of enemy tanks. It seems that yankees are attacking with all reserves they have, I won't be able to hold position with remaining forces only. Waiting for your orders."}
+	{"147" "From Doronin's diary: \"3 june 2016. Here, in Poltava I believed in the victory for the first time. It wasn't the enemy kicked us off our positions, but we've repelled attacks and made them leave the battlefield. We were not sitting ducks but we stroked back with equal force. We shall see how long will yankee be able to fight peer to peer. Will they stand a fair fight?\""}
+	{"148" "To refuel helicopter it's not enough just to fill fuel tank of landed heli. It is necessary to guide flying heli on low (1-2 meters) altitude using direct control and in this moment save the game. Then load saved game - and you'll be able to properly refuel immobile helicopter."}
+	{"149" "Low fuel. I should return to base."}
+	{"15" "Attention to all squad leaders! Enemy spotter has been detected. Change positions of armoured vehicles after each attack."}
+	{"150" "Fomin! Tell me, what can do your flying fish? What weapons, what preferable targets? I remember an old film, but, you know, that's just a film, and we are not in the cinema."}
+	{"151" "Flying fish? Maybe for infantry, but for me it's a falcon! Hawk. Or, maybe, eagle. A very capable antitank bird."}
+	{"152" "Antitank, huh? Yup, saw Mi-24 working ATGMs about ten days ago. Near Rowno, as I remember. So, it shoots on five-six clicks, right?"}
+	{"153" "Even on eight. But you saw not like mine. Mi-24 are carrying Ataka-V, and I have Vikhr. Good missile, powerful and fast, able to break through meter of steel. Unfortunately, production has stopped about five years ago."}
+	{"154" "And how much of them you have?"}
+	{"155" "Only dozen under wings. Eight more are in ammo boxes."}
+	{"156" "Dozen under wings, eight in ammo boxes. And four more I've spent at Kiev."}
+	{"157" "That's too few. Well, and nothing antitank more?"}
+	{"158" "I also have unguided rockets. But it's against soft targets, even not very effective against IFV. And 30-mm gun."}
+	{"159" "And what about gun?"}
+	{"16" "Comrade captain, yankees use satellite-guided munitions and transmit coordinates of detected vehicles to the artillery and air forces. A spotter detects the target, transmits coordinates to HQ, then detected targets will be attacked by aviation or artillery."}
+	{"160" "With gun I can penetrate IFV \"Bradly\". I can pierce turret roof of \"Abrams\", or turret rear, and it's ammo storage will blow up. But for this, I need to get rather close. And I am to do that, because we're low on ATGMs."}
+	{"161" "After all, is there reall nowhere to get those Vichres? What about the others Ka-50?"}
+	{"162" "Nowhere, Vasliy. I'll shoot the last pack and thenn will go to Mi-24, perhaps. And I'll take my bird to Komsomolsk-on-Amur to be refitted for Ataka use."}
+	{"163" "I can't join diversants, I have an order to pull back on position to the east of Poltava."}
+	{"164" "Inflict severe losses to 1st Armoured Division and stop it on Poltava's western outskirts."}
+	{"165" "T-80U"}
+	{"166" "KORD"}
+	{"167" "Heavy machine gun"}
+	{"168" "Mortar"}
+	{"169" "ZSU-23-4 \"Shilka\""}
+	{"17" "But artillery will strike in designated coordinates, so if we'll move away vehicles spotted by the enemy, then artillery will hit empty trenches. And yankees won't mark captured armour as targets, that's why captured vehicles can be useful."}
+	{"170" "Anti-air"}
+	{"171" "ZRPK \"Tunguska\""}
+	{"172" "ZU-23-2"}
+	{"173" "Support"}
+	{"174" "Ar and artillery support"}
+	{"175" "Move battery"}
+	{"176" "SPH \"Msta-S\" battery will move to designated location."}
+	{"177" "Affirmative, changing position."}
+	{"178" "Fire"}
+	{"179" "Bombard designated position with \"Msta-S\" battery"}
+	{"18" "F-22 can carry a pair of GBU bombs, they are also satellite-guided. But beware of assault planes - A-10C can search targets by himself, they won't waste bombs on dirt. And they're heavy, be sure. It,s better to shoot them down from afar. "}
+	{"180" "Got it, returning to base."}
+	{"181" "Low fuel, returning to base."}
+	{"182" "Su-57 AA"}
+	{"183" "Stealth fighter Su-57, with AA missiles (6 RVV-AE and 2 RVV-MD)"}
+	{"184" "Su-25 strike"}
+	{"185" "Assault plane Su-25SM, strike payload (2 ODAB-500, 4 Kh-25ML, ECM)"}
+	{"186" "I see laser mark. Attacking designated target!"}
+	{"187" "Su-57 bomber"}
+	{"188" "Stealth fighter Su-57, with guided bombs (4 KAB-250 and 2 RVV-MD)"}
+	{"189" "Su-25 antitank"}
+	{"19" "All armoured squad leaders - mask your vehicles whenever possible. Netting should not block entrance to the trench it covers - we are going to move a lot. Supply - prepare fuel and nettings if you still need your heads. Anti-air - free fire. Attack F-22 after flyby, the others - at any possibility."}
+	{"190" "Assault plane Su-25SM, antitank payload (4 RBK-500 SPBE, 2 S-25LD, 2 GSh-23-2)"}
+	{"191" "Su-25 support"}
+	{"192" "Assault plane Su-25SM, antitank payload (2 RBK-250, 2 Kh-25ML, 2 FAB-250, 2 unguided missile blocks B8B20)"}
+	{"193" "Su-25 mine dispensers"}
+	{"194" "Assault plane Su-25SM, mine dispensers (8 KMGU-2 with AP and AT mines)"}
+	{"195" "Su-25 precise strike"}
+	{"196" "Assault plane Su-25SM, precise strike payload (2 Kh-25Ml, 6 S-25LD)"}
+	{"197" "Kharkov airport reporting. Lads, we have only four prepared assault planes. Be careful with this birds, OK?"}
+	{"198" "Kharkov airport reporting. The last assault plane is taking off. Hold on, men."}
+	{"199" "Kharkov airport reporting. We've lost two \"Gorynich\" from four. We have two, and HQ can't provide more."}
+	{"20" "Radar reckon - wake up! Report about any air activity immediately. Artillery - you're in charge for counter-battery fire. Communications squad - ensure stable link with Kharkov airfield and SAM division."}
+	{"200" "Kharkov airport reporting. Sending last Su-57."}
+	{"201" "Laser designator-rangefinder"}
+	{"202" "Marks targets for Su-25, increases accuracy of artillery barrage"}
+	{"203" "So, the time for full-scale counter-attack has come. I am sending main forces of 10th tank division. Yankees are exhausted, if we strike hard - they will run. Forwards!"}
+	{"204" "Comrade general, captain Gromov reporting, 51 VDV brigade. First Cavalry is beaten, my group has broken through and in 2-3 minutes will cut off main forces of your opponents too."}
+	{"205" "Got it, captain. To all squads of 10th tank division - there will be our paratroopers behind enemy lines. Maintain full concentration, recognise targets before shot. Paratroopers will be on BMDs and Nonas."}
+	{"206" "Comrade captain, yankees transmit this on our frequency in open: \"Do not shoot, we are surrender\"!"}
+	{"207" "Victory"}
+	{"208" "Skip tank battle and complete mission"}
+	{"209" "From Doronin's diary: \"4 June 2016. That's was like Kursk battle, I think. Wrecked metal, shellholes. Burned grass. Not plowed field with sprouts but black roasted land. Damaged Bradleys are still burning, after fire theirs hulls turn into a bunch of steel parts and a lump of melt and solidified aluminium alloy.  \"Abrams\"' fuel tanks are tearing fron hits in lower glacis. Remains of crew in exploded T-80 were taken out even not in one piece. The smell of singed meat is everywhere. I saw one American charger, he was lucky to be thrown out of the hatch, all others of his crew were dead. Our paratrooper shot a burst near his eat - get up, man, go with others. But he didn't even flinched or closed his eyes from flash, just was sitting on his knees. I think I should have a drink with Fomin.\""}
+	{"21" "To set the mask-net, put it in the inventory of the unit you want to mask and use \"mask \" action from \"action\" sub-menu."}
+	{"210" "HQ is captured, the defence is breached"}
+	{"22" "All unit commanders - receive the latest intelligence on quantitative and qualitative composition of enemy forces."}
+	{ "23" "Comrade Captain, the data is received."}
+	{"24" "\"Railway bridge on the line Kyiv-Poltava was destroyed. Enemy have difficulties with supply, and some reinforcements won't arrive in time...\""}
+	{"25" "See, Grishchenko, you're already in front-line summary. what's next?"}
+	{"26" "\"...As a result of sabotage enemy has suffered losses in the rolling stock and transported military equipment...\""}
+	{"27" "\"...As a result of bold and decisive actions of our scouts the commander of the 1st Armoured Division, US General Pittard was killed...\""}
+	{"28" "Eagles, nothing to say. Let's see if the new command of the division will be able to enter the state of affairs for half a day. In any case, they do not cancel the operation, but they clearly will have some trouble with troops management."}
+	{"29" "\"...Eagles, nothing to say. Let's see if the new command of the division will be able to enter the state of affairs for half a day. In any case, they do not cancel the operation, but the delay in the management of troops they clearly are....\""}
+	{"30" "Eagles, nothing to say. Let's see if the new command of the division will be able to enter the state of affairs for half a day. In any case, they did not cancel the operation and its plan will not change seriously. Palmer has talked about some changes in the plan which were not reflected in the files."}
+	{"31" "In particular, we now know about the presence of UAV wing, they will use it to adjust artillery and air strikes."}
+	{"32" "\"...Saboteurs have captured the banner of 1 US Tank Division, this will show to the enemy - there is no safe place for invaders...\""}
+	{"33" "\"...Saboteurs managed to destroy two MLRS launchers equipped by tactical missiles ATACMS...\""}
+	{"34" "ATACMS has anti-personnel warhead. It is ineffective against armoured vehicles, but we have SAMs, aircraft, tankers, and most importantly - the radar. If I were yankee, the first target for that missile would be our radar, and now they will have to peck it by aircraft. A thankless task while S-300 is at hand."}
+	{"35" "Enemy approaches, approximately in"}
+	{"36" "Captain Doronin is dead."}
+	{"37" "Radioman Grishenko is dead."}
+	{"38" "General Tretyak is dead."}
+	{"39" "Captain Doronin, general Tretyak and radioman Grishenko should survive."}
+	{"40" "Only the pilot of the Ka-50 captain Victor Fomin can control this helicopter."}
+	{"41" "Who is there in my birdie? Get out, now!"}
+	{"42" "Prepare defensive positions"}
+	{"43" "\"...Saboteurs managed to destroy MLRS launcher equipped by tactical missiles ATACMS...\""}
+	{"44" "Sniper team"}
+	{"45" "Sniper with KSVK and sniper assistant with VSS."}
+	{"46" "Doronin's reinforcements"}
+	{"47" "This troops will be under Doronin's command"}
+	{"48" "Allied reinforcements"}
+	{"49" "This troops will be under command of other officers"}
+	{"50" "Back"}
+	{"51" "Tank crew"}
+	{"51a" "Engineers"}
+	{"52" "Tank crew are able to use heavy vehicles"}
+	{"52a" "Engineers can repair any vehicle"}
+	{"53" "Flamethrowers"}
+	{"54" "Flamethrowers are armed by reactive flamethrowers \"Shmel\"."}
+	{"55" "Motorized infantry"}
+	{"56" "Bazookers are armed by RPG-7."}
+	{"57" "6 riflemen, 2 of them with GP-25, 1 bazooker, 1 machine-gunner"}
+	{"58" "Assault squad"}
+	{"59" "5 riflemen, 3 of them with GP-25, bazooker, machine-gunner, sniper"}
+	{"60" "Specnaz squad"}
+	{"61" "5 riflemen and 1 machine-gunner, have RPG-18"}
+	{"62" "Bazookers"}
+	{"63" "Vehicles"}
+	{"64" "Doronin's vehicles"}
+	{"65" "Allied vehicles"}
+	{"66" "Allied vehicles"}
+	{"67" "Other reinforcements"}
+	{"68" "Supply troops"}
+	{"69" "T-72B"}
+	{"70" "Main battle tank"}
+	{"71" "T-72A"}
+	{"72" "BTR-80A"}
+	{"73" "BTR"}
+	{"74" "BTR-80"}
+	{"75" "BMP-1"}
+	{"76" "BMP"}
+	{"77" "BMP-2"}
+	{"78" "ATGM Konkurs"}
+	{"79" "Mobile ATGM"}
+	{"80" "ZU-23-2 on Ural"}
+	{"81" "mounted grenade launcher"}
+	{"82" "Mobile AA gun"}
+	{"83" "Artillery Ural"}
+	{"84" "Ammo for heavy vehicles"}
+	{"85" "Truck with ammunition"}
+	{"86" "Ammo for hand weapons"}
+	{"87" "Fuel truck"}
+	{"88" "Fuel for vehicles"}
+	{"89" "Grads"}
+	{"90" "Grads will end anti-artillery barrage and enter the battlefield"}
+	{"91" "ATACMS has anti-personnel warhead. It is ineffective against armoured vehicles, but we have SAMs, aircraft, tankers, and most importantly - the radar. If I were yankee, the first target for that missile would be our radar. Unfortunately, the second launcher is intact, it can cause problems to us."}
+	{"92" "\"...According to the staff, enemy losses in manpower and vehicles account for more than 35 per cent, however, our troops have suffered damage too\""}
+	{"93" "\"...According to the staff, enemy losses in manpower and vehicles account for more than 25 per cent, however, our troops have suffered damage too\""}
+	{"94" "\"...According to the staff, enemy losses in manpower and vehicles account about 20 per cent, however, our troops have suffered damage too\""}
+	{"95" "Okay, all clear. Soldiers! You all know their tasks, everyone trained, armed. We are being attacked by a whole armoured division, supported by artillery and aviation. But this is not Iraq, not Yugoslavia, not Korea or Vietnam. The enemy is faced not by bunch of guerrillas, , we also have armoured division, artillery and aircraft behind our backs."}
+	{"96" "Today insolent invaders are faced by army of the superpower. Remember - our goal in this war is not political game, not oil or gas, not achieving a local advantage over the United States. We were attacked, attacked cowardly and suddenly. Therefore, our goal is the same as eighty years ago, in '41 - to destroy the aggressor as a state. We will start beat him today, here, in this field. Captain Doronin, out."}
+	{"97" "Burns, vulture. It seems like there is no assault plane should remain in 1st armoured. If they don't move more from somewhere - we won't see \"Warthogs\" today any more."}
+	{"98" "Eighth already burning. A bonfire of \"Raptors\" on a billion dollars. This should discourage them out of here once and for all."}
+	{"99" "Comrade Captain, the headquarters gave: all transmissions from control satellites to drones were stopped. It seems that all the \"Reapers \" were shot down."}
+	{"briefing1" "Well, Captain, listen. My experts are digging in the plan your eagles have mined."}
+	{"briefing2" ""}
+	{"date" "June 3, 2016, 11:00"}
+	{"dopros1" "So, you have some other information? In addition to the overall plan of the operation from your headquarters?"}
+	{"dopros2" "Why do you care? Here are two elite divisions of the US Army in front of you. My division was in Tunisia and Italy, fought in Iraq twice ..."}
+	{"dopros3" "Well, bring him in sense"}
+	{"dopros4" "My division liberated Orel and Lvov, fought in Poland and Germany, took Berlin. The end of this war I 'll meet in Washington. As for you, if you have nothing more to say, I'll just shoot you right now. Last chance - will you talk?"}
+	{"dopros5" "Ok... don't shoot, you've won... we were reinforced by squadron of Reapers. They will start the attack and will adjust artillery fire. That's all, I swear!"}
+	{"dopros6" "Bring him away."}
+	{"name" "Payoff"}
+	{"name_big" "Payoff"}
+	{"outro_completed" "Most of the US First Armored Division has surrendered or destroyed. US First Cavalry Division is broken. Mission complete."}
+	{"outro_failed" "Squads of the first armored and cavalry divisions broke through the defense of Russian troops. Mission failed."}
+	{"place" "Villiage Davydovka, 8 km to the east from Poltava"}
+	{"task_kill_a-10" "A-10C wing is destroyed"}
+	{"task_kill_apaches" "AH-64 Apache wing is destroyed"}
+	{"task_kill_f-22" "F-22 are destroyed"}
+	{"task_kill_mlrs" "MLRS launchers are destroyed"}
+	{"task_kill_paladin" "Two batteries of M109A6 Paladin are destroyed"}
+	{"task_kill_reaper" "All UAVs MQ-9 Reaper are destroyed"}
+	{"task_kill_tusk" "All M1A2 TUSK tanks are destroyed"}
+}

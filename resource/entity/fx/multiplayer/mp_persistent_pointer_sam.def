@@ -1,0 +1,4 @@
+{fx
+	(include "mp_persistent_pointer.inc")
+	("mp_persistent_pointer" id(sam))
+}

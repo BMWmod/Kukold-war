@@ -1,0 +1,13 @@
+{from "pattern apcr"
+	{tag "big" "size2" "med_apcr" "pierce" "fx_45_89" "fx_ap"}
+	{inventory
+		{size 4 1}
+	}	
+	{mass 11.42}
+	{entity "shell_rus_apcr_85"}
+	{view "fg_fly"}
+	{trace
+		{view "/texture/fx/trace" {ScaleY 0.2}}
+		{length 2}
+	}
+}

@@ -1,0 +1,6 @@
+{material simple
+	{diffuse "$/model/ural-XXXX/ural_kabina"}
+	{blend none}
+}
+
+

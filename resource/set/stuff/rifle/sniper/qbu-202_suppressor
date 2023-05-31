@@ -1,0 +1,7 @@
+;Cold War
+{from "qbu-202"
+	{entity "qbu-202_suppressor"}
+	{fireSound "rifle/vintorez/"}
+	("bolt_range_custom" k(1.1))
+	{tag "sd"}
+}

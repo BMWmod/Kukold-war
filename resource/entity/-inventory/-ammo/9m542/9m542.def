@@ -1,0 +1,17 @@
+{game_entity
+	(include "/properties/stuff_small.ext")
+	{collider "ammo"}
+	{Volume "body"
+		{thickness 4}
+		{able {touch} {bullet} {blast}}
+	}
+	(include "/properties/shadow/round.inc")
+	{props "steel" "explosive_stuff"}
+	{constrain none}
+	{fogable never}
+	{lodclass "stuff_small"}
+	{extender "stuff"
+		{item "smerch tornado_s phl03 ammo 9m542"}
+	}
+	{Extension "9k55_ammo.mdl"}
+}

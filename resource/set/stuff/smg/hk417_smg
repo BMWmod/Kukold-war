@@ -1,0 +1,28 @@
+{from "pattern smg"
+	{tag "reliability_medium"}
+	{filling "ammo 762x51_x20" 20} ;7,62
+	{curve "762x51nato_70"}
+	{mass 4.5} 
+	{entity "hk417_smg"}
+	{fireSound	"smg/hk417_fire"}
+	{reloadSound "hk417_reload"}
+	{speed 280}
+	{recoveryTime 0.10} ;600
+        {rechargeTime 2.5}
+
+	("smg_range")
+	
+
+	{cursor "m16a4"}
+	{cursorReloading "cannon_reload_all"}
+	{burst
+		{short 2 1}
+		{long 6 2}
+{rangeKoef 0.444}
+	}
+	{healthDamage 99}
+	("holo")
+("accuracy_collimator"  moa(1.5))
+	("accuracy_collimator_70"  moa(1.5))
+	;Правка от 20.08.2016 TOMCAT M.D. https://www.youtube.com/watch?v=cC_iPEAu7KE (Редакция Timosh)
+}

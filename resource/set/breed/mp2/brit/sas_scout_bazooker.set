@@ -1,0 +1,24 @@
+{breed
+	{skin "cw_gb_sas_nobelt"}
+	{portrait "_new/uk/sas"}
+	{icon brit_smg}
+	{icon_priority 0}
+	{nationality eng}
+	{armors
+		{head opscore_sas}
+	}
+
+	(include "perks_generic.inc")
+	("traits_scout")
+	{inventory
+		{item "lbt6094_sas_rpg_a"}
+		{item "l119a2_silenced" filling "556nato ammo" 30}
+		{item "m72a4law weapon" 2 filling "m72a4 ammo" 1}
+		{item "smoke_gb grenade" 2}
+		{item "bandage" 10}
+		{item "c4_bomb" 1}
+		{item "556nato ammo" 300}
+		{item "l109a1 grenade" 2}
+		{in_hands 1}
+	}
+}

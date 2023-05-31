@@ -1,0 +1,110 @@
+;Exported by: Timosh
+;Date:        Fri Jun 24 12:13:11 2022
+;File:        G:\?????? ? Pheonix\??????????????\??????\?????? ? ???????\???\usa_cottage_1st_2 final 1.max
+{Skeleton
+	{bone "usa_cottage1st_2c6"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "usa_cottage1st_2c6.ply"}
+		{bone "exterior"
+			{Position 6.29333	-6.25667	75.737}
+			{VolumeView "exterior.ply"}
+		}
+		{bone "window1"
+			{Matrix34
+				0	1	0
+				-1	0	0
+				0	0	1
+				-4.03343	15.6624	30.5917
+			}
+			{VolumeView "window1.ply"}
+		}
+		{bone "attach1"
+			{Matrix34
+				0	1	0
+				-1	0	0
+				0	0	1
+				-4.29971	3.25231	0
+			}
+		}
+		{bone "window1_x"
+			{Matrix34
+				0	1	0
+				-1	0	0
+				0	0	1
+				-4.03343	15.6624	30.5917
+			}
+			{VolumeView "window1_x.ply"}
+		}
+	}
+}
+{Obstacle "body1"
+	{Obb2
+		{Center 5.11135 -15.4423}
+		{Extent 36.1531 2.65693}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body" "fire"}
+}
+{Area "interior"
+	{Obb2
+		{Center 7.81567 9.32867}
+		{Extent 44.7587 23.2682}
+		{Axis -1 0}
+	}
+	{Rotate}
+}
+{Volume "body1"
+	{Box 5.31379 72.3063 44.1588}
+	{Bone "usa_cottage1st_2c6"}
+	{Matrix34
+		0	1	0
+		-0.999999	0	0
+		0	0	1.1741
+		5.11135	15.4423	25.9234
+	}
+}
+{Volume "hole1"
+	{Box 15.6288 13.7795 15.9475}
+	{Bone "window1"}
+	{Matrix34
+		0	-1	0
+		1	0	0
+		0	0	1
+		-0.000137329	0	6.24657e-05
+	}
+}
+{Volume "roof1"
+	{Polyhedron "roof1.vol"}
+	{Bone "exterior"}
+	{Matrix34
+		1	0	0
+		0	0.683008	-0.730411
+		0	0.730411	0.683008
+		5.27093	15.1289	-13.1267
+	}
+}
+{Volume "roof2"
+	{Polyhedron "roof2.vol"}
+	{Bone "exterior"}
+	{Matrix34
+		0.746178	-0.449853	0.490765
+		0.374693	0.893101	0.248952
+		-0.550294	-0.00187626	0.834969
+		-10.6863	-8.57848	0.259895
+	}
+}
+{Volume "window1"
+	{Box 15.6288 1.49892 15.9475}
+	{Bone "window1"}
+	{Matrix34
+		0	-1	0
+		1	0	0
+		0	0	1
+		-0.000137329	0	6.24657e-05
+	}
+}

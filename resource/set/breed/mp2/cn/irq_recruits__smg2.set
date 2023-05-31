@@ -1,0 +1,22 @@
+{breed
+	{skin "cw_irq_inf3"}
+	{portrait "_new/irq/inf"}
+	{icon smgs}
+	{icon_priority 0}
+	{nationality arb}
+	{armors
+		{head m80_helmet}
+	}
+	
+        (include "perks_generic.inc")
+	("traits_army_smg")
+	{inventory
+		{item "poyas_a_irq"}
+		{item "bandage" 10}
+		{item "knife_rus"}
+		{item "rkg3" 3}
+		{item "g3a3" filling "762x51_x20 ammo" 20}
+		{item "762x51_x20 ammo" 200}
+		{in_hands 4}
+	}
+}

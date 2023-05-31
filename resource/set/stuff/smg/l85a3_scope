@@ -1,0 +1,7 @@
+;Cold War
+{from "l85a3"
+	{entity "l85a3_scope"}
+	("smg_range_optic")
+	{curve "556_85"}
+	("accuracy_optic_sight"  moa(2.0))
+}

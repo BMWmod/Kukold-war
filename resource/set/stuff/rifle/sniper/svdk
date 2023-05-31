@@ -1,0 +1,35 @@
+;Cold War
+{from "pattern sniper_rifle"
+("scope")
+
+	{tag "sniper reliability_medium"}
+	{filling "ammo svdk_ammo" 10}
+	{curve "762x54rus_100"}
+	{preloaded}
+	{inventory
+		{size 5 2}
+	}
+	{entity "svdk"}
+	{special
+		{mode aim}
+		{PrepareTime 6.0}
+		{PrepareCursor "aimed_shot"}
+		;{damage 1} ; damage *= x
+		{accuracy 1.2} ; aim_range *= x
+		;{throw_off}
+	}
+	("marksman_range")
+	{fireSound	"rifle/svdk_shot"}
+	{reloadSound "chn/ksvk_reload"}
+	{healthDamage 134}
+	{projectileDamageTable {0 13} {20 11} {65 9} {75 7} {80 5}}
+	{projectileDamageThreshold 1}
+	{speed 290}
+	{recoveryTime 0.8}
+	;{cursor "optic_giperon"}
+	;{cursorReloading "optic_giperon_reload"}
+	{cursor "sniper"}
+	{cursorReloading "cannon_reload_all"}
+	("accuracy_optic_sight"  moa(2.02))
+	("accuracy_optic_sight_77"  moa(2.02))
+}

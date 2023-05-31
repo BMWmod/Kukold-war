@@ -1,0 +1,27 @@
+{tags
+   {"date" " Destroy the armed gang blocked in the villiage."}
+   {"name" "Liquidation of a gang"}
+   {"name_big" "Liquidation of a gang"}
+   {"place" "  "}
+   {"outro_completed" "  "}
+   {"outro_failed" " "}
+   {"win" "   "}
+   {"loose" "  "}
+ 
+        {"00" "Take and secure the villiage."}
+	{"01" "Choose dislocation of the task force."}
+	{"02" "Moving from the hill"}
+	{"03" "Kill enemy field commander."}
+		{"attack" "Attack"}
+	{"attack_hint" "Start of attack"}
+
+		{"nap1" "From the fields"}
+	{"nap1_hint" "Squad will appear from the forest near the fields"}
+	{"nap2" "From the warehouse"}
+	{"nap2_hint" "Squad will appear from the forest near the warehouse"}
+	{"nap3" "From the lowland"}
+	{"nap3_hint" "Squad will appear in the lowland"}
+	{"ring" "Encirclement"}
+	{"ring_hint" "Federal troops will encircle the villiage and prepare to attack."}
+
+}

@@ -1,0 +1,35 @@
+;Exported by: Timosh
+;Date:        Fri Jun 24 12:21:08 2022
+;File:        G:\?????? ? Pheonix\??????????????\??????\?????? ? ???????\???\???????????? ??????????? ???????\cottage1 final.max
+{Skeleton
+	{bone "usa_cottage1st_1door"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "usa_cottage1st_1door.ply"}
+		{bone "fix1"
+			{Position 15.2727	-3.20298	16.0646}
+		}
+	}
+}
+{Obstacle "body1"
+	{Obb2
+		{Center 2.51915 -0.0638237}
+		{Extent 9.81476 1.36275}
+		{Axis 0.999391 0.0348818}
+	}
+	{Rotate}
+	{Tags  "body" "fire"}
+}
+{Volume "body1"
+	{Box 2.6569 19.6204 39.3701}
+	{Bone "usa_cottage1st_1door"}
+	{Matrix34
+		-0.0313866	-0.999507	0
+		0.999507	-0.0313866	0
+		0	0	1
+		2.51915	0.0638237	19.685
+	}
+}

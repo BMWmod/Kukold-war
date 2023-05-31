@@ -1,0 +1,5 @@
+{material simple
+	{diffuse "$/model/hmmwv/m1045_setka.tga"}
+	{emitsheat}
+{blend test}
+}

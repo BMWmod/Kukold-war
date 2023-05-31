@@ -1,0 +1,96 @@
+;Exported by: Администратор
+;Date:        Sat Jul 23 18:46:47 2011
+;File:        G:\Работа с Pheonix\Редактирование\Мои модели\ЛЦУ\ЛЦУ США\USA_laser_designator_AN_PEQ-1B 13.max
+{Skeleton
+	{bone "body"
+		{parameters "CommonMesh;ID=pistol;"}
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "body.ply"}
+		{bone "foresight3"
+			{Matrix34
+				1	0	0
+				0	0	-1
+				0	1	0
+				2.10805	0.824905	1.16358
+			}
+		}
+		{bone "handle"
+			{Matrix34
+				1	0	0
+				0	0.999999	-0.00107494
+				0	0.00107494	0.999999
+				-0.961166	1.59042	0.636667
+			}
+		}
+	}
+}
+{Volume "body"
+	{Box 2.69218 4.37994 1.3687}
+	{Bone "body"}
+	{Matrix34
+		1.49343	0	0
+		0	0	-1.49343
+		0	1.49343	0
+		0.43554	1.02203	0.612104
+	}
+}
+{Volume "select"
+	{Box 3.93701 5.90551 1.98819}
+	{Bone "body"}
+	{Matrix34
+		1.49343	0	0
+		0	0	-1.49343
+		0	1.49343	0
+		0.43554	1.10538	0.612104
+	}
+}
+{Extender "preview"
+	{"Stuff_primary"
+		{camera
+			{origin 11.3371	-8.53945	-8.86487}
+			{lookat 5.99742	-4.09454	-3.27233}
+			{fov 45}
+			{horizon 65.3928}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 7.2281	-1.58011	1.94754}
+			}
+			{"1"
+				{type directional}
+				{direction -0.374129	0.13458	0.303176}
+			}
+			{"2"
+				{type point}
+				{position -0.242092	-1.06322	-3.66384}
+			}
+		}
+	}
+	{"Stuff"
+		{camera
+			{origin 5.59612	-4.71304	-5.1965}
+			{lookat 2.12417	-1.8229	-1.56016}
+			{fov 45}
+			{horizon 65.3928}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 2.95319	-0.121223	1.96548}
+			}
+			{"1"
+				{type directional}
+				{direction -0.374129	0.13458	0.303176}
+			}
+			{"2"
+				{type point}
+				{position -2.09831	0.228309	-1.82905}
+			}
+		}
+	}
+}

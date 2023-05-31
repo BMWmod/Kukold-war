@@ -1,0 +1,21 @@
+
+{from "pattern gun"
+{desc "240мм миномет"}
+ {filling "ammo 240mm_Mortar" 1}
+ {fillingVisible "rocket"}
+ {fireSound "gun/2B11"}
+ {reloadSound "msta_reload"}
+ {foresight "foresight"}
+ ("CW_acc_artillery" mils(4.5))
+ ;("relaxationtime" rt(5))
+ {aimRange 250}
+ {maxRange 250}
+ {rechargeTime 5}
+ {gravity 6}
+ {ZeroingAccuracy 0.95 0.9 0.85}
+ {speed 220}
+ {aimtype curved}
+
+		{cursor "cannon_on_fg_5"}
+		{cursorReloading "cannon_reload_fg"}
+}

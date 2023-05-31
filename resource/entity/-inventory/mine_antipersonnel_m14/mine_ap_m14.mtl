@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "mine_ap_m14_co"}
+	{blend none}
+}

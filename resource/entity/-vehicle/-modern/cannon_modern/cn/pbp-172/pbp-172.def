@@ -1,0 +1,147 @@
+{game_entity
+(include "/properties/cannon.ext")
+(include "/properties/shadow/tank.inc"  scale(0.6))
+
+{props "collectable" "vehicle" "cannon" "cannon_small" "truck_mortar" "round_sandbag" "vision_lev01_can"}
+
+{collider "cannon_small"}
+{targetSelector "cannon_rocket"}
+(mod not "mp"
+	{able "emit_on_attack"}
+)
+{patherId "cannon.carried"}
+("cw_armor_mortar")
+	{Volume "part2"
+		{tags "body"}
+		{component "body"}
+	}
+	{Volume "part1"
+		{tags "body"}
+		{component "body"}
+	}
+
+{Volume "select"
+		{able{obstacle 0} {Bullet 0} {Contact 0} {Select 1} {Blast 0} {Overlap 0} {Touch 1} {Contact_ground 0}}
+	}
+
+(define "crew_human"
+	{placer
+		{place "%place"
+			{group "%place"} {linkbone "%bone"} {turnoff {sensor} {shadow}} {openForCrush}
+		}
+	}
+	{boarder
+		{door "emit"}
+		{door "emit1"}
+		{door "emit2"}
+		{door "emit3"}
+		{door "emit4"}
+		{link "emit" "%place" {anm "%animation"} {forward putoff} {reverse puton}}
+		{link "emit1" "%place" {anm "%animation"} {forward putoff} {reverse puton}}
+		{link "emit2" "%place" {anm "%animation"} {forward putoff} {reverse puton}}
+		{link "emit3" "%place" {anm "%animation"} {forward putoff} {reverse puton}}
+		{link "emit4" "%place" {anm "%animation"} {forward putoff} {reverse puton}}
+	}
+)
+
+	("crew_human" place(gunner)		bone(gunner)	door(emit1) animation(gunner))
+	("crew_human" place(commander)	bone(commander)	door(emit2) animation(commander))
+	("crew_human" place(charger)	bone(charger)	door(emit3) animation(charger))
+	("crew_human" place(driver1) bone(driver1) door(emit1) animation(driver1))
+	("crew_human" place(driver2) bone(driver2) door(emit2) animation(driver2))
+	("crew_human" place(driver3) bone(driver3) door(emit3) animation(driver3))
+	{placer
+		{place "gunner" {group "crew"}}
+		{place "commander" {group "crew"}}
+		{place "charger" {group "crew"}}
+		{place "driver1" {visor "commander"}}
+		{place "driver2" {visor "commander"}}
+		{place "driver3" {visor "commander"}}
+	}
+	{boarder
+		{link "driver1" "gunner"}
+		{link "driver2" "commander"}
+		{link "driver3" "charger"}
+	}
+	{boarder
+		{anm "gunner"
+			{forward	{end "pose_m5_gunlayer" 10}}
+		}
+		{anm "commander"
+			{forward	{end "pose_m5_charger" 10}}
+                }
+        {anm "charger"
+			{forward	{end "pose_m5_charger" 10}}
+ 		}
+		{anm "driver1"
+			{forward {end "mortar_driver_r" 10}}
+		}
+		{anm "driver2"
+			{forward {end "mortar_driver_l" 10}}
+                }  
+        {anm "driver3"
+			{forward {end "mortar_driver_r" 10}}
+		}
+	}
+
+{extender "inventory"
+	{box
+		{Size 6 2}
+		{weight 5000}
+		{item "ammo bullet120_cn_m fg" 20}
+		(mod "mp"
+			{item "sandbag_kit2"}
+		)
+	}
+}
+
+{extender "cannon"
+	{animation
+		{switch "close"}
+		{move "mortar_driver_r" "mortar_driver_l" "mortar_driver_r"}
+		{aim "" "" ""}
+		{fire  "" "" "squat_load_mortar"}
+		{reload  "" "" ""}
+	}
+	{move {workers "driver1" "driver2" "driver3"} {obstacle "open"}}
+	{attack {workers "gunner" "commander" "charger"} {obstacle "close"}}
+}
+
+{Chassis "human_carrier"
+	{carrierPlace "driver1" "driver2" "driver3"}
+	{carrierBone  "driver1" "driver2" "driver3"}
+	("loco_carrier")
+}
+
+{Weaponry
+	{place "gun"
+		{Barrels 1}
+		{weapon "120mm_pbp-172" filling "ammo bullet120_cn_m fg" 1}
+		{foresight "foresight1"}
+		{Rotate}
+	}
+}
+;https://defence.pk/pdf/threads/russia-ukraine-war-news-and-developments-part-2.746450/page-53
+;it is said that 1720mm barrel is the same as for Western mortars, but it is equal to 2B11
+;And Type86 shell has almost the same range as 2B11.
+{mass 200}
+{Extension "pbp-172.mdl"}
+	("missile_aimpoint_stansize")
+
+	{sensor 
+		{visor "main" 
+			{vision "cannon_mgun"}
+			{bone "turret"}
+		}
+		{visor "commander"
+			{vision "cannon_crew"}
+			{bone "turret"}
+		}
+	}
+(include "/properties/selection/cannon.inc"  scale(0.7))
+	{bone "basis"
+		{limits}
+	    	{speed 0.01}
+	}
+
+}

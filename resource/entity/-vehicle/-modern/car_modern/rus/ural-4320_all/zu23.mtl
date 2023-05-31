@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/model/zu-23-2/body"}
+	{bump "$/model/zu-23-2/body_bp"}
+	{specular "$/model/zu-23-2/body_sp"}
+	{color "230 230 230 25"}
+	{blend none}
+}

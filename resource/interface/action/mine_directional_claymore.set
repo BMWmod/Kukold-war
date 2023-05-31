@@ -1,0 +1,21 @@
+{action
+	{target ground}
+	{cursor "mine"}
+	{fx "flashred"}
+	{item "antipersonnel_claymore"}
+	{item_in_box}
+	{button "mine_directional"}
+	{ShowCount}
+	{abledrag}
+	{instructions
+		{bind range 1}
+		{disable_action_restart}
+		{take_item}
+		{reserve_hands}
+		{animations "squat_repair_1 squat_repair_2" random loop totaltime 20}
+		{fsm_request "ground-drop"}
+		{unreserve_hands}
+		{install "mine_antipersonnel_claymorei" 0 exact_placement}
+		{fsm_request nocheck "hold-nothing"}
+	}
+}

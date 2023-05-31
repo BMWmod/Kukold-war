@@ -1,0 +1,87 @@
+{from "pattern gun"    
+	;Миномет нарезной, поставил немного поточнее M121
+        ("100-128caliber")
+	{ZeroingAccuracy 0.8 0.6 0.5}
+	{DisableRicochet}
+ 	{aimtype curved}
+	{traceFreq 0}
+	;СКВО 60м (для ср. у Ноны 8м)
+	{filling "bullet120_NATO_mine"}
+	{fireSound "reactive/mortar_m"}
+	{reloadSound "tankgun_r03"}
+	{rechargeTime 6}
+	
+	{gravity 1}
+	("speed" s(820)) 
+	{calibre 120}
+	
+	;{cursor "cannon_on_fg_4"}
+	{cursor "mortar"}
+	{cursorReloading "cannon_reload_fg"}
+		;СКВО 60м (для ср. у Ноны 8м)
+	;https://ndiastorage.blob.core.usgovcloudapi.net/ndia/2005/smallarms/tuesday/trohanowsky.pdf
+	;Кучность ОФ миной - 1,5% от дальности (дымовыми 2%) - это не Вд, а R50
+	;т. е. R50 на 7200 будет 108м, среднее Вб и Вв - 62м, а в mils для арты надо заносить именно Вв
+	;Вв для минометов лишь примерно на 30% больше Вб (см Тюльпан - 1/380 и 1/500), 
+	;так что Вд 80,6 или 1/89, что довольно мало.
+        ;{parameters "sm"
+	;	{range 176 176}		; 7.2 км
+	;	("CW_acc_artillery" mils(10))
+	;	{cursor "cannon_on_sm_0"}
+	;        {cursorReloading "cannon_reload_sm"}
+	;}
+        {parameters "bullet120_GER_mine"
+		{range 176 176}		; 7.2 км - уточнить!
+		("CW_acc_artillery" mils(10))
+		{cursor "mortar"}
+	        {cursorReloading "cannon_reload_fg"}
+	}
+        {parameters "bullet120_GER_mine_l"
+		{range 176 176}		; 7.2 км - уточнить!
+		("CW_acc_artillery" mils(10))
+		{cursor "cannon_on_sm_0"}
+	        {cursorReloading "cannon_reload_sm"}
+	}
+        {parameters "bullet120_FR_mine"
+		{range 181 181}		;8.2 км 
+		("CW_acc_artillery" mils(7))     ;нарезная
+		{cursor "mortar"}
+	        {cursorReloading "cannon_reload_fg"}
+	}
+        {parameters "bullet120_FR_mine_l"
+		{range 181 181}		 ;8.2 км
+		("CW_acc_artillery" mils(7))     ;нарезная
+		{cursor "cannon_on_sm_0"}
+	        {cursorReloading "cannon_reload_sm"}
+	}
+        {parameters "bullet120_FR_mine_rok"
+		{range 222 222}		; 13 км
+		("CW_acc_artillery" mils(7))     ;нарезная актив-реактивная
+		{cursor "mortar"}
+	        {cursorReloading "cannon_reload_fg"}
+	}
+        {parameters "bullet120_FR_mine_h"
+		{range 181 181}		; 8.2 км
+		("CW_acc_artillery" mils(7))     ;нарезная
+		{cursor "mortar"}
+	        {cursorReloading "cannon_reload_fg"}
+	}
+        {parameters "bullet120_USA_mine"
+		{range 176 176}		; 7.2 км
+		("CW_acc_artillery" mils(10))     ;
+		{cursor "mortar"}
+	        {cursorReloading "cannon_reload_fg"}
+	}	              
+        {parameters "bullet120_2b11_mine fg"
+		{range 176 176}          		; 7.2 км 
+		("CW_acc_artillery" mils(10))    ; 
+		{cursor "mortar"}
+	        {cursorReloading "cannon_reload_fg"}
+	}	              
+        {parameters "bullet120_2b11_mine sm"    ;зажигательная 3-з-2
+		{range 173 173}        		; 5.7 км 
+		("CW_acc_artillery" mils(10))    ; 
+		{cursor "mortar"}
+	        {cursorReloading "cannon_reload_fg"}
+	}	              
+}

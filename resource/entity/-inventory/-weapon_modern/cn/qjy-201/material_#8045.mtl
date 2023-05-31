@@ -1,0 +1,7 @@
+{material simple
+	{diffuse "$/model/QJY201/qjy201_diff"}
+	{blend blend}
+}
+
+
+

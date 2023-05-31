@@ -1,0 +1,16 @@
+{game_entity
+	(include "/properties/Projectile_ammo.ext")
+	{extender "stuff"
+		{item "m47dragon_rock ammo"}
+	}
+	{Extension "m47dragon_rock.mdl"}
+}
+
+
+
+
+
+
+
+
+

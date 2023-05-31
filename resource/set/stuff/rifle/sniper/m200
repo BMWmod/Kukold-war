@@ -1,0 +1,36 @@
+{from "pattern sniper_rifle"
+("scope")
+
+	{tag "sniper reliability_high"}
+;	{filling "ammo 762x51_x20" 20} 
+	{filling "ammo 103x77_x5" 5}
+	{curve "_408nato_120"}
+	{mass 12.5} 
+	{entity "m200"}
+	{special
+		{mode aim}
+		{PrepareTime 10.0}
+		{PrepareCursor "aimed_shot"}
+		;{damage 3} ; damage *= x
+		{accuracy 1.2} ; aim_range *= x
+		;{throw_off}
+	}
+
+	{fireSound	"rifle/m200/"}
+	{reloadSound "chn/AS50_reload"}
+	{inventory
+		{size 6 2}
+	}
+	{recoveryTime 1.8}
+	;{cursor "optic_nf moar2"}
+	;{cursorReloading "optic_nf moar2_reload"}
+	{cursor "sniper_ap"}
+	{cursorReloading "cannon_reload_ap"}
+	{rechargeTime 2.5}
+	("hrifle_range")
+	{speed 310}
+        {healthDamage 237}
+        {projectileDamageTable {20 22} {75 19} {100 16} {120 13} {140 6}}
+        ("accuracy_optic_sight"  moa(1.0))     
+        ("accuracy_optic_sight_100"  moa(1.0))     
+}

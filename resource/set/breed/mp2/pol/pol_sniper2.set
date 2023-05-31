@@ -1,0 +1,25 @@
+{breed
+	{skin "cw_poland_tac"}
+	{portrait "_new/pol/inf"}
+	{icon pol_sniper}
+	{icon_priority 1}
+	{tags "sniper2"}
+	{nationality pol}
+	{armors
+		{head pasgt_helmet_pol}
+	}
+
+	(include "perks_generic.inc")
+	("traits_army_sniper")
+	{inventory
+		{item "pol_kwm02_marksman"}
+		{item "bandage" 10}
+		{item "smoke grenade"}
+		{item "rgz-89" 3}
+		{item "smoke grenade"}
+		{item "svds" filling "svd_ammo ammo" 10}
+		{item "svd_ammo ammo" 240}
+		{item "sandbag_kit"}
+		{in_hands 5}
+	}
+}

@@ -1,0 +1,36 @@
+;Cold War
+{from "pattern smg"
+	{tag "reliability_medium"}
+	{filling "ammo 545" 30}
+	{curve "545_70"}
+	{mass 3.8}       
+	{entity "ak105_4"}
+	{fireSound	"chn/Ak74_burst/"}
+	{reloadSound "chn/ak74"}
+	{speed 280}	
+	{inventory
+		{size 3 2 }
+	}
+	{recoveryTime 0.07}
+                          {rechargeTime 2.5}
+
+
+	("smg_range")
+	
+	{burst
+		{short 2 1}
+		{long 6 2}
+{rangeKoef 0.444}
+	}
+	{healthDamage 61}
+	{spreading 1
+		{BurstAccuracy 100 92 90 87 80 73}
+		{SpreadPower	0.6}
+		{SpreadXYRatio	0.5}
+		{SpreadYadjust	0.2}	
+	}
+	("accuracy_open_sight"  moa(3.5)) ;ствол укорочен, но длиннее АКС-74У
+	("accuracy_open_sight_70"  moa(3.5)) ;ствол укорочен, но длиннее АКС-74У
+	{cursor "ak74"}
+	{cursorReloading "cannon_reload_all"}
+}

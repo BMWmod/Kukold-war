@@ -1,0 +1,22 @@
+{from "pattern fg"
+	{tag "big" "size4" "122to128fg" "bullet120_NATO_mine" "120mm_nona" "fx_111_145"}
+	{tag "fg_120_shell"} ; только для ammo.set
+	{mass 18.6}
+	
+	{inventory
+		{size 4 1}
+		{weight 70}
+	}	
+	{entity "bullet120_FR_mine"}
+	{view "bullet120_FR_mine"
+		{tail "tail"}
+	}
+	;PR-14 4.2 кг ВВ TNT, масса мины 31.2 фунта 18,6 кг.
+	{tag "he_2to4_5"}
+{damage blastwave {energy 0.7} {area 11.1 12.8}}
+{damage add blastwave {energy 1.2} {area 9.5 10.9}}
+{damage add blastwave {energy 2.5} {area 5.8 6.7}}
+{damage add blastwave {energy 6.5} {area 3 3.4}}
+{damage add blastwave {energy 11} {area 1 1.1}}
+}
+;

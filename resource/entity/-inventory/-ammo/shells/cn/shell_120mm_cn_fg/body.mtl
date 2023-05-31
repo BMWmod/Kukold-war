@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "he_shell"}
+	{blend none}
+}

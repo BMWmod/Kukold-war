@@ -1,0 +1,26 @@
+{from "pattern gun"
+	("100-128caliber")
+;	("CW_acc_artillery" mils(2.5));неизвестна
+    ("CW_acc_artillery" mils(0.5)) ;0.2 от реальной из-за настроек опыта
+	{filling "bullet127_USA" 10}
+	{fireSound "gun/d30_shot"}
+	{reloadSound "tankgun_r03"}
+	{recoveryTime 4}
+	{rechargeTime 5}
+	{range 310 310}
+;	{gravity 7}
+;	("speed" s(800)) 
+	{gravity 1.8}
+	("speed_artillery") 
+	; a - 20, b - 50, c - 80, d -100, e - 120 
+	("damage4" a(1) b(1) c(1) d(1) e(1))
+	{calibre 127}
+	{cursor "cannon_on_fg_4"}
+	{cursorReloading "cannon_reload_fg"}
+	{parameters "rok"
+		("accuracy_3" r1(7) r2(7) r3(7) r4(7))	;наведение по GPS, КВО около 15м
+		{range 390 390}
+	{cursor "cannon_on_heat_7"}
+	{cursorReloading "cannon_reload_heat"}
+	}
+}

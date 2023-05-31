@@ -1,0 +1,99 @@
+{Entity
+	(include "/properties/armoredcar.ext")
+	(include "/properties/shadow/tank.inc"  scale(1.0))
+	(include "/properties/selection/vehicle.inc"  scale(1.0))
+	{props "vehicle" "tank" "armored_car_M" "turret" "wheeled" "with_gun" "vision_lev03" "8_wheels" "remote_gun" "Shtora" "laser_spo" "6_barrels_smoke"}
+	{extension "crew.ext"}
+	("armor_btr" turret(19 16 16 8) body(18 18 18 10))
+	{Extension "kto_rosomak.mdl"}
+	{extender "inventory"
+		{box
+			{item "ammo mk30abm apcr" 160}
+			{item "ammo mk30abm_fg fg" 280}
+			{item "ammo 762Nato" 600}
+			{item "rpg7 weapon" 1}
+	  		 {item "rpg26 weapon" 4 filling "rpg26 ammo" 1}
+			{item "PG-7VR rpg7 ammo" 2}
+			{item "PG-7VL rpg7 ammo" 3}
+		}
+	}
+	{Weaponry
+		{place "gun"
+			{weapon "30mm_mk44" filling "ammo mk30abm_fg fg" 10}
+			{foresight "foresight1"}
+			{gunner "gunner"}
+			{charger "gunner"}
+			{basic}
+			("CW_stab_abm" abm(0.37))	;no data, but naval Mk44 have approx 1 mrad
+			("CW_stab_ldwind_suo")
+		}
+		{place "mgun"
+			{type "mgun_coaxial"}
+			{foresight "foresight3"}
+			{charger "gunner"}
+			{gunner "gunner"}
+			{weapon "ukp_2000_c" filled}
+			{basic}
+			("CW_stab_abm" abm(0.53))
+			("CW_stab_ldwind_suo")
+		}
+		{place "mgun15"			
+			{type "mgun_left"}
+			{weapon "6xsmokegun" filling "smoke_shtora ammo" 6}
+			{gunner "gunner"}
+			{charger "gunner"}
+			{foresight "foresight21"}
+			{barrels 3}
+			;{basic}
+		}
+	}	
+	{sensor
+		{visor "gunner"
+			{vision "tank_gunner_optic_IR_2g"}
+			{bone "Visor1"}
+		}
+		{visor "add"
+			{vision "tank_main-l"}
+			{bone "visor4"}
+		}
+		{visor "commander"
+			{vision "tank_gunner_optic_IR_2g"}
+			{bone "visor3"}
+		}
+		{visor "shtora"				
+			{vision "shtora_visor"}
+			{bone "shtora_visor"}
+		}
+	}
+	("wheel" args "wheelright1")
+	("wheel" args "wheelleft1")
+	("wheel" args "wheelright2")
+	("wheel" args "wheelleft2")
+	("wheel" args "wheelright3")
+	("wheel" args "wheelleft3")
+	("wheel" args "wheelright4")
+	("wheel" args "wheelleft4")
+	
+	{mass 22000}
+
+	{Chassis
+		("car_trace" fx("tracewheel02") step(0.09) wheell("wlf") wheelr("wrf") bonel("FXtraceL1") boner("FXtraceR1"))
+		("car_trace" fx("tracewheel02") step(0.09) wheell("wlr") wheelr("wrr") bonel("FXtraceL2") boner("FXtraceR2"))
+		("CW_wheels"
+			Mass(22.0)
+			Turnradius(12.0)
+			Power(490)
+			Realspeed(100)
+			Gamespeed(55) 
+			Range(800)
+			Fuelvolume(325)
+		)
+	}
+	{props "cwfs_fuel_300"}
+	("CW_amphibia" Waterline(1.9) )
+	("two_headlights")
+	("missile_aimpoint_trucksize")
+
+	("cwts_buksir")
+	("CW_turr_speed" deg_per_s(57))	
+}

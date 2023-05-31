@@ -1,0 +1,22 @@
+{breed
+	{skin "cw_cn_inf"}
+	{portrait "_new/cn/inf"}
+	{icon "bazooker"}
+	{icon_priority 4}
+	{nationality cn}
+	{armors
+		{head "qgf03_glasses"}
+	}
+
+	(include "perks_generic.inc")
+	("traits_army_bazooker")
+	{inventory
+		{item "type06h_help"}
+		{item "hj12e_atgm weapon" filled}
+		{item "ammo red_arrow12_rock" 1}
+		{item "bandage" 5}
+		{item "smoke_cn grenade"}
+		{item "smoke_cn grenade"}
+		{in_hands 1}
+	}
+}

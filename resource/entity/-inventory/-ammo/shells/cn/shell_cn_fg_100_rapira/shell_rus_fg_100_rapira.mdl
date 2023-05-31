@@ -1,0 +1,74 @@
+;Exported by: Maksilin
+;Date:        Sun Oct 25 18:11:14 2015
+;File:        F:\Настройки\Снаряды\РФ\100 мм снаряды РФ к пушке МТ-12 Рапира(Готовы)\ОФ 3ОФ35\3ОФ35.max
+{Skeleton
+	{bone "body"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "body.ply"}
+		{bone "tail"
+			{Position -12.8386	0.0665223	0.0346387}
+		}
+	}
+}
+{Volume "body"
+	{Box 25.2856 2.67204 2.75453}
+	{Bone "body"}
+	{Matrix34
+		-1	0	0
+		0	-1	0
+		0	0	1
+		-0.0577384	-0.0360018	-0.0112468
+	}
+}
+{Volume "select"
+	{Box 25.2856 2.67204 2.75453}
+	{Bone "body"}
+	{Matrix34
+		-1	0	0
+		0	-1	0
+		0	0	1
+		-0.0577384	-0.0360018	-0.0112468
+	}
+}
+{Extender "preview"
+	{"Stuff"
+		{camera
+			{origin 0.108691	-45.926	-0.029118}
+			{lookat 0.097044	-0.173772	-0.0565655}
+			{fov 31.7555}
+			{horizon -0.170174}
+		}
+		{lights
+			{"0"
+				{type directional}
+				{direction -0.0457973	0.45561	-0.200804}
+			}
+			{"1"
+				{type point}
+				{position -21.2181	8.16288	10.5412}
+			}
+			{"2"
+				{type point}
+				{position 19.8482	-0.247608	-5.52419}
+			}
+		}
+	}
+	{"Stuff_primary"
+		{camera
+			{origin 8.82425	-18.2155	-0.000700232}
+			{lookat 8.8126	22.6168	0.0165541}
+			{fov 31.7555}
+			{horizon -0.17132}
+		}
+		{lights
+			{"0"
+				{type directional}
+				{direction -0.0457974	0.45561	-0.200804}
+			}
+		}
+	}
+}

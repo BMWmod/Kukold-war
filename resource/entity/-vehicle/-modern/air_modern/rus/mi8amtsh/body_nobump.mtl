@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "$/model/mi8amtsh/body"}
+	{blend none}
+}

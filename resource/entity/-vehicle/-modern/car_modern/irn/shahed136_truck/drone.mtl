@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "$/model/shahed136/shahed_body"}
+	{blend none}
+}

@@ -1,0 +1,31 @@
+{from "pattern gun"  
+	{tag "gun" "mrl"}
+
+	
+	{filling "C5" 32}
+	{fireSound "reactive/S-8/"}
+	{fireSound "reactive/grad_burst"}
+	{burst {min 8} {noaiming}}
+	{recoveryTime 0.15}
+	{range 185 185}
+	
+	{inventory {noView}}
+	{foresight "foresight1"}
+	{AimingTolerance 0.3}
+	{cursor "cannon_on"}
+	{cursorReloading "cannon_reload"}
+	
+;	{spreading
+;		{SpreadRadius 10}	;Чисто оценочно, т. к. кустарщина.
+;	}
+	{speed 120} 	;оставил, за 1.1с работы двигателя ракета пролетает 300м
+		("CW_acc_artillery" mils(6.6))
+ ;см Б8Б20
+
+	{rechargeTime 50}
+	{gravity 9}
+	{speed 120}
+	{aimtype direct}
+	
+}
+

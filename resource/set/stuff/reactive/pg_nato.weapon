@@ -1,0 +1,64 @@
+﻿;Created by Pheonix 
+{from "pattern bullet"
+
+	{tag "weapon to_hand rifle gra_launch"}
+	{tag "skill_gra_launch"}
+	{tag "assaultrifle"}	;for unique icon
+
+	{mass 1.36}
+	{curve "9x18_15"}
+	{burst
+		{short 1.5 0.5}
+		{long 3.5 0.5}
+	}	
+	
+	{filling "40x46ammo" 1}
+	{fillingVisible "rocket"}
+	{preloaded}
+	{foresight "foresight3"}
+	{fireSound "reactive/grenade_launch"}
+	{reloadSound "GP30_reload"}
+	{foresight "foresight3"}
+	{inventory
+		{size 3 1}
+		{fsm "belt"}
+		{weight 100 }
+		{link_bone ""}
+	}
+	{entity "M203"}
+	{special
+		{PrepareTime 5}
+		{PrepareCursor "grenade"}
+		{mode detonate}
+	}
+	{spreading 
+		{SpreadRadius 1}
+		{SpreadXYRatio	0.5}
+	}
+
+	;{cursor "cannon_on"}
+	{aimRange 50}	;эффективная - 200м
+	{maxRange 80}	;https://topwar.ru/uploads/posts/2015-04/1430270629_gp-25.jpg
+	{rechargeTime 5}	;нужно удалять гильзу
+	{speed 30}
+	{gravity 0.6}
+	{AimingTolerance 0.1}
+	;{aimtype adaptive}
+	;{cursor "cannon_on"}
+	;{cursorReloading "cannon_reload"}
+		("CW_acc_grlaunch" mils(5.25))
+	;неизвестна
+	{ZeroingAccuracy 0.8 0.6 0.5}
+	{cursor "cannon_on_fg_3"}
+	{cursorReloading "cannon_reload_fg"}
+	
+    {parameters "cm"     
+		;{cursor "cannon_on_heat_3"}
+		{cursor "cannon_on_heat_6"}
+		{cursorReloading "cannon_reload_heat"}
+	}	
+    {parameters "40x46ammo l"     
+		{cursor "signal"}
+		{cursorReloading "cannon_reload_all"}
+	}	
+}

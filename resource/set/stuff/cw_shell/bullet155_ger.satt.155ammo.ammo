@@ -1,0 +1,16 @@
+{from "pattern korr"
+	{tag "big" "size4" "155ammo" "150to152fg" "ap" "fx_146_299"}
+	
+	{mass 16}
+	{inventory
+		{size 6 1}
+	}	
+	{entity "shell_frg_satt_155"}
+	{view "shell_frg_satt_155"}
+	;Примерно 2.7кг ВВ, в расчетах брал Composition B (ТЭ 1.33, масса к расчету 2.7кг)
+	{tag "he_2to4_5"}
+{damage blastwave {energy 0.7} {area 8.8 10.1}}
+{damage add blastwave {energy 1.2} {area 7.1 8.2}}
+{damage add blastwave {energy 2.5} {area 3.8 4.4}}
+{damage add blastwave {energy 6.5} {area 0.6 0.7}}
+}

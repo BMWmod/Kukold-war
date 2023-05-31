@@ -1,0 +1,11 @@
+{breed
+	{behaviour soldier}
+	{skin "cw_civilian1_cu"}
+	{portrait "_new/civilian/civilian2"}
+	{icon "civilian"}
+	{icon_priority 0}
+	{nationality eng}
+
+	(include "perks_generic.inc")
+	("traits_civilian")
+}

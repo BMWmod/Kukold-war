@@ -1,0 +1,34 @@
+{breed
+	{behaviour soldier}
+	{hero}
+	{skin "cw_ssoarb_klimov"}
+	{portrait "_new/spec_radio_Klimov"}
+	{icon "smgs"}
+	{icon_priority 0}
+	{nationality rus}
+	{armors
+		{head kufia_head}
+	}
+
+	(include "perks_generic.inc")
+	("traits_elite_smg")
+	{perks
+		{"field_glass"}
+		{"stealth"}
+	}
+	{perks
+		;{fortification}
+		{mechanic factor 0.33}
+	}
+	{inventory
+		{item "lbt6094_rus_smg"}
+		{item "bandage" 10}
+		{item "head_rad"}
+		{item "rus_radio_station"}
+		{item "radio_station_sumka"}
+		{item "rgd grenade" 2}
+		{item "762 ammo" 150}
+		{item "AKM"}
+		{in_hands 7}
+	}
+}

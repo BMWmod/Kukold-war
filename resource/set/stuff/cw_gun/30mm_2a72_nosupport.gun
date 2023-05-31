@@ -1,0 +1,45 @@
+{from "30mm_2A42 gun"    ; BTR80A BTR-82A
+	;кучность без поддержки ствола хуже
+	{fireSound "gun/2A72"}
+	{recoveryTime 0.18}			
+    ("CW_acc_common" mils(0.62))	;с поддержкой ствола - БМП-3.
+	{parameters "fg"
+	("damage4" a(0) b(0) c(4) d(4) e(4))
+		("CW_acc_common" mils(1.12))
+		;{cursor "TKN4_he"}
+		;{cursorReloading "TKN4_he_reload"}
+		;{cursor "cannon_on_fg_2"}
+		{cursor "cannon_on_fg_13"}
+		{cursorReloading "cannon_reload_fg"}
+	}
+    {parameters "bullet30_RUS apcr_cn ap"
+		("CW_small_APCR_damage_WC" penetr_1000m(100))     ; unknown, DTC10
+        ("CW_acc_common" mils(0.71))
+		{cursor "cannon_on_ap_5"}
+		{cursorReloading "cannon_reload_ap"}
+	} 
+    {parameters "bullet30_RUS ap_cn ap"
+		("CW_small_AP_damage" penetr_1000m(56))     ; unknown, assuming DTC04 as AP, not APCR
+        ("CW_acc_common" mils(0.71))
+		{cursor "cannon_on_ap_5"}
+		{cursorReloading "cannon_reload_ap"}
+	} 
+    {parameters "Bullet30_RUS_aph ap"
+		("CW_small_AP_damage" penetr_1000m(38))     ; ЗУБР6
+                          ("CW_acc_common" mils(0.71))
+		;{cursor "TKN4_ap"}
+	             ;{cursorReloading "TKN4_ap_reload"}
+		;{cursor "cannon_on_ap_2"}
+		{cursor "cannon_on_ap_5"}
+		{cursorReloading "cannon_reload_ap"}
+	}           
+    {parameters "Bullet30_RUS_apg ap"
+		("CW_small_APCR_damage_WC" penetr_1000m(100))   ; Mecar M929 
+                          ("CW_acc_common" mils(0.71))
+		;{cursor "TKN4_ap"}
+	             ;{cursorReloading "TKN4_ap_reload"}
+		;{cursor "cannon_on_apcr_2"}
+		{cursor "cannon_on_apcr_3"}
+		{cursorReloading "cannon_reload_apcr"}
+	}   
+}

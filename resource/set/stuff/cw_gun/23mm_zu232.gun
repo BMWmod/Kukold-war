@@ -1,0 +1,45 @@
+{from "pattern gun"	; Zu23-2
+	
+	{filling "bullet23 zenite" 50}
+	{fireSound "gun/shilkaX4_1"}
+	{reloadSound "flak38"}
+	{RecoveryTime 0.05}
+	{RechargeTime 5}
+	{spreading
+		{BurstAccuracy 100 90 80 70}
+	}
+	{burst
+		{min 1}
+		{short 5 1}
+		{long 14 2}
+	}
+	{AimingTolerance 20}
+	{Automatic}
+	{traceFreq 1}
+	{maxRange 130}
+	{aimRange 130}	;дальность предварительного наведени€
+
+	("speed" s(970))
+	("37-57caliber")
+	{speed 230}
+	{RelaxationTime 0}
+;	{cursor "zenite_on"}
+;	{cursorReloading "zenite_reload"}
+	{AimingTolerance 10}
+	{SpreadTolerance 0.3}
+	{calibre 23}
+	{projectileDamage 30}
+;	{projectileDamageTable {10 30} {30 28} {70 26} {90 20} {110 16}}
+    ("damage4" a(0) b(0) c(4) d(4) e(4))
+;	("CW_small_AP_damage" penetr_1000m(5))
+	("CW_acc_common" mils(0.68))
+	("CW_acc_common_100" mils(0.68))
+	;{cursor "cannon_on_fg"}
+	{cursor "cannon_on_fg_13"}
+	{cursorReloading "cannon_reload_fg"}
+	{parameters "bzt"                        
+        ("CW_small_AP_damage" penetr_1000m(24)) ;15мм/60гр./700м - https://militarypribor.ru/ru/products/aacomplecs
+		{cursor "cannon_on_aa_2"}
+		{cursorReloading "cannon_reload_ap"}
+	}                
+}

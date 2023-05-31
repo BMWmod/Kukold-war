@@ -1,0 +1,16 @@
+{actor
+	(include "/properties/stuff_small.ext")
+	{extension "l85a3_scope_ag36gp.mdl"}
+	{extender "stuff"
+		{item "l85a3_scope_ag36gp"}
+	}
+	{nogroupmesh 1}
+}
+
+
+
+
+
+
+
+

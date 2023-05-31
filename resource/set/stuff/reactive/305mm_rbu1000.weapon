@@ -1,0 +1,21 @@
+{weapon_bullet
+	{tag "gun"}
+	("heavy_artillery")
+	{filling "ammo 305mm_rbu" 6}
+	{fireSound "reactive/grad_burst"}
+	{SpreadTolerance 0.5}
+	{Automatic}
+	{recoveryTime 0.5}
+	{Aimrange 130}
+	{Maxrange 120}	;реально 70м - 1 км - но тогда бомбомет будет не в состо€нии прикрыть бќльшую часть борта корабл€
+	
+	{rechargeTime 90}
+	{gravity 8}
+	{speed 50}
+;	{aimtype direct}
+	{aimtype adaptive}
+	("CW_XP_acc_artillery" mils(4));оценочно, 20 с поправкой 0,2 на опыт
+	;CW_XP_acc_artillery - т. к. нет уровней опыта
+	{cursor "cannon_on_fg_5"}
+	{cursorReloading "cannon_reload_fg"}			; s
+}

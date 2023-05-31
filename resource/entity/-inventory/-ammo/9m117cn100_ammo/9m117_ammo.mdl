@@ -1,0 +1,56 @@
+;Exported by: Pheonix
+;Date:        Fri Sep 25 19:21:25 2009
+;File:        D:\Documents and Settings\Pheonix\Мои документы\3dsmax\scenes\MyWorks\Shells\Modern\9m117_bmp3.max
+{Skeleton
+	{bone "9m117"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "9m117.ply"}
+		{bone "tail"
+			{parameters "Voxels=0;"}
+			{Matrix34
+				-1	0	0
+				0	-1	0
+				0	0	1
+				-11.85	0.056714	0.16609
+			}
+		}
+	}
+}
+{Volume "body"
+	{Polyhedron "body.vol"}
+	{Bone "9m117"}
+	{Position 0.350248	-0.021317	-0.578471}
+}
+{Volume "select"
+	{Polyhedron "select.vol"}
+	{Bone "9m117"}
+	{Position 0.155469	-0.156109	-2.34681}
+}
+{Extender "preview"
+	{"Stuff"
+		{camera
+			{origin 0.13993	-4.45958	27.1755}
+			{lookat 0.262604	-1.6695	10.6461}
+			{fov 45}
+			{horizon -177.044}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position -6.61918	-0.163134	2.563}
+			}
+			{"1"
+				{type directional}
+				{direction 0.0489918	0.211181	-0.450558}
+			}
+			{"2"
+				{type point}
+				{position -3.64965	-5.8548	-16.2344}
+			}
+		}
+	}
+}

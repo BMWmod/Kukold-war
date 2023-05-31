@@ -1,0 +1,21 @@
+{from "pattern rpg_weapon"
+	{filling "ammo m72law" 1}
+	{preloaded}
+	{ammoLocked}
+	{inventory
+		{size 4 1}
+	}
+	{maxRange 50}
+	{aimRange 50}
+	{entity "m72law"}
+;	("damage" a(200) b(200) c(200) d(200) e(200))
+	{mass 0.7}
+	{speed 44} ; speed гранаты x1.5 (25.02.21)	
+	{gravity 0.4}
+	{reactive 0}
+	{calibre 5}
+	;{cursor "M72A3"}
+	{cursor "cannon_on_heat_7"}
+	{fireSound "bazooka/m72_fire"}
+	("accuracy_open_rpg"  moa(15.0))
+}

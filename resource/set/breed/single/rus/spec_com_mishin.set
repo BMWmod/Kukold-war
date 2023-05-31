@@ -1,0 +1,32 @@
+{breed
+	{behaviour soldier}
+	{hero}
+	{skin "cw_rus_sso_multicam"}
+	{portrait "_new/spec_com_Mishin"}
+	{icon "officer"}
+	{icon_priority 2}
+	{tags "officer"}
+	{nationality rus}
+	{armors
+		{head lshz1plus_sso_com}
+	}
+
+	(include "perks_generic.inc")
+	("traits_elite_com")
+	{perks
+		{"field_glass"}
+		{"stealth"}
+	}
+	{inventory
+		{item "lbt6094_rus_smg"}
+		{item "standart ammo" 24}
+		{item "knife_rus"}
+		{item "binocular"}
+		{item "makarov" filling "standart ammo" 8}
+		{item "bandage" 5}
+		{item "rgd grenade" 2}
+		{item "AkVal"}
+		{item "vin_ammo ammo" 140}
+		{in_hands 7}
+	}
+}

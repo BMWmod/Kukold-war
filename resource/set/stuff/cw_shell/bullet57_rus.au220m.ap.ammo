@@ -1,0 +1,21 @@
+{from "pattern ap"
+	{tag "size1" "pierce" "big" "autocannon_small" "fx_45_89" "fx_ap"}
+	{mass 6.3}
+	{inventory
+		{size 4 1}
+		{weight 100}
+		{block 1}
+	}	
+	("ap" args 0.25)
+	{entity "shell_rus_bb_57mm"}
+	{trace
+		{view "/texture/fx/trace2"
+			{ScaleY 0.26}
+		}
+		{length 4}
+	}
+	;0,013 кг ВВ 
+		{damage blastwave {energy 0.7} {area 1.9 2.2}}
+		{damage add blastwave {energy 1.2} {area 1.4 1.6}}
+
+}

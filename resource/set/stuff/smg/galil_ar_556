@@ -1,0 +1,32 @@
+;Addon
+{from "pattern smg"
+	{tag "reliability_medium"}
+	{filling "ammo 556Nato" 35} 
+	{curve "556_70"}
+	{mass 3.75} 
+	{entity "galil_ar_556"}
+	{fireSound	"smg/galil_fire"}
+	{reloadSound "chn/AK47_reload"}
+	{speed 280}
+        {inventory
+		{size 4 2 }
+	}
+	
+	{cursor "galil"}
+	{cursorReloading "cannon_reload_all"}
+	{recoveryTime 0.09}
+        {rechargeTime 2.6}
+
+	("smg_range")
+	
+
+	{burst
+		{short 2 1}
+		{long 6 2}
+{rangeKoef 0.444}
+	}
+	{healthDamage 80}
+        ("accuracy_open_sight"  moa(2.0))
+        ("accuracy_open_sight_70"  moa(2.0))
+              
+}

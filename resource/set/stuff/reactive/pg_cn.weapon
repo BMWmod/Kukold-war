@@ -1,0 +1,62 @@
+﻿;Created by Pheonix 
+{from "pattern bullet"
+
+	{tag "weapon rifle gra_launch to_hand"}
+	{tag "skill_gra_launch"}
+	{tag "assaultrifle"}	;for unique icon
+	{mass 1.5}
+	{curve "9x18_15"}
+	{burst
+		{short 1.5 0.5}
+		{long 3.5 0.5}
+	}
+	
+	{filling "ammo cn_pg" 1}
+	{fillingVisible "rocket"}
+	{preloaded}
+	{foresight "foresight3"}
+	{fireSound "reactive/GP25_Shot"}
+	{reloadSound "GP30_reload"}
+	{foresight "foresight3"}
+	{inventory
+		{size 3 1}
+		{fsm "belt"}
+		{weight 100 }
+		{link_bone ""}
+	}
+	{entity "qbz95_qlg91_pod"}
+	{special
+		{PrepareTime 5}
+		{PrepareCursor "grenade"}
+		{mode detonate}
+	}
+	{spreading 
+		{SpreadRadius 1}
+		{SpreadXYRatio	0.5}
+	}
+
+	;{cursor "cannon_on"}
+	{aimRange 50}	;Аналог ГП-25, тоже безгильзовый
+	{maxRange 80}
+	{rechargeTime 3}
+	{speed 25}
+	{gravity 0.6}
+	{AimingTolerance 0.1}
+	;{aimtype adaptive}
+	{cursor "cannon_on"}
+	{cursorReloading "cannon_reload"}
+	;Кучность неизвестна, но скорость гранаты как у ГП-25, так что берем такую же
+	("CW_acc_grlaunch" mils(8.25))
+	{ZeroingAccuracy 0.8 0.6 0.5}
+	{cursor "cannon_on_fg_3"}
+	{cursorReloading "cannon_reload_fg"}
+    {parameters "cm"     
+		;{cursor "cannon_on_heat_3"}
+		{cursor "cannon_on_heat_6"}
+		{cursorReloading "cannon_reload_heat"}
+	}	
+    {parameters "ammo mortar pd l"     
+		{cursor "signal"}
+		{cursorReloading "cannon_reload_all"}
+	}	
+}

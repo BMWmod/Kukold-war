@@ -1,0 +1,24 @@
+{from "pattern mgun"
+	{tag "reliability_high link_mmg"}
+	{filling "ammo PKM_ammo" 100}
+	{curve "762x54rus_85"}
+    
+	{entity "PKM"}
+	{fireSound	"mgun/pkm/"}
+	{reloadSound "mgun_reload/pkm_reload"}
+	{spreading 1.5}
+	{mass 7.5}
+	{inventory
+		{size 5 2 }
+		{link_bone "gun_back"}
+		{weight 100}
+	}
+
+	("mg_range")
+	{recoveryTime 0.09}
+	{rechargeTime 4.5}
+	{speed 290}
+	{healthDamage     99}
+	("accuracy_open_sight"  moa(2.25))
+	("accuracy_open_sight_77"  moa(2.25))
+}

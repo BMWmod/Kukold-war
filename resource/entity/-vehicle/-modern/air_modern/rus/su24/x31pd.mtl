@@ -1,0 +1,5 @@
+{material simple
+	{diffuse "$/model/su-34/x31pd"}
+	{emitsheat}
+{blend none}
+}

@@ -1,0 +1,20 @@
+{from "pattern cm"
+	{tag "ammo shell itemin2hands cm no_ricochet cumulative size2 -fragmentary -antiinf -low_speed" "fx_90_110" "fx_cm"}
+
+	{inventory
+		{size 5 1}
+	}	
+	{mass 10}
+	{entity "shell_cn_cm_100_rapira"}
+	{view "cm_fly"}
+	{trace
+		{view "/texture/fx/trace" {ScaleY 0.2}}
+		{length 2}
+	}
+	;1,1 кг ВВ
+	{tag "he_07to2"}
+	{damage blastwave {energy 1.2} {area 2 2.4}}
+	{damage add blastwave {energy 2.5} {area 0.3 0.3}}
+	{damage cumulative {damage 390} {distance 3}}
+}
+;2 волна бонус

@@ -1,0 +1,8 @@
+{actor
+	(include "/properties/projectile.ext")
+	{Extension "agm_carrier_forward.mdl"}
+	{props "tandem"}
+	("missile_placer" missile("9m120m_impactor") country(rus) type(other) calibre(130)
+	speed(fast) guidance(3point))
+	("maneuvrability_cwps3" deg_per_s(45))
+}

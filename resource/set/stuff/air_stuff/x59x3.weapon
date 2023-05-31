@@ -1,0 +1,20 @@
+{from "pattern proj_weapon_air"
+	{tag "gun"}
+	{filling "ammo x59m" 3}
+	{fireSound "reactive/missile_big"}	
+	{mass 50}
+	{recoveryTime 5}
+	{rechargeTime 160}
+	{inventory {noView}}
+	;{cursor "zenite_on"}
+	;{cursorReloading "zenite_reload"}
+	{cursor "cannon_on_fg_9"}
+	{cursorReloading "cannon_reload_fg"}
+	;{cursor "x59"}
+	;{cursorReloading "cannon_reload_fg"}
+	;{cursorReloading "cannon_reload_fg_timer_160"}
+	{AimingTolerance 1}
+	{maxRange 700}
+	{aimRange 700}
+	{fillingVisible "x59m_"}
+}

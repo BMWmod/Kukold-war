@@ -1,0 +1,10 @@
+﻿{from "m270 weapon"
+	{filling "ammo gmrlser" 6}
+	{fillingvisible "cap_"}
+	{rechargeTime 120}
+	{recoveryTime 4}	;https://youtu.be/otiG0BN982M?t=53    раскачка не позволяет стрелять так быстро, как гусеничная M270
+	{cursorReloading "cannon_reload_fg_timer_120"}
+    {range 493 493};GMLRS ER - 150 km.
+	;прирост дальности за счет увеличения калибра
+	;невозможно использование неуправляемых снарядов из-за раскачки ПУ
+}

@@ -1,0 +1,21 @@
+;Cold War
+{from "pattern pistol"
+	{tag "sd"}
+	{filling "ammo standart" 8}
+	{curve "9x18_25"}
+	{entity "pb"}
+	{fireSound	"smg/silent/MP5_single"}
+	{reloadSound "tt"}
+
+	{aimRange 25}
+	{maxRange 30}
+	{spreading 1}
+	{recoveryTime 0.3}
+	{rechargeTime 2}
+
+	{healthDamage 50}
+
+	{inventory
+		{size 3 1}
+	}
+}

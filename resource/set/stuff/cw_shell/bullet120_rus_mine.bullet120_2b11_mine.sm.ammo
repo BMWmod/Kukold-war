@@ -1,0 +1,29 @@
+{bullet
+	{tag "big" "size4" "shell"  "bullet120_RUS" "fx_shmel" "bullet120_USA_mine" "mortar" "bullet120_NATO_mine"  "no_ricochet"}
+	{inventory
+		{size 4 1}
+		{weight 70}
+	}
+	{mass 16.3}
+	{entity "shell_120mm_D-5"}
+	{view "shell_120mm_D-5"
+		{tail "tail"}
+	}	{detonationThickness 1}
+	{detonationThickness 1}
+	;3-З-2 1.94 кг снаряжения. масса мины  16,3 кг.
+	{damage blastwave	 ; fragmentary
+		{energy 0.7}
+		{area 1.2 1.3}
+	}
+	{damage add blastwave	 ; HE antipersonnel
+		{energy 1.2}
+		{area 0.5 1}
+	}
+	{damage add fire   ;
+			{radius 6}
+			{heating 15}
+			{time 10}
+	}
+
+}
+

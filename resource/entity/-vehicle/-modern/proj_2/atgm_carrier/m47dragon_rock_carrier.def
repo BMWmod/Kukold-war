@@ -1,0 +1,8 @@
+{actor
+	(include "/properties/projectile.ext")
+	{Extension "atgm_carrier_forward.mdl"}
+	{props "tandem"}
+	("missile_placer" missile("m47dragon_rock_impactor") country(usa) type(other) calibre(127)
+	speed(slow) guidance(3point))
+	("maneuvrability_cwps3" deg_per_s(46))
+}

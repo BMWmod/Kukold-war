@@ -1,0 +1,8 @@
+{actor
+	(include "/properties/projectile.ext")
+	{Extension "atgm_carrier_forward.mdl"}
+	{props "cwps_gorka" "tandem"}
+	("missile_placer" missile("9m117cn_impactor") country(rus) type(laser) calibre(100)
+	speed(normal) guidance(3point))
+	("maneuvrability_cwps3" deg_per_s(60))
+}

@@ -1,0 +1,21 @@
+;Cold War
+{from "pattern mgun"
+	{tag "reliability_medium link_mmg"}
+	{filling "ammo 762Nato" 100}
+	{curve "762x51nato_85"}
+	{entity "M240"}
+	{fireSound	"mgun/M240"}
+	{reloadSound "M240_reload"}
+	{inventory
+		{size 5 2 }
+	}
+	{mass 12.5}
+	{recoveryTime 0.10} ; один режим скорострельности на пехотных М240В.сред.600в/м
+	{rechargeTime 4.5}
+	{healthDamage     92}
+	{speed 290}
+	("mg_range")
+	("accuracy_open_sight"  moa(2))
+	("accuracy_open_sight_77"  moa(2))
+}
+; https://fnamerica.com/products/machine-guns/fn-m240b/

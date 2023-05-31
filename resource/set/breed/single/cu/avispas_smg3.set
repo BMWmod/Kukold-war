@@ -1,0 +1,26 @@
+{breed
+	{skin "cw_cu_avispas"}
+	{portrait "_new/cu/elite"}
+	{icon smgs}
+	{icon_priority 3}
+	{nationality spa}
+	{armors
+		{head "panama_cuba"}
+	}
+	(include "perks_generic.inc")
+	("traits_elite_smg")
+	{perks
+		{"field_glass"}
+		{"stealth"}
+	}
+	{inventory
+		{item "tarzan"}
+		{item "bandage" 10}
+		{item "knife_rus"}
+		{item "rgd grenade" 3}
+		{item "akm_pbs" filling "ammo 762" 30}
+		{item "ammo 762" 200}
+                {item "rpg18 weapon" 1 filling "rpg18 ammo" 1}
+		{in_hands 4}
+	}
+}

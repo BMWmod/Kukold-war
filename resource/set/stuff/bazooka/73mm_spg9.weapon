@@ -1,0 +1,30 @@
+{from "pattern rpg_weapon"     ; ÑÏÃ-9M
+	{filling "ammo grenade_spg9"}
+	{fillingVisible "rocket"}
+	{fireSound "gun/spg9"}
+	{tag "gun"}
+	{reloadSound "gun73reload"}
+	{rechargeTime 6}
+	{range 110 110}
+	{calibre 5}
+	{speed 80}
+	{gravity 1.1}
+	("accuracy_optic_rpg"  moa(7.18))	;confirmed
+	("accuracy_optic_rpg_100"  moa(7.18))	;confirmed
+	
+	;{cursor "zenite_on"}
+	;{cursorReloading "zenite_reload"}
+	;{cursor "cannon_on_fg"}
+	;{cursorReloading "cannon_reload_fg"}
+	{cursor "cannon_on_fg_2"}
+	{cursorReloading "cannon_reload_fg"}
+
+	{parameters "cm"
+		{range 110 110}
+		("accuracy_optic_rpg"  moa(3.05))	;confirmed
+		("accuracy_optic_rpg_70"  moa(3.05))	;confirmed
+		{cursor "cannon_on_heat"}
+		{cursorReloading "cannon_reload_heat"}
+	}
+}
+;Ââ-Âá 0.43ì íà ÄÂÏ - 800ì è 910ì  http://army.lv/ru/spg-9/628/539#info

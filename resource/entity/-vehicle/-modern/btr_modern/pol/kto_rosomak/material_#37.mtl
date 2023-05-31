@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "$/model/kto_rosomak/interier_decale"}
+	{blend test}
+}

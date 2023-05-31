@@ -1,0 +1,10 @@
+{actor
+(include "box_weapon.inc")
+ 	{extender "inventory"
+		{box
+			{weight 5000}
+			{size 10 6}
+			{item "ammo smerch tornado_s phl03 9m529 tb" 12}
+		}
+	}
+}

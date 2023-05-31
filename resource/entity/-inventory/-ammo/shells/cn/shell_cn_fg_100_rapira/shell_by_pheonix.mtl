@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "shell100"}
+	{blend none}
+}

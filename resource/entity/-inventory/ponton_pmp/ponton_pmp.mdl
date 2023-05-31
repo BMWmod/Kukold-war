@@ -1,0 +1,57 @@
+;Exported by: Timosh
+;Date:        Sun Feb 12 14:21:23 2023
+;File:        G:\?????? ? Pheonix\??????????????\??????\??????????\????-255 ???\kraz255_pmp 3.max
+{Skeleton
+	{bone "pmp_ammo"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "pmp_ammo.ply"}
+	}
+}
+{Volume "body"
+	{Box 132.086 58.7345 43.9002}
+	{Bone "pmp_ammo"}
+	{Matrix34
+		0.999831	0	0.0184158
+		0	1	0
+		-0.0184158	0	0.999831
+		2.49445e-05	-0.00012399	0
+	}
+}
+{Volume "select"
+	{Box 132.086 58.7345 43.9002}
+	{Bone "pmp_ammo"}
+	{Matrix34
+		0.999831	0	0.0184158
+		0	1	0
+		-0.0184158	0	0.999831
+		2.49445e-05	-0.00012399	0
+	}
+}
+{Extender "preview"
+	{"Stuff"
+		{camera
+			{origin 168.549	-207.297	58.2262}
+			{lookat 26.3009	-26.2493	1.30276}
+			{fov 31.7555}
+			{horizon -2.07122}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 4.92512	-48.7044	8.86064}
+			}
+			{"1"
+				{type directional}
+				{direction -0.0666556	0.378972	-0.319276}
+			}
+			{"2"
+				{type point}
+				{position -5.07084	-47.6035	5.44663}
+			}
+		}
+	}
+}

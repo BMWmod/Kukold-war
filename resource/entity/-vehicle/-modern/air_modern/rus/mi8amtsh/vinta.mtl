@@ -1,0 +1,5 @@
+{material simple
+	{diffuse "$/model/ka50/ahe_mh6_c"}
+	{emitsheat}
+{blend blend}
+}

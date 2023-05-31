@@ -1,0 +1,47 @@
+{game_entity
+	(include "/properties/car.ext")
+	{PatherID "airborne"}
+	{collider "tank.light"}
+	{obstacleID "human"	}
+	{props "targ_ndf" "obstacle_ignore_height" "vision_lev_plane"}
+	{targetClass "ndf_target"}
+    {able "-select" "-minimap"}
+	{autooperatable 1}
+	{placer
+	  {crew 0}
+	  {place "driver" remove}
+	}
+	{Placer
+		{place "targ_ndf"
+			{entity "targ_ndf_1"}
+			{Linkbone "body"}
+			{handlebone "Basis"}
+			{obstacle disable}
+		}
+	}
+	{extender "inventory"
+		{box
+			
+		}
+	}	
+	{mass 0}
+	{Chassis "human_carrier"
+    {Locomotion
+    {MaxSpeed	50	}		
+	{StartTime	15	}		
+	{maxSpeedAtMaxTurn 15}
+	{BrakeTime	2	}		
+	{StopTime	4	}		
+	{TurnRadius	8	}		
+	{Gears		0.1 0.5 0.8 1.0} 
+	{RearGears	0.35}	
+	{SteerOn	20}			
+	{SteerOff	40}         
+	{SplineRadius 1}		
+	}
+	}
+    {chassisManager
+	{current "human_carrier"}
+    }
+	{Extension "targ_ndf.mdl"}
+}
