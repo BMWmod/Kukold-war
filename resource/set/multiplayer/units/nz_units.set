@@ -697,8 +697,8 @@
  
 {"t-64bv"		("v" c(180) t(all_nz tank_cn) brig(cnart) s(cn) n(3) g(armbr2)  sc(155) b(cnart_hqcar) i(16) cw(0) cp(50)) {cost 160} {fore 0.0}}
 {"t-64bm1"		("v" c(300) t(all_nz tank_cn) brig(cnart) s(cn) n(3) g(armbr3)  sc(165) b(cnart_hqcar) i(17) cw(0) cp(55)) {cost 170} {fore 0.0}}
-{"t-64bm2"		("v" c(500) t(all_nz tank_cn) brig(cnart) s(cn) n(3) g(armbr4)  sc(170) b(cnart_hqcar) i(18) cw(0) cp(55)) {cost 170} {fore 0.0}}
-{"bm_oplot"		("v" c(600) brig(cnart) t(all_nz tank_cn) s(cn) n(3) g(obt1)  sc(200) b(cnart_hqcar) i(19) m(4) cw(0) cp(65)) {cost 180} {fore 0.0}} 		
+{"t-64bm2"		("v" c(500) t(all_nz tank_cn) brig(cnart) s(cn) n(3) g(armbr3)  sc(170) b(cnart_hqcar) i(18) cw(0) cp(55)) {cost 170} {fore 0.0}}
+{"bm_oplot"		("v" c(900) brig(cnart) t(all_nz tank_cn) s(cn) n(3) g(obt1)  sc(200) b(cnart_hqcar) i(19) m(4) cw(0) cp(65)) {cost 180} {fore 0.0}} 		
 		  
 ;===============================Беларусь===========================================                                   
 
@@ -711,7 +711,7 @@
  {"t72b1" {fore 1} ("v"  c(300) sc(150) g(obt_blr) b(cnheavy_hqcar) brig(cnheavy) s(cn)  i(1) cw(0) cp(50) t(all_nz tank_cn   ) n(3)               ) }
  {"t72b3_blr" {fore 0} ("v" c(500) sc(179) g(obt_blr1) b(cnheavy_hqcar) brig(cnheavy) s(cn)  i(2) cw(0) cp(50) t(all_nz tank_cn   ) n(3)               ) }
  {"t72b3_gorod_komplect" {fore 0} ("v" c(500) sc(200) g(obt_blr1) b(cnheavy_hqcar) brig(cnheavy) s(cn)  i(3) cw(0) cp(50) t(all_nz tank_cn   ) n(3)               ) }
-
+ {"m1a1_lodka" {fore 0.0} ("v" c(500) sc(200) g(obt_blr2) b(cnheavy_hqcar) brig(cnheavy) s(cn)  i(3) cw(0) cp(50) t(all_nz tank_cn rogatka  ) n(3)               ) }
 
  
  {"mtlbm_odkb" {fore 1} ("v3" c(278) sc(110) g(inf_odkb_bel) b(cnheavy_hqcar) brig(cnheavy) s(cn)  i(5) cw(2) cp(15) t(all_nz inf_cn infantry ) c1(mtlb_6mb) n(1) n1(vehicle_supporter:3) n2(bel_com:1) n3(bel_mgun:2) n4(bel_mgunhelp:1) n5(bel_rpg:1) n6(bel_rpghelp:1) n7(bel_smg2:3)      ) }
@@ -751,9 +751,9 @@
 {"tl-4_stan" {fore 0.0} ("vs" c(750) sc(120) g(stan_tl4) b(cnsco_hqcar) brig(cnmed) s(cn)  i(7) cw(1) cp(9) t(all_nz    ) n(2)               ) }
 
   {"itype63_rocket2" {fore 0.75} ("vart" c(600) sc(130) g(art) b(cnsco_hqcar) brig(cnmed) s(cn)  i(10) cw(5) cp(15) t(all_nz art support_frontline  ) n(2) c1(lyt2021) c2(type63_rocket2) n1(vehicle_supporter:2)            ) }
-
- 
  {"pcp001_cs_sm1" {fore 0} ("vs" c(800) sc(100) g(stan1)  b(cnsco_hqcar) brig(cnmed) s(cn)  i(9) cw(0) cp(20) t(all_nz    ) n(4)               ) }
+ 
+ {"ztz-99a" {fore 1} ("vs" c(800) sc(100) g(stan1)  b(cnsco_hqcar) brig(cnmed) s(cn)  i(11) cw(0) cp(20) t(all_nz    ) n(4)               ) }
 
 
 
