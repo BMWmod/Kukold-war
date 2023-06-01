@@ -1,0 +1,132 @@
+{game_entity
+	(include "/properties/airborne_M.ext")	;сюда впишем общие свойства и компоненты
+	{PatherID  "airborne"}
+	(include "/properties/shadow/airborn.inc" scale(1.1))
+	(include "/properties/selection/airborne.inc" scale(3.0))
+	(include "/properties/car_crew.ext")
+	{props "airborne_M" "assault" "vision_lev_plane" "il-76td" }	
+	{Extension "ac130.mdl"}
+	("missile_aimpoint_air")
+	{extender "enumerator" {digit_folder "vks"}}
+	{mass 80000}
+	{armor
+	("air_armor" body(2) wing(3) avionics(3) engine(3) hydrosystem(4) electronics(4) fuel(4))
+	("armor_panel" name(armor) thickness(4))
+	{setting "armor"
+		{thickness 4}
+		{volumes "armor*"}
+	}
+}
+
+	{boarder
+		{anm "driver"
+			{forward	{begin	"board_big-midcar_driver"} {end "seat_driver_car"} {base "open1"}}
+			{reverse 	{end	"board_big-midcar_driver" -1} {base "open1" -1}}
+		}
+		{anm "commander"
+			{forward	{begin	"board_big-midcar"} {end "seat_driver_car"} {base "open2"}}
+			{reverse 	{end	"board_big-midcar" -1} {base "open2" -1}}
+		}
+		{anm "passenger"
+			{forward	{end "seat_passenger"}}
+			{reverse 	{end	"emit_tank_1_hold"}}
+		}
+	}
+	("crew_human" place(driver) bone(driver) door(emit1) animation(driver))
+	("crew_human" place(commander) bone(commander) door(emit1) animation(driver))
+
+
+	{placer
+		{place "driver"		{group "crew"}}
+		{place "commander"	{group "crew"}}
+	}
+
+	{Volume "Vehicle" {able clear}}
+	
+
+
+	{extender "inventory"
+		{box
+			{Size 6 10}
+			{weight 40000}
+
+			{item "ammo bullet105how_uk fg" 40}
+			{item "ammo vulcan20mmB" 4000}
+			{item "ammo bullet40 fg" 400}
+			
+		}
+	}
+	{Weaponry
+		{place "gun"
+			{weapon "105mm_ac130" filling "ammo bullet105how_uk fg" 1}
+            {gunner "commander"}
+			{charger "commander"}
+			{foresight "foresight1"}
+
+			{basic}
+		}
+		{place "gun3"
+			{weapon "20mm_ac130" filling "ammo vulcan20mmB" 500}                        
+			{gunner "commander"}
+			{charger "commander"}
+			{foresight "foresight4"}
+			{basic}
+		}
+		{place "gun2"
+			{weapon "40mm_ac130" filling "ammo bullet40 fg" 10}
+            {gunner "commander"}
+			{charger "commander"}
+			{foresight "foresight2"}
+			{basic}
+		}
+
+		{place "flare_dropper"
+			{weapon "flare_dropper_128" filled}
+			{foresight "foresight_ltc"}
+			{charger "driver"}
+			{gunner "driver"}
+		}
+		
+	}       
+{Sensor
+		{Visor "pilot"
+			{vision "aircraft_optic_3g"}
+			{bone "visor1"}
+		}
+		{Visor "gun3"
+			{vision "aircraft_optic_3g"}
+			{bone "visor2"}
+		}
+		{Visor "gun2"
+			{vision "aircraft_optic_3g"}
+			{bone "visor3"}
+		}
+		{Visor "gun"
+			{vision "aircraft_optic_IR_3g"}
+			{bone "visor4"}
+		}
+	}
+	
+	("Chassis_parameters" 
+	Speed(71) TurnRadius(47) 
+	Fuel(114600) Fuel_remain(50000) Fuel_rate(17.19) 
+	Acc_hor(2.31) Maneuvrability_hor(3.29)
+	Acc_ver(2.85) Maneuvrability_ver(2.06)
+	)
+	{props "cwfs_fuel_3000"}
+
+
+
+(mod "mp" 
+	{Chassis "airborne" 
+		{Altitude 25} 
+    } 
+    {ChassisManager 
+		{Current "airborne"} 
+    } 
+)
+
+	
+
+
+}

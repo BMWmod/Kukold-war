@@ -1,5 +1,5 @@
 {material envmap
-	{diffuse "$/model/glas"}
+	{diffuse "$/model/unimog/glass"}
 	;{mask "$/model/glas"}
 	{blend blend}
 }
