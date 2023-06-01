@@ -10,7 +10,7 @@
 		{unitset
 			{value "%unitset"}
 		}
-				{commandPoints "*=1;vvs=1;pvo=1;artbr=1;vdv=1;mot=1;armbr=1;specbr=1;usaf=1;usa_aa=1;usart=1;idf=1;usarmy=1;usmc=1;nrf=1;nato_aa=1;abn=1;bund=1;gb=1;fra=1;cnair=1;cnart=1;cnheavy=1;cnmed=1;cnsam=1;cnsco=1"} 
+				{commandPoints "*=1;vvs=1;pvo=1;artbr=1;vdv=1;mot=1;armbr=1;specbr=1;usaf=1;usa_aa=1;usart=1;idf=1;usarmy=1;usmc=1;nrf=1;nato_aa=1;abn=1;bund=1;gb=1;fra=1;cnair=1;cnart=1;cnheavy=1;cnmed=1;cnsam=1;cnsco=1;iart=1"} 
 		{unitLimits ""}
 ;		{chargeFactors "*=%cf"}
        ;  ("unit_limits")
@@ -228,7 +228,7 @@
 		{unitset
 			{value "%unitset"}
 		}
-				{commandPoints "*=1;vvs=1;pvo=1;artbr=1;vdv=1;mot=1;armbr=1;specbr=1;usaf=1;usa_aa=1;usart=1;idf=1;idf=1;usarmy=1;usmc=1;nrf=1;nato_aa=1;abn=1;bund=1;gb=1;fra=1;cnair=1;cnart=1;cnheavy=1;cnmed=1;cnsam=1;cnsco=1"} 
+				{commandPoints "*=1;vvs=1;pvo=1;artbr=1;vdv=1;mot=1;armbr=1;specbr=1;usaf=1;usa_aa=1;usart=1;idf=1;idf=1;usarmy=1;usmc=1;nrf=1;nato_aa=1;abn=1;bund=1;gb=1;fra=1;cnair=1;cnart=1;cnheavy=1;cnmed=1;cnsam=1;cnsco=1;iart=1"} 
 ;		{chargeFactors "*=%cf"}
  ("unit_limits")
 		{balancingFactorBonus {cp 1.0} {mp 1.0}}
@@ -253,7 +253,7 @@
 		{unitset
 			{value "%unitset"}
 		}
-				{commandPoints "*=1;vvs=1;pvo=1;artbr=1;vdv=1;mot=1;armbr=1;specbr=1;usaf=1;usa_aa=1;usart=1;idf=1;idf=1;usarmy=1;usmc=1;nrf=1;nato_aa=1;abn=1;bund=1;gb=1;fra=1;cnair=1;cnart=1;cnheavy=1;cnmed=1;cnsam=1;cnsco=1"} 
+				{commandPoints "*=1;vvs=1;pvo=1;artbr=1;vdv=1;mot=1;armbr=1;specbr=1;usaf=1;usa_aa=1;usart=1;idf=1;idf=1;usarmy=1;usmc=1;nrf=1;nato_aa=1;abn=1;bund=1;gb=1;fra=1;cnair=1;cnart=1;cnheavy=1;cnmed=1;cnsam=1;cnsco=1;iart=1"} 
 ;		{chargeFactors "*=%cf"}
  ("unit_limits")
 		{balancingFactorBonus {cp 1.0} {mp 1.0}}
@@ -278,7 +278,7 @@
 		{unitset
 			{value "%unitset"}
 		}
-				{commandPoints "*=1;vvs=1;pvo=1;artbr=1;vdv=1;mot=1;armbr=1;specbr=1;usaf=1;usa_aa=1;usart=1;idf=1;idf=1;usarmy=1;usmc=1;nrf=1;nato_aa=1;abn=1;bund=1;gb=1;fra=1;cnair=1;cnart=1;cnheavy=1;cnmed=1;cnsam=1;cnsco=1"} 
+				{commandPoints "*=1;vvs=1;pvo=1;artbr=1;vdv=1;mot=1;armbr=1;specbr=1;usaf=1;usa_aa=1;usart=1;idf=1;idf=1;usarmy=1;usmc=1;nrf=1;nato_aa=1;abn=1;bund=1;gb=1;fra=1;cnair=1;cnart=1;cnheavy=1;cnmed=1;cnsam=1;cnsco=1;iart=1"} 
 ;		{chargeFactors "*=%cf"}
  ("unit_limits")
 		{balancingFactorBonus {cp 1.0} {mp 1.0}}
@@ -302,9 +302,9 @@
 	{common
 		{unitset
 			{value "%unitset"}
-			{available "vvs pvo artbr vdv mot armbr specbr usaf usa_aa usart idf usarmy usmc nrf nato_aa abn bund gb fra cnair cnsam cnart cnheavy cnmed common supl"}
+			{available "vvs pvo artbr vdv mot armbr specbr usaf usa_aa usart idf usarmy usmc nrf nato_aa abn bund gb fra cnair cnsam cnart cnheavy cnmed common supl iart"}
 		}
-				{commandPoints "*=1;vvs=1;pvo=1;artbr=1;vdv=1;mot=1;armbr=1;specbr=1;usaf=1;usa_aa=1;usart=1;idf=1;idf=1;usarmy=1;usmc=1;nrf=1;nato_aa=1;abn=1;bund=1;gb=1;fra=1;cnair=1;cnart=1;cnheavy=1;cnmed=1;cnsam=1;cnsco=1"} 
+				{commandPoints "*=1;vvs=1;pvo=1;artbr=1;vdv=1;mot=1;armbr=1;specbr=1;usaf=1;usa_aa=1;usart=1;idf=1;idf=1;usarmy=1;usmc=1;nrf=1;nato_aa=1;abn=1;bund=1;gb=1;fra=1;cnair=1;cnart=1;cnheavy=1;cnmed=1;cnsam=1;cnsco=1;iart=1"} 
 ;		{chargeFactors "*=%cf"}
  ("unit_limits")
 		{balancingFactorBonus {cp 1.0} {mp 1.0}}
@@ -330,7 +330,7 @@
 		{unitset
 			{value "%unitset"}
 		}
-				{commandPoints "*=1;vvs=1;pvo=1;artbr=1;vdv=1;mot=1;armbr=1;specbr=1;usaf=1;usa_aa=1;usart=1;idf=1;idf=1;usarmy=1;usmc=1;nrf=1;nato_aa=1;abn=1;bund=1;gb=1;fra=1;cnair=1;cnart=1;cnheavy=1;cnmed=1;cnsam=1;cnsco=1"} 
+				{commandPoints "*=1;vvs=1;pvo=1;artbr=1;vdv=1;mot=1;armbr=1;specbr=1;usaf=1;usa_aa=1;usart=1;idf=1;idf=1;usarmy=1;usmc=1;nrf=1;nato_aa=1;abn=1;bund=1;gb=1;fra=1;cnair=1;cnart=1;cnheavy=1;cnmed=1;cnsam=1;cnsco=1;iart=1"} 
 ;		{chargeFactors "*=%cf"}
  ("unit_limits")
 		{balancingFactorBonus {cp 1.0} {mp 1.0}}
@@ -355,7 +355,7 @@
 		{unitset
 			{value "%unitset"}
 		}
-				{commandPoints "*=1;vvs=1;pvo=1;artbr=1;vdv=1;mot=1;armbr=1;specbr=1;usaf=1;usa_aa=1;usart=1;idf=1;idf=1;usarmy=1;usmc=1;nrf=1;nato_aa=1;abn=1;bund=1;gb=1;fra=1;cnair=1;cnart=1;cnheavy=1;cnmed=1;cnsam=1;cnsco=1"} 
+				{commandPoints "*=1;vvs=1;pvo=1;artbr=1;vdv=1;mot=1;armbr=1;specbr=1;usaf=1;usa_aa=1;usart=1;idf=1;idf=1;usarmy=1;usmc=1;nrf=1;nato_aa=1;abn=1;bund=1;gb=1;fra=1;cnair=1;cnart=1;cnheavy=1;cnmed=1;cnsam=1;cnsco=1;iart=1"} 
 ;		{chargeFactors "*=%cf"}
  ("unit_limits")
 		{balancingFactorBonus {cp 1.0} {mp 1.0}}

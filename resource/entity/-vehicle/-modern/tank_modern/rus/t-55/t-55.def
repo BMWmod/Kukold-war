@@ -15,7 +15,7 @@
 
 ("armor_heavy" turret(200 90 65 30) body(102 80 45 25))
 
-	("armor_engine"  t(40 60 60 40))
+	;("armor_engine"  t(40 60 60 40))
 
 	("shield_M1A2TUSK")  
 	{extender "shield"
@@ -97,14 +97,11 @@
 
 	{sensor		
 		{visor "driver"
-			{bone "Visor3"}
+		    {vision "moto"}
+			{bone "Visor1"}
 		}
 		{visor "main"
 			{vision "tank_gunner_optic_IR_1g"}
-			{bone "Visor1"}
-		}
-		{visor "charger"				
-			{vision "vehicle_top_mgun"}
 			{bone "Visor2"}
 		}
 	}
@@ -116,8 +113,8 @@
 		{box	
 			{item "ammo PKM_ammo" 1250}      
 			{item "ammo bullet100_RUS apcr" 15}
-			{item "ammo bullet100_RUS fg" 17}
 			{item "ammo bullet100_RUS cm" 10}
+			{item "ammo bullet100_RUS fg" 17}
                 ; БК для спаренного пулемета ПКТ - 1500 патр.
 		}
 	}
@@ -158,7 +155,10 @@
 			Fuelvolume(965)
 		)
 	}
+	{props "cwfs_fuel_500" "cwfs_extfuel_800"}
+
 	{Extension "t-55.mdl"}
+	("missile_aimpoint_tanksize")
 	("cwts_buksir")
 	("CW_turr_speed" deg_per_s(15)) ; СТП-2 Циклон 15гр/сек. в.1 г.3.
 	{bone "gun_rot_helper"		

@@ -26,7 +26,7 @@
 					{limitmax	100000}
 					{speedset 	"100000"}
 				} 
-				{buttons "common supl vvs_hqcar artbr_hqcar vdv_hqcar mot_hqcar armbr_hqcar specbr_hqcar usaf_hqcar usart_hqcar idf_hqcar usarmy_hqcar usmc_hqcar nrf_hqcar abn_hqcar bund_hqcar gb_hqcar fra_hqcar cnair_hqcar cnart_hqcar cnheavy_hqcar cnmed_hqcar cnsco_hqcar"}
+				{buttons "common supl vvs_hqcar artbr_hqcar vdv_hqcar mot_hqcar armbr_hqcar specbr_hqcar usaf_hqcar usart_hqcar idf_hqcar usarmy_hqcar usmc_hqcar nrf_hqcar abn_hqcar bund_hqcar gb_hqcar fra_hqcar cnair_hqcar cnart_hqcar cnheavy_hqcar cnmed_hqcar cnsco_hqcar iart_hqcar"}
 				;gb_hqcar fra_hqcar
 			}
 			{hqcar
@@ -72,7 +72,7 @@
 					{limitmax	100000}
 					{speedset 	"100000"}
 				} 
-				{buttons "common supl vvs_hqcar artbr_hqcar vdv_hqcar mot_hqcar armbr_hqcar specbr_hqcar usaf_hqcar usart_hqcar idf_hqcar usarmy_hqcar usmc_hqcar nrf_hqcar abn_hqcar bund_hqcar gb_hqcar fra_hqcar cnair_hqcar cnart_hqcar cnheavy_hqcar cnmed_hqcar cnsco_hqcar"}
+				{buttons "common supl vvs_hqcar artbr_hqcar vdv_hqcar mot_hqcar armbr_hqcar specbr_hqcar usaf_hqcar usart_hqcar idf_hqcar usarmy_hqcar usmc_hqcar nrf_hqcar abn_hqcar bund_hqcar gb_hqcar fra_hqcar cnair_hqcar cnart_hqcar cnheavy_hqcar cnmed_hqcar cnsco_hqcar iart_hqcar"}
 			}
 			("no_hq_cars")
 		} 
@@ -187,7 +187,7 @@
 		{budgets
 			{vehicle
 				("without_update" start(%start) finish(%finish))
-				{buttons "common supl vvs_hqcar artbr_hqcar vdv_hqcar mot_hqcar armbr_hqcar specbr_hqcar usaf_hqcar usart_hqcar idf_hqcar usarmy_hqcar usmc_hqcar nrf_hqcar abn_hqcar bund_hqcar gb_hqcar fra_hqcar cnair_hqcar cnart_hqcar cnheavy_hqcar cnmed_hqcar cnsco_hqcar"}
+				{buttons "common supl vvs_hqcar artbr_hqcar vdv_hqcar mot_hqcar armbr_hqcar specbr_hqcar usaf_hqcar usart_hqcar idf_hqcar usarmy_hqcar usmc_hqcar nrf_hqcar abn_hqcar bund_hqcar gb_hqcar fra_hqcar cnair_hqcar cnart_hqcar cnheavy_hqcar cnmed_hqcar cnsco_hqcar iart_hqcar"}
 			}
 			("hq_cars" hq_restore_speed(%hq_restore_speed) size(%size))
 		} 
@@ -212,7 +212,7 @@
 		{budgets
 			{vehicle
 				("with_payback" start(%start) finish(%finish))
-				{buttons "common supl vvs_hqcar artbr_hqcar vdv_hqcar mot_hqcar armbr_hqcar specbr_hqcar usaf_hqcar usart_hqcar idf_hqcar usarmy_hqcar usmc_hqcar nrf_hqcar abn_hqcar bund_hqcar gb_hqcar fra_hqcar cnair_hqcar cnart_hqcar cnheavy_hqcar cnmed_hqcar cnsco_hqcar"}
+				{buttons "common supl vvs_hqcar artbr_hqcar vdv_hqcar mot_hqcar armbr_hqcar specbr_hqcar usaf_hqcar usart_hqcar idf_hqcar usarmy_hqcar usmc_hqcar nrf_hqcar abn_hqcar bund_hqcar gb_hqcar fra_hqcar cnair_hqcar cnart_hqcar cnheavy_hqcar cnmed_hqcar cnsco_hqcar iart_hqcar"}
 			}
 			("hq_cars" hq_restore_speed(%hq_restore_speed) size(%size))
 		} 
@@ -237,7 +237,7 @@
 		{budgets
 			{vehicle 
                                ("periodical_update" start(%start) finish(%finish))
-				{buttons "common supl vvs_hqcar artbr_hqcar vdv_hqcar mot_hqcar armbr_hqcar specbr_hqcar usaf_hqcar usart_hqcar idf_hqcar usarmy_hqcar usmc_hqcar nrf_hqcar abn_hqcar bund_hqcar gb_hqcar fra_hqcar cnair_hqcar cnart_hqcar cnheavy_hqcar cnmed_hqcar cnsco_hqcar"}
+				{buttons "common supl vvs_hqcar artbr_hqcar vdv_hqcar mot_hqcar armbr_hqcar specbr_hqcar usaf_hqcar usart_hqcar idf_hqcar usarmy_hqcar usmc_hqcar nrf_hqcar abn_hqcar bund_hqcar gb_hqcar fra_hqcar cnair_hqcar cnart_hqcar cnheavy_hqcar cnmed_hqcar cnsco_hqcar iart_hqcar"}
 			}
 			("hq_cars" hq_restore_speed(%hq_restore_speed) size(%size))
 		} 
@@ -252,7 +252,7 @@
 		{unitset
 			{value "%unitset"}
 		}
-				{commandPoints "*=1;vvs=1;artbr=1;vdv=1;mot=1;armbr=1;specbr=1;usaf=1;usart=1;idf=1;usarmy=1;usmc=1;nrf=1;abn=1;bund=1;gb=1;fra=1;cnair=1;cnart=1;cnheavy=1;cnmed=1;cnsco=1"} 
+				{commandPoints "*=1;vvs=1;artbr=1;vdv=1;mot=1;armbr=1;specbr=1;usaf=1;usart=1;idf=1;usarmy=1;usmc=1;nrf=1;abn=1;bund=1;gb=1;fra=1;cnair=1;cnart=1;cnheavy=1;cnmed=1;cnsco=1;iart=1"} 
 ;		{chargeFactors "*=%cf"}
  ("unit_limits")
 		{balancingFactorBonus {cp 1.0} {mp 0.6}}
@@ -288,7 +288,7 @@
 		{budgets
 			{vehicle
 				("without_update" start(%start) finish(%finish))
-				{buttons "common supl vvs_hqcar artbr_hqcar vdv_hqcar mot_hqcar armbr_hqcar specbr_hqcar usaf_hqcar usart_hqcar idf_hqcar usarmy_hqcar usmc_hqcar nrf_hqcar abn_hqcar bund_hqcar gb_hqcar fra_hqcar cnair_hqcar cnart_hqcar cnheavy_hqcar cnmed_hqcar cnsco_hqcar"}
+				{buttons "common supl vvs_hqcar artbr_hqcar vdv_hqcar mot_hqcar armbr_hqcar specbr_hqcar usaf_hqcar usart_hqcar idf_hqcar usarmy_hqcar usmc_hqcar nrf_hqcar abn_hqcar bund_hqcar gb_hqcar fra_hqcar cnair_hqcar cnart_hqcar cnheavy_hqcar cnmed_hqcar cnsco_hqcar iart_hqcar"}
 			}
 			("no_hq_cars")
 		} 
@@ -313,7 +313,7 @@
 		{budgets
 			{vehicle
 				("with_payback" start(%start) finish(%finish))
-				{buttons "common supl vvs_hqcar artbr_hqcar vdv_hqcar mot_hqcar armbr_hqcar specbr_hqcar usaf_hqcar usart_hqcar idf_hqcar usarmy_hqcar usmc_hqcar nrf_hqcar abn_hqcar bund_hqcar gb_hqcar fra_hqcar cnair_hqcar cnart_hqcar cnheavy_hqcar cnmed_hqcar cnsco_hqcar"}
+				{buttons "common supl vvs_hqcar artbr_hqcar vdv_hqcar mot_hqcar armbr_hqcar specbr_hqcar usaf_hqcar usart_hqcar idf_hqcar usarmy_hqcar usmc_hqcar nrf_hqcar abn_hqcar bund_hqcar gb_hqcar fra_hqcar cnair_hqcar cnart_hqcar cnheavy_hqcar cnmed_hqcar cnsco_hqcar iart_hqcar"}
 			}
 			("no_hq_cars")
 		} 
@@ -339,7 +339,7 @@
 		{budgets
 			{vehicle 
                  ("periodical_update" start(%start) finish(%finish))
-				{buttons "common supl vvs_hqcar artbr_hqcar vdv_hqcar mot_hqcar armbr_hqcar specbr_hqcar usaf_hqcar usart_hqcar idf_hqcar usarmy_hqcar usmc_hqcar nrf_hqcar abn_hqcar bund_hqcar gb_hqcar fra_hqcar cnair_hqcar cnart_hqcar cnheavy_hqcar cnmed_hqcar cnsco_hqcar"}
+				{buttons "common supl vvs_hqcar artbr_hqcar vdv_hqcar mot_hqcar armbr_hqcar specbr_hqcar usaf_hqcar usart_hqcar idf_hqcar usarmy_hqcar usmc_hqcar nrf_hqcar abn_hqcar bund_hqcar gb_hqcar fra_hqcar cnair_hqcar cnart_hqcar cnheavy_hqcar cnmed_hqcar cnsco_hqcar iart_hqcar"}
 			}
 			("no_hq_cars")
 		} 

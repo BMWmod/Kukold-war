@@ -11,7 +11,7 @@
 		{sequence "open2" {speed 0.3} {resume}}
 		{sequence "open_driver" {speed 0.05} {resume}}
 	}
-	{bone "basis"
+	{bone revolute "basis" {limits -0 0}
 		{parameters "Wheelradius=0.4;"}
 		{Orientation
 			1	0	0
@@ -260,6 +260,16 @@
 					0.0871068	0.996198	-0.000984346
 					28.5974	5.89733	-25.9254
 				}
+			}
+			{bone "b_setka"
+				{parameters "CommonMesh;ID=setka;"}
+				{Matrix34
+					-0.0101707	0.0629829	1.597963
+					0.599216	0.0	-0.0
+					-0.282572	2.67308	-0.625517
+					-0.788683	0.16343	-0.932512
+				}
+				{VolumeView "b_setka.ply"}
 			}
 			{bone "door_front"
 				{Position 14.1764	9.50789	30.8735}

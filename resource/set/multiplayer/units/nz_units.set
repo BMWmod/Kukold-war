@@ -61,8 +61,8 @@
 
 {"t72av"		("v" c(150) brig(common) t(all_nz  nobot) s(rus) n(0) g(reserv)  sc(120) b(supl) i(16) cw(0) cp(2))  {fore 1}}
 
-{"bmp1_new"		("v" c(60) brig(common) t(all_nz nobot) s(rus) n(0) g(reserv_btr)  sc(70) b(supl) i(17) cw(0) cp(10))  {fore 1}}
-{"btr70"		("v" c(60) brig(common) t(all_nz  nobot) s(rus) n(0) g(reserv_btr)  sc(50) b(supl) i(19) cw(0) cp(2))  {fore 1}}
+;{"bmp1_new"		("v" c(60) brig(common) t(all_nz nobot) s(rus) n(0) g(reserv_btr)  sc(70) b(supl) i(17) cw(0) cp(10))  {fore 1}}
+;{"btr70"		("v" c(60) brig(common) t(all_nz  nobot) s(rus) n(0) g(reserv_btr)  sc(50) b(supl) i(19) cw(0) cp(2))  {fore 1}}
 {"ural-4320_long_zu23-2"		("v" c(30) brig(common) t(all_nz  nobot) s(rus) n(0) g(reserv_aa)  sc(25) b(supl) i(18) cw(0) cp(2))  {fore 1}}
 {"gaz66_zu"		("v" c(30) brig(common) t(all_nz nobot ) s(rus) n(0) g(reserv_aa)  sc(25) b(supl) i(18) cw(0) cp(2))  {fore 1}}
 
@@ -203,11 +203,11 @@
  {"gaz_tigr" {fore 1} ("v3" c(300) sc(90) g(stan1) b(specbr_hqcar) brig(specbr) s(rus)  i(10) cw(0) cp(15) t(all_nz recon   ) n(3) c1(gaz_tigr) n1(vehicle_supporter:3)             ) }
                                    
  {"kornet-d" {fore 0} ("vs" c(600) sc(160) g(kornet) b(specbr_hqcar) brig(specbr) s(rus)  i(11) cw(0) cp(40) t(all_nz att   ) n(2)               ) }
- {"brdm2_atgm" {fore 0.0} ("vs" c(480) sc(85) g(s_konkurs) b(specbr_hqcar) brig(specbr) s(rus)  i(12) cw(0) cp(15) t(all_nz att   ) n(2)               ) }
+ 
                                    
  {"2b14_podnos" {fore 0.3} ("vs" c(600) sc(70) g(stan1) b(specbr_hqcar) brig(specbr) s(rus)  i(13) cw(1) cp(10) t(all_nz    ) n(2)               ) }
                                    
- {"uran9_support" {fore 0.3} ("vart_kamaz" c(600) sc(90) g(uran_sup) b(specbr_hqcar) brig(specbr) s(rus)  i(14) cw(0) cp(5) t(all_nz art att  ) c1(uran9_support) c2(kamaz-r142nm) n1(vehicle_supporter:0) n2(vehicle_supporter:5)            ) }
+ {"uran9_support" {fore 0.3} ("vart_kamaz" c(600) sc(90) g(uran_sup) b(specbr_hqcar) brig(specbr) s(rus)  i(14) cw(0) cp(5) t(all_nz art att  ) c1(uran9_assault2) c2(kamaz-r142nm) n1(vehicle_supporter:0) n2(vehicle_supporter:5)            ) }
  {"ka52k" {fore 0} ("h" c(1200) sc(300) g(aka) b(specbr_hqcar) brig(specbr) s(rus)  i(15) cw(0) cp(100) t(all_nz art heli  ) n(2)               ) }
                                    
 ;===============================Не захватывает территорию===========================================                                   
@@ -448,8 +448,7 @@
 {"m1ip_2"	("v" c(90) brig(common) t(all_nz  nobot) s(usa) n(0) g(reserv)  sc(100) b(supl) i(12) cw(0) cp(2))  {fore 1}}
 {"bredly"	("v" c(90) brig(common) t(all_nz  nobot) s(usa) n(0) g(reserv)  sc(60) b(supl) i(13) cw(0) cp(2))  {fore 1}}	
 
-{"toyota_hilux_dshkm"	("v" c(90) brig(common) t(all_nz  nobot) s(usa) n(0) g(reserv)  sc(60) b(supl) i(14) cw(0) cp(2))  {fore 1}}
-{"toyota_hilux_spg9"	("v" c(90) brig(common) t(all_nz  nobot) s(usa) n(0) g(reserv)  sc(60) b(supl) i(15) cw(0) cp(2))  {fore 1}}								   
+							   
 ;===============================USAF===========================================                                   
  {"SSO_usa" {fore 0.8} ("v3" c(600) sc(90) g(sso) b(usaf_hqcar) brig(usaf) s(usa)  i(2) cw(0) cp(2) t(all_nz  support_frontline  ) n(3) c1(mh-6) n1(vertpilot:2) n2(delta_com_sso:1) n3(delta_marksman_sso:1) n4(delta_mgun_sso:1) n5(delta_smg_sso:1) n6(delta_smg2_sso:1) n7(delta_bazooker_sso:1)       ) }
  {"uh60" {fore 0.8} ("v3" c(600) sc(150) g(sso) b(usaf_hqcar) brig(usaf) s(usa)  i(20) cw(0) cp(2) t(all_nz  support_frontline  ) n(3) c1(uh60) n1(vertpilot:4) n2(delta_com_sso:1) n3(delta_marksman_sso:1) n4(delta_mgun_sso:1) n5(delta_smg_sso:1) n6(delta_smg2_sso:2) n7(delta_bazooker_sso:2) n8(delta_mgun:1)  n9(delta_smg_sso:2)    ) }                                 
@@ -629,7 +628,7 @@
 ("squad_with2types" name(miners) f(1)  c(240) cost(40) g(eng) b(supl) brig(common) side(cn)     t(all_nz  support_frontline  ) info(miners) c1(antipersonel_miner:4) c2(antitank_miner:4)             ) 
 ("squad_with1types" name(sappers) f(1)  c(240) cost(10) g(eng) b(supl) brig(common) side(cn)     t(all_nz  support_frontline  ) info(miners) c1(saper:1)              ) 
                              
-{"t64"		("v" c(150) brig(common) t(all_nz nobot ) s(cn) n(0) g(reserv)  sc(69) b(supl) i(10) cw(0) cp(2))  {fore 1}}
+
 {"t72a_1984year"		("v" c(150) brig(common) t(all_nz nobot ) s(cn) n(0) g(reserv)  sc(100) b(supl) i(11) cw(0) cp(2))  {fore 1}}
 {"t-64b"		("v" c(150) brig(common) t(all_nz nobot ) s(cn) n(0) g(reserv)  sc(110) b(supl) i(12) cw(0) cp(2))  {fore 1}}
 {"t72b"		("v" c(150) brig(common) t(all_nz  nobot) s(cn) n(0) g(reserv)  sc(120) b(supl) i(13) cw(0) cp(2))  {fore 1}}							 
@@ -751,7 +750,7 @@
 ("squad_with9types" name(elite) f(0)  c(600) cost(169) g(elite) b(cnsco_hqcar) brig(cnmed) side(cn)     t(all_nz specnaz infantry  ) info(elite) c1(elite_com:1) c2(elite_mgun:2) c3(elite_minmen:1) c4(elite_smg:2) c5(elite_rpg:2) c6(elite_rpghelp:2) c7(elite_sniper:1) c8(elite_smg2:2)       ) 
 {"tl-4_stan" {fore 0.0} ("vs" c(750) sc(120) g(stan_tl4) b(cnsco_hqcar) brig(cnmed) s(cn)  i(7) cw(1) cp(9) t(all_nz    ) n(2)               ) }
 
-  {"type63_rocket2" {fore 0.75} ("vart" c(600) sc(130) g(art) b(cnsco_hqcar) brig(cnmed) s(cn)  i(10) cw(5) cp(15) t(all_nz art support_frontline  ) n(2) c1(lyt2021) c2(type63_rocket2) n1(vehicle_supporter:2)            ) }
+  {"itype63_rocket2" {fore 0.75} ("vart" c(600) sc(130) g(art) b(cnsco_hqcar) brig(cnmed) s(cn)  i(10) cw(5) cp(15) t(all_nz art support_frontline  ) n(2) c1(lyt2021) c2(type63_rocket2) n1(vehicle_supporter:2)            ) }
 
  
  {"pcp001_cs_sm1" {fore 0} ("vs" c(800) sc(100) g(stan1)  b(cnsco_hqcar) brig(cnmed) s(cn)  i(9) cw(0) cp(20) t(all_nz    ) n(4)               ) }
@@ -796,29 +795,50 @@
   c1(bazooker2:2) 
   b(common) brig(common) t(all_nz inf_irg) cost(30) f(1.0) 
 )	
-{"gaz_66i" {fore 1} ("v3" c(240) sc(80) g(inf) b(common) brig(common) s(iregular)  i(1) cw(0) cp(2) t(all_nz infantry  ) n(1) c1(gaz66) n1(vehicle_supporter:1) n2(army_com:1) n3(army_mgun:1) n4(army_mgunhelp:1) n5(army_radio:1) n6(army_rpg:1) n7(army_rpghelp:2)  n8(army_smg:2)  n9(army_smg:2)  n10(army_smg2:2)     ) }
-{"btr60i" {fore 1} ("v3" c(240) sc(111) g(inf_btr) b(common) brig(common) s(iregular)  i(2) cw(0) cp(2) t(all_nz infantry  ) n(1) c1(btr60) n1(tankman:2) n2(army_com:1) n3(army_mgun:1) n4(army_smg:1) n5(army_smg2:2) n6(army_rpg:2) n7(army_rpghelp:1)        ) }
+{"gaz_66i" {fore 1} ("v3" c(100) sc(80) g(inf) b(common) brig(common) s(iregular)  i(1) cw(0) cp(2) t(all_nz infantry  ) n(1) c1(gaz66) n1(vehicle_supporter:1) n2(army_com:1) n3(army_mgun:1) n4(army_mgunhelp:1) n5(army_radio:1) n6(army_rpg:1) n7(army_rpghelp:2)  n8(army_smg:2)  n9(army_smg:2)  n10(army_smg2:2)     ) }
+{"btr60i" {fore 1} ("v3" c(200) sc(111) g(inf_btr) b(common) brig(common) s(iregular)  i(2) cw(0) cp(2) t(all_nz infantry  ) n(1) c1(btr60) n1(tankman:2) n2(army_com:1) n3(army_mgun:1) n4(army_smg:1) n5(army_smg2:2) n6(army_rpg:2) n7(army_rpghelp:1)        ) }
  {"spg_9" {fore 1} ("vs" c(120) sc(30) g(stan3) b(common) brig(common) s(iregular)  i(3) cw(1) cp(5) t(all_nz    ) n(2)               ) }                                 
  {"grad_p" {fore 1} ("vs" c(350) sc(40) g(stan5) b(common) brig(common) s(iregular)  i(4) cw(1) cp(10) t(all_nz    ) n(2)               ) }  
+ 
+
+
+{"bmp1_newi" {fore 1} ("v3" c(240) sc(120) g(inf_btr2) b(common) brig(common) s(iregular)  i(6) cw(0) cp(2) t(all_nz infantry  ) n(1) c1(bmp1_new) n1(tankman:3) n2(army_com:1) n3(army_mgun:1) n4(army_smg:1) n5(army_smg2:2) n6(army_rpg:2) n7(army_rpghelp:1)        ) }
+
 
 ("squad_with2types" name(pzrk) f(1)  c(250) cost(30) g(pzrk) b(common) brig(common) side(iregular)     t(all_nz antiair   )  c1(pzrk1:2)             ) 
  {"pzrk2_iregular" {fore 0.9} ("v3" c(500) sc(69) g(pzrk2) b(common) brig(common) s(iregular)  i(5) cw(0) cp(0) t(all_nz aat  ) c1(toyota_hilux_transport) n(2) n1(vehicle_supporter:1) n2(pzrk1:2) n3(pzrk2:2) n4(pzrk3:2)	)}    
 ;===============================Вспомогательные войска===========================================                                   
 
- {"toyota_hilux_grad_p" {fore 1} ("vs" c(222) sc(100) g(reserv_3) b(supl) brig(common) s(iregular)  i(1) cw(5) cp(5) t(all_nz    ) n(4)               ) }							
-{"toyota_hilux_nurs" {fore 1} ("vs" c(222) sc(100) g(reserv_3) b(supl) brig(common) s(iregular)  i(2) cw(5) cp(5) t(all_nz    ) n(4)               ) }							
-{"uazpzrk" {fore 1} ("vs" c(222) sc(100) g(reserv_3) b(supl) brig(common) s(iregular)  i(3) cw(5) cp(5) t(all_nz    ) n(4)               ) }
-{"uazm2" {fore 1} ("vs" c(222) sc(100) g(reserv_3) b(supl) brig(common) s(iregular)  i(4) cw(5) cp(5) t(all_nz    ) n(4)               ) }
+ {"toyota_hilux_grad_p" {fore 1} ("vs" c(222) sc(100) g(reserv_1) b(supl) brig(common) s(iregular)  i(1) cw(5) cp(5) t(all_nz    ) n(4)               ) }							
+{"toyota_hilux_nurs" {fore 1} ("vs" c(222) sc(100) g(reserv_2) b(supl) brig(common) s(iregular)  i(2) cw(5) cp(5) t(all_nz    ) n(4)               ) }							
+{"uazpzrk" {fore 1} ("vs" c(222) sc(50) g(reserv_3) b(supl) brig(common) s(iregular)  i(3) cw(5) cp(5) t(all_nz    ) n(4)               ) }
+{"uazm2" {fore 1} ("vs" c(222) sc(50) g(reserv_4) b(supl) brig(common) s(iregular)  i(4) cw(5) cp(5) t(all_nz    ) n(4)               ) }
+{"toyota_hilux_dshkm" {fore 1} ("vs" c(222) sc(50) g(reserv_5) b(supl) brig(common) s(iregular)  i(5) cw(5) cp(5) t(all_nz    ) n(4)               ) }
+{"toyota_hilux_spg9" {fore 1} ("vs" c(140) sc(69) g(reserv_6) b(supl) brig(common) s(iregular)  i(6) cw(5) cp(5) t(all_nz    ) n(4)               ) }
+
 
                                   
 ("squad_with2types" name(tankman) f(1)  c(1) cost(5) g(eng) b(supl) brig(common) side(iregular)     t(all_nz    ) info(tankman) c1(tankman:2)              ) 
 ("squad_with1types" name(vehicle_supporter) f(1)  c(30) cost(5) g(support) b(supl) brig(common) side(iregular)     t(all_nz    ) info(vehicle_supporter) c1(vehicle_supporter:4)              ) 
-;("squad_with2types" name(pilot) f(1)  c(50) cost(5) g(eng) b(supl) brig(common) side(iregular)     t(all_nz    ) info(pilot) c1(Pilot:1)              ) 
+("squad_with2types" name(pilot) f(1)  c(50) cost(5) g(eng) b(supl) brig(common) side(iregular)     t(all_nz    ) info(pilot) c1(Pilot:1)              ) 
                                    
-								   
-								   
-								
+{"t-55" {fore 1} ("v" c(200) sc(100) g(tonk) b(supl) brig(common) s(iregular)  i(7) cw(0) cp(10) t(all_nz   ) n(4)               ) }
+{"t64" {fore 1} ("v" c(200) sc(100) g(tonk1) b(supl) brig(common) s(iregular)  i(8) cw(0) cp(10) t(all_nz   ) n(3)               ) }
+{"t62_cw" {fore 1} ("v" c(200) sc(100) g(tonk1) b(supl) brig(common) s(iregular)  i(9) cw(0) cp(10) t(all_nz   ) n(4)               ) }
+{"t80ybars" {fore 0} ("v" c(900) sc(222) g(tonk1) b(supl) brig(common) s(iregular)  i(10) cw(0) cp(50) t(all_nz rogatka   ) n(4)               ) }
+{"mig-21bis_pizdec" {fore 0} ("v" c(900) sc(222) g(tonk1) b(supl) brig(common) s(iregular)  i(11) cw(0) cp(50) t(all_nz rogatka   ) n(4)               ) }								
 
-;{"2c4_tulpan" {fore 0.0} ("v" c(600) sc(250) g(art) b(cnart_hqcar) brig(cnart) s(cn)  i(2) cw(0) cp(25) t(all_nz art support_frontline  ) n(4)               ) }   
 
-{"ural_grad" {fore 0} ("vs" c(300) sc(200) g(rszo) b(iartbr) brig(iartbr) s(iregular)  i(1) cw(0) cp(35) t(all_nz art support_frontline  ) n(2)               ) }
+;=========================================== АРТА   ================== ================== ==================                
+
+{"ural_grad" {fore 0} ("v" c(300) sc(200) g(art1) b(iart_hqcar) brig(iart) s(iregular)  i(1) cw(0) cp(25) t(all_nz art  support_frontline) n(2)               ) }
+{"malytka_stan" {fore 0} ("v" c(300) sc(50) g(art2) b(iart_hqcar) brig(iart) s(iregular)  i(2) cw(0) cp(25) t(all_nz art  support_frontline) n(1)               ) }
+{"type_pp87" {fore 0} ("v" c(300) sc(100) g(art2) b(iart_hqcar) brig(iart) s(iregular)  i(3) cw(0) cp(25) t(all_nz art  support_frontline) n(2)               ) }
+{"ags17" {fore 0} ("v" c(300) sc(69) g(art3) b(iart_hqcar) brig(iart) s(iregular)  i(4) cw(0) cp(25) t(all_nz art  support_frontline) n(2)               ) }
+{"pl-66" {fore 0.75} ("vart" c(300) sc(150) g(art4) b(iart_hqcar) brig(iart) s(iregular)  i(5) cw(5) cp(15) t(all_nz art support_frontline  ) n(2) c1(mtlb_new) c2(pl-66) n1(vehicle_supporter:2)            ) }
+{"pbp-172" {fore 0} ("v" c(300) sc(120) g(art5) b(iart_hqcar) brig(iart) s(iregular)  i(6) cw(0) cp(25) t(all_nz art  support_frontline) n(3)               ) }
+{"type63_rocket2i" {fore 0.75} ("vart" c(300) sc(100) g(art6) b(iart_hqcar) brig(iart) s(iregular)  i(7) cw(5) cp(15) t(all_nz art support_frontline  ) n(2) c1(mtlb_new) c2(type63_rocket2) n1(vehicle_supporter:2)            ) }
+{"zu23-2i" {fore 0.75} ("vart" c(300) sc(69) g(art7) b(iart_hqcar) brig(iart) s(iregular)  i(8) cw(5) cp(15) t(all_nz art support_frontline  ) n(2) c1(mtlb_new) c2(zu23-2) n1(vehicle_supporter:2)            ) }
+{"2c3_akaciya_irg" {fore 0} ("v3" c(250) sc(210) g(art8)  b(iart_hqcar) brig(iart) s(iregular)  i(9) cw(0) cp(7) t(all_nz   ) c1(2c3_akaciya) n(1) n1(tankman:4)      ) }
+{"9k35_strela_nurs" {fore 0} ("v" c(300) sc(91) g(art9) b(iart_hqcar) brig(iart) s(iregular)  i(10) cw(0) cp(25) t(all_nz art  support_frontline) n(3)               ) }
+{"brdm2_atgm" {fore 0} ("v" c(300) sc(100) g(art10) b(iart_hqcar) brig(iart) s(iregular)  i(11) cw(0) cp(25) t(all_nz art  support_frontline) n(2)               ) }

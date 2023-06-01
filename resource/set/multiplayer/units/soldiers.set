@@ -795,6 +795,7 @@
 ("soldier"   breed(pzrk2)	side(%side) brig(%brig)	sc(10)	cp(3)	cw(2)	c(3)	tags())
 ("soldier"   breed(pzrk3)	side(%side) brig(%brig)	sc(10)	cp(3)	cw(2)	c(3)	tags())
 
+("soldier"   breed(pilot)	side(%side) brig(%brig)	sc(10)	cp(3)	cw(2)	c(3)	tags())
 )
 
 
