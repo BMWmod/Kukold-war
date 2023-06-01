@@ -1,0 +1,336 @@
+{mission
+	(include "/map/common_mp_scripts.inc")
+	{Entity "map_point" 0x8000
+		{Position 5626.88 6236.65}
+		{xform zl -136.84}
+		{Extender "map_point"
+			{name a1}
+			{team a}
+			{phase 0}
+			{order 1}
+		}
+		{Player 0}
+		{MID 1}
+	}
+	{Entity "map_point" 0x8001
+		{Position 5819.29 5858.15}
+		{xform zl -136.84}
+		{Extender "map_point"
+			{name a2}
+			{team a}
+			{phase 0}
+			{order 2}
+		}
+		{Player 0}
+		{MID 2}
+	}
+	{Entity "map_point" 0x8002
+		{Position 6272.84 5495.11}
+		{xform zl -126.84}
+		{Extender "map_point"
+			{name a3}
+			{team a}
+			{phase 0}
+			{order 3}
+		}
+		{Player 0}
+		{MID 3}
+	}
+	{Entity "map_point" 0x8003
+		{Position 6881.27 5405.06}
+		{xform zl -136.84}
+		{Extender "map_point"
+			{name a4}
+			{team a}
+			{phase 0}
+			{order 4}
+		}
+		{Player 0}
+		{MID 4}
+	}
+	{Entity "map_point" 0x8004
+		{Position 6309.28 6118.54}
+		{xform zl -136.84}
+		{Extender "map_point"
+			{name a5}
+			{team a}
+			{phase 0}
+			{order 5}
+		}
+		{Player 0}
+		{MID 5}
+	}
+	{Entity "map_point" 0x8005
+		{Position 6790.05 5765.34}
+		{xform zl -136.84}
+		{Extender "map_point"
+			{name a6}
+			{team a}
+			{phase 0}
+			{order 6}
+		}
+		{Player 0}
+		{MID 6}
+	}
+	{Entity "map_point" 0x8006
+		{Position -6030.35 -5049.13}
+		{xform zl 43.16}
+		{Extender "map_point"
+			{name b1}
+			{team b}
+			{phase 0}
+			{order 1}
+		}
+		{Player 0}
+		{MID 7}
+	}
+	{Entity "map_point" 0x8007
+		{Position -5837.93 -5427.63}
+		{xform zl 43.16}
+		{Extender "map_point"
+			{name b2}
+			{team b}
+			{phase 0}
+			{order 2}
+		}
+		{Player 0}
+		{MID 8}
+	}
+	{Entity "map_point" 0x8008
+		{Position -5384.39 -5790.66}
+		{xform zl 53.16}
+		{Extender "map_point"
+			{name b3}
+			{team b}
+			{phase 0}
+			{order 3}
+		}
+		{Player 0}
+		{MID 9}
+	}
+	{Entity "map_point" 0x8009
+		{Position -4775.95 -5880.72}
+		{xform zl 43.16}
+		{Extender "map_point"
+			{name b4}
+			{team b}
+			{phase 0}
+			{order 4}
+		}
+		{Player 0}
+		{MID 10}
+	}
+	{Entity "map_point" 0x800a
+		{Position -5347.94 -5167.24}
+		{xform zl 43.16}
+		{Extender "map_point"
+			{name b5}
+			{team b}
+			{phase 0}
+			{order 5}
+		}
+		{Player 0}
+		{MID 11}
+	}
+	{Entity "map_point" 0x800b
+		{Position -4867.17 -5520.44}
+		{xform zl 43.16}
+		{Extender "map_point"
+			{name b6}
+			{team b}
+			{phase 0}
+			{order 6}
+		}
+		{Player 0}
+		{MID 12}
+	}
+	{Entity "map_point" 0x800c
+		{Position 5919.9 6408.5}
+		{xform zl -142.21}
+		{Color 0xff0067de}
+		{Extender "map_point"
+			{name dm1}
+			{team dm}
+			{phase 0}
+			{order 1}
+			{visor SpawnPoint}
+		}
+		{Player 0}
+		{MID 13}
+	}
+	{Entity "map_point" 0x800d
+		{Position 6444.77 2861.82}
+		{xform zl 177.79}
+		{Color 0xff0067de}
+		{Extender "map_point"
+			{name dm2}
+			{team dm}
+			{phase 0}
+			{order 2}
+			{visor SpawnPoint}
+		}
+		{Player 0}
+		{MID 14}
+	}
+	{Entity "map_point" 0x800e
+		{Position 5142.76 -189.74}
+		{xform zl 177.79}
+		{Color 0xff0067de}
+		{Extender "map_point"
+			{name dm3}
+			{team dm}
+			{phase 0}
+			{order 3}
+			{visor SpawnPoint}
+		}
+		{Player 0}
+		{MID 15}
+	}
+	{Entity "map_point" 0x800f
+		{Position 5912.88 -1941.6}
+		{xform zl 157.79}
+		{Color 0xff0067de}
+		{Extender "map_point"
+			{name dm4}
+			{team dm}
+			{phase 0}
+			{order 4}
+			{visor SpawnPoint}
+		}
+		{Player 0}
+		{MID 16}
+	}
+	{Entity "map_point" 0x8010
+		{Position 6239.95 -4026.47}
+		{xform zl 167.79}
+		{Color 0xff0067de}
+		{Extender "map_point"
+			{name dm5}
+			{team dm}
+			{phase 0}
+			{order 5}
+			{visor SpawnPoint}
+		}
+		{Player 0}
+		{MID 17}
+	}
+	{Entity "map_point" 0x8011
+		{Position 4697.42 -5435.58}
+		{xform zl 137.79}
+		{Color 0xff0067de}
+		{Extender "map_point"
+			{name dm6}
+			{team dm}
+			{phase 0}
+			{order 6}
+			{visor SpawnPoint}
+		}
+		{Player 0}
+		{MID 18}
+	}
+	{Entity "map_point" 0x8012
+		{Position 1034.37 -4852.42}
+		{xform zl 117.79}
+		{Color 0xff0067de}
+		{Extender "map_point"
+			{name dm7}
+			{team dm}
+			{phase 0}
+			{order 7}
+			{visor SpawnPoint}
+		}
+		{Player 0}
+		{MID 19}
+	}
+	{Entity "map_point" 0x8013
+		{Position -2972.9 -5830.84}
+		{xform zl 87.79}
+		{Color 0xff0067de}
+		{Extender "map_point"
+			{name dm8}
+			{team dm}
+			{phase 0}
+			{order 8}
+			{visor SpawnPoint}
+		}
+		{Player 0}
+		{MID 20}
+	}
+	{Entity "map_point" 0x8014
+		{Position -6424.24 -3953.96}
+		{xform zl 37.79}
+		{Color 0xff0067de}
+		{Extender "map_point"
+			{name dm9}
+			{team dm}
+			{phase 0}
+			{order 9}
+			{visor SpawnPoint}
+		}
+		{Player 0}
+		{MID 21}
+	}
+	{Entity "map_point" 0x8015
+		{Position -6593.29 1571.69}
+		{xform zl 7.79}
+		{Color 0xff0067de}
+		{Extender "map_point"
+			{name dm10}
+			{team dm}
+			{phase 0}
+			{order 10}
+			{visor SpawnPoint}
+		}
+		{Player 0}
+		{MID 22}
+	}
+	{Entity "map_point" 0x8016
+		{Position -4440.47 4964.49}
+		{xform zl -52.21}
+		{Color 0xff0067de}
+		{Extender "map_point"
+			{name dm11}
+			{team dm}
+			{phase 0}
+			{order 11}
+			{visor SpawnPoint}
+		}
+		{Player 0}
+		{MID 23}
+	}
+	{Entity "map_point" 0x8017
+		{Position 1941.33 5814.08}
+		{xform zl -82.21}
+		{Color 0xff0067de}
+		{Extender "map_point"
+			{name dm12}
+			{team dm}
+			{phase 0}
+			{order 12}
+			{visor SpawnPoint}
+		}
+		{Player 0}
+		{MID 24}
+	}
+	{Environment "multi/lakeland/lakeland"}
+	{Helpers
+		{reinforcements
+			{scoreTotal 0}
+			{scoreCurrent 0}
+		}
+
+		{triggers
+
+
+			
+			
+			
+			
+			
+			
+			
+			
+		}
+	}
+	{Fog 1}
+}

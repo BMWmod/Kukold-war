@@ -1,0 +1,90 @@
+{materials
+	{"mtl0"
+		{layer bump
+			{diffuse "/texture/land/grid001"}
+		}
+		{layer bump
+			{diffuse "/texture/land/grid001"}
+		}
+	}
+	{"mtl1"
+		{layer bump
+			{diffuse "/texture/land/grass/gramma_9a"}
+			{bump "/texture/land/grass/gramma_9a_nm"}
+		}
+		{layer bump
+			{diffuse "/texture/land/town/asfalt_road q"}
+			{bump "/texture/land/town/asfalt_road q_nm"}
+		}
+	}
+	{"mtl2"
+		{layer bump
+			{diffuse "/texture/land/grass/gramma_9a"}
+			{bump "/texture/land/grass/gramma_9a_nm"}
+		}
+		{layer bump
+			{diffuse "/texture/land/sand/sand_4"}
+			{bump "/texture/land/sand/sand_4_nm"}
+		}
+	}
+	{"mtl3"
+		{layer bump
+			{diffuse "/texture/land/grass/gramma_9a"}
+			{bump "/texture/land/grass/gramma_9a_nm"}
+		}
+		{layer bump
+			{diffuse "/texture/land/fields/cornfield_3"}
+			{bump "/texture/land/fields/cornfield_3_nm"}
+		}
+	}
+	{"mtl4"
+		{layer bump
+			{diffuse "/texture/land/grass/gramma_9a"}
+			{bump "/texture/land/grass/gramma_9a_nm"}
+		}
+		{layer bump
+			{diffuse "/texture/land/fields/cornfield_2a"}
+			{bump "/texture/land/fields/cornfield_2a_nm"}
+		}
+	}
+	{"mtl5"
+		{layer bump
+			{diffuse "/texture/land/grass/gramma_9a"}
+			{bump "/texture/land/grass/gramma_9a_nm"}
+		}
+		{layer bump
+			{diffuse "/texture/land/fields/stubble_field3ba"}
+			{bump "/texture/land/fields/stubble_field3ba_nm"}
+		}
+	}
+	{"mtl6"
+		{layer bump
+			{diffuse "/texture/land/grass/gramma_9a"}
+			{bump "/texture/land/grass/gramma_9a_nm"}
+		}
+		{layer bump
+			{diffuse "/texture/land/fields/stubble_field3b"}
+			{bump "/texture/land/fields/stubble_field3b_nm"}
+		}
+	}
+	{"mtl7"
+		{layer bump
+			{diffuse "/texture/land/grass/gramma_9a"}
+			{bump "/texture/land/grass/gramma_9a_nm"}
+		}
+		{layer bump
+			{diffuse "/texture/land/grass/forestfloor1"}
+			{bump "/texture/land/grass/forestfloor1_nm"}
+		}
+	}
+	{"mtl8"
+		{layer bump
+			{diffuse "/texture/land/grass/gramma_9a"}
+			{bump "/texture/land/grass/gramma_9a_nm"}
+		}
+		{layer bump
+			{diffuse "/texture/land/fields/fieldgrass4"}
+			{bump "/texture/land/fields/fieldgrass4_nm"}
+		}
+	}
+}
