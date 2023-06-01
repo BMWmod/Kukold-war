@@ -790,6 +790,11 @@
 ("soldier"   breed(army_smg)	side(%side) brig(%brig)	sc(10)	cp(3)	cw(2)	c(3)	tags())
 ("soldier"   breed(army_smg2)	side(%side) brig(%brig)	sc(10)	cp(3)	cw(2)	c(3)	tags())
 ("soldier"   breed(army_sniper)	side(%side) brig(%brig)	sc(10)	cp(3)	cw(2)	c(3)	tags())
+
+("soldier"   breed(pzrk1)	side(%side) brig(%brig)	sc(10)	cp(3)	cw(2)	c(3)	tags())
+("soldier"   breed(pzrk2)	side(%side) brig(%brig)	sc(10)	cp(3)	cw(2)	c(3)	tags())
+("soldier"   breed(pzrk3)	side(%side) brig(%brig)	sc(10)	cp(3)	cw(2)	c(3)	tags())
+
 )
 
 
