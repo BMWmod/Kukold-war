@@ -53,7 +53,11 @@
 
 
 {"iregular_vvs_mp_flag"           ("hqcar" c(1800) brig(iregular_vvs) t(all all_nz hqcar no_frontline_hqcar) s(iregular) n(2) g(hqcar_support)   sc(1) b(hqcar) i(1) cw(0) cp(-200)) {cost 70}}
-{"iregular_artbr_mp_flag"           ("hqcar" c(1800) brig(iregular_artbr) t(all all_nz hqcar) s(iregular) n(2) g(hqcar_support)   sc(1) b(hqcar) i(3) cw(0) cp(-200)) {cost 70}}
+
+{"iartbr_mp_flag"           ("hqcar" c(1800) brig(iartbr) t(all all_nz hqcar) s(iregular) n(2) g(hqcar_support)   sc(1) b(iartbr) i(3) cw(0) cp(-200)) {cost 70}}
+
+
+
 {"iregular_mot_mp_flag"           ("hqcar" c(120) brig(iregular_mot) t(all all_nz hqcar) s(iregular) n(2) g(hqcar)   sc(1) b(hqcar) i(5) cw(0) cp(-200)) {cost 100}}
 {"iregular_specbr_mp_flag"           ("hqcar" c(120) brig(iregular_specbr) t(all all_nz hqcar) s(iregular) n(2) g(hqcar)   sc(1) b(hqcar) i(7) cw(0) cp(-200)) {cost 100}}
 
