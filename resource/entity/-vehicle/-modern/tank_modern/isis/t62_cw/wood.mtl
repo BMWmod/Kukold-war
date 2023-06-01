@@ -1,0 +1,5 @@
+{material simple
+	{diffuse "$/model/t62_new/box"}
+	{emitsheat}
+{blend none}
+}
