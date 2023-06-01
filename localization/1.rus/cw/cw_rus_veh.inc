@@ -6,11 +6,26 @@
 
 
 {"kamaz_zu" "<c(FFFFFF)><e(shadow)>КАМАЗ ЗСУ-23-2</c>"}
-{"2c1"	"<c(FFFFFF)e(shadow)>2С1 Гвоздика</c>"}
+{"zil131_2s1"	"<c(FFFFFF)e(shadow)>2С1 Гвоздика на базе ЗИЛ</c>"}
+{"leopard_2a4_dz"	"<c(FFFFFF)e(shadow)>Леопрад 2А4 с ДЗ К1</c>"}
+{"m1a1_lodka"	"<c(FFFFFF)e(shadow)>ГКР-1</c>"}
+{"brdm2kz"	"<c(FFFFFF)e(shadow)>БРДМ-2</c>"}
+{"uaz69s"	"<c(FFFFFF)e(shadow)>УАЗ-69М</c>"}
+
+{"toyota_hilux_grad_p"	"<c(FFFFFF)e(shadow)>Toyota Hilux с Град-п</c>"}
+{"toyota_hilux_nurs"	"<c(FFFFFF)e(shadow)>Toyota Hilux с УБ-32</c>"}
+{"uazpzrk"	"<c(FFFFFF)e(shadow)>УАЗ с РПО Шмель</c>"}
+{"uazm2"	"<c(FFFFFF)e(shadow)>УАЗ с М2 Browning</c>"}
 
 {"mstasm2_odkb"	"<c(FFFFFF)e(shadow)>2С19 Мста-С</c>"}
 {"kamaz_grad"	"<c(FFFFFF)e(shadow)>БМ–21А БелГрад</c>"}
 {"shershen_d_stan"	"<c(FFFFFF)e(shadow)>ПТРК Шершень</c>"}
+
+{"mtlb_supl"	"<c(FFFFFF)e(shadow)>МТ-ЛБ с тяжёлыми боеприпасами</c>"}
+{"9k35_strela_nurs"	"<c(FFFFFF)e(shadow)>МТ-ЛБ с УБ-32</c>"}
+{"mig-21bis_pizdec"	"<c(FFFFFF)e(shadow)>СУ-7БМВЭК Ударный</c>"}
+{"t80ybars"	"<c(FFFFFF)e(shadow)>Т-80 Барс</c>"}
+{"t62_isis"	"<c(FFFFFF)e(shadow)>Т-62 Образца 1972 года</c>"}
 
 
 
@@ -388,7 +403,7 @@
 				{"hj73_stan"							"<c(FFFFFF)e(shadow)>HJ-73</c>"}
 				{"hj8_stan"								"<c(FFFFFF)e(shadow)>HJ-8</c>"}
 				{"pbp-172"								"<c(FFFFFF)e(shadow)>PBP-172</c>"}
-				{"pl-66"								"<c(FFFFFF)e(shadow)>PL-66</c>"}
+				{"pl-66"								"<c(FFFFFF)e(shadow)>Д-20</c>"}
 				{"qjz-89_stan"							"<c(FFFFFF)e(shadow)>QJZ-89</c>"}
 				{"qlz04"								"<c(FFFFFF)e(shadow)>QLZ-04</c>"}
 				{"radar_bs903"							"<c(FFFFFF)e(shadow)>BS-903</c>"}
@@ -600,9 +615,9 @@
 			{"prado"									"<c(FFFFFF)e(shadow)>Toyota Land Cruiser Prado 150</c>"}
 			{"toyota_hilux"								"<c(FFFFFF)e(shadow)>Toyota Hilux</c>"}
 			{"toyota_hilux_ammo"						"<c(FFFFFF)e(shadow)>Toyota Hilux боеприпасы</c>"}
-			{"toyota_hilux_dshkm"						"<c(FFFFFF)e(shadow)>Toyota Hilux</c>"}
-			{"toyota_hilux_spg9"						"<c(FFFFFF)e(shadow)>Toyota Hilux</c>"}
-			{"toyota_hilux_transport"					"<c(FFFFFF)e(shadow)>Toyota Hilux</c>"}
+			{"toyota_hilux_dshkm"						"<c(FFFFFF)e(shadow)>Toyota Hilux c ДШКМ</c>"}
+			{"toyota_hilux_spg9"						"<c(FFFFFF)e(shadow)>Toyota Hilux с СПГ-9</c>"}
+			{"toyota_hilux_transport"					"<c(FFFFFF)e(shadow)>Toyota Hilux транспортный</c>"}
 			{"tractor_fiat25"							"<c(FFFFFF)e(shadow)>FIAT 25</c>"}
 			{"uaz_van"									"<c(FFFFFF)e(shadow)>УАЗ-452</c>"}
 			{"vaz_2106"									"<c(FFFFFF)e(shadow)>ВАЗ-2106</c>"}

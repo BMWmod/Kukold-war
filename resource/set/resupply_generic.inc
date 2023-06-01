@@ -1240,7 +1240,57 @@
 	;("supply_decal")
 )
 ;===========crates
+(define "mp_cwr_irg_heavy_boep"
+	{extender "supply_zone"
+		{resupply
+			("smallarms_rus")
+			("hmgun_rus")
+			("ags30")
+			("mortar_rus")
+			("UAV_rus")
+			("autocannons_rus")
+			("100mm")
+			("100mm_rapira")
+			("115mm")
+			("122mm")
+			("125mm")
+			("152mm")
+			("smokes")
+			("rpg_rus")
+			("atgm_rus")
+			("manpads_rus")
+			("smallarms_west")
+			("smallarms_usa")
+			("rpg_usa")
+			("manpads_usa")
+			("manpads_cn")
+			("grad")
+			("mortar_cn")
+			("type63_cn")
+			("105mm_idf")
+			("105mm_usa")
+			("155mm_USA")
+			("c5")
+			("120mm_USA")
+			
 
+		
+			("c8")
+			("c13")
+			("air_stuff_rus")
+			("manpads_rus")
+			("atgm_rus")
+			("sam_rus")
+			("air_stuff_usa")
+
+		}
+		{radius 			22}
+		{resupplyPeriod 	5}
+		{regenerationPeriod 7.8}
+		{limit 				2000}
+	}
+	("supply_decal")
+)
 (define "mp_cwr_irg_common"
 	{extender "supply_zone"
 		{resupply

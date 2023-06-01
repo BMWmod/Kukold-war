@@ -1,0 +1,96 @@
+;Конвертация в игру Pheonix
+;Настрока ТТХ Timosh
+
+{ArmoredCar 
+	(include "/properties/tank_amph.ext")
+	(include "/properties/shadow/tank.inc"  scale(1.2))
+	(include "/properties/selection/vehicle.inc"  scale(1.2))
+
+	{collider "tank.light"}
+	{props "light_M" "turret_rotator" "truck" "vision_lev04" "amphibia" "mtlb"}
+        	{targetClass "light_tank"}
+	{PatherID "amphibia"}
+
+	{extension "crew.ext"}
+	{extender "enumerator"}
+
+	{volume "body"
+		{tags "body"}
+		{component "body"}
+	}
+	{volume "body1"
+		{tags "body"}
+		{component "body"}
+	}
+
+	("armor_light" turret(7 7 1 5) body(14 7 1 5))	;точные данные есть только про лоб, но машина легкая, не более 7мм броня.
+	("armor_engine"  t(20))	
+
+	{extender "inventory"
+		{weapon "mgun"
+			{mask "weapon link_mmg"}
+		}
+		{box
+			{size 8 10}
+			{item "ammo pkm_ammo" 1750}
+			
+		}
+	}
+	(mod "mp"
+	 {extender "inventory"
+          {box
+            {size 8 10}
+			{item "mp_smallbox_rus" 1}
+      }
+    }
+	)
+	{Weaponry
+		{place "mgun"
+			("abm_zenite")
+			{type "mgun_aa"}
+			{weapon "pkt" filled}
+			{foresight "foresight3"}
+			{Barrels 1}
+			{charger "gunner"}
+			{basic}
+			("CW_stab_no_stabiliser")
+		}
+		
+	}	
+	{sensor
+		{visor "mgun"
+			{vision "tank_main-l"}
+			{bone "Visor1"}
+		}
+	}
+
+	{mass 9700}
+	{Chassis					
+                ("tank_trace" fx("tracks_sm") step(0.15) len(0.15))
+		("CW_tracks"
+			Mass(9.7)
+			Width(3.15)
+			Power(240)
+			Realspeed(60)
+			Gamespeed(39) 
+			Range(600)
+			Fuelvolume(462)
+		)
+	}
+	{props "cwfs_fuel_400"}
+
+	("CW_amphibia" Waterline(1.3) )
+	("two_headlights")
+	{Extension "mtlb_new.mdl"}
+	("missile_aimpoint_wieselsize")
+
+	("cwts_buksir")
+	{bone "turret"
+	             	{speed (* 30 0.000355) }
+	}
+	{bone "mgun_rot"
+        {limits -10 30}
+    }
+	("cw_suspension_6tracks_alt" downmax(-0.1) upmax(0.2))
+}
+
