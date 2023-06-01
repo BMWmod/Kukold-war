@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "$/model/tactical_Abrams/detail_abrams"}
+	{blend none}
+}
