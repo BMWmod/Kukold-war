@@ -710,7 +710,7 @@
 	{item "x_25ml_su25_ammo ammo" 1 {max 4}{value 80}}				
 	{item "x31p ammo" 2 {max 6}{value 20}}				
 	{item "x-38mte ammo" 1 {max 2}{value 75}}			
-	{item "x59m ammo" 1 {max 2}{value 125}}				
+	{item "x59m ammo" 1 {max 4}{value 125}}				
 	{item "r_27er ammo" 1 {max 6}{value 5}}				
 	{item "r-3c ammo" 1 {max 2}{value 5}}				
 	{item "r60_su25 ammo" 1 {max 2}{value 5}}				
@@ -939,6 +939,9 @@
 	("supply_decal")
 )
 ;===========flags
+
+
+
 (define "land_troops_flag_rus"
 	{extender "supply_zone"
 		{resupply
@@ -1083,6 +1086,9 @@
 	}
 	("supply_decal")
 )
+
+
+
 ;===========smallammobox
 (define "mp_smallbox_rus_konkurs"
 	{extender "supply_zone"
@@ -1234,6 +1240,49 @@
 	;("supply_decal")
 )
 ;===========crates
+
+(define "mp_cwr_irg_common"
+	{extender "supply_zone"
+		{resupply
+			("smallarms_rus")
+			("hmgun_rus")
+			("ags30")
+			("mortar_rus")
+			("UAV_rus")
+			("autocannons_rus")
+			("100mm")
+			("100mm_rapira")
+			("115mm")
+			("122mm")
+			("125mm")
+			("152mm")
+			("smokes")
+			("rpg_rus")
+			("atgm_rus")
+			("manpads_rus")
+	
+			("smallarms_west")
+			("smallarms_usa")
+			("rpg_usa")
+			("manpads_usa")
+			("manpads_cn")
+			("grad")
+			("mortar_cn")
+			("type63_cn")
+			("105mm_idf")
+			("105mm_usa")
+			("155mm_USA")
+			("c5")
+			("120mm_USA")
+
+		}
+		{radius 			10}
+		{resupplyPeriod 	5}
+		{regenerationPeriod 7.8}
+		{limit 				400}
+	}
+	("supply_decal")
+)
 (define "mp_cwr_rus_common"
 	{extender "supply_zone"
 		{resupply

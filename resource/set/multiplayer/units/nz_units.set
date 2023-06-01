@@ -592,8 +592,7 @@
  
  {"dshk_trenoga" {fore 1} ("vs" c(240) sc(40) g(stan_mgun) b(common) brig(common) s(cn)  i(6) cw(10) cp(5) t(all_nz    ) n(2)               ) }
  {"qlz04" {fore 0.5} ("vs" c(240) sc(80) g(stan1) b(common) brig(common) s(cn)  i(7) cw(10) cp(10) t(all_nz    ) n(2)               ) }
- {"type_pp87" {fore 0} ("vs" c(240) sc(80) g(stan2) b(common) brig(common) s(cn)  i(8) cw(1) cp(10) t(all_nz    ) n(2)               ) }
- {"pbp-172" {fore 0} ("vs" c(240) sc(100) g(stan) b(common) brig(common) s(cn)  i(9) cw(1) cp(10) t(all_nz    ) n(3)               ) }
+
  
 ("squad_with2types" name(bazookers2) f(0)  c(600) cost(80) g(jav) b(common) brig(common) side(cn)     t(all_nz    ) info(bazookers2) c1(bazooker2:1) c2(bazooker2_help:1)             ) 
  {"hj73_stan" {fore 1} ("vs" c(150) sc(35) g(ptursmall) b(common) brig(common) s(cn)  i(11) cw(1) cp(5) t(all_nz    ) n(1)               ) }
@@ -817,6 +816,9 @@
 {"toyota_hilux_spg9" {fore 1} ("vs" c(140) sc(69) g(reserv_6) b(supl) brig(common) s(iregular)  i(6) cw(5) cp(5) t(all_nz    ) n(4)               ) }
 
 
+ {"toyota_hilux_ammo" {fore 1} ("v3" c(600) sc(100) g(69) b(supl) brig(common) s(iregular)  i(20) cw(0) cp(2) t(all_nz supply ) n(2) c1(toyota_hilux_ammo) n1(vertpilot:2)      ) }
+ 
+
                                   
 ("squad_with2types" name(tankman) f(1)  c(1) cost(5) g(eng) b(supl) brig(common) side(iregular)     t(all_nz    ) info(tankman) c1(tankman:2)              ) 
 ("squad_with1types" name(vehicle_supporter) f(1)  c(30) cost(5) g(support) b(supl) brig(common) side(iregular)     t(all_nz    ) info(vehicle_supporter) c1(vehicle_supporter:4)              ) 
@@ -832,11 +834,13 @@
 ;=========================================== ¿–“¿   ================== ================== ==================                
 
 {"ural_grad" {fore 0} ("v" c(300) sc(200) g(art_heavy) b(iart_hqcar) brig(iart) s(iregular)  i(1) cw(0) cp(25) t(all_nz art  support_frontline) n(2)               ) }
-{"malytka_stan" {fore 0} ("v" c(300) sc(50) g(art2) b(iart_hqcar) brig(iart) s(iregular)  i(2) cw(0) cp(25) t(all_nz art  support_frontline) n(1)               ) }
-{"type_pp87" {fore 0} ("v" c(300) sc(100) g(art2) b(iart_hqcar) brig(iart) s(iregular)  i(3) cw(0) cp(25) t(all_nz art  support_frontline) n(2)               ) }
+{"malytka_stan" {fore 0} ("v" c(300) sc(30) g(no_art) b(iart_hqcar) brig(iart) s(iregular)  i(2) cw(0) cp(25) t(all_nz art  support_frontline) n(1)               ) }
+
+{"type_pp87"  {fore 0} ("v" c(300) sc(100) g(art2) b(iart_hqcar) brig(iart) s(iregular)  i(3) cw(0) cp(15) t(all_nz art  support_frontline) n(2)               ) }
+
 {"ags17" {fore 0} ("v" c(300) sc(69) g(art3) b(iart_hqcar) brig(iart) s(iregular)  i(4) cw(0) cp(25) t(all_nz art  support_frontline) n(2)               ) }
 {"pl-66" {fore 0.75} ("vart" c(300) sc(150) g(art_heavy) b(iart_hqcar) brig(iart) s(iregular)  i(5) cw(5) cp(15) t(all_nz art support_frontline  ) n(2) c1(mtlb_new) c2(pl-66) n1(vehicle_supporter:2)            ) }
-{"pbp-172" {fore 0} ("v" c(300) sc(120) g(art5) b(iart_hqcar) brig(iart) s(iregular)  i(6) cw(0) cp(25) t(all_nz art  support_frontline) n(3)               ) }
+{"pbp-172" {fore 0} ("v" c(300) sc(120) g(art5) b(iart_hqcar) brig(iart) s(iregular)  i(6) cw(0) cp(15) t(all_nz art  support_frontline) n(3)               ) }
 {"type63_rocket2i" {fore 0.75} ("vart" c(300) sc(100) g(art6) b(iart_hqcar) brig(iart) s(iregular)  i(7) cw(5) cp(15) t(all_nz art support_frontline  ) n(2) c1(mtlb_new) c2(type63_rocket2) n1(vehicle_supporter:2)            ) }
 {"zu23-2i" {fore 0.75} ("vart" c(300) sc(69) g(art7) b(iart_hqcar) brig(iart) s(iregular)  i(8) cw(5) cp(15) t(all_nz art support_frontline  ) n(2) c1(mtlb_new) c2(zu23-2) n1(vehicle_supporter:2)            ) }
 {"2c3_akaciya_irg" {fore 0} ("v3" c(250) sc(210) g(art_heavy)  b(iart_hqcar) brig(iart) s(iregular)  i(9) cw(0) cp(7) t(all_nz   ) c1(2c3_akaciya) n(1) n1(tankman:4)      ) }

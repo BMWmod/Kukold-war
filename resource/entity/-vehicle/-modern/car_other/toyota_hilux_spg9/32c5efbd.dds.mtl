@@ -1,0 +1,5 @@
+{material simple
+	{diffuse "$/model/toyota_hilux/32c5efbd"}
+	{emitsheat}
+{blend none}
+}

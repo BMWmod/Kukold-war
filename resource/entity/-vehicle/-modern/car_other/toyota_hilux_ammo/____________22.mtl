@@ -1,0 +1,8 @@
+{material bump
+	{diffuse "$/model/toyota_hilux/pikap_kuzov"}
+	{bump "$/model/toyota_hilux/pikap_kuzov_bp"}
+	{specular "$/model/toyota_hilux/pikap_kuzov_sp"}
+	{color "229 229 229 25"}
+	{emitsheat}
+{blend none}
+}

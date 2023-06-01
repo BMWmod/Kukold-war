@@ -1,0 +1,8 @@
+{material bump
+	{diffuse "$/model/toyota_hilux/b7d52cab"}
+	{bump "$/model/toyota_hilux/b7d52cab_bp"}
+	{specular "$/model/toyota_hilux/b7d52cab_sp"}
+	{color "229 229 229 25"}
+	{emitsheat}
+{blend none}
+}

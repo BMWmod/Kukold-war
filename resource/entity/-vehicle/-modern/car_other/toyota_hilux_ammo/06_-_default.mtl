@@ -1,0 +1,8 @@
+{material bump
+	{diffuse "$/model/toyota_hilux/body_yashik"}
+	{bump "$/model/toyota_hilux/body_yashik_bp"}
+	{specular "$/model/toyota_hilux/body_yashik_sp"}
+	{color "229 229 229 25"}
+	{emitsheat}
+{blend none}
+}
