@@ -92,12 +92,7 @@
 			{basic}
 		}
 
-		{place "flare_dropper"
-			{weapon "flare_dropper_128" filled}
-			{foresight "foresight_ltc"}
-			{charger "driver"}
-			{gunner "driver"}
-		}
+
 		
 	}       
 {Sensor
