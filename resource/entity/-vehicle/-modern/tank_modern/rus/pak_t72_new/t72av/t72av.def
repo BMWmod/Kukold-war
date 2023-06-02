@@ -211,7 +211,7 @@
 	{Extension "t72av.mdl"}
 	("missile_aimpoint_tanksize")
 	("cwts_buksir")
-
+	{texmod "desert2"}
 
 	{bone "mgun_turret"
 		{speed 0.02}
