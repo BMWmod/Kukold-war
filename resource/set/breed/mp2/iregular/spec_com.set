@@ -46,6 +46,18 @@
 		{"skill_airgm_launcher" lev_1
 		}
 	}
+	{veterancy
+		{"specnaz_lvl_1" 2
+		}
+		{"specnaz_lvl_2" 3
+		}
+		{"specnaz_lvl_3" 5
+		}
+		{"specnaz_lvl_4" 7
+		}
+		{"specnaz_lvl_5" 9
+		}
+	}
 	{inventory
 		{item "binocular"}
 		{item "bandage" 5}

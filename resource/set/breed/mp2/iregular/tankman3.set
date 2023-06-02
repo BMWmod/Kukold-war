@@ -1,13 +1,12 @@
 {breed
 	{skin "cw_syr_inf3"}
 	{portrait "_new/arb/tankman"}
-	{icon "tankman"}
+	{icon tankman}
 	{icon_priority 0}
 	{nationality arb}
 	{armors
 		{head tsh3l}
 	}
-
 	{perks
 		{"vision" mp_soldier
 		}
@@ -37,19 +36,18 @@
 		}
 		{"stealth"}
 		{"field_glass"}
-		{"skill_tankgun" lev_1
+		{"skill_tankgun" lev_4
 		}
-		{"skill_atgm_launcher" lev_1
+		{"skill_atgm_launcher" lev_4
 		}
-		{"skill_airgun" lev_1
+		{"skill_airgun" lev_4
 		}
-		{"skill_airgm_launcher" lev_1
+		{"skill_airgm_launcher" lev_4
 		}
 	}
-
 	{inventory
 		{item "bandage" 10}
-		{item "Aks47"}
+		{item "aks47"}
 		{item "ammo 762" 90}
 		{in_hands 1}
 	}

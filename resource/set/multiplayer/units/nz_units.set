@@ -595,7 +595,7 @@
 
  
 ("squad_with2types" name(bazookers2) f(0)  c(600) cost(80) g(jav) b(common) brig(common) side(cn)     t(all_nz    ) info(bazookers2) c1(bazooker2:1) c2(bazooker2_help:1)             ) 
- {"hj73_stan" {fore 1} ("vs" c(150) sc(35) g(ptursmall) b(common) brig(common) s(cn)  i(11) cw(1) cp(5) t(all_nz    ) n(1)               ) }
+ ;{"hj73_stan" {fore 1} ("vs" c(150) sc(35) g(ptursmall) b(common) brig(common) s(cn)  i(11) cw(1) cp(5) t(all_nz    ) n(1)               ) }
  {"hj8_stan" {fore 1} ("vs" c(250) sc(45) g(ptur) b(common) brig(common) s(cn)  i(12) cw(1) cp(5) t(all_nz    ) n(2)               ) }
  {"hmmwv_knkrs" {fore 1} ("vs" c(240) sc(80) g(car2) b(common) brig(common) s(cn)  i(13) cw(0) cp(10) t(all_nz att   ) n(3)               ) }
                                    
@@ -820,6 +820,11 @@
  {"mtlb_supl" {fore 1} ("v3" c(900) sc(100) g(169) b(supl) brig(common) s(iregular)  i(21) cw(0) cp(10) t(all_nz supply ) n(2) c1(mtlb_supl) n1(vehicle_supporter:2)      ) }
  
  
+  
+ {"brdm2_strelaii" {fore 1} ("v3" c(200) sc(69) g(pvo_st) b(common) brig(common) s(iregular)  i(22) cw(0) cp(15) t(all_nz   ) c1(brdm2_strela) n(1) n1(tankman:3)      ) }
+ {"Shilka_i" {fore 0} ("v3" c(300) sc(90) g(pvo2)  b(common) brig(common) s(iregular)  i(23) cw(0) cp(15) t(all_nz   ) c1(Shilka) n(1) n1(tankman:4)      ) }
+ {"9k35_strela-10" {fore 0} ("v3" c(300) sc(90) g(pvo3)  b(common) brig(common) s(iregular)  i(24) cw(0) cp(15) t(all_nz   ) c1(9k35_strela-10) n(1) n1(tankman:4)      ) }
+ 
 
                                   
 ("squad_with2types" name(tankman) f(1)  c(1) cost(5) g(eng) b(supl) brig(common) side(iregular)     t(all_nz    ) info(tankman) c1(tankman:2)              ) 
@@ -834,7 +839,7 @@
 ;=========================================== ¿–“¿   ================== ================== ==================                
 
 {"ural_grad" {fore 0} ("v" c(300) sc(200) g(art_heavy) b(iart_hqcar) brig(iart) s(iregular)  i(1) cw(0) cp(25) t(all_nz art  support_frontline) n(2)               ) }
-{"malytka_stan" {fore 0} ("v" c(300) sc(30) g(no_art) b(iart_hqcar) brig(iart) s(iregular)  i(2) cw(0) cp(25) t(all_nz art  support_frontline) n(1)               ) }
+{"hj73_stan" {fore 0} ("v" c(300) sc(30) g(no_art) b(iart_hqcar) brig(iart) s(iregular)  i(2) cw(0) cp(25) t(all_nz art  support_frontline) n(1)               ) }
 
 {"type_pp87"  {fore 0} ("v" c(300) sc(100) g(art2) b(iart_hqcar) brig(iart) s(iregular)  i(3) cw(0) cp(15) t(all_nz art  support_frontline) n(2)               ) }
 
