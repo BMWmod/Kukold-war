@@ -394,6 +394,10 @@
 					{Position -0.0652264	-53.1341	1.41214}
 					{VolumeView "body_detail2.ply"}
 				}
+				{bone "setka"
+					{Position 0.87301	1.02492	3.6133}
+					{VolumeView "b_setka.ply"}
+				}
 				{bone revolute "wheell9"
 					{parameters "ID=trackleft;"}
 					{Matrix34
@@ -1163,6 +1167,10 @@
 									-1	0	2.32021e-05
 									-0.0219143	-44.568	0.00625992
 								}
+							}
+							{bone "setkag"
+								{Position 0.87301	-2.02492	-6.2133}
+								{VolumeView "g_setka.ply"}
 							}
 						}
 						{bone "sh_gun_72b"
