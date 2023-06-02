@@ -1,4 +1,4 @@
 {material simple
-	{diffuse "$/model/uh-1/main_prop"}
+	{diffuse "$/model/ac130/vinty"}
 	{blend blend}
 }
