@@ -16,8 +16,11 @@
 {"mtlb_supl"			{structure "cwds_ifv"}}
 {"9k35_strela_nurs"		{structure "cwds_apc4"}}
 {"bmp1_isis"			{structure "cwds_ifv"}}
-{"ac130"{structure "cwds_plane_attack"}}	
+{"ac130"{structure "cwds_plane_cargo"}}	
 {"mig-21bis_pizdec"{structure "cwds_plane_attack"}}	
+{"su24m"{structure "cwds_plane_attack"}}
+{"su24m_strike"{structure "cwds_plane_attack"}}	
+{"su24m_kab"{structure "cwds_plane_attack"}}	
 
 ;===================RUS planes
 	{"mi28n"			{structure "cwds_heli_attack"}}
