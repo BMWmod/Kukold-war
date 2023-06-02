@@ -39,6 +39,18 @@
 	{placer
 		{place "driver"		{group "crew"}}
 		{place "commander"	{group "crew"}}
+		
+		{place "commander"	{group "crew"}}
+		{place "commander"	{group "crew"}}
+		
+		{place "commander"	{group "crew"}}
+		{place "commander"	{group "crew"}}
+		{place "commander"	{group "crew"}}
+		
+		{place "commander"	{group "crew"}}
+		{place "commander"	{group "crew"}}
+		{place "commander"	{group "crew"}}
+		{place "commander"	{group "crew"}}
 	}
 
 	{Volume "Vehicle" {able clear}}

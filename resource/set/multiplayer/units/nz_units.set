@@ -452,7 +452,7 @@
 ;===============================USAF===========================================                                   
  {"SSO_usa" {fore 0.8} ("v3" c(600) sc(90) g(sso) b(usaf_hqcar) brig(usaf) s(usa)  i(2) cw(0) cp(2) t(all_nz  support_frontline  ) n(3) c1(mh-6) n1(vertpilot:2) n2(delta_com_sso:1) n3(delta_marksman_sso:1) n4(delta_mgun_sso:1) n5(delta_smg_sso:1) n6(delta_smg2_sso:1) n7(delta_bazooker_sso:1)       ) }
  {"uh60" {fore 0.8} ("v3" c(600) sc(150) g(sso) b(usaf_hqcar) brig(usaf) s(usa)  i(20) cw(0) cp(2) t(all_nz  support_frontline  ) n(3) c1(uh60) n1(vertpilot:4) n2(delta_com_sso:1) n3(delta_marksman_sso:1) n4(delta_mgun_sso:1) n5(delta_smg_sso:1) n6(delta_smg2_sso:2) n7(delta_bazooker_sso:2) n8(delta_mgun:1)  n9(delta_smg_sso:2)    ) }                                 
- 
+ {"ac130" {fore 0.3} ("v_cust" c(700) sc(222) g(ac130) b(usaf_hqcar) brig(usaf) s(usa) crew(usa/vertpilot_apache) i(20) cw(0) cp(50) t(all_nz aircraft support_frontline  nobot) n(2)               ) }
 
  
  {"mq9" {fore 0.45} ("h" c(911) sc(100) g(heli) b(usaf_hqcar) brig(usaf) s(usa)  i(3) cw(0) cp(5) t(all_nz aircraft support_frontline  ) n(0)               ) }
