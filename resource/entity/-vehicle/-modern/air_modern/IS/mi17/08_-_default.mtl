@@ -1,0 +1,5 @@
+{material simple
+	{diffuse "$/model/Mi17/shassi"}
+	{emitsheat}
+{blend none}
+}

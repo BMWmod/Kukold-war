@@ -1,0 +1,6 @@
+{material bump
+	{diffuse "$/model/Mi17/salon"}
+	{bump "$/model/Mi17/salon_bp"}
+	{emitsheat}
+{blend none}
+}

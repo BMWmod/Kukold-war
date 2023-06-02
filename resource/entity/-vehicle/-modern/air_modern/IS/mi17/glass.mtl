@@ -1,0 +1,5 @@
+{material simple
+	{diffuse "$/model/Mi17/glass"}
+	{emitsheat}
+{blend blend}
+}

@@ -1240,6 +1240,33 @@
 	;("supply_decal")
 )
 ;===========crates
+(define "mp_cwr_irg_heli_boep"
+	{extender "supply_zone"
+		{resupply
+			("smallarms_rus")
+			("hmgun_rus")
+			("ags30")
+			("mortar_rus")
+			("rpg_rus")
+			("smallarms_west")
+			("smallarms_usa")
+			("manpads_usa")
+			("manpads_cn")
+			("manpads_rus")
+			("atgm_rus")
+			("atgm_usa")
+			
+
+		}
+		{radius 			10}
+		{resupplyPeriod 	5}
+		{regenerationPeriod 7.8}
+		{limit 				250}
+	}
+	("supply_decal")
+)
+
+
 (define "mp_cwr_irg_heavy_boep"
 	{extender "supply_zone"
 		{resupply

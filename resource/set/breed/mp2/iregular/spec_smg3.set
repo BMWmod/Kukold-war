@@ -1,0 +1,70 @@
+{breed
+	{skin "cw_che_boevik4"}
+	{portrait "_new/chn/inf"}
+	{icon elite}
+	{icon_priority 2}
+	{tags "officer"}
+	{nationality chn}
+	{armors
+		{head "sh-68"}
+	}
+	{perks
+		{"vision" mp_officer
+		}
+		{"smg" lvl_4
+		}
+		{"mgun" lvl_2
+		}
+		{"rifle" lvl_3
+		}
+		{"rocketlauncher" lvl_3
+		}
+		{"pistol" lvl_4
+		}
+		{"gra_launch" lvl_3
+		}
+		{"melee" lvl_3
+		}
+		{"avoidance" lvl_3
+		}
+		{"health" "150%"
+		}
+		{"stamina" "200%"
+		}
+		{"stamina_regeneration" "10%"
+		}
+		{"speed" 1.1
+		}
+		{"stealth"}
+		{"field_glass"}
+		{"skill_tankgun" lev_1
+		}
+		{"skill_atgm_launcher" lev_4
+		}
+		{"skill_airgun" lev_1
+		}
+		{"skill_airgm_launcher" lev_1
+		}
+	}
+	{veterancy
+		{"specnaz_lvl_1" 2
+		}
+		{"specnaz_lvl_2" 3
+		}
+		{"specnaz_lvl_3" 5
+		}
+		{"specnaz_lvl_4" 7
+		}
+		{"specnaz_lvl_5" 9
+		}
+	}
+	{inventory
+		{item "6b5-16"}
+		{item "bandage" 4}
+		{item "f1 grenade" 4}
+		{item "rpg76 weapon" 2 filling "rpg76_heat ammo" 1}
+		{item "ak74spec_1" filling "545 ammo" 30}
+		{item "545 ammo" 200}
+		{in_hands 4}
+	}
+}

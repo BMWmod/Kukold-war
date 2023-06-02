@@ -796,6 +796,15 @@
 ("soldier"   breed(pzrk3)	side(%side) brig(%brig)	sc(10)	cp(3)	cw(2)	c(3)	tags())
 
 ("soldier"   breed(pilot)	side(%side) brig(%brig)	sc(10)	cp(3)	cw(2)	c(3)	tags())
+
+
+("soldier"   breed(spec_com)	side(%side) brig(%brig)	sc(10)	cp(3)	cw(2)	c(3)	tags())
+("soldier"   breed(spec_mg)	side(%side) brig(%brig)	sc(10)	cp(3)	cw(2)	c(3)	tags())
+("soldier"   breed(spec_saper)	side(%side) brig(%brig)	sc(10)	cp(3)	cw(2)	c(3)	tags())
+("soldier"   breed(spec_smg1)	side(%side) brig(%brig)	sc(10)	cp(3)	cw(2)	c(3)	tags())
+("soldier"   breed(spec_smg2)	side(%side) brig(%brig)	sc(10)	cp(3)	cw(2)	c(3)	tags())
+("soldier"   breed(spec_smg3)	side(%side) brig(%brig)	sc(10)	cp(3)	cw(2)	c(3)	tags())
+("soldier"   breed(spec_sniper)	side(%side) brig(%brig)	sc(10)	cp(3)	cw(2)	c(3)	tags())
 )
 
 

@@ -1,0 +1,8 @@
+{material bump
+	{diffuse "$/model/Mi17/mi8_body_g_vsr_co2"}
+	{bump "$/model/Mi17/body_bp"}
+	{specular "$/model/Mi17/body_sp"}
+	{color "229 229 229 25"}
+	{emitsheat}
+{blend none}
+}
