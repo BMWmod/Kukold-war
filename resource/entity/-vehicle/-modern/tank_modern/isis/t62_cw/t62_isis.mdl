@@ -530,6 +530,10 @@
 								49.2349	-1.39099	1.04887
 							}
 							{VolumeView "gun.ply"}
+							{bone "setkag"
+								{Position 0.87301	-4.02492	-6.2133}
+								{VolumeView "g_setka.ply"}
+							}
 							{bone "foresight1"
 								{Matrix34
 									-0.000676478	-0.999991	0.00416662
