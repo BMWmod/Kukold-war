@@ -854,7 +854,7 @@
 {"t64" {fore 1} ("v" c(200) sc(100) g(tonk3) b(iregular_mot_hqcar) brig(iregular_mot) s(iregular)  i(2) cw(0) cp(10) t(all_nz   ) n(3)               ) }
 {"t62_isis" {fore 1} ("v" c(200) sc(100) g(tonk2) b(iregular_mot_hqcar) brig(iregular_mot) s(iregular)  i(3) cw(0) cp(10) t(all_nz   ) n(4)               ) }
 {"t80ybars" {fore 0} ("v" c(900) sc(222) g(tonk1) b(iregular_mot_hqcar) brig(iregular_mot) s(iregular)  i(4) cw(0) cp(50) t(all_nz rogatka   ) n(3)               ) }
-{"t72av" {fore 0} ("v" c(900) sc(222) g(tonk1) b(iregular_mot_hqcar) brig(iregular_mot) s(iregular)  i(5) cw(0) cp(35) t(all_nz    ) n(3)               ) }
+{"t72av" {fore 0} ("v" c(900) sc(200) g(tonk1) b(iregular_mot_hqcar) brig(iregular_mot) s(iregular)  i(5) cw(0) cp(35) t(all_nz    ) n(3)               ) }
 
 
 
