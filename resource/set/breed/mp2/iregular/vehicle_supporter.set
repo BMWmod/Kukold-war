@@ -36,13 +36,13 @@
 		}
 		{"stealth"}
 		{"field_glass"}
-		{"skill_tankgun" lev_1
+		{"skill_tankgun" lev_2
 		}
-		{"skill_atgm_launcher" lev_1
+		{"skill_atgm_launcher" lev_2
 		}
-		{"skill_airgun" lev_1
+		{"skill_airgun" lev_2
 		}
-		{"skill_airgm_launcher" lev_1
+		{"skill_airgm_launcher" lev_2
 		}
 	}
 	{inventory

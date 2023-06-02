@@ -24,7 +24,7 @@
 		{component "turret"}
 	}
 
-        ("armor_heavy" turret(695 387 80 75) body(264 85 40 100))
+        ("armor_heavy" turret(578 387 80 75) body(264 85 40 100))
 	("comp_armor_increment" turret(33) body(7))
 
 	("armor_mantlet" t(15))
@@ -122,8 +122,7 @@
 			{item "ammo bullet125_RUS apcr_h" 17}
 			{item "ammo bullet125_RUS cm" 9}
 			{item "ammo bullet125_RUS cm_e" 2}
-			{item "ammo bullet125_RUS fg" 11}
-			{item "ammo bullet125_h_rus rok" 5}		
+			{item "ammo bullet125_RUS fg" 11}	
 			{item "Dshk_m" filled {user "mgun"}}
 			{item "ammo arena" 24}
 		
@@ -184,11 +183,11 @@
 	{Chassis
 		("tank_trace" fx("tracks_big") step(0.47) len(1.2))
 		("CW_tracks"		;http://bastion-karpenko.ru/t-80um1/
-			Mass(46)
+			Mass(47)
 			Width(3.67)
-			Power(1250)
-			Realspeed(80)
-			Gamespeed(46) 
+			Power(1050)
+			Realspeed(70)
+			Gamespeed(40) 
 			Range(562)
 			Fuelvolume(1840)
 		)
