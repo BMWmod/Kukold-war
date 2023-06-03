@@ -810,8 +810,8 @@
 
  {"toyota_hilux_grad_p" {fore 1} ("vs" c(222) sc(100) g(art_toyhota) b(supl) brig(common) s(iregular)  i(1) cw(5) cp(5) t(all_nz    ) n(4)               ) }							
 {"toyota_hilux_nurs" {fore 1} ("vs" c(222) sc(100) g(art_toyhota) b(supl) brig(common) s(iregular)  i(2) cw(5) cp(5) t(all_nz    ) n(4)               ) }							
-{"uazpzrk" {fore 0} ("vs" c(222) sc(50) g(reserv_3) b(supl) brig(common) s(iregular)  i(3) cw(5) cp(5) t(all_nz    ) n(4)               ) }
-{"uazm2" {fore 1} ("vs" c(222) sc(50) g(reserv_4) b(supl) brig(common) s(iregular)  i(4) cw(5) cp(5) t(all_nz    ) n(4)               ) }
+{"uazpzrk" {fore 0} ("vs" c(222) sc(50) g(reserv_3) b(supl) brig(common) s(iregular)  i(3) cw(5) cp(5) t(all_nz    ) n(3)               ) }
+{"uazm2" {fore 1} ("vs" c(222) sc(50) g(reserv_4) b(supl) brig(common) s(iregular)  i(4) cw(5) cp(5) t(all_nz    ) n(3)               ) }
 {"toyota_hilux_dshkm" {fore 1} ("vs" c(222) sc(50) g(reserv_5) b(supl) brig(common) s(iregular)  i(5) cw(5) cp(5) t(all_nz    ) n(4)               ) }
 {"toyota_hilux_spg9" {fore 1} ("vs" c(140) sc(69) g(reserv_6) b(supl) brig(common) s(iregular)  i(6) cw(5) cp(5) t(all_nz    ) n(4)               ) }
 
@@ -831,7 +831,6 @@
 ("squad_with1types" name(vehicle_supporter) f(1)  c(30) cost(5) g(support) b(supl) brig(common) side(iregular)     t(all_nz    ) info(vehicle_supporter) c1(vehicle_supporter:4)              ) 
 ("squad_with2types" name(pilot) f(1)  c(50) cost(5) g(eng) b(supl) brig(common) side(iregular)     t(all_nz    ) info(pilot) c1(Pilot:1)              ) 
                                    
-;{"t-55" {fore 1} ("v" c(200) sc(100) g(tonk) b(supl) brig(common) s(iregular)  i(7) cw(0) cp(10) t(all_nz   ) n(4)               ) }
 
 {"mig-21bis_pizdec" {fore 0} ("p" c(900) sc(222) g(tonk1) b(supl) brig(common) s(iregular)  i(11) cw(0) cp(50) t(all_nz rogatka   ) n(1)               ) }								
 	
@@ -860,13 +859,13 @@
 
 ;===================================== Тяжёлая бригада =====================================================
 
-{"t-55" {fore 1} ("v" c(200) sc(100) g(tonk) b(iregular_mot_hqcar) brig(iregular_mot) s(iregular)  i(1) cw(0) cp(10) t(all_nz   ) n(4)               ) }
-{"t64" {fore 1} ("v" c(200) sc(100) g(tonk3) b(iregular_mot_hqcar) brig(iregular_mot) s(iregular)  i(2) cw(0) cp(10) t(all_nz   ) n(3)               ) }
-{"t62_isis" {fore 1} ("v" c(200) sc(100) g(tonk2) b(iregular_mot_hqcar) brig(iregular_mot) s(iregular)  i(3) cw(0) cp(10) t(all_nz   ) n(4)               ) }
+{"t-55" {fore 1} ("v" c(100) sc(100) g(tonk) b(iregular_mot_hqcar) brig(iregular_mot) s(iregular)  i(1) cw(0) cp(10) t(all_nz   ) n(4)               ) }
+{"t64" {fore 1} ("v" c(120) sc(100) g(tonk3) b(iregular_mot_hqcar) brig(iregular_mot) s(iregular)  i(2) cw(0) cp(10) t(all_nz   ) n(3)               ) }
+{"t62_isis" {fore 1} ("v" c(140) sc(100) g(tonk2) b(iregular_mot_hqcar) brig(iregular_mot) s(iregular)  i(3) cw(0) cp(10) t(all_nz   ) n(4)               ) }
 {"t72m_siriya" {fore 1} ("v" c(260) sc(105) g(tank_old_new1)b(iregular_mot_hqcar) brig(iregular_mot) s(iregular)  i(4) cw(0) cp(30) t(all_nz    ) n(3)               ) }
-{"m1_abrams" {fore 1} ("v" c(260) sc(105) g(tank_old_new1)b(iregular_mot_hqcar) brig(iregular_mot) s(iregular)  i(5) cw(0) cp(30) t(all_nz    ) n(3)               ) }
+{"m1_abrams" {fore 1} ("v" c(260) sc(105) g(tank_old_new1)b(iregular_mot_hqcar) brig(iregular_mot) s(iregular)  i(5) cw(0) cp(30) t(all_nz    ) n(5)               ) }
  
-{"leopard_2a0" {fore 1} ("v" c(300) sc(105) g(tank_old_new2)b(iregular_mot_hqcar) brig(iregular_mot) s(iregular)  i(6) cw(0) cp(30) t(all_nz    ) n(3)               ) }
+{"leopard_2a0" {fore 1} ("v" c(300) sc(120) g(tank_old_new2)b(iregular_mot_hqcar) brig(iregular_mot) s(iregular)  i(6) cw(0) cp(30) t(all_nz    ) n(4)               ) }
  
 {"t72av" {fore 0} ("v" c(600) sc(180) g(tonk1) b(iregular_mot_hqcar) brig(iregular_mot) s(iregular)  i(7) cw(0) cp(35) t(all_nz    ) n(3)               ) }
 {"t80ybars" {fore 0} ("v_v" c(900) sc(222) g(tonk_pizdec) b(iregular_mot_hqcar) brig(iregular_mot) s(iregular)  i(8) cw(0) cp(50) t(all_nz rogatka   ) n(3)               ) }
