@@ -10,8 +10,8 @@
 	{extender "enumerator" {digit_folder "vks"}}
 	{mass 80000}
 	{armor
-	("air_armor" body(2) wing(3) avionics(3) engine(3) hydrosystem(4) electronics(4) fuel(4))
-	("armor_panel" name(armor) thickness(4))
+	("air_armor" body(4) wing(4) avionics(4) engine(5) hydrosystem(5) electronics(5) fuel(5))
+	("armor_panel" name(armor) thickness(5))
 	{setting "armor"
 		{thickness 4}
 		{volumes "armor*"}
@@ -115,9 +115,9 @@
 	}
 	
 	("Chassis_parameters" 
-	Speed(71) TurnRadius(47) 
-	Fuel(114600) Fuel_remain(50000) Fuel_rate(17.19) 
-	Acc_hor(2.31) Maneuvrability_hor(3.29)
+	Speed(78) TurnRadius(43) 
+	Fuel(46911) Fuel_remain(50000) Fuel_rate(17.19) 
+	Acc_hor(2.31) Maneuvrability_hor(3.78)
 	Acc_ver(2.85) Maneuvrability_ver(2.06)
 	)
 	{props "cwfs_fuel_3000"}
