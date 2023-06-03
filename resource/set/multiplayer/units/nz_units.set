@@ -818,6 +818,7 @@
 
  {"toyota_hilux_ammo" {fore 1} ("v3" c(600) sc(100) g(69) b(supl) brig(common) s(iregular)  i(20) cw(0) cp(2) t(all_nz supply ) n(2) c1(toyota_hilux_ammo) n1(vehicle_supporter:2)      ) }
  {"mtlb_supl" {fore 1} ("v3" c(900) sc(100) g(169) b(supl) brig(common) s(iregular)  i(21) cw(0) cp(10) t(all_nz supply ) n(2) c1(mtlb_supl) n1(vehicle_supporter:2)      ) }
+ {"brem-1" {fore 1} ("v3" c(900) sc(120) g(269) b(supl) brig(common) s(iregular)  i(26) cw(0) cp(10) t(all_nz supply ) n(2) c1(brem-1) n1(vehicle_supporter:2)      ) }
  
  
   
@@ -859,7 +860,7 @@
 
 ;===================================== Тяжёлая бригада =====================================================
 
-{"t-55" {fore 1} ("v" c(100) sc(100) g(tonk) b(iregular_mot_hqcar) brig(iregular_mot) s(iregular)  i(1) cw(0) cp(10) t(all_nz   ) n(4)               ) }
+{"t-55" {fore 1} ("v" c(100) sc(69) g(tonk) b(iregular_mot_hqcar) brig(iregular_mot) s(iregular)  i(1) cw(0) cp(10) t(all_nz   ) n(4)               ) }
 {"t64" {fore 1} ("v" c(120) sc(100) g(tonk3) b(iregular_mot_hqcar) brig(iregular_mot) s(iregular)  i(2) cw(0) cp(10) t(all_nz   ) n(3)               ) }
 {"t62_isis" {fore 1} ("v" c(140) sc(100) g(tonk2) b(iregular_mot_hqcar) brig(iregular_mot) s(iregular)  i(3) cw(0) cp(10) t(all_nz   ) n(4)               ) }
 {"t72m_siriya" {fore 1} ("v" c(260) sc(105) g(tank_old_new1)b(iregular_mot_hqcar) brig(iregular_mot) s(iregular)  i(4) cw(0) cp(30) t(all_nz    ) n(3)               ) }
