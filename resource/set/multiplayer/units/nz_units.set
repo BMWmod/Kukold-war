@@ -207,7 +207,7 @@
                                    
  {"2b14_podnos" {fore 0.3} ("vs" c(600) sc(70) g(stan1) b(specbr_hqcar) brig(specbr) s(rus)  i(13) cw(1) cp(10) t(all_nz    ) n(2)               ) }
                                    
- {"uran9_support" {fore 0.3} ("vart_kamaz" c(600) sc(90) g(uran_sup) b(specbr_hqcar) brig(specbr) s(rus)  i(14) cw(0) cp(5) t(all_nz art att  ) c1(uran9_assault2) c2(kamaz-r142nm) n1(vehicle_supporter:0) n2(vehicle_supporter:5)            ) }
+ {"uran9_assault2" {fore 0.3} ("vart_kamaz" c(600) sc(90) g(uran_sup) b(specbr_hqcar) brig(specbr) s(rus)  i(14) cw(0) cp(5) t(all_nz art att  ) c1(uran9_assault2) c2(kamaz-r142nm) n1(vehicle_supporter:0) n2(vehicle_supporter:5)            ) }
  {"ka52k" {fore 0} ("h" c(1200) sc(300) g(aka) b(specbr_hqcar) brig(specbr) s(rus)  i(15) cw(0) cp(100) t(all_nz art heli  ) n(2)               ) }
                                    
 ;===============================Не захватывает территорию===========================================                                   
