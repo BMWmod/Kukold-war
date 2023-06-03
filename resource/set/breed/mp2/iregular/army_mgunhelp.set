@@ -1,5 +1,5 @@
 {breed
-	{skin "cw_syr_inf1"}
+	{skin "cw_arb_militia_mg"}
 	{portrait "_new/arb/inf"}
 	{icon "smgs"}
 	{icon_priority 0}
