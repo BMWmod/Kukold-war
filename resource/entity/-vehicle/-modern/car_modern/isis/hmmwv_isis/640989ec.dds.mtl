@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/model/hmmwv/hmmwv_body"}
+	{bump "$/model/hmmwv/hmmwv_body_bp"}
+	
+	{color "255 255 255 25"}
+	{blend none}
+}

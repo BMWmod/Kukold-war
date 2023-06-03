@@ -210,10 +210,10 @@
 }
 
 
-	{"saab_j39"
+{"saab_j39"
 ("air_multibarrel_launcher" weapon(ptur2) shooter(shooter)missile(aim-120c7) flashbarrel(shooter))				}
 
-	{"a4_skyhawk"
+{"a4_skyhawk"
 ("air_multibarrel_launcher" weapon(ptur1) shooter(shooter_) missile(agm-65g) flashbarrel(shooter_))				}
 
 {"su24_x59"

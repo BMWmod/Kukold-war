@@ -141,7 +141,7 @@
 	("uaz_sound")	  
 }
 
-{"hmmwv_ukr"
+{"hmmwv_isis"
 	{on spawn
 		{add_view	"exhaust_dark_small"	"exhaust"		"FXsmoke"}
 		{add_view	"exhaust_dark_small"	"exhaust"		"FXsmoke1"}

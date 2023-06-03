@@ -1,0 +1,70 @@
+{actor
+	(include "/properties/cannon_mgun_mod.ext")
+	(include "/properties/shadow/tank.inc"  scale(0.3))
+	{props "collectable" "ATGM" "vision_lev01a_can" "round_sandbag2"}
+	("cw_armor_atgm")
+	{targetClass "cannon_atgm" "atgm"}
+	{extender "stuff"
+		{item "ptur_konkurs"}
+	}
+	{extender "inventory"
+		{box
+			{Size 6 6}
+			{weight 300}
+			{item "ammo fagot_concurs 9m113m1" 4}
+			(mod "mp"
+				{item "plant" 3}
+			)
+		}	
+	}
+	{Weaponry
+		{place "gun"
+		{weapon "weapon 9k111-1konkurs" filling "ammo fagot_concurs 9m113m1" 1}
+			{foresight "foresight1"}
+			{barrels 1}
+			{gunner "gunner"}
+			{charger "gunner"}
+			{basic}
+		}
+	}
+{boarder
+	{anm "gunner"
+		{forward	{end "lie_fire_pistol"}}
+	}
+	{anm "commander"
+		{forward	{end "lie_take_item_end"}}
+	}
+	{anm "driver1"
+		{forward {end "mgun_browning_driver_r"}}
+	}
+	{anm "driver2"
+		{forward {end "mgun_browning_driver_l"}}
+	}
+	{link "driver1" "gunner"}
+	{link "driver2" "commander"}
+}
+{extender "cannon"
+	{animation
+		{switch "close"}
+		{move "mgun_browning_driver_r" "mgun_browning_driver_l"}
+		{aim "" ""}
+		{fire  "" ""}
+		{reload  "" "lie_take_small end lie_take_item_end"}
+	}
+	{animation
+		{switch close}
+	}
+	{attack {workers "gunner" "commander"}}
+}  	
+	{Extension "ptur_konkurs.mdl"}
+	("missile_aimpoint_stansize")
+
+	{bone "basis"
+		{limits}
+	    	{speed 0.007}
+	}
+{Volume "select"
+		{able{obstacle 0} {Bullet 0} {Contact 0} {Select 1} {Blast 0} {Overlap 0} {Touch 1} {Contact_ground 0}}
+	}
+
+}

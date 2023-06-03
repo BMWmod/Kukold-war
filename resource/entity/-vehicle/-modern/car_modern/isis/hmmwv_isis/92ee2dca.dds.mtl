@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "$/model/hmmwv/hmmwv_glass"}
+	{blend none}
+}
