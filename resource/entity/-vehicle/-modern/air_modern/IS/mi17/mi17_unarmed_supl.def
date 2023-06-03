@@ -56,7 +56,7 @@
 			{item "mine_detector" 2}	
 			{item "ptur_tow" 1}
 			{item "ptur_tow" 1}
-			{item "hj-73_stan" 1}
+			
 			{item "rpg26" "weapon" 20 filled {cell 0 3}}
 			{item "545" "ammo" 3000 {cell 0 6}}
 			{item "rpk_ammo" "ammo" 5000 {cell 1 6}}

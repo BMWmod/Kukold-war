@@ -836,7 +836,7 @@
 {"mig-21bis_pizdec" {fore 0} ("p" c(900) sc(222) g(tonk1) b(supl) brig(common) s(iregular)  i(11) cw(0) cp(50) t(all_nz rogatka   ) n(1)               ) }								
 	
 
- {"sso_irg" {fore 0} ("v3" c(600) sc(250) g(sso)  b(supl) brig(common) s(iregular)  i(25) cw(0) cp(45) t(all_nz  support_frontline  ) n(2) c1(mi17_unarmed_supl) n1(pilot:2) n2(spec_com:1) n3(spec_mg:1) n4(spec_saper:2) n5(spec_smg1:2) n6(spec_smg2:2) n7(spec_smg3:1) n8(spec_sniper:1)       ) }
+ {"sso_irg" {fore 1} ("v3" c(900) sc(569) g(sso)  b(supl) brig(common) s(iregular)  i(25) cw(0) cp(45) t(all_nz  support_frontline  ) n(2) c1(mi17_unarmed_supl) n1(pilot:2) n2(spec_com:1) n3(spec_mg:1) n4(spec_saper:2) n5(spec_smg1:2) n6(spec_smg2:2) n7(spec_smg3:1) n8(spec_sniper:1)       ) }
 
 ;=========================================== ¿–“¿   ================== ================== ==================                
 
