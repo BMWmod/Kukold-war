@@ -38,7 +38,7 @@
 		{box
 			{Size 7 10}
 			{item "ammo bullet152_RUS_a fg" 25}
-			{item "ammo bullet152_RUS rok" 10}
+			
 		}
 	}
 		{Weaponry
