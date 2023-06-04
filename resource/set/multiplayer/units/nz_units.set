@@ -112,7 +112,7 @@
  {"bm-30_tornado_s" {fore 0.0} ("vs" c(1100) sc(470) g(rszo1) b(artbr_hqcar) brig(artbr) s(rus)  i(10) cw(0) cp(50) t(all_nz art support_frontline  ) n(4)               ) }
  {"tos-1a_solntsepek" {fore 0} ("v" c(900) sc(450) g(rszo1) b(artbr_hqcar) brig(artbr) s(rus)  i(11) cw(0) cp(70) t(all_nz art no_frontline support_frontline  ) n(3)               ) }
  {"iskander" {fore 0} ("vs" c(1330) sc(350) g(otrk) b(artbr_hqcar) brig(artbr) s(rus)  i(12) cw(0) cp(65) t(all_nz art support_frontline  ) n(3)               ) }
- {"9k72" {fore 0} ("vs" c(1330) sc(469) g(otrk) b(artbr_hqcar) brig(artbr) s(rus)  i(18) cw(0) cp(70) t(all_nz art support_frontline  ) n(3)               ) }                                  
+                                  
  {"shahed136_truck" {fore 0} ("vs" c(900) sc(250) g(otrk) b(artbr_hqcar) brig(artbr) s(rus)  i(24) cw(0) cp(70) t(all_nz art support_frontline  ) n(2)               ) }	
 	
  {"tunguska" {fore 0.0} ("v" c(240) sc(130) g(pvo) b(artbr_hqcar) brig(artbr) s(rus)  i(13) cw(0) cp(25) t(all_nz art aat support_frontline  ) n(4)               ) }
@@ -857,6 +857,7 @@
 {"2c3_akaciya_irg" {fore 0} ("v3" c(500) sc(210) g(art_heavy)  b(iart_hqcar) brig(iart) s(iregular)  i(9) cw(0) cp(7) t(all_nz   ) c1(2c3_akaciya) n(1) n1(tankman:4)      ) }
 {"9k35_strela_nurs" {fore 0} ("v" c(787) sc(91) g(art9) b(iart_hqcar) brig(iart) s(iregular)  i(10) cw(0) cp(25) t(all_nz art  support_frontline) n(3)               ) }
 {"brdm2_atgm" {fore 0} ("v" c(333) sc(100) g(art10) b(iart_hqcar) brig(iart) s(iregular)  i(11) cw(0) cp(25) t(all_nz art  support_frontline) n(2)               ) }
+{"9k72" {fore 0} ("vs" c(1330) sc(469) g(otrk)  b(iart_hqcar) brig(iart) s(iregular)  i(12) cw(0) cp(69) t(all_nz art support_frontline  ) n(7)               ) } 
 
 ;===================================== Тяжёлая бригада =====================================================
 
