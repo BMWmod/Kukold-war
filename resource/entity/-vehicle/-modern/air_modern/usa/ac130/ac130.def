@@ -90,10 +90,7 @@
 			{charger "commander"}
 			{foresight "foresight2"}
 			{basic}
-		}
-
-
-		
+		}	
 	}       
 {Sensor
 		{Visor "pilot"
