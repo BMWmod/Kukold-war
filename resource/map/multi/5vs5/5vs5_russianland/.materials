@@ -181,22 +181,22 @@
 	}
 	{"mtl18"
 		{layer bump
+			{diffuse "/texture/land/grass/gramma_9a"}
+			{bump "/texture/land/grass/gramma_9a_nm"}
+		}
+		{layer bump
+			{diffuse "/texture/land/grass/gramma_111"}
+			{bump "/texture/land/grass/gramma_111_nm"}
+		}
+	}
+	{"mtl19"
+		{layer bump
 			{diffuse "/texture/land/grass/gramma_111"}
 			{bump "/texture/land/grass/gramma_111_nm"}
 		}
 		{layer bump
 			{diffuse "/texture/land/dirt/clay_gr1"}
 			{bump "/texture/land/dirt/clay_gr1_nm"}
-		}
-	}
-	{"mtl19"
-		{layer bump
-			{diffuse "/texture/land/dirt/clay_gr1"}
-			{bump "/texture/land/dirt/clay_gr1_nm"}
-		}
-		{layer bump
-			{diffuse "/texture/land/fields/tillage_1sun"}
-			{bump "/texture/land/fields/tillage_1sun_nm"}
 		}
 	}
 }
