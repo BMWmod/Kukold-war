@@ -1,13 +1,12 @@
 {breed
 	{skin "cw_che_boevik2"}
 	{portrait "_new/arb/inf"}
-	{icon "soldier"}
+	{icon soldier}
 	{icon_priority 0}
 	{nationality arb}
 	{armors
 		{head cap_wool}
 	}
-
 	{perks
 		{"vision" mp_sniper
 		}
@@ -33,14 +32,13 @@
 		}
 		{"stamina_regeneration" "110%"
 		}
-		{"speed" 1.0
+		{"speed" 1
 		}
 		{"stealth"}
 		{"field_glass"}
 		{"skill_tankgun" lev_1
 		}
-		{"skill_atgm_launcher" lev_2
-		}
+		{"skill_atgm_launcher"}
 		{"skill_airgun" lev_1
 		}
 		{"skill_airgm_launcher" lev_1
@@ -49,10 +47,10 @@
 	{inventory
 		{item "tarzan"}
 		{item "bandage" 10}
-		{item "knife_rus"}
 		{item "rgd grenade" 3}
 		{item "svd_ammo ammo" 100}
 		{item "svd"}
+		{item "f1 grenade" 3}
 		{in_hands 5}
 	}
 }

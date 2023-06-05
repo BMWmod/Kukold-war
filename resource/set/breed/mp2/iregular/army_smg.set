@@ -1,17 +1,16 @@
 {breed
 	{skin "cw_arb_boevik2"}
 	{portrait "_new/arb/inf"}
-	{icon "smgs"}
+	{icon smgs}
 	{icon_priority 0}
 	{nationality arb}
 	{armors
 		{head pasgt_helmet_syr}
 	}
-
 	{perks
 		{"vision" mp_soldier
 		}
-		{"smg" lvl_2
+		{"smg" lvl_3
 		}
 		{"mgun" lvl_2
 		}
@@ -39,7 +38,7 @@
 		{"field_glass"}
 		{"skill_tankgun" lev_1
 		}
-		{"skill_atgm_launcher" lev_2
+		{"skill_atgm_launcher" lev_4
 		}
 		{"skill_airgun" lev_1
 		}
@@ -49,11 +48,11 @@
 	{inventory
 		{item "tat_ba_7_assault"}
 		{item "bandage" 10}
-		{item "knife_rus"}
 		{item "ammo 762" 240}
 		{item "rgd grenade" 3}
-		{item "akms" filling "ammo 762" 30}
+		{item "akms" filling "762 ammo" 30}
 		{item "rkg3" 3}
-		{in_hands 5}
+		{item "sandbag_kit"}
+		{in_hands 4}
 	}
 }

@@ -17,21 +17,21 @@
 		}
 		{"rifle" lvl_4
 		}
-		{"rocketlauncher" lvl_3
+		{"rocketlauncher" lvl_4
 		}
 		{"pistol" lvl_4
 		}
-		{"gra_launch" lvl_3
+		{"gra_launch" lvl_4
 		}
-		{"melee" lvl_3
+		{"melee" lvl_4
 		}
-		{"avoidance" lvl_3
+		{"avoidance" lvl_4
 		}
 		{"health" "150%"
 		}
 		{"stamina" "200%"
 		}
-		{"stamina_regeneration" "10%"
+		{"stamina_regeneration" "25%"
 		}
 		{"speed" 1.1
 		}
