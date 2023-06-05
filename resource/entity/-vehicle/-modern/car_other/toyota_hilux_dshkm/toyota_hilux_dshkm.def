@@ -72,6 +72,7 @@
 		{box
 			{Size 7 7}
 			{weight 500}
+			{item "ammo goliath" 1}
 			{item "ammo Hcb_ammo" 400}
 			)
 		}	
@@ -79,6 +80,13 @@
 	{Weaponry
 		{place "gun"
 			{weapon "Dshk_m" filling "ammo Hcb_ammo" 50}
+			{foresight "foresight1"}
+			{basic}
+			{charger "gunner"}
+			{gunner "gunner"}
+		}
+		{place "babah"
+			{weapon "weapon goliath" filling "ammo goliath" 1}
 			{foresight "foresight1"}
 			{basic}
 			{charger "gunner"}
