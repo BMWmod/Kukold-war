@@ -1454,7 +1454,7 @@
 		}
 	}
 	{Entity "pine_smallest" 0x7bd
-		{Position -823.18 -3238.48 -659.19}
+		{Position -823.18 -3238.48 -677.69}
 	}
 	{Entity "fir" 0x7be
 		{Position -690.16 -3256.5 -680.5}
@@ -2654,7 +2654,7 @@
 		{xform zl 172.36}
 	}
 	{Entity "rock_road" 0xf8
-		{Position -1859.67 -1850.01 -697.51}
+		{Position -1859.67 -1850.01 -721.51}
 		{xform zl -175.82}
 	}
 	{Entity "sand_dark3" 0xf9
@@ -2703,7 +2703,7 @@
 		{DecalOrder 2}
 	}
 	{Entity "rock_road" 0x101
-		{Position -1878.75 -1695.87 -700.34}
+		{Position -1878.75 -1695.87 -724.34}
 		{xform zl 170.94}
 	}
 	{Entity "rock_road" 0x102
@@ -2722,7 +2722,7 @@
 		{DecalOrder 2}
 	}
 	{Entity "sand_light" 0x105
-		{Position -1878.86 -1754.92 -698.92}
+		{Position -1878.86 -1754.92 -722.92}
 		{xform zl 167.68}
 		{DecalOrder 7}
 		{Color 0xff9c9c9c}
@@ -6324,6 +6324,7 @@
 	{Entity "house3_af" 0x4d46
 		{Position 899.2 3812.76}
 		{xform zl 12.28}
+		{TexMod "modernafgh1"}
 	}
 	{Entity "house_n2_af" 0x4d48
 		{Position 665.8 4057.09}
@@ -8309,7 +8310,6 @@
 		{Position 2631.66 -341.23 -630.97}
 		{xform zl -114.24}
 		{TexMod "ground"}
-		{AreaDisable "cut"}
 	}
 	{Entity "shellhole_dead_car2" 0x24b
 		{Position 2636.18 -342.06 -648.59}
@@ -8319,31 +8319,26 @@
 		{Position 1711.99 -1337.91 -702}
 		{xform zl 156.67}
 		{TexMod "ground"}
-		{AreaDisable "cut"}
 	}
 	{Entity "crater_small" 0x5010
 		{Position 1914.21 -887.21 -702}
 		{xform zl -6.23}
 		{TexMod "ground"}
-		{AreaDisable "cut"}
 	}
 	{Entity "crater_small" 0x101e
 		{Position 2073.16 -1183.53 -702}
 		{xform zl -130.6}
 		{TexMod "ground"}
-		{AreaDisable "cut"}
 	}
 	{Entity "crater_big" 0x7805
 		{Position 1545.23 -461.71 -685.06}
 		{xform zl 8.55}
 		{TexMod "ground"}
-		{AreaDisable "cut"}
 	}
 	{Entity "crater_small" 0x2c08
 		{Position 2337.29 -845.78 -659.51}
 		{xform zl -40.99}
 		{TexMod "ground"}
-		{AreaDisable "cut"}
 	}
 	{Entity "shellhole_dead_car2" 0x5810
 		{Position 2313.22 -825.4 -661.09}
@@ -8353,7 +8348,6 @@
 		{Position 1527.58 -802.84 -702}
 		{xform zl 77.56}
 		{TexMod "ground"}
-		{AreaDisable "cut"}
 	}
 	{Entity "shellhole_dead_car2" 0x181a
 		{Position 1565.1 -815.2 -704.46}
@@ -8767,68 +8761,68 @@
 		{Color 0xffbfb490}
 	}
 	{Entity "sand_light" 0x7661
-		{Position -1744.32 -1922.54 -680.5}
+		{Position -1744.32 -1922.54 -704.5}
 		{xform zl -92.75}
 		{Color 0xff9c9c9c}
 	}
 	{Entity "poplar6" 0x7662
-		{Position -1789.24 -1632.91 -680.5}
+		{Position -1789.24 -1632.91 -704.5}
 		{xform zl 122.63 scale 1.437}
 		{Color 0xffffe9bd}
 	}
 	{Entity "poplar6" 0x7663
-		{Position -1754.52 -1876.57 -680.5}
+		{Position -1754.52 -1876.57 -704.5}
 		{xform zl 4.27 scale 1.483}
 		{Color 0xffffe9bd}
 	}
 	{Entity "poplar6" 0x7664
-		{Position -1749 -1979.94 -680.5}
+		{Position -1749 -1979.94 -704.5}
 		{xform zl -22.1 scale 1.35}
 		{Color 0xffffe9bd}
 	}
 	{Entity "needle1_win" 0x7665
-		{Position -1758.34 -1722.47 -680.5}
+		{Position -1758.34 -1722.47 -704.5}
 		{xform zl -59.99}
 	}
 	{Entity "needle1_win" 0x7666
-		{Position -1746.93 -1814.25 -680.5}
+		{Position -1746.93 -1814.25 -704.5}
 		{xform zl 51.89}
 	}
 	{Entity "needle1_win" 0x7667
-		{Position -1741.65 -1900.62 -680.5}
+		{Position -1741.65 -1900.62 -704.5}
 		{xform zl 92.9}
 	}
 	{Entity "needle1_win" 0x7668
-		{Position -1739.96 -1988.26 -680.5}
+		{Position -1739.96 -1988.26 -704.5}
 		{xform zl 5.34}
 	}
 	{Entity "grass3" 0x7669
-		{Position -1767.96 -1503.05 -680.5}
+		{Position -1767.96 -1503.05 -704.5}
 		{xform zl -107.3 scale 1.473}
 		{Color 0xff9ca17e}
 	}
 	{Entity "grass3" 0x766a
-		{Position -1779.57 -1577.73 -680.68}
+		{Position -1779.57 -1577.73 -704.68}
 		{xform zl -108.32 scale 1.473}
 		{Color 0xff9ca17e}
 	}
 	{Entity "grass3" 0x766b
-		{Position -1744.49 -2038.03 -680.5}
+		{Position -1744.49 -2038.03 -704.5}
 		{xform zl -107.3 scale 1.473}
 		{Color 0xff9ca17e}
 	}
 	{Entity "grass3" 0x766c
-		{Position -1757.21 -1932.89 -680.5}
+		{Position -1757.21 -1932.89 -704.5}
 		{xform zl -108.32 scale 1.473}
 		{Color 0xff9ca17e}
 	}
 	{Entity "grass3" 0x766d
-		{Position -1773.28 -1823.66 -682.1}
+		{Position -1773.28 -1823.66 -706.1}
 		{xform zl 91.37 scale 1.473}
 		{Color 0xff9ca17e}
 	}
 	{Entity "grass3" 0x766e
-		{Position -1786.12 -1728.42 -682.16}
+		{Position -1786.12 -1728.42 -706.16}
 		{xform zl -108.32 scale 1.473}
 		{Color 0xff9ca17e}
 	}
@@ -11158,8 +11152,8 @@
 		{UseDecal 0}
 	}
 	{Entity "minaret01_zar" 0x18ce
-		{Position 854.33 -8013.23}
-		{xform zl 36.01}
+		{Position 415.92 -6783.55 -707.5}
+		{xform zl 36.01 scale 2.277}
 	}
 	{Entity "fence3m1a" 0x419a
 		{Position 803.44 -7818.42}
@@ -11527,6 +11521,7 @@
 	{Entity "fence_n2b_af" 0x1f68
 		{Position 1192.53 -7212.09}
 		{xform zl -67.27}
+		{TexMod "1"}
 	}
 	{Entity "fence_n2a_af" 0x1f69
 		{Position 1217.03 -7269.61}
@@ -19904,13 +19899,13 @@
 		{Simulation {Able 1}}
 	}
 	{Entity "stone_af1b" 0x60ee
-		{Position -979.55 -2470.46 -673.59}
-		{xform zl -62.49 scale 1.163}
+		{Position -979.55 -2470.46 -695.59}
+		{xform zl -62.49 scale 1.17}
 		{Simulation {Able 1}}
 	}
 	{Entity "stone_af1b" 0x60ef
-		{Position -945.9 -2452.98 -668.48}
-		{xform zl 135.07 scale 0.713}
+		{Position -945.9 -2452.98 -690.48}
+		{xform zl 135.07 scale 0.72}
 		{Simulation {Able 1}}
 	}
 	{Entity "stone_af1a" 0x60f0
@@ -19918,43 +19913,33 @@
 		{xform zl 79.33 scale 0.784}
 		{Simulation {Able 1}}
 	}
-	{Entity "stone_af1a" 0x60f1
-		{Position -470.78 -2510.64 -661.39}
-		{xform zl -128.81}
-		{Simulation {Able 1}}
-	}
-	{Entity "stone_af1c" 0x60f2
-		{Position -439.91 -2486.3 -658.16}
-		{xform zl -129.38}
-		{Simulation {Able 1}}
-	}
 	{Entity "stone_af1a" 0x60f3
-		{Position -696.28 -2732.56 -680.5}
+		{Position -696.28 -2732.56 -702.5}
 		{xform zl 128.22 scale 0.687}
 		{Simulation {Able 1}}
 	}
 	{Entity "stone_af1a" 0x60f4
-		{Position -883.81 -2581.65 -670.93}
+		{Position -872.51 -2330.9 -658.07}
 		{xform zl 40.55 scale 0.497}
 		{Simulation {Able 1}}
 	}
 	{Entity "stone_af1a" 0x60f5
-		{Position -881.04 -2567.43 -669.77}
+		{Position -869.74 -2316.68 -655.24}
 		{xform zl 91.23 scale 0.887}
 		{Simulation {Able 1}}
 	}
 	{Entity "stone_af1a" 0x60f6
-		{Position -861.26 -2592.13 -668.67}
+		{Position -849.96 -2341.38 -658.91}
 		{xform zl 126.56 scale 1.04}
 		{Simulation {Able 1}}
 	}
 	{Entity "stone_af1a" 0x60f7
-		{Position -897.86 -2558.99 -671.33}
+		{Position -886.56 -2308.24 -655.94}
 		{xform zl 24.95 scale 0.61}
 		{Simulation {Able 1}}
 	}
 	{Entity "stone_af1a" 0x60f8
-		{Position -768.34 -2637.73 -666.5}
+		{Position -757.04 -2386.98 -668.24}
 		{xform zl -27.57 scale 1.43}
 		{Simulation {Able 1}}
 	}
@@ -19964,28 +19949,13 @@
 		{Simulation {Able 1}}
 	}
 	{Entity "stone_af1a" 0x60fa
-		{Position -804.25 -2637.54 -665.5}
+		{Position -792.95 -2386.79 -667.95}
 		{xform zl -45.45 scale 0.47}
 		{Simulation {Able 1}}
 	}
 	{Entity "stone_af1a" 0x60fb
-		{Position -787.45 -2647.34 -667.84}
+		{Position -776.15 -2396.59 -669.2}
 		{xform zl -28.34 scale 0.604}
-		{Simulation {Able 1}}
-	}
-	{Entity "stone_af1a" 0x60fc
-		{Position -479.23 -2471.38 -653.87}
-		{xform zl 77.89 scale 0.661}
-		{Simulation {Able 1}}
-	}
-	{Entity "stone_af1a" 0x60fd
-		{Position -472.19 -2543.67 -663.91}
-		{xform zl 136.68 scale 1.024}
-		{Simulation {Able 1}}
-	}
-	{Entity "stone_af1a" 0x60fe
-		{Position -486.9 -2533.03 -662.85}
-		{xform zl 21.84 scale 0.804}
 		{Simulation {Able 1}}
 	}
 	{Entity "stone_af1a" 0x60ff
@@ -19993,59 +19963,49 @@
 		{xform zl 126.47 scale 0.624}
 		{Simulation {Able 1}}
 	}
-	{Entity "stone_af1a" 0x6100
-		{Position -441.48 -2465.22 -654.64}
-		{xform zl -100.17 scale 0.351}
-		{Simulation {Able 1}}
-	}
-	{Entity "stone_af1a" 0x6101
-		{Position -462 -2524.22 -662.37}
-		{xform zl -99.69 scale 0.411}
-		{Simulation {Able 1}}
-	}
 	{Entity "stone_af1a" 0x6102
-		{Position -1047.55 -2423.16 -670.15}
-		{xform zl -11.93}
+		{Position -1047.55 -2423.16 -692.15}
+		{xform zl -11.93 scale 1.007}
 		{Simulation {Able 1}}
 	}
 	{Entity "stone_af1b" 0x6103
-		{Position -1071.88 -2450.75 -678.5}
-		{xform zl -12.81}
+		{Position -1071.88 -2450.75 -700.5}
+		{xform zl -12.81 scale 1.007}
 		{Simulation {Able 1}}
 	}
 	{Entity "stone_af1c" 0x6104
-		{Position -1031.61 -2458.79 -675.35}
-		{xform zl -10.43}
+		{Position -1031.61 -2458.79 -697.35}
+		{xform zl -10.43 scale 1.007}
 		{Simulation {Able 1}}
 	}
 	{Entity "stone_af1a" 0x6105
-		{Position -1006.78 -2424.41 -669.34}
-		{xform zl -164.88 scale 0.661}
+		{Position -1006.78 -2424.41 -691.34}
+		{xform zl -164.88 scale 0.668}
 		{Simulation {Able 1}}
 	}
 	{Entity "stone_af1a" 0x6106
-		{Position -1077.65 -2415.1 -673.25}
-		{xform zl -118.46 scale 1.024}
+		{Position -1077.65 -2415.1 -695.25}
+		{xform zl -118.46 scale 1.031}
 		{Simulation {Able 1}}
 	}
 	{Entity "stone_af1a" 0x6107
-		{Position -1064.16 -2402.36 -667.91}
-		{xform zl 136.9 scale 0.804}
+		{Position -1064.16 -2402.36 -689.91}
+		{xform zl 136.9 scale 0.811}
 		{Simulation {Able 1}}
 	}
 	{Entity "stone_af1a" 0x6108
-		{Position -1009.02 -2479.89 -675.54}
-		{xform zl -117.94 scale 0.624}
+		{Position -1009.02 -2479.89 -697.54}
+		{xform zl -117.94 scale 0.631}
 		{Simulation {Able 1}}
 	}
 	{Entity "stone_af1a" 0x6109
-		{Position -1011.35 -2461.91 -674.12}
-		{xform zl 12.41 scale 0.351}
+		{Position -1011.35 -2461.91 -696.12}
+		{xform zl 12.41 scale 0.358}
 		{Simulation {Able 1}}
 	}
 	{Entity "stone_af1a" 0x610a
-		{Position -1063.04 -2427.67 -672.83}
-		{xform zl 11.34 scale 0.411}
+		{Position -1063.04 -2427.67 -694.83}
+		{xform zl 11.34 scale 0.418}
 		{Simulation {Able 1}}
 	}
 	{Entity "stone_af1a" 0x610b
@@ -20059,7 +20019,7 @@
 		{Simulation {Able 1}}
 	}
 	{Entity "bush8a" 0x610d
-		{Position -696.6 -2704.06 -679.5}
+		{Position -696.6 -2704.06 -701.5}
 		{xform zl 70.31 scale 0.84}
 		{TexMod "bare"}
 		{Color 0xffcfcfcf}
@@ -20068,7 +20028,7 @@
 		}
 	}
 	{Entity "bush8a" 0x610e
-		{Position -717.14 -2744.82 -680.5}
+		{Position -717.14 -2744.82 -702.5}
 		{xform zl 145.31 scale 0.64}
 		{TexMod "bare"}
 		{Color 0xffcfcfcf}
@@ -20086,7 +20046,7 @@
 		}
 	}
 	{Entity "desert_bush" 0x6110
-		{Position -714.37 -2702.89 -679.5}
+		{Position -714.37 -2702.89 -701.5}
 		{xform zl -84.69 scale 1.087}
 	}
 	{Entity "desert_bush" 0x6111
@@ -20094,7 +20054,7 @@
 		{xform zl 0.31 scale 0.924}
 	}
 	{Entity "desert_bush" 0x6112
-		{Position -669.55 -2755.64 -680.5}
+		{Position -669.55 -2755.64 -702.5}
 		{xform zl -84.69 scale 1.117}
 	}
 	{Entity "bush8a" 0x6113
@@ -20116,17 +20076,17 @@
 		}
 	}
 	{Entity "stone_af1a" 0x6115
-		{Position -850.59 -2685 -679.5}
+		{Position -839.29 -2434.25 -694.45}
 		{xform zl 93.36 scale 1.43}
 		{Simulation {Able 1}}
 	}
 	{Entity "stone_af1a" 0x6116
-		{Position -871.78 -2654.31 -677.98}
+		{Position -860.48 -2403.56 -690.86}
 		{xform zl -57.62 scale 1.48}
 		{Simulation {Able 1}}
 	}
 	{Entity "stone_af1a" 0x6117
-		{Position -855.18 -2661.49 -677.45}
+		{Position -843.88 -2410.74 -691.17}
 		{xform zl 91.31 scale 0.604}
 		{Simulation {Able 1}}
 	}
@@ -27274,7 +27234,7 @@
 		{xform zl 90.1}
 	}
 	{Entity "st_fence1_af" 0x630c
-		{Position -1750.2 -1474.99 -680.5}
+		{Position -1750.2 -1474.99 -704.5}
 		{xform zl 88.35}
 	}
 	{Entity "st_fence1_af" 0x630d
@@ -27282,11 +27242,11 @@
 		{xform zl 87.25}
 	}
 	{Entity "st_fence1_af" 0x630e
-		{Position -1730.48 -2423.57 -680.6}
+		{Position -1730.48 -2423.57 -700.6}
 		{xform zl 89.35}
 	}
 	{Entity "st_fence1_af" 0x630f
-		{Position -1746.49 -2111.72 -680.5}
+		{Position -1746.49 -2111.72 -704.5}
 		{xform zl 88.25}
 	}
 	{Entity "bush2" 0x6310
@@ -27312,13 +27272,6 @@
 	}
 	{Entity "bush2" 0x6313
 		{Position -517.73 -2378.18 -631.52}
-		{TexMod "burned"}
-		{Volume "crown"
-			{able {visible 0}}
-		}
-	}
-	{Entity "bush2" 0x6314
-		{Position -479.46 -2521.88 -661.74}
 		{TexMod "burned"}
 		{Volume "crown"
 			{able {visible 0}}
@@ -33354,7 +33307,6 @@
 		{Position 5792.51 3665.48 -696.2}
 		{xform zl -19.68}
 		{TexMod "ground"}
-		{AreaDisable "cut"}
 	}
 	{Entity "shellhole_dead_car2" 0x434a
 		{Position 5786.23 3657.89 -702.44}
@@ -33368,127 +33320,106 @@
 		{Position 5663.9 3866.52 -696}
 		{xform zl 24.07}
 		{TexMod "ground"}
-		{AreaDisable "cut"}
 	}
 	{Entity "crater_small" 0xc04
 		{Position 6327.05 3209.76 -697}
 		{xform zl 161.88}
 		{TexMod "ground"}
-		{AreaDisable "cut"}
 	}
 	{Entity "crater_small" 0x6403
 		{Position 5828.22 3382.95 -694.69}
 		{xform zl 143.05}
 		{TexMod "ground"}
-		{AreaDisable "cut"}
 	}
 	{Entity "crater_small" 0x3405
 		{Position 5776.56 4607.8 -697}
 		{xform zl 83.3}
 		{TexMod "ground"}
-		{AreaDisable "cut"}
 	}
 	{Entity "crater_small" 0x4403
 		{Position 5329.72 4525.81 -697}
 		{xform zl 150.82}
 		{TexMod "ground"}
-		{AreaDisable "cut"}
 	}
 	{Entity "crater_small" 0x5303
 		{Position 6659.25 3302.9 -697}
 		{xform zl 127.41}
 		{TexMod "ground"}
-		{AreaDisable "cut"}
 	}
 	{Entity "crater_small" 0x4c03
 		{Position 5186.41 3904.98 -697}
 		{xform zl 133.2}
 		{TexMod "ground"}
-		{AreaDisable "cut"}
 	}
 	{Entity "crater_small" 0x5a03
 		{Position 1842.25 -1599.11 -702}
 		{xform zl -44.86}
 		{TexMod "ground"}
-		{AreaDisable "cut"}
 	}
 	{Entity "crater_small" 0xe01
 		{Position 2561.74 -951.76 -657.03}
 		{xform zl -153.62}
 		{TexMod "ground"}
-		{AreaDisable "cut"}
 	}
 	{Entity "crater_small" 0x3a03
 		{Position 2787.47 -690.94 -630}
 		{xform zl 160.94}
 		{TexMod "ground"}
-		{AreaDisable "cut"}
 	}
 	{Entity "crater_small" 0x3205
 		{Position 2912.77 -2529.66 -702}
 		{xform zl -113.54}
 		{TexMod "ground"}
-		{AreaDisable "cut"}
 	}
 	{Entity "crater_norm" 0xf0d
 		{Position 2221.34 -2582.68 -702}
 		{xform zl 95.78}
 		{TexMod "ground"}
-		{AreaDisable "cut"}
 	}
 	{Entity "crater_norm" 0x5903
 		{Position 294.56 -1013.05 -694.32}
 		{xform zl 145.58}
 		{TexMod "ground"}
-		{AreaDisable "cut"}
 	}
 	{Entity "crater_norm" 0x7a03
 		{Position 1607.02 200.55 -702}
 		{xform zl -146.74}
 		{TexMod "ground"}
-		{AreaDisable "cut"}
 	}
 	{Entity "crater_norm" 0x2203
 		{Position 633.05 -228.52 -702}
 		{xform zl 106.53}
 		{TexMod "ground"}
-		{AreaDisable "cut"}
 	}
 	{Entity "crater_norm" 0x2a04
 		{Position 473.18 736.94 -720}
 		{xform zl 175.77}
 		{TexMod "ground"}
-		{AreaDisable "cut"}
 	}
 	{Entity "crater_norm" 0x4606
 		{Position 2737.48 -2084.97 -702}
 		{xform zl -34.57}
 		{TexMod "ground"}
-		{AreaDisable "cut"}
 	}
 	{Entity "crater_norm" 0x5284
 		{Position 2518.13 -2830.56 -734.89}
 		{xform zl -7.35}
 		{TexMod "ground"}
-		{AreaDisable "cut"}
 	}
 	{Entity "crater_norm" 0x4e0b
 		{Position 4985.8 -1316.15 -700}
 		{xform zl 88.51}
 		{TexMod "ground"}
-		{AreaDisable "cut"}
 	}
 	{Entity "crater_norm" 0x7e07
 		{Position 3134.91 -2838.72 -708.08}
 		{xform zl 42.52}
 		{TexMod "ground"}
-		{AreaDisable "cut"}
 	}
 	{Entity "crater_norm" 0x6383
 		{Position 3271.54 -2225.47 -702}
 		{xform zl 16.06}
 		{TexMod "road"}
-		{AreaDisable "cut"}
 	}
 	{Entity "bush8a" 0x5b17
 		{Position 9558.14 -4141.92}
@@ -35099,7 +35030,6 @@
 		{Position 6868.26 -100.66 -697}
 		{xform zl -60.48}
 		{TexMod "ground"}
-		{AreaDisable "cut"}
 	}
 	{Entity "sv_f1c1" 0x20b0
 		{TexMod
@@ -36321,7 +36251,6 @@
 		{Position 4095.41 4205.03 -705.67}
 		{xform zl -127.92}
 		{TexMod "country_road"}
-		{AreaDisable "cut"}
 	}
 	{Entity "piece_large_steel" 0x4351
 		{Position 4107.33 4011.79 -691.12}
@@ -40290,6 +40219,7 @@
 	{Entity "house3_af" 0x109b
 		{Position -2740.6 905.57}
 		{xform zl 108.01}
+		{TexMod "modernafgh1"}
 		{Placer
 			{State "f1ic3" {Unlinked}}
 			{State "f1ic4" {Unlinked}}
@@ -45694,85 +45624,71 @@
 		{Position 5256.88 -3943.08 -703}
 		{xform zl 43.92}
 		{TexMod "sand"}
-		{AreaDisable "cut"}
 	}
 	{Entity "crater_small" 0x476b
 		{Position 6396.04 -4311.61 -700.01}
 		{xform zl -157.55}
 		{TexMod "sand"}
-		{AreaDisable "cut"}
 	}
 	{Entity "crater_small" 0x300e
 		{Position 5788.81 -3293.69 -697}
 		{xform zl -77.81}
 		{TexMod "sand"}
-		{AreaDisable "cut"}
 	}
 	{Entity "crater_small" 0xf38
 		{Position 3487.15 -2837.42 -700.33}
 		{xform zl -99.01}
 		{TexMod "sand"}
-		{AreaDisable "cut"}
 	}
 	{Entity "crater_small" 0x526e
 		{Position 4678.22 -3821.26 -1404}
 		{xform zl -75.68}
 		{TexMod "sand"}
-		{AreaDisable "cut"}
 	}
 	{Entity "crater_small" 0x197b
 		{Position 4865.19 -4339.28 -702.01}
 		{xform zl 128.59}
 		{TexMod "sand"}
-		{AreaDisable "cut"}
 	}
 	{Entity "crater_small" 0xf43
 		{Position 3126.42 -5510.69 -701.99}
 		{xform zl -26.05}
 		{TexMod "sand"}
-		{AreaDisable "cut"}
 	}
 	{Entity "crater_small" 0x3403
 		{Position 3140.96 -8200.22 -702.02}
 		{xform zl -177.94}
 		{TexMod "sand"}
-		{AreaDisable "cut"}
 	}
 	{Entity "crater_small" 0x1403
 		{Position 3623.03 -8675.01 -702.01}
 		{xform zl -166.7}
 		{TexMod "sand"}
-		{AreaDisable "cut"}
 	}
 	{Entity "crater_small" 0x5c03
 		{Position 3872.88 -7827.55 -702.01}
 		{xform zl -30.27}
 		{TexMod "sand"}
-		{AreaDisable "cut"}
 	}
 	{Entity "crater_small" 0x4783
 		{Position 1673.62 -8767.62 -701.99}
 		{xform zl -80.62}
 		{TexMod "sand"}
-		{AreaDisable "cut"}
 	}
 	{Entity "crater_small" 0x2420
 		{Position -207.39 -8997.3 -702}
 		{xform zl 16.04}
 		{TexMod "sand"}
-		{AreaDisable "cut"}
 	}
 	{Entity "crater_small" 0x6c03
 		{Position 2152.99 -7968 -701.98}
 		{xform zl -128.73}
 		{TexMod "sand"}
-		{AreaDisable "cut"}
 	}
 	{Entity "crater_small" 0x1204
 		{Position 6132.91 -280.36 -697}
 		{xform zl 134.18}
 		{TexMod "sand"}
-		{AreaDisable "cut"}
 	}
 	{Entity "crash_stone2" 0x5404
 		{Position 6108.99 -317.1 -693.91}
@@ -45972,7 +45888,6 @@
 		{Position 5507.15 -2002.36 -700}
 		{xform zl -108.09}
 		{TexMod "sand"}
-		{AreaDisable "cut"}
 	}
 	{Entity "crash_stone2" 0x3919
 		{Position 5501.62 -2011.95 -654.9}
@@ -51183,7 +51098,6 @@
 		{Position -5271.98 -5340.8 -719.22}
 		{xform zl -54.55}
 		{TexMod "sand"}
-		{AreaDisable "cut"}
 	}
 	{Entity "crash_brick3a" 0x6348
 		{Position -5295.63 -5338.26 -725.1}
@@ -68742,16 +68656,13 @@
 	{Entity "trench_cw_mortar2_sandbox" 0x4d08
 		{Position -1839.47 -5924.54 -713.86}
 		{xform zl 11.97}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_cw_exit_2_wood" 0x4d09
 		{Position -1880.99 -5923.91 -705.25}
 		{xform zl 11.6}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_cw_round_mortar" 0x4d16
 		{Position -1502.99 -5206.62 -703.01}
-		{AreaDisable "cut"}
 	}
 	{Entity "fence3m1c" 0x4d18
 		{Position -1420.22 -6077.61}
@@ -69584,14 +69495,15 @@
 		{Color 0xffeacfcc}
 	}
 	{Entity "road_sand_af1b" 0x62d5
-		{Position -2296.75 -4419.32}
-		{xform zl -152.27}
+		{Position -2266.07 -4297.34}
+		{xform zl -142.03}
 		{DecalOrder 2}
 		{Color 0xffeacfcc}
 	}
 	{Entity "shed_ru_124" 0x633c
 		{Position 408.01 -6408.06}
 		{xform zl 106.67}
+		{TexMod "kirp2"}
 	}
 	{Entity "e-house03a1" 0x1e00
 		{Position 150.63 -5645.61}
@@ -70507,12 +70419,8 @@
 			{able {touch 1}}
 		}
 	}
-	{Entity "memorial_lenin" 0x4b77
-		{Position 356.39 -6317.89 -644}
-		{xform zl -76.73}
-	}
 	{Entity "bower1_basis" 0x7806
-		{Position 434.21 -6795.56}
+		{Position 647.15 -7052.56}
 		{xform zl -12.97}
 	}
 	{Entity "305mm_fullplate" 0x780f
@@ -70536,7 +70444,7 @@
 	{Entity "bush8" 0x781a
 		{Position 350.09 -6952.33 -704.42}
 		{xform zl 61.12}
-		{TexMod "autlate"}
+		{TexMod "aut"}
 	}
 	{Entity "bush8" 0x781b
 		{Position 418.75 -6959.07 -704.5}
@@ -71005,10 +70913,12 @@
 	{Entity "barrel_fuel" 0x2348
 		{Position -980.15 957.68}
 		{xform zl 23.8}
+		{TexMod "1"}
 	}
 	{Entity "barrel_fuel" 0x2349
 		{Position -1215.58 628.29}
 		{xform zl 23.8}
+		{TexMod "1"}
 	}
 	{Entity "wall_city_concrete_long_ns" 0x234a
 		{Position -1433.94 -413.17 -704}
@@ -71144,13 +71054,11 @@
 		{Position -2880.62 -8538.42 -700}
 		{xform zl 159.99}
 		{TexMod "sand"}
-		{AreaDisable "cut"}
 	}
 	{Entity "crater_norm" 0x3a05
 		{Position -3088.98 -8410.68 -699.98}
 		{xform zl 5.14}
 		{TexMod "sand"}
-		{AreaDisable "cut"}
 	}
 	{Entity "crosstie" 0x5600
 		{Position -2135.76 -7488.35}
@@ -71840,20 +71748,6 @@
 		{Position -576.23 3649.77}
 		{xform zl 156.32}
 	}
-	{Entity "siria_mosque" 0x3702
-		{Position -906.62 3243.07 -663.3}
-		{xform zl -70.58}
-		{Armor
-			{wounds
-				{damage "body22" -2.38767 0.55
-					{matrix
-						{pos -8.23 6.739 -53.969}
-						{nxform 0.855 1.571 -0.344}
-					}
-				}
-			}
-		}
-	}
 	{Entity "siria_mosque" 0x3703
 		{Position -95.91 -6196.73 -706.3}
 		{xform zl -70.58}
@@ -72144,12 +72038,13 @@
 	{Entity "tower_cellular_communication" 0x3400
 		{Position 1307.88 2726.55 -658.31}
 		{xform zl 167}
+		{TexMod "2"}
 	}
 	{Entity "tires_1" 0x4b4e
 		{Position 5883.75 -773.79}
 	}
 	{Entity "radar_mount" 0x4b5c
-		{Position -6013.46 1594.09 -680.5}
+		{Position -6013.46 1594.09 -702}
 		{xform zl 91.29}
 	}
 	{Entity "stand-army" 0x5800
@@ -72812,7 +72707,6 @@
 		{Position 6034.85 -5738.56 -696.92}
 		{xform zl -142.99}
 		{TexMod "sand"}
-		{AreaDisable "cut"}
 	}
 	{Entity "crash_stone2" 0x449a
 		{Position 6044.66 -5715.2 -696.05}
@@ -73040,7 +72934,6 @@
 		{Position 6205.03 -5732.37 -700}
 		{xform zl 48.75}
 		{TexMod "bridge"}
-		{AreaDisable "cut"}
 	}
 	{Entity "crash_brick3a" 0x3a0d
 		{Position 6169.34 -5725.87 -697.47}
@@ -73494,31 +73387,26 @@
 		{Position -623.57 69.94 -713.75}
 		{xform zl -164.57}
 		{TexMod "sand"}
-		{AreaDisable "cut"}
 	}
 	{Entity "crater_norm_land_size5" 0x2d83
 		{Position -878.46 -445.64 -700}
 		{xform zl -96.38}
 		{TexMod "sand"}
-		{AreaDisable "cut"}
 	}
 	{Entity "crater_big" 0x6f03
 		{Position 674.28 -660.55 -700}
 		{xform zl 26.93}
 		{TexMod "ground"}
-		{AreaDisable "cut"}
 	}
 	{Entity "crater_big" 0x5f03
 		{Position 319.23 -259.16 -700}
 		{xform zl 97.13}
 		{TexMod "sand"}
-		{AreaDisable "cut"}
 	}
 	{Entity "crater_big" 0x7283
 		{Position 99.53 456 -700}
 		{xform zl -36.89}
 		{TexMod "road"}
-		{AreaDisable "cut"}
 	}
 	{Entity "shellhole_super_ground" 0x3343
 		{Position -1088.78 1420.86}
@@ -73528,7 +73416,6 @@
 		{Position -1527.51 1655.9 -700}
 		{xform zl -126.87}
 		{TexMod "sand"}
-		{AreaDisable "cut"}
 	}
 	{Entity "shellhole4d" 0x3c43
 		{Position -1080.31 2780.98}
@@ -73541,19 +73428,16 @@
 		{Position -709.17 3302.07 -699}
 		{xform zl 29.64}
 		{TexMod "sand"}
-		{AreaDisable "cut"}
 	}
 	{Entity "crater_norm" 0x3982
 		{Position -395.55 2796.16 -700}
 		{xform zl -84.28}
 		{TexMod "ground"}
-		{AreaDisable "cut"}
 	}
 	{Entity "crater_norm" 0x30c1
 		{Position -434 2440.71 -700}
 		{xform zl -173.25}
 		{TexMod "ground"}
-		{AreaDisable "cut"}
 	}
 	{Entity "stonechip1" 0x6d15
 		{Position -357.29 2581 -703}
@@ -73571,19 +73455,16 @@
 		{Position -607.82 1529.49 -700}
 		{xform zl 168.99}
 		{TexMod "ground"}
-		{AreaDisable "cut"}
 	}
 	{Entity "crater_norm" 0x3b40
 		{Position -156.23 1891.38 -700}
 		{xform zl -76.25}
 		{TexMod "sand"}
-		{AreaDisable "cut"}
 	}
 	{Entity "crater_norm" 0x28c4
 		{Position 658.83 3416.96 -700}
 		{xform zl 127.36}
 		{TexMod "ground"}
-		{AreaDisable "cut"}
 	}
 	{Entity "crash_brick3a" 0x3749
 		{Position 702.67 3474.96}
@@ -73648,37 +73529,31 @@
 		{Position 1835.59 900.09 -700}
 		{xform zl -122.14}
 		{TexMod "ground"}
-		{AreaDisable "cut"}
 	}
 	{Entity "crater_norm" 0x2a4b
 		{Position 1043.47 1033.89 -700}
 		{xform zl 80.36}
 		{TexMod "sand"}
-		{AreaDisable "cut"}
 	}
 	{Entity "crater_norm" 0x31c3
 		{Position 704 1385.88 -684.16}
 		{xform zl 64.82}
 		{TexMod "sand"}
-		{AreaDisable "cut"}
 	}
 	{Entity "crater_norm" 0x6377
 		{Position 983.99 1645.73 -699.8}
 		{xform zl 53.57}
 		{TexMod "sand"}
-		{AreaDisable "cut"}
 	}
 	{Entity "crater_norm" 0x7dac
 		{Position 2168.62 1080.47 -700}
 		{xform zl -114.97}
 		{TexMod "sand"}
-		{AreaDisable "cut"}
 	}
 	{Entity "crater_norm" 0x5e84
 		{Position 2884.36 592.69 -642.07}
 		{xform zl 49.96}
 		{TexMod "sand"}
-		{AreaDisable "cut"}
 	}
 	{Entity "cart" 0x151
 		{Position 2289.7 -1335.99}
@@ -74323,16 +74198,16 @@
 		{TexMod "dot_w"}
 	}
 	{Entity "corner10" 0x4b7d
-		{TexMod "wood"}
+		{TexMod "tile"}
 	}
 	{Entity "corner11" 0x4b7e
-		{TexMod "wood"}
+		{TexMod "tile"}
 	}
 	{Entity "corner12" 0x4b7f
-		{TexMod "wood"}
+		{TexMod "tile"}
 	}
 	{Entity "corner13" 0x4b80
-		{TexMod "wood"}
+		{TexMod "tile"}
 	}
 	{Entity "corner14" 0x4b81
 		{TexMod "dot_w"}
@@ -74341,19 +74216,19 @@
 		}
 	}
 	{Entity "corner15" 0x4b82
-		{TexMod "wood"}
+		{TexMod "tile"}
 	}
 	{Entity "corner16" 0x4b83
-		{TexMod "wood"}
+		{TexMod "tile"}
 	}
 	{Entity "corner17" 0x4b84
-		{TexMod "wood"}
+		{TexMod "tile"}
 	}
 	{Entity "corner18" 0x4b85
-		{TexMod "wood"}
+		{TexMod "tile"}
 	}
 	{Entity "corner19" 0x4b86
-		{TexMod "wood"}
+		{TexMod "tile"}
 		{Volume "hole36"
 			{able {touch 1}}
 		}
@@ -74365,7 +74240,7 @@
 		{TexMod "dot_w"}
 	}
 	{Entity "corner3" 0x4b89
-		{TexMod "win1"}
+		{TexMod "win1a"}
 	}
 	{Entity "corner4" 0x4b8a
 		{TexMod "win1"}
@@ -74380,22 +74255,22 @@
 		{TexMod "win1"}
 	}
 	{Entity "corner9" 0x4b8e
-		{TexMod "win1"}
+		{TexMod "win1a"}
 	}
 	{Entity "corner1" 0x4b8f
 		{TexMod "dot_w"}
 	}
 	{Entity "corner10" 0x4b90
-		{TexMod "light"}
+		{TexMod "wood"}
 	}
 	{Entity "corner11" 0x4b91
-		{TexMod "light"}
+		{TexMod "wood"}
 	}
 	{Entity "corner12" 0x4b92
-		{TexMod "light"}
+		{TexMod "wood"}
 	}
 	{Entity "corner13" 0x4b93
-		{TexMod "light"}
+		{TexMod "wood"}
 	}
 	{Entity "corner14" 0x4b94
 		{TexMod "dot_w"}
@@ -74404,19 +74279,19 @@
 		}
 	}
 	{Entity "corner15" 0x4b95
-		{TexMod "light"}
+		{TexMod "wood"}
 	}
 	{Entity "corner16" 0x4b96
-		{TexMod "light"}
+		{TexMod "wood"}
 	}
 	{Entity "corner17" 0x4b97
-		{TexMod "light"}
+		{TexMod "wood"}
 	}
 	{Entity "corner18" 0x4b98
-		{TexMod "light"}
+		{TexMod "wood"}
 	}
 	{Entity "corner19" 0x4b99
-		{TexMod "light"}
+		{TexMod "wood"}
 		{Volume "hole36"
 			{able {touch 1}}
 		}
@@ -74428,7 +74303,7 @@
 		{TexMod "dot_w"}
 	}
 	{Entity "corner3" 0x4b9c
-		{TexMod "win1"}
+		{TexMod "win"}
 	}
 	{Entity "corner4" 0x4b9d
 		{TexMod "win1"}
@@ -74443,7 +74318,7 @@
 		{TexMod "win1"}
 	}
 	{Entity "corner9" 0x4ba1
-		{TexMod "win1"}
+		{TexMod "win"}
 	}
 	{Entity "admin_house" 0x4ba2
 		{Position 1855.39 -2220.48}
@@ -74453,16 +74328,16 @@
 		{TexMod "1"}
 	}
 	{Entity "corner10" 0x1103
-		{TexMod "1"}
+		{TexMod "tile"}
 	}
 	{Entity "corner11" 0x140d
-		{TexMod "1"}
+		{TexMod "tile"}
 	}
 	{Entity "corner12" 0x19e5
-		{TexMod "1"}
+		{TexMod "tile"}
 	}
 	{Entity "corner13" 0x3dc0
-		{TexMod "1"}
+		{TexMod "tile"}
 	}
 	{Entity "corner14" 0x3dc1
 		{TexMod "1"}
@@ -74471,19 +74346,19 @@
 		}
 	}
 	{Entity "corner15" 0x3dc2
-		{TexMod "1"}
+		{TexMod "tile"}
 	}
 	{Entity "corner16" 0x3dc3
-		{TexMod "1"}
+		{TexMod "tile"}
 	}
 	{Entity "corner17" 0x3dc4
-		{TexMod "1"}
+		{TexMod "tile"}
 	}
 	{Entity "corner18" 0x3dc5
-		{TexMod "1"}
+		{TexMod "tile"}
 	}
 	{Entity "corner19" 0x3dc6
-		{TexMod "1"}
+		{TexMod "tile"}
 		{Volume "hole36"
 			{able {touch 1}}
 		}
@@ -74951,6 +74826,7 @@
 		{xform zl -148.55}
 	}
 	{Entity "n1_af_w1" 0x3030
+		{TexMod "modernafgh1"}
 		{Placer
 			{State "1" {Broken}}
 		}
@@ -74987,132 +74863,6 @@
 	{Entity "afric_small" 0x6190
 		{Position -1792.99 2640.15}
 		{xform zl 49.92}
-	}
-	{Entity "sels_wall" 0x250a
-		{TexMod "green"}
-	}
-	{Entity "sels_wall1_5" 0x250b
-		{TexMod "green"}
-	}
-	{Entity "sels_wall1_6" 0x250c
-		{TexMod "green"}
-	}
-	{Entity "sels_wall1_7" 0x250d
-		{TexMod "green"}
-	}
-	{Entity "sels_wall1_8" 0x250e
-		{TexMod "green"}
-	}
-	{Entity "sels_wall1_9" 0x250f
-		{TexMod "green"}
-	}
-	{Entity "sels_wall1_1" 0x2510
-		{TexMod "green"}
-	}
-	{Entity "sels_wall1_10" 0x2511
-		{TexMod "green"}
-	}
-	{Entity "sels_wall1_11" 0x2512
-		{TexMod "green"}
-	}
-	{Entity "sels_wall1_12" 0x2513
-		{TexMod "green"}
-	}
-	{Entity "sels_wall1_13" 0x2514
-		{TexMod "green"}
-	}
-	{Entity "sels_wall1_14" 0x2515
-		{TexMod "green"}
-	}
-	{Entity "sels_wall1_15" 0x2516
-		{TexMod "green"}
-	}
-	{Entity "sels_wall1_16" 0x2517
-		{TexMod "green"}
-	}
-	{Entity "sels_wall1_17" 0x2518
-		{TexMod "green"}
-	}
-	{Entity "sels_wall1_18" 0x2519
-		{TexMod "green"}
-	}
-	{Entity "sels_wall2_1" 0x251a
-		{TexMod "green"}
-	}
-	{Entity "sels_wall1_2" 0x251b
-		{TexMod "green"}
-	}
-	{Entity "sels_wall2_2" 0x251c
-		{TexMod "green"}
-	}
-	{Entity "sels_wall2_3" 0x251d
-		{TexMod "green"}
-	}
-	{Entity "sels_wall2_4" 0x251e
-		{TexMod "green"}
-	}
-	{Entity "sels_wall2_5" 0x251f
-		{TexMod "green"}
-	}
-	{Entity "sels_wall2_6" 0x2520
-		{TexMod "green"}
-	}
-	{Entity "sels_wall2_7" 0x2521
-		{TexMod "green"}
-	}
-	{Entity "sels_wall2_8" 0x2522
-		{TexMod "green"}
-	}
-	{Entity "sels_wall2_9" 0x2523
-		{TexMod "green"}
-	}
-	{Entity "sels_wall2_10" 0x2524
-		{TexMod "green"}
-	}
-	{Entity "sels_wall2_11" 0x2525
-		{TexMod "green"}
-	}
-	{Entity "sels_wall1_3" 0x2526
-		{TexMod "green"}
-	}
-	{Entity "sels_wall2_12" 0x2527
-		{TexMod "green"}
-	}
-	{Entity "sels_wall2_13" 0x2528
-		{TexMod "green"}
-	}
-	{Entity "sels_wall2_14" 0x2529
-		{TexMod "green"}
-	}
-	{Entity "sels_wall2_15" 0x252a
-		{TexMod "green"}
-	}
-	{Entity "sels_wall2_16" 0x252b
-		{TexMod "green"}
-	}
-	{Entity "sels_wall2_17" 0x252c
-		{TexMod "green"}
-	}
-	{Entity "sels_wall2_18" 0x252d
-		{TexMod "green"}
-	}
-	{Entity "sels_wall2_19" 0x252e
-		{TexMod "green"}
-	}
-	{Entity "sels_wall1_4" 0x2531
-		{TexMod "green"}
-	}
-	{Entity "sels_wall_in2" 0x2533
-		{TexMod "tile"}
-	}
-	{Entity "sels_wall_in6" 0x2537
-		{TexMod "tile"}
-	}
-	{Entity "sels_wall_in7" 0x2538
-		{TexMod "tile"}
-	}
-	{Entity "sels_wall_in8" 0x2539
-		{TexMod "tile"}
 	}
 	{Entity "school_ru_plate" 0x2546
 		{TexMod "white1"}
@@ -75378,10 +75128,6 @@
 	}
 	{Entity "school_ru_roof" 0x25d4
 		{TexMod "burned"}
-	}
-	{Entity "selsovet" 0x25d7
-		{Position -1512.71 2948.57 -696.01}
-		{xform zl -129.46}
 	}
 	{Entity "school_ru" 0x25d8
 		{Position 1870.94 -3277.76 -679.32}
@@ -75690,43 +75436,43 @@
 		{TexMod "cross1"}
 	}
 	{Entity "small_villa_602" 0x26df
-		{Position -790.97 -2793.93 -680.5}
+		{Position -790.97 -2793.93 -699}
 		{xform zl -88.83}
 	}
 	{Entity "small_villa_602" 0x26e0
-		{Position -1035.02 -2987.9 -680.5}
+		{Position -1035.02 -2987.9 -699}
 		{xform zl -85.3}
 	}
 	{Entity "house_af1_b" 0x26e1
-		{Position -807 -2653.83 -670.11}
+		{Position -803.86 -2656.72 -689.47}
 		{xform zl 91.3}
 	}
 	{Entity "house_n4_af" 0x26e2
-		{Position -1071.34 -2848.78 -680.5}
+		{Position -1071.34 -2848.78 -699}
 		{xform zl -81.74}
 	}
 	{Entity "house_af1_b" 0x26e3
-		{Position -1138.68 -2709.25 -680.5}
+		{Position -1138.68 -2709.25 -699}
 		{xform zl -66.67}
 	}
 	{Entity "house_af1_b" 0x26e4
-		{Position -772.44 -2989.85 -680.5}
+		{Position -772.44 -2989.85 -699}
 		{xform zl -173.11}
 	}
 	{Entity "house_n2_af" 0x26e5
-		{Position -806.85 -3161.18 -680.5}
+		{Position -806.85 -3161.18 -699}
 		{xform zl -153.03}
 	}
 	{Entity "fence_n1b_af" 0x26e6
-		{Position -941.14 -2610.92 -678.78}
+		{Position -941.14 -2610.92 -701.28}
 		{xform zl 12.33}
 	}
 	{Entity "fence_n1b_af" 0x26e7
-		{Position -1082.32 -2766.69 -680.5}
+		{Position -1082.32 -2766.69 -699}
 		{xform zl 107.83}
 	}
 	{Entity "fence_n1b_af" 0x26e8
-		{Position -743.64 -2899.11 -680.5}
+		{Position -743.64 -2899.11 -699}
 		{xform zl 97.19}
 	}
 	{Entity "fence_n1b_af" 0x26e9
@@ -75734,39 +75480,39 @@
 		{xform zl 13.73}
 	}
 	{Entity "fence_n1b_af" 0x26ea
-		{Position -1223.77 -2739.92 -680.5}
+		{Position -1223.77 -2739.92 -699}
 		{xform zl 97.19}
 	}
 	{Entity "fence_n1b_af" 0x26eb
-		{Position -1210.43 -2852.19 -680.5}
+		{Position -1210.43 -2852.19 -699}
 		{xform zl 97.19}
 	}
 	{Entity "fence_n1b_af" 0x26ec
-		{Position -1186.06 -2961.17 -680.5}
+		{Position -1186.06 -2961.17 -699}
 		{xform zl 108.64}
 	}
 	{Entity "fence_n1b_af" 0x26ed
-		{Position -1149.98 -3068.63 -680.5}
+		{Position -1149.98 -3068.63 -699}
 		{xform zl 108.64}
 	}
 	{Entity "small_villa_602add1" 0x26ee
-		{Position -1292.86 -2804.83 -680.5}
+		{Position -1292.86 -2804.83 -699}
 		{xform zl 93.25}
 	}
 	{Entity "african_village_500" 0x26ef
-		{Position -1248.8 -3043.01 -680.5}
+		{Position -1248.8 -3043.01 -699}
 		{xform zl 19.53}
 	}
 	{Entity "fence_n1b_af" 0x26f0
-		{Position -1499.91 -2902.84 -680.5}
+		{Position -1499.91 -2902.84 -700.5}
 		{xform zl -68.81}
 	}
 	{Entity "fence_n1b_af" 0x26f1
-		{Position -1459.36 -3007.75 -680.5}
+		{Position -1459.36 -3007.75 -700.5}
 		{xform zl -68.81}
 	}
 	{Entity "fence_n1b_af" 0x26f2
-		{Position -1324.33 -3173.91 -680.5}
+		{Position -1324.33 -3173.91 -699}
 		{xform zl 15.57}
 	}
 	{Entity "road_slush_new1" 0x26f3
@@ -75776,15 +75522,15 @@
 		{DecalOrder 1}
 	}
 	{Entity "telega2" 0x26f4
-		{Position -916.17 -3084.53 -680.5}
+		{Position -916.17 -3084.53 -699}
 		{xform zl -70.97}
 	}
 	{Entity "vase_palm2" 0x26f5
-		{Position -862.24 -3028.44 -680.5}
+		{Position -862.24 -3028.44 -699}
 		{xform zl 112.11}
 	}
 	{Entity "vase_palm3" 0x26f6
-		{Position -884.17 -3047.89 -680.5}
+		{Position -884.17 -3047.89 -699}
 		{xform zl 112.11}
 	}
 	{Entity "pot1" 0x26f7
@@ -75796,23 +75542,23 @@
 		{xform zl 112.11}
 	}
 	{Entity "linen1" 0x26f9
-		{Position -1353.37 -2891.53 -680.5}
+		{Position -1353.37 -2891.53 -699}
 		{xform zl 13.94}
 	}
 	{Entity "barrel_woods4" 0x26fa
-		{Position -1325.53 -3137.01 -680.5}
+		{Position -1325.53 -3137.01 -699}
 		{xform zl 112.11}
 	}
 	{Entity "fence_n1b_af" 0x26fb
-		{Position -1401.22 -2672.27 -680.5}
+		{Position -1401.22 -2672.27 -702}
 		{xform zl -2.79}
 	}
 	{Entity "fence_n1b_af" 0x26fc
-		{Position -1288.89 -2677.85 -680.5}
+		{Position -1288.89 -2677.85 -702}
 		{xform zl -2.79}
 	}
 	{Entity "fence_n1b_af" 0x26fd
-		{Position -1516.98 -2667.83 -680.5}
+		{Position -1516.98 -2667.83 -702}
 		{xform zl -2.79}
 	}
 	{Entity "road_sand5w1" 0x26fe
@@ -75821,15 +75567,15 @@
 		{TexMod "cross1"}
 	}
 	{Entity "african_village_502" 0x26ff
-		{Position -1548.16 -2561.06 -680.5}
+		{Position -1548.16 -2561.06 -699}
 		{xform zl -163.47}
 	}
 	{Entity "fence_n1b_af" 0x271f
-		{Position -1665.16 -2440.17 -680.5}
+		{Position -1665.16 -2440.17 -702}
 		{xform zl -64.21}
 	}
 	{Entity "fence_n1b_af" 0x2740
-		{Position -1497.25 -2398.68 -680.5}
+		{Position -1497.25 -2398.68 -699}
 		{xform zl -107.93}
 	}
 	{Entity "barrel_woods" 0x2741
@@ -75837,11 +75583,11 @@
 		{xform zl 53.83}
 	}
 	{Entity "fence_n1b_af" 0x2743
-		{Position -1533.22 -2351.14 -680.5}
+		{Position -1533.22 -2351.14 -702}
 		{xform zl -0.51}
 	}
 	{Entity "fence_n1b_af" 0x2744
-		{Position -1641.71 -2370.46 -680.5}
+		{Position -1641.71 -2370.46 -702}
 		{xform zl 22.03}
 	}
 	{Entity "barrel_woods" 0x2745
@@ -75849,15 +75595,15 @@
 		{xform zl 177.64}
 	}
 	{Entity "small_villa_602" 0x2747
-		{Position -1179.39 -2442.52 -680.5}
+		{Position -1179.39 -2442.52 -699}
 		{xform zl -12.99}
 	}
 	{Entity "house_n4_af" 0x2748
-		{Position -1322.97 -2434.86 -680.5}
+		{Position -1322.97 -2434.86 -699}
 		{xform zl -9.43}
 	}
 	{Entity "fence_n1b_af" 0x2749
-		{Position -1105.61 -2570.11 -680.5}
+		{Position -1105.61 -2570.11 -702}
 		{xform zl -79.23}
 	}
 	{Entity "road_sand5w1" 0x274a
@@ -75881,19 +75627,19 @@
 		{DecalOrder 2}
 	}
 	{Entity "ash_tree_bush2" 0x783c
-		{Position -1833.62 -2813.96 -697.5}
+		{Position -1346.84 -2610.3 -728}
 		{xform zl -60.04}
 	}
 	{Entity "ash_tree_bush2" 0x783d
-		{Position -1736.46 -2818.47 -690.89}
+		{Position -1249.68 -2614.81 -706.5}
 		{xform zl 1.34}
 	}
 	{Entity "ash_tree_bush2" 0x783f
-		{Position -1869.14 -2766.32 -698.5}
+		{Position -1382.36 -2562.66 -706.5}
 		{xform zl 109.71}
 	}
 	{Entity "house_af1_b" 0x274e
-		{Position -1544.07 -2080.91 -680.5}
+		{Position -1544.07 -2080.91 -699}
 		{xform zl 94.53}
 	}
 	{Entity "road_sand5w1" 0x5167
@@ -75925,15 +75671,15 @@
 		{DecalOrder 2}
 	}
 	{Entity "house_n5_af" 0x5285
-		{Position -443.25 -2794.55 -680.5}
+		{Position -443.25 -2794.55 -699}
 		{xform zl 3}
 	}
 	{Entity "house_af1_b" 0x5292
-		{Position -1126.64 -2188.19 -673.21}
+		{Position -1126.64 -2188.19 -691.71}
 		{xform zl 151.99}
 	}
 	{Entity "house_n4_af" 0x52a2
-		{Position -1334.11 -2160.29 -680.5}
+		{Position -1334.11 -2160.29 -699}
 		{xform zl 109.44}
 	}
 	{Entity "stolb_road" 0x52a3
@@ -75971,6 +75717,9 @@
 	{Entity "fortress_complex" 0x2870
 		{Position 2984.26 -2238.04 -688.36}
 		{xform zl -40.02}
+		{Placer
+			{State "flag" {Unlinked}}
+		}
 	}
 	{Entity "hangar_port_c" 0x28ac
 		{Position 1705.65 -1140.88 -699.17}
@@ -77686,7 +77435,7 @@
 		{xform zl 1.3}
 	}
 	{Entity "radar_mount" 0x2544
-		{Position 9520.33 -5780.13 -685.44}
+		{Position 9520.33 -5780.13 -708.44}
 		{xform zl 91.29}
 	}
 	{Entity "airfield" 0x2545
@@ -77696,6 +77445,935 @@
 	{Entity "airfield" 0x256f
 		{Position 9956.93 -5446.22}
 		{xform zl 90.56}
+	}
+	{Entity "fc_c1_1" 0x3aa
+		{TexMod "5"}
+	}
+	{Entity "fc_c2_2" 0x3ab
+		{TexMod "5"}
+	}
+	{Entity "fc_c10_1" 0x3ac
+		{TexMod "5"}
+	}
+	{Entity "fc_c9_1" 0x3ad
+		{TexMod "5"}
+	}
+	{Entity "fc_c8_1" 0x3c0
+		{TexMod "5"}
+	}
+	{Entity "fc_c7_1" 0x3d0
+		{TexMod "5"}
+	}
+	{Entity "fc_c5_1" 0x3d3
+		{TexMod "5"}
+	}
+	{Entity "fc_c4_2" 0x3d4
+		{TexMod "5"}
+	}
+	{Entity "fc_c3_2" 0x3e2
+		{TexMod "5"}
+	}
+	{Entity "fc_balcony_1" 0x3fa
+		{TexMod "win1"}
+	}
+	{Entity "fc_balcony_2" 0x3fb
+		{TexMod "win1"}
+	}
+	{Entity "fc_balcony_3" 0x3fc
+		{TexMod "win1"}
+	}
+	{Entity "fc_c4_21" 0x3fd
+		{TexMod "5"}
+	}
+	{Entity "fc_c5_2" 0x3fe
+		{TexMod "5"}
+	}
+	{Entity "fc_c6_2" 0x3ff
+		{TexMod "5"}
+	}
+	{Entity "fc_c8_2" 0x400
+		{TexMod "5"}
+	}
+	{Entity "fc_c9_2" 0x401
+		{TexMod "5"}
+	}
+	{Entity "fc_c10_2" 0x402
+		{TexMod "5"}
+	}
+	{Entity "fc_int1_1" 0x405
+		{TexMod "5"}
+	}
+	{Entity "fc_c3_3" 0x409
+		{TexMod "5"}
+	}
+	{Entity "fc_c2_3" 0x40a
+		{TexMod "5"}
+	}
+	{Entity "fc_c4_3" 0x40b
+		{TexMod "5"}
+	}
+	{Entity "fc_c5_3" 0x40c
+		{TexMod "5"}
+	}
+	{Entity "fc_c6_3" 0x40d
+		{TexMod "5"}
+	}
+	{Entity "fc_c7_3" 0x411
+		{TexMod "5"}
+	}
+	{Entity "fc_c8_3" 0x412
+		{TexMod "5"}
+	}
+	{Entity "fc_c9_3" 0x416
+		{TexMod "5"}
+	}
+	{Entity "fc_c10_32" 0x417
+		{TexMod "5"}
+	}
+	{Entity "fc_c10_31" 0x418
+		{TexMod "5"}
+	}
+	{Entity "fc_c1_3" 0x41d
+		{TexMod "5"}
+	}
+	{Entity "fc_c2_4" 0x41f
+		{TexMod "5"}
+	}
+	{Entity "fc_c1_roof" 0x420
+		{TexMod "5"}
+	}
+	{Entity "fc_c10_roof1" 0x421
+		{TexMod "5"}
+	}
+	{Entity "fc_c10_roof2" 0x422
+		{TexMod "5"}
+	}
+	{Entity "fc_c9_roof" 0x423
+		{TexMod "5"}
+	}
+	{Entity "fc_c8_roof" 0x424
+		{TexMod "burned"}
+	}
+	{Entity "fc_int3_roof" 0x425
+		{TexMod "burned"}
+	}
+	{Entity "fc_c7_roof" 0x426
+		{TexMod "5"}
+	}
+	{Entity "fc_c6_roof" 0x427
+		{TexMod "burned"}
+	}
+	{Entity "fc_c5_roof" 0x428
+		{TexMod "5"}
+	}
+	{Entity "fc_c4_roof" 0x429
+		{TexMod "5"}
+	}
+	{Entity "fc_int2_roof" 0x42a
+		{TexMod "5"}
+	}
+	{Entity "fc_int1_roof" 0x42b
+		{TexMod "5"}
+	}
+	{Entity "fc_c2_roof2" 0x42c
+		{TexMod "5"}
+	}
+	{Entity "fc_c2_roof1" 0x42d
+		{TexMod "5"}
+	}
+	{Entity "n1_af_c1" 0x21dd
+		{TexMod "modernafgh1"}
+	}
+	{Entity "n1_af_c2" 0x21df
+		{TexMod "modernafgh1"}
+	}
+	{Entity "n1_af_c3" 0x21e0
+		{TexMod "modernafgh1"}
+	}
+	{Entity "n1_af_c4" 0x21e1
+		{TexMod "modernafgh1"}
+	}
+	{Entity "n1_af_c5" 0x21e2
+		{TexMod "modernafgh1"}
+	}
+	{Entity "n1_af_roof1" 0x21e3
+		{TexMod "modernafgh1"}
+	}
+	{Entity "n1_af_roof2" 0x21e5
+		{TexMod "modernafgh1"}
+	}
+	{Entity "n1_af_roof3" 0x21f0
+		{TexMod "modernafgh1"}
+	}
+	{Entity "n1_af_roof4" 0x21f1
+		{TexMod "modernafgh1"}
+	}
+	{Entity "n1_af_uc1" 0x21f2
+		{TexMod "modernafgh1"}
+	}
+	{Entity "n1_af_uc2" 0x21f3
+		{TexMod "modernafgh1"}
+	}
+	{Entity "n1_af_uc3" 0x21f4
+		{TexMod "modernafgh1"}
+	}
+	{Entity "n1_af_uc4" 0x21f5
+		{TexMod "modernafgh1"}
+	}
+	{Entity "n1_af_uw1" 0x21f6
+		{TexMod "modernafgh1"}
+	}
+	{Entity "n1_af_w2" 0x21f7
+		{TexMod "modernafgh1"}
+	}
+	{Entity "n1_af_w3" 0x21f8
+		{TexMod "modernafgh1"}
+	}
+	{Entity "n1_af_w4" 0x21f9
+		{TexMod "modernafgh1"}
+	}
+	{Entity "d_build2_w3" 0x23fd
+		{TexMod "5"}
+	}
+	{Entity "d_build2_w1" 0x23fe
+		{TexMod "5"}
+	}
+	{Entity "d_build2_w4" 0x23ff
+		{TexMod "5"}
+	}
+	{Entity "d_build2_c4" 0x2409
+		{TexMod "5"}
+	}
+	{Entity "d_build2_w2" 0x2414
+		{TexMod "5"}
+	}
+	{Entity "d_build2_c1" 0x2415
+		{TexMod "5"}
+	}
+	{Entity "d_build2_c2" 0x2416
+		{TexMod "5"}
+	}
+	{Entity "d_build2_c3" 0x2417
+		{TexMod "5"}
+	}
+	{Entity "hangarport_corner1" 0x2438
+		{TexMod "8"}
+	}
+	{Entity "hangarport_corner2" 0x2439
+		{TexMod "8"}
+	}
+	{Entity "hangarport_corner3" 0x243a
+		{TexMod "8"}
+	}
+	{Entity "hangarport_corner4" 0x243b
+		{TexMod "8"}
+	}
+	{Entity "hangarport_corner12" 0x243c
+		{TexMod "8"}
+	}
+	{Entity "hangarport_corner11" 0x243d
+		{TexMod "8"}
+	}
+	{Entity "hangarport_corner10" 0x243e
+		{TexMod "8"}
+	}
+	{Entity "hangarport_corner9" 0x243f
+		{TexMod "8"}
+	}
+	{Entity "hangarport_corner8" 0x2440
+		{TexMod "8"}
+	}
+	{Entity "hangarport_corner7" 0x2441
+		{TexMod "8"}
+	}
+	{Entity "hangarport_corner5" 0x2442
+		{TexMod "8"}
+	}
+	{Entity "hangarport_corner6" 0x2443
+		{TexMod "8"}
+	}
+	{Entity "sv_f1c1" 0x43a
+		{Placer
+			{State "1" {Broken}}
+		}
+	}
+	{Entity "sv_f1c1" 0x302c
+		{TexMod
+			{"/texture/common/wall/villa_extwall" "5"}
+		}
+		{Placer
+			{State "1" {Broken}}
+		}
+	}
+	{Entity "sv_f1c2" 0x302d
+		{TexMod
+			{"/texture/common/wall/villa_extwall" "5"}
+		}
+	}
+	{Entity "sv_f1c3" 0x302e
+		{TexMod
+			{"/texture/common/wall/villa_extwall" "5"}
+		}
+	}
+	{Entity "sv_f1c4" 0x302f
+		{TexMod
+			{"/texture/common/wall/villa_extwall" "5"}
+		}
+	}
+	{Entity "sv_f1w1" 0x3031
+		{TexMod
+			{"/texture/common/wall/villa_extwall" "5"}
+		}
+	}
+	{Entity "sv_f1w2" 0x3032
+		{TexMod
+			{"/texture/common/wall/villa_extwall" "5"}
+		}
+	}
+	{Entity "sv_f1w3" 0x3033
+		{TexMod
+			{"/texture/common/wall/villa_extwall" "5"}
+		}
+	}
+	{Entity "sv_f1w4" 0x3035
+		{TexMod
+			{"/texture/common/wall/villa_extwall" "5"}
+		}
+	}
+	{Entity "sv_f2c1" 0x3036
+		{TexMod
+			{"/texture/common/wall/villa_extwall" "5"}
+		}
+	}
+	{Entity "sv_f2c2" 0x3037
+		{TexMod
+			{"/texture/common/wall/villa_extwall" "5"}
+		}
+	}
+	{Entity "sv_f2c3" 0x3038
+		{TexMod
+			{"/texture/common/wall/villa_extwall" "5"}
+		}
+	}
+	{Entity "sv_f2c4" 0x3039
+		{TexMod
+			{"/texture/common/wall/villa_extwall" "5"}
+		}
+	}
+	{Entity "sv_f2w1" 0x303f
+		{TexMod
+			{"/texture/common/wall/villa_extwall" "5"}
+		}
+	}
+	{Entity "sv_f2w2" 0x3040
+		{TexMod
+			{"/texture/common/wall/villa_extwall" "5"}
+		}
+	}
+	{Entity "sv_f2w3" 0x3041
+		{TexMod
+			{"/texture/common/wall/villa_extwall" "5"}
+		}
+	}
+	{Entity "sv_rc1" 0x3042
+		{TexMod
+			{"/texture/common/wall/villa_extwall" "5"}
+			{"/texture/common/roof/303_roof" "5"}
+		}
+	}
+	{Entity "sv_rc2" 0x3043
+		{TexMod
+			{"/texture/common/wall/villa_extwall" "5"}
+			{"/texture/common/roof/303_roof" "5"}
+		}
+	}
+	{Entity "sv_rc3" 0x3044
+		{TexMod
+			{"/texture/common/wall/villa_extwall" "5"}
+			{"/texture/common/roof/303_roof" "5"}
+		}
+	}
+	{Entity "sv_rc4" 0x3045
+		{TexMod
+			{"/texture/common/wall/villa_extwall" "5"}
+			{"/texture/common/roof/303_roof" "5"}
+		}
+	}
+	{Entity "sv_ri1" 0x3046
+		{TexMod
+			{"/texture/common/roof/303_roof" "5"}
+		}
+	}
+	{Entity "sv_ri2" 0x3047
+		{TexMod
+			{"/texture/common/roof/303_roof" "5"}
+		}
+	}
+	{Entity "sv_ri3" 0x3048
+		{TexMod
+			{"/texture/common/roof/303_roof" "5"}
+		}
+	}
+	{Entity "sv_ri4" 0x3049
+		{TexMod
+			{"/texture/common/roof/303_roof" "5"}
+		}
+	}
+	{Entity "sv_rw1" 0x304a
+		{TexMod
+			{"/texture/common/wall/villa_extwall" "5"}
+			{"/texture/common/roof/303_roof" "5"}
+		}
+	}
+	{Entity "sv_rw2" 0x304b
+		{TexMod
+			{"/texture/common/wall/villa_extwall" "5"}
+			{"/texture/common/roof/303_roof" "5"}
+		}
+	}
+	{Entity "sv_rw3" 0x304c
+		{TexMod
+			{"/texture/common/wall/villa_extwall" "5"}
+			{"/texture/common/roof/303_roof" "5"}
+		}
+	}
+	{Entity "sv_rw4" 0x304d
+		{TexMod
+			{"/texture/common/wall/villa_extwall" "5"}
+			{"/texture/common/roof/303_roof" "5"}
+		}
+	}
+	{Entity "sv_f1c1" 0x30b2
+		{TexMod
+			{"/texture/common/wall/villa_extwall" "5"}
+		}
+		{Placer
+			{State "1" {Broken}}
+		}
+	}
+	{Entity "sv_f1c2" 0x30b3
+		{TexMod
+			{"/texture/common/wall/villa_extwall" "5"}
+		}
+	}
+	{Entity "sv_f1c3" 0x30b4
+		{TexMod
+			{"/texture/common/wall/villa_extwall" "5"}
+		}
+	}
+	{Entity "sv_f1c4" 0x30b5
+		{TexMod
+			{"/texture/common/wall/villa_extwall" "5"}
+		}
+	}
+	{Entity "sv_f1w1" 0x30b6
+		{TexMod
+			{"/texture/common/wall/villa_extwall" "5"}
+		}
+	}
+	{Entity "sv_f1w2" 0x30b7
+		{TexMod
+			{"/texture/common/wall/villa_extwall" "5"}
+		}
+	}
+	{Entity "sv_f1w3" 0x30b8
+		{TexMod
+			{"/texture/common/wall/villa_extwall" "5"}
+		}
+	}
+	{Entity "sv_f1w4" 0x30b9
+		{TexMod
+			{"/texture/common/wall/villa_extwall" "5"}
+		}
+	}
+	{Entity "sv_f2c1" 0x30ba
+		{TexMod
+			{"/texture/common/wall/villa_extwall" "5"}
+		}
+	}
+	{Entity "sv_f2c2" 0x30bb
+		{TexMod
+			{"/texture/common/wall/villa_extwall" "5"}
+		}
+	}
+	{Entity "sv_f2c3" 0x30bc
+		{TexMod
+			{"/texture/common/wall/villa_extwall" "5"}
+		}
+	}
+	{Entity "sv_f2c4" 0x30bd
+		{TexMod
+			{"/texture/common/wall/villa_extwall" "5"}
+		}
+	}
+	{Entity "sv_f2w1" 0x30c5
+		{TexMod
+			{"/texture/common/wall/villa_extwall" "5"}
+		}
+	}
+	{Entity "sv_f2w2" 0x30c6
+		{TexMod
+			{"/texture/common/wall/villa_extwall" "5"}
+		}
+	}
+	{Entity "sv_f2w3" 0x30c8
+		{TexMod
+			{"/texture/common/wall/villa_extwall" "5"}
+		}
+	}
+	{Entity "sv_rc1" 0x30c9
+		{TexMod
+			{"/texture/common/wall/villa_extwall" "5"}
+			{"/texture/common/roof/303_roof" "5"}
+		}
+	}
+	{Entity "sv_rc2" 0x30ca
+		{TexMod
+			{"/texture/common/wall/villa_extwall" "5"}
+			{"/texture/common/roof/303_roof" "5"}
+		}
+	}
+	{Entity "sv_rc3" 0x30cc
+		{TexMod
+			{"/texture/common/wall/villa_extwall" "5"}
+			{"/texture/common/roof/303_roof" "5"}
+		}
+	}
+	{Entity "sv_rc4" 0x30cd
+		{TexMod
+			{"/texture/common/wall/villa_extwall" "5"}
+			{"/texture/common/roof/303_roof" "5"}
+		}
+	}
+	{Entity "sv_ri1" 0x30cf
+		{TexMod
+			{"/texture/common/roof/303_roof" "5"}
+		}
+	}
+	{Entity "sv_ri2" 0x30d0
+		{TexMod
+			{"/texture/common/roof/303_roof" "5"}
+		}
+	}
+	{Entity "sv_ri3" 0x30d2
+		{TexMod
+			{"/texture/common/roof/303_roof" "5"}
+		}
+	}
+	{Entity "sv_ri4" 0x30d3
+		{TexMod
+			{"/texture/common/roof/303_roof" "5"}
+		}
+	}
+	{Entity "sv_rw1" 0x30d5
+		{TexMod
+			{"/texture/common/wall/villa_extwall" "5"}
+			{"/texture/common/roof/303_roof" "5"}
+		}
+	}
+	{Entity "sv_rw2" 0x30d6
+		{TexMod
+			{"/texture/common/wall/villa_extwall" "5"}
+			{"/texture/common/roof/303_roof" "5"}
+		}
+	}
+	{Entity "sv_rw3" 0x30d7
+		{TexMod
+			{"/texture/common/wall/villa_extwall" "5"}
+			{"/texture/common/roof/303_roof" "5"}
+		}
+	}
+	{Entity "sv_rw4" 0x30d8
+		{TexMod
+			{"/texture/common/wall/villa_extwall" "5"}
+			{"/texture/common/roof/303_roof" "5"}
+		}
+	}
+	{Entity "stone_af1a" 0x30d9
+		{Position -553.62 -4344.92 -701}
+		{xform zl 126.56 scale 1.04}
+		{Simulation {Able 1}}
+	}
+	{Entity "stone_af1a" 0x30da
+		{Position -460.7 -4390.52 -701}
+		{xform zl -27.57 scale 1.43}
+		{Simulation {Able 1}}
+	}
+	{Entity "stone_af1a" 0x30db
+		{Position -496.61 -4390.33 -701}
+		{xform zl -45.45 scale 0.47}
+		{Simulation {Able 1}}
+	}
+	{Entity "stone_af1a" 0x30dc
+		{Position -479.81 -4400.13 -701}
+		{xform zl -28.34 scale 0.604}
+		{Simulation {Able 1}}
+	}
+	{Entity "bush8a" 0x30dd
+		{Position -488.86 -4442.37 -701}
+		{xform zl -114.69 scale 0.784}
+		{TexMod "bare"}
+		{Color 0xffcfcfcf}
+		{Volume "crown"
+			{able {visible 0}}
+		}
+	}
+	{Entity "stone_af1a" 0x30de
+		{Position -542.95 -4437.79 -701}
+		{xform zl 93.36 scale 1.43}
+		{Simulation {Able 1}}
+	}
+	{Entity "stone_af1a" 0x30df
+		{Position -564.14 -4407.1 -701}
+		{xform zl -57.62 scale 1.48}
+		{Simulation {Able 1}}
+	}
+	{Entity "stone_af1a" 0x30e0
+		{Position -547.54 -4414.28 -701}
+		{xform zl 91.31 scale 0.604}
+		{Simulation {Able 1}}
+	}
+	{Entity "small_villa_602" 0x30e1
+		{Position -483.33 -4546.72 -701}
+		{xform zl -88.83}
+	}
+	{Entity "small_villa_602" 0x30e2
+		{Position -727.38 -4740.69 -701}
+		{xform zl -85.3}
+	}
+	{Entity "house_af1_b" 0x30e3
+		{Position -499.36 -4406.62 -701}
+		{xform zl 91.3}
+	}
+	{Entity "house_n4_af" 0x30e5
+		{Position -763.7 -4601.57 -701}
+		{xform zl -81.74}
+	}
+	{Entity "house_af1_b" 0x30e6
+		{Position -831.04 -4462.04 -701}
+		{xform zl -66.67}
+	}
+	{Entity "fence_n1b_af" 0x30e7
+		{Position -633.5 -4363.71 -701}
+		{xform zl 12.33}
+	}
+	{Entity "fence_n1b_af" 0x30e8
+		{Position -774.68 -4519.48 -701}
+		{xform zl 107.83}
+	}
+	{Entity "fence_n1b_af" 0x30e9
+		{Position -916.13 -4492.71 -701}
+		{xform zl 97.19}
+	}
+	{Entity "fence_n1b_af" 0x30ea
+		{Position -902.79 -4604.98 -701}
+		{xform zl 97.19}
+	}
+	{Entity "fence_n1b_af" 0x30eb
+		{Position -878.42 -4713.96 -701}
+		{xform zl 108.64}
+	}
+	{Entity "fence_n1b_af" 0x30ec
+		{Position -842.34 -4821.42 -701}
+		{xform zl 108.64}
+	}
+	{Entity "small_villa_602add1" 0x30ee
+		{Position -985.22 -4557.62 -701}
+		{xform zl 93.25}
+	}
+	{Entity "african_village_500" 0x30ef
+		{Position -941.16 -4795.8 -701}
+		{xform zl 19.53}
+	}
+	{Entity "fence_n1b_af" 0x30f0
+		{Position -1151.72 -4760.54 -708.86}
+		{xform zl -68.81}
+	}
+	{Entity "telega2" 0x30f1
+		{Position -608.53 -4837.32 -701}
+		{xform zl -70.97}
+	}
+	{Entity "vase_palm2" 0x30f2
+		{Position -554.6 -4781.23 -701}
+		{xform zl 112.11}
+	}
+	{Entity "vase_palm3" 0x30f3
+		{Position -576.53 -4800.68 -701}
+		{xform zl 112.11}
+	}
+	{Entity "pot1" 0x30f4
+		{Position -544.44 -4807.12 -701}
+		{xform zl 112.11}
+	}
+	{Entity "pot1" 0x30f5
+		{Position -556.56 -4817.82 -701}
+		{xform zl 112.11}
+	}
+	{Entity "linen1" 0x30f6
+		{Position -1045.73 -4644.32 -701}
+		{xform zl 13.94}
+	}
+	{Entity "fence_n1b_af" 0x30f7
+		{Position -1093.58 -4425.06 -701}
+		{xform zl -2.79}
+	}
+	{Entity "fence_n1b_af" 0x30f8
+		{Position -981.25 -4430.64 -701}
+		{xform zl -2.79}
+	}
+	{Entity "fence_n1b_af" 0x30f9
+		{Position -797.97 -4322.9 -701}
+		{xform zl -79.23}
+	}
+	{Entity "house_af1_b" 0x30fa
+		{Position -464.8 -4742.64 -701}
+		{xform zl -173.11}
+	}
+	{Entity "house_n2_af" 0x30fb
+		{Position -499.21 -4913.97 -701}
+		{xform zl -153.03}
+	}
+	{Entity "african_village_502" 0x30fc
+		{Position -1240.52 -4313.85 -701.1}
+		{xform zl -163.47}
+	}
+	{Entity "stone_af1a" 0x30fd
+		{Position -1194.68 -4818.02 -721}
+		{xform zl -172.06 scale 1.43}
+		{Simulation {Able 1}}
+	}
+	{Entity "stone_af1a" 0x30fe
+		{Position -1223.58 -4841.59 -721}
+		{xform zl 36.96 scale 1.48}
+		{Simulation {Able 1}}
+	}
+	{Entity "stone_af1a" 0x30ff
+		{Position -1217.74 -4824.47 -721}
+		{xform zl -174.11 scale 0.604}
+		{Simulation {Able 1}}
+	}
+	{Entity "fence_n1b_af" 0x3100
+		{Position -647.55 -4924.43 -701}
+		{xform zl 13.73}
+	}
+	{Entity "fence_n1b_af" 0x3101
+		{Position -1192.27 -4655.63 -706.78}
+		{xform zl -68.81}
+	}
+	{Entity "road_slush_new1" 0x3102
+		{Position -1175.23 -4529.69 -701}
+		{xform zl -123.76}
+		{TexMod "qc"}
+		{DecalOrder 1}
+	}
+	{Entity "barrel_woods4" 0x3103
+		{Position -1017.89 -4889.8 -701}
+		{xform zl 112.11}
+	}
+	{Entity "fence_n1b_af" 0x3104
+		{Position -1016.69 -4926.7 -701}
+		{xform zl 15.57}
+	}
+	{Entity "fence_n1b_af" 0x3105
+		{Position -1209.34 -4420.62 -701}
+		{xform zl -2.79}
+	}
+	{Entity "fence_n1b_af" 0x3106
+		{Position -1189.61 -4151.47 -701}
+		{xform zl -107.93}
+	}
+	{Entity "house_n4_af" 0x3107
+		{Position -1015.33 -4187.65 -701}
+		{xform zl -9.43}
+	}
+	{Entity "small_villa_602" 0x3108
+		{Position -871.75 -4195.31 -701}
+		{xform zl -12.99}
+	}
+	{Entity "barrel_woods" 0x3109
+		{Position -1293.6 -4198.88 -701.41}
+		{xform zl 177.64}
+	}
+	{Entity "fence_n1b_af" 0x310a
+		{Position -1357.52 -4192.96 -707}
+		{xform zl -64.21}
+	}
+	{Entity "barrel_woods" 0x310b
+		{Position -1278.09 -4140.36 -701}
+		{xform zl 53.83}
+	}
+	{Entity "fence_n1b_af" 0x310c
+		{Position -1225.58 -4103.93 -701}
+		{xform zl -0.51}
+	}
+	{Entity "fence_n1b_af" 0x310d
+		{Position -1334.07 -4123.25 -704.45}
+		{xform zl 22.03}
+	}
+	{Entity "back_road" 0x310e
+		{Position -1619.32 -3489.14 -697.5}
+		{xform zl -163.23}
+		{TexMod "sand"}
+		{DecalOrder 2}
+	}
+	{Entity "back_road" 0x310f
+		{Position -1543.33 -3741.06 -689.5}
+		{xform zl -163.23}
+		{TexMod "sand"}
+		{DecalOrder 2}
+	}
+	{Entity "back_road" 0x3110
+		{Position -1474.26 -4009.88 -684.54}
+		{xform zl -166.15}
+		{TexMod "sand"}
+		{DecalOrder 2}
+	}
+	{Entity "back_road" 0x3111
+		{Position -1388.55 -4318.88 -690.44}
+		{xform zl -163.23}
+		{TexMod "sand"}
+		{DecalOrder 2}
+	}
+	{Entity "back_road" 0x3112
+		{Position -1425.76 -4205.61 -687.5}
+		{xform zl -163.23}
+		{TexMod "sand"}
+		{DecalOrder 2}
+	}
+	{Entity "stone_af1a" 0x60f1
+		{Position -575.98 -2257.74 -649.15}
+		{xform zl -97.7 scale 2.267}
+		{Simulation {Able 1}}
+	}
+	{Entity "stone_af1c" 0x60f2
+		{Position -545.11 -2233.4 -649.32}
+		{xform zl -98.27 scale 2.267}
+		{Simulation {Able 1}}
+	}
+	{Entity "stone_af1a" 0x60fc
+		{Position -584.43 -2218.48 -649.06}
+		{xform zl 109 scale 1.928}
+		{Simulation {Able 1}}
+	}
+	{Entity "stone_af1a" 0x60fd
+		{Position -577.39 -2290.77 -648.28}
+		{xform zl 167.79 scale 2.291}
+		{Simulation {Able 1}}
+	}
+	{Entity "stone_af1a" 0x60fe
+		{Position -592.1 -2280.13 -649.76}
+		{xform zl 52.95 scale 2.071}
+		{Simulation {Able 1}}
+	}
+	{Entity "stone_af1a" 0x6100
+		{Position -546.68 -2212.32 -650.02}
+		{xform zl -69.06 scale 1.8}
+		{Simulation {Able 1}}
+	}
+	{Entity "stone_af1a" 0x6101
+		{Position -567.2 -2271.32 -648.46}
+		{xform zl -68.58 scale 1.8}
+		{Simulation {Able 1}}
+	}
+	{Entity "bush2" 0x6314
+		{Position -584.66 -2268.98 -649.04}
+		{xform zl 31.11 scale 2.267}
+		{TexMod "burned"}
+		{Volume "crown"
+			{able {visible 0}}
+		}
+	}
+	{Entity "siria_mosque" 0x3702
+		{Position -906.62 3243.07 -703.8}
+		{xform zl -70.58}
+		{Armor
+			{wounds
+				{damage "body22" -2.38767 0.55
+					{matrix
+						{pos -8.23 6.739 -53.969}
+						{nxform 0.855 1.571 -0.344}
+					}
+				}
+			}
+		}
+	}
+	{Entity "road_sand_af1b" 0x516c
+		{Position -2029.79 -4112.47}
+		{xform zl -142.03}
+		{DecalOrder 2}
+		{Color 0xffeacfcc}
+	}
+	{Entity "road_sand_af1b" 0x516d
+		{Position -1730.93 -3929.91}
+		{xform zl -152.68}
+		{DecalOrder 2}
+		{Color 0xffeacfcc}
+	}
+	{Entity "back_road" 0x2804
+		{Position -1681.89 -3887.76 -680.5}
+		{xform zl -61.22}
+		{TexMod "sand"}
+		{DecalOrder 2}
+	}
+	{Entity "back_road" 0x2805
+		{Position -1915.61 -4016.8 -680.5}
+		{xform zl -56.65}
+		{TexMod "sand"}
+		{DecalOrder 2}
+	}
+	{Entity "back_road" 0x2806
+		{Position -2132.06 -4182.52 -680.5}
+		{xform zl 130.43}
+		{TexMod "sand"}
+		{DecalOrder 2}
+	}
+	{Entity "back_road" 0x2807
+		{Position -2333.88 -4363.9 -675.5}
+		{xform zl 138.68}
+		{TexMod "sand"}
+		{DecalOrder 2}
+	}
+	{Entity "back_road" 0x2808
+		{Position -2464.14 -4587.4 -658.94}
+		{xform zl 165.21}
+		{TexMod "sand"}
+		{DecalOrder 2}
+	}
+	{Entity "back_road" 0x2809
+		{Position -2528.95 -4846.86 -661.29}
+		{xform zl 169.21}
+		{TexMod "sand"}
+		{DecalOrder 2}
+	}
+	{Entity "back_road" 0x280c
+		{Position -2545.92 -5116.04 -680.5}
+		{xform zl -175.72}
+		{TexMod "sand"}
+		{DecalOrder 2}
+	}
+	{Entity "back_road" 0x280d
+		{Position -2518.27 -5389.05 -680.5}
+		{xform zl -173.06}
+		{TexMod "sand"}
+		{DecalOrder 2}
+	}
+	{Entity "back_road" 0x280e
+		{Position -2478.45 -5648.16 -680.5}
+		{xform zl -168.86}
+		{TexMod "sand"}
+		{DecalOrder 2}
+	}
+	{Entity "back_road" 0x280f
+		{Position -2428.94 -5918.02 -680.5}
+		{xform zl -170.81}
+		{TexMod "sand"}
+		{DecalOrder 2}
+	}
+	{Entity "back_road" 0x2810
+		{Position -2380.32 -6181.16 -680.5}
+		{xform zl -168.98}
+		{TexMod "sand"}
+		{DecalOrder 2}
 	}
 	{Link 0x4d23 {0x4d27 "1"}}
 	{Link 0x4d24 {0x4d27 "2"}}
@@ -78514,50 +79192,25 @@
 	{Link 0x3dce {0x3dcf "c9"}}
 	{Link 0x27c9 {0x27c8 "f1c1"}}
 	{Link 0x27fd {0x27e9 "w1"}}
+	{Link 0x21dd {0x3020 "c1"}}
+	{Link 0x21df {0x3020 "c2"}}
+	{Link 0x21e0 {0x3020 "c3"}}
+	{Link 0x21e1 {0x3020 "c4"}}
+	{Link 0x21e2 {0x3020 "c5"}}
+	{Link 0x21e3 {0x3020 "r1"}}
+	{Link 0x21e5 {0x3020 "r2"}}
+	{Link 0x21f0 {0x3020 "r3"}}
+	{Link 0x21f1 {0x3020 "r4"}}
+	{Link 0x21f2 {0x3020 "uc1"}}
+	{Link 0x21f3 {0x3020 "uc2"}}
+	{Link 0x21f4 {0x3020 "uc3"}}
+	{Link 0x21f5 {0x3020 "uc4"}}
+	{Link 0x21f6 {0x3020 "uw1"}}
 	{Link 0x3030 {0x3020 "w1"}}
+	{Link 0x21f7 {0x3020 "w2"}}
+	{Link 0x21f8 {0x3020 "w3"}}
+	{Link 0x21f9 {0x3020 "w4"}}
 	{Link 0x23c2 {0x23c1 "f1c1"}}
-	{Link 0x250a {0x25d7 "basis"}}
-	{Link 0x250b {0x25d7 "5"}}
-	{Link 0x250c {0x25d7 "6"}}
-	{Link 0x250d {0x25d7 "7"}}
-	{Link 0x250e {0x25d7 "8"}}
-	{Link 0x250f {0x25d7 "9"}}
-	{Link 0x2510 {0x25d7 "1"}}
-	{Link 0x2511 {0x25d7 "10"}}
-	{Link 0x2512 {0x25d7 "11"}}
-	{Link 0x2513 {0x25d7 "12"}}
-	{Link 0x2514 {0x25d7 "13"}}
-	{Link 0x2515 {0x25d7 "14"}}
-	{Link 0x2516 {0x25d7 "15"}}
-	{Link 0x2517 {0x25d7 "16"}}
-	{Link 0x2518 {0x25d7 "17"}}
-	{Link 0x2519 {0x25d7 "18"}}
-	{Link 0x251a {0x25d7 "19"}}
-	{Link 0x251b {0x25d7 "2"}}
-	{Link 0x251c {0x25d7 "20"}}
-	{Link 0x251d {0x25d7 "21"}}
-	{Link 0x251e {0x25d7 "22"}}
-	{Link 0x251f {0x25d7 "23"}}
-	{Link 0x2520 {0x25d7 "24"}}
-	{Link 0x2521 {0x25d7 "25"}}
-	{Link 0x2522 {0x25d7 "26"}}
-	{Link 0x2523 {0x25d7 "27"}}
-	{Link 0x2524 {0x25d7 "28"}}
-	{Link 0x2525 {0x25d7 "29"}}
-	{Link 0x2526 {0x25d7 "3"}}
-	{Link 0x2527 {0x25d7 "30"}}
-	{Link 0x2528 {0x25d7 "31"}}
-	{Link 0x2529 {0x25d7 "32"}}
-	{Link 0x252a {0x25d7 "33"}}
-	{Link 0x252b {0x25d7 "34"}}
-	{Link 0x252c {0x25d7 "35"}}
-	{Link 0x252d {0x25d7 "36"}}
-	{Link 0x252e {0x25d7 "37"}}
-	{Link 0x2531 {0x25d7 "4"}}
-	{Link 0x2533 {0x25d7 "41"}}
-	{Link 0x2537 {0x25d7 "45"}}
-	{Link 0x2538 {0x25d7 "46"}}
-	{Link 0x2539 {0x25d7 "47"}}
 	{Link 0x2546 {0x25d8 "1"}}
 	{Link 0x2547 {0x25d8 "2"}}
 	{Link 0x2548 {0x25d8 "3"}}
@@ -78701,6 +79354,71 @@
 	{Link 0x26be {0x2747 "rw2"}}
 	{Link 0x26bf {0x2747 "rw3"}}
 	{Link 0x26c0 {0x2747 "rw4"}}
+	{Link 0x23fd {0x2847 "d_build2_w3"}}
+	{Link 0x23fe {0x2847 "d_build2_w1"}}
+	{Link 0x23ff {0x2847 "d_build2_w4"}}
+	{Link 0x2409 {0x2847 "d_build2_c4"}}
+	{Link 0x2414 {0x2847 "d_build2_w2"}}
+	{Link 0x2415 {0x2847 "d_build2_c1"}}
+	{Link 0x2416 {0x2847 "d_build2_c2"}}
+	{Link 0x2417 {0x2847 "d_build2_c3"}}
+	{Link 0x3aa {0x2870 "c1_1"}}
+	{Link 0x3ab {0x2870 "c2_2"}}
+	{Link 0x3ac {0x2870 "c10_1"}}
+	{Link 0x3ad {0x2870 "c9_1"}}
+	{Link 0x3c0 {0x2870 "c8_1"}}
+	{Link 0x3d0 {0x2870 "c7_1"}}
+	{Link 0x3d3 {0x2870 "c5_1"}}
+	{Link 0x3d4 {0x2870 "c4_2"}}
+	{Link 0x3e2 {0x2870 "c3_2"}}
+	{Link 0x3fa {0x2870 "balcony_1"}}
+	{Link 0x3fb {0x2870 "balcony_2"}}
+	{Link 0x3fc {0x2870 "balcony_3"}}
+	{Link 0x3fd {0x2870 "c4_21"}}
+	{Link 0x3fe {0x2870 "c5_2"}}
+	{Link 0x3ff {0x2870 "c6_2"}}
+	{Link 0x400 {0x2870 "c8_2"}}
+	{Link 0x401 {0x2870 "c9_2"}}
+	{Link 0x402 {0x2870 "c10_2"}}
+	{Link 0x405 {0x2870 "int1_1"}}
+	{Link 0x409 {0x2870 "c3_3"}}
+	{Link 0x40a {0x2870 "c2_3"}}
+	{Link 0x40b {0x2870 "c4_3"}}
+	{Link 0x40c {0x2870 "c5_3"}}
+	{Link 0x40d {0x2870 "c6_3"}}
+	{Link 0x411 {0x2870 "c7_3"}}
+	{Link 0x412 {0x2870 "c8_3"}}
+	{Link 0x416 {0x2870 "c9_3"}}
+	{Link 0x417 {0x2870 "c10_32"}}
+	{Link 0x418 {0x2870 "c10_31"}}
+	{Link 0x41d {0x2870 "c1_3"}}
+	{Link 0x41f {0x2870 "c2_4"}}
+	{Link 0x420 {0x2870 "c1_roof"}}
+	{Link 0x421 {0x2870 "c10_roof1"}}
+	{Link 0x422 {0x2870 "c10_roof2"}}
+	{Link 0x423 {0x2870 "c9_roof"}}
+	{Link 0x424 {0x2870 "c8_roof"}}
+	{Link 0x425 {0x2870 "int3_roof"}}
+	{Link 0x426 {0x2870 "c7_roof"}}
+	{Link 0x427 {0x2870 "c6_roof"}}
+	{Link 0x428 {0x2870 "c5_roof"}}
+	{Link 0x429 {0x2870 "c4_roof"}}
+	{Link 0x42a {0x2870 "int2_roof"}}
+	{Link 0x42b {0x2870 "int1_roof"}}
+	{Link 0x42c {0x2870 "c2_roof2"}}
+	{Link 0x42d {0x2870 "c2_roof1"}}
+	{Link 0x2438 {0x28ac "1"}}
+	{Link 0x2439 {0x28ac "2"}}
+	{Link 0x243a {0x28ac "3"}}
+	{Link 0x243b {0x28ac "4"}}
+	{Link 0x243c {0x28ac "12"}}
+	{Link 0x243d {0x28ac "11"}}
+	{Link 0x243e {0x28ac "10"}}
+	{Link 0x243f {0x28ac "9"}}
+	{Link 0x2440 {0x28ac "8"}}
+	{Link 0x2441 {0x28ac "7"}}
+	{Link 0x2442 {0x28ac "5"}}
+	{Link 0x2443 {0x28ac "6"}}
 	{Link 0x2894 {0x291b "station_corner1"}}
 	{Link 0x2895 {0x291b "station_corner2"}}
 	{Link 0x2896 {0x291b "station_corner3"}}
@@ -78720,6 +79438,61 @@
 	{Link 0x28a4 {0x291b "station_h_corner8"}}
 	{Link 0x28a5 {0x291b "station_h_corner9"}}
 	{Link 0x28a6 {0x2955 "dummy_cnt"}}
+	{Link 0x43a {0x30e1 "f1c1"}}
+	{Link 0x302c {0x30e2 "f1c1"}}
+	{Link 0x302d {0x30e2 "f1c2"}}
+	{Link 0x302e {0x30e2 "f1c3"}}
+	{Link 0x302f {0x30e2 "f1c4"}}
+	{Link 0x3031 {0x30e2 "f1w1"}}
+	{Link 0x3032 {0x30e2 "f1w2"}}
+	{Link 0x3033 {0x30e2 "f1w3"}}
+	{Link 0x3035 {0x30e2 "f1w4"}}
+	{Link 0x3036 {0x30e2 "f2c1"}}
+	{Link 0x3037 {0x30e2 "f2c2"}}
+	{Link 0x3038 {0x30e2 "f2c3"}}
+	{Link 0x3039 {0x30e2 "f2c4"}}
+	{Link 0x303f {0x30e2 "f2w1"}}
+	{Link 0x3040 {0x30e2 "f2w2"}}
+	{Link 0x3041 {0x30e2 "f2w3"}}
+	{Link 0x3042 {0x30e2 "rc1"}}
+	{Link 0x3043 {0x30e2 "rc2"}}
+	{Link 0x3044 {0x30e2 "rc3"}}
+	{Link 0x3045 {0x30e2 "rc4"}}
+	{Link 0x3046 {0x30e2 "ri1"}}
+	{Link 0x3047 {0x30e2 "ri2"}}
+	{Link 0x3048 {0x30e2 "ri3"}}
+	{Link 0x3049 {0x30e2 "ri4"}}
+	{Link 0x304a {0x30e2 "rw1"}}
+	{Link 0x304b {0x30e2 "rw2"}}
+	{Link 0x304c {0x30e2 "rw3"}}
+	{Link 0x304d {0x30e2 "rw4"}}
+	{Link 0x30b2 {0x3108 "f1c1"}}
+	{Link 0x30b3 {0x3108 "f1c2"}}
+	{Link 0x30b4 {0x3108 "f1c3"}}
+	{Link 0x30b5 {0x3108 "f1c4"}}
+	{Link 0x30b6 {0x3108 "f1w1"}}
+	{Link 0x30b7 {0x3108 "f1w2"}}
+	{Link 0x30b8 {0x3108 "f1w3"}}
+	{Link 0x30b9 {0x3108 "f1w4"}}
+	{Link 0x30ba {0x3108 "f2c1"}}
+	{Link 0x30bb {0x3108 "f2c2"}}
+	{Link 0x30bc {0x3108 "f2c3"}}
+	{Link 0x30bd {0x3108 "f2c4"}}
+	{Link 0x30c5 {0x3108 "f2w1"}}
+	{Link 0x30c6 {0x3108 "f2w2"}}
+	{Link 0x30c8 {0x3108 "f2w3"}}
+	{Link 0x30c9 {0x3108 "rc1"}}
+	{Link 0x30ca {0x3108 "rc2"}}
+	{Link 0x30cc {0x3108 "rc3"}}
+	{Link 0x30cd {0x3108 "rc4"}}
+	{Link 0x30cf {0x3108 "ri1"}}
+	{Link 0x30d0 {0x3108 "ri2"}}
+	{Link 0x30d2 {0x3108 "ri3"}}
+	{Link 0x30d3 {0x3108 "ri4"}}
+	{Link 0x30d5 {0x3108 "rw1"}}
+	{Link 0x30d6 {0x3108 "rw2"}}
+	{Link 0x30d7 {0x3108 "rw3"}}
+	{Link 0x30d8 {0x3108 "rw4"}}
 	{Inventory 0x1fe3
 		{box
 			{clear}
