@@ -15,24 +15,23 @@
 		}
 		{"mgun" lvl_2
 		}
-		{"rifle" lvl_3
+		{"rifle" lvl_4
 		}
-		{"rocketlauncher" lvl_3
+		{"rocketlauncher" lvl_4
 		}
 		{"pistol" lvl_4
 		}
-		{"gra_launch" lvl_3
+		{"gra_launch" lvl_4
 		}
-		{"melee" lvl_3
+		{"melee" lvl_5
 		}
-		{"avoidance" lvl_3
+		{"avoidance" lvl_4
 		}
 		{"health" "150%"
 		}
 		{"stamina" "200%"
 		}
-		{"stamina_regeneration" "210%"
-		}
+		{"stamina_regeneration"}
 		{"speed" 1.1
 		}
 		{"stealth"}
@@ -61,8 +60,8 @@
 	{inventory
 		{item "6b5-16"}
 		{item "bandage" 4}
-		{item "rpg7 weapon" filling "PG-7VL rpg7 ammo" 1}
-		{item "PG-7VL rpg7 ammo" 2}
+		{item "rpg7 weapon" filling "pg-7vl rpg7 ammo" 1}
+		{item "pg-7vl rpg7 ammo" 2}
 		{item "545 ammo" 180}
 		{item "sandbag_kit"}
 		{item "aks74" filling "545 ammo" 30}

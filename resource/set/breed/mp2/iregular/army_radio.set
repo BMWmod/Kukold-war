@@ -55,6 +55,7 @@
 		{item "ammo 762" 180}
 		{item "AKMS" filling "ammo 762" 30}
 		{item "rkg3" 3}
+		{item "sandbag_kit"}
 		{in_hands 7}
 	}
 }

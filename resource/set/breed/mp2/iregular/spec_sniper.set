@@ -13,19 +13,19 @@
 		}
 		{"smg" lvl_4
 		}
-		{"mgun" lvl_2
+		{"mgun" lvl_4
 		}
 		{"rifle" lvl_4
 		}
-		{"rocketlauncher" lvl_3
+		{"rocketlauncher" lvl_4
 		}
 		{"pistol" lvl_4
 		}
-		{"gra_launch" lvl_3
+		{"gra_launch" lvl_4
 		}
-		{"melee" lvl_3
+		{"melee" lvl_4
 		}
-		{"avoidance" lvl_3
+		{"avoidance" lvl_4
 		}
 		{"health" "150%"
 		}
