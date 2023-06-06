@@ -857,7 +857,7 @@
 {"2c3_akaciya_irg" {fore 0} ("v3" c(500) sc(210) g(art_heavy)  b(iart_hqcar) brig(iart) s(iregular)  i(9) cw(0) cp(7) t(all_nz   ) c1(2c3_akaciya) n(1) n1(tankman:4)      ) }
 {"9k35_strela_nurs" {fore 0} ("v" c(787) sc(91) g(art9) b(iart_hqcar) brig(iart) s(iregular)  i(10) cw(0) cp(25) t(all_nz art  support_frontline) n(3)               ) }
 {"brdm2_atgm" {fore 0} ("v" c(333) sc(100) g(art10) b(iart_hqcar) brig(iart) s(iregular)  i(11) cw(0) cp(25) t(all_nz art  support_frontline) n(2)               ) }
-{"9k72" {fore 0} ("vs" c(1330) sc(469) g(otrk)  b(iart_hqcar) brig(iart) s(iregular)  i(12) cw(0) cp(69) t(all_nz art support_frontline  ) n(7)               ) } 
+{"9k72" {fore 0} ("vs" c(1330) sc(469) g(otrk)  b(iart_hqcar) brig(iart) s(iregular)  i(12) cw(0) cp(69) t(all_nz art support_frontline 9k72 ) n(7)               ) } 
 
 ;===================================== “€жЄла€ бригада =====================================================
 
@@ -880,6 +880,6 @@
 ;=========================================—редн€€ бригада=============================================
 
  {"bmp2_new_irg" {fore 1} ("v3" c(220) sc(125) g(heavy_peha)  b(iregular_specbr_hqcar) brig(iregular_specbr) s(iregular)   i(9) cw(0) cp(15) t(all_nz inf_irg infantry ) c1(bmp2_new) n(1) n1(tankman:3)   ) }       
-{"bmd1pi" {fore 0} ("v3" c(469) sc(120) g(inf_bmd1) b(iregular_specbr_hqcar) brig(iregular_specbr) s(iregular)  i(10) cw(0) cp(10) t(all_nz infantry  ) n(1) c1(bmd1p) n1(tankman:3) n2(reserv6:1) n3(reserv5:1) n4(reserv2:1) n5(reserv3:1) n6(reserv4:1) n8(reserv1:1)        ) }
+{"bmd1pi" {fore 1} ("v3" c(369) sc(120) g(inf_bmd1) b(iregular_specbr_hqcar) brig(iregular_specbr) s(iregular)  i(10) cw(0) cp(10) t(all_nz infantry  ) n(1) c1(bmd1p) n1(tankman:3) n2(reserv6:1) n3(reserv5:1) n4(reserv2:1) n5(reserv3:1) n6(reserv4:1) n8(reserv1:1)        ) }
 
 

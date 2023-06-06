@@ -1,7 +1,7 @@
 ;Лис пустыни
 ;====Тест мод=====
 (define "unit_limits"
-{unitLimits "tankman=6;strike=1;rogatka=1;vs=4;p=2;t14=2;max5=5;max6=6"}
+{unitLimits ";9k72=1;tankman=6;strike=1;rogatka=1;vs=4;p=2;t14=2;max5=5;max6=6;susemx59=2"}
 )
 (define "instant_test"
 	{common

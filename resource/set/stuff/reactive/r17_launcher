@@ -19,7 +19,7 @@
 			{SpreadRadius 80}	
 		}
 	)
-		{rechargeTime 1}
+		{rechargeTime 300}
 	{gravity 0.89}
 	{speed 1}
 		{aimtype curved}
