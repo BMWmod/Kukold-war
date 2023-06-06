@@ -526,7 +526,7 @@
                                    
 ;===========================÷ахал==============================================                                   
 ("squad_with11types_custom" name(idf_vdv) f(0)  c(500) cost(110) g(elite) b(idf_hqcar) brig(idf) side(usa) crew_nation(idf)    t(all_nz    ) info(idf_squad_elite) c1(sayeret_matkal_com:1) c2(sayeret_matkal_smg:2) c3(sayeret_matkal_mgun:1) c4(sayeret_matkal_bazooker:1) c5(sayeret_matkal_bazooker2:1) c6(sayeret_matkal_marksman:1) c7(sayeret_matkal_smg2:2) c8(sayeret_matkal_heavy_mgun:1)       ) 
- {"m113ai" {fore 1} ("v3i" c(280) sc(75) g(inf2) b(idf_hqcar) brig(idf) s(usa) crew_nation(idf) i(1) cw(0) cp(10) t(all_nz inf_usa infantry  ) n(3) c1(m113a) n1(tankman:2) n2(idf_com:1) n3(idf_smg:1) n4(idf_hmgun:1) n5(idf_bazooker:1) n6(idf_marksman:1) n7(idf_bazooker2:1)       ) }
+ {"m113ai" {fore 1} ("v3i" c(280) sc(75) g(inf2) b(idf_hqcar) brig(idf) s(usa) crew_nation(idf) i(1) cw(0) cp(10) t(all_nz inf_usa infantry  ) n(3) c1(m113a_israel) n1(tankman:2) n2(idf_com:1) n3(idf_smg:1) n4(idf_hmgun:1) n5(idf_bazooker:1) n6(idf_marksman:1) n7(idf_bazooker2:1)       ) }
  {"nameri" {fore 1} ("v3i" c(450) sc(100) g(inf2) b(idf_hqcar) brig(idf) s(usa) crew_nation(idf) i(2) cw(0) cp(30) t(all_nz inf_usa infantry  ) n(3) c1(namer) n1(tankman:3) n2(idf_com:1) n3(idf_smg:2) n4(idf_hmgun:1) n5(idf_bazooker:1) n6(idf_marksman:1) n8(idf_smg2:1)       ) }
 ("squad_with11types_custom" name(idf_sniper) f(1)  c(240) cost(30) g(suppinf3) b(idf_hqcar) brig(idf) side(usa) crew_nation(idf)    t(all_nz    ) info(idf_sniper) c1(idf_sniper:1) c2(idf_spotter:1)             ) 
 ("squad_with11types_custom" name(idf_at_rifle) f(0)  c(240) cost(35) g(suppinf3) b(idf_hqcar) brig(idf) side(usa) crew_nation(idf)    t(all_nz    ) info(idf_at_rifle) c1(idf_at_rifle:1) c2(idf_spotter:1)             ) 
@@ -879,7 +879,7 @@
 
 ;=========================================—редн€€ бригада=============================================
 
- {"bmp2_new_irg" {fore 1} ("v3" c(220) sc(125) g(heavy_peha)  b(iregular_specbr_hqcar) brig(iregular_specbr) s(iregular)   i(9) cw(0) cp(15) t(all_nz inf_irg infantry ) c1(bmp2_new) n(1) n1(tankman:3)   ) }       
-{"bmd1pi" {fore 1} ("v3" c(369) sc(120) g(inf_bmd1) b(iregular_specbr_hqcar) brig(iregular_specbr) s(iregular)  i(10) cw(0) cp(10) t(all_nz infantry  ) n(1) c1(bmd1p) n1(tankman:3) n2(reserv6:1) n3(reserv5:1) n4(reserv2:1) n5(reserv3:1) n6(reserv4:1) n8(reserv1:1)        ) }
-
+ {"bmp2_new_irg" {fore 1} ("v3" c(220) sc(125) g(heavy_peha)  b(iregular_specbr_hqcar) brig(iregular_specbr) s(iregular)   i(1) cw(0) cp(15) t(all_nz inf_irg infantry ) c1(bmp2_new) n(1) n1(tankman:3)   ) }       
+{"bmd1pi" {fore 1} ("v3" c(369) sc(120) g(inf_bmd1) b(iregular_specbr_hqcar) brig(iregular_specbr) s(iregular)  i(2) cw(0) cp(10) t(all_nz infantry  ) n(1) c1(bmd1p) n1(tankman:3) n2(reserv6:1) n3(reserv5:1) n4(reserv2:1) n5(reserv3:1) n6(reserv4:1) n8(reserv1:1)        ) }
+{"m113a_irg" {fore 1} ("v3" c(220) sc(30) g(heavy_peha2)  b(iregular_specbr_hqcar) brig(iregular_specbr) s(iregular)   i(3) cw(0) cp(15) t(all_nz inf_irg infantry ) c1(m113a) n(1) n1(tankman:2)   ) }     
 
