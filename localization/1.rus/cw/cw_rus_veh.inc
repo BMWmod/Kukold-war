@@ -5,6 +5,12 @@
 ;rev 04.07.2022
 
 
+{"mi17_unarmed_supl"						"<c(FFFFFF)e(shadow)>МИ-17 снабжения</c>"}
+{"kornet_base_stan_isis"						"<c(FFFFFF)e(shadow)>9П163М-1 Корнет-П</c>"}
+{"ptur_tow_isis"						"<c(FFFFFF)e(shadow)>BMG-71 TOW</c>"}
+{"2b11_isis" "<c(FFFFFF)><e(shadow)>2С12 Сани</c>"}
+{"brem-1" "<c(FFFFFF)><e(shadow)>БРЭМ-1</c>"}
+{"hmmwv_isis" "<c(FFFFFF)><e(shadow)>HMMWV с ДШК</c>"}
 {"kamaz_zu" "<c(FFFFFF)><e(shadow)>КАМАЗ ЗСУ-23-2</c>"}
 {"zil131_2s1"	"<c(FFFFFF)e(shadow)>2С1 Гвоздика на базе ЗИЛ</c>"}
 {"leopard_2a4_dz"	"<c(FFFFFF)e(shadow)>Леопрад 2А4 с ДЗ К1</c>"}
@@ -32,7 +38,7 @@
 
 {"tochka_y"					"<c(FFFFFF)e(shadow)>Точка-у</c>"}
 {"mtlb_zu"					"<c(FFFFFF)e(shadow)>МТЛБ с ЗУ-23-2</c>"}
-{"grad_p"					"<c(FFFFFF)e(shadow)>Переносная реактивная пусковая установка 9П132 Град-П («Партизан»)</c>"}
+{"grad_p"					"<c(FFFFFF)e(shadow)>9П132 Град-П («Партизан»)</c>"}
 {"m777"					"<c(FFFFFF)e(shadow)>155-мм гаубица M777</c>"}
 {"btr-4e"						"<c(FFFFFF)e(shadow)>БТР-4 Буцефал</c>"}
 {"btr-3e_no_pt"						"<c(FFFFFF)e(shadow)>БТР-3</c>"}

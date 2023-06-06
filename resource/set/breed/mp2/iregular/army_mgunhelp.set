@@ -49,7 +49,7 @@
 	{inventory
 		{item "tat_ba_7_assault"}
 		{item "bandage" 10}
-		{item "knife_rus"}
+		
 		{item "rgd grenade" 3}
 		{item "pkm_ammo ammo" 400}
 		{item "AKMS" filling "ammo 762" 30}

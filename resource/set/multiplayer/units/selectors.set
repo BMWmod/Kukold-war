@@ -56,8 +56,6 @@
 
 
 {"iart_mp_flag"           ("hqcar" c(1800) brig(iart) t(all all_nz hqcar) s(iregular) n(2) g(hqcar_support)   sc(1) b(hqcar) i(3) cw(0) cp(-200)) {cost 70}}
-
-
 {"iregular_mot_mp_flag"           ("hqcar" c(120) brig(iregular_mot) t(all all_nz hqcar) s(iregular) n(2) g(hqcar)   sc(1) b(hqcar) i(5) cw(0) cp(-200)) {cost 100}}
 {"iregular_specbr_mp_flag"           ("hqcar" c(120) brig(iregular_specbr) t(all all_nz hqcar) s(iregular) n(2) g(hqcar)   sc(1) b(hqcar) i(7) cw(0) cp(-200)) {cost 100}}
 

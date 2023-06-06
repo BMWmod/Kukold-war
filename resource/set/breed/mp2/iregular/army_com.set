@@ -1,14 +1,13 @@
 {breed
 	{skin "cw_arb_militia2a"}
 	{portrait "_new/arb/officer"}
-	{icon "officer"}
+	{icon officer}
 	{icon_priority 2}
 	{tags "officer"}
 	{nationality arb}
 	{armors
 		{head pasgt_helmet_syr}
 	}
-
 	{perks
 		{"vision" mp_officer
 		}
@@ -28,9 +27,9 @@
 		}
 		{"avoidance" lvl_3
 		}
-		{"health" "110%"
+		{"health" "225%"
 		}
-		{"stamina" "110%"
+		{"stamina" "180%"
 		}
 		{"stamina_regeneration" "110%"
 		}
@@ -40,24 +39,19 @@
 		{"field_glass"}
 		{"skill_tankgun" lev_1
 		}
-		{"skill_atgm_launcher" lev_2
-		}
+		{"skill_atgm_launcher"}
 		{"skill_airgun" lev_1
 		}
 		{"skill_airgm_launcher" lev_1
 		}
 	}
-
 	{inventory
 		{item "tat_ba_7"}
 		{item "ammo 762" 150}
-		
-		{item "knife_rus"}
 		{item "binocular"}
-		
 		{item "bandage" 5}
 		{item "rgd grenade" 2}
-		{item "akms_gp25" filling "ammo 762" 30}
+		{item "akms_gp25" filled}
 		{item "gp25_akms" filling "mortar pd a ammo" 1}
 		{item "mortar pd a ammo" 4}
 		{item "sandbag_kit"}

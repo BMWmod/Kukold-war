@@ -16,7 +16,7 @@
 		}
 		{"rifle" lvl_2
 		}
-		{"rocketlauncher" lvl_2
+		{"rocketlauncher" lvl_3
 		}
 		{"pistol" lvl_1
 		}
@@ -46,12 +46,13 @@
 		}
 	}
 	{inventory
-		{item "bandage" 10}
 		{item "akm" filling "762 ammo" 30}
+		{item "bandage" 10}
 		{item "ammo 762" 240}
 		{item "rkg3" 3}
 		{item "sandbag_kit"}
 		{item "f1 grenade" 3}
+		{item "tat_ba_7_assault"}
 		{item "rpg26 weapon" filling "rpg26 ammo" 1}
 		{in_hands 1}
 	}

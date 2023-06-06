@@ -97,9 +97,9 @@
 		("CW_wheels"
 			Mass(1.5)
 			Turnradius(7)
-			Power(75)
+			Power(80)
 			Realspeed(100)
-			Gamespeed(55) 
+			Gamespeed(69) 
 			Range(500)
 			Fuelvolume(78)
 		)

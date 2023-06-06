@@ -1,0 +1,70 @@
+{breed
+	{skin "cw_arb_boevik2a"}
+	{portrait "_new/arb/ssatankman"}
+	{icon soldier}
+	{icon_priority 0}
+	{nationality arb}
+	{armors
+		{head "sh-68"}
+	}
+	{perks
+		{"vision" mp_soldier
+		}
+		{"smg" lvl_2
+		}
+		{"mgun" lvl_3
+		}
+		{"rifle" lvl_3
+		}
+		{"rocketlauncher" lvl_4
+		}
+		{"pistol" lvl_1
+		}
+		{"gra_launch" lvl_3
+		}
+		{"melee" lvl_3
+		}
+		{"avoidance" lvl_3
+		}
+		{"health" "125%"
+		}
+		{"stamina" "200%"
+		}
+		{"stamina_regeneration" "300%"
+		}
+		{"speed" 0.9
+		}
+		{"stealth"}
+		{"field_glass"}
+		{"skill_tankgun" lev_4
+		}
+		{"skill_atgm_launcher" lev_4
+		}
+		{"skill_airgun" lev_1
+		}
+		{"skill_airgm_launcher" lev_1
+		}
+	}
+	{veterancy
+		{"crew_lvl_1" 2
+		}
+		{"crew_lvl_2" 4
+		}
+		{"crew_lvl_3" 6
+		}
+		{"crew_lvl_4" 8
+		}
+		{"crew_lvl_5" 10
+		}
+	}
+	{inventory
+		{item "bandage" 10}
+		{item "f1 grenade" 7}
+		{item "sandbag_kit"}
+		{item "c4_bomb"}
+		{item "tarzan"}
+		{item "fn_fal" filling "762nato ammo" 20}
+		{item "762x51_x20 ammo" 200}
+		{in_hands 5}
+	}
+}
