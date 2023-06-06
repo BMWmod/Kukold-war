@@ -1,10 +1,14 @@
 {weapon_bullet
 	
-	{tag "gun" "skill_tankgun" "bullet"}
+	{tag "gun" "weapon" "skill_tankgun" "bullet"}	;"bullet" is needed for work of levelling and skills
+	("heavy_artillery")
+	
 	{filling "ammo R17" 1}
 	{fillingVisible "Rocket00"}
 	{fireSound "reactive/SCUD_launch"}
-		{range 775 775}                 ;300 км.
+	{range 669 669}  ;90км для большинства ракет
+	{aimRange 669}
+	{maxRange 669}                ;300 км.
 		{spreading
 			{SpreadRadius 130}	;КВО порядка 450м Точность стрельбы (КВО) – 180-610х100-350м
 		}
@@ -15,9 +19,9 @@
 			{SpreadRadius 80}	
 		}
 	)
-		{rechargeTime 300}
-		{gravity 10}
-		{speed 200}
+		{rechargeTime 1}
+	{gravity 0.89}
+	{speed 1}
 		{aimtype curved}
 		
 		;{cursor "cannon_on_fg_9"}

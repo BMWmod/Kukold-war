@@ -1,5 +1,5 @@
 {bullet
-	{tag "shell size5 fg no_ricochet fragmentary big itemin2hands fx_upto1000kg"}
+	{tag "big shell fg bomb fx_upto1000kg fragmentary no_ricochet shell size5"}
 	{tag "fg_150_shell"} ; только для ammo.set
 	{inventory
 		{size 9 2}
