@@ -173,8 +173,8 @@
 		{box
 			{Size 17 17}
 			{weight 3000}
-			 {item "ammo r17 tb" 1}
-			 {item "ammo r17" 9}
+			 {item "ammo r17 tb" 3}
+			 {item "ammo r17" 4}
 		}
 	}
 
