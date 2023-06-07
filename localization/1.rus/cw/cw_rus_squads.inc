@@ -22,6 +22,29 @@
 			;item definer(squad, vehicle, etc.)		;item name	
 	
 ;________________________________________________________________________________________________________
+
+
+{"regular_non_mech_peha(iregular)" 						"<c(FFFFFF)e(shadow)>Иррегулярная пехота</c>"}
+{"regular_at2(iregular)" 						"<c(FFFFFF)e(shadow)>Истребители танков</c>"}
+{"gaz_66i" 						"<c(FFFFFF)e(shadow)>Пехота на ГАЗ-66</c>"}
+{"btr60i" 						"<c(FFFFFF)e(shadow)>Пехота на БТР-60</c>"}
+{"bmp1_newi" 						"<c(FFFFFF)e(shadow)>Пехота на БМП-1</c>"}
+{"pzrk(iregular)" 						"<c(FFFFFF)e(shadow)>Отряд ПЗРК</c>"}
+{"pzrk2_iregular" 						"<c(FFFFFF)e(shadow)>Мобильный отряд ПЗРК</c>"}
+{"brdm2_strelaii" 						"<c(FFFFFF)e(shadow)>СТРЕЛА-1</c>"}
+{"Shilka_i" 						"<c(FFFFFF)e(shadow)>ЗСУ-23-4 Шилка</c>"}
+{"9k35_strela-10" 						"<c(FFFFFF)e(shadow)>9К35 Стрела-10</c>"}
+{"type63_rocket2i" 						"<c(FFFFFF)e(shadow)>Тип 63</c>"}
+{"zu23-2i" 						"<c(FFFFFF)e(shadow)>ЗУ-23-2</c>"}
+{"2c3_akaciya_irg" 						"<c(FFFFFF)e(shadow)>2С3 Акация</c>"}
+{"bmp2_new_irg" 						"<c(FFFFFF)e(shadow)>БМП-2</c>"}
+{"bmd1pi" 						"<c(FFFFFF)e(shadow)>Отряд быстрого реагирования на БМД-1П</c>"}
+{"m113a_irg" 						"<c(FFFFFF)e(shadow)>Отряд пехоты на М113</c>"}
+{"sso_irg" 						"<c(FFFFFF)e(shadow)>Диверсанты на МИ-17</c>"}
+
+{"tankman(iregular)" 						"<c(FFFFFF)e(shadow)>Танкисты</c>"}
+{"vehicle_supporter(iregular)" 						"<c(FFFFFF)e(shadow)>Операторы воор./техн.</c>"}
+{"pilot(iregular)" 						"<c(FFFFFF)e(shadow)>Пилот</c>"}
 ;Китай
 	;общие войска
 		;1st row

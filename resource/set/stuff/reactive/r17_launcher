@@ -21,7 +21,7 @@
 	)
 		{rechargeTime 300}
 	{gravity 0.89}
-	{speed 1}
+	{speed 69}
 		{aimtype curved}
 		
 		;{cursor "cannon_on_fg_9"}
