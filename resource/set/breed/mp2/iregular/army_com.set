@@ -6,7 +6,7 @@
 	{tags "officer"}
 	{nationality arb}
 	{armors
-		{head sh-68}
+		{head "sh-68"}
 	}
 	{perks
 		{"vision" mp_officer
