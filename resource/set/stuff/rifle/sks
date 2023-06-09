@@ -1,11 +1,14 @@
 {from "pattern rifle"
 	{tag "autorifle"}
-	{filling "ammo svd_ammo" 10}
+
+	
+	{filling "ammo 762" 10}
+	{curve "762x39_70"}
 	{entity "sks_45"}
-	{fireSound "rifle/sks/"}
-	{reloadSound "sks_reload"}
+	{fireSound "rifle/mosin_03"}
+	{reloadSound "enfield"}
 	{preloaded}
-	{curve "762x54rus_85"}
+	{curve "762x39_70"}
 	{inventory
 		{size 5 2}
 	}

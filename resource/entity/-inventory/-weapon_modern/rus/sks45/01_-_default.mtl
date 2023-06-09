@@ -1,6 +1,0 @@
-{material bump
-	{diffuse "sks45_dif"}
-	{specular "sks45_spec"}
-	{color "255 255 255 25"}
-	{blend test}
-}
