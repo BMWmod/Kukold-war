@@ -1,17 +1,16 @@
 {breed
 	{skin "cw_arb_boevik2"}
 	{portrait "_new/arb/inf"}
-	{icon "soldier"}
+	{icon soldier}
 	{icon_priority 0}
 	{nationality arb}
 	{armors
 		{head "sh-68"}
 	}
-
 	{perks
 		{"vision" mp_soldier
 		}
-		{"smg" lvl_2
+		{"smg" lvl_3
 		}
 		{"mgun" lvl_1
 		}
@@ -46,15 +45,13 @@
 		{"skill_airgm_launcher" lev_1
 		}
 	}
-
 	{inventory
 		{item "tarzan"}
-		{item "knife_rus"}
-		{item "AKMS"}
-		{item "762 ammo" 120}
 		{item "repair_kit"}
 		{item "netting_kit"}
-		{item "spade_inv" 1}
-		{in_hands 2}
+		{item "spade_inv"}
+		{item "ppsh" filling "standart ammo" 71}
+		{item "standart ammo" 333}
+		{in_hands 4}
 	}
 }
