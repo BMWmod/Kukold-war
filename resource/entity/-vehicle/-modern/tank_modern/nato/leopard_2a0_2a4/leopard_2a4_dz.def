@@ -5,7 +5,7 @@
 	(include "/properties/selection/vehicle.inc"  scale(1.2))
 	{props "heavy_M" "turret_rotator" "vision_lev05" "leopard2" "with_open_zpu" "cw_blow_panels1" "cw_panorama" "8_barrels_smoke"}
 	{targetSelector "tank"}
-
+	{texmod "rus"}
 	("armor_heavy_multivolume" turret(610 306 25 70) body1(70 25 25 25)  body2(70 25 25 25)) 
 	("armor_mantlet" t(200)) 
 	;("armor_engine"  t(30))
