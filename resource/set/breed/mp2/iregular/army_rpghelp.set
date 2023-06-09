@@ -1,13 +1,12 @@
 {breed
 	{skin "cw_arb_boevik2"}
 	{portrait "_new/arb/inf"}
-	{icon "bazookers"}
+	{icon bazookers}
 	{icon_priority 2}
 	{nationality arb}
 	{armors
-		{head pasgt_helmet_syr}
+		{head sh-68}
 	}
-
 	{perks
 		{"vision" mp_soldier
 		}
@@ -39,22 +38,20 @@
 		{"field_glass"}
 		{"skill_tankgun" lev_1
 		}
-		{"skill_atgm_launcher" lev_2
-		}
+		{"skill_atgm_launcher"}
 		{"skill_airgun" lev_1
 		}
 		{"skill_airgm_launcher" lev_1
 		}
 	}
 	{inventory
-		{item "tarzan_rpg"}
-		{item "Aks47" filling "ammo 762" 30}
 		{item "pg-7vl rpg7 ammo" 4}
-		{item "ammo 762" 150}
 		{item "rpg7_og-7v rpg7 ammo"}
 		{item "bandage" 10}
 		{item "sandbag_kit"}
 		{item "rkg3" 3}
-		{in_hands 1}
+		{item "sks" filling "762 ammo" 10}
+		{item "762 ammo" 100}
+		{in_hands 5}
 	}
 }

@@ -5,7 +5,7 @@
 	{icon_priority 0}
 	{nationality arb}
 	{armors
-		{head pasgt_helmet_syr}
+		{head sh-68}
 	}
 
 	{perks
@@ -52,8 +52,8 @@
 		
 		{item "rgd grenade" 3}
 		{item "pkm_ammo ammo" 400}
-		{item "AKMS" filling "ammo 762" 30}
-		{item "ammo 762" 180}
+		{item "sks" filling "762 ammo" 10}
+		{item "762 ammo" 100}
 		{item "sandbag_kit"}
 		{item "rkg3" 3}
 		{in_hands 5}

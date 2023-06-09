@@ -5,7 +5,7 @@
 	{icon_priority 0}
 	{nationality arb}
 	{armors
-		{head cap_baseball_peltor}
+		{head sh-68}
 	}
 	{perks
 		{"vision" mp_soldier
@@ -52,8 +52,8 @@
 		{item "rus_radio_station"}
 		{item "radio_station_sumka"}
 		{item "rgd grenade" 3}
-		{item "ammo 762" 180}
-		{item "AKMS" filling "ammo 762" 30}
+		{item "sks" filling "762 ammo" 10}
+		{item "762 ammo" 100}
 		{item "rkg3" 3}
 		{item "sandbag_kit"}
 		{in_hands 7}

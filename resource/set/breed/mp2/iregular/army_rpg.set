@@ -5,7 +5,7 @@
 	{icon_priority 2}
 	{nationality arb}
 	{armors
-		{head cap_baseball}
+		{head sh-68}
 	}
 	{perks
 		{"vision" mp_soldier
