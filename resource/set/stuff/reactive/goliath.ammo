@@ -10,4 +10,13 @@
 		{energy 16}
 		{area 24 28}
 	}
+	{damage add blastwave	 ; HE, kinetic, direct hit
+		{energy 50}
+		{area 8 9}
+	}
+	{damage add fire
+			{radius 10}
+			{heating 3.2}
+			{time 3}
+	}
 }

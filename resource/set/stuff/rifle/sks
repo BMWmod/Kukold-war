@@ -1,0 +1,20 @@
+{from "pattern rifle"
+	{tag "autorifle"}
+	{filling "ammo svd_ammo" 10}
+	{entity "sks_45"}
+	{fireSound "rifle/sks/"}
+	{reloadSound "sks_reload"}
+	{preloaded}
+	{curve "762x54rus_85"}
+	{inventory
+		{size 5 2}
+	}
+	{Automatic}
+	{healthDamage 120}
+	{reloadSound "enfield"}
+	{recoveryTime 0.25}
+	("accuracy_rifle")
+	("speed" s(840))
+	{cursor "mgun_on_0"}
+	{cursorReloading "cannon_reload_all"}
+}
