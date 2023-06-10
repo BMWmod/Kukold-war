@@ -60,8 +60,8 @@
 	{inventory
 		{item "bandage" 10}
 		{item "f1 grenade" 4}
-		{item "mosin" filling "svd_ammo ammo" 5}
-		{item "svd_ammo ammo" 150}
+		{item "sks" filling "762 ammo" 10}
+		{item "762 ammo" 330}
 		{item "m47dragon_m2plus weapon" filling "m47dragon_rock ammo" 1}
 		{item "m47dragon_rock ammo" 3}
 		{in_hands 2}

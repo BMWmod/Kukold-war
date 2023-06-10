@@ -49,6 +49,8 @@
 		{item "bandage" 10}
 		{item "stinger weapon" filling "fim-92a_ammo ammo" 1}
 		{item "fim-92a_ammo ammo" 5}
+		{item "ppsh" filling "standart ammo" 71}
+		{item "standart ammo" 333}
 		{in_hands 1}
 	}
 }

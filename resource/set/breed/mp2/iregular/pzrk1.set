@@ -49,6 +49,8 @@
 		{item "bandage" 10}
 		{item "igla weapon" filling "igla_s ammo" 1}
 		{item "igla_s ammo" 5}
+		{item "sks" filling "762 ammo" 10}
+		{item "762 ammo" 100}
 		{in_hands 1}
 	}
 }
