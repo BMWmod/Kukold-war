@@ -1,0 +1,464 @@
+﻿;Создано maaa - DTTGOC
+;LocalGen2
+;Extra data placeholder
+;Extra data placeholder
+;rev 04.07.2022
+
+{tags
+	{"actionbar"
+		(include "1.rus/cw_rus_actions.inc")
+	}
+	{"crewbar"
+		{"charger" "Заряжающий"}
+		{"charger1" "Заряжающий"}
+		{"charger2" "Заряжающий"}
+		{"commander" "Командир"}
+		{"commander1" "Командир"}
+		{"commander2" "Командир"}
+		{"commander3" "Командир"}
+		{"driver" "Водитель"}
+		{"driver1" "Водитель"}
+		{"driver2" "Водитель"}
+		{"gunner" "Наводчик"}
+		{"gunner1" "Стрелок"}
+		{"gunner2" "Стрелок"}
+		{"gunner3" "Стрелок"}
+		{"seat0" "Пассажир"}
+		{"seat1" "Пассажир"}
+		{"seat2" "Пассажир"}
+		{"seat3" "Пассажир"}
+		{"seat4" "Пассажир"}
+		{"seat5" "Пассажир"}
+		{"seat6" "Пассажир"}
+		{"seat7" "Пассажир"}
+		{"seat8" "Пассажир"}
+		{"seat9" "Пассажир"}
+		{"seat10" "Пассажир (10)"}
+		{"seat11" "Пассажир (11)"}
+		{"seat12" "Пассажир (12)"}
+		{"seat13" "Пассажир (13)"}
+		{"seat14" "Пассажир (14)"}
+		{"seat15" "Пассажир (15)"}
+		{"seat16" "Пассажир (16)"}
+		{"seat17" "Пассажир (17)"}
+		{"seat18" "Пассажир (28)"}
+		{"seat19" "Пассажир (19)"}
+		{"seat20" "Пассажир (20)"}
+		{"seat21" "Пассажир (21)"}
+		{"seat22" "Пассажир (22)"}
+		{"seat23" "Пассажир (23)"}
+		{"seat24" "Пассажир (24)"}
+		{"seat25" "Пассажир (25)"}
+		{"seat26" "Пассажир (26)"}
+		{"seat27" "Пассажир (27)"}
+		{"seat28" "Пассажир (28)"}
+		{"seat29" "Пассажир (29)"}
+		{"seat30" "Пассажир (30)"}
+	}
+	{"humanbar"
+		{"veterancy"
+			{"level" "Опыт %d"}
+			{"health" "+%.0f% здоровье"}
+			{"health_regeneration" "+%.0f% восстановление здоровья"}
+			{"stamina" "+%.0f% Выносливость"}
+			{"stamina_regeneration" "+%.0f% восстановление выносливости"}
+			{"tank" "+%.0f% танк"}
+			{"vehicle" "+%.0f% транспорт"}
+			{"cannon" "+%.0f% станковое орудие"}
+			{"weapon_reload" "+%.0f% перезарядка"}
+			{"weapon_skill" "+%1% навык стрельбы"}
+		}
+		{"equipment_mass" "%.1f кг"}
+		{"health" "<f(arial_hq)s(8)x.>%1%"}
+		{"health_hint" "Здоровье (%1%/%2%)%3%"}
+		{"health_regeneration" "+%.0f hpm"}
+		{"stamina" "<f(arial_hq)s(8)x.>%1%"}
+		{"stamina_hint" "Выносливость (%1%/%2%)%3% (%4%)"}
+		{"stamina_regeneration" "%.0f sps"}
+		{"equipment_mass" "%.1f кг"}
+		{"veterancy" "<f(arial_hq)s(8)x.>%1%"}
+		{"veterancy_desc" "Опыт %1%"}
+		{"veterancy_hint" "Опыт (%1%/%2%)"}
+		{"moral_hint" "Мораль"}
+		{"desc" "<f(arial_hq)s(8)x.>%1%"}
+		{"equipment_mass" "%.1f кг"}
+		{"repair" "%s:%g%%"}
+	}
+	{"vehicle_view"
+		{"speed" "<f(arial_hq)s(10)e(shadow)c(%1%)>%2% км/ч"}
+		{"fuel" "<f(arial_hq)s(10)e(shadow)c(%1%)>%2% л"}
+	}
+	{"crew_view"
+		{"place" "<f(arial_hq)s(10)e(shadow)c(%1%)>%2%"}
+		{"stunned" "<f(arial_hq)s(10)e(shadow)c(%1%)>контузия"}
+		{"efficiency" "<f(arial_hq)s(10)e(shadow)c(%1%)>%2%% Эффективность"}
+	}
+	{"human_view"
+		{"health" "<f(arial_hq)s(10)e(shadow)c(%1%)>%2%"}
+		{"stamina" "<f(arial_hq)s(10)e(shadow)c(%1%)>%2% (%3%)"}
+	}
+	{"squad_view"
+		{"squad_member" "<f(arial_hq)s(10)e(shadow)c(%1%)>%2%: %3%"}
+	}
+	{"visionmode_view"
+		{"desc" "<f(arial_hq)s(8)e(shadow)>%1%. %2%"}
+		{"modes"
+			{"none" "Нет"}
+			{"night" "ПНВ"}
+			{"thermal" "ИК"}
+			{"drone" "БПЛА"}
+		}
+	}
+	{"weapon_view"
+		{"key" "<f(arial_hq)e(shadow)>%1%."}
+		{"level" "<f(arial_hq)e(shadow)s(16)>%1%"}
+		{"ammo_type" "<f(arial_hq)><c(%1%)>%2%"}
+		{"ammo_count" "<f(arial_hq)e(shadow)c(128 128 128)>%1%"}
+	}
+	{"compass_view"
+		{"primary_objective" "<e(shadow)s(8)c(f0f100)>%.1fm"}
+		{"secondary_objective" "<e(shadow)s(8)c(b3ecec)>%.1fm"}
+	}
+	{"vehiclebar"
+		{"desc" "<f(arial_hq)s(8)x.>%1%"}
+		{"supply" "<f(arial_hq)s(8)x.>%.0f"}
+		{"supply_hint" "(%1%/%2%) +%3% ед./мин"}
+		{"fuel" "<f(arial_hq)s(8)x.>%.1f"}
+		{"fuel_hint" "(%1%/%2%)"}
+		{"efficiency" ""}
+{"ability" "Танк\nподсказка,     движение, электропитание, пожар\nприборы мех., трансм., тяги, натяжение, приборы стр.\nинд. оружия,                                              привод башни\nинд. радара,                                              казенник\n                                                                   автозаряжание\nпулемет, патроны, снаряды, мелк. снаряды, ПТУР\nприцелы\nаккумулятор, ВСУ,                               КАЗ, плавучесть\n\nСамолет\nподсказка,                  , электроника, пожар\nприборы пилота, РЛ нав., лаз. нав., РЭБ и КОЭП\nинд. оружия,                                                пушка\nбоеукладка,                                                  НАР\nЛЦ,                                                                ПТУР\nрадар,  гидросистема,  ВСУ,   тяги упр.,   рули\n             аккум.,\nОЛС,   шасси\n\nВертолет\nподсказка,             , электроника, пожар\nприборы пилота,                КОЭП, приборы стр.\nинд. оружия,                                         пушка\nвисение,                                                НАР\nЛЦ,                                                        ПТУР\nрадар, гидро, ред. и винт, ВСУ, боеукладка\nПРПНК,            двиг. 1, вал, рул. винт\nОЛС, шасси,  двиг. 2, шасси, боеукладка\n\n"}		
+		{"stunned" "<f(arial_hq)s(8)><e(shadow)>контузия"}
+		{"speed" "<f(arial_hq)s(8)><e(shadow)>%.0f км/ч"}
+		{"armor" "<s(8)>Броня: %1%"}
+		{"terrain"
+			{"undef" "Не указано"}
+			{"ground" "Грунт"}
+			{"swamp" "Болота"}
+			{"road" "Дорога"}
+			{"no_pass" "Непроходимо"}
+			{"no_pass_human" "Непроходимо пехотой"}
+			{"shallow_water" "Мелководье"}
+			{"water" "Вода"}
+			{"deep_water" "Глубокая вода"}
+			{"snow" "Снег"}
+			{"air" "Воздух"}
+		}
+		{"desc_item" "<f(arial_hq)s(8)x(5)>%1%"}
+	}
+	{"interface"
+		{"cancel" "Отмена"}
+		{"no" "Нет"}
+		{"ok" "Ок"}
+		{"yes" "Да"}
+	}
+	{"equipmentbar"
+		{"title" "<x.f(arial_hq)s(8)><e(shadow)>%s"}
+	}
+	{"reinforcement_bar"
+		{"head" "<f(arial_narrow)s(16)><e(shadow)>%1% / %2% MP"}
+		{"hint" "%1%\nОчки: %2%\nВремя: %3%"}
+		{"available" "\nДоступно: %1%"}
+	}
+	{"mass_view"
+		{"kg" "<f(arial_hq)s(8)x.>Вес: %g кг"}
+		{"ton" "<f(arial_hq)s(8)x.>Вес: %g тонн"}
+	}
+	{"scenemenu"
+		{"choose" "Укажите игру для записи"}
+		{"savegame" "Записать игру :"}
+	}
+	{"objectives"
+		{"title" "Задания миссии"}
+		{"primary" "<f(bookman_hq)s(12)b+c(245 245 245)e(shadow_ex)>Основные:"}
+		{"secondary" "<f(bookman_hq)s(12)b+c(245 245 245)e(shadow_ex)>Дополнительные:"}
+		{"objnew" "<f(bookman_hq)s(13)c(00ffff)>Получено новое задание"}
+		{"objcompleted" "<f(bookman_hq)s(13)c(00ff00)>Задание выполнено"}
+		{"objfailed" "<f(bookman_hq)s(13)c(ff0000)>Задание провалено"}
+		{"objstyle" "<f(arial_narrow)s(18)c(ffffff)>"}
+	}
+	{"message_history"
+		{"title" "Записная книжка"}
+	}
+	{"event_history"
+		{"title" "История событий"}
+	}
+	{"map"
+		{"title" "Карта"}
+	}
+	{"quantspeeddialog"
+		{"title" "Скорость игры"}
+		{"slow" "Медленно"}
+		{"fast" "Быстро"}
+	}
+	{"hints"
+		{"play" "<f(bookman_hq)s(13)>Играть"}
+		{"record" "<f(bookman_hq)s(13)>Запись"}
+		{"pause" "<f(bookman_hq)s(13)>Пауза"}
+		{"slow" "<f(bookman_hq)s(13)>Падение производительности"}
+		{"outofsync" "<f(bookman_hq)s(13)>Ошибка синхронизации"}
+		{"timer" "<f(bookman_hq)s(13)>%02d:%02d <f(arial_hq)s(8)c(00FFFF)>%d"}
+		{"slowdown"
+			{"slow" "<f(bookman_hq)s(13)>Замедление"}
+			{"fast" "<f(bookman_hq)s(13)>Ускорение"}
+		}
+		{"restart" "Игра будет перезапущена через %1% сек"}
+		{"spawntime" "Закажите войска или сдавайтесь! У вас осталось %1% сек."}
+		{"custom_hint" "<f(bookman_hq)s(13)c(FFFFFF)>"}
+		{"replay_timer" "<f(bookman_hq)s(13)c(FFFFFF)>Ролик запустится через %1% секунд"}
+		{"enemy_leading" "<f(bookman_hq)s(13)c(FFFFFF)e(shadow)> Враг побеждает! "}
+		{"friendly_leading" "<f(bookman_hq)s(13)c(FFFFFF)e(shadow)> Мы побеждаем! "}
+		{"enemy_winning" "<f(bookman_hq)s(13)c(FFFFFF)e(shadow)> Поражение... "}
+		{"friendly_winning" "<f(bookman_hq)s(13)c(FFFFFF)e(shadow)> Победа! "}
+		{"vehicle_repaired" "<f(bookman_hq)s(13)c(FFFFFF)e(shadow)> Транспорт отремонтирован! "}
+		{"enemy_capturing" "<f(bookman_hq)s(13)c(FFFFFF)e(shadow)> Ключевая точка захвачена! "}
+		{"friendly_fire" "<f(bookman_hq)s(13)c(FFFFFF)e(shadow)> По своим! "}
+		{"vehicle_not_working" "<f(arial_hq)s(13)c(FFFFFF)e(shadow)> Техника повреждена, движение невозможно, нужен ремонт! "}
+		{"weapon_not_working" "<f(arial_hq)s(13)c(FFFFFF)e(shadow)> Техника повреждена, стрельба невозможна, нужен ремонт! "}
+	}
+	{"tips"
+		{"title" "Помощь"}
+		{"button"
+			{"back" "Назад"}
+			{"forw" "Вперед"}
+			{"prev" "Пред."}
+			{"next" "След."}
+		}
+		{"menu"
+			{"back" "Назад"}
+			{"forw" "Вперед"}
+			{"prev" "Пред."}
+			{"next" "След."}
+		}
+	}
+	{"gameover"
+		{"mission_completed" "Миссия выполнена"}
+		{"mission_failed" "Миссия провалена"}
+		{"stats" "Врагов уничтожено :<x(135)> %1% Живой силы, %2% Техники\nПотери союзников :<x(135)>%3% Живой силы, %4% Техники"}
+	}
+	{"loading"
+		{"title" "<b+c(6078bf)>%s"}
+		{"starting" "Загрузка"}
+		{"spawning" "Создание (%d%)"}
+		{"meshgroups" "Создание групп моделей (%d%)"}
+		{"wait4players" "Ожидание игроков"}
+		{"coverbase" "Инициализация укрытий"}
+		{"caching" "Кэширование сущностей (%d%)"}
+		{"interface" "Загрузка интерфейса"}
+		{"landscape" "Загрузка ландшафта"}
+		{"entities" "Загрузка сущностей (%d%)"}
+		{"textures" "Загрузка текстур (%d%)"}
+		{"purging_resources" "Чистка ресурсов"}
+		{"parsing_files" "Анализ файлов"}
+		{"prepare_scene" "Подготовка сцены"}
+		{"apply_scene_mod" "Применение МОДов"}
+		{"pathernetwork" "Инициализация сети поиска путей"}
+		{"resources_to_vidmem" "Загрузка ресурсов в видеопамять"}
+		{"caching_interface" "Кэширование интерфейса"}
+	}
+	{"storing"
+		{"waypoints" "Вейпоинты"}
+		{"zones" "Зоны"}
+		{"entities" "Сущности"}
+	}
+	{"names"
+		{"rus"
+			{"first" "Афанасий\nАким\nАнисим\nАлександр\nАлексей\nАндрей\nАнтон\nБогдан\nБорис\nБорислав\nДаниил\nДавыд\nДемьян\nДенис\nДмитрий\nДорофей\nЕгор\nЕрмолай\nЕвгений\nФедот\nФома\nФедор\nГаврила\nГеннадий\nГеоргий\nГерасим\nГлеб\nГригорий\nИгорь\nИлья\nИннокентий\nИосиф\nИван\nКазимир\nКирилл\nКлимент\nКонстантин\nКузьма\nЛаврентий\nЛазар\nЛеонид\nЛев\nЛука\nМакар\nМаксим\nМарк\nМатвей\nМихаил\nМилослав\nМодест\nМстислав\nНаум\nНикифор\nНикита\nНикодим\nНиколай\nОлег\nОсип\nПавел\nПетр\nРадимир\nРоман\nРостислав\nСамуил\nСавелий\nСемен\nСергей\nСевастьян\nСпиридон\nСтанислав\nСтепан\nСвятослав\nТарас\nТихон\nТимофей\nВадим\nВалентин\nВарфоломей\nВасилий\nВеньямин\nВиктор\nВиталий\nВладилен\nВладислав\nВсеволод\nВячеслав\nЯким\nЯков\nЯрослав\nЕфрем\nЮрий\nЗахар\nНиколай\nВладимир\nДмитрий\n"}
+			{"last" "Иванов\nСмирнов\nГрищенко\nВасильев\nПетров\nКузнецов\nФедоров\nМихайлов\nСоколов\nПавлов\nСеменов\nСтепанов\nЕгоров\nНиколаев\nКозлов\nПопов\nЛебедев\nЯковлев\nВолков\nГригорьев\nМорозов\nНовиков\nНикитин\nДмитриев\nКузмин\nАлександров\nЗайцев\nЗахаров\nБогданов\nВоробьев\nБелов\nБаранов\nФилиппов\nТимофеев\nЕфимов\nБорисов\nИльин\nКиселев\nФролов\nСорокин\nГолубев\nПоляков\nОсипов\nКовалев\nТарасов\nБеляев\nГерасимов\nМиронов\nМельников\nАбрамцев\nЖуравлев\nВласов\nТитов\nДанилов\nКоваленко\nНазаров\nКарпов\nДенисов\nТихонов\nСавельев\nГромов\nТихомиров\nФомин\nЩербаков\nАнисимов\nЕрмаков\nЧистяков\nБыков\nЛеонов\nВоронин\nИгнатьев\nЕвдокимов\nАрхипов\nЧернов\nБеляков\nПономарев\nФилатов\nПрохоров\nВоронов\nКолесников\nКлимов\nЛогинов\nСавин\nНестеров\nДемидов\nЛобанов\nАксенов\nЛукин\nБелоусов\nСпиридонов\nЮдин\nАкимов\nСуворов\nЛарионов\nЛуканов\nУшаков\nПетренко\nБирюков\nХохлов\nФилимонов\nЧернышев\nСмоленский\nКорнев\nДоронин\nПанкратов\nЗгуральский\nГоршков\nТретьяк\nБерезуцкий\nАрхангелов\nМочалин\nСидельник\nЧерниченко\nКонстантинов\nКуц\nТрифонов\nДурманов\nВорошихин\nСеливанов\nПлотников\nОсин\nПирожков\nФилатов\nШамсутдинов\nСкирда\nВалуйских\n"}
+		}
+		{"ger"
+			{"first" "Achim\nAdolf\nAlbrecht\nAlexander\nAndreas\nArnold\nArnulf\nAxel\nAugustus\nBenjamin\nBernd\nBernhard\nBerthold\nBruno\nCarsten\nChristian\nDaniel\nDavid\nDennis\nDieter\nDietrich\nDirk\nDominik\nEgon\nElmar\nEmmerich\nErhard\nErich\nErnst\nErwin\nEugen\nFelix\nFlorian\nFrank\nFranz\nFriedhelm\nFriedrich\nFritz\nGebhard\nGeorg\nGerhard\nGernot\nGotthold\nGunther\nHans\nHarald\nHartmut\nHartwig\nHelge\nHelger\nHelmut\nHerbert\nHolger\nHugbert\nHugo\nIgnaz\nIngemar\nJan\nJens\nJohann\nJohannes\nJonas\nJorg\nJurgen\nKarl\nKarsten\nKaspar\nKevin\nKlaus\nKonrad\nKristian\nKristof\nKurt\nLaurenz\nLenz\nLeon\nLeonhard\nLothar\nLudwig\nLukas\nLuither\nManfred\nMarcel\nMarko\nMario\nMarius\nMarkus\nMartin\nMatthaus\nMathias\nMax\nMaximilian\nMeinhard\nMichael\nNikolaus\nNorbert\nOlof\nOswin\nPatrick\nPaul\nPeter\nPhilipp\nRaimund\nReiner\nRalf\nRandolf\nReinhard\nReinhold\nRene\nRichard\nRobert\nRudolf\nRupert\nSebastian\nSiegfried\nSimon\nStefan\nSteffen\nSven\nTheodor\nTim\nTimo\nTobias\nTorsten\nUdo\nUlf\nUlrich\nUrban\nUrs\nUwe\nVeit\nViktor\nVinzenz\nVolkard\nVolker\nWaldemar\nWalther\nWendel\nWenzel\nWernher\nWilfried\nWilhelm\nWolfgang\nWolfram\nTomas\nOtto\n"}
+			{"last" "Adler\nAltmann\nArzt\nBader\nBauer\nBaum\nBaumann\nBecker\nBerlin\nBorg\nBrauer\nBraun\nBrenner\nBreuer\nBullwinkel\nCullen\nDannenberg\nDick\nDresdner\nEisen\nEisenhauer\nEisenhower\nErzberger\nFarber\nFischer\nFleischer\nFrank\nFuchs\nGebauer\nGerber\nGold\nGross\nGrossmann\nGruen\nHalpern\nHammer\nHartmann\nHellmann\nHermann\nHoffmann\nHolz\nHuber\nJung\nKaiser\nKaltenbach\nKeller\nKellerman\nKessler\nKlein\nKlutz\nKnopf\nKoch\nKoehler\nKoenig\nKramer\nKrauss\nKrieg\nKrieger\nKrueger\nKunstler\nKurz\nKuster\nLange\nLederer\nLedermann\nLehrer\nLesser\nLichtermann\nLichtman\nLowenthal\nLustig\nMaurer\nMeer\nMehler\nMehlinger\nMehlmann\nMelman\nMeltzer\nMetzger\nMeyer\nMuller\nNachtmann\nNagel\nNeumann\nPeters\nPfannnenschmidt\nPollack\nPostmann\nPuttkammer\nRabe\nRader\nReifsneider\nReifsnyder\nReiter\nRichter\nRockower\nRoth\nRothbart\nSaltz\nSaltzmann\nSandler\nSchafer\nSchatz\nSchenker\nScherer\nSchlesinger\nSchlosser\nSchluter\nSchmidt\nSchmuckler\nSchmuker\nSchneide\nSchneider\nSchreiber\nSchreiner\nSchroeder\nSchubert\nSchuhmann\nSchulmann\nSchultheis\nSchultz\nSchumacher\nSchuster\nSchwartz\nSchwarzkopf\nSchweitzer\nShapiro\nSilber\nSilberg\nStahl\nStamm\nStammler\nStein\nSteinhauer\nSternberg\nStock\nStroh\nStudebaker\nStump\nSussman\nUnruh\nWagner\nWaldschmidt\nWalter\nWeber\nWechsler\nWeiss\nWerner\nWolf\nZimmermann\nZumwald\nVolker\nLembek\n"}
+		}
+		{"eng"
+			{"first" "Alan\nAlec\nAlfred\nAlistair\nAndrew\nTony\nBasil\nBill\nBenjamin\nCharles\nChris\nClive\nColin\nDaniel\nDavid\nDerek\nEdmund\nTed\nElmer\nEric\nFrank\nGarry\nGeorge\nGordon\nGraham\nGreg\nHarry\nHoward\nHugh\nHumphrey\nIan\nJack\nJason\nJames\nJeff\nJeremy\nJohn\nJoe\nJonathan\nJude\nJulian\nKeith\nKenny\nLee\nLesley\nMalcolm\nMark\nMathew\nMartin\nMichael\nMycroft\nMurray\nNeville\nNick\nNeil\nNigel\nPatrick\nPaul\nPeter\nPhilip\nRalph\nRay\nRichard\nRobert\nRoger\nRowland\nRupert\nSam\nSimon\nStephan\nStephen\nSteven\nStuart\nTerry\nTom\nTimothy\nTrevor\nVictor\nWarren\nWilliam\nKevin\nChristian\n"}
+			{"last" "Smith\nJones\nPalmer\nWilliams\nBrown\nTaylor\nDavies\nWilson\nEvans\nThomas\nJohnson\nRoberts\nWalker\nWright\nRobinson\nThompson\nWhite\nHughes\nHall\nEdwards\nGreen\nMartin\nWood\nHarris\nLewis\nClarke\nJackson\nClark\nTurner\nHill\nScott\nMoore\nCooper\nMorris\nWard\nKing\nWatson\nBaker\nHarrison\nMorgan\nYoung\nAllen\nMitchell\nPhillips\nJames\nBell\nAnderson\nCampbell\nLee\nParker\nKelly\nDavis\nBennett\nMiller\nCook\nPrice\nShaw\nSimpson\nGriffiths\nRichardson\nMarshall\nCarter\nCollins\nStewart\nBailey\nPatel\nGray\nMurray\nCox\nMurphy\nAdams\nRichards\nGraham\nEllis\nWilkinson\nRobertson\nFoster\nChapman\nRussell\nMason\nWebb\nRogers\nPowell\nHunt\nHolmes\nGibson\nMills\nPalmer\nWallace\nOwen\nMatthews\nReid\nBarnes\nRyan\nDixon\nJenkins\nFisher\nLloyd\nKnight\nPearson\nBarker\nCrosby\nGallaher\n"}
+		}
+		{"usa"
+			{"first" "James\nJohn\nRobert\nMichael\nWilliam\nDavid\nRichard\nCharles\nJoseph\nThomas\nChristopher\nDaniel\nPaul\nMark\nDonald\nGeorge\nKenneth\nSteven\nEdward\nBrian\nRonald\nAnthony\nJason\nMatthew\nGary\nTimothy\nJose\nLarry\nJeffrey\nFrank\nScott\nEric\nStephen\nAndrew\nRaymond\nGregory\nJoshua\nJerry\nDennis\nWalter\nPatrick\nPeter\nHarold\nDouglas\nHenry\nCarl\nArthur\nRyan\nRoger\nJoe\nJuan\nJack\nAlbert\nJonathan\nJustin\nTerry\nGerald\nKeith\nSamuel\nWillie\nRalph\nLawrence\nNicholas\nRoy\nBenjamin\nBruce\nBrandon\nAdam\nHarry\nFred\nWayne\nBilly\nSteve\nLouis\nJeremy\nAaron\nRandy\nHoward\nEugene\nCarlos\nRussell\nBobby\nVictor\nMartin\nErnest\nPhillip\nTodd\nJesse\nCraig\nAlan\nShawn\nClarence\nSean\nPhilip\nChris\nJohnny\nEarl\nJimmy\nAntonio\nDanny\nBryan\nTony\nLuis\nMike\nStanley\nLeonard\nNathan\nDale\nManuel\nRodney\nCurtis\nNorman\nAllen\nMarvin\nVincent\nGlenn\nJeffery\nTravis\nJeff\nChad\nJacob\nLee\nMelvin\nAlfred\nKyle\nFrancis\nBradley\nJesus\nHerbert\nFrederick\nRay\nJoel\nEdwin\nDon\nEddie\nRicky\nTroy\nRandall\nBarry\nAlexander\nBernard\nMario\nLeroy\nFrancisco\nMarcus\nMicheal\nTheodore\nClifford\nMiguel\nOscar\nJay\nJim\nTom\nCalvin\nKevin\nChristian\n"}
+			{"last" "Smith\nJohnson\nPalmer\nWilliams\nJones\nBrown\nDavis\nMiller\nWilson\nMoore\nTaylor\nAnderson\nThomas\nJackson\nWhite\nHarris\nMartin\nThompson\nGarcia\nMartinez\nRobinson\nClark\nRodriguez\nLewis\nLee\nWalker\nHall\nAllen\nYoung\nHernandez\nKing\nWright\nLopez\nHill\nScott\nGreen\nAdams\nBaker\nGonzalez\nNelson\nCarter\nMitchell\nPerez\nRoberts\nTurner\nPhillips\nCampbell\nParker\nEvans\nEdwards\nCollins\nStewart\nSanchez\nMorris\nRogers\nReed\nCook\nMorgan\nBell\nMurphy\nBailey\nRivera\nCooper\nRichardson\nCox\nHoward\nWard\nTorres\nPeterson\nGray\nRamirez\nJames\nWatson\nBrooks\nKelly\nSanders\nPrice\nBennett\nWood\nBarnes\nRoss\nHenderson\nColeman\nJenkins\nPerry\nPowell\nLong\nPatterson\nHughes\nFlores\nWashington\nButler\nSimmons\nFoster\nGonzales\nBryant\nAlexander\nRussell\nGriffin\nDiaz\nHayes\nCrosby\nGallaher\n"}
+		}
+		{"grm"
+			{"first" "Abbas\nAbdul-'Adl\nAbdul-Ahad\nAbdul-Azim\nAbdul-Aziz\nAbdul-Ba'ith\nAbdul-Baqi\nAbdul-Basir\nAbdul-Fattah\nAbdul-Ghafur\nAbdul-Ghani\nAbdul-Hafiz\nAbdul-Hakim\nAbdul-Hamid\nAbdul-Haqq\nAbdul-Hasib\nAbdul-Jalil\nAbdul-Karim\nAbdul-Majid\nAbdul-Mughni\nAbdul-Muhsi\nAbdul-Mu'id\nAbdul-Mu'min\nAbdul-Musawwir\nAbdul-Muta'al\nAbdul-Nur\nAbdul-Qadir\nAbdul-Qahhar\nAbdul-Rafi'\nAbdul-Rashid\nAbdul-Ra'uf\nAbdul-Razzaq\nAbdul-Salam\nAbdul-Sami\nAbdul-Shakur\nAbdul-Wajid\nAbdul-Warith\nAbdul-Zahir\nAbdullah\nAbu Bakr\nAbu al Khayr\nAdan\nAdham\nAdib\nAdnan\nAhmad\nAl Bara'\nAl Harith\nAlhasan\nAlhusain\nAl Safi\nAl Tayyib\nAmin\nAmir\nAmjad\nAnas\nAsad\nAsadel\nAshraf\nAta'\nAzzam\nBadi al Zaman\nBadri\nBaha\nBaha al Din\nBahij\nBandar\nBarir\nBashir\nBashshar\nBilal\nBishr\nBoulos\nBushr\nButrus\nDhakir\nDhakwan\nDhul Fiqar\nDiya al Din\nDuqaq\nFadl\nFahd\nFa'iz\nFakhir\nFakhr al Din\nFakhri\nFakih\nFalah\nFarhan\nFarid\nFaruq\nFathi\nFawwaz\nFawzan\nFawzi\nFikri\nFiras\nGhalib\nGhanim\nGhassan\nGhazi\nGhazwan\nHabib\nHadad\nHadi\nHafiz\nHakim\nHalim\nHamal\nHashim\nHaydar\nHilmi\nHusain\nIdris\nIhtisham\nImad al Din\nImam\nIyad\nIyas\nIzz al Din\nJawad\nJibran\nJibril\nJihad\nJubair\nJul\nJumah\nJunaid\nJuwain\nKamal\nKamil\nKaram\nKardal\nKarif\nKarim\nKasib\nKaseem\nKhalid\nKhalifah\nKhalil\nKhatib\nLablab\nLuqman\nLutfi\nMahfuz\nMahir\nMahjub\nMahmud\nMahrus\nMaimun\nMajd\nMa'ruf\nMarzuq\nMash'al\nMashhur\nMas'ud\nMasun\nMaysarah\nMazhar\nMazin\nMika'il\nMiqdad\nMu'awiyah\nMu'ayyad\nMubarak\nMubin\nMudar\nMuhair\nMuhammad\nMuhanna\nMuhtadi\nMuhyi al Din\nMu'in\nMu'izz\nMujab\nMu'min\nMunahid\nMundhir\nMunib\nMunjid\nMunsif\nMurshid\nMurtada\nMusa\nMus'ab\nMus'ad\nNaji\nNajib\nNajid\nNajjar\nNamir\nNasih\nNasim\nNasir\nNasuh\nNijad\nNimr\nNuhaid\nNuri\nNusrah\nQatadah\nRabi\nRafi\nRaghid\nRa'if\nRajab\nRakin\nRasin\nRasmi\nRasul\nRatib\nRa'uf\nRayhan\nRayyan\nRazin\nReda\nRuhi\nSabri\nSahir\nSaif\nSajid\nSalamah\nSalman\nSamir\nSamman\nSayyid\nShadin\nShakir\nShams al Din\nShamim\nShihad\nSiddiq\nSiraj al Din\nSultan\nsif\nYa'qub\nYasar\nYazid\nYoussef\nYunus\nZafir\nZaid\nZaki\nZakwan\nZiad\n"}
+			{"last" "Abadi\nAbboud\nAlmasi\nAmari\nAntar\nAntoun\nArian\nAsfour\nAsghar\nAsker\nAssaf\nAswad\nAtiyeh\nAttia\nAwad\nBa\nBaba\nBahar\nBasara\nBata\nBaz\nBazzi\nBishara\nBitar\nBotros\nBoulos\nBoutros\nCham\nDagher\nDaher\nDeeb\nEssa\nFakhoury\nGaber\nGanem\nGanim\nGerges\nGhanem\nGhannam\nGuirguis\nHadad\nHaddad\nHaik\nHajjar\nHakimi\nHalabi\nHanania\nHandal\nHarb\nIsa\nIssa\nKalb\nKanaan\nKassab\nKassis\nKattan\nKhouri\nKhoury\nKouri\nKoury\nMaalouf\nMaloof\nMalouf\nMansour\nMaroun\nMasih\nMifsud\nMikhail\nMoghadam\nMorcos\nMustafa\nNader\nNahas\nNaifeh\nNajjar\nNaser\nNassar\nNazari\nQuraishi\nQureshi\nRahal\nSabbag\nSabbagh\nSafar\nSaid\nSalib\nSaliba\nSamaha\nSarkis\nSarraf\nSayegh\nSeif\nShadid\nShalhoub\nShammas\nShamon\nShamoon\nShamoun\nSleiman\nSrour\nTahan\nTannous\nToma\nTotah\nTouma\nTuma\nWasem\nZogby\n"}
+		}
+		{"idf"
+			{"first" "Аарон\nАба\nАви\nАвив\nАвигдор\nАвиноам\nАвирам\nАвиу\nАвихай\nАвиэль\nАвнер\nАвраам\nАвшалом\nАдам\nАди\nАдир\nАдиэль\nАзриэль\nАкива\nАлон\nАми\nАмикам\nАмир\nАмир\nАмирам\nАмрам\nАрик\nАриэль\nАрье\nАрель\nАсаф\nАси\nАшер\nБарак\nБарух\nБени\nБенци\nБенцион\nБецалель\nБиньямин\nБоаз\nГаби\nГабриэль\nГай\nГаль\nГедалья\nГершон\nГефен\nГиди\nГолан\nДавид\nДан\nДани\nДаниэль\nДвир\nДекель\nДуду\nДуди\nЗахарья\nЗевулон\nЗеэв\nЗив\nЗоар\nИдан\nИдо\nИлан\nИмануэль\nИтай\nИтамар\nИто\nЙехезкель\nЙехиэль\nЙешаягу\nЙигаль\nЙисраэль\nЙиссахар\nЙовель\nЙона\nЙонатан\nЙони\nЙосеф\nКацир\nКоби\nЛеви\nЛиор\nЛиран\nЛирон\nМалахи\nМалкиэль\nМаоз\nМони\nМордехай\nМоти\nМоше\nНафтали\nНерия\nНетанэль\nНоам\nНуриэль\nОад\nОвадья\nОдед\nОз\nОмер\nОмри\nОр\nОри\nОрен\nОрон\nОфер\nОфир\nРази\nРазиэль\nРам\nРами\nРан\nРани\nРафаэль\nРафи\nРахамим\nРахмиэль\nРеувен\nСами\nСасон\nСефи\nСимха\nТаль\nТамир\nТамир\nТомер\nХанан\nХананья\nХананэль\nХанох\nЦийон\nЦфанья\nШабтай\nШай\nШайя\nШалом\nШамай\nШимшон\nШломи\nШломо\nШмарьягу\nШмуэль\nШмулик\nШрага\nШуки\nЭлиша\nЭлиэзер\nЭлиягу\nЭльазар\nЭльдад\nЭлькана\nЭльханан\nЭльяким\nЭльяшив\nЭран\nЯкир\nЯнай\nЯнив\nЯрден\nЯрон\n"}
+			{"last" "Абрамзон\nАбрамсон\nАбрамович\nАбрамский\nАдлер\nАйбиндер\nАйнбиндер\nАйзинман\nАйзин\nАйзен\nАйзенман\nАкерфельд\nАлвайс\nБайер\nБаум\nБашевис\nБашмет\nБер\nБерг\nБеркович\nБернштейн\nБронштейн\nБииглайзен\nБир\nВалфиш\nВальд\nВасерваль\nВассерфурер\nВассерфирер\nВег\nВейг\nВейценбаум\nВекслер\nМалкин\nМандель\nМендельбойм\nМандельбаум\nМандельблит\nМандельштам\nМарголин\nМаргулис\nМеирсон\nМеклин\nОбершмуклер\nОзер\nОйге\nОкс\nПетуховски\nПильщик\nПолак\nПомеранц\nПортман\nШамис\nШапс\nШац\nШараби\nШахермахер\nШварцман\nШварцер\nШварц\nШварцшильд\nШенкель\nШенкер\nШерман\nШиф\nЭнгландер\nЭнтин\nЭстеркин\nЭфрон\nЮднович\n"}
+		}
+		{"arb"
+			{"first" "Аббас\nАбдалла\nАбдул\nАзиз\nАли\nАмин\nАмир\nАнвар\nАсад\nАхмад\nБакир\nБахиж\nВалид\nВасим\nВахид\nДаэуд\nДжабир\nДжабр\nДжабрил\nДжамал\nДжафар\nЗаид\nЗайнаб\nЗахир\nИешуа\nИкраам\nИмад\nИман\nИтидал\nКадыр\nКамиль\nКарим\nЛуджин\nМакрам\nМалик\nМансур\nМасад\nМахмуд\nМирза\nМунир\nМуса\nМусад\nМустафа\nМутасим\nМухаммед\nМухсин\nНавид\nНаджиб\nНадир\nНаим\nНур\nОмар\nПарваиз\nПарвин\nРабаб\nРад\nРауф\nРафик\nРахат\nРахим\nРашид\nРияз\nСабах\nСаддам\nСаид\nСалах\nСалим\nСамир\nСейид\nСейфул\nСейфуллах\nСулейман\nТамид\nТарик\nТофик\nУмар\nУсама\nФади\nФайзел\nФайруз\nФарах\nФахд\nФахим\nХабиб\nХади\nХайдар\nХайям\nХаким\nХалиб\nХалид\nХалил\nХамид\nХасан\nХасим\nХуршид\nХуссейн\nШакир\nШариф\nШахназ\nЮсуф\nЯсир\n"}
+			{"last" "Аббас\nАбдалла\nАбдул\nАзиз\nАли\nАмин\nАмир\nАнвар\nАсад\nАхмад\nБакир\nБахиж\nВалид\nВасим\nВахид\nДаэуд\nДжабир\nДжабр\nДжабрил\nДжамал\nДжафар\nЗаид\nЗайнаб\nЗахир\nИешуа\nИкраам\nИмад\nИман\nИтидал\nКадыр\nКамиль\nКарим\nЛуджин\nМакрам\nМалик\nМансур\nМасад\nМахмуд\nМирза\nМунир\nМуса\nМусад\nМустафа\nМутасим\nМухаммед\nМухсин\nНавид\nНаджиб\nНадир\nНаим\nНур\nОмар\nПарваиз\nПарвин\nРабаб\nРад\nРауф\nРафик\nРахат\nРахим\nРашид\nРияз\nСабах\nСаддам\nСаид\nСалах\nСалим\nСамир\nСейид\nСейфул\nСейфуллах\nСулейман\nТамид\nТарик\nТофик\nУмар\nУсама\nФади\nФайзел\nФайруз\nФарах\nФахд\nФахим\nХабиб\nХади\nХайдар\nХайям\nХаким\nХалиб\nХалид\nХалил\nХамид\nХасан\nХасим\nХуршид\nХуссейн\nШакир\nШариф\nШахназ\nЮсуф\nЯсир\n"}
+		}
+		{"chn"
+			{"first" "Абали\nАббас\nАбдулкерим\nАбдулмуслим\nАбдулмуталип\nАбу\nАбубакар\nАбукар\nАбуязит\nАбуязид\nАднан\nАйдамир\nАка\nАкболат\nАки\nАкмарза\nАктемар\nАламкаж\nАлауддин\nАлбаст\nАлдам\nАли\nАлибек\nАлихан\nАлсабик\nАлхазур\nАлхаст\nАльви\nАльтемир\nАмади\nАмжа\nАмза\nАмирбек\nАмирхан\nАнас\nАндарбек\nАнзор\nАпти\nАрса\nApсaмак\nАрсанак\nApтаган\nАси\nАсланбек\nАстемир\nАсхаб\nАтаби\nАту\nАхмат\nБабай\nБадруддин\nБалта\nБамат\nБаргиш\nБасхан\nБатал\nБатир\nБатырбек\nБауддин\nБашир\nБаштар\nБейсагар\nБека\nБекмурза\nБексолтан\nБектемир\nБекхан\nБено\nБерд\nБерса\nБерснака\nБеслан\nБехо\nБиболат\nБилал\nБисолта\nВадуд\nВара\nВаха\nВахийта\nВеза\nВезирхан\nВиса\nВисангири\nВисар\nВисита\nГабис\nГада\nГази\nГайрбек\nГапур\nГеримхан\nГерихан\nГеха\nГилани\nГирма\nГирмасолта\nГойбетир\nГойсум\nГойтемир\nДавлет\nДага\nДаккаш\nДалгат\nДауд\nДаурбек\nДенильбек\nДенисолта\nДжабраил\nДжамал\nДжамалдин\nДжамалхав\nДжамбек\nДжамбулат\nДжамирза\nДжогирг\nДжунид\nДидиг\nДика\nДикалу\nДовтмирза\nДошлука\nДудар\nДударка\nДукуз\nЗайнди\nЗайт\nЗайтмирза\nЗака\nЗамигиварг\nЗаур\nЗаурбек\nЗияудди\nЗубаир\nЗураб\nИбрагим\nИдиг\nИдрис\nИкрам\nИлес\nИмран\nИнал\nИналук\nИндарби\nИрез\nИса\nИсмаил\nИсраил\nИсрапил\nИсхак\nКагерман\nКазбек\nКанта\nКанташ\nКати\nКахир\nКади\nКерим\nКеримсултан\nКосум\nЛамберд\nЛема\nЛеча\nЛорса\nЛорсануко\nЛукман\nМагомед\nМада\nМажит\nМазлак\nМайрбек\nМалсаг\nМансур\nМахмут\nМашта\nМежед\nМида\nМикаил\nМинга\nМирза\nМита\nМовла\nМовлет\nМовсар\nМурат\nМурзабек\nМуртаз\nМуса\nМуслим\nМусост\nМустапа\nМустафа\nМутуш\nМухаддин\nМухарбек\nМухмат\nНазарбек\nНазир\nНака\nНарт\nНасухан\nНоха\nНурдин\nНурид\nНуха\nОздемир\nОмар\nОрцхо\nОсман\nПаду\nРамазан\nРасу\nРахим\nРахман\nРашид\nРизван\nРуман\nРуслан\nСааду\nСадо\nСаид\nСайдулла\nСайпуддин\nСакка\nСала\nСалам\nСаламбек\nСалауддин\nСалман\nСапар\nСафар\nСардал\nСату\nСафарбек\nСелим\nСираждин\nСолса\nСолта\nСолтамурат\nСолтахан\nСосланбек\nСота\nСугаип\nСулейман\nСултан\nСупьян\nСурхо\nСяльмирза\nТагир\nТаймасхан\nТайп\nТапа\nТарам\nТархан\nТаус\nТаштемир\nТембот\nТемирбек\nТамерлан\nТимир\nТимирсолта\nТовсолта\nТойсум\nТуган\nТута\nУвайс\nУддин\nУмалат\nУмар\nУматгирей\nУсам\nУси\nУсман\nУспа\nФайзул\nФуртанбек\nХаваж\nХаджибекар\nХаджимурат\nХазби\nХайдарбек\nХалид\nХамзат\nХамид\nХанпаша\nХарон\nХасан\nХасанбек\nХасбулат\nХаси\nХизар\nХожа\nХумид\nШаарани\nШадид\nШама\nШамиль\nШамса\nШамсуддин\nШарпуддин\nШахаб\nШахид\nШерип\nШирвани\nШовхал\nШугаип\nЭдил\nЭдильсултан\nЭльбарт\nЭльбек\nЭльби\nЭльдарха\nЭльджарка\nЭльмурза\nЭми\nЭмин\nЭрбулат\nЭскирхан\nЭсмурза\nЯзид\nЯкуб\nЯнарса\n"}
+			{"last" "Абакаров\nАбдулатипов\nАбдурахманов\nАвдадаев\nАгамирзаев\nАджиниязов\nАзимов\nАйдамиров\nАкавов\nАкишин\nАлаудинов\nАлегов\nАлиев\nАлиханов\nАлхазов\nАльмурзаев\nАманкаев\nАнчин\nАрсамиков\nАрсимеков\nАрцаев\nАсламкадиров\nАстемиров\nАтаев\nАушев\nАхмедов\nАюбов\nБадуев\nБайдулаев\nБаймурзаев\nБайсуров\nБакаев\nБалуев\nБарзигов\nБатагов\nБатчаев\nБахалаев\nБашаев\nБекаев\nБектамиров\nБелов\nБериев\nБибулатов\nБикаев\nБитаев\nБобуев\nБорлаков\nБулах\nБусырев\nВадалов\nВалитов\nВарлаков\nВашаев\nВитушев\nВоронов\nГаджиакаев\nГазиев\nГайсумов\nГамзатов\nГанишив\nГатауллин\nГезиханов\nГериев\nГишаев\nГорб\nГрицкевич\nГудаев\nГужова\nГусаров\nГучев\nДадаев\nДайзиев\nДальцаев\nДараев\nДаурбеков\nДаштаев\nДемельханов\nДжабаров\nДжанмурзаев\nДжаубатыров\nДжашеев\nДикалуев\nДодов\nДроботов\nДудуев\nДукаев\nДулаев\nДураев\nЕдаев\nЕпринцев\nЖанимов\nЖебраилов\nЖулягов\nЗагидуллин\nЗакаев\nЗалетинов\nЗизаев\nИбаков\nИжаев\nИльясов\nИрисханов\nИсмаилов\nИстамулов\nИшмуратов\nКадырагаев\nКазбулатов\nКамалетдинов\nКанчукоев\nКарпенко\nКаташев\nКечеруков\nКиримова\nКозроев\nКолчин\nКосилов\nКосумов\nКудаев\nКулаев\nКурашев\nКуцаев\nЛатыпов\nЛелиев\nЛиханов\nЛомаев\nЛукьянчиков\nМагомадов\nМадаев\nМазуев\nМакаров\nМалкаров\nМамадиев\nМамуев\nМарзагишиев\nМастаев\nМатуев\nМахмудов\nМачукаев\nМежиев\nМеркулов\nМилюков\nМирзабеков\nМитигов\nМогушков\nМужахоева\nМукушев\nМунапов\nМурдашев\nМусабеков\nМусостов\nМуташев\nМухамедов\nМуцольгов\nМыльников\nНаконечный\nНасуханов\nНеизвестный\nНукаев\nНухаев\nОздамиров\nОзиев\nОрзумиев\nОтепов\nПавликова\nПивоваров\nПолещук\nПронина\nПшмахов\nРакс\nРемезов\nРусаков\nСагариев\nСадулаев\nСаидов\nСайдулаев\nСайтаков\nСалиев\nСалсанов\nСангираев\nСатавханов\nСелимов\nСибаев\nСкляр\nСовмиз\nСолтмурадов\nСтрелков\nСугаюнов\nСултанов\nСурхаева\nСуюндуков\nТагирова\nТазуркаев\nТалхигов\nТасуев\nТашуев\nТемирбиев\nТесаев\nТимербулатов\nТлепсук\nТодиков\nТорвинен\nТупейко\nТурпулханов\nТэппо\nУлабаев\nУмарбеков\nУрбаков\nУсманова\nУстарханов\nФарзалиев\nФранцузов\nХаджимагомадов\nХадчукаев\nХайхароев\nХалетов\nХалитов\nХамаев\nХамзатов\nХамурадов\nХаниев\nХариханов\nХасаймирзаев\nХасарбиев\nХасуханов\nХачукаев\nХизиров\nХошумов\nХугаев\nХусаинов\nХуцаев\nЦахигов\nЦицаев\nЦуров\nЧабдаев\nЧалаев\nЧевчиев\nЧимаев\nЧолаев\nШаваев\nШадукаев\nШайхиев\nШамсудинов\nШатов\nШебиханов\nШишханов\nШукуров\nЭбзеев\nЭзерханов\nЭлжуркаев\nЭльмурзаев\nЭрсимиков\nЭтезов\nЮхигов\nЯкуев\nЯндарбиев\nЯсуев\n"}
+		}
+        {"fr"
+			{"first" "Absolon\nAdelard\nAdnet\nAim\nAlen\nAmadiu\nBazil'\nBaptist\nBastian\nBenezet\nBlez\nBlez\nValentin\nValeri\nViv'en\nGaj\nGaskon\nGaspard\nGuarin\nDajon\nDeodat\nDid'e\nDzhozu\nZahir\nIeshua\nIkraam\nImad\nIman\nItidal\nKadyr\nKamil'\nKarim\nLudzhin\nMakram\nEugen\nZHak\nZHan\nZHiral'd\nZHyul'\nIzidor\nIves\nKamil'\nKorin\nLans\nLeon\nLui\nMaksimilian\nMark\nMartin\nParvaiz\nMihel'\nNikolya\nNikolas\nOben\nOtes\nPaskal'\nPirr\nRobert\nRaul'\nSalomon\nSil'ven\nTirri\nFab'en\nFeliks\nFilipp\nFrank\nFrederik\nHamon\nHonor\nCHarl'z\nSHarleman\nEHvrard\nEHdgard\nEHduard\nEHlison\nEHmeri\nEHmil'\nTibo\nEHt'enn\nEHli\nEHnis\nYUdes\nYUdo\nYUrben\nSerafin\n"}
+			{"last" "Adan\nAlen\nAzule\nAl'kan\nBenar\nBenua\nBertlen\nBlankar\nBonnar\nVal'yan\nVeber\nVenyua\nViardo\nGot'e\nGrosso\nDenyov\nDepard'e\nDefosse\nD'yodonne\nZHarr\nZHons'er\nZHyul'en\nLabuleh\nLavello\nLavuan\nLakomb\nLamber\nMarshan\nMatia\nMerlen\nMero\nMer'el'\nMessazhe\nRebel'\nReber\nReverdi\nRevial'\nRezon\nSHarbi\nSHaplen\nSHarleman'\nSHatil'on\nSHero\nYAnn\n"}
+		}
+        {"cz"
+			{"first" "Lukas\nLukasek\nJakub\nKuba\nKubik\nJakoubek\nDavidek\nOndrej\nOndra\nOndrasek\nOndrik\nPetr\nJosef\nTomas\nTomasek\nTomino\nMikulas\nKaja\nKarlik\nKarlicek\nMichael\nMatyas\nMilan\nMartin\nMarek\nZdan\nOliver\nRadek\nTobias\nVit\nViktor\nMatej\nDominik\nStepan\nMatyas\nSimon\nHolac\nRaz\nRozroj\nMesek\nVsebor\nVrazek\nKocel\nKochan\nBezded\nJaromir\nJurata\nPrkos\nStojan\nMstis\nNakon\nNerad\nVlastislav\nKresina\nSobebor\nSobeslav\nSpytihnev\nStanoslav\nStojan\nStrojmir\nStromata\nStrezimir\nSvojen\nAexandr"}
+			{"last" "Novak\nSvoboda\nNovotny\nDvorak\nCerny\nTroshka\nKucera\nVesely\nHorak\nNemec\nCech\nNejezchleba\nSkocdopole\nOsolsobe\nFlam\nVlam\nLoch\nNulicek\nSuchoparek\nZak\nZadek\nBosy\nDrobny\nKruty\nKrehky\nLichy\nNejedly\nHroch\nKlokan\nSlon\nSvab\nZizala\nBisof\nVyhodil\nPrikryl\nMichalek\nZbynek\nStepanka\nKovar\nMrazek\nFrantiseksх\nChvatal\nDolezal\nDostal\nPospisil\nVyskoci\nFanta\n"}
+		}
+		{"hun"
+			{"first" "Agoston\nAkos\nAladar\nAlajos\nAndor\nAndras\nAntal\nArpad\nAttila\nAurel\nBela\nBenedek\nBalint\nBarnabas\nBalazs\nBenjamin\nBence\nBoldizsar\nBertalan\nValer\nVazul\nViktor\nVilmos\nGabor\nDaniel\nDavid\nDezso\nDomotor\nDomonkos\nGyorgy\nDenes\nGyula\nJeno\nZsigmond\nZsolt\nZoltan\nIgnac\nIzidor\nImre\nIstvan\nJozsef\nKazmer\nKalman\nKaroly\nKornel\nKrisztian\nLazar\nLajos\nLaszlo\nLeo\nLipot\nLorant\nMarton\nMarcel\nMenyhert\nMiklos\nMiksa\nMihaly\nMor\nMoric\nNandor\nPal\nPeter\nRezso\nSzilard\nTamas\nTeofil\nTibor\nTivadar\nFerenc\nFlorian\nFrigyes\nFulop\nCsaba\nSamuel\nSandor\nSebestyen\nSimon\nSalamon\nOdon\nElemer\nEligius\nEmanuel\nEmil\nErno\nJakab\nJanos\n"}
+			{"last" "Nagy\nSipos\nFabian\nKovacs\nLukacs\nSzucs\nToth\nGulyas\nBodnar\nSzabo\nBiro\nHalasz\nHorvath\nKiraly\nHajdu\nVarga\nKatona\nKozma\nKiss\nLaszlo\nJonas\nMolnar\nJakab\nMate\nNemeth\nFazekas\nPasztor\nFarkas\nSandor\nGaspar\nBalogh\nBogdan\nSzekely\nPapp\nBalog\nBakos\nTakacs\nBoros\nMajor\nJuhasz\nKelemen\nDudas\nLakatos\nSomogyi\nVirag\nMeszaros\nAntal\nHegedus\nOlah\nOrosz\nOrban\nSimon\nFulop\nNovak\nRacz\nVincze\nSoos\nFekete\nVaradi\nBarna\nSzilagyi\nVeres\nNemes\nTorok\nHegedus\nTamas\nFeher\nDeak\nPataki\nBalazs\nPap\nFarago\nGal\nBudai\nBorbely\nKis\nBalint\nKerekes\nSzucs\nIlles\nBalla\nKocsis\nPal\nSzekeres\nPinter\nVoros\nBarta\nFodor\nSzoke\nCsonka\nOrsos\nBognar\nDobos\nSzalai\nVass\nPeter\nMagyar\nLengyel"}
+		}
+		{"cub"
+			{"first" "Pedro\nLopez\nBalbis\nLolo\nAntonio\nFico\nPancho\nTono\nFelo\nDaniel\Chago\nManuel\nTeresa\nEmanuel\nFrancisco\nCaridad\nAntonio\nVelaz\nVazkez\nJuan\nCarlos\n"}
+			{"last" "Dolores\nEnrique\nQuique\nDabrowski\nGoyo\nCurro\nPaco\nPepe\nPili\nMongo\nConcha\nTete\nRamon\nJosefa\nRafael\nPilar\nEnrique\nConcepcion\nSuarez\nYordanis\nOsvaldo\nJesus\n"}
+		}
+		{"cn"
+			{"first" "Zhao\nQian\nSun\nLi\nWu\nZhou\nZheng\nWang\nFeng\nChen\nWei\nJiang\nSheng\nZhang\nKong\nCao\nYan\nHua\nJin\nTao\nQi\nXie\nZou\nYu\nBai\nShui\nDou\nYun\nSu\nPan\nGe\nXi\nFan\nPeng\nLang\nLu\nChang\nMa\nMiao\nFang\nRen\nYuan\nLiu\nBao\nShi\nTang\nFei\nLian\nCen\nXue\nLei\nHe\nNi\nTeng\nYin\nLuo\nBi\nHao\nWu\nAn\nLe\nFu\nPi\nKang\nWu\nBu\nGu\nMeng\nPing\nHuang\nMu\nYao\nShao\nZhan\nWang\nMao\nDi\nMi\nMing\nZang\nJi\nDai\nTan\nSong\nPang\nXiong\nShu\nXiang\nZhu\nDong\nLiang\nDu\nQiang\nJia\nGuo\nMei\nLin\nDiao\nZhong\nXu\nQiu\nLuo\nGao\nXia\nCai\nTian\nHu\nLing\nHuo\nYu\nWan\nKe\nGuan\nMo\nDing\nDeng\nShan\nHang\nHong\nYang\nNing\nWu\nLiu\nZhan\nLong\nYe\nShao\nGao\nLiao\nGuo\nDongfang\nShangguan\nHuangpu\nLinghu\nGongsun\nOuyang\nSima\nFa\nYue\nYong\nJi\n"}
+			{"last" "Jiabao\nGuoqiang\nGuofu\nBaosheng\nZhuzi\nXiaobao\nDabao\nGuomin\nMinsheng\nMinfu\nJiaming\nHu\nJiang\nHai\nYoucai\nDong\nQiang\nLiang\nZhaolai\nPing\nCanhua\nDa\nWenquan\nJianwei\nMing\nBaozhen\nZhiyong\nHuinan\nHuaqiang\nYiqi\nQilong\nZhixing\nJianhui\nHaibing\nZixin\nKaiji\nYoucheng\nWenyuan\nXinlei\nWeixu\nWeiguo\nZhiming\nBoxiong\nGuanglie\nBingde\nWanquan\nZhiyuan\nZhenfeng\nLi\nZhenwu\nZhontong\nJingcheng\nDafa\nWanchun\nChangyou\nTinggui\nYitian\nLimin\nXiaozhong\nZhigong\nGang\nCaiwen\nYunzhi\nRuiji\nJianzhong\nHanbiao\nWenhua\nWancai\nKai\nHongchao\nZhangyuan\nHetian\nXixing\nQing\nQingcheng\nLei\nYong\nWenyu\nLiang\nPuxuan\nHongyao\nPing\nJiaocheng\nJian\nXiaowei\nHaiming\nShixing\nZongqi\nChangjun\nGuoxin\nTie\nJinxiang\nHuilai\nNanzhong\nShaojun\nHuachen\nGezhong\nShoucheng\nWeishan\nRunde\nLishan\nFeikong\nZhongming\nQigui\nBing\nJunbo\nZhiguo\nLishun\nQisheng\nChuansheng\nWeiyuan\nZhongliang\nZhongqi\nZhongping\nChangzheng\nJiefang\nWeidong\nJanguo\nJanxin\nJanye\nZhuyu\nWeiming\nGuogui\nJixiang\nZijie\nXiuchuan\nZongli\nBingyun\nWenming\nXinfeng\nGuilin\nShengming\nDaoquan\nQicai\nRong\nRenlin\nWanke\nWanfang\nWancai\nQingshan\nLibo\nShaoyu\nZhengdao\nZhiping\nYuanhui\nDehai\nWei\nSicong\nJianlin\nHuateng\nErlei\nDejiang\nZhijiang\Zhiwei\nChongliang\nFeng\nXie\nWen\nYue\nJie\nZiping\nDelian\nMeifu\nShimei\n"}
+		}
+		{"pol"
+			{"first" "Piotr\nKrzysztof\nAndrzej\nJan\nStanislaw\nTomasz\nPawel\nMarcin\nMichal\nMarek\nGrzegorz\nLukasz\nAdam\nJozef\nZbigniew\nJerzy\nMateusz\nTadeusz\nDariusz\nMariusz\nJakub\nKacper\nBartosz\nMateusz\nChwalimir\nWalentyn\nWitalis\nWojslaw\nHipolit\nJozafat\nLudwik\nSzymon\nZygmunt\n"}
+			{"last" "Kowalski\nKowalczyk\nKaczmarek\nGrabowski\nZajac\nKrol\nWrobel\nMichalski\nDudek\nJaworski\nSikora\nNowicki\nBaran\nSzewczyk\nTomaszewski\nOstrowski\nWilk\nMazurek\nSobczak\nKozak\nJanik\nBlaszczyk\nMakowska\nBorowska\nSzulc\nKrupa\nKubiak\nWysocka\nMazurek\nOlszewska\nSzczepaniak\nKonieczny\n"}
+		}
+		{"est"
+			{"first" "Allas\nKäsper\nMaaker\nKivi\nAavik\nHein\nJääger\nLaan\nMart\nKäo\nRaja\nRaud\nRamm\nOtt\nHein\nLass\nRagnar\nAivar\nUno\nRene\nLass\nKark\nLembit\nAaviksoo\nMägi\nOja\nKapp\nLumi\nAndres\nAllan\nAnton\nAnts\nArtur\nArvo\nEdvid\nEerik\nEha\nAido\nHeika\nRiho\nAndrus\nKruus\nIonson\nNikolai\nJuhan\nAirvar\nAndo\nJaani\nJoost\nLevandi\nMark\n"}
+			{"last" "Soo\nKiik\nMägi\nMets\nKesküla\nIlves\nKork\nPadar\nPoom\nPiho\nRaag\nKalm\nJakobson\nOviir\nHunt\nHunt\nPuusepp\nLaur\nPeep\nKallas\nLindmaa\nLind\nLaht\nKlavan\nMust\nOrav\nLiiv\nLuik\nPuusepp\nKolm\nMägi\nMuigu\nSild\nOja\nAavik\nKapp\nLõhmus\nSavisaar\nRam\nTerras\nAntsip\nJaan\nOtto\nHelk\nTorvand\nHeremaa\nLemsalu\nLaur\nLaurits\nOjamaa\nKasemets\n"}
+		}
+		{"lat"
+			{"first" "Jānis\nAndris\nJuris\nEdgars\nMāris\nAivars\nMārtiņš\nPēteris\nIvars\nValdis\nAleksis\nGustavs\nJurgis\nLauris\nIvo\nMaksims\nMikelis\nModris\nPavils\nRadoslav\nRihards\nTeodors\nValtes\nZigfrid\nValera\nCika\nLegenda\nJansons\nKarklina\nAuzins\nAlvis\nAlberts\nAndris\nArnis\nArtis\nAxell\nDaniels\nDanils\nDidzis\nElvis\nGintars\nReinis\nMadis\nJohn\nMarx\nKriss\nVanags\nSmite\nLapina\nRoze\n"}
+			{"last" "Bērziņš\nKalniņš\nOzoliņš\nJansons\nOzols\nLiepiņš\nKrūmiņš\nBalodis\nEglītis\nPētersons\nBendiks\nArmandis\nLabrencis\nKungs\nKrists\nMihails\nLeonhards\nNikolajs\nPeteris\nRalfs\nRoburts\nToms\nVilhems\nVilis\nValerijs\nMazulis\nKalnins\nLiepins\nPetrovs\nZiemele\nAndris\nBalodis\nPetersons\nArnolds\nAtim\nChrysanthos\nAtis\nMikhalidis\nDominiks\nJuris\nGatis\nGustavs\nErnests\nDavis\nCika\nDaniels\nZvirbulis\nRiekstina\nAbolins\nJakovlevs\n"}
+		}
+		{"lit"
+			{"first" "Adomaitis\nBalchunas\nBalthis\nBayus\nDanielius\nDuoba\nGaida\nJuska\nKlukas\nKanas\nMarkunas\nMatulis\nNorbut\nMoris\nRubis\nVidas\nZemaitis\nZukas\nDapkus\nLevin\nRomeka\nVitkus\nGirenas\nJukna\nMajus\nTratas\nUrmana\nAlmenas\nAndrulewicz\nGaldikas\nNaujokas\nKalnietis\nAdomaitis\nUžugiris\nJonaitis\nPonia\nButkus\nAndriulis\nZujute\nAndriulaitis\n"}
+			{"last" "Bagdonas\nAdomaitis\nBackus\nBernius\nDegutis\nGagas\nJanulis\nJonaitis\nKairis\nLaukaitis\nLutkus\nMelis\nPetrauskas\nPisula\nPavlis\nShimkus\nVitkus\nRimkus\nZukauskas\nMasaitis\nStungevicius\nZilinskiene\nDegutyte\nKorsunovas\nMikulis\nSudeikis\nZdanys\nAbromavicius\nAntinis\nIvanauskaite\nUžugiris\nNaujokaitis\nLukošius\nKalnietis\nPaulauskas\nJankauskienė\nPaulauskienė\nZujus\nBaranauskaite\nAndraitis\n"}
+		}		
+		{"jap"
+			{"first" "Aki\nAkihisa\nAkinari\nAkira\nArata\nAshihei\nAtsumichi\nAzumamaro\nBakin\nBenkei\nBunjiro\nBussho\nChojiro\nDaisetsu\nDayu\nDokuohtei\nEichi\nEiichi\nEikichi\nEishi\nEizan\nEnnosuke\nFujio\nFumihiko\nFumio\nGempachi\nGenjo\nGenpaku\nGihei\nGoemon\nGonnohyoe\nGyo\nHachemon\nHajime\nHaranobu\nHaruhiro\nHarunobu\nHeiji\nHideaki\nHideki\nHidetada\nHidetsugu\nHigashikuni\nHikozaemon\nHirobumi\nHirohisa\nHirokichi\nHiroshige\nHirotsugu\nHiroyuki\nHisamitsu\nHisato\nHitoshi\nHokichi\nHoriuchi\nHyobe\nIchibei\nIchiyo\nIemochi\nIeshige\nIeyoshi\nIkku\nIsamu\nIshiro\nIwane\nIzumo\nJinzaburo\nJoji\nJou\nJunichi\nJunnosuke\nJurobei\nKadonomaro\nKagetoki\nKakuei\nKan\nKanezane\nKansuke\nKaoru\nKatsuhiko\nKatsumoto\nKatsuyoshi\nKawanari\nKazuhiko\nKazuko\nKazunori\nKazushige\nKazuyuki\nKeiki\nKeita\nKen\nKenjiro\nKensaku\nKenzaburo\nKichibei\nKiichi\nKikugoro\nKiminobu\nKinji\nKinnosuke\nKitahachi\nKiyohisa\nKiyomori\nKiyonori\nKoan\nKohei\nKoji\nKokan\nKokushi\nKonyo\nKorenaga\nKosaku\nKosho\nKoyo\nKuma\nKunihiko\nKunio\nKuniyoshi\nKyoichi\nKyuichi\nKyuwa\nMagobei\nMamoru\nMaresuke\nMasafumi\nMasahiko\nMasakazu\nMasamichi\nMasanori\nMasashi\nMasato\nMasazumi\nMasu\nMasutaro\nMatsu\nMatsusuke\nMeiji\nMichinori\nMinoru\nMitsuharu\nMitsunari\nMitsuzuka\nMobumasu\nMokuami\nMorie\nMoromao\nMotoki\nMototsune\nMunemitsu\nMuneyaki\nMushanokoji\nNaganori\nNakazo\nNaoaki\nNaoki\nNaonobu\nNaozane\nNariakira\nNaruhiko\nNatsuo\nNiou\nNobuatsu\nNobuhisa\nNobuo\nNobuyoki\nNori\nNorihisa\nNorishige\nNoriyori\nOda\nOkitsugu\nOmezo\nOsamu\nReijiro\nRintaro\nRoku\nRyobe\nRyoma\nRyu\nRyushi\nSaburo\nSadahige\nSadao\nSaemon\nSakutaro\nSanetomo\nSanraku\nSatoshi\nSeiesnsui\nSeiichi\nSeiki\nSeishiro\nSeison\nSekien\nSenzo\nSharaku\nShigeaki\nShigeko\nShigemori\nShigeru\nShigochiyo\nShiki\nShimpei\nShinji\nShinobu\nShinsui\nShirai\nSho\nShoichi\nShojiro\nShosuke\nShozaburo\nShuji\nShumei\nShun'en\nShunichi\nShunmyo\nShunso\nShusaku\nSoetsu\nSoichiro\nSosa\nSoshu\nSotaro\nSozui\nSuezo\nSukejuro\nSukeyasu\nSumitomo\nTadaaki\nTadamasa\nTadao\nTadasuke\nTadayuki\nTaheiji\nTaisuke\nTakafumi\nTakakazu\nTakamuku\nTakanobu\nTakashi\nTakechi\nTakeji\nTakeo\nTakesi\nTakuboku\nTakuro\nTameyoshi\nTango\nTanzan\nTarozaemon\nTasuku\nTatsuya\nTeika\nTenshin\nTerumoto\nTetsu\nTetsunori\nTetsuyuki\nTobei\nToichi\nTokaji\nTokimasa\nTokuhei\nTomiichi\nTomohiko\nTomoyuki\nToranosuke\nToshiaki\nToshikazu\nToshimichi\nToshiro\nToson\nToyoharu\nToyonobu\nToyozo\nTsuginori\nTsumemasa\nTsuneo\nTsuramatsu\nTsuruki\nUkon\nUtaemon\nUtamuro\nWashi\nYahei\nYakamochi\nYasotaro\nYasuhiro\nYasunari\nYasuoka\nYasutoki\nYatsuhiro\nYo\nYoichi\nYorikane\nYoritomo\nYosai\nYoshiaki\nYoshifusa\nYoshihisa\nYoshiiku\nYoshimasa\nYoshimitsu\nYoshinaka\nYoshinori\nYoshitaka\nYoshitoki\nYoshitoshi\nYoson\nYugoro\nYuji\nYukichi\nYuko\nYusuke\nZenko\n"}
+			{"last" "Aizawa\nAkera\nAmaya\nArai\nArishima\nAsai\nAshikaga\nBaisotei\nChino\nDazai\nEda\nEnoki\nFuchida\nFujishima\nFukumitsu\nFukuzawa\nFuschida\nGenji\nHaga\nHamaguchi\nHarada\nHatakeda\nHayami\nHideaki\nHigoshi\nHiraki\nHirata\nHiroyuki\nHohki\nHorigome\nHosokaya\nIbu\nIchiro\nIesada\nIida\nIkina\nImamura\nIno\nIppitsusai\nIseya\nIshimaru\nIsozaki\nIwahashi\nJippensha\nKada\nKaima\nKakutama\nKamisaka\nKanegawa\nKarubo\nKashiwagi\nKato\nKatsushika\nKawai\nKawasawa\nKawazu\nKi\nKikuchi\nKimura\nKiski\nKitao\nKoga\nKojima\nKomiya\nKondo\nKotara\nKubota\nKunda\nKuramoto\nKurogane\nKusonoki\nMaeda\nMakioka\nMaruyama\nMasuko\nMatsuda\nMatsuo\nMatsuzawa\nMihashi\nMinatoya\nMitsukuri\nMiyagi\nMiyazaki\nMizutani\nMoriguchi\nMorita\nMunkata\nMurata\nMuso\nNagase\nNakadai\nNakamoto\nNakao\nNakayama\nNarita\nNijo\nNishimura\nNoda\nNoro\nNumata\nOdaka\nOhira\nOinuma\nOkamura\nOkazaki\nOkuda\nOmori\nOnohara\nOta\nOtsuka\nRaikatuji\nSaigo\nSakagami\nSakiyurai\nSanda\nSasada\nSatoh\nSekigawa\nSerizawa\nShibata\nShige\nShima\nShimazaki\nShimura\nShiokawa\nShirahata\nShirokawa\nShunji\nSoma\nSuenami\nSugisata\nSuzambo\nTaira\nTakahama\nTakara\nTakayama\nTakemitsu\nTakewaki\nTakudo\nTange\nTanuma\nTawaraya\nTerakado\nTojo\nTomimoto\nTorii\nToyama\nTsucgimoto\nTsukada\nTsukehara\nTsuruga\nUchida\nUesugi\nUmehara\nUshiba\nWatari\nYamagata\nYamakawa\nYamanouchi\nYamazaki\nYanagita\nYasukawa\nYosano\nYoshinobu\nYuhara\n"}
+		}
+		{"ukr"
+			{"first" "Александр\nАлексей\nАнастасий\nАнатолий\nАндрей\nАнтон\nАркадий\nАрсений\nАртём\nБогдан\nБорис\nВадим\nВалентин\nВалерий\nВасилий\nВиктор\nВиталий\nВладимир\nВладислав\nВячеслав\nГеоргий\nГлеб\nГригорий\nДавид\nДаниил\nДарий\nДенис\nДмитрий\nЕвгений\nЕгор\nИван\nИгорь\nИлья\nКирилл\nКонстантин\nЛев\nМаксим\nМарк\nМатвей\nМихаил\nНикита\nНиколай\nОлег\nПавел\nПетр\nПётр\nРоман\nРуслан\nСемён\nСергей\nСтепан\nТимофей\nФёдор\nЮрий\nЯн\nЯрослав\n"}
+			{"last" "Акименко\nАлександренко\nАртёменко\nБандурко\nБондарь\nБондаренко\nБондарчук\nБородай\nБубенко\nБуденный\nБутенко\nБутко\nВасильченко\nВиленский\nВолынец\nГармаш\nГерасименко\nГрабарь\nГончар\nГончаренко\nГончарук\nДзюба\nДзюбенко\nДовгань\nДолгопольский\nДраган\nЕ\nЕвсеенко\nЕмельяненко\nЗахаренко\nЗадорожный\nЗахарченко\nЗахарко\nИванченко\nКавун\nКалиниченко\nКлименко\nКоваль\nКоваленко\nКовальчук\nКозловский\nКолесниченко\nКоломиец\nКондратюк\nКорниенко\nКравец\nКравченко\nКравчук\nКраско\nКудря\nКушнир\nКушниренко\nКушнирчук\nЛавренко\nЛазаренко\nЛинник\nЛисенко\nЛисовец\nЛюбченко\nМатвиенко\nМарченко\nМатвиенко\nМельниченко\nМельничук\nМережко\nМережковский\nМиргородский\nМихайленко\nМороз\nН\nНиколаенко\nОвчаренко\nОпанасенко\nПасичник\nПаламарчук\nПалий\nПилипенко\nПолещук\nПолищук\nПономаренко\nПономарчук\nПридиус\nПрокопенко\nПушкарь\nРоманенко\nРубан\nРыбак\nРыбалко\nРымарь\nСербин\nСердюк\nСереда\nСильченко\nСкляр\nСкородод\nСобко\nСопильняк\nСпивак\nСтельмах\nСтрельбицкий\nСтрельченко\nТабачник\nТелига\nТерещенко\nТимченко\nТкаченко\nУльяненко\nФилипенко\nФилоненко\nФиль\nФранко\nХарченко\nХоменко\nХрущев\nЧалый\nЧумак\nШинкарь\nШинкаренко\nШинкарук\nШостак\nЩербань\nЮрченко\nЮщак\nЮщенко\nЮшко\nЯкушенко\nЯременко\nЯрема\n"}
+		}
+		{"tks"
+			{"first" "Агадур\nАгадурды\nАдылша\nАйдогды\nАйстан\nАкмухаммет\nАкмырат\nАлланур\nАлты\nАмандурды\nАманмурад\nАннаберди\nАннагелди\nАннагулы\nАннадурды\nАннамурат\nАннамухамед\nАннаораз\nАннаш\nАркадаг\nАтагелди\nАтагельды\nАтали\nАтанепес\nБабакулы\nБабанияз\nБайли\nБайлы\nБайрамдурды\nБайраммурад\nБайраммурат\nБаллы\nБаяр\nБега\nБегенч\nБегли\nБейларбей\nБекдурды\nБердинияз\nБерды\nБэшим\nБяшим\nВепа\nГазак\nГара\nГарлы\nГарягды\n\nГельдымурат\nГероглы\nГуванч\nГуйч\nГуйчгелди\nГундогар\nГундогды\nГурбангелди\nГурбангельди\nГурбангулы\nГурбандурды\nГурбанмырат\nГызыл\nГылыч\nДанатар\nДангатар\nДаянч\nДеря\nДжавдет\nДженг\nДжоракулы\nДжумадурды\nДжумамурат\nДовлет\nДовлетгельды\nДовлетхан\nДурды\nДурдымурат\nДурмиш\nЁлдаш\nЕнгиш\nЖейхун\nИксендер\nИлмырат\nЙакуп\nКакагелди\nКакагельды\nКакаджан\nКакажан\nКакыш\nКурбандурды\nКурбанмамед\nМаммет\nМежнун\nМейлис\nМовлам\nМяликгул\nМяликгулы\nНурмурад\nОвган\nОвез\nОвлякулы\nОразгелди\nОразгелды\nОразмурат\nОразмухаммет\nОрегелди\nПарахатдин\nПейзулла\nПерхат\nПирим\nПирли\nПурли\nРеджеп\nРеджепбай\nРеджепгулы\nРеджепмурат\nРовач\nРозмурат\nРозумбай\nРозумурат\nРозыкулы\nРозымурат\nРозыназар\nСаламгулы\nСалых\nСапардурды\nСапармырат\nСейди\nСейит\nСопы\nСохбет\nТахыр\nТачмамед\nТачмухаммет\nТенгрикул\nТовшан\nТойли\nХалимджан\nХаллы\nХанджар\nХемра\nХоджагельды\nХыдыр\nЧары\nЧарымурад\nЧарыяр\nШадурды\nШакирджан\nШаназар\nШанар\nШанияз\nШатлык\nШахымердан\nШихмурат\nШохрат\nЫхлас\nЭзиз\nЭкиз\nЭрешбай\nЭшрет\nЯгмыр\nЯгши\nЯз\nЯзгельды\nЯзмурад\nЯлкап\n"}
+			{"last" "Атаев\nКурбанов\nЧарыев\nРеджепов\nСапаров\nДурдыев\nАширов\nДжумаев\nОразов\nБабаев\nБердыев\nБайрамов\nМередов\nОвезов\nАманов\nМурадов\nАннаев\nНазаров\nМамедов\nРозыев\nНурыев\nАкмурадов\nБазаров\nГельдыев\nМухаммедов\nАгаев\nТаганов\nХыдыров\nКулиев\nАтабаев\n"}
+		}
+		{"bel"
+			{"first" "Александр\nАлексей\nАляксандар\nАляксандр\nАляксей\nАндрей\nАнжей\nАнтон\nАнтось\nАрол\nАрсений\nАртем\nБогдан\nВадим\nВалодзя\nВладимир\nВладислав\nГлеб\nДаниил\nДанила\nДенис\nДзюба\nДмитрий\nЕвгений\nЕгор\nЗахар\nИван\nИлья\nКанстанцин\nКирилл\nКонстантин\nКришьян\nЛяксандр\nМакар\nМаксим\nМарк\nМатвей\nМирон\nМихаил\nНикита\nНиколай\nПавел\nРоман\nРыгор\nСергей\nСтанислав\nСтепан\nСяржук\nТимофей\nТимур\nУладзимир\nФедор\nЮры\nЯгор\nЯн\nЯрослав\n"}
+			{"last" "Иванов\nНовиков\nКовалёв\nПетров\nКотов\nВолков\nМорозов\nСмирнов\nКозлов\nНовик\nЖук\nЗайцев\nРоманов\nМороз\nСавицкий\nМельников\nМиронов\nКузнецов\nКравченко\nКоваленко\nСоколов\nАндреев\nМакаревич\nКовальчук\nКозловский\nВасилевский\nКарпович\nПашкевич\nГончаров\nФролов\nОрлов\nПавлов\nСергеев\nПопов\nШевченко\nКлимович\nКравцов\nМихайлов\nБаранов\nНикитин\nБондаренко\nБелый\nСтанкевич\nКовалевский\nЖуков\nМарченко\nНовицкий\nЛукашевич\nКот\nСавченко\nБогданович\nПинчук\nБойко\nКузьмич\nМельник\nКороль\nМацкевич\nСинкевич\nБондарь\nПавловский\nПетрович\nКазак\nМаркевич\nБорисевич\nСидоренко\nЮшкевич\nКовалевич\nЗаяц\nАбрамович\nРоманенко\nВысоцкий\nДашкевич\nЮрченко\nБорисенко\nРусак\nМакаренко\nАдамович\nПозняк\nДрозд\nКозел\nИгнатович\nХомич\nВоробей\nКравчук\nРоманюк\nШевчук\nДубовик\nАкулич\nКисель\nРоманович\nСавчук\nСакович\nКулик\nМурашко\nГолуб\nГорбач\nЯрошевич\nЮркевич\nЗахаренко\nБурак\n"}
+		}
+		{"irn"
+			{"first" "Abbas\nAbolfazl\nAbtin\nAfshin\nAhmad\nAkbar\nAli\nAli Akbar\nAli Asghar\nAli Reza\nAmin\nAmir\nAmir Abbas\nAmir Ali\nAmir Hassan\nAmir Mahdi\nAmir Mohammad\nAmir Reza\nAmir Salar\nArash\nArdalan\nArdeshir\nAriya\nAriyan\nArman\nArshia\nArvand\nAsad\nAshkan\nAzhdar\nBabak\nBahman\nBahram\nBamdad\nBardia\nBehdad\nBehnam\nBehrad\nBehrouz\nBehzad\nBenyamin\nBizhan\nBorna\nDaniyal\nDaryoush\nEbrahim\nEhsan\nErfan\nEsfandiar\nFaramarz\nFarhad\nFarham\nFariborz\nFarid\nFarshid\nFarzad\nFarzan\nFirouz\nGarshasb\nGhasem\nGoudarz\nHadi\nHamid\nHassan\nHesam\nHossein\nHoushang\nIliya\nIraj\nJahangir\nJalal\nJamal\nJamshid\nJavad\nKambiz\nKamyar\nKave\nKavous\nKeyvan\nKhashayar\nKhodabakhsh\nKhodadad\nKhosro\nKiyan\nKiyanoush\nKiyarash\nKiyoumars\nKourosh\nLohrasb\nMahan\nMahdi\nMahdiyar\nMahmoud\nMakan\nManouchehr\nMatin\nMehran\nMehrdad\nMehrshad\nMilad\nMobin\nMohammad\nMohammad Ali\nMohammad Amin\nMohammad Hassan\nMohammad Hossein\nMohammad Javad\nMohammad Parsa\nMohammad Reza\nMohammad Sadra\nMohammad Sajad\nMohammad Taha\nMohammad Yasin\nNavid\nOmid\nParham\nParsa\nRahim\nRambod\nRamin\nRamtin\nReza\nRostam\nSadra\nSahand\nSajad\nSalar\nSam\nSamad\nSaman\nSepehr\nShahab\nShahin\nShahram\nShahriyar\nShahrokh\nShahrouz\nSina\nSirus\nSiyavash\nSobhan\nSoheil\nSohrab\nSorena\nSoroush\nTaha\nTouraj\nYasin\nYavar\nYousof\nZamiyad\nZargham\n"}
+			{"last" "Abassi\nAbassifard\nAbdoli\nAbdollahi\nAbdollahiyan\nAbdolmaleki\nAbedi\nAbshenasan\nAfshar\nAfshin Manesh\nAghaamiri\nAghamolla\nAhad Zade\nAhmadinejad\nAkbari\nAkhavan\nAlinejad\nAlizade\nAlizade\nAllahgholi\nAmini\nAmini Azar\nAmjad\nAnsari\nAraki\nAriyamanesh\nAsadollahi\nAsgari\nAslani\nAssadi\nAssadiyan\nAtai\nAtin\nAzad\nAzima\nAzizi\nBabajanzade\nBabayi\nBagherghara\nBakhshande\nBanufateme\nBaride\nBavadi\nBayati\nBazyar\nBehroo\nBehrouzi\nBiyabani\nBoroumand\nChakoshiyan\nChamani\nChavoshi\nDaneshmand\nDaneshvar\nDavar\nDehghan\nEbrahimi\nEbrahimi Arab\nEbrahimiyan\nEghbal\nEhtesham\nEhtesham Nasab\nEmami\nEntezari\nEsfandiyari\nEshkevari\nEsmaili\nEsmailpour\nEsmati\nFarahani\nFaraji\nFardin\nFarhang\nFarzin\nFathi\nFereydooni\nFereydouni\nForati\nGalenoi\nGanji\nGhaani\nGhanaati\nGhanbari\nGhasemi\nGhazafi\nGhodousi\nGhoreyshi\nGhoudarzi\nGolpayegani\nHabibi\nHaghighat\nHakoupiyan\nHamidi\nHashemi\nHashemiyan\nHashempour\nHassani\nHassanpour\nHassanpour\nHassanpourajam\nHassanzade\nHesami\nHojati\nHomayouni\nHosseinpour\nHossienizade\nIrani\nIsafi\nIzadi\nJafari\nJahan\nJahanbakhsh\nJahanshah\nJalili\nJamali\nJamechi\nJamshidi\nJavadi\nJavid\nJudaki\nKalhor\nKamali\nKamiali\nKani\nKardan\nKashani\nKazemi\nKhalife\nKhani\nKhaninejad\nKharrati\nKharrazi\nKhatibi\nKhorasani\nKhoshbakht\nKhosravi\nKoi\nMaddipor\nMahdavi\nMaleki\nMamaghani\nManafzade\nMehrabani\nMehranpour\nMehrju\nMehrpouyan\nMiritabar\nMirzaniya\nMobini\nMobinikeshe\nModdaresi\nMoghadam\nMoghadam\nMoghaddam\nMohammad\nMohammadi\nMohammadi\nMoinie\nMojahed\nMolayari\nMollagholipour\nMontaghemi\nMoradi\nMoradi\nMoradpour\nMortezai\nMotie\nNaghash\nNajafi\nNakisa\nNamju\nNasrinpour\nNavayi\nNayyerzade\nNazari\nNazarlou\nNazeri\nNeshatiyan\nNikou\nNilforoushan\nNiripasand\nNiyavarani\nNiyaz\nNiyazi\nNosratju\nNouri\nNourihamedani\nNourzade\nOstad\nOstad\nOstadi\nPanahi\nPanahi\nPanahi\nPazuki\nPourjafari\nPourmehr\nRabbani\nRafat\nRafei\nRafizade\nRahimi\nRahimi\nRahmati\nRaisi\nRamezani\nRamezaniyan\nRefipour\nRezai\nRezaie Manesh\nRohanie\nRostami\nSHahrabi\nSaboori\nSadeghi\nSafari\nSalimi\nSavani\nSayyad\nSayyari\nSemnani\nSendaniyan\nSepehri\nSeraj\nShafei\nShakeri\nShamkhani\nShams\nShapouri\nSharifiyan\nShemirani\nShirmohammad\nShirmohammadi\nShirzad\nShourche\nSoleimani\nSoleimaniyan\nSolgi\nSoroumand Saleh\nTabibzade\nTaghavi\nTaghipour\nTahmasb\nTahmoureth\nTaii\nTajik\nTavakol\nTavakoli\nTavakolpour\nTehrani\nTehrani Moghadam\nToosan\nVahidimoghadam\nYaghubi\nYari\nYazdanbakhsh\nZaltash\nZargar\nZazemzade\nZeynalzade\n"}
+		}
+		{"spa"
+			{"first" "Agustin\nAlberto\nAlonso\nAlfonso\nAlfredo\nAmado\nAndres\nAntonio\nArmando\nAurelio\nBasilio\nBenito\nBerenguer\nBernardino\nBernardo\nValentin\nVictor\nVictorino\nGaspar\nGustavo\nGoracio\nDamian\nDesi\nGerman\nGilberto\nDiego\nJesus\nIgnacio\nCarlos\nCristian\nLeandro\nLuсio\nMario\nMarcos\nMarcelino\nMarcelo\nMarcial\nMartin\nMateo\nMauricio\nModesto\nMaximino\nMaximo\nNicolas\nOsvaldo\nPablo\nPaco\nPasqual\nPastor\nPatricio\nPio\nRafael\nRicardo\nRico\nRodolfo\nRaul\nRodrigo\nRolando\nSal\nSalvador\nSancho\nSantos\nSeverino\nSevero\nSergio\nSilvestre\nSilvio\nSalomon\nTadeo\nTeobaldo\nTomas\nTristan\nFabricio\nFausto\nFelipe\nFernando\nFidel\nFlavio\nFrancisco\nJuan\nJuanito\nJulian\nJulio\nEdmundo\nEmilio\nEnrique\nErnesto\nEsteban\n"}
+			{"last" "Alonso de Parra\nAguilar y Montero\nAlvarez-Bravo\nArias y Navarro\nBenitez y Nunez\nBravo-Herrero\nBlanco y Santos\nCaballero y Campos\nCalvo de Martinez\nCabrera y Serrano\nCampos-Ibanez\nCano y Iglesias\nCarrasco de Dominguez\nCarmona y Soto\nCastillo de Garrido\nCastro y Rey\nCortes de Leon\nCrespo de Vincente\nCruz y Blanco\nDelgado-Santiago\nDiez de Alvarez\nDiaz de Cruz\nDominguez-Garcia\nDuran-Duran\nEsteban de Castro\nFernandez de Diaz\nFerrer-Rey\nFuentes y Carmona\nFlores y Sanchez\nGallego de Reyes\nGallardo-Benitez\nGarcia de Cabrera\nGarrido de Carrasco\nGil y Pena\nGimenez de Serrano\nGomez-Carrasco\nGonzalez-Castro\nGuerrero de Benitez\nGutierrez de Aguilar\nHernandez de Navarro\nHerrera-Cano\nHerrero y Delgado\nHidalgo y Vargaz\nIbanez y Ruiz\nIglesias-Diez\nJimenez-Molina\nLeon de Rubio\nLopez y Munos\nLorenzo-Garcia\nLozano y Garrido\nMarin-Prieto\nMarquez y Gomez\nMartin y Fuentes\nMartinez y Medina\nMedina y Cortes\nMendez de Rodriguez\nMolina de Marin\nMontero y Caballero\nMora y Gallardo\nMorales y Hernandez\nMoreno -Ortega\nMoya-Diaz\nMunos-Lorenzo\nNavarro de Santana\nNieto y Santiago\nNunez y Romero\nOrtega y Lozano\nOrtiz de Gomez\nParra de Alvarez\nPascual de Mendez\nPastor-Suarez\nPerez de Pastor\nPena-Ruiz\nPrieto-Alonso\nRamirez y Vidal\nRamos-Herrera\nRey y Velasco\nReyes y Arias\nRodriguez-Cortes\nRomero-Cruz\nRoman y Herrero\nRubio-Martin\nRuiz-Pastor\nSaez-Rodriguez\nSanchez-Fuentes\nSantana-Hidalgo\nSantiago-Morales\nSanz-Fernandez\nSantos-Nunez\nSerrano y Herrera\nSoler de Sanz\nSoto de Moreno \nSuarez de Blanco\nTorrez-Vidal\nVazquez-Jimenez\nVargaz de Aguilar\nVega y Parra\nVelasco de Flores\nVincente y Martin\nVidal y Hidalgo\nAlonso y Dominguez\nAguilar de Gutierrez\nAlvarez y Mora\nArias de Guerrero\nBenitez-Pascual\nBravo de Castillo\nBlanco-Castillo\nCaballero y Delgado\nCalvo de Medina\nCabrera y Nieto\nCampos-Marquez\nCano de Velasco\nCarrasco-Molina\nCarmona-Moreno \nCastillo-Calvo\nCastro-Munos\nCortes y Rubio\nCrespo-Ferrer\nCruz de Leon\nDelgado-Martinez\nDiez de Gil\nDiaz-Gimenez\nDominguez-Calvo\nDuran-Sanz\nEsteban de Nieto\nFernandez y Gonzalez\nFerrer de Ortega\nFuentes y Campos\nFlores de Gallardo\nGallego y Perez\nGallardo y Soler\nGarcia y Santana\nGarrido-Romero\nGil de Crespo\nGimenez de Moya\nGomez-Ortiz\nGonzalez de Sanchez\nGuerrero y Torrez\nGutierrez y Lopez\nHernandez de Soto\nHerrera de Ibanez\nHerrero de Gonzalez\nHidalgo y Santos\nIbanez-Gutierrez\nIglesias-Vargaz\nJimenez de Fernandez\nLeon-Flores\nLopez-Saez\nLorenzo y Vincente\nLozano y Arias\nMarin de Caballero\nMarquez y Vazquez\nMartin-Hernandez\nMartinez de Ortiz\nMedina-Gimenez\nMendez-Marin\nMolina y Vega\nMontero-Perez\nMora de Torrez\nMorales de Lozano\nMoreno -Carmona\nMoya y Alonso\nMunos-Duran\nNavarro de Prieto\nNieto-Gallego\nNunez y Cano\nOrtega y Esteban\nOrtiz-Gallego\nParra-Iglesias\nPascual y Gil\nPastor-Roman\nPerez y Reyes\nPena de Ramirez\nPrieto y Ramos\nRamirez de Lopez\nRamos de Marquez\nRey-Jimenez\nReyes y Lorenzo\nRodriguez de Diez\nRomero de Saez\nRoman de Moya\nRubio-Roman\nRuiz y Soler\nSaez y Vega\nSanchez de Ramos\nSantana y Esteban\nSantiago de Mendez\nSanz y Vazquez\nSantos de Montero\nSerrano de Crespo\nSoler-Guerrero\nSoto y Ferrer\nSuarez de Pena\nTorrez de Morales\nVazquez-Cabrera\nVargaz de Bravo\nVega y Suarez\nVelasco de Ramirez\nVincente de Mora\nVidal y Pascual\n"}
+		}	
+	}
+	{"talk"
+		{"ally" "<c(6078bf)>%s"}
+		{"enemy" "<c(FF8080)>%s"}
+		{"cant turn railway switch" "Стрелка заблокирована"}
+	}
+	{"perk"
+		{"health" "Здоровье"}
+		{"power" "Сила"}
+		{"vision" "Зрение"}
+		{"stealth" "Скрытность"}
+		{"pistol" "Пистолет"}
+		{"smg" "Автомат"}
+		{"mgun" "Пулемёт"}
+		{"rifle" "Винтовка"}
+		{"rocketlauncher" "РПГ"}
+		{"level"
+			{"lvl0" "Уровень 0"}
+			{"lvl1" "Уровень 1"}
+			{"lvl2" "Уровень 2"}
+			{"lvl3" "Уровень 3"}
+			{"lvl4" "Уровень 4"}
+			{"none" "Нет"}
+			{"basic" "Основы"}
+			{"expert" "Эксперт"}
+			{"mp_soldier" "Солдат"}
+			{"mp_officer" "Офицер"}
+			{"mp_specnaz" "Разведчик"}
+			{"mp_sniper" "Снайпер"}
+		}
+	}
+	{"stats"
+		{"color"
+			{"ally" "<c(00C0FF)>"}
+			{"enemy" "<c(FF4000)>"}
+		}
+		{"effector"
+			{"enemy" "<c(FF4000)>враг"}
+			{"ally" "<c(00C0FF)>союзник"}
+			{"neutral" "<c(FFFF00)>нейтральный"}
+			{"world" "<c(FFFFFF)>мир"}
+		}
+		{"damage"
+			{"bullet" "попадание"}
+			{"blast" "взрыв"}
+			{"blow" "удар"}
+			{"crush" "сломан"}
+			{"fire" "огонь"}
+			{"unknown" "??"}
+		}
+		{"destroy" ""}
+		{"kills_count" "<f(main)s(10)e(shadow)x.y.>%1%"}
+		{"flags_count" "<b+c(FFFFFF)s(20)x.y.>%1%"}
+		{"flag_captured" "<f(arial_hq)c(FFFFFF)s(8)>Флаг захвачен "}
+		{"flag_lost" "<f(arial_hq)c(FFFFFF)s(8)>Флаг потерян "}
+		{"player_leave" "<f(arial_hq)c(FFFFFF)s(8)>%1%"}
+	}
+	{"chatwheel"
+		{"normal" "<f(impact)s(21)c(d4d4d4bb)e(shadow)>%s"}
+		{"select" "<f(impact)s(30)c(c98d55bb)e(shadow)>%s"}
+	}
+	{"entity_info"
+		{"desc"
+			{"tank" "<c(c3baae)>Танк</c>"}
+			{"tank"
+				{"light" "<c(c3baae)>Легкий танк</c>"}
+				{"medium" "<c(c3baae)>Средний танк</c>"}
+				{"heavy" "<c(c3baae)>Тяжелый танк</c>"}
+				{"light_M" "<c(c3baae)>БМП</c>"}
+				{"medium_M" "<c(c3baae)>Средний танк</c>"}
+				{"heavy_M" "<c(c3baae)>Основной танк</c>"}
+			}
+			{"human" ""}
+			{"moto" "<c(c3baae)>Мотоцикл</c>"}
+			{"car" "<c(c3baae)>Машина</c>"}
+			{"armored_car" "<c(c3baae)>БТР</c>"}
+			{"cannon" ""}
+			{"airborne" "<c(c3baae)>Самолет</c>"}
+			{"airborne_m" "<c(c3baae)>Самолет</c>"}
+			{"marine" "<c(c3baae)>Лодка</c>"}
+		}
+		{"armor" "Броня<c(FFFFFF)>"}
+		{"crew" "Экипаж<c(FFFFFF)>"}
+		{"max_speed" "<c(1511F0)>Cкорость<c(FFFFFF)>"}
+		{"weapon_primary" "<c(FF1F00)>Вооружение<c(FFFFFF)>"}
+		{"weapon_secondary" "Вооружение<c(FFFFFF)>"}
+	}
+	{"gamebar"
+		{"clock_style" "<c(FFFFFF)s(21)>"}
+	}
+	{"replay"
+		{"current_player" "<e(shadow)>Сейчас смотрят: %1%"}
+		{"fow_switch" "<e(shadow)>Туман войны"}
+	}
+	{"component"
+		{"format" "<f(arial_hq)s(16)e(shadow)>"}
+		(include "1.rus/cw_rus_damage_report.inc")
+		{"leave_unit" "<c(CCCCCC)>Самоподрыв<c(FFFFFF)>"}
+		{"empty" ""}
+		{"shock" "<c(BBBBBB)>Контузия<c(BBBBBB)>"}
+		{"charger_die" ""}
+		{"commander_die" ""}
+		{"driver_die" ""}
+		{"gunner_die" ""}
+		{"gunner2_die" ""}
+		{"grenade_timer" ""}
+		{"score_gain" "%.1f XP"}
+	}
+}
